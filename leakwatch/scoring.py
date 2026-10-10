@@ -51,6 +51,8 @@ def effective_verdict(c):
                 return "already_public"
         except ValueError:
             pass
+    if v == "unverifiable" and (c.get("resolve_by") or "") > date.today().isoformat():
+        return "pending"        # can't confirm yet, but its own window is still open
     if c.get("specificity", 3) <= 1 and v == "pending":
         return "unfalsifiable"
     return v

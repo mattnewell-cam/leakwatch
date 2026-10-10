@@ -12,6 +12,7 @@ from .common import DATA, MODEL_FAST, MODEL_SMART, load_json, now_iso, save_json
 from .extract import extract_batch, scope_filter
 from .llm import USAGE, S, arr, call_json, obj
 from .resolve import resolve_many
+from .scoring import effective_verdict
 from .twitter import Budget, TwitterAPI
 
 DAILY_CREDIT_CAP = 20_000          # ~ $0.20/day of twitterapi.io credit
@@ -196,7 +197,7 @@ def main():
                 return False
             if not r:
                 return True
-            if r.get("verdict") != "pending":
+            if effective_verdict(c) != "pending":
                 return False
             last = (r.get("resolved_at") or "2000-01-01")[:10]
             overdue = (c.get("resolve_by") or "9999") <= today
