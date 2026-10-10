@@ -183859,7 +183859,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:44:47Z"
-  }
+  },
+  "story_id": "chetaslua-2098526091522802050-3"
  },
  {
   "id": "testingcatalog-2098533001403515368",
@@ -183967,7 +183968,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:44:56Z"
-  }
+  },
+  "story_id": "chetaslua-2098526091522802050-3"
  },
  {
   "id": "pankajkumar_dev-2098534988107133082",
@@ -184011,7 +184013,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:44:56Z"
-  }
+  },
+  "story_id": "chetaslua-2098526091522802050-3"
  },
  {
   "id": "pankajkumar_dev-2098534988107133082-2",
@@ -184059,7 +184062,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:44:56Z"
-  }
+  },
+  "story_id": "chetaslua-2098526091522802050-3"
  },
  {
   "id": "pankajkumar_dev-2098534988107133082-3",
@@ -184522,7 +184526,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:44:56Z"
-  }
+  },
+  "story_id": "chetaslua-2098526091522802050-3"
  },
  {
   "id": "chrisgpt-2098866152881492212-3",
@@ -185336,7 +185341,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:20:47Z"
-  }
+  },
+  "story_id": "chetaslua-2098526091522802050-3"
  },
  {
   "id": "tokengremlin-2099451340674007330",
@@ -187778,7 +187784,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:10:28Z"
-  }
+  },
+  "story_id": "aibattle_-2099916924700524706"
  },
  {
   "id": "andrewcurran_-2099925225433633163",
@@ -197238,7 +197245,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:10:28Z"
-  }
+  },
+  "story_id": "aibattle_-2099916924700524706"
  },
  {
   "id": "aibattle_-2102253760403615799-2",
@@ -197902,7 +197910,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:14:40Z"
-  }
+  },
+  "story_id": "aibattle_-2099916924700524706"
  },
  {
   "id": "kimmonismus-2102344620801659300-2",
@@ -208489,7 +208498,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:36:51Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "chetaslua-aad48c3f277",
@@ -210676,7 +210686,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:36:29Z"
-  }
+  },
+  "story_id": "chrisgpt-2105397008945061927"
  },
  {
   "id": "imjustnewatai-2105400706605944886",
@@ -210776,7 +210787,8 @@
    ],
    "confidence": "low",
    "resolved_at": "2026-10-10T21:21:07Z"
-  }
+  },
+  "story_id": "chetaslua-2098526091522802050-3"
  },
  {
   "id": "testingcatalog-2105434023392620830",
@@ -212384,7 +212396,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:36:29Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "tokengremlin-2106092311612416249",
@@ -212852,7 +212865,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:37:10Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "tokengremlin-2106120431908605981-2",
@@ -213000,7 +213014,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:37:10Z"
-  }
+  },
+  "story_id": "kimmonismus-2106144924898935046"
  },
  {
   "id": "kimmonismus-2106144924898935046-2",
@@ -214668,7 +214683,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:37:15Z"
-  }
+  },
+  "story_id": "kimmonismus-2106144924898935046"
  },
  {
   "id": "iruletheworldmo-2106710674353050038",
@@ -215020,7 +215036,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:37:15Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "imjustnewatai-2106925306736955566-2",
@@ -217127,7 +217144,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:38:05Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "kimmonismus-2107865157137318198",
@@ -218554,6 +218572,69 @@
   }
  },
  {
+  "id": "haider1-2108345446259372521",
+  "handle": "haider1",
+  "date": "2026-10-08T23:55:00Z",
+  "claim": "OpenAI has an internal unreleased model that has saturated existing math evaluations, including solving hard open problems, can build on earlier work produced by other agents or models, and has reportedly produced 722 math papers across 372 result families and solved 100+ open problems; the author believes this is likely the model Sam Altman meant could amount to internal AGI by 2026-12-31.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2026-12-31",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108345446259372521",
+    "url": "https://x.com/haider1/status/2108345446259372521",
+    "created_at": "2026-10-08T23:55:00Z",
+    "text": "the craziest detail from openai's math results went unnoticed\n\noai's internal model already saturated the existing math evals including hard open problems and it also seems able to build on earlier work produced by other agents/models\n\nmaybe some form of a continual-learning breakthrough?",
+    "likes": 132
+   },
+   {
+    "id": "2108585780138611048",
+    "url": "https://x.com/haider1/status/2108585780138611048",
+    "created_at": "2026-10-09T15:50:00Z",
+    "text": "i think this is likely the model sam meant when he said openai could have internal AGI by year-end\n\neven if you want to argue over specific capabilities, the next-gen model probably won't leave much room for that debate. and once these models get cheap enough to scale white-collar work will change very fast\n\nlike, very FAST",
+    "likes": 122
+   },
+   {
+    "id": "2108688959849275784",
+    "url": "https://x.com/haider1/status/2108688959849275784",
+    "created_at": "2026-10-09T22:40:00Z",
+    "text": "openai's internal model is incredibly powerful\n\nnavier–stokes solution\n100+ open problems solved\n722 maths papers across 372 result families\n\nbut i doubt anthropic is that far behind\n\nunless openai has some architectural edge anthropic can't safely replicate, both should be in roughly the same ballpark",
+    "likes": 141
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:45Z",
+  "feed_date": "2026-10-10T21:54:45Z",
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "partly_true",
+   "public_date": "2026-10-06",
+   "official_date": "2026-10-06",
+   "explanation": "OpenAI did officially disclose on 2026-10-06 that an internal frontier model produced a broad range of new mathematical results on open problems, so the core existence of a strong internal math model was real. But the tweet's specific numerical claims—722 papers across 372 result families, 100+ open problems solved, and the stronger inference that this likely amounts to 'internal AGI' by year-end—were not independently confirmed in the public materials cited here.",
+   "evidence": [
+    {
+     "title": "Sharing AI progress in mathematics | OpenAI",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+    },
+    {
+     "title": "Ten advances in mathematics and theoretical computer science | OpenAI",
+     "url": "https://openai.com/index/ten-advances-in-mathematics/"
+    },
+    {
+     "title": "Our First Proof submissions | OpenAI",
+     "url": "https://openai.com/index/first-proof-submissions/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
   "id": "haider1-2108434784993296639",
   "handle": "haider1",
   "date": "2026-10-09T05:50:00Z",
@@ -218750,6 +218831,54 @@
   }
  },
  {
+  "id": "andrewcurran_-2108564060010893352",
+  "handle": "AndrewCurran_",
+  "date": "2026-10-09T14:23:41Z",
+  "claim": "Andrew Curran asserted on 2026-10-09 that OpenAI's new plan for hardening AI systems is to try to automate the hardening work.",
+  "lab": "OpenAI",
+  "topic": "corporate",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-07",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108564060010893352",
+    "url": "https://x.com/AndrewCurran_/status/2108564060010893352",
+    "created_at": "2026-10-09T14:23:41Z",
+    "text": "@BeetWellington Yes, and this work still continues. I think the issue is the scale of what needs to be hardened is way, way too large and there isn't enough time. The new plan from OAI appears to be to an attempt to automate it.",
+    "likes": 170
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:37Z",
+  "feed_date": "2026-10-10T21:54:37Z",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-21",
+   "official_date": "2026-09-21",
+   "explanation": "OpenAI publicly framed its strategy around building automated AI researchers and using AI systems to help with alignment and monitoring before this tweet. The tweet’s “automate the hardening work” point was already publicly articulated in OpenAI’s September 2026 policy/standards posts.",
+   "evidence": [
+    {
+     "title": "Building standards for the next phase of AI",
+     "url": "https://openai.com/index/building-standards-next-phase-ai/"
+    },
+    {
+     "title": "The AI policy window is open. We need to act.",
+     "url": "https://openai.com/index/ai-policy-window/"
+    },
+    {
+     "title": "OpenAI's Cybersecurity in the Intelligence Age",
+     "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
   "id": "andrewcurran_-2108609708441657531",
   "handle": "AndrewCurran_",
   "date": "2026-10-09T17:25:05Z",
@@ -218791,7 +218920,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:38:10Z"
-  }
+  },
+  "story_id": "chrisgpt-2105397008945061927"
  },
  {
   "id": "andrewcurran_-2108609708441657531-2",
@@ -218835,7 +218965,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:38:10Z"
-  }
+  },
+  "story_id": "chrisgpt-2105397008945061927"
  },
  {
   "id": "andrewcurran_-2108609708441657531-3",
@@ -218875,7 +219006,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:35:01Z"
-  }
+  },
+  "story_id": "chrisgpt-2105397008945061927"
  },
  {
   "id": "andrewcurran_-2108609708441657531-4",
@@ -218915,7 +219047,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:35:01Z"
-  }
+  },
+  "story_id": "chrisgpt-2105397008945061927"
  },
  {
   "id": "andrewcurran_-2108609708441657531-5",
@@ -218955,7 +219088,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:35:01Z"
-  }
+  },
+  "story_id": "chrisgpt-2105397008945061927"
  },
  {
   "id": "andrewcurran_-2108609708441657531-6",
@@ -219230,6 +219364,100 @@
   }
  },
  {
+  "id": "deredleritt3r-2108644141311668287",
+  "handle": "deredleritt3r",
+  "date": "2026-10-09T19:41:54Z",
+  "claim": "OpenAI has an unnamed internal model that solved most of the roughly 400 released math results in a single-agent setting after about 3 hours of thinking, and a more powerful checkpoint of this model is expected to be tested later.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-04-07",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108644141311668287",
+    "url": "https://x.com/deredleritt3r/status/2108644141311668287",
+    "created_at": "2026-10-09T19:41:54Z",
+    "text": "It's somewhat under-discussed *why* OpenAI released only around ~400 math results.\n\nThe purpose of this exercise was not to \"destroy math research\" (or whatever it is that some people want you to believe).  OpenAI just wanted to test its internal model on some hard math, and it turned out that anything less than the hardest open problems no longer suffices for this purpose.  This is why all non-Millennium-Prize solutions were reached in a single-agent setting after 3 hours of thinking: OpenAI was literally just testing its model on these questions, similarly to how I run prinzbench.\n\nOnce OpenAI had the solutions (which were a side effect of sorts of benchmarking its model), a question arose as to what exactly should be done with these solutions, which are genuine advances in the field of mathematics.  OpenAI - correctly - decided to make them public.\n\nIt seems clear that many other problems in the set of ~4,000 are very likely solvable by this model with more compute than just ~3 hours of Pro-level thinking.  Whenever a more powerful checkpoint of this model is ready to be tested, OpenAI will likely have even more to share.",
+    "likes": 2184
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:56Z",
+  "feed_date": "2026-10-10T21:54:56Z",
+  "story_id": "chrisgpt-2105397008945061927",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-06",
+   "official_date": "2026-10-06",
+   "explanation": "OpenAI did publicly release its math-results package on October 6, 2026 and said the average result used about three hours of compute from an unreleased frontier model. But the specific claim that this internal model solved \"most\" of roughly 400 released results in a single-agent setting, and that a more powerful checkpoint was expected to be tested later, has not been independently confirmed in public reporting or official materials.",
+   "evidence": [
+    {
+     "title": "OpenAI — Sharing AI progress in mathematics",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+    },
+    {
+     "title": "Axios — OpenAI's math breakthrough points beyond math",
+     "url": "https://www.axios.com/2026/10/08/openai-math-proofs-ai-model"
+    },
+    {
+     "title": "The Washington Post — OpenAI releases progress on more than 300 math research problems",
+     "url": "https://www.washingtonpost.com/technology/2026/10/07/openai-releases-progress-more-than-300-math-research-problems//"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
+  "id": "apples_jimmy-2108655496395944416",
+  "handle": "apples_jimmy",
+  "date": "2026-10-09T20:27:01Z",
+  "claim": "Google employees reportedly said that RSI is a key component of Google’s current AI progress as of 2026-10-09.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-04-07",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108655496395944416",
+    "url": "https://x.com/apples_jimmy/status/2108655496395944416",
+    "created_at": "2026-10-09T20:27:01Z",
+    "text": "More than a few Google employees spoke about rsi being a key component to their current progress.\n\nI’d like to see a checkpoint from Google every month that is materially stronger than the competition for me to agree Google is back. \n\nPromising from them so far though. https://t.co/0GdevyI0vB",
+    "likes": 354
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:27Z",
+  "feed_date": "2026-10-10T21:54:27Z",
+  "story_id": "chetaslua-2098526091522802050-3",
+  "resolution": {
+   "verdict": "false",
+   "public_date": "2026-10-09",
+   "official_date": null,
+   "explanation": "Google’s public October 2026 AI materials do discuss recursive self-improvement as a strategic direction, but I found no independent public evidence that employees said RSI was a key component of Google’s *current* AI progress on 2026-10-09. The tweet appears to rest on an unverified interpretation of employee chatter rather than a confirmed report.",
+   "evidence": [
+    {
+     "title": "Building standards for the next phase of AI",
+     "url": "https://openai.com/index/building-standards-next-phase-ai/"
+    },
+    {
+     "title": "OpenAI Deployment Safety Hub",
+     "url": "https://deploymentsafety.openai.com/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
   "id": "chrisgpt-2108655565761020169",
   "handle": "ChrisGPT",
   "date": "2026-10-09T20:27:18Z",
@@ -219275,7 +219503,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:25:50Z"
-  }
+  },
+  "story_id": "chrisgpt-2108655565761020169"
  },
  {
   "id": "kimmonismus-2108658452293718408",
@@ -219327,7 +219556,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:25:50Z"
-  }
+  },
+  "story_id": "chrisgpt-2108655565761020169"
  },
  {
   "id": "imjustnewatai-2108662320708698289",
@@ -219375,7 +219605,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:25:50Z"
-  }
+  },
+  "story_id": "chetaslua-2098526091522802050-3"
  },
  {
   "id": "imjustnewatai-2108662320708698289-2",
@@ -219471,7 +219702,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:38:10Z"
-  }
+  },
+  "story_id": "chrisgpt-2105397008945061927"
  },
  {
   "id": "imjustnewatai-2108662320708698289-4",
@@ -219567,6 +219799,52 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:21:35Z"
+  },
+  "story_id": "chrisgpt-2108655565761020169"
+ },
+ {
+  "id": "synthwavedd-2108664201103151428",
+  "handle": "synthwavedd",
+  "date": "2026-10-09T21:01:37Z",
+  "claim": "Google was continuing work on an unreleased model called Argon as of 2026-10-09, and its latest internal dogfood checkpoint was apparently comparable to Claude Opus 5.5 on coding tasks.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-04-07",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108664201103151428",
+    "url": "https://x.com/synthwavedd/status/2108664201103151428",
+    "created_at": "2026-10-09T21:01:37Z",
+    "text": "👀 Google's work on Argon continues, with their latest dogfood checkpoint apparently comparable to Claude Opus 5.5 in code tasks\n\nCarbon \"feels like Opus 5.5\" for coding, per an employee who has tested the model, though they said they \"would need to test it more\"",
+    "likes": 614
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:25Z",
+  "feed_date": "2026-10-10T21:54:25Z",
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-09",
+   "official_date": null,
+   "explanation": "By 2026-10-09, Business Insider had already publicly reported that Google employees were testing a Gemini 4 checkpoint called Carbon internally and that one employee said it felt comparable to Claude Opus 5.5 for coding. The tweet repeats reporting that was already public that day.",
+   "evidence": [
+    {
+     "title": "Google is about to roll out a new AI model. Employees say they're testing another that's way better.",
+     "url": "https://1001rss.com/article/3608813-google-is-about-to-roll-out-a-new-ai-model-employees-say-they-re-testing-another-that-s-way-better"
+    },
+    {
+     "title": "Gemini 4 Argon hints emerge as Google tests Carbon model",
+     "url": "https://www.testingcatalog.com/gemini-4-argon-hints-emerge-as-google-tests-carbon-checkpoint/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-10T21:56:28Z"
   }
  },
  {
@@ -219619,6 +219897,51 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:25:50Z"
+  },
+  "story_id": "chetaslua-2098526091522802050-3"
+ },
+ {
+  "id": "haider1-2108688959849275784",
+  "handle": "haider1",
+  "date": "2026-10-09T22:40:00Z",
+  "claim": "Anthropic is reportedly not far behind OpenAI's internal math-capable unreleased model, and unless OpenAI has an architectural edge Anthropic cannot safely replicate, Anthropic's corresponding models are in roughly the same capability ballpark as of 2026-10-09.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 4,
+  "resolve_by": "2027-04-07",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108688959849275784",
+    "url": "https://x.com/haider1/status/2108688959849275784",
+    "created_at": "2026-10-09T22:40:00Z",
+    "text": "openai's internal model is incredibly powerful\n\nnavier–stokes solution\n100+ open problems solved\n722 maths papers across 372 result families\n\nbut i doubt anthropic is that far behind\n\nunless openai has some architectural edge anthropic can't safely replicate, both should be in roughly the same ballpark",
+    "likes": 141
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:45Z",
+  "feed_date": "2026-10-10T21:54:45Z",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This is a comparative internal-capability claim about unreleased Anthropic and OpenAI models, hinging on private evals and architecture details that are not publicly disclosed. Public information confirms OpenAI shared math progress from an internal frontier model on 2026-10-06, but it does not independently establish how close Anthropic was on 2026-10-09.",
+   "evidence": [
+    {
+     "title": "Sharing AI progress in mathematics | OpenAI",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+    },
+    {
+     "title": "OpenAI Research index",
+     "url": "https://openai.com/research/index/publication/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-10T21:56:28Z"
   }
  },
  {
@@ -219863,6 +220186,47 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:16:30Z"
+  },
+  "story_id": "tokengremlin-2108732263642935789-2"
+ },
+ {
+  "id": "tokengremlin-2108733475024965785",
+  "handle": "TokenGremlin",
+  "date": "2026-10-10T01:36:53Z",
+  "claim": "TokenGremlin claimed on 2026-10-10 that Anthropic may already have achieved recursive self-improvement internally or be very close to it internally.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 5,
+  "resolve_by": null,
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108733475024965785",
+    "url": "https://x.com/TokenGremlin/status/2108733475024965785",
+    "created_at": "2026-10-10T01:36:53Z",
+    "text": "I'm starting to suspect that Anthropic has either already achieved RSI or is getting dangerously close to it internally.\n\nAnd it's not just Anthropic. OpenAI and Google seem to be on very similar paths, which would make sense given all this talk about a \"potential global catastrophic event\" involving AI.",
+    "likes": 405
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:55:12Z",
+  "feed_date": "2026-10-10T21:55:12Z",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The claim that Anthropic may already have achieved recursive self-improvement internally is a speculative assertion about undisclosed internal research. There is no public confirmation or disproof that Anthropic had RSI internally as of 2026-10-10.",
+   "evidence": [
+    {
+     "title": "Anthropic official newsroom",
+     "url": "https://www.anthropic.com/news"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-10T21:56:28Z"
   }
  },
  {
@@ -219911,7 +220275,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:38:10Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "tokengremlin-2108734258860994727-2",
@@ -219998,6 +220363,102 @@
   }
  },
  {
+  "id": "0x0sojalsec-2108790067871523291",
+  "handle": "0x0SojalSec",
+  "date": "2026-10-10T05:21:46Z",
+  "claim": "Alibaba's Qwen 4 is reportedly coming, with 27B variants expected to launch first, possibly during the week of 2026-10-10, and early samples are reportedly already approaching Anthropic Claude Opus-level quality.",
+  "lab": "Alibaba",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-17",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108790067871523291",
+    "url": "https://x.com/0x0SojalSec/status/2108790067871523291",
+    "created_at": "2026-10-10T05:21:46Z",
+    "text": "Qwen 4 is coming &amp; Beats GPT-6, Fable 5.\n\n- 27B variants land first.\n- leak say the first samples are already approaching Fable /Opus-level quality.\n- Target window: this week might be \n- Open-source in October gets very interesting, after long time silent.\n- The gap is closing, https://t.co/ECMnIyCxEf",
+    "likes": 2357
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:55:24Z",
+  "feed_date": "2026-10-10T21:55:24Z",
+  "story_id": "aibattle_-2099916924700524706",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "As of 2026-10-10, there is no public Alibaba announcement or major independent reporting confirming Qwen 4, that 27B variants will launch first, or that launch is due in the week of 2026-10-10. Because the resolve-by date is 2026-10-17 and that window had not yet closed on the claim date, this remains pending.",
+   "evidence": [
+    {
+     "title": "Alibaba Qwen official channels (no public Qwen 4 launch confirmation found as of claim date)",
+     "url": "https://qwenlm.ai/"
+    },
+    {
+     "title": "Alibaba Cloud official newsroom (no public Qwen 4 announcement found as of claim date)",
+     "url": "https://www.alibabacloud.com/blog"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2108804914071658577",
+  "handle": "testingcatalog",
+  "date": "2026-10-10T06:20:45Z",
+  "claim": "As of 2026-10-10, OpenAI has an unannounced API model named gpt-rosalind-discovery listed on its API pricing page.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-08",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108804914071658577",
+    "url": "https://x.com/testingcatalog/status/2108804914071658577",
+    "created_at": "2026-10-10T06:20:45Z",
+    "text": "OPENAI 🔥: A new gpt-rosalind-discovery model has been spotted on the API pricing page. The model hasn’t been publicly announced so far. \n\nThe model has the same pricing as gpt-rosalind-research while its exact purpose is yet unclear. \n\nShould it be specifically a drug discovery model? \n\nThat would be huge news 👀",
+    "likes": 396
+   },
+   {
+    "id": "2108818845460844904",
+    "url": "https://x.com/testingcatalog/status/2108818845460844904",
+    "created_at": "2026-10-10T07:16:07Z",
+    "text": "DAILY AI BRIEF 🗞 — Oct 10\n\nMICROSOFT 🔥:\n- Microsoft launched Microsoft-Decision-1 in Foundry, a fast decision-scoring model post-trained on Qwen3.5-9B, with OpenRouter support coming soon.\n\nGOOGLE 🔥:\n- The Gemini app now offers low, medium and high thinking levels to all users.\n- Free Gemini users can no longer pick a model and are moved to Auto, which sends most prompts to Flash-Lite.\n- Google is preparing a new Ultra mode for AI Studio Build, described as \"Build with advanced skills and tools\".\n- Gemini 4 Argon references now appear in both Antigravity, with low, medium and high reasoning efforts, and the new Antigravity CLI 1.3.3 build.\n- Antigravity CLI 1.3.3 is out with a new /plugin command for installing plugins that bundle skills, MCP servers, subagents, rules and hooks.\n- Google is reportedly testing a Gemini 4 checkpoint called \"Carbon\" internally, said to perform at Opus 5.5 level on coding.\n\nOPENAI 🔥:\n- ChatGPT dots can now be created straight from the ChatGPT app on iOS and Android.\n- Dots can now start work in Codex and follow up on existing Codex threads.\n- Composer predictions are in beta in Codex for Pro users, suggesting your next message.\n- Codex on Windows gets ",
+    "likes": 194
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:48Z",
+  "feed_date": "2026-10-10T21:54:48Z",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-05",
+   "official_date": "2026-10-05",
+   "explanation": "OpenAI had already publicly introduced GPT‑Rosalind for life sciences research and stated it was available in the API for qualified customers through trusted access before 2026-10-10. So the named model was not a fresh leak from that date.",
+   "evidence": [
+    {
+     "title": "Introducing GPT-Rosalind for life sciences research",
+     "url": "https://openai.com/index/introducing-gpt-rosalind/?trk=test"
+    },
+    {
+     "title": "OpenAI API Changelog",
+     "url": "https://developers.openai.com/api/docs/changelog?mw_entry=2026-08-20-974ac0734e053853"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
   "id": "haider1-2108817305547538819",
   "handle": "haider1",
   "date": "2026-10-10T07:10:00Z",
@@ -220047,7 +220508,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:38:10Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "haider1-2108817305547538819-2",
@@ -220095,6 +220557,95 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:16:30Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2108818845460844904",
+  "handle": "testingcatalog",
+  "date": "2026-10-10T07:16:07Z",
+  "claim": "As of 2026-10-10, Google is reportedly testing an internal Gemini 4 checkpoint called Carbon that is said to perform at Opus 5.5 level on coding.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-04-08",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108818845460844904",
+    "url": "https://x.com/testingcatalog/status/2108818845460844904",
+    "created_at": "2026-10-10T07:16:07Z",
+    "text": "DAILY AI BRIEF 🗞 — Oct 10\n\nMICROSOFT 🔥:\n- Microsoft launched Microsoft-Decision-1 in Foundry, a fast decision-scoring model post-trained on Qwen3.5-9B, with OpenRouter support coming soon.\n\nGOOGLE 🔥:\n- The Gemini app now offers low, medium and high thinking levels to all users.\n- Free Gemini users can no longer pick a model and are moved to Auto, which sends most prompts to Flash-Lite.\n- Google is preparing a new Ultra mode for AI Studio Build, described as \"Build with advanced skills and tools\".\n- Gemini 4 Argon references now appear in both Antigravity, with low, medium and high reasoning efforts, and the new Antigravity CLI 1.3.3 build.\n- Antigravity CLI 1.3.3 is out with a new /plugin command for installing plugins that bundle skills, MCP servers, subagents, rules and hooks.\n- Google is reportedly testing a Gemini 4 checkpoint called \"Carbon\" internally, said to perform at Opus 5.5 level on coding.\n\nOPENAI 🔥:\n- ChatGPT dots can now be created straight from the ChatGPT app on iOS and Android.\n- Dots can now start work in Codex and follow up on existing Codex threads.\n- Composer predictions are in beta in Codex for Pro users, suggesting your next message.\n- Codex on Windows gets ",
+    "likes": 194
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:48Z",
+  "feed_date": "2026-10-10T21:54:48Z",
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "mostly_true",
+   "public_date": "2026-10-09",
+   "official_date": null,
+   "explanation": "Independent reporting on 2026-10-09 said Google employees were internally testing a Gemini 4 checkpoint called Carbon and that one employee said it felt like Opus 5.5 for coding. The caveat is that this information was already public by the prior day, so as a 2026-10-10 claim it was not a fresh leak.",
+   "evidence": [
+    {
+     "title": "Google is about to roll out a new AI model. Employees say they're testing another that's way better.",
+     "url": "https://1001rss.com/article/3608813-google-is-about-to-roll-out-a-new-ai-model-employees-say-they-re-testing-another-that-s-way-better"
+    },
+    {
+     "title": "Gemini 4 Argon hints emerge as Google tests Carbon model",
+     "url": "https://www.testingcatalog.com/gemini-4-argon-hints-emerge-as-google-tests-carbon-checkpoint/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
+  "id": "chrisgpt-2108827835607748761",
+  "handle": "ChrisGPT",
+  "date": "2026-10-10T07:51:50Z",
+  "claim": "Moonshot's Kimi may have a release in mid-October 2026.",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2026-10-31",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108827835607748761",
+    "url": "https://x.com/ChrisGPT/status/2108827835607748761",
+    "created_at": "2026-10-10T07:51:50Z",
+    "text": "Deleted the last Kimi post, to maintain accuracy. \n\nReceived word that a mid October release *may* happen but take it with a grain of salt.",
+    "likes": 65
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:31Z",
+  "feed_date": "2026-10-10T21:54:31Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The claim says Moonshot’s Kimi may have a mid-October 2026 release, and the stated resolve date has not yet passed in the provided timeline. There is not enough public confirmation yet to say whether it will happen.",
+   "evidence": [
+    {
+     "title": "Moonshot AI",
+     "url": "https://www.moonshot.ai/"
+    },
+    {
+     "title": "Kimi Chat",
+     "url": "https://kimi.moonshot.cn/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-10T21:56:28Z"
   }
  },
  {
@@ -220202,6 +220753,189 @@
   }
  },
  {
+  "id": "tokengremlin-2108891152157966630",
+  "handle": "TokenGremlin",
+  "date": "2026-10-10T12:03:26Z",
+  "claim": "Anthropic reportedly has multiple internal models that outperform its current public offerings, and a new training run aimed at automating AI research is expected to start by 2026-12-31, probably after Anthropic's IPO.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-12-31",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108891152157966630",
+    "url": "https://x.com/TokenGremlin/status/2108891152157966630",
+    "created_at": "2026-10-10T12:03:26Z",
+    "text": "@vikktorrrre From what it looks like, yes. Anthropic is going to make the most of what they already have, including Fable 5.5 and other variants. From what I've heard, they have multiple internal models that outperform their current public offerings. Multiple, as in plural. So I doubt Fable 5.5 is the only one that's already finished internally.\n\nBut the new training run they're planning is aimed at automating AI research and developing capabilities far beyond what we have today. That's the one expected to kick off in the coming weeks, probably by December.\n\nAnd my guess is that it'll happen after the IPO.",
+    "likes": 10
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:55:16Z",
+  "feed_date": "2026-10-10T21:55:16Z",
+  "story_id": "tokengremlin-2108732263642935789-2",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-09-05",
+   "official_date": null,
+   "explanation": "The IPO-timing backdrop was partly public by 2026-09-05, when Reuters reported Anthropic's IPO timing had shifted to mid-October or later. But the substantive leak claim—that Anthropic has multiple stronger internal models and a new AI-research-automation training run planned by 2026-12-31—concerns internal plans and models that had not been independently confirmed publicly.",
+   "evidence": [
+    {
+     "title": "Anthropic IPO launch shifts toward mid-October, sources say",
+     "url": "https://www.marketscreener.com/news/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-ce785bdbdb89f420"
+    },
+    {
+     "title": "Anthropic official newsroom",
+     "url": "https://www.anthropic.com/news"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2108893352502423657",
+  "handle": "TokenGremlin",
+  "date": "2026-10-10T12:12:11Z",
+  "claim": "OpenAI's GPT-6.1 Astra variant failed safety tests, but this has not affected the training of OpenAI's other models.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-04-08",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108893352502423657",
+    "url": "https://x.com/TokenGremlin/status/2108893352502423657",
+    "created_at": "2026-10-10T12:12:11Z",
+    "text": "Yesterday we focused on Anthropic rumors, but make no mistake, OpenAI isn't just sitting around doing nothing.\n\nThe GPT-6.1 Astra variant failed its safety tests, but the team is responding incredibly quickly and professionally, and this hasn't affected the training of other models.\n\nDon't mistake their current situation for a lack of progress. They're literally short on compute. That's it. And they're already working miracles with the compute they have available.\n\nYou'll be seeing more from them soon.",
+    "likes": 410
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:55:16Z",
+  "feed_date": "2026-10-10T21:55:16Z",
+  "story_id": "kimmonismus-2106144924898935046",
+  "resolution": {
+   "verdict": "partly_true",
+   "public_date": "2026-09-28",
+   "official_date": null,
+   "explanation": "The first half is supported: by September 28, 2026, OpenAI had delayed/scrapped GPT-6.1 Astra after internal safety testing raised concerns. But the second half — that this did not affect training of OpenAI's other models — remains unconfirmed from public evidence, so only part of the claim is verifiable.",
+   "evidence": [
+    {
+     "title": "Associated Press — A timeline of developments in AI safety since the attack on Hugging Face",
+     "url": "https://apnews.com/article/f590b51073d8977a984c7c42b8f2a7a2"
+    },
+    {
+     "title": "The Washington Post — OpenAI delays latest model over security concerns, as industry faces new safety pressures",
+     "url": "https://www.washingtonpost.com/business/2026/09/28/open-ai-artificial-intelligence-altman-trump-astra/7f7af10e-bba7-11f1-81fc-9b76f8343b6c_story.html"
+    },
+    {
+     "title": "Reuters/Yahoo Finance — OpenAI shelves new AI model after internal safety tests, WSJ reports",
+     "url": "https://finance.yahoo.com/news/openai-shelves-ai-model-internal-223403113.html"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2108906392811946464",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-10T13:04:00Z",
+  "claim": "The author asserted that their earlier post about Gemini was based on strong information, implying non-public information about a forthcoming Gemini development related to recursive self-improvement.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-08",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": true,
+  "tweets": [
+   {
+    "id": "2108906392811946464",
+    "url": "https://x.com/iruletheworldmo/status/2108906392811946464",
+    "created_at": "2026-10-10T13:04:00Z",
+    "text": "see my earlier gemini post. my info is strong here chat.",
+    "likes": 112
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:41Z",
+  "feed_date": "2026-10-10T21:54:41Z",
+  "story_id": "chetaslua-2098526091522802050-3",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The tweet claims the author’s earlier Gemini post was backed by strong non-public information, but that is an internal-source claim that cannot be independently confirmed or refuted from public information. No public evidence shows the underlying tip was real.",
+   "evidence": [
+    {
+     "title": "Google AI Blog",
+     "url": "https://blog.google/technology/ai/"
+    },
+    {
+     "title": "Google DeepMind",
+     "url": "https://deepmind.google/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2108935186733830313",
+  "handle": "TokenGremlin",
+  "date": "2026-10-10T14:58:25Z",
+  "claim": "The OpenAI pretraining run is real, but the rumored internal codename \"Bel\" and most published details about that run are false.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-08",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108935186733830313",
+    "url": "https://x.com/TokenGremlin/status/2108935186733830313",
+    "created_at": "2026-10-10T14:58:25Z",
+    "text": "@TimJayas Yeah, I confirmed that \"Bel\" was made up, along with a bunch of the details surrounding it. People were pretending to know technical specs, estimated size, and even the internal codename, when in reality they knew nothing.\n\nSo the pretraining run is real, but almost everything we've read about it is false.",
+    "likes": 18
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:55:16Z",
+  "feed_date": "2026-10-10T21:55:16Z",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This is a claim about an alleged internal OpenAI pretraining run and an internal codename being fake. There is no public way to independently verify the internal truth of that statement, so it cannot be graded from public sources.",
+   "evidence": [
+    {
+     "title": "OpenAI Deployment Safety Hub",
+     "url": "https://deploymentsafety.openai.com/"
+    },
+    {
+     "title": "OpenAI API Changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
   "id": "testingcatalog-2108940487658807525",
   "handle": "testingcatalog",
   "date": "2026-10-10T15:19:29Z",
@@ -220243,6 +220977,51 @@
    ],
    "confidence": "low",
    "resolved_at": "2026-10-10T21:15:13Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2108951598680424735",
+  "handle": "TokenGremlin",
+  "date": "2026-10-10T16:03:38Z",
+  "claim": "Google has or had an internal test called \"Gemini RSI,\" and may already have an internal RSI system more advanced than anything publicly known that it does not plan to commercialize.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-04-08",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108951598680424735",
+    "url": "https://x.com/TokenGremlin/status/2108951598680424735",
+    "created_at": "2026-10-10T16:03:38Z",
+    "text": "One of Google's internal tests was called \"Gemini RSI,\" which makes me think they might already have some internal technology along those lines.\n\nHowever, when I looked into what they have \"ready for release,\" I couldn't find a single string, slug, or name related to it.\n\nSo I'm starting to suspect Google may already have some form of RSI that's more advanced than anything we're publicly aware of, and that they don't intend to commercialize it, but rather keep it for internal experimentation.",
+    "likes": 73
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:55:16Z",
+  "feed_date": "2026-10-10T21:55:16Z",
+  "story_id": "chetaslua-2098526091522802050-3",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "No public evidence independently confirms that Google had an internal test literally called 'Gemini RSI' or an internal RSI system more advanced than anything public and intentionally uncommercialized. This is an internal-research speculation claim not verifiable from public information.",
+   "evidence": [
+    {
+     "title": "Google official AI blog",
+     "url": "https://blog.google/technology/ai/"
+    },
+    {
+     "title": "Google DeepMind blog",
+     "url": "https://deepmind.google/discover/blog/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-10T21:56:28Z"
   }
  },
  {
@@ -220339,7 +221118,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:43:14Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "tokengremlin-2108972425102660087",
@@ -220426,6 +221206,50 @@
   }
  },
  {
+  "id": "iruletheworldmo-2108987463788380356",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-10T18:26:09Z",
+  "claim": "The author asserted that an unreleased or non-public xAI system called Grokbot was highly proactive and effective at getting tasks done by 2026-10-10.",
+  "lab": "xAI",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-08",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108987463788380356",
+    "url": "https://x.com/iruletheworldmo/status/2108987463788380356",
+    "created_at": "2026-10-10T18:26:09Z",
+    "text": "grokbot is making me so much money it’s hard to understand why it’s so good but it just gets things done. super proactive. \n\nyou should be starting ai companies. agi is here.",
+    "likes": 387
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-10T21:54:41Z",
+  "feed_date": "2026-10-10T21:54:41Z",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The tweet makes a performance claim about a non-public xAI system called Grokbot. Because the system itself is unreleased/non-public, its existence and capabilities cannot be independently verified from public information.",
+   "evidence": [
+    {
+     "title": "xAI",
+     "url": "https://x.ai/"
+    },
+    {
+     "title": "Grok",
+     "url": "https://grok.com/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-10T21:56:28Z"
+  }
+ },
+ {
   "id": "tokengremlin-2108997841649565770",
   "handle": "TokenGremlin",
   "date": "2026-10-10T19:07:23Z",
@@ -220467,7 +221291,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-10T21:43:14Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "chetaslua-2109006908808139253",
@@ -220511,7 +221336,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-10T21:43:14Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "chetaslua-2109006908808139253-2",
