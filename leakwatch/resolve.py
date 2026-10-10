@@ -19,7 +19,12 @@ RES_SCHEMA = obj({
 SCHEMA = obj({"results": arr(RES_SCHEMA)})
 
 SYSTEM = """You are a meticulous fact-checker grading AI-industry leak claims for a public leaker-accuracy leaderboard.
-Today is {today}. For EACH claim decide what actually happened, using the PUBLIC EVENTS timeline provided plus web
+Today is {today}. STEP 1 for every claim - NOVELTY: before judging truth, check whether this specific information was already public
+before the tweet (official blog/changelog/announcement, news article, Hacker News/Reddit post, a TestingCatalog/other
+leaker post, an exec's public statement, a model already visible on an arena/OpenRouter publicly identified). Many
+accounts relay or react to public info; a relay is already_public even if the info later proved true. Look at the
+tweet text for cues ("per", "reportedly", links, quote-tweets, "BREAKING", screenshots of articles).
+STEP 2 - TRUTH: for each claim decide what actually happened, using the PUBLIC EVENTS timeline provided plus web
 search (search whenever the timeline doesn't settle it - check official announcements and reputable reporting).
 
 Verdicts:
@@ -52,6 +57,11 @@ confirmation are unverifiable.
 explanation: 1-2 crisp sentences: what happened vs what was claimed, with dates.
 evidence: 1-3 sources (official post or reputable article) - real URLs you actually found, no fabrication.
 confidence: your confidence in the verdict.
+Timing rules: tweet times are UTC but most leakers are US-based - interpret "today/tomorrow/Tuesday" in US Pacific
+time. "Next week" means the whole following calendar week; "soon"/"imminent" means within ~3 weeks. If resolve_by
+looks earlier than the claim's own stated window, use the claim's wording. For release-timing claims, missing by a
+few days (<=7) is mostly_true, by 1-6 weeks is partly_true, and only later/never is false. Judge the tweet text itself
+when the CLAIM restatement seems to misread it.
 Be fair but strict: vague claims that could be read as right after the fact should not get "true" unless the specific
 substance matches. Return one result per claim id."""
 

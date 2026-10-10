@@ -28,7 +28,10 @@ def d(s):
 
 
 def is_scoop(c):
-    """A journalist's own reporting: the publication date is the scoop itself, not prior public knowledge."""
+    """Original finds whose same-day press coverage IS the leak: a journalist's own reporting, or a code/A-B-test find
+    (coverage of the find is not prior public knowledge). Lead time for these runs to official confirmation."""
+    if c.get("source_type") == "code_or_testing_evidence":
+        return True
     return c.get("source_type") == "journalism" and c.get("_category") == "journalist"
 
 
@@ -38,8 +41,8 @@ def effective_verdict(c):
     v = r.get("verdict") or "pending"
     if v in ("true", "mostly_true", "partly_true") and r.get("public_date") and not is_scoop(c):
         try:
-            if d(r["public_date"]) < d(c["date"]) or (d(r["public_date"]) == d(c["date"]) and
-                                                       c.get("source_type") in ("relayed", "speculation")):
+            # same-day "hits" can't be told apart from reacting to the launch -> no credit, no penalty
+            if d(r["public_date"]) <= d(c["date"]):
                 return "already_public"
         except ValueError:
             pass

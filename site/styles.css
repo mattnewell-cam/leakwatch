@@ -249,3 +249,16 @@ table.lb tbody tr:hover td { background: var(--card2); }
   .drawer-panel { padding: 20px 16px 50px; }
   .d-claim { font-size: 17px; }
 }
+
+/* keep segmented controls inside the viewport on narrow screens */
+.seg { max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+.seg::-webkit-scrollbar { display: none; }
+body { overflow-x: hidden; }
+@media (max-width: 560px) {
+  .controls { position: static; gap: 8px; }
+  .controls .seg { width: 100%; }
+  .controls .select { flex: 1; }
+  .lb-head h1 { font-size: 25px; }
+  .prof-head h1 { font-size: 23px; }
+  .kv { grid-template-columns: repeat(2, 1fr); }
+}

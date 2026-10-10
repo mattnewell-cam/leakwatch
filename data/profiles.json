@@ -1,0 +1,137 @@
+{
+ "apples_jimmy": {
+  "summary": "The best-known OpenAI insider account, with real hits on specific near-term launches (the GPT-4 date, Claude 4's launch details, GPT-5.5 access). Medium-range timing calls are often wrong (GPT-4.5 in 2023 and again in October 2024, the Gobi/GPT-5 timelines, Meta not opening 405B). A notable share of posts relay information that was already public, and many are hedged or vague, so read individual calls skeptically."
+ },
+ "aibattle_": {
+  "summary": "A reverse-engineer and aggregator that is reliable when reporting concrete artifacts (codenames on arenas, console strings, model versions, leaked model cards), especially for xAI and Google. Many posts are same-day relays of official launch materials or press reports, which add no lead time. Forward-looking release-date calls are noticeably weaker (Nightwhisper, Gemini 3 Pro GA, DeepSeek V4 GA)."
+ },
+ "haider1": {
+  "summary": "Mainly an aggregator and commentator on OpenAI and Anthropic. Imminent-release calls (GPT-6 Sol, Kimi K3, GLM-5.3-Flash, Mythos 5.1) are usually right, but much of the output relays reports, OpenAI statements or rumors already public. Speculative timelines and rumored models (GPT-6 in August, a DevDay Millennium problem, Bel) often miss or remain unconfirmed."
+ },
+ "tetsuoai": {
+  "summary": "A commentator focused on xAI, whose posts mostly summarize news that was already public (funding, org changes, the Pentagon dispute, X's Phoenix algorithm). The few genuine forward calls are right on short-term Grok release timing but wrong on detailed feature and pricing roadmaps (Grok Imagine update, pricing ladder). Low value as an original leak source."
+ },
+ "phill__1": {
+  "summary": "A developer-oriented watcher of OpenAI and Google APIs and docs, accurate on concrete near-term product details (GPT-4o output limits, the GPT-5 lineup, Codex CLI login, Llama 3.1 benchmarks). Same-day 'today' calls are sometimes off by days or overstated, and some posts relay already-public news. The sample is small and lead times are usually about a day."
+ },
+ "iruletheworldmo": {
+  "summary": "A prolific, hype-heavy anonymous account. It is mainly accurate on OpenAI and Anthropic launches that are only days away (Spud's week, Fable 5.1, GPT-6 Astra on Sep 3) and directionally right that GPT-6 would land around September. Most of its specific dates, specs and benchmark claims miss (GPT-5.3, Sonnet 5, an April GPT-6), it often relays unverified rumors, and many 'hits' are vague or already public, so its low credibility score fits."
+ },
+ "ns123abc": {
+  "summary": "Mostly a fast breaking-news aggregator: it reposts The Information, Bloomberg, Reuters and company announcements within hours, usually with accurate numbers (funding rounds, ARR, compute deals, IPO prospectus). Because so much is relayed, it rarely gets real lead time, and it sometimes amplifies thin or later-disputed reports (the SpaceX–Foxconn GPU order, the Trump 'nationalize' framing)."
+ },
+ "chrisgpt": {
+  "summary": "Has some genuine OpenAI product signal (Dots strings the day before DevDay, GPT-6 Sol launch day, an August GPT-6 target that slipped to Sep 3). Timing calls are often off by days to weeks, many posts summarize existing reporting (Anthropic prospectus, ARR, SpaceX deals), and several claims are vague 'bigger model coming' statements that are still pending or can't be checked."
+ },
+ "yuchenj_uw": {
+  "summary": "A commentator, not a dedicated leaker. In 2025 he had real OpenAI-adjacent signal (gpt-oss timing and size, GPT-5's router, accurate 'not today' calls). Many posts react to news that was already public (Meta layoffs, Mythos, SpaceX compute deals), and some are jokes or bets ('GPT-5 tomorrow', 'open-sourcing Fable 5'), which inflates the false count."
+ },
+ "alexeheath": {
+  "summary": "A credible journalist whose original sourced scoops have consistently held up (Meta rebrand, OpenAI ads, Altman return talks, the public Mythos/Fable release, Meta's H1 2026 model). Misses are limited to hardware roadmaps that slipped or were shelved (Apple AR glasses, Facebook camera watch) and events overtaken by postponement, not wrong reporting."
+ },
+ "synthwavedd": {
+  "summary": "A prolific OpenAI/Anthropic scoop account with real sourcing. Release windows for GPT-5.6, Sonnet 5, Opus 5, Mythos 5 and Astra were often right within days, and some product specs were exact. The weak spot is OpenAI timing that later slipped (the July/August GPT-6/Astra dates ran about 4 weeks late after a safety delay), plus a fair share of posts relaying news already out (Axios early post, the Mythos draft leak, launch-day rollouts). Many codename and internal-checkpoint details can't be verified."
+ },
+ "chetaslua": {
+  "summary": "A hands-on tester who mixes his own finds (Gemini auto browse, Claude Code agent teams, the Ox Alpha = Zhipu serving-layer proof, Mythos 5 spotting) with frequent relays of other people's reporting (DeepSeek V4 rumours, Bloomberg datacenter story, Codex superapp breakdown). Short-range launch calls (GPT-5.5 Thursday, Fable 5) are usually right. Longer-range timing calls (Sonnet 5/Fennec in Feb, DeepSeek V4 mid-Feb, Gemini 3.5 in April) often miss by weeks to months, and some speculative posts (RSI model, Gemini 3.0 Heavy) are hype rather than leaks."
+ },
+ "tokengremlin": {
+  "summary": "A strong recent record on OpenAI launch windows (GPT-6 Astra Sep 3-10, Sol/Luna, Images 2.5, Ultrafast, the $500 tier) and good on Anthropic pricing (Opus 5.5). It misses on finer product-structure calls, such as Luna launching separately and the GPT-6 Terra tier, and a number of claims hedge heavily or are inferences labelled as such. Several Fable 5.5 and post-Astra claims are still pending, and some posts just summarise official announcements on the same day."
+ },
+ "scaling01": {
+  "summary": "Mainly a commentator and fast relayer rather than an insider. Many 'hits' are launch-day sightings or reposts of things OpenAI, Moonshot or DevDay had already announced, so lead time is small. Original forward-looking calls are mostly loose opinions or probabilistic predictions (10T GPT-6/Grok-5, price cuts, valuation, test-time training) that are pending, only partly right, or wrong, and occasional jokes get read as claims."
+ },
+ "dseetharaman": {
+  "summary": "An established Reuters (ex-WSJ) reporter whose bylined scoops have held up very well, from the 2023 OpenAI board crisis and Facebook/Libra stories to the 2026 OpenAI rogue-agent incidents, which OpenAI later largely confirmed. Misses are limited to secondary details or reported intentions that didn't happen (the FTC injunction, Altman's return). Because these are her own outlet's published scoops, lead time is essentially zero by construction."
+ },
+ "btibor91": {
+  "summary": "A prolific, high-signal reverse engineer of the ChatGPT and Claude web and Android apps. His own code finds (memory, the DALL-E editor, the Atlas browser, Claude Code on web, group chats, Skills) usually turn into shipped features, though often months later. A large share of his posts relay official announcements or news (parental controls, exec moves, Musk's Grok timing), which count as already public. His misses are mostly code strings for features that were shelved or renamed (Sora in ChatGPT, Codex-Max), and many recent finds are still pending."
+ },
+ "m1astra": {
+  "summary": "An anonymous app-teardown account focused on OpenAI and Anthropic. It has a good record on near-term launches spotted in builds (Claude voice and its voices, ChatGPT Record, Pulse, GPT-Bidi to GPT-Live, Astra and Opus 5 imminence), often days to weeks early. Many posts, though, repost already-public material (Mythos coverage, Sora shutdown dates, OpenAI announcements, Apple's press images). Misses come from over-reading assets, such as Sora in the ChatGPT app and Lifetime/Weekly plans, and some names are slightly off."
+ },
+ "techdevnotes": {
+  "summary": "A xAI-focused tracker whose value is mostly fast reporting of Grok app, API and docs changes as they happen, so lead time is usually zero. Many of its 'predictions' are relays of Elon Musk's public timelines and are scored as already public; when it projects timing itself (15-second Imagine video, rollout claims) it has often been wrong by months. It is reliable on what is live in xAI products right now and weak on forward-looking timing. Some trawled attributions are doubtful."
+ },
+ "aibreakfast": {
+  "summary": "An AI newsletter and aggregator that mostly repackages scoops from The Information, Reuters and official teasers (Bing-ChatGPT, GPT-5 livestream, multimodal GPT-4, Operator), so most of its hits are already public. Its own speculative calls (Gobi in early 2024, GPT-4.5 Turbo in June 2024, o3 for Pro users on launch day) mostly missed. Trawled archive items are recaps of events, not leaks."
+ },
+ "xfreeze": {
+  "summary": "A pro-xAI/Grok amplifier whose posts are mostly hype or relays of Elon Musk statements and news stories (the Grok 4.7 date, the OpenAI tracking lawsuit, the HF incident), scored as already public. Its specific forward claims about xAI roadmaps (a monthly foundation-model cadence, a 2T model in August, Grok powering America.gov) are often overstated or late, and internal technical claims cannot be verified. Occasional feature calls (Grok Bot templates, the desktop app) landed."
+ },
+ "testingcatalog": {
+  "summary": "A prolific reverse-engineer whose finds from app code, strings and quota pages usually prove real, especially on Google, OpenAI and Anthropic product features, though final names and launch timing often change (Bidi 1 became GPT-Live-1, Mythos 1 became Mythos 5). Weak spots are naming guesses (the 'o' assistant shipped as dots) and speculative feature lists. A large share of posts also relay already-announced products, and many recent finds are still pending."
+ },
+ "bindureddy": {
+  "summary": "A commentator who mostly amplifies circulating rumors and public expectations rather than first-hand leaks, so many 'hits' were already public. Timing calls on big frontier launches (o3-mini, Opus 4.5, Opus 5, GPT-5.6) are often close. Specific numbers and characterizations (Gemini 65T parameters, '5x GPT-4', Gemini Flash benchmarks and prices, 'Siri will be from OpenAI') are frequently wrong."
+ },
+ "ai_for_success": {
+  "summary": "An aggregator that mostly reposts news, rumors and official teasers, so much of its output is already public or same-day. When it does flag something early (Gemini Omni, Gemini Spark, Kimi K3, Gemma 4), it is usually right but with little lead time. Its predictive model-timing calls are hit-or-miss, and some extracted 'claims' are really wishes or jokes."
+ },
+ "shiringhaffary": {
+  "summary": "A Bloomberg AI reporter with a very strong record on OpenAI funding, deals, restructuring and products; her sourced scoops (Operator, Windsurf talks, the $40B SoftBank round, the $500B secondary) were consistently borne out. Misses are mostly deals that changed or fell through after accurate reporting (the Schiller observer seat), and exact terms sometimes shifted in the final deals. Lead time is short because her reports are themselves the first public disclosure."
+ },
+ "wongmjane": {
+  "summary": "A veteran reverse-engineer whose code-based finds (ChatGPT file uploads, Custom Instructions, Advanced Voice on web, Figma Make, Bard features) have usually shipped, often months later and under different names. Some posts describe features that were already announced, and a few recent finds (Stripe Link balance, Cloudflare's Stripe integration) are unconfirmed or never shipped. The track record is small but high quality."
+ },
+ "daniel_mac8": {
+  "summary": "Very accurate on imminent OpenAI launches once the date is close: GPT-5.5 and GPT-6 Astra were called to the exact day, and Opus 5 came within 3 days. Weak on longer-range timing: three Sonnet 5 'this week' calls in early Feb came five months early, and GPT-6/Astra was repeatedly predicted 2-4 weeks too soon. Many posts compile public statements or credit other leakers, so a lot is already public."
+ },
+ "kimmonismus": {
+  "summary": "An aggregator who mostly relays other leakers (Lyra, legit_api, synthwavedd, Leo) and public sightings, with a high already-public rate and lead times of a few days. Good at spotting imminent releases (GPT-6 Sol, Opus 5.5, Sonnet 5.5, Fable 5.1), but often a few days to weeks early (Astra, Fable 5.1, GPT-5.6 Ultrafast) and over-bundles hedged extras like Opus/Sonnet 5.1."
+ },
+ "flowersslop": {
+  "summary": "Hype-heavy and often vague, with low accuracy on specific timing: new voice mode in 'a week or two' came two months later, 'GPT-6 next week' in April missed, and 'Spud = GPT-6' was wrong. The real hits were a GPT-6-class jump within ~8 weeks of July and Images v2 testing. Many extracted claims are opinions about things already public rather than leaks."
+ },
+ "kateclarktweets": {
+  "summary": "A funding and deals journalist with highly reliable, explicit scoops on rounds, valuations and investor lineups (OpenAI, Anthropic, SSI, Runway, Arda), usually with real lead time. Misses are mostly secondary figures, such as $170B vs a final $183B or $6B vs $6.6B, or speculative lists like board candidates. Model-release leaks are not her beat."
+ },
+ "tomwarren": {
+  "summary": "A Microsoft/Xbox reporter whose claims are concrete and almost always confirmed, though most are same-day scoops or announcement-day reporting with little lead time. Misses are minor studio specifics, e.g. Ninja Theory 'closing' and a Compulsion 'shutdown' that became spin-offs; some internal-testing scoops are still unconfirmed."
+ },
+ "imjustnewatai": {
+  "summary": "A high-volume anonymous account whose record is mostly misses: confident dates and specs for GPT-5, DeepSeek R2, Grok 5 and GPT-4.5 repeatedly failed, and many 'scoops' recycle news already public. It has had a few genuine short-horizon hits on OpenAI and Anthropic release days (GPT-6 Sol, Fable 5, GPT-5.6 within a day), but its quantitative spec claims (context windows, prices) should be treated as unreliable."
+ },
+ "vraserx": {
+  "summary": "Mainly an enthusiast amplifier rather than an original source: a large share of its posts restate official announcements or other people's posts, sometimes a day after the fact. Its own date calls on OpenAI releases are hit-and-miss: right on GPT-5.5 week and GPT-5.6 in June, wrong on GPT-5.6 June 11, Astra Aug 20 and the Sept 29 'AI researcher'. Rumored spec lists tend to be overstated."
+ },
+ "amir": {
+  "summary": "The Information's executive editor. Highly reliable on business, funding and infrastructure scoops (OpenAI/Amazon, Nvidia/SB Energy, Google TPU deals, Crusoe), which are usually confirmed with only minor number drift. The weaker calls are fast-moving breaking situations (Altman's return 'tomorrow') and interpretive framing (safety as central to the 2023 board crisis). Many tweets promote his outlet's own same-day stories, so lead times are short."
+ },
+ "anissagardizy8": {
+  "summary": "A WSJ (formerly The Information) infrastructure reporter with a very strong record on compute, chips and funding scoops (Microsoft Athena, Blackwell delay, xAI 100K-H100 cluster, Anthropic and Amazon/OpenAI rounds, Project Osprey). Misses are mostly cases where the reported plans later changed shape (Microsoft's $100B Stargate) or never got public confirmation either way. Very few outright errors."
+ },
+ "teortaxestex": {
+  "summary": "A DeepSeek- and China-focused commentator, not an insider: most posts react to news that is already public or offer speculative interpretation, so there are few checkable predictions. The rare concrete calls are mixed: a correct early identification of Ox Alpha as GLM-5.3 Flash, but a failed DeepSeek release-week prediction and an apparently ironic 'Astra weights leaked' post."
+ },
+ "pankajkumar_dev": {
+  "summary": "An aggregator-style leaker who posts frequent, detail-heavy 'Leaks' threads on OpenAI, Anthropic and Google releases. Broad release timing is often roughly right (Opus 5, GPT-6 Astra, Fable 5.1), but the specific codenames, benchmarks, pricing and model attributions are frequently wrong or never verified (Sonnet 5 'Fennec', Snow Bunny, GPT-6 in the Hugging Face incident). Much of the content repackages other outlets' reporting or public prediction-market odds, so a substantial share of claims is already_public."
+ },
+ "mark_k": {
+  "summary": "A high-volume commentator posting short 'coming today/this week' calls on OpenAI, xAI, Anthropic and Google. He is good on near-term timing for xAI and Google launches, with frequent same-day or one-day-off hits, but exact OpenAI dates often slip by days to a week and some framing is wrong (e.g. 'Astra is not GPT-6'). Many posts relay official announcements, Musk quotes or The Information reports, so lead time is usually short and a large share is already_public."
+ },
+ "markgurman": {
+  "summary": "A Bloomberg reporter whose Apple scoops are highly reliable on strategy, partnerships, products and personnel (Gemini-powered Siri, budget Mac, leadership succession, reorganizations). Misses are mostly on internal timelines that later slipped (Siri spring 2026) and on which outside AI partner Apple would pick. Several 2026 hardware and iOS 27 claims are still pending, and some tweets just restate his earlier reporting or official news."
+ },
+ "steph_palazzolo": {
+  "summary": "An Information reporter (AI Agenda) with a strong record on OpenAI and Anthropic business, funding and policy scoops. These usually prove right in substance, with exact valuations or round sizes sometimes shifting. She is less reliable on product plans that companies later changed (Sora in ChatGPT, the multimodal 405B), and the Hodge Conjecture claim is still pending. Many tweets promote same-day Information stories, so lead time is often short."
+ },
+ "erinkwoo": {
+  "summary": "A tech reporter (formerly The Information, now WSJ) covering Google and OpenAI, with a small sample of almost entirely accurate scoops. They range from personnel moves (Shazeer to OpenAI) to Gemini releases (3.8 Flash) and safety incidents (the Gemini hacks). Most items are her own same-day reporting rather than forward-looking predictions, so lead times are near zero, and a few internal-detail claims are hard to verify independently."
+ },
+ "legit_api": {
+  "summary": "A prolific reverse-engineer whose own string and code finds (Gemini, GPT-4.5, Llama 4, Grok 4 benchmarks) are usually substantively right, though shipping dates often slip by weeks to months. Misses tend to be same-day timing calls and relayed tips (e.g. the o1 Nov 30 call), and a large share of posts repeat information labs had already announced."
+ },
+ "andrewcurran_": {
+  "summary": "Mainly an aggregator who quickly relays major-outlet scoops (The Information, WSJ, Axios), so much of his output is already public rather than original leaking. His own timing calls on release days are fairly good (Fable, Astra, GPT-5.6 clearance), but longer-range predictions (GPT-6 timing, Gemini 3.5 Pro) and rumor relays (Millennium-prize models, fundraises) are much weaker or still unresolved."
+ },
+ "smokeawayyy": {
+  "summary": "A commentator who posts terse 'model / date / 10am PT' calls. Several were exact (Strawberry, GPT-5 on Aug 7), but many repeat dates OpenAI had already teased, and his speculative longer-range calls (GPT-5o in fall 2024, o3-mini on Jan 28) missed. Treat as low-information unless the call comes well ahead of official teasers."
+ },
+ "deredleritt3r": {
+  "summary": "An analyst-commentator who mostly synthesizes public reporting and OpenAI materials, so most of his accurate posts are already public rather than leaks. His few original insider-style claims (the April 2025 'AGI achieved' and Microsoft breakup thread, AGI declared in 2025) were clearly false, and his forward extrapolations are speculative."
+ },
+ "kyliebytes": {
+  "summary": "A journalist (The Verge, Wired) whose own sourced scoops are generally reliable: the Anthropic Gulf memo, Thinking Machines CTO firing, Meta hires and Jason Wei all checked out. Her Orion-by-December report was right on substance but about two months early, and some posts relay announcements other outlets had already published."
+ }
+}
