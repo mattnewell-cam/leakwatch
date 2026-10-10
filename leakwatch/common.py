@@ -26,8 +26,8 @@ TWITTER_KEY = os.environ.get("TWITTERAPI_IO_KEY", "")
 OPENAI_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 # Cheap model for bulk filtering/extraction; stronger one for judging + resolution.
-MODEL_FAST = os.environ.get("LEAKWATCH_MODEL_FAST", "gpt-5.4-mini")
-MODEL_SMART = os.environ.get("LEAKWATCH_MODEL_SMART", "gpt-5.4")
+MODEL_FAST = os.environ.get("LEAKWATCH_MODEL_FAST", "gpt-6-luna")
+MODEL_SMART = os.environ.get("LEAKWATCH_MODEL_SMART", "gpt-6-luna")
 
 
 def now_iso():

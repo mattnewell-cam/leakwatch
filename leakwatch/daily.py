@@ -173,7 +173,7 @@ def main():
                     "lab": c["lab"], "topic": c["topic"], "specificity": c["specificity"],
                     "significance": c["significance"], "resolve_by": c["resolve_by"], "hedged": c["hedged"],
                     "source_type": c["source_type"], "cryptic": c["cryptic"],
-                    "tweets": [{"id": t["id"], "url": t["url"], "created_at": t["created_at"], "text": t["text"][:1200],
+                    "tweets": [{"id": t["id"], "url": t["url"], "created_at": t["created_at"], "text": t["text"][:4000],
                                 "likes": t["likes"]} for t in ts_],
                     "origin": "daily", "first_seen": now_iso(), "feed_date": now_iso()})
                 if not acct:

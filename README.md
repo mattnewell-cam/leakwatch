@@ -33,7 +33,7 @@ python -m http.server 8765 --directory site
 
 ## Config and costs
 
-- Models: `LEAKWATCH_MODEL_FAST` (default `gpt-5.4-mini`) and `LEAKWATCH_MODEL_SMART` (default `gpt-5.4`).
+- Models: `LEAKWATCH_MODEL_FAST` and `LEAKWATCH_MODEL_SMART` (both default `gpt-6-luna`, which beat GPT-5.4 in a 300-claim grading benchmark).
 - Daily twitterapi.io spend is capped at 20k credits (about $0.20). Typical spend is about 3–6k credits per day. Daily OpenAI spend is roughly $0.50–$2, depending on how many pending claims come due.
 - Re-run the workflow by hand from the Actions tab ("Daily leak update" → Run workflow).
 - To add a leaker, add `{"handle": "...", "category": "anon_insider|reverse_engineer|journalist|aggregator|commentator"}` to `data/accounts.json`, then run `python -m scripts.backfill_fetch <handle>`, `python -m scripts.extract_claims <handle>`, `python -m scripts.import_backfill` and `python -m scripts.resolve_backfill`.

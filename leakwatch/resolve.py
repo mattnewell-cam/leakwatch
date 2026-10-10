@@ -88,7 +88,7 @@ def _category(handle):
 
 
 def _fmt(c):
-    tw = "\n".join(f"   tweet ({t['created_at'][:10]}): {t['text'][:500]}" for t in c.get("tweets", [])[:2])
+    tw = "\n".join(f"   tweet ({t['created_at'][:10]}): {t['text'][:2500]}" for t in c.get("tweets", [])[:2])
     return (f"id={c['id']} | @{c['handle']} | claimed {c['date'][:10]} | lab={c['lab']} | resolve_by={c.get('resolve_by')}\n"
             f"   CLAIM: {c['claim']}\n{tw}")
 

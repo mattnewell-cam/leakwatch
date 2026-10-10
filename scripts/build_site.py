@@ -97,6 +97,12 @@ def main():
                                    "resolve_by", "hedged", "source_type", "cryptic", "origin", "verdict", "lead_days",
                                    "legitimacy", "first_seen", "feed_date", "corroborated_by", "quote", "source_url",
                                    "deleted")}
+        try:
+            gap = (sc.d(c["resolve_by"]) - sc.d(c["date"])).days if c.get("resolve_by") else None
+        except ValueError:
+            gap = None
+        if gap is not None and abs(gap - 180) <= 2:
+            o.pop("resolve_by", None)   # default horizon, not a date the leaker gave - don't show it
         o["tweets"] = [{k: t.get(k) for k in ("id", "url", "created_at", "text", "likes")} for t in c.get("tweets", [])[:3]]
         r = c.get("resolution") or {}
         o["resolution"] = {k: r.get(k) for k in ("explanation", "evidence", "public_date", "confidence", "vetted")} if r else None

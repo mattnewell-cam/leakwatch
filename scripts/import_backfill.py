@@ -96,7 +96,7 @@ def normalize_trawl(handle, items):
 
 
 def slim_tweet(t):
-    return {"id": t["id"], "url": t["url"], "created_at": t["created_at"], "text": t["text"][:1200],
+    return {"id": t["id"], "url": t["url"], "created_at": t["created_at"], "text": t["text"][:4000],
             "likes": t.get("likes", 0), "quoted": t.get("quoted")}
 
 
