@@ -107,7 +107,8 @@ def main():
             "n_pending": sum(1 for c in claims if c["verdict"] == "pending"),
             "n_leakers": sum(1 for l in leakers if l["tracked"]), "n_events": len(load_json(DATA / "events.json", [])),
             "min_resolved_for_rank": MIN_RESOLVED, "impact_k": sc.IMPACT_K, "calibration": calibration,
-            "repo_url": REPO_URL}
+            "repo_url": REPO_URL, "audit": load_json(DATA / "audit_stats.json", None),
+            "n_audited": sum(1 for c in claims if (c.get("resolution") or {}).get("vetted"))}
     (SITE / "data").mkdir(parents=True, exist_ok=True)
     for name, obj in (("claims", out_claims), ("leakers", leakers), ("meta", meta)):
         (SITE / "data" / f"{name}.json").write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")),

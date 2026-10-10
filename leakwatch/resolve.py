@@ -36,7 +36,9 @@ Verdicts:
 - false: did not happen, or the stated deadline passed without it happening, or details clearly contradicted.
 - pending: deadline (resolve_by) not yet passed and not yet confirmed or contradicted.
 - already_public: the information was ALREADY public (officially announced or widely reported) before the tweet - no
-  credit for leaking it. Check this carefully against the timeline and reporting dates.
+  credit for leaking it. REQUIRES a public source dated STRICTLY BEFORE the claim date; set public_date to that earlier
+  date. Coverage of this very tweet / code find / scoop does not count. If the earliest public source is on or after
+  the claim date, it is NOT already_public - grade its truth instead.
 - unverifiable: cannot be confirmed or refuted from public info even in principle (internal-only facts never reported).
 
 public_date: the YYYY-MM-DD on which the claimed info FIRST became public - officially confirmed OR reported by a
@@ -91,10 +93,32 @@ def _fmt(c):
             f"   CLAIM: {c['claim']}\n{tw}")
 
 
+def _consistent(c, r):
+    """already_public must point to a public source dated strictly before the claim (and never for original finds)."""
+    if r.get("verdict") != "already_public":
+        return True
+    pd = (r.get("public_date") or "")[:10]
+    if not pd or pd >= c["date"][:10]:
+        return False
+    return c.get("source_type") != "code_or_testing_evidence" and not (
+        c.get("source_type") == "journalism" and _category(c["handle"]) == "journalist")
+
+
 def resolve_batch(claims, model=MODEL_SMART, today=None, reasoning=None):
     today = today or date.today().isoformat()
+    res = _resolve_batch(claims, model, today, reasoning)
+    bad = [c for c in claims if c["id"] in res and not _consistent(c, res[c["id"]])]
+    if bad:
+        note = ("\n\nNOTE: a previous grading marked these already_public without a public source dated BEFORE the "
+                "claim date (or for an original code find / journalist scoop). Re-grade the truth of each claim; only "
+                "use already_public with a dated earlier source.")
+        res.update(_resolve_batch(bad, model, today, reasoning, extra=note))
+    return res
+
+
+def _resolve_batch(claims, model, today, reasoning, extra=""):
     user = (f"PUBLIC EVENTS (official timeline):\n{_events_for(claims)}\n\nCLAIMS TO GRADE:\n\n" +
-            "\n\n".join(_fmt(c) for c in claims))
+            "\n\n".join(_fmt(c) for c in claims) + extra)
     out = call_json(model, SYSTEM.format(today=today), user, SCHEMA, name="grades", web_search=True, timeout=600,
                     reasoning=reasoning, max_tool_calls=8)
     return {r["id"]: r for r in out["results"]}

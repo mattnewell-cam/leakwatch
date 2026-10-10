@@ -6,13 +6,14 @@ from leakwatch.common import DATA, load_json, save_json
 
 N_PACKS = int(sys.argv[1]) if len(sys.argv) > 1 else 3
 PER_PACK = int(sys.argv[2]) if len(sys.argv) > 2 else 40
+PREFIX = sys.argv[4] if len(sys.argv) > 4 else "s"
 
 
 def main():
     claims = load_json(DATA / "claims.json")
     pool = [c for c in claims if c.get("resolution") and not c["resolution"].get("vetted")
             and c["resolution"]["verdict"] in ("true", "mostly_true", "partly_true", "false", "already_public")]
-    random.seed(2026)
+    random.seed(int(sys.argv[3]) if len(sys.argv) > 3 else 2026)
     pick = random.sample(pool, min(len(pool), N_PACKS * PER_PACK))
     for i in range(N_PACKS):
         chunk = pick[i * PER_PACK:(i + 1) * PER_PACK]
@@ -26,7 +27,7 @@ def main():
                 "origin": c.get("origin"), "resolver_verdict": r["verdict"], "public_date": r.get("public_date"),
                 "explanation": r.get("explanation"), "evidence": [e["url"] for e in r.get("evidence", [])],
                 "confidence": r.get("confidence")})
-        save_json(DATA / "cache" / "audit" / f"pack_s{i}.json",
+        save_json(DATA / "cache" / "audit" / f"pack_{PREFIX}{i}.json",
                   {"leakers": [{"handle": h, "claims_to_audit": v} for h, v in by.items()]})
     print(f"{N_PACKS} sample packs from pool of {len(pool)}")
 

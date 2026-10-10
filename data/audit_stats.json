@@ -1,0 +1,6 @@
+{
+ "sample_n": 120,
+ "exact_agreement": 0.642,
+ "bucket_agreement": 0.692,
+ "computed_at": "2026-10-10T22:37:07Z"
+}

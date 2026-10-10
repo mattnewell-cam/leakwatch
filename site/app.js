@@ -334,6 +334,8 @@
       ${cal.length ? `<div class="calib">${cal.map((b) => `<div class="col" title="${b.n} claims"><div class="exp" style="bottom:${b.mid}%"></div><div class="barv" style="height:${Math.round(b.rate * 100)}%"></div></div>`).join("")}</div>
       <div class="calib-labels">${cal.map((b) => `<span>${b.lo}–${b.hi}<br>${Math.round(b.rate * 100)}% · n=${b.n}</span>`).join("")}</div>
       <p class="note">Bars: observed hit rate. Dashed line: what a perfectly calibrated score would give.</p>` : ""}
+      ${m.audit ? `<h2>How accurate is the grading?</h2>
+      <p>${fmtNum(m.n_audited)} of the most score-relevant verdicts were re-checked by an independent auditor model, which corrected many of them. To measure the rest honestly, the auditor also graded a <b>blind random sample of ${m.audit.sample_n}</b> un-audited verdicts: it agreed on the outcome category (hit / partly / miss / excluded) <b>${Math.round(m.audit.bucket_agreement * 100)}%</b> of the time, and on the exact verdict ${Math.round(m.audit.exact_agreement * 100)}% of the time. Treat any single un-audited verdict accordingly — the aggregate scores are much more robust than individual grades.</p>` : ""}
       <h2>Caveats</h2>
       <ul><li>Automated grading makes mistakes; each claim links to its sources so you can check.</li>
       <li>Deleted tweets are only captured when the press or forums documented them.</li>

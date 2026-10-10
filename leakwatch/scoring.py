@@ -39,6 +39,11 @@ def effective_verdict(c):
     """Normalize the resolver verdict: true-ish claims that weren't ahead of public knowledge become already_public."""
     r = c.get("resolution") or {}
     v = r.get("verdict") or "pending"
+    if v == "already_public":
+        # must point to an earlier public source; original finds/scoops need a strictly earlier one
+        pd = (r.get("public_date") or "")[:10]
+        if not pd or pd > c["date"][:10] or (is_scoop(c) and pd >= c["date"][:10]):
+            return "unverifiable"
     if v in ("true", "mostly_true", "partly_true") and r.get("public_date") and not is_scoop(c):
         try:
             # same-day "hits" can't be told apart from reacting to the launch -> no credit, no penalty
