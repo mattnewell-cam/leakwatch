@@ -5,7 +5,7 @@
   const app = $("#app");
   const S = { claims: [], leakers: [], meta: {}, byId: {}, byHandle: {}, claimsByHandle: {} };
   const UI = { feedTab: "latest", lab: "all", q: "", showStale: false, minScore: 0, limit: 60,
-               lbCat: "all", lbSort: "leak_score", lbDir: -1, profFilter: "all" };
+               lbGroup: "leakers", lbCat: "all", lbSort: "leak_score", lbDir: -1, profFilter: "all" };
 
   const VERDICT_LABEL = {
     true: "Came true", mostly_true: "Mostly true", partly_true: "Partly true", false: "False",
@@ -215,17 +215,22 @@
   }
   function renderLeaderboard() {
     const MIN = S.meta.min_resolved_for_rank || 5;
-    const cats = ["all", ...new Set(S.leakers.map((l) => l.category))];
-    let ranked = S.leakers.filter((l) => l.stats.n_resolved >= MIN && (UI.lbCat === "all" || l.category === UI.lbCat));
-    const unranked = S.leakers.filter((l) => l.stats.n_resolved < MIN && (UI.lbCat === "all" || l.category === UI.lbCat));
-    if (UI.lbSort !== "rank") ranked.sort((a, b) => { const va = lbValue(a, UI.lbSort), vb = lbValue(b, UI.lbSort);
+    const inGroup = (l) => UI.lbGroup === "all" || l.group === UI.lbGroup;
+    const cats = ["all", ...new Set(S.leakers.filter(inGroup).map((l) => l.category))];
+    if (!cats.includes(UI.lbCat)) UI.lbCat = "all";
+    const pool = S.leakers.filter((l) => inGroup(l) && (UI.lbCat === "all" || l.category === UI.lbCat));
+    let ranked = pool.filter((l) => l.stats.n_resolved >= MIN && l.rank);
+    const unranked = pool.filter((l) => !(l.stats.n_resolved >= MIN && l.rank));
+    // rank shown = position by leak score within the current view
+    const pos = {}; ranked.slice().sort((a, b) => b.stats.leak_score - a.stats.leak_score).forEach((l, i) => (pos[l.handle] = i + 1));
+    if (UI.lbSort === "rank") ranked.sort((a, b) => pos[a.handle] - pos[b.handle]);
+    else ranked.sort((a, b) => { const va = lbValue(a, UI.lbSort), vb = lbValue(b, UI.lbSort);
       return (va > vb ? 1 : va < vb ? -1 : 0) * UI.lbDir || (b.stats.leak_score - a.stats.leak_score); });
-    else ranked.sort((a, b) => (a.rank || 999) - (b.rank || 999));
-    const row = (l, i) => {
-      const s = l.stats;
+    const row = (l) => {
+      const s = l.stats, r = pos[l.handle];
       const rec = (l.record || []).slice(-24).map((v) => `<i class="bg-${v}" title="${VERDICT_LABEL[v]}"></i>`).join("");
       return `<tr data-leaker="${esc(l.handle)}">
-        <td class="rank ${l.rank && l.rank <= 3 ? "top" : ""}">${l.rank || "–"}</td>
+        <td class="rank ${r && r <= 3 ? "top" : ""}">${r || "–"}</td>
         <td><div class="lbwho">${avatar(l, "md")}<div><div class="n1">${esc(l.name)}</div><div class="n2">@${esc(l.handle)} · <span class="catbadge">${CAT_LABEL[l.category] || l.category}</span></div></div></div></td>
         <td class="num"><div class="scorebar"><span class="mono">${s.leak_score.toFixed(0)}</span><span class="bar"><i style="width:${Math.min(100, s.leak_score)}%"></i></span></div></td>
         <td class="num mono" title="Bayesian credibility; raw hit rate ${pct(s.hit_rate_raw)}">${pct(s.credibility)}</td>
@@ -236,13 +241,21 @@
         <td class="num mono">${s.impact.toFixed(1)}</td>
         <td><div class="strip">${rec}</div></td></tr>`;
     };
-    app.innerHTML = `<section class="lb-head"><h1>Leaker leaderboard</h1>
-      <p>Ranked by <b>Leak score</b>: accuracy (a Bayesian hit rate, so tiny samples can't top the board) × the volume of significant claims they got right <i>before</i> they were public. Click a column to re-sort, or a leaker for their full record. Accounts need ${MIN}+ resolved claims to be ranked.</p></section>
-      <div class="controls"><div class="seg" id="cats">${cats.map((c) => `<button data-cat="${c}" class="${UI.lbCat === c ? "on" : ""}">${c === "all" ? "All" : CAT_LABEL[c] || c}</button>`).join("")}</div></div>
+    const blurb = UI.lbGroup === "journalists"
+      ? "Reporters who break AI-lab stories on X. Graded only on independent confirmation — their own article doesn't count as proof. Lead time is measured to official confirmation."
+      : UI.lbGroup === "all" ? "Everyone we track, leakers and journalists together."
+      : "Anonymous insiders, code sleuths, aggregators and commentators. Ranked by <b>Leak score</b>: accuracy (a Bayesian hit rate, so tiny samples can't top the board) × the volume of significant claims they got right <i>before</i> they were public.";
+    app.innerHTML = `<section class="lb-head"><h1>Leaderboard</h1>
+      <p>${blurb} Click a column to re-sort, or a row for the full record. ${MIN}+ resolved claims needed to rank.</p></section>
+      <div class="controls">
+        <div class="seg" id="grp">${[["leakers", "Leakers"], ["journalists", "Journalists"], ["all", "All"]].map(([k, v]) => `<button data-g="${k}" class="${UI.lbGroup === k ? "on" : ""}">${v}</button>`).join("")}</div>
+        ${cats.length > 2 ? `<div class="seg" id="cats">${cats.map((c) => `<button data-cat="${c}" class="${UI.lbCat === c ? "on" : ""}">${c === "all" ? "All types" : CAT_LABEL[c] || c}</button>`).join("")}</div>` : ""}
+      </div>
       <div class="table-wrap"><table class="lb"><thead><tr>${LB_COLS.map(([k, label, num]) => `<th data-sort="${k}" class="${num ? "num" : ""} ${UI.lbSort === k ? "sorted" : ""}">${label}${UI.lbSort === k ? (UI.lbDir < 0 ? " ↓" : " ↑") : ""}</th>`).join("")}</tr></thead>
       <tbody>${ranked.map(row).join("")}</tbody></table></div>
       ${unranked.length ? `<div class="section-title">Not enough resolved claims yet</div><div class="table-wrap"><table class="lb"><tbody>${unranked.sort((a, b) => b.stats.n_claims - a.stats.n_claims).map(row).join("")}</tbody></table></div>` : ""}`;
-    $("#cats").onclick = (e) => { const b = e.target.closest("button"); if (!b) return; UI.lbCat = b.dataset.cat; renderLeaderboard(); };
+    $("#grp").onclick = (e) => { const b = e.target.closest("button"); if (!b) return; UI.lbGroup = b.dataset.g; UI.lbCat = "all"; renderLeaderboard(); };
+    const cs = $("#cats"); if (cs) cs.onclick = (e) => { const b = e.target.closest("button"); if (!b) return; UI.lbCat = b.dataset.cat; renderLeaderboard(); };
     app.querySelectorAll("th[data-sort]").forEach((th) => th.onclick = () => {
       const k = th.dataset.sort; if (k === "record") return;
       if (UI.lbSort === k) UI.lbDir *= -1; else { UI.lbSort = k; UI.lbDir = k === "handle" || k === "rank" ? 1 : -1; }
@@ -268,7 +281,7 @@
           <div class="sub">@${esc(l.handle)}${(l.aliases || []).length ? ` (formerly ${l.aliases.map((a) => "@" + esc(a)).join(", ")})` : ""} · <span class="catbadge">${CAT_LABEL[l.category] || l.category}</span> · ${fmtNum(l.followers)} followers ·
             <a class="link" href="https://x.com/${esc(l.handle)}" target="_blank" rel="noopener">X profile ↗</a></div>
           ${l.bio ? `<div class="bio">${esc(l.bio)}</div>` : ""}</div>
-        <div style="text-align:center">${ring(s.leak_score, "lg")}<div class="note" style="margin-top:6px">Leak score${l.rank ? ` · #${l.rank}` : ""}</div></div>
+        <div style="text-align:center">${ring(s.leak_score, "lg")}<div class="note" style="margin-top:6px">Leak score${l.rank ? ` · #${l.rank} ${l.group === "journalists" ? "journalist" : "leaker"}` : ""}</div></div>
       </section>
       ${l.summary ? `<div class="panel" style="margin-top:6px"><h3>Verdict on this leaker</h3><div>${esc(l.summary)}</div></div>` : ""}
       <div class="kv" style="margin:14px 0 6px">

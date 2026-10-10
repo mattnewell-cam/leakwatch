@@ -1,5 +1,7 @@
 """Minimal OpenAI Responses API wrapper returning schema-validated JSON."""
 import json
+import random
+import re
 import time
 
 import requests
@@ -24,13 +26,15 @@ def call_json(model, system, user, schema, name="out", web_search=False, reasoni
     if max_tool_calls:
         body["max_tool_calls"] = max_tool_calls
     last = None
-    for attempt in range(5):
+    for attempt in range(12):
         try:
             r = requests.post(URL, json=body, timeout=timeout,
                               headers={"Authorization": f"Bearer {OPENAI_KEY}"})
             if r.status_code in (429, 500, 502, 503, 504):
                 last = r.text[:300]
-                time.sleep(3 + attempt * 5)
+                m = re.search(r"try again in ([\d.]+)(ms|s)", r.text)
+                wait = (float(m.group(1)) / (1000 if m.group(2) == "ms" else 1)) if m else 3 + attempt * 5
+                time.sleep(min(60, wait + 1 + random.random() * 3))
                 continue
             r.raise_for_status()
             d = r.json()

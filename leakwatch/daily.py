@@ -15,7 +15,7 @@ from .resolve import resolve_many
 from .twitter import Budget, TwitterAPI
 
 DAILY_CREDIT_CAP = 20_000          # ~ $0.20/day of twitterapi.io credit
-MAX_RESOLVE_PER_DAY = 160
+MAX_RESOLVE_PER_DAY = 120
 VIRAL_MIN_LIKES = 400              # untracked accounts only surface if a claim goes viral
 NEWCOMER_MIN_FOLLOWERS = 2000
 NEWCOMER_MIN_ACCOUNT_AGE_DAYS = 120
@@ -200,14 +200,17 @@ def main():
                 return False
             last = (r.get("resolved_at") or "2000-01-01")[:10]
             overdue = (c.get("resolve_by") or "9999") <= today
-            stale_check = (date.fromisoformat(today) - date.fromisoformat(last)).days >= (2 if overdue else 7)
+            stale_check = (date.fromisoformat(today) - date.fromisoformat(last)).days >= (3 if overdue else 14)
             return stale_check
         todo = [c for c in claims if due(c)]
         todo.sort(key=lambda c: (0 if (c.get("resolve_by") or "9999") <= today else 1,
                                  ((c.get("resolution") or {}).get("resolved_at") or "")))
         todo = todo[:MAX_RESOLVE_PER_DAY]
         log(f"resolving {len(todo)} claims")
-        res = resolve_many(todo, batch=8, workers=8, model=MODEL_SMART, today=today, log=log)
+        res = resolve_many([c for c in todo if c["significance"] >= 4], batch=8, workers=6, model=MODEL_SMART,
+                           today=today, log=log)
+        res.update(resolve_many([c for c in todo if c["significance"] < 4], batch=8, workers=6, model=MODEL_FAST,
+                                today=today, log=log))
         byid = {c["id"]: c for c in claims}
         for k, v in res.items():
             c = byid.get(k)

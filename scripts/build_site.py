@@ -10,8 +10,10 @@ REPO_URL = "https://github.com/mattnewell-cam/leakwatch"
 
 
 def main():
-    claims = load_json(DATA / "claims.json", [])
-    accounts = {a["handle"].lower(): a for a in load_json(DATA / "accounts.json", []) if not a.get("skip")}
+    all_accounts = load_json(DATA / "accounts.json", [])
+    accounts = {a["handle"].lower(): a for a in all_accounts if not a.get("skip")}
+    skipped = {a["handle"].lower() for a in all_accounts if a.get("skip")}
+    claims = [c for c in load_json(DATA / "claims.json", []) if c["handle"].lower() not in skipped]
     profiles = load_json(DATA / "profiles.json", {})  # handle -> {summary}
     newcomers = load_json(DATA / "newcomers.json", {})
     by_handle = defaultdict(list)
@@ -55,8 +57,14 @@ def main():
         })
     ranked = sorted([l for l in leakers if l["stats"]["n_resolved"] >= MIN_RESOLVED and l["tracked"]],
                     key=lambda l: -l["stats"]["leak_score"])
-    for i, l in enumerate(ranked):
-        l["rank"] = i + 1
+    # journalists play a different game (institutional sourcing) - rank them separately
+    for grp in ("journalists", "leakers"):
+        members = [l for l in ranked if (l["category"] == "journalist") == (grp == "journalists")]
+        for i, l in enumerate(members):
+            l["rank"] = i + 1
+            l["group"] = grp
+    for l in leakers:
+        l.setdefault("group", "journalists" if l["category"] == "journalist" else "leakers")
     leakers.sort(key=lambda l: (l.get("rank") or 9999, -l["stats"]["n_claims"]))
 
     # legitimacy, no hindsight

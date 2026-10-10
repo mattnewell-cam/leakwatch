@@ -42,6 +42,13 @@ JOURNALISTS: if account_type is journalist and the tweet promotes their own outl
 do NOT mark it already_public just because their article appeared that day - judge whether the reporting proved true
 (public_date = their report date, official_date = official confirmation). Only mark already_public if someone else
 had already reported it earlier.
+NO CIRCULAR EVIDENCE: a report is never confirmation of itself. A journalist's article, or a leaker's own tweet, or
+articles merely repeating that report, do NOT make a claim true. "true"/"mostly_true" require INDEPENDENT confirmation:
+official announcement/confirmation, the event verifiably happening (deal closed, model shipped, person left), or a
+different outlet confirming with its own sources. "In talks"/"considering"/"planning" claims: true only if the
+talks/plan were later confirmed or the outcome happened; false if it verifiably fell through or the opposite happened;
+otherwise unverifiable. Internal-state claims (memos, revenue figures, internal tensions) with no independent
+confirmation are unverifiable.
 explanation: 1-2 crisp sentences: what happened vs what was claimed, with dates.
 evidence: 1-3 sources (official post or reputable article) - real URLs you actually found, no fabrication.
 confidence: your confidence in the verdict.
@@ -69,7 +76,7 @@ def _category(handle):
 
 
 def _fmt(c):
-    tw = "\n".join(f"   tweet ({t['created_at'][:10]}): {t['text'][:700]}" for t in c.get("tweets", [])[:2])
+    tw = "\n".join(f"   tweet ({t['created_at'][:10]}): {t['text'][:500]}" for t in c.get("tweets", [])[:2])
     return (f"id={c['id']} | @{c['handle']} | claimed {c['date'][:10]} | lab={c['lab']} | resolve_by={c.get('resolve_by')}\n"
             f"   CLAIM: {c['claim']}\n{tw}")
 

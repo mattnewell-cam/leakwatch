@@ -16,9 +16,13 @@ def main():
     todo = [c for c in claims if not c.get("resolution") and c["specificity"] >= 2]
     todo.sort(key=lambda c: (c["lab"], c["date"]))
     jobs = []
-    for model, group in ((MODEL_SMART, [c for c in todo if c["significance"] >= 3]),
-                         (MODEL_FAST, [c for c in todo if c["significance"] < 3])):
-        jobs += [(model, group[i:i + 8]) for i in range(0, len(group), 8)]
+    big = [c for c in todo if c["significance"] >= 4]
+    small = [c for c in todo if c["significance"] < 4]
+    jb = [(MODEL_SMART, big[i:i + 8]) for i in range(0, len(big), 8)]
+    js = [(MODEL_FAST, small[i:i + 8]) for i in range(0, len(small), 8)]
+    # interleave so both models' rate limits are used at once
+    for i in range(max(len(jb), len(js))):
+        jobs += jb[i:i + 1] + js[i:i + 1]
     print(f"todo {len(todo)} claims in {len(jobs)} batches", flush=True)
     lock = threading.Lock()
     done = 0
