@@ -1,0 +1,2786 @@
+[
+ {
+  "date": "2023-01-23",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "Microsoft multi-year multibillion investment in OpenAI",
+  "detail": "Microsoft extends partnership with a reported ~$10B investment, implying roughly a $29B valuation.",
+  "source_url": "https://openai.com/index/microsoft-extends-partnership/"
+ },
+ {
+  "date": "2023-02-01",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT Plus launched at $20/month",
+  "detail": "Paid subscription tier for ChatGPT with priority access and faster response times.",
+  "source_url": "https://openai.com/index/chatgpt-plus/"
+ },
+ {
+  "date": "2023-02-03",
+  "lab": "Google",
+  "type": "deal",
+  "title": "Google invests about $300M in Anthropic",
+  "detail": "Google took a stake in Anthropic in early 2023, reported as about $300M for roughly 10%. Not verified in this session.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-02-06",
+  "lab": "Google",
+  "type": "product",
+  "title": "Google announces Bard (soft launch to trusted testers)",
+  "detail": "Sundar Pichai announced Bard, a LaMDA-based chatbot, for trusted testers, with a broader public rollout to follow. Bard was later opened publicly in the US and UK around 2023-03-21.",
+  "source_url": "https://techcabal.com/2023/02/06/google-unveils-bard-a-chatbot-rival/"
+ },
+ {
+  "date": "2023-03-03",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Reid Hoffman leaves OpenAI board",
+  "detail": "Reported departure of Reid Hoffman from the board.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-03-14",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-4 announced",
+  "detail": "Multimodal model accepting image and text input, released to ChatGPT Plus and via API waitlist.",
+  "source_url": "https://openai.com/index/gpt-4-research/"
+ },
+ {
+  "date": "2023-03-23",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT plugins beta",
+  "detail": "Third-party plugin ecosystem launched for ChatGPT in beta.",
+  "source_url": "https://openai.com/index/chatgpt-plugins/"
+ },
+ {
+  "date": "2023-04-20",
+  "lab": "Google",
+  "type": "leadership",
+  "title": "Google Brain and DeepMind merge into Google DeepMind",
+  "detail": "Google combined Google Brain and DeepMind into one unit under Demis Hassabis. Not verified in this session.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-05-10",
+  "lab": "Google",
+  "type": "product",
+  "title": "Google I/O 2023: PaLM 2 and Bard expansion",
+  "detail": "Google I/O 2023 announced PaLM 2 and expanded Bard. Not verified in this session.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-05-22",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "Governance of superintelligence post",
+  "detail": "Altman, Brockman and Sutskever propose an IAEA-style international oversight body for superintelligence.",
+  "source_url": "https://openai.com/index/governance-of-superintelligence/"
+ },
+ {
+  "date": "2023-06-28",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Class action over alleged scraping of training data filed in San Francisco",
+  "detail": "Sixteen anonymous plaintiffs sue over alleged use of about 300 billion words of internet data.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-07-05",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "Superalignment initiative announced",
+  "detail": "Dedicated team to solve alignment of superintelligent systems, with 20 percent of compute pledged.",
+  "source_url": "https://openai.com/index/introducing-superalignment/"
+ },
+ {
+  "date": "2023-07-07",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Authors Silverman, Tremblay and others sue OpenAI for copyright infringement",
+  "detail": "Copyright suit over use of books in training data.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-07-11",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude 2 released (public beta, US and UK first)",
+  "detail": "Claude 2 launched with a 100K-token context window; API access for businesses and claude.ai for US/UK users.",
+  "source_url": "https://www.androidheadlines.com/2023/07/anthropic-launches-claude-2-ai-chatbot.html"
+ },
+ {
+  "date": "2023-07-13",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "FTC civil investigative demand reported",
+  "detail": "FTC probe into data security and privacy practices, reported in July 2023.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-07-18",
+  "lab": "Meta",
+  "type": "model_release",
+  "title": "Llama 2 released with Microsoft Azure and Windows support",
+  "detail": "Open-weight Llama 2 for research and commercial use, announced jointly with Microsoft at Microsoft Inspire and added to the Azure AI catalog.",
+  "source_url": "https://blogs.microsoft.com/blog/2023/07/18/microsoft-and-meta-expand-their-ai-partnership-with-llama-2-on-azure-and-windows/"
+ },
+ {
+  "date": "2023-08-16",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Acquires Global Illumination",
+  "detail": "Small product and infrastructure team acquisition to support ChatGPT work.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-08-28",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT Enterprise launched",
+  "detail": "Business tier with admin controls, no training on customer data by default, and longer context.",
+  "source_url": "https://openai.com/index/introducing-chatgpt-enterprise/"
+ },
+ {
+  "date": "2023-09-19",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Authors Guild class action filed (17 authors incl. George R. R. Martin)",
+  "detail": "Copyright class action over training on author works.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-09-20",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "DALL-E 3 announced",
+  "detail": "Text-to-image model integrated with ChatGPT; rolled out to ChatGPT Plus and Enterprise in October 2023.",
+  "source_url": "https://openai.com/index/dall-e-3/"
+ },
+ {
+  "date": "2023-09-25",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT voice and image input rolled out",
+  "detail": "Voice conversations and image understanding (GPT-4V) added to ChatGPT for paid users.",
+  "source_url": "https://openai.com/index/chatgpt-can-now-see-hear-and-speak/"
+ },
+ {
+  "date": "2023-09-25",
+  "lab": "Anthropic",
+  "type": "deal",
+  "title": "Amazon agrees to invest up to $4B in Anthropic",
+  "detail": "Initial $1.25B in cash; Amazon chose AWS as primary cloud. Later tranches followed in 2024.",
+  "source_url": "https://rightstech.com/2023/09/amazon-steps-up-ai-race-with-up-to-4-billion-deal-to-invest-in-anthropic/"
+ },
+ {
+  "date": "2023-10-18",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Music publishers (Concord, UMG, ABKCO) sue Anthropic over lyrics (Concord I)",
+  "detail": "Lawsuit filed in N.D. Cal. over 499 works. Filing month is confirmed by sources; exact day is from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-10-19",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "DALL-E 3 rolled out in ChatGPT Plus",
+  "detail": "Image generation available to paying ChatGPT subscribers.",
+  "source_url": "https://openai.com/index/dall-e-3/"
+ },
+ {
+  "date": "2023-10-27",
+  "lab": "Google",
+  "type": "deal",
+  "title": "Google commits up to $2B to Anthropic",
+  "detail": "Additional Google investment in Anthropic, reported Oct 2023. Not verified in this session.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-11-06",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-4 Turbo preview announced at DevDay 2023",
+  "detail": "128k context window, cheaper API pricing, knowledge cutoff April 2023; gpt-4-1106-preview.",
+  "source_url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+ },
+ {
+  "date": "2023-11-06",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "DevDay 2023: GPTs, GPT Store preview, Assistants API",
+  "detail": "Custom GPTs announced; Assistants API and multimodal API features launched.",
+  "source_url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+ },
+ {
+  "date": "2023-11-17",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Board fires Sam Altman as CEO; Mira Murati named interim CEO",
+  "detail": "Board statement cites lack of consistent candor. Greg Brockman also removed from board.",
+  "source_url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman"
+ },
+ {
+  "date": "2023-11-18",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Greg Brockman resigns",
+  "detail": "Brockman quits after Altman's removal; several senior researchers also leave.",
+  "source_url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman"
+ },
+ {
+  "date": "2023-11-19",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Emmett Shear named interim CEO after Altman return talks fail",
+  "detail": "Murati replaced as interim CEO after the board's talks with Altman collapse.",
+  "source_url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman"
+ },
+ {
+  "date": "2023-11-21",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Altman reinstated as CEO; new board with Bret Taylor as chair",
+  "detail": "Agreement in principle restores Altman and Brockman; Larry Summers joins the board; Helen Toner, Tasha McCauley and Ilya Sutskever leave the board.",
+  "source_url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman"
+ },
+ {
+  "date": "2023-11-21",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude 2.1 released (200K context, tool use beta)",
+  "detail": "200K context window (Pro users); claimed 2x reduction in hallucination rate; system prompts and tool use (beta).",
+  "source_url": "https://www.anthropic.com/news/claude-2-1"
+ },
+ {
+  "date": "2023-11-29",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Microsoft gets non-voting board observer seat",
+  "detail": "Microsoft representative joins the board as a non-voting observer.",
+  "source_url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2023-12-06",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 1.0 announced (Ultra, Pro, Nano)",
+  "detail": "Gemini 1.0 launched in Ultra, Pro and Nano sizes. Pro powered Bard; Nano shipped on Pixel 8 Pro. Ultra was limited to early testers at launch.",
+  "source_url": "https://www.axios.com/2023/12/06/google-gemini-bard-race-against-openai"
+ },
+ {
+  "date": "2023-12-27",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "New York Times sues OpenAI and Microsoft for copyright infringement",
+  "detail": "Filed in the Southern District of New York over use of Times articles for training.",
+  "source_url": "https://en.wikipedia.org/wiki/The_New_York_Times_Company_v._Microsoft_Corporation"
+ },
+ {
+  "date": "2024-01-10",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "GPT Store launched; ChatGPT Team plan introduced",
+  "detail": "Marketplace for custom GPTs opens; Team plan offers shared workspace for small businesses.",
+  "source_url": "https://openai.com/index/introducing-the-gpt-store/"
+ },
+ {
+  "date": "2024-02-08",
+  "lab": "Google",
+  "type": "product",
+  "title": "Bard renamed Gemini; Gemini Advanced (Ultra 1.0) and Android app launched",
+  "detail": "Bard became Gemini, with a paid Gemini Advanced tier running Ultra 1.0 and a new Gemini Android app.",
+  "source_url": "https://campustechnology.com/Articles/2024/02/09/Google-Renames-Bard-Introduces-Tiered-Models-and-Pricing.aspx"
+ },
+ {
+  "date": "2024-02-13",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT memory test begins",
+  "detail": "ChatGPT can remember user details across conversations, first tested with a subset of users.",
+  "source_url": "https://openai.com/index/memory-and-new-controls-for-chatgpt/"
+ },
+ {
+  "date": "2024-02-15",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "Sora text-to-video model announced (not publicly released)",
+  "detail": "Video generation model shown to select red-teamers and creatives.",
+  "source_url": "https://openai.com/index/sora/"
+ },
+ {
+  "date": "2024-02-15",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 1.5 Pro announced (limited preview, 1M context)",
+  "detail": "Gemini 1.5 Pro previewed to developers and enterprises via AI Studio and Vertex AI with a 1M-token context window. Some sources say Feb 16.",
+  "source_url": "https://www.techtarget.com/whatis/feature/Gemini-15-Pro-explained-Everything-you-need-to-know"
+ },
+ {
+  "date": "2024-02-21",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemma 2B and 7B released (open-weights family)",
+  "detail": "First Gemma release, built from Gemini research. Initially under Google's own terms, not a standard open-source license.",
+  "source_url": "https://en.wikipedia.org/wiki/Gemma_(language_model)"
+ },
+ {
+  "date": "2024-02-28",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "SEC reportedly investigating whether investors were misled about Altman",
+  "detail": "WSJ-reported SEC inquiry into Altman's candor with investors.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-02-29",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Elon Musk sues OpenAI and Sam Altman",
+  "detail": "Suit alleges OpenAI shifted from nonprofit public-benefit mission toward profit.",
+  "source_url": "https://en.wikipedia.org/wiki/Musk_v._Altman"
+ },
+ {
+  "date": "2024-03-04",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude 3 family (Haiku, Sonnet, Opus) announced",
+  "detail": "Opus and Sonnet available at launch; Haiku promised 'soon'.",
+  "source_url": "https://anthropic.com/news/claude-3-family"
+ },
+ {
+  "date": "2024-03-13",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude 3 Haiku becomes available",
+  "detail": "Haiku became generally available after the 2024-03-04 launch. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-03-18",
+  "lab": "Nvidia",
+  "type": "product",
+  "title": "Nvidia unveils Blackwell B200 and GB200 at GTC 2024",
+  "detail": "B200 GPU and GB200 platform (Grace CPU plus B200 GPUs; GB200 NVL72 rack). Nvidia claimed about 5x inference performance over H100 (vendor claim).",
+  "source_url": "https://seekingalpha.com/news/4080570-nvidia-gtc-2024-tech-giant-shows-off-tk"
+ },
+ {
+  "date": "2024-04-09",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "OpenAI countersues Musk",
+  "detail": "Counterclaim alleges bad-faith litigation tactics.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-04-18",
+  "lab": "Meta",
+  "type": "model_release",
+  "title": "Llama 3 released (8B and 70B)",
+  "detail": "Open-weight Llama 3 in 8B and 70B sizes, pre-trained on about 15T tokens; Meta AI assistant launched alongside.",
+  "source_url": "https://amitysolutions.com/blog/meta-llama-3-the-ultimate-large-language-model"
+ },
+ {
+  "date": "2024-04-30",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Eight newspapers sue OpenAI and Microsoft",
+  "detail": "Copyright suit in SDNY over alleged harvesting of news articles.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2024-05-13",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-4o announced (omni model, free tier access)",
+  "detail": "Native audio, vision and text model; faster and cheaper than GPT-4 Turbo; made available to free users.",
+  "source_url": "https://openai.com/index/hello-gpt-4o/"
+ },
+ {
+  "date": "2024-05-14",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Ilya Sutskever resigns; Jakub Pachocki named chief scientist",
+  "detail": "Co-lead of superalignment departs.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2024-05-14",
+  "lab": "Google",
+  "type": "product",
+  "title": "Google I/O 2024: Gemini 1.5 Flash, Project Astra, Imagen 3, Veo, Trillium TPU",
+  "detail": "Keynote launched Gemini 1.5 Flash (1M context), previewed Project Astra, Imagen 3, Veo, Gemini Live, and the Trillium TPU.",
+  "source_url": "https://blog.google/technology/ai/google-io-2024-100-announcements/"
+ },
+ {
+  "date": "2024-05-14",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 1.5 Flash announced",
+  "detail": "Lighter, faster Gemini 1.5 model for high-volume tasks; fastest Gemini in the API at launch.",
+  "source_url": "https://blog.google/technology/ai/google-io-2024-100-announcements/"
+ },
+ {
+  "date": "2024-05-14",
+  "lab": "Google",
+  "type": "product",
+  "title": "Project Astra previewed",
+  "detail": "Real-time multimodal assistant prototype shown at I/O 2024.",
+  "source_url": "https://blog.google/technology/ai/google-io-2024-100-announcements/"
+ },
+ {
+  "date": "2024-05-16",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Reddit content partnership announced",
+  "detail": "Licensing deal giving OpenAI access to Reddit data for ChatGPT.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2024-05-17",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Jan Leike departs; superalignment team dissolved",
+  "detail": "Leike cites safety culture concerns; team folded into other research.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2024-05-22",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "News Corp content agreement",
+  "detail": "Licensing deal covering WSJ, New York Post, The Times and The Sunday Times.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2024-05-23",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "Former employees released from non-disparagement agreements",
+  "detail": "OpenAI memo ends the lifelong non-disparagement clause for departing staff.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2024-06-10",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Sarah Friar hired as first CFO",
+  "detail": "Former Nextdoor CEO joins as chief financial officer.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-06-10",
+  "lab": "Apple",
+  "type": "product",
+  "title": "Apple Intelligence announced at WWDC 2024, with ChatGPT integration",
+  "detail": "Apple Intelligence announced for iOS 18, iPadOS 18 and macOS Sequoia. ChatGPT integration into Siri and Writing Tools is opt-in, rolling out later in 2024.",
+  "source_url": "https://www.thedrum.com/news/2024/06/10/apple-unveils-apple-intelligence-openai-partnership-wwdc-2024"
+ },
+ {
+  "date": "2024-06-20",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude 3.5 Sonnet released",
+  "detail": "Outperformed Claude 3 Opus at half the price. Some sources say June 21.",
+  "source_url": "https://www.longtermwiki.com/wiki/E1030",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-06-20",
+  "lab": "Anthropic",
+  "type": "product",
+  "title": "Claude Artifacts launched with Claude 3.5 Sonnet",
+  "detail": "Artifacts shipped alongside Claude 3.5 Sonnet. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-06-27",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemma 2 (9B, 27B) released",
+  "detail": "Second Gemma generation, 9B and 27B sizes.",
+  "source_url": "https://en.wikipedia.org/wiki/Gemma_(language_model)"
+ },
+ {
+  "date": "2024-07-18",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-4o mini released",
+  "detail": "Small, low-cost model replacing GPT-3.5 Turbo as the default cheap API model.",
+  "source_url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+ },
+ {
+  "date": "2024-07-23",
+  "lab": "Meta",
+  "type": "model_release",
+  "title": "Llama 3.1 released, including 405B",
+  "detail": "Llama 3.1 collection of 8B, 70B and 405B models with 128K context. The 405B model was the first Llama model at that size.",
+  "source_url": "https://www.ibm.com/blog/llama-3/"
+ },
+ {
+  "date": "2024-07-24",
+  "lab": "Mistral",
+  "type": "model_release",
+  "title": "Mistral Large 2 (123B) released",
+  "detail": "123B-parameter flagship with 128K context. Weights under the Mistral Research License; commercial use via the paid API or a commercial license. Benchmarks are vendor-reported.",
+  "source_url": "https://simonwillison.net/2024/Jul/24/mistral-large-2"
+ },
+ {
+  "date": "2024-07-30",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "Advanced Voice Mode alpha to ChatGPT Plus",
+  "detail": "Limited alpha of real-time voice conversation with GPT-4o for paid users.",
+  "source_url": "https://openai.com/index/hello-gpt-4o/"
+ },
+ {
+  "date": "2024-08-05",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "John Schulman leaves for Anthropic; Greg Brockman takes extended leave",
+  "detail": "Schulman, a co-founder, departs; Brockman steps back until November.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2024-08-06",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "gpt-4o-2024-08-06 with Structured Outputs",
+  "detail": "Updated GPT-4o snapshot with JSON schema-constrained outputs in the API.",
+  "source_url": "https://openai.com/index/introducing-structured-outputs-in-the-api/"
+ },
+ {
+  "date": "2024-09-12",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "o1-preview and o1-mini released",
+  "detail": "First o-series reasoning models in ChatGPT and API.",
+  "source_url": "https://openai.com/index/introducing-openai-o1-preview/"
+ },
+ {
+  "date": "2024-09-24",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "Advanced Voice Mode rolled out to all Plus users",
+  "detail": "Broader release of real-time voice in ChatGPT.",
+  "source_url": "https://openai.com/index/hello-gpt-4o/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-09-25",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Mira Murati, Bob McGrew and Barret Zoph depart",
+  "detail": "CTO Murati and research leaders leave the company the same day.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2024-10-01",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "DevDay 2024: Realtime API, prompt caching, vision fine-tuning",
+  "detail": "Realtime API for speech-to-speech in beta; prompt caching for lower API cost.",
+  "source_url": "https://openai.com/index/introducing-the-realtime-api/"
+ },
+ {
+  "date": "2024-10-02",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "$6.6B raise at $157B post-money valuation",
+  "detail": "Led by Thrive Capital with Microsoft and Nvidia participating; revolving credit facility added.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2024-10-03",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "Canvas launched in ChatGPT",
+  "detail": "Side-by-side editor for writing and code.",
+  "source_url": "https://openai.com/index/introducing-canvas/"
+ },
+ {
+  "date": "2024-10-22",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Upgraded Claude 3.5 Sonnet, new Claude 3.5 Haiku, and computer use (public beta)",
+  "detail": "Computer use launched with the upgraded Sonnet, not Haiku. Haiku was announced for later that month.",
+  "source_url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+ },
+ {
+  "date": "2024-10-31",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT search launched",
+  "detail": "Web search with citations integrated into ChatGPT for all users.",
+  "source_url": "https://openai.com/index/introducing-chatgpt-search/"
+ },
+ {
+  "date": "2024-11-04",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude 3.5 Haiku generally available",
+  "detail": "Haiku became available after the 2024-10-22 announcement; date is from LongTermWiki and may be off by days.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-11-22",
+  "lab": "Anthropic",
+  "type": "deal",
+  "title": "Amazon commits another $4B to Anthropic; AWS named primary training partner",
+  "detail": "Second $4B Amazon commitment. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-11-25",
+  "lab": "Anthropic",
+  "type": "product",
+  "title": "Model Context Protocol (MCP) introduced as open standard",
+  "detail": "Open protocol with Python and TypeScript SDKs and reference servers (Google Drive, Slack, GitHub, Git, Postgres, Puppeteer).",
+  "source_url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
+ },
+ {
+  "date": "2024-12-04",
+  "lab": "Google",
+  "type": "product",
+  "title": "Genie 2 world model announced",
+  "detail": "DeepMind's second-generation generative world model. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-12-05",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "o1 full release in ChatGPT and API",
+  "detail": "Full o1 model replaces o1-preview; part of the 12 Days of OpenAI event.",
+  "source_url": "https://openai.com/index/introducing-openai-o1/"
+ },
+ {
+  "date": "2024-12-05",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT Pro launched at $200/month",
+  "detail": "Higher-limit tier with unlimited o1 and advanced voice access.",
+  "source_url": "https://openai.com/index/introducing-chatgpt-pro/"
+ },
+ {
+  "date": "2024-12-09",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "Sora released publicly to ChatGPT Plus and Pro",
+  "detail": "Text-to-video generation available at sora.com.",
+  "source_url": "https://openai.com/index/sora-is-here/"
+ },
+ {
+  "date": "2024-12-11",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 2.0 Flash (experimental) announced",
+  "detail": "Google's 'agentic era' model, outperforming 1.5 Pro at twice the speed. Google's blog is dated Dec 12; the social announcement is Dec 11.",
+  "source_url": "https://blog.google/intl/en-nz/company-news/2024_12_introducing-gemini-20-our-new-ai-mode/"
+ },
+ {
+  "date": "2024-12-11",
+  "lab": "Google",
+  "type": "product",
+  "title": "Project Mariner (browser agent) and Jules (code agent) announced",
+  "detail": "Project Mariner is an early Chrome-extension research prototype. Jules is a coding agent. Both were announced with Gemini 2.0.",
+  "source_url": "https://forklog.com/en/google-unveils-gemini-2-0-with-advanced-ai-enhancements/"
+ },
+ {
+  "date": "2024-12-12",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "Advanced Voice with video and screen sharing",
+  "detail": "Adds camera and screen sharing to real-time voice in ChatGPT.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-12-16",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Veo 2 announced",
+  "detail": "Google's video generation model. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-12-20",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "o3 and o3-mini announced (not released)",
+  "detail": "Shown on final day of 12 Days; o3-mini released later in January 2025.",
+  "source_url": "https://openai.com/12-days/"
+ },
+ {
+  "date": "2024-12-26",
+  "lab": "DeepSeek",
+  "type": "model_release",
+  "title": "DeepSeek-V3 released (671B MoE, 37B active)",
+  "detail": "Open-weight MoE model, 671B total and 37B active parameters, about 14.8T training tokens per the tech report. Weights appeared on Hugging Face around Dec 25; most sources date the announcement Dec 26, while some say Dec 24.",
+  "source_url": "https://arxiv.org/abs/2412.19437",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2024-12-27",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "Reports of plan to convert for-profit arm to public benefit corporation",
+  "detail": "Reported plan to restructure the capped-profit arm; later executed as the 2025 recapitalization.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-01-20",
+  "lab": "DeepSeek",
+  "type": "model_release",
+  "title": "DeepSeek-R1 released as open source under MIT license",
+  "detail": "Reasoning model that DeepSeek said matches OpenAI-o1 on benchmarks. Six distilled models (including 32B and 70B) were also open-sourced.",
+  "source_url": "https://deepseek.com/en/news/deepseek-r1/"
+ },
+ {
+  "date": "2025-01-21",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Stargate Project announced (Oracle, SoftBank, MGX)",
+  "detail": "Joint venture for up to $500B of US AI infrastructure over four years.",
+  "source_url": "https://openai.com/index/announcing-the-stargate-project/"
+ },
+ {
+  "date": "2025-01-22",
+  "lab": "Google",
+  "type": "deal",
+  "title": "Google reportedly invests about $1B more in Anthropic",
+  "detail": "Additional Google investment reported Jan 2025. Not verified in this session.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-01-23",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "Operator computer-using agent unveiled",
+  "detail": "Research preview for Pro users that uses its own browser to complete tasks.",
+  "source_url": "https://openai.com/index/introducing-operator/"
+ },
+ {
+  "date": "2025-01-28",
+  "lab": "Alibaba",
+  "type": "model_release",
+  "title": "Qwen2.5-Max released (closed MoE flagship)",
+  "detail": "Alibaba Cloud flagship positioned against GPT-4o, DeepSeek-V3 and Llama-3.1-405B on selected benchmarks (vendor claims). Not an open-weight release. Reports say Jan 28 or 29.",
+  "source_url": "https://gigazine.net/gsc_news/en/20250130-qwen-2-5-max-alibaba",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-01-31",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "o3-mini released",
+  "detail": "Cost-efficient reasoning model available free in ChatGPT with reasoning effort controls.",
+  "source_url": "https://openai.com/index/openai-o3-mini/"
+ },
+ {
+  "date": "2025-02-02",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "Deep research launched",
+  "detail": "Agent that browses the web and writes multi-page research reports; Pro tier first.",
+  "source_url": "https://openai.com/index/introducing-deep-research/"
+ },
+ {
+  "date": "2025-02-05",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 2.0 Flash GA; Gemini 2.0 Pro (experimental) and 2.0 Flash-Lite (preview) released",
+  "detail": "Developer-facing expansion of the Gemini 2.0 family. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-02-10",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Musk-led group makes $97.4B unsolicited bid for nonprofit",
+  "detail": "Bid rejected by OpenAI on 2025-02-14.",
+  "source_url": "https://en.wikipedia.org/wiki/Musk_v._Altman"
+ },
+ {
+  "date": "2025-02-17",
+  "lab": "xAI",
+  "type": "model_release",
+  "title": "Grok 3 unveiled (Reasoning and mini Reasoning)",
+  "detail": "Livestream on Feb 17 US time (Feb 18 elsewhere). Musk said trained on Colossus, which xAI described as over 100,000 Nvidia Hopper GPUs. Premium-only at launch, free by Feb 20. Benchmarks are company claims.",
+  "source_url": "https://smallest.ai/blog/elon-musks-grok-3-ai-launch-everything-you-need-to-know"
+ },
+ {
+  "date": "2025-02-24",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude 3.7 Sonnet (hybrid reasoning) and Claude Code research preview",
+  "detail": "First hybrid reasoning model; Claude Code launched as a limited research preview in the terminal.",
+  "source_url": "https://anthropic.com/news/claude-3-7-sonnet"
+ },
+ {
+  "date": "2025-02-27",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-4.5 research preview released",
+  "detail": "Large, non-reasoning model with improved writing and world knowledge; Pro tier first.",
+  "source_url": "https://openai.com/index/introducing-gpt-4-5/"
+ },
+ {
+  "date": "2025-03-03",
+  "lab": "Anthropic",
+  "type": "funding",
+  "title": "Series E: $3.5B at $61.5B post-money (Lightspeed lead)",
+  "detail": "Round led by Lightspeed Venture Partners. Other investors included Fidelity, Menlo, Salesforce Ventures and General Catalyst.",
+  "source_url": "https://orrick.com/News/2025/03/Anthropic-Raises-3-point-5-Billion-to-Advance-AI-Development-and-Expand-Compute-Capacity"
+ },
+ {
+  "date": "2025-03-07",
+  "lab": "Apple",
+  "type": "other",
+  "title": "Apple confirms personalized Siri features are delayed",
+  "detail": "Apple said onscreen awareness, personal context and App Intents features would take longer than expected; they had been promised for iOS 18.4 (April 2025). No new feature launched that day.",
+  "source_url": "https://9to5mac.com/2025/03/07/apple-intelligence-personal-siri-delayed/"
+ },
+ {
+  "date": "2025-03-10",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "CoreWeave $11.9B contract with OpenAI",
+  "detail": "Five-year compute capacity agreement reported by Reuters.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2025-03-11",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "Responses API and Agents SDK launched",
+  "detail": "Developer primitives for building agents, including built-in web search and file search tools.",
+  "source_url": "https://openai.com/index/new-tools-for-building-agents/"
+ },
+ {
+  "date": "2025-03-12",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemma 3 released (1B, 4B, 12B, 27B)",
+  "detail": "Gemma 3 open-weights family. Sources give March 10 or March 12.",
+  "source_url": "https://en.wikipedia.org/wiki/Gemma_(language_model)",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-03-25",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "Image generation in GPT-4o launched",
+  "detail": "Native image generation in ChatGPT, rolled out to all users in the following weeks.",
+  "source_url": "https://openai.com/index/introducing-4o-image-generation/"
+ },
+ {
+  "date": "2025-03-25",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 2.5 Pro Experimental released",
+  "detail": "First Gemini 2.5 model, a thinking model with a 1M-token context window, topping LMArena at launch. Some sources say March 26.",
+  "source_url": "https://gigazine.net/gsc_news/en/20250331-google-surprisingly-roll-out-gemini-2-5-pro-free"
+ },
+ {
+  "date": "2025-03-28",
+  "lab": "xAI",
+  "type": "deal",
+  "title": "xAI acquires X in all-stock deal",
+  "detail": "Musk announced X folded into xAI via share swap. xAI valued at $80B and X at $33B net of $12B debt ($45B gross). Both sides exchanged for shares of a new xAI Holdings Corp.",
+  "source_url": "https://gvwire.com/2025/03/28/elon-musk-sells-x-to-his-own-xai-for-33-billion-in-all-stock-deal/"
+ },
+ {
+  "date": "2025-03-29",
+  "lab": "Google",
+  "type": "product",
+  "title": "Gemini 2.5 Pro Experimental opened to all free Gemini users",
+  "detail": "Free access with reduced context and speed, about four days after the 2.5 Pro launch. Sources give March 29 or 30.",
+  "source_url": "https://gigazine.net/gsc_news/en/20250331-google-surprisingly-roll-out-gemini-2-5-pro-free",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-03-31",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "$40B round at $300B post-money valuation",
+  "detail": "Led by SoftBank; largest private tech financing at the time.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2025-04-05",
+  "lab": "Meta",
+  "type": "model_release",
+  "title": "Llama 4 Scout and Maverick released (Behemoth not released)",
+  "detail": "First MoE Llama models. Scout is 109B total / 17B active with 10M context; Maverick is 400B total / 17B active. Behemoth (about 2T) served as teacher and was not released. Llama 4 Community License.",
+  "source_url": "https://techcrunch.com/2025/04/05/meta-releases-llama-4-a-new-crop-of-flagship-ai-models"
+ },
+ {
+  "date": "2025-04-12",
+  "lab": "SSI",
+  "type": "funding",
+  "title": "Safe Superintelligence raises $2B at $32B valuation",
+  "detail": "Greenoaks led (about $500M reported), with Lightspeed and Andreessen Horowitz also investing. Google Cloud became primary compute provider (TPUs). SSI has no product.",
+  "source_url": "https://www.maginative.com/article/sutskevers-safe-superintelligence-raises-another-2b-at-32b-valuation//",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-04-14",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-4.1, GPT-4.1 mini and nano released (API only)",
+  "detail": "Coding and long-context (1M tokens) improvements; available only through the API.",
+  "source_url": "https://openai.com/index/gpt-4-1/"
+ },
+ {
+  "date": "2025-04-16",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "o3 and o4-mini released",
+  "detail": "o3 is the flagship reasoning model with tool use; o4-mini is the cost-efficient reasoning model.",
+  "source_url": "https://openai.com/index/introducing-o3-and-o4-mini/"
+ },
+ {
+  "date": "2025-04-17",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 2.5 Flash preview released",
+  "detail": "Flash variant of Gemini 2.5, with the 04-17 version later cited as the basis for GA. Date from memory plus one source.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-04-24",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Ziff Davis sues OpenAI",
+  "detail": "Copyright suit filed in Delaware federal court.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2025-04-29",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "GPT-4o sycophancy update rolled back",
+  "detail": "OpenAI reverts an update that made ChatGPT overly flattering.",
+  "source_url": "https://openai.com/index/sycophancy-in-gpt-4o/"
+ },
+ {
+  "date": "2025-05-05",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "Nonprofit to keep control; for-profit to become a public benefit corporation",
+  "detail": "OpenAI announces the nonprofit will retain control of the for-profit arm, replacing the planned full conversion.",
+  "source_url": "https://openai.com/index/built-to-benefit-everyone/"
+ },
+ {
+  "date": "2025-05-07",
+  "lab": "Mistral",
+  "type": "model_release",
+  "title": "Mistral Medium 3 released (proprietary multimodal)",
+  "detail": "Closed-weight multimodal model with 128K context. Mistral has since deprecated this version.",
+  "source_url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-25-05"
+ },
+ {
+  "date": "2025-05-08",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Fidji Simo named CEO of Applications",
+  "detail": "Former Instacart CEO to lead ChatGPT and product applications.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-05-15",
+  "lab": "Meta",
+  "type": "other",
+  "title": "WSJ reports Meta delays Llama 4 Behemoth",
+  "detail": "Report says Meta pulled back on a public Behemoth release over concern it was not enough of an advance. Behemoth was never publicly released. Reported, not an official Meta announcement.",
+  "source_url": "https://www.axios.com/2025/05/15/meta-behemoth-llama-scaling-delays"
+ },
+ {
+  "date": "2025-05-16",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "Codex cloud coding agent launched (research preview)",
+  "detail": "Agent that runs software tasks in a sandbox, available to ChatGPT Pro, Plus and Team users.",
+  "source_url": "https://openai.com/index/introducing-codex/"
+ },
+ {
+  "date": "2025-05-20",
+  "lab": "Google",
+  "type": "product",
+  "title": "Google I/O 2025: Veo 3, Gemini 2.5 updates, Google AI Ultra, AI Mode",
+  "detail": "I/O 2025 ran May 20-21. Announced Veo 3 with native audio, Gemini 2.5 updates, the Google AI Ultra subscription, and AI Mode in Search.",
+  "source_url": "https://m.gsmarena.com/google_i_o_2025_is_taking_place_on_may_2021-amp-66499.php"
+ },
+ {
+  "date": "2025-05-20",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Veo 3 announced (native audio, 4K)",
+  "detail": "Google's video model with native audio, shown at I/O 2025. Exact day from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-05-20",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemma 3n preview released",
+  "detail": "Mobile-first Gemma variant previewed at I/O 2025. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-05-20",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Imagen 4 announced",
+  "detail": "Google's image generation model, shown around I/O 2025. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-05-21",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "OpenAI acquires io (Jony Ive hardware startup) in ~$6.5B all-stock deal",
+  "detail": "Ive and his design team join OpenAI to build consumer AI devices; hardware not yet released.",
+  "source_url": "https://openai.com/index/openai-acquires-io/"
+ },
+ {
+  "date": "2025-05-22",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Opus 4 and Claude Sonnet 4 released; extended thinking with tool use (beta)",
+  "detail": "Opus 4 positioned as the strongest coding model (72.5% SWE-bench). Sonnet 4 was offered to free users. API $15/$75 for Opus 4 and $3/$15 for Sonnet 4.",
+  "source_url": "https://www.anthropic.com/news/claude-4"
+ },
+ {
+  "date": "2025-05-22",
+  "lab": "Anthropic",
+  "type": "product",
+  "title": "Claude Code generally available (terminal, IDE, SDK)",
+  "detail": "Claude Code moved to GA with the Claude 4 launch, with VS Code and JetBrains integrations in beta.",
+  "source_url": "https://alternativeto.net/news/2025/5/anthropic-launches-new-claude-4-models-with-advanced-coding-and-reasoning-capabilities"
+ },
+ {
+  "date": "2025-05-22",
+  "lab": "Anthropic",
+  "type": "other",
+  "title": "Claude Opus 4 released under ASL-3 safeguards",
+  "detail": "Anthropic activated AI Safety Level 3 protections alongside the Opus 4 release. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-05-28",
+  "lab": "DeepSeek",
+  "type": "model_release",
+  "title": "DeepSeek-R1-0528 quietly released on Hugging Face",
+  "detail": "Undocumented first revision of R1 with no official announcement. Benchmark gains (for example AIME 2025) come from third-party aggregators.",
+  "source_url": "https://www.scmp.com/tech/tech-trends/article/3312254/deepseek-quietly-updates-r1-ai-model-amid-anticipation-next-gen-tech"
+ },
+ {
+  "date": "2025-06-10",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "o3-pro released; o3 API price cut about 80%",
+  "detail": "o3-pro for Pro users and API; o3 pricing reduced sharply.",
+  "source_url": "https://openai.com/index/introducing-o3-pro/"
+ },
+ {
+  "date": "2025-06-10",
+  "lab": "Mistral",
+  "type": "model_release",
+  "title": "Magistral Medium and Magistral Small (reasoning) released",
+  "detail": "Mistral's first dedicated reasoning models. Magistral Medium built on the Medium 3 base. Later versions 1.1 (Jul 24) and 1.2 (Sep 18).",
+  "source_url": "https://docs.mistral.ai/platform/changelog"
+ },
+ {
+  "date": "2025-06-12",
+  "lab": "Google",
+  "type": "leadership",
+  "title": "Koray Kavukcuoglu named Google chief AI architect",
+  "detail": "Kavukcuoglu, previously DeepMind CTO, took a cross-Google chief AI architect role. Exact day from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-06-12",
+  "lab": "Meta",
+  "type": "deal",
+  "title": "Meta takes 49% non-voting stake in Scale AI for $14.3B; Alexandr Wang joins Meta",
+  "detail": "Values Scale at about $29B. Wang moved to Meta to lead superintelligence work; Scale stays independent under interim CEO Jason Droege. Reported June 10-13, 2025; exact official date unconfirmed.",
+  "source_url": "https://www.nbcchicago.com/news/business/money-report/scale-ais-alexandr-wang-confirms-departure-for-meta-as-part-of-14-3-billion-deal/3767336/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-06-16",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Pentagon CDAO prototype contract reported (up to $200M)",
+  "detail": "Reported defense prototype contract for frontier AI.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-06-17",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 2.5 Pro and 2.5 Flash generally available; 2.5 Flash-Lite preview",
+  "detail": "Stable releases for production use. Flash-Lite launched as a preview. Sources disagree on which underlying version reached GA.",
+  "source_url": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/"
+ },
+ {
+  "date": "2025-06-30",
+  "lab": "Meta",
+  "type": "leadership",
+  "title": "Meta Superintelligence Labs (MSL) formed under Alexandr Wang",
+  "detail": "Zuckerberg memo: MSL covers Meta's AI models, products and FAIR. Wang named Chief AI Officer; Nat Friedman to partner on leading MSL; 11 hires announced. Llama 4 reception cited as a driver.",
+  "source_url": "https://us.entrepreneur.com/business-news/mark-zuckerberg-reveals-meta-superintelligence-labs/494047"
+ },
+ {
+  "date": "2025-07-03",
+  "lab": "SSI",
+  "type": "leadership",
+  "title": "Daniel Gross leaves SSI; Ilya Sutskever becomes CEO",
+  "detail": "Gross departed as of June 29, 2025 and joined Meta. Sutskever announced the change on X; Daniel Levy named president.",
+  "source_url": "https://techcrunch.com/2025/07/03/ilya-sutskever-will-lead-safe-superintelligence-following-his-ceos-exit"
+ },
+ {
+  "date": "2025-07-09",
+  "lab": "xAI",
+  "type": "model_release",
+  "title": "Grok 4 and Grok 4 Heavy launched",
+  "detail": "Livestream July 9, 2025 at 8pm PT (July 10 in some outlets). Company-reported benchmarks. A coding variant (grok-4-code-0629) was spotted in API listings.",
+  "source_url": "https://www.business-standard.com/technology/tech-news/elon-musk-confirms-xai-s-grok-4-launch-for-july-9-where-watch-features-125070800297_1.html"
+ },
+ {
+  "date": "2025-07-11",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Windsurf acquisition (~$3B) collapses",
+  "detail": "Deal lapses; Windsurf leadership moves to Google.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-07-11",
+  "lab": "Moonshot",
+  "type": "model_release",
+  "title": "Kimi K2 open-weight release (about 1T MoE, 32B active)",
+  "detail": "Base and Instruct variants under a modified MIT license (credit required above 100M MAU or $20M monthly revenue). Reports date the release July 11 or 12.",
+  "source_url": "https://www.unite.ai/moonshot-ais-kimi-k2-the-rise-of-trillion-parameter-open-source-models",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-07-14",
+  "lab": "Anthropic",
+  "type": "deal",
+  "title": "US Department of Defense contract with Anthropic (classified networks)",
+  "detail": "Claude became the first frontier model approved for classified government networks under a July 2025 DoD contract. Exact day from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-07-15",
+  "lab": "Thinking Machines Lab",
+  "type": "funding",
+  "title": "Thinking Machines Lab closes $2B seed at $12B valuation",
+  "detail": "Led by Andreessen Horowitz per company spokesperson. Pre-money figures vary across reports (some say $10B).",
+  "source_url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round"
+ },
+ {
+  "date": "2025-07-17",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT agent launched",
+  "detail": "Merges Operator and deep research into a single agent with its own virtual computer.",
+  "source_url": "https://openai.com/index/introducing-chatgpt-agent/"
+ },
+ {
+  "date": "2025-07-19",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "Experimental model reaches gold-level IMO performance",
+  "detail": "OpenAI reports gold-medal-level score on the International Mathematical Olympiad with a general-purpose reasoning model.",
+  "source_url": "https://openai.com/index/imo-2025/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-07-21",
+  "lab": "Google",
+  "type": "other",
+  "title": "Gemini Deep Think achieves IMO gold-medal standard",
+  "detail": "Advanced Gemini Deep Think solved 5 of 6 IMO 2025 problems (35 points), officially graded by IMO coordinators.",
+  "source_url": "https://deepmind.google/en/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/"
+ },
+ {
+  "date": "2025-07-22",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Stargate expansion with Oracle to 4.5 GW reported",
+  "detail": "Oracle and OpenAI plan about 4.5 GW of Stargate capacity; first site in Abilene, Texas.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-07-22",
+  "lab": "Alibaba",
+  "type": "model_release",
+  "title": "Qwen3-Coder released (480B-A35B MoE) with Qwen Code CLI",
+  "detail": "Open-weight coding flagship with 256K native context, extendable to 1M. Reports differ on July 22 vs July 23.",
+  "source_url": "https://www.cometapi.com/alibaba-releases-qwen3%e2%80%91coder-and-qwen-code/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-07-28",
+  "lab": "Zhipu",
+  "type": "model_release",
+  "title": "GLM-4.5 and GLM-4.5-Air open-sourced",
+  "detail": "GLM-4.5 is 355B total / 32B active MoE; Air is 106B. Hybrid thinking and non-thinking modes. MIT-style license. Released after WAIC.",
+  "source_url": "https://getcoai.com/news/chinese-ai-startup-zhipu-releases-glm-4-5-to-challenge-openai-dominance"
+ },
+ {
+  "date": "2025-08-01",
+  "lab": "Google",
+  "type": "product",
+  "title": "Gemini 2.5 Deep Think rolled out to Gemini app Ultra subscribers",
+  "detail": "Faster daily-use variant of the IMO gold model for Google AI Ultra subscribers, announced by Logan Kilpatrick.",
+  "source_url": "https://simonwillison.net/2025/Aug/"
+ },
+ {
+  "date": "2025-08-05",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "gpt-oss-120b and gpt-oss-20b open-weight models released",
+  "detail": "First open-weight models from OpenAI since GPT-2; Apache 2.0 license.",
+  "source_url": "https://openai.com/index/introducing-gpt-oss/"
+ },
+ {
+  "date": "2025-08-05",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Opus 4.1 released",
+  "detail": "Incremental Opus upgrade. API pricing $15 input.",
+  "source_url": "https://www.longtermwiki.com/kb/record/claude-4"
+ },
+ {
+  "date": "2025-08-05",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Genie 3 world model unveiled",
+  "detail": "Generates real-time explorable 3D worlds at 720p and 24 fps; not publicly released at launch. Sources give Aug 5 or 6.",
+  "source_url": "https://technews.tw/2025/08/06/google-deepmind-is-announcing-genie-3/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-08-07",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5 launched (gpt-5, gpt-5-mini, gpt-5-nano)",
+  "detail": "Unified model with real-time routing between fast and reasoning modes; free users get access. Livestreamed.",
+  "source_url": "https://openai.com/index/introducing-gpt-5/"
+ },
+ {
+  "date": "2025-08-19",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT Go launched in India",
+  "detail": "Lower-priced subscription tier, later expanded to more countries.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-08-21",
+  "lab": "DeepSeek",
+  "type": "model_release",
+  "title": "DeepSeek-V3.1 released with hybrid thinking and non-thinking modes",
+  "detail": "671B total / 37B active, 128K context. DeepSeek said V3.1-Think matches R1-0528 quality with faster responses and framed it as a step toward the agent era.",
+  "source_url": "https://www.gigazine.net/gsc_news/en/20250822-deepseek-v-3-1-released"
+ },
+ {
+  "date": "2025-08-26",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Raine v. OpenAI wrongful-death lawsuit filed",
+  "detail": "Parents of a 16-year-old allege ChatGPT contributed to his death.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2025-08-26",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 2.5 Flash Image (Nano Banana) launched",
+  "detail": "Image generation and editing model that went viral as Nano Banana after anonymous LMArena testing. Some sources give Aug 27.",
+  "source_url": "https://citt.tdtu.edu.vn/en/news/2025/google-officially-announces-gemini-25-flash-image-and-the-secret-of-nano-banana"
+ },
+ {
+  "date": "2025-08-26",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Anthropic reaches $1.5B settlement with authors (Bartz v. Anthropic)",
+  "detail": "Settlement over pirated books used in training, about $3,100 per work for roughly 480,000 works. Settlement reported Aug 2025; exact day from memory.",
+  "source_url": "https://news.bloomberglaw.com/ip-law/anthropic-authors-1-5-billion-deal-receives-final-approval",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-08-28",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "gpt-realtime and Realtime API general availability",
+  "detail": "Production speech-to-speech model in the API with new voices.",
+  "source_url": "https://openai.com/index/introducing-gpt-realtime/"
+ },
+ {
+  "date": "2025-08-28",
+  "lab": "Microsoft",
+  "type": "model_release",
+  "title": "Microsoft unveils first in-house models: MAI-Voice-1 and MAI-1-preview",
+  "detail": "MAI-Voice-1 speech model already powers Copilot Daily. MAI-1-preview is a MoE text model pre-trained on about 15,000 H100s and tested on LMArena. Parameter count undisclosed.",
+  "source_url": "https://www.storyboard18.com/amp/brand-marketing/microsoft-unveils-its-first-homegrown-ai-models-mai-voice-1-and-mai-1-preview-79837.htm"
+ },
+ {
+  "date": "2025-09-02",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Agrees to acquire Statsig for ~$1.1B",
+  "detail": "Experimentation platform acquisition; Statsig CEO becomes CTO of Applications.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2025-09-02",
+  "lab": "Anthropic",
+  "type": "funding",
+  "title": "Series F: $13B at $183B post-money (ICONIQ lead)",
+  "detail": "Co-led by Fidelity and Lightspeed; Anthropic cited enterprise demand and safety research. Some outlets date coverage Sep 4.",
+  "source_url": "https://www.orrick.com/fr-FR/News/2025/09/Anthropic-Raises-13B-Series-F-at-183B-Post-Money-Valuation"
+ },
+ {
+  "date": "2025-09-09",
+  "lab": "Mistral",
+  "type": "funding",
+  "title": "Mistral raises EUR 1.7B Series C at EUR 11.7B post-money, led by ASML",
+  "detail": "ASML took about 11% (about EUR 1.3B) and signed a joint research partnership; an ASML CFO joined Mistral's strategic committee. Existing investors include Nvidia, a16z, DST, General Catalyst and Bpifrance.",
+  "source_url": "https://mistral.ai/fr/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai"
+ },
+ {
+  "date": "2025-09-10",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Oracle ~$300B five-year compute contract reported",
+  "detail": "Reported contract for about 4.5 GW of compute starting around 2027.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2025-09-15",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5-Codex released",
+  "detail": "GPT-5 variant optimized for agentic coding in Codex.",
+  "source_url": "https://openai.com/index/introducing-upgrades-to-codex/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-09-18",
+  "lab": "Nvidia",
+  "type": "deal",
+  "title": "Nvidia invests $5B in Intel; joint x86 and RTX products announced",
+  "detail": "Nvidia bought $5B of Intel stock at $23.28/share. Partnership covers x86 CPU plus RTX GPU chiplet SoCs for PCs and custom x86 CPUs for Nvidia data center platforms.",
+  "source_url": "https://the-decoder.com/nvidia-and-intel-strike-partnership-on-x86-chips-with-5-billion-investment/"
+ },
+ {
+  "date": "2025-09-22",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Nvidia letter of intent for up to $100B investment and 10 GW",
+  "detail": "Nvidia to invest progressively as each gigawatt is deployed; first gigawatt planned for 2026.",
+  "source_url": "https://openai.com/index/openai-nvidia-systems-partnership/"
+ },
+ {
+  "date": "2025-09-22",
+  "lab": "Nvidia",
+  "type": "deal",
+  "title": "Nvidia and OpenAI sign letter of intent for 10 GW of Nvidia systems; Nvidia to invest up to $100B",
+  "detail": "Non-binding letter of intent. First gigawatt targeted for H2 2026 on Vera Rubin. Investment released in stages as capacity deploys. Whether a definitive agreement was later signed was not checked.",
+  "source_url": "https://www.barchart.com/story/news/34966864/openai-and-nvidia-announce-100-billion-strategic-partnership-to-build-10gw-of-ai-data-centers"
+ },
+ {
+  "date": "2025-09-23",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Five new Stargate data center sites announced",
+  "detail": "Sites in Texas, New Mexico, Ohio and Michigan, bringing planned capacity near 7 GW.",
+  "source_url": "https://openai.com/index/five-new-stargate-sites/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-09-24",
+  "lab": "Alibaba",
+  "type": "model_release",
+  "title": "Qwen3-Max formally launched at Apsara conference",
+  "detail": "Alibaba's Qwen3-Max flagship launched at Apsara on Sept 24, 2025.",
+  "source_url": "https://en.wikipedia.org/wiki/Qwen"
+ },
+ {
+  "date": "2025-09-25",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Judge Alsup grants preliminary approval to $1.5B authors settlement",
+  "detail": "Preliminary approval of the Bartz settlement. Month from sources; exact day from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-09-29",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "Instant Checkout and Agentic Commerce Protocol in ChatGPT",
+  "detail": "Shopping purchases inside ChatGPT with Stripe-backed checkout.",
+  "source_url": "https://openai.com/index/buy-it-in-chatgpt/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-09-29",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Sonnet 4.5 released",
+  "detail": "Highest-intelligence Sonnet at its price point. Claude Code 2.0 was announced the same week.",
+  "source_url": "https://claudefa.st/blog/models/claude-sonnet-4-5"
+ },
+ {
+  "date": "2025-09-29",
+  "lab": "Anthropic",
+  "type": "product",
+  "title": "Claude Code 2.0 (native VS Code extension, checkpoints, new terminal UI)",
+  "detail": "Sources conflict between Sep 29 and Sep 30 for the Claude Code 2.0 announcement.",
+  "source_url": "https://smartscope.blog/en/generative-ai/claude/claude-code-2-0-release/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-09-29",
+  "lab": "DeepSeek",
+  "type": "model_release",
+  "title": "DeepSeek-V3.2-Exp released (DeepSeek Sparse Attention)",
+  "detail": "Experimental model built on V3.1-Terminus that introduced DeepSeek Sparse Attention for long-context efficiency. One listing gives Oct 10 instead.",
+  "source_url": "https://www.datalearner.com/en/ai-models/pretrained-models/deepseek-v3-2-exp",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-09-30",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "Sora 2 and Sora app launched (iOS, invite-based)",
+  "detail": "Video and audio generation model with a social app; Android later.",
+  "source_url": "https://openai.com/index/sora-2/"
+ },
+ {
+  "date": "2025-09-30",
+  "lab": "Zhipu",
+  "type": "model_release",
+  "title": "GLM-4.6 released",
+  "detail": "Large MoE (about 357B parameters per one source), 200K context, MIT license. Sources say late September 2025; one directory lists Oct 4.",
+  "source_url": "https://www.mindstudio.ai/models/glm-4-6",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-10-01",
+  "lab": "Thinking Machines Lab",
+  "type": "product",
+  "title": "Tinker fine-tuning API launched in private beta",
+  "detail": "First product: API for fine-tuning open-weight models, with the open-source Tinker Cookbook. Free at launch with usage-based pricing planned.",
+  "source_url": "https://www.infoq.com/news/2025/10/thinking-machines-tinker"
+ },
+ {
+  "date": "2025-10-01",
+  "lab": "Thinking Machines Lab",
+  "type": "leadership",
+  "title": "Co-founder Andrew Tulloch leaves for Meta",
+  "detail": "Company spokesperson confirmed departure for personal reasons. WSJ reported a Meta package of up to $1.5B over six years; Meta disputed the figure. Month-level date only (October 2025).",
+  "source_url": "https://www.cxodigitalpulse.com/andrew-tulloch-leaves-thinking-machines-lab-for-meta-amid-ai-talent-war/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-10-02",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "Employee secondary sale values OpenAI at $500B",
+  "detail": "About $6.6B of employee shares sold at a $500B valuation (reported by FT).",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2025-10-06",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "DevDay 2025: AgentKit, Apps SDK, Codex GA, GPT-5 pro in API",
+  "detail": "Agent builder kit, apps inside ChatGPT via Apps SDK, and general availability of Codex.",
+  "source_url": "https://openai.com/index/introducing-agentkit/"
+ },
+ {
+  "date": "2025-10-06",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "AMD agreement for 6 GW of Instinct GPUs, warrant for up to 160M AMD shares",
+  "detail": "First 1 GW tranche planned for 2H 2026; warrants vest against deployment milestones.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2025-10-13",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Broadcom strategic collaboration for 10 GW of custom AI accelerators",
+  "detail": "Custom chips co-designed with Broadcom, deployment from 2H 2026 through 2029.",
+  "source_url": "https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/"
+ },
+ {
+  "date": "2025-10-13",
+  "lab": "Microsoft",
+  "type": "model_release",
+  "title": "MAI-Image-1 released (first in-house image model)",
+  "detail": "Photorealism-focused image generator in Bing Image Creator; not available in the EU at launch. One source dates it Oct 13; coverage is Oct 14.",
+  "source_url": "https://gigazine.net/gsc_news/en/20251014-microsoft-mai-image-1"
+ },
+ {
+  "date": "2025-10-15",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Haiku 4.5 released",
+  "detail": "Smallest 4.5-family model; positioned for low-latency, high-volume work.",
+  "source_url": "https://playground.roboflow.com/models/compare/claude-4-1-opus-vs-claude-4-5-haiku"
+ },
+ {
+  "date": "2025-10-15",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Veo 3.1 released (longer video, audio, reference images)",
+  "detail": "Adds reference-image guidance, scene extension and frame transitions; paid preview via Gemini API. Veo 3.1 Lite (2026-03-31) reported by third parties only.",
+  "source_url": "https://gigazine.net/gsc_news/en/20251016-google-veo-3-1",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-10-16",
+  "lab": "Anthropic",
+  "type": "product",
+  "title": "Agent Skills launched for Claude (SKILL.md folders)",
+  "detail": "Modular instruction and script folders loaded on demand, with pre-built document skills (PPTX, XLSX, DOCX, PDF) across Claude.ai, Claude Code and the API.",
+  "source_url": "https://wandb.ai/byyoung3/ml-news/reports/Anthropic-introduces-Agent-Skills---VmlldzoxNDc1NDg1MA",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-10-20",
+  "lab": "Anthropic",
+  "type": "product",
+  "title": "Claude Code on the web (research preview)",
+  "detail": "Cloud coding sessions connected to GitHub repos. Sources give Oct 20 or 21.",
+  "source_url": "https://mezha.ua/en/news/claude-code-vid-anthropic-teper-dostupniy-u-brauzeri-305711/amp/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-10-21",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT Atlas browser launched (macOS)",
+  "detail": "AI-native browser with ChatGPT built into the browsing experience; Windows, iOS and Android to follow.",
+  "source_url": "https://openai.com/index/introducing-chatgpt-atlas/"
+ },
+ {
+  "date": "2025-10-21",
+  "lab": "Meta",
+  "type": "deal",
+  "title": "Meta and Blue Owl Capital form Hyperion data center joint venture",
+  "detail": "Blue Owl funds hold 80% and Meta 20%. About $27B of debt sits in an SPV (Pimco anchor lender); Meta receives about $3B distribution. Richland Parish, Louisiana; up to 2GW; Meta develops, operates and is tenant.",
+  "source_url": "https://about.fb.com/news/2025/10/meta-blue-owl-capital-develop-hyperion-data-center/"
+ },
+ {
+  "date": "2025-10-22",
+  "lab": "Meta",
+  "type": "other",
+  "title": "Meta cuts about 600 roles in AI unit (FAIR, product AI, infrastructure)",
+  "detail": "Restructuring within Superintelligence Labs. The TBD Lab (next-generation model team) was reported as spared. Exact date approximate (October 2025).",
+  "source_url": "https://www.computing.co.uk/news/2025/ai/meta-to-slash-600-roles-in-superintelligence-labs",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-10-23",
+  "lab": "Anthropic",
+  "type": "deal",
+  "title": "Google Cloud deal: access to up to 1 million TPUs (over 1 GW in 2026)",
+  "detail": "Multi-billion-dollar (reportedly tens of billions) TPU capacity deal using Ironwood TPUs. Anthropic also runs on AWS Trainium and Nvidia GPUs.",
+  "source_url": "https://siliconangle.com/2025/10/23/Anthropic-strikes-multibillion-dollar-deal-Google-access-million-tpus"
+ },
+ {
+  "date": "2025-10-28",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "Recapitalization completed: OpenAI Group PBC; nonprofit renamed OpenAI Foundation",
+  "detail": "Foundation controls the PBC and holds about 26 percent; Microsoft holds about 27 percent. Delaware and California AGs did not object.",
+  "source_url": "https://www.fortune.com/2025/10/28/openai-for-profit-restructuring-microsoft-stake"
+ },
+ {
+  "date": "2025-10-28",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Microsoft definitive agreement: IP rights through 2032, $250B Azure commitment",
+  "detail": "Microsoft gives up cloud exclusivity; OpenAI commits to an incremental $250B of Azure; AGI verification clause included.",
+  "source_url": "https://www.fortune.com/2025/10/28/openai-for-profit-restructuring-microsoft-stake"
+ },
+ {
+  "date": "2025-10-28",
+  "lab": "Microsoft",
+  "type": "deal",
+  "title": "Microsoft and OpenAI sign restructured partnership; Microsoft holds about 27% stake",
+  "detail": "OpenAI converts to a public benefit corporation (OpenAI Group PBC) under the nonprofit foundation. Microsoft stake valued about $135B. OpenAI commits $250B of Azure purchases; Microsoft IP rights run to 2032 with an AGI verification clause; Microsoft loses right of first refusal on compute.",
+  "source_url": "https://fortune.com/2025/10/28/openai-for-profit-restructuring-microsoft-stake"
+ },
+ {
+  "date": "2025-10-29",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "Reports of IPO groundwork at up to $1T valuation",
+  "detail": "Reuters-reported plans to prepare for a future IPO; no filing at the time.",
+  "source_url": "https://www.malaymail.com/amp/news/money/2025/10/30/chatgpt-maker-openai-lays-groundwork-for-juggernaut-rm42t-ipo/196560",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-11-03",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "AWS $38B multi-year compute agreement",
+  "detail": "Seven-year agreement for Nvidia GPU capacity on Amazon Web Services.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2025-11-06",
+  "lab": "Moonshot",
+  "type": "model_release",
+  "title": "Kimi K2 Thinking released (open weights)",
+  "detail": "Trillion-parameter MoE with 32B active and 256K context. Built for long tool-use chains. Japanese report dates it Nov 5 (time zone difference).",
+  "source_url": "https://www.turingpost.com/p/kimik2thinking"
+ },
+ {
+  "date": "2025-11-12",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.1 released (Instant and Thinking)",
+  "detail": "Warmer, more adaptive ChatGPT models; rolled out to paid users first, GPT-5.1 Pro later.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.1"
+ },
+ {
+  "date": "2025-11-17",
+  "lab": "xAI",
+  "type": "model_release",
+  "title": "Grok 4.1 released free to all users (with Thinking variant)",
+  "detail": "Available free on X, Grok web and apps. xAI claimed top LMArena text ranking at launch (company-reported). Anonymous testing ran Nov 1-14. Some outlets date launch Nov 18.",
+  "source_url": "https://alternativeto.net/news/2025/11/grok-4-1-launches-free-for-all-users-with-improved-accuracy-and-faster-performance/"
+ },
+ {
+  "date": "2025-11-18",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 3 Pro and Gemini 3 Deep Think announced",
+  "detail": "Google's flagship Gemini 3 family, rolled out to select subscribers first. Google had said in Oct 2025 that 3.0 would land before end of 2025.",
+  "source_url": "https://www.cnbc.com/2025/11/18/google-announces-gemini-3-as-battle-with-openai-intensifies.html"
+ },
+ {
+  "date": "2025-11-18",
+  "lab": "Google",
+  "type": "product",
+  "title": "Google Antigravity agent development platform launched",
+  "detail": "Agent-first IDE launched with Gemini 3. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-11-18",
+  "lab": "Anthropic",
+  "type": "deal",
+  "title": "Microsoft and Nvidia invest up to $15B in Anthropic; Anthropic commits $30B Azure compute",
+  "detail": "Nvidia up to $10B, Microsoft up to $5B. Anthropic commits at least $30B of Azure capacity and 1 GW of Nvidia Grace Blackwell/Vera Rubin capacity. Valuation reported at about $350B.",
+  "source_url": "https://www.nst.com.my/amp/business/corporate/2025/11/1318060/nvidia-microsoft-invest-us15bil-ai-startup-anthropic"
+ },
+ {
+  "date": "2025-11-18",
+  "lab": "Microsoft",
+  "type": "deal",
+  "title": "Microsoft and Nvidia invest in Anthropic; Anthropic commits $30B to Azure",
+  "detail": "Nvidia up to $10B and Microsoft up to $5B invested in Anthropic (one outlet reverses the figures). Anthropic buys $30B of Azure compute; Claude added across Microsoft Copilot products. Reported valuation about $350B.",
+  "source_url": "https://www.aljazeera.com/economy/2025/11/18/microsoft-nvidia-invest-in-anthropic-in-cloud-services-deal"
+ },
+ {
+  "date": "2025-11-19",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.1-Codex-Max released",
+  "detail": "Long-horizon coding model for Codex.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.1",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-11-19",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Lawrence Summers leaves OpenAI board",
+  "detail": "Summers resigns from the board in November 2025.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-11-19",
+  "lab": "Meta",
+  "type": "leadership",
+  "title": "Yann LeCun announces departure from Meta to found AMI Labs",
+  "detail": "Chief AI Scientist and FAIR founder leaving at end of 2025 after 12 years. Startup continues Advanced Machine Intelligence (world models) research. His reporting line had moved under Alexandr Wang.",
+  "source_url": "https://www.channelstv.com/2025/11/20/meta-chief-ai-scientist-yann-lecun-leaving-for-startup"
+ },
+ {
+  "date": "2025-11-20",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Nano Banana Pro (Gemini 3 Pro Image) launched",
+  "detail": "Higher-fidelity image model built on Gemini 3 Pro. Date from memory.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-11-24",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Opus 4.5 released; API price cut to $5/$25",
+  "detail": "Opus-tier price reduction. API identifier claude-opus-4-5-20251101; the date in the ID is a version label.",
+  "source_url": "https://claudefa.st/blog/models/claude-opus-4-5"
+ },
+ {
+  "date": "2025-12-01",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "Internal 'code red' memo reported",
+  "detail": "Altman memo prioritizing ChatGPT quality in response to competition from Google Gemini 3.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.2",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-12-02",
+  "lab": "Mistral",
+  "type": "model_release",
+  "title": "Mistral 3 family released: Mistral Large 3 (675B MoE, 41B active) and Ministral 3B/8B/14B",
+  "detail": "Large 3 open weights under Apache 2.0 with 256K context. All Ministral sizes are multimodal.",
+  "source_url": "https://intuitionlabs.ai/articles/mistral-large-3-moe-llm-explained"
+ },
+ {
+  "date": "2025-12-05",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Agreement to acquire Neptune",
+  "detail": "Acquisition of a model training-monitoring startup.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-12-05",
+  "lab": "Google",
+  "type": "product",
+  "title": "Gemini 3 Deep Think rollout begins (Ultra subscribers)",
+  "detail": "Deep Think mode for Gemini 3 Pro started rolling out. Date from a single source.",
+  "source_url": "https://discuss.ai.google.dev/t/when-will-gemini-3-0-finally-be-released-to-us/108849",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-12-08",
+  "lab": "Nvidia",
+  "type": "legal",
+  "title": "Trump approves Nvidia H200 sales to China with 25% government cut",
+  "detail": "Announced on Truth Social. Blackwell and Rubin excluded. Shipments limited to Commerce-vetted customers. Implementation details were still open at announcement.",
+  "source_url": "https://www.khaleejtimes.com/business/tech/us-to-allow-nvidia-h200-chip-shipments-to-china-trump-says"
+ },
+ {
+  "date": "2025-12-11",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.2 released (Instant, Thinking, Pro) with API models",
+  "detail": "Launched after an internal code red; GPT-5.2 Thinking and Pro for paid tiers.",
+  "source_url": "https://openai.com/index/introducing-gpt-5-2/"
+ },
+ {
+  "date": "2025-12-11",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Disney to invest $1B and license characters for Sora and ChatGPT",
+  "detail": "Three-year licensing deal with a planned $1B equity investment; later ended in March 2026 without the investment.",
+  "source_url": "https://campaignlive.com/article/openai-shuts-down-sora-billion-dollar-disney-deal-comes-end/1952808"
+ },
+ {
+  "date": "2025-12-12",
+  "lab": "Thinking Machines Lab",
+  "type": "product",
+  "title": "Tinker made generally available",
+  "detail": "Fine-tuning service moved from private beta to general availability.",
+  "source_url": "https://siliconangle.com/2025/12/12/thinking-machines-makes-tinker-ai-fine-tuning-service-generally-available/"
+ },
+ {
+  "date": "2025-12-17",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 3 Flash launched",
+  "detail": "Flash variant of Gemini 3 family. Date from one aggregator (Wikipedia-derived).",
+  "source_url": "https://en.wikipedia.org/wiki/Gemini_3_(AI)",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2025-12-22",
+  "lab": "Zhipu",
+  "type": "model_release",
+  "title": "GLM-4.7 released (355B total / 32B active; 30B-A3B Flash variant)",
+  "detail": "Open-weight update. One report says Dec 22; a model directory says Dec 23.",
+  "source_url": "https://cdn.jsdelivr.net/gh/zai-org/glm-4.5@main/README.md"
+ },
+ {
+  "date": "2025-12-24",
+  "lab": "Nvidia",
+  "type": "deal",
+  "title": "Nvidia licenses Groq inference technology in about $20B non-exclusive deal; hires Groq leadership",
+  "detail": "Groq remains independent under new CEO Simon Edwards. Value reported (about $20B), not officially disclosed. Jensen Huang said Nvidia is not buying Groq. DOJ reportedly examined the structure.",
+  "source_url": "https://www.techrepublic.com/article/news-nvidia-licenses-groqs-ai-inference-technology-in-20b-deal/"
+ },
+ {
+  "date": "2025-12-29",
+  "lab": "Meta",
+  "type": "deal",
+  "title": "Meta acquires Manus (Singapore-based AI agent startup)",
+  "detail": "Price not officially disclosed; reports range $2B to $3B. Manus to end Chinese ownership and China operations. Agents to be integrated into Meta AI and business products.",
+  "source_url": "https://www.businesstoday.in/amp/technology/news/story/meta-acquires-ai-startup-manus-in-milestone-deal-worth-over-2-billion-508760-2025-12-31"
+ },
+ {
+  "date": "2025-12-30",
+  "lab": "xAI",
+  "type": "product",
+  "title": "Plans reported to expand Colossus training capacity to 2 GW",
+  "detail": "Bloomberg and SiliconANGLE reported the plan. xAI acquired a mothballed Duke Energy plant in Mississippi to supply power. Musk later announced on X in January 2026 that Colossus 2 was live as a gigawatt-scale cluster.",
+  "source_url": "https://interestingengineering.com/ai-robotics/elon-musk-xai-gigawatt-scale-ai-training-cluster",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-01-01",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Music publishers file second lawsuit (over $3B, lyrics via torrenting)",
+  "detail": "Second copyright suit by Concord, UMG and ABKCO, before Judge Eumi Lee, seeking over $3B. Only the month (January 2026) is confirmed; the day is unknown.",
+  "source_url": "https://www.musicbusinessworldwide.com/anthropic-seeks-partial-dismissal-in-music-publishers-3b-lyrics-suit-as-CEO-moves-to-drop-the-direct-infringement-claim-against-him/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-01-01",
+  "lab": "Moonshot",
+  "type": "model_release",
+  "title": "Kimi K2.5 released (1T MoE, 32B active, multimodal)",
+  "detail": "Month-level date only (January 2026). Instant and thinking modes; agentic capabilities.",
+  "source_url": "https://en.wikipedia.org/wiki/Kimi_(AI)",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-01-05",
+  "lab": "Nvidia",
+  "type": "product",
+  "title": "CES keynote: Vera Rubin platform in production",
+  "detail": "Huang said the six-chip Rubin platform is in production, with ramp in H2 2026. Also introduced Alpamayo open AV models. No new GeForce GPUs.",
+  "source_url": "https://techcrunch.com/snippet/3080052/the-new-rubin-chip-architecture-is-already-in-production/"
+ },
+ {
+  "date": "2026-01-06",
+  "lab": "xAI",
+  "type": "funding",
+  "title": "xAI closes upsized $20B Series E",
+  "detail": "Upsized from a $15B target. Investors include Valor, StepStone, Fidelity, QIA, MGX and Baron; Nvidia and Cisco Investments as strategics. Valuation reported around $230B (not confirmed by xAI). Funds go to data centers and Grok training.",
+  "source_url": "https://pulse2.com/xai-20-billion-series-e-funding/"
+ },
+ {
+  "date": "2026-01-08",
+  "lab": "Zhipu",
+  "type": "funding",
+  "title": "Zhipu (Z.ai / Knowledge Atlas) lists on Hong Kong exchange (HKEX: 2513)",
+  "detail": "Offer price HK$116.20. First of China's major LLM startups to list; shares rose about 14% on debut. Later reports describe a planned Star Market listing and further share sales.",
+  "source_url": "https://finance.yahoo.com/news/chinas-zhipu-ai-launches-us-093000355.html"
+ },
+ {
+  "date": "2026-01-12",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Acquires Torch (health records startup) for about $60M",
+  "detail": "Acquisition to support ChatGPT health features.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-01-12",
+  "lab": "Anthropic",
+  "type": "product",
+  "title": "Claude Cowork research preview (desktop agent for non-developers)",
+  "detail": "Computer-agent research preview for Claude Max on macOS, pitched as a non-developer version of Claude Code. Another source dates an expanded preview to Jan 30.",
+  "source_url": "https://aragonresearch.com/anthropic-claude-cowork/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-01-12",
+  "lab": "Apple",
+  "type": "deal",
+  "title": "Apple and Google joint statement: Gemini to underpin next-generation Apple Foundation Models and Siri",
+  "detail": "Multi-year collaboration. Apple's next-generation foundation models built on Gemini and Google Cloud. Apple Intelligence continues on-device and on Private Cloud Compute. Financial terms not disclosed (earlier reports cited about $1B per year).",
+  "source_url": "https://www.mactech.com/2026/01/12/apple-will-use-googles-gemini-for-its-ai-powered-siri"
+ },
+ {
+  "date": "2026-01-14",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.2-Codex released",
+  "detail": "Coding-specialized GPT-5.2 variant in Codex and the API.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.2"
+ },
+ {
+  "date": "2026-01-14",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Cerebras multiyear deal for up to 750 MW of inference compute",
+  "detail": "Phased deployment through 2028; reported value above $10B (per sources, not officially disclosed).",
+  "source_url": "https://www.hpcwire.com/aiwire/2026/01/14/cerebras-lands-major-openai-deal-to-scale-ai-inference/"
+ },
+ {
+  "date": "2026-01-16",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "OpenAI announces ad testing in ChatGPT Free and Go tiers",
+  "detail": "Announced testing of ads for logged-in US adults; ads kept out of Plus, Pro, Business and Enterprise.",
+  "source_url": "https://forklog.com/en/openai-brings-advertising-to-chatgpt/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-01-26",
+  "lab": "Alibaba",
+  "type": "model_release",
+  "title": "Qwen3-Max-Thinking released (closed reasoning model)",
+  "detail": "Qwen says it compares favorably with GPT-5.2-Thinking, Claude Opus 4.5 and Gemini 3 Pro across 19 benchmarks (self-reported).",
+  "source_url": "https://en.wikipedia.org/wiki/Qwen"
+ },
+ {
+  "date": "2026-02-02",
+  "lab": "xAI",
+  "type": "deal",
+  "title": "SpaceX merges with xAI (SpaceX valued $1T, xAI $250B in reported terms)",
+  "detail": "Announced Feb 2-3, 2026 (sources differ). Reported terms from unnamed sources: 0.1433 SpaceX shares per xAI share. Nevada filings show X.AI Holdings dissolved into XAI Holdings LLC. Linked to planned SpaceX IPO.",
+  "source_url": "https://finance.yahoo.com/news/elon-musk-confirms-spacex-merger-with-xai-ahead-of-ipo-220616795.html",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-02-05",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Opus 4.6 released (1M context beta, agent teams, adaptive thinking)",
+  "detail": "Opus-tier upgrade at unchanged $5/$25 pricing. Agent teams and adaptive thinking with four effort levels. Some sources list a 200K context window, so details vary.",
+  "source_url": "https://www.longtermwiki.com/wiki/claude-opus-4-6"
+ },
+ {
+  "date": "2026-02-09",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "First ads appear in ChatGPT",
+  "detail": "Labeled ads below responses for logged-in adults in the US on Free and Go tiers.",
+  "source_url": "https://forklog.com/en/openai-brings-advertising-to-chatgpt/"
+ },
+ {
+  "date": "2026-02-11",
+  "lab": "Zhipu",
+  "type": "model_release",
+  "title": "GLM-5 released (about 744B total / 40B active MoE, open weights)",
+  "detail": "DeepSeek Sparse Attention and 200K context. Company-reported claims of top open-weight ranking on Artificial Analysis and LMArena at launch. Param count reported as 744B or 745B.",
+  "source_url": "https://rits.shanghai.nyu.edu/ai/glm-5-zhipu-ai-ships-a-744b-open-weight-frontier-model/"
+ },
+ {
+  "date": "2026-02-12",
+  "lab": "Anthropic",
+  "type": "funding",
+  "title": "Series G: $30B at $380B post-money (GIC and Coatue lead)",
+  "detail": "Co-leads D. E. Shaw, Dragoneer, Founders Fund, ICONIQ and MGX. Earliest date found is Feb 12 (company post); press coverage is Feb 16-17.",
+  "source_url": "https://www.orrick.com/en/News/2026/02/Anthropic-Raises-30B-Series-G-at-380B-Post-Money-Valuation",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-02-16",
+  "lab": "Alibaba",
+  "type": "model_release",
+  "title": "Qwen3.5 unveiled (open-weight Qwen3.5-397B-A17B plus hosted variants)",
+  "detail": "Native multimodal and visual agent capabilities for mobile and desktop apps. Smaller variants (0.8B to 9B) followed in March 2026. Alibaba claims 60% lower cost than predecessor.",
+  "source_url": "https://www.cnbc.com/2026/02/17/china-alibaba-qwen-ai-agent-latest-model.html"
+ },
+ {
+  "date": "2026-02-17",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Sonnet 4.6 released",
+  "detail": "Replaced Sonnet 4.6's predecessor as the default for Free and Pro plans until Sonnet 5. Date from multiple secondary sources.",
+  "source_url": null,
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-02-17",
+  "lab": "xAI",
+  "type": "model_release",
+  "title": "Grok 4.20 limited beta launch (four-agent reasoning)",
+  "detail": "Multi-agent design; Beta 2 on March 3, 2026. Broader availability around March 9-10; Google Vertex lists GA on April 7 (non-reasoning) and April 14 (reasoning). Sources disagree on dates.",
+  "source_url": "https://tech-insider.org/sv/xai-grok-4-20-multi-agent-ai-2026/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-02-20",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "Investor compute target of about $600B by 2030 reported",
+  "detail": "Reported compute spending target shared with investors.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-02-24",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.3-Codex released",
+  "detail": "Agentic coding model for Codex.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.3-Codex"
+ },
+ {
+  "date": "2026-02-24",
+  "lab": "Anthropic",
+  "type": "other",
+  "title": "Responsible Scaling Policy v3.0 (full rewrite)",
+  "detail": "Added Frontier Safety Roadmaps and Risk Reports, and reframed ASL commitments as conditional if-then commitments.",
+  "source_url": "https://www.anthropic.com/rsp-updates",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-02-27",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "$110B round at $730B pre-money (Amazon $50B, Nvidia $30B, SoftBank $30B)",
+  "detail": "Round later extended to about $122B; post-money about $840B before the March extension.",
+  "source_url": "https://aibusiness.com/foundation-models/openai-unveils-110billion-funding-expands-aws-partnership"
+ },
+ {
+  "date": "2026-02-27",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Amazon strategic partnership: AWS expanded by $100B over eight years; AWS exclusive third-party distributor for OpenAI Frontier",
+  "detail": "Amazon's $50B investment is staged ($15B upfront, $35B conditional); about 2 GW of Trainium capacity.",
+  "source_url": "https://press.aboutamazon.com/2026/2/openai-and-amazon-announce-strategic-partnership"
+ },
+ {
+  "date": "2026-02-27",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Trump directs federal agencies to stop using Anthropic; Pentagon moves to supply-chain-risk label",
+  "detail": "Six-month phase-out directive after failed contract talks over limits on mass domestic surveillance and fully autonomous weapons.",
+  "source_url": "https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-03-01",
+  "lab": "AMI Labs",
+  "type": "funding",
+  "title": "AMI Labs (LeCun) raises $1.03B at $3.5B pre-money",
+  "detail": "Investors include Nvidia, Samsung, Bezos Expeditions, Cathay Innovation, Greycroft and HV Capital. Company has no product or revenue. Month-level date only (March 2026).",
+  "source_url": "https://www.vktr.com/ai-news/yann-lecuns-ami-labs-raises-103-billion-to-build-machines-that-understand-the-world/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-03-01",
+  "lab": "Thinking Machines Lab",
+  "type": "deal",
+  "title": "Thinking Machines and Nvidia multi-year partnership for at least 1 GW of compute",
+  "detail": "Month-level date only (March 2026). Reported as a multi-year deal for at least one gigawatt of Nvidia capacity.",
+  "source_url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-03-01",
+  "lab": "Mistral",
+  "type": "funding",
+  "title": "Mistral secures about $830M debt facility for Paris-area GPU data center",
+  "detail": "Debt from seven banks to buy about 13,800 Nvidia GPUs. Month-level date only (March 2026); source is a funding tracker.",
+  "source_url": "https://komo.ai/directory/mistral-ai-funding",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-03-03",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Pentagon formally designates Anthropic a supply chain risk",
+  "detail": "Formal designation letters dated March 3, 2026, the first such designation applied to a US company. Reported publicly Mar 5-6.",
+  "source_url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/"
+ },
+ {
+  "date": "2026-03-05",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.4 released (Thinking and Pro)",
+  "detail": "Frontier model with 1M-token context; initially not available to free users.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.4"
+ },
+ {
+  "date": "2026-03-05",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.3 Instant announced",
+  "detail": "Faster default ChatGPT model, announced the same day as GPT-5.4.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.4",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-03-09",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Anthropic sues Department of Defense over supply-chain-risk designation",
+  "detail": "Lawsuits filed in two federal courts, one in California and one in D.C.",
+  "source_url": "https://www.pearlcohen.com/anthropic-sues-department-of-defense-over-supply-chain-risk-designation/"
+ },
+ {
+  "date": "2026-03-16",
+  "lab": "Mistral",
+  "type": "model_release",
+  "title": "Mistral Small 4 released (merges Magistral, Pixtral and Devstral)",
+  "detail": "Single model combining reasoning, vision and agentic coding. Date from a third-party guide.",
+  "source_url": "https://serenitiesai.com/articles/mistral-ai-models-2026-complete-guide",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-03-16",
+  "lab": "Nvidia",
+  "type": "product",
+  "title": "GTC 2026 keynote: Vera Rubin NVL72 details and partner timeline",
+  "detail": "Vera Rubin NVL72 (72 GPUs, 36 CPUs) detailed; partner availability H2 2026; Microsoft and CoreWeave named as customers. Keynote March 16 in San Jose. Specs from secondary coverage; several differ.",
+  "source_url": "https://www.igorslab.de/en/nvidia-gtc-2026-kicks-off-with-a-keynote-by-jensen-huang-and-new-ai-platforms/"
+ },
+ {
+  "date": "2026-03-17",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.4 mini and GPT-5.4 nano released",
+  "detail": "Mini available to free ChatGPT users; nano API-only.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.4"
+ },
+ {
+  "date": "2026-03-24",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "OpenAI discontinues Sora app and API; Disney deal ends",
+  "detail": "Sora consumer app and API shut down to refocus compute on agentic AI; Disney's $1B investment never completed.",
+  "source_url": "https://engadget.com/ai/openai-is-shutting-down-its-sora-video-generation-app-211023358.html",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-03-26",
+  "lab": "Anthropic",
+  "type": "other",
+  "title": "Draft blog leak reveals 'Claude Mythos' (Capybara)",
+  "detail": "A draft about an unreleased model sat in an unsecured data store and leaked before Anthropic announced it. Anthropic later confirmed testing.",
+  "source_url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
+ },
+ {
+  "date": "2026-03-31",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "$122B round closes at $852B post-money valuation",
+  "detail": "Amazon, Nvidia and SoftBank anchor investors; co-led by a16z, D. E. Shaw, MGX, TPG and T. Rowe Price. Some sources date the extension to 2026-03-24.",
+  "source_url": "https://tech-insider.org/openai-122-billion-funding-round-852-billion-valuation-2026/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-04-01",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Fidji Simo takes medical leave; Brad Lightcap moves to special projects",
+  "detail": "Exact day not reported; month-level only.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-04-01",
+  "lab": "Zhipu",
+  "type": "model_release",
+  "title": "GLM-5.1 released",
+  "detail": "Second release in the GLM-5 line. Month-level date only (April 2026).",
+  "source_url": "https://rits.shanghai.nyu.edu/ai/glm-5-2-z-ais-open-weights-coder-beats-gpt-5-5-at-1-6-the-cost/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-04-07",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Mythos Preview and Project Glasswing announced (restricted access)",
+  "detail": "Not generally released because of cyber-offense capability. Invitation-only Glasswing partners (AWS, Apple, Google, Microsoft, Nvidia and others) at $25/$125 per million tokens. Later coverage gives different partner counts.",
+  "source_url": "https://venturebeat.com/data/anthropic-says-its-most-powerful-ai-cyber-model-is-too-dangerous-to-release"
+ },
+ {
+  "date": "2026-04-08",
+  "lab": "Meta",
+  "type": "model_release",
+  "title": "Meta releases Muse Spark, first Meta Superintelligence Labs model (proprietary)",
+  "detail": "Closed-weight model that replaces Llama 4 in Meta AI, with Instant and Thinking modes. Initially US-only, with a private API preview. Meta says future Muse models may include open-source releases. One reference lists a July 2026 date; this is treated as conflicting.",
+  "source_url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html"
+ },
+ {
+  "date": "2026-04-09",
+  "lab": "Anthropic",
+  "type": "product",
+  "title": "Claude Cowork generally available; Claude Managed Agents public beta",
+  "detail": "Cowork GA with enterprise features, alongside Managed Agents public beta and a Claude Code update. One secondary source.",
+  "source_url": "https://pasqualepillitteri.it/en/news/755/anthropic-managed-agents-cowork-ga-april-9-2026",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-04-16",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Opus 4.7 released",
+  "detail": "Positioned as the most capable GA Opus, deliberately below Mythos. Adds xhigh effort and task budgets; price unchanged at $5/$25. Cyber safeguards and a Cyber Verification Program included.",
+  "source_url": "https://arynews.tv/anthropic-launches-claude-opus-4-7"
+ },
+ {
+  "date": "2026-04-20",
+  "lab": "Anthropic",
+  "type": "deal",
+  "title": "Amazon invests $5B now (plus up to $20B later); Anthropic commits $100B+ to AWS over 10 years",
+  "detail": "Up to 5 GW of Trainium2/3/4 capacity, with about 1 GW targeted by end of 2026. Reported valuation $350B pre-money for this tranche.",
+  "source_url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/"
+ },
+ {
+  "date": "2026-04-20",
+  "lab": "Moonshot",
+  "type": "model_release",
+  "title": "Kimi K2.6 released",
+  "detail": "Extends the multimodal architecture of K2.5. Single source.",
+  "source_url": "https://systems-analysis.ru/eng/Kimi_(Moonshot_AI)",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-04-21",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "gpt-image-2 released with reasoning before image generation",
+  "detail": "First OpenAI image model that plans before generating.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.5",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-04-23",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.5 and GPT-5.5 Pro released",
+  "detail": "Described as first fully retrained base model since GPT-4.5 with 1M-token context; $5/$30 per M tokens API pricing reported. Available in ChatGPT paid tiers and Codex.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.5"
+ },
+ {
+  "date": "2026-04-24",
+  "lab": "DeepSeek",
+  "type": "model_release",
+  "title": "DeepSeek V4-Pro and V4-Flash released (open weights, MIT)",
+  "detail": "V4-Pro is 1.6T total / 49B active. Both text-only with a 1,048,576-token context. Released on Hugging Face, API and chat at once. Earlier rumors targeted mid-February. Sources call it preview or stable.",
+  "source_url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ {
+  "date": "2026-04-27",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Microsoft and OpenAI amend partnership: Microsoft exclusivity ends",
+  "detail": "OpenAI can serve all products on any cloud; Microsoft remains primary cloud partner with non-exclusive IP license through 2032; Microsoft stops paying revenue share to OpenAI; capped OpenAI payments to Microsoft through 2030.",
+  "source_url": "https://www.directionsonmicrosoft.com/microsoft-openai-amend-their-agreement-again/"
+ },
+ {
+  "date": "2026-04-27",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Musk v. Altman jury trial begins in Oakland",
+  "detail": "Jury selected for Musk's case against Altman, Brockman and OpenAI.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-04-29",
+  "lab": "Anthropic",
+  "type": "other",
+  "title": "Responsible Scaling Policy v3.2 effective",
+  "detail": "Lets the Long-Term Benefit Trust request external review of Risk Reports and approve external reviewers. v3.1 took effect 2026-04-02.",
+  "source_url": "https://www.anthropic.com/rsp-updates",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-05-05",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.5 Instant released",
+  "detail": "Default ChatGPT model variant; a conflicting source dates this to 2026-06-25.",
+  "source_url": "https://en.wikipedia.org/wiki/GPT-5.5",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-05-11",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "OpenAI Deployment Company (DeployCo) launched with over $4B committed",
+  "detail": "Majority-owned services arm placing forward-deployed engineers in client firms; backed by 19 investors led by TPG; Tomoro acquisition tied to it.",
+  "source_url": "https://dwealth.news/2026/05/openai-launches-deployco-invests-4-billion-to-solve-ai-deployment-woes/"
+ },
+ {
+  "date": "2026-05-15",
+  "lab": "OpenAI",
+  "type": "leadership",
+  "title": "Greg Brockman takes control of products",
+  "detail": "Reported reorganization giving Brockman oversight of product.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-05-18",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Jury rules for OpenAI in Musk lawsuit as time-barred",
+  "detail": "Unanimous advisory verdict that Musk's claims were filed past the statute of limitations; judge adopts it and dismisses. Musk vows appeal to the Ninth Circuit.",
+  "source_url": "https://abc7news.com/amp/post/musk-altman-verdict-reached-landmark-trial-artificial-intelligence/19125283"
+ },
+ {
+  "date": "2026-05-19",
+  "lab": "Google",
+  "type": "product",
+  "title": "Google I/O 2026 (May 19-20): Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Antigravity 2.0",
+  "detail": "Two-day event at Shoreline. Headline launches were Gemini 3.5 Flash (GA via Antigravity, Gemini API and Android Studio), Gemini Omni (any-to-video, rolling out to AI Plus/Pro/Ultra), Gemini Spark (24/7 cloud-hosted personal agent), and Antigravity 2.0. Other items included Information agents in Search and Universal Cart.",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+ },
+ {
+  "date": "2026-05-19",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini 3.5 Flash generally available",
+  "detail": "First model in the Gemini 3.5 series combining frontier intelligence with action. Available in Antigravity, Gemini API and Android Studio. Google's roundup is the primary source; exact GA date assumed to be keynote day.",
+  "source_url": "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-05-19",
+  "lab": "Google",
+  "type": "model_release",
+  "title": "Gemini Omni (any-input to video) rolled out",
+  "detail": "Generates output from any input, starting with video. Rolling out to AI Plus, Pro and Ultra subscribers, and free for 18+ users in YouTube Shorts Remix.",
+  "source_url": "https://www.tomsguide.com/news/live/google-io-2026-live-news-updates",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-05-28",
+  "lab": "Anthropic",
+  "type": "funding",
+  "title": "Series H: $65B at $965B post-money (Altimeter, Dragoneer, Greenoaks, Sequoia lead)",
+  "detail": "About $15B from hyperscalers, including $5B from Amazon, plus Samsung, SK Hynix and Micron. Company said run-rate revenue passed $47B in early May 2026.",
+  "source_url": "https://www.orrick.com/en/News/2026/05/Anthropic-Raises-65B-Series-H-at-965B-Post-Money-Valuation"
+ },
+ {
+  "date": "2026-05-28",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Opus 4.8 released (1M context by default; fast mode price cut)",
+  "detail": "Upgrade for long-horizon agentic coding, with a focus on honesty and uncertainty flagging. Standard pricing unchanged at $5/$25. Dynamic Workflows preview in Claude Code. Some outlets date it May 29.",
+  "source_url": "https://gigazine.net/gsc_news/en/20260529-anthropic-claude-opus-4-8/"
+ },
+ {
+  "date": "2026-06-01",
+  "lab": "Anthropic",
+  "type": "funding",
+  "title": "Anthropic confidentially submits draft S-1 to the SEC",
+  "detail": "Anthropic confirmed the confidential draft registration for a proposed IPO. No public S-1 or listing date was confirmed in sources found.",
+  "source_url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-files-confidential-1-joins-161008569.html"
+ },
+ {
+  "date": "2026-06-01",
+  "lab": "Moonshot",
+  "type": "model_release",
+  "title": "Kimi K2.7-Code released",
+  "detail": "Coding-focused variant. Month-level date only (June 2026); single source.",
+  "source_url": "https://mysummit.school/blog/en/kimi-k25-moonshot-review-2026/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-06-08",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "OpenAI confirms confidential draft S-1 filed for US IPO",
+  "detail": "Confidential submission to the SEC; no public S-1, listing date or ticker yet.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI"
+ },
+ {
+  "date": "2026-06-09",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Fable 5 (public) and Claude Mythos 5 (restricted) launched",
+  "detail": "Fable 5 is the most capable publicly available model, with classifier safeguards in cyber and biology and fallback to Opus 4.8. Mythos 5 is limited to trusted partners, with Glasswing partners getting defensive-cyber access. API $10/$50 per million tokens.",
+  "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+ },
+ {
+  "date": "2026-06-12",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "US export-control directive; Anthropic suspends Fable 5 and Mythos 5",
+  "detail": "Commerce directive barred foreign-national access. Anthropic disabled both models for everyone. Reported trigger was a jailbreak found by Amazon researchers. Some sources date the reporting to June 30.",
+  "source_url": "https://www.gtlaw.com/it/insights/2026/6/ai-company-anthropic-suspends-access-to-claude-fable-5-claude-mythos-5-following-us-export-control-directive",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-06-13",
+  "lab": "Zhipu",
+  "type": "model_release",
+  "title": "GLM-5.2 released (open-weights coding and agent flagship)",
+  "detail": "One source says June 13, another June 16. Described as Z.ai's flagship as of July 2026.",
+  "source_url": "https://rits.shanghai.nyu.edu/ai/glm-5-2-z-ais-open-weights-coder-beats-gpt-5-5-at-1-6-the-cost/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-06-24",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Jalapeno: first custom inference chip, co-designed with Broadcom",
+  "detail": "OpenAI's first custom accelerator for LLM inference; first generation to deploy by end of 2026; engineering samples running.",
+  "source_url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
+ },
+ {
+  "date": "2026-06-24",
+  "lab": "OpenAI",
+  "type": "legal",
+  "title": "Local newspaper publishers sue OpenAI and Microsoft",
+  "detail": "Copyright infringement suit by local publishers.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-06-26",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.6 family (Sol, Terra, Luna) limited preview",
+  "detail": "Limited preview to select partners after a delay tied to US government review; one source dates the preview to 2026-06-27.",
+  "source_url": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-06-26",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Mythos 5 access restored for set of US organizations",
+  "detail": "Restored after US government approval. Other reports say the restriction was lifted June 30 with a hardened classifier and security commitments.",
+  "source_url": "https://rits.shanghai.nyu.edu/ai/anthropic-redeploys-claude-fable-5-as-u-s-lifts-export-controls/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-06-30",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Sonnet 5 released (default for Free and Pro)",
+  "detail": "Replaced Sonnet 4.6 as the default for Free and Pro. Intro price $2/$10 through Aug 31, then $3/$15. Native 1M context. API ID claude-sonnet-5.",
+  "source_url": "https://gigazine.net/gsc_news/en/20260701-claude-sonnet-5"
+ },
+ {
+  "date": "2026-06-30",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "US lifts export controls; Anthropic announces Fable 5 redeployment",
+  "detail": "Controls lifted after Anthropic shipped a hardened classifier and security commitments. Fable 5 returned globally July 1.",
+  "source_url": "https://rits.shanghai.nyu.edu/ai/anthropic-redeploys-claude-fable-5-as-u-s-lifts-export-controls/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-07-08",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "GPT-Live-1 and GPT-Live-1 mini launched in ChatGPT Voice",
+  "detail": "Full-duplex voice models that listen and speak at once; replace Advanced Voice Mode; API coming soon. Background tasks delegated to GPT-5.5.",
+  "source_url": "https://thenextweb.com/news/openai-gpt-live-chatgpt-voice-full-duplex"
+ },
+ {
+  "date": "2026-07-09",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-5.6 Sol, Terra and Luna general availability",
+  "detail": "Sol flagship at about $5/$30 per M tokens, Terra $2.50/$15, Luna $1/$6; ChatGPT Work desktop app and Codex merged in launch.",
+  "source_url": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/"
+ },
+ {
+  "date": "2026-07-15",
+  "lab": "Thinking Machines Lab",
+  "type": "model_release",
+  "title": "Inkling, Thinking Machines' second model, launched",
+  "detail": "Single-source reporting; details not independently verified.",
+  "source_url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-07-16",
+  "lab": "Moonshot",
+  "type": "model_release",
+  "title": "Kimi K3 announced (about 2.8T-parameter MoE, 1M context)",
+  "detail": "Debuted No. 3 on Artificial Analysis at launch per reports (company and early third-party figures). Pre-launch leak said 2.5T; official-release reports say 2.8T.",
+  "source_url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/"
+ },
+ {
+  "date": "2026-07-20",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Court grants final approval to $1.5B Bartz authors settlement",
+  "detail": "Final approval by Judge Araceli Martinez-Olguin, N.D. Cal., described as the largest copyright class settlement. Case is 4:24-cv-05417.",
+  "source_url": "https://news.bloomberglaw.com/ip-law/anthropic-authors-1-5-billion-deal-receives-final-approval"
+ },
+ {
+  "date": "2026-07-21",
+  "lab": "DeepSeek",
+  "type": "other",
+  "title": "Status: DeepSeek R2 not released as of latest reports",
+  "detail": "Guide updated July 21, 2026 says no R2 technical report, model card or GitHub repo. Reports cite Liang Wenfeng holding the launch over performance and a failed Huawei Ascend training run. V4 family shipped instead.",
+  "source_url": "https://www.layer3labs.io/guides/deepseek-r2-explained",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-07-22",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "Music publishers file Second Amended Complaint (lyrics output and RL-prompting evidence)",
+  "detail": "71-page complaint using discovery material. Anthropic moves to dismiss output and DMCA claims, and CEO Dario Amodei moves to drop the personal direct-infringement claim.",
+  "source_url": "https://www.musicbusinessworldwide.com/music-publishers-file-amended-lyrics-lawsuit-against-anthropic-just-as-ai-firms-separate-1-5b-piracy-settlement-with-authors-wins-court-approval/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-07-24",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Opus 5 released (succeeds Opus 4.8)",
+  "detail": "Opus-tier model at $5/$25, described as close to Fable 5 at half the price. Model ID claude-opus-5. Some pre-launch guides wrongly say it had not shipped.",
+  "source_url": "https://www.gigazine.net/gsc_news/en/20260725-claude-opus-5"
+ },
+ {
+  "date": "2026-07-27",
+  "lab": "Moonshot",
+  "type": "model_release",
+  "title": "Kimi K3 open weights released (custom license)",
+  "detail": "Released July 27, 2026, about 11 days after the announcement. Companies above $20M annual revenue must negotiate with Moonshot before offering K3 as a hosted service.",
+  "source_url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/"
+ },
+ {
+  "date": "2026-08-12",
+  "lab": "Alibaba",
+  "type": "model_release",
+  "title": "Qwen3.8 open weights reported (2.4T-parameter Max-class)",
+  "detail": "Single developer-guide source. A later MarkTechPost piece also references a 2.4T Qwen model, but the release date and open-weight status are not confirmed.",
+  "source_url": "https://codersera.com/blog/qwen-3-5-complete-guide-2026/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-08-13",
+  "lab": "DeepSeek",
+  "type": "model_release",
+  "title": "DeepSeek V4-Pro-0813 generally available",
+  "detail": "Left preview and became GA on DeepSeek API and chat. Single source; a V4-Flash-0731 public beta is also reported around July 31.",
+  "source_url": "https://www.yottalabs.ai/post/deepseek-v4-release-date-specs-how-to-access-2026",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-08-17",
+  "lab": "OpenAI",
+  "type": "deal",
+  "title": "Nvidia guarantee of up to $105B for Ohio data center lease",
+  "detail": "Reported Nvidia-backed lease for an 8 GW data center in Pike County, Ohio.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-08-27",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "N.D. Cal. judge rules Pentagon supply-chain-risk designation unlawful",
+  "detail": "Judge Rita Lin called it unlawful retaliation under the First Amendment, arbitrary and capricious, and a due-process violation. A preliminary injunction under 10 U.S.C. 3252 was reportedly issued in late March. Pentagon may appeal.",
+  "source_url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-08-31",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "ChatGPT ad business reaches $1B annualized run rate",
+  "detail": "Reported by CNBC.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-09-01",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Fable 5.1 and Claude Mythos 5.1 released",
+  "detail": "Same underlying model with different safeguard levels. Fable 5.1 is generally available. Mythos 5.1 is limited to vetted organizations through trusted-access programs, aimed at cyber defense and life sciences.",
+  "source_url": "https://aipicks.jp/news/20260903-claude-fable-5-1-mythos-5-1",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-09-01",
+  "lab": "Mistral",
+  "type": "funding",
+  "title": "Mistral closes EUR 3B Series D at above EUR 21B post-money",
+  "detail": "Largest equity round by a European tech company per Orrick; Samsung Electronics reported as lead, with EQT's Scaleup Europe Fund and PSG as co-leads. Month-level date only (September 2026).",
+  "source_url": "https://www.orrick.com/en/news/2026/09/orrick-advises-mistral-in-its-3b-series-d-at-21b-post-money-valuation",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-09-03",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-6 Astra announced as most capable model",
+  "detail": "Listed as OpenAI's most intelligent and aligned model on its research release page; API pricing reported at $10/$50 per M tokens.",
+  "source_url": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna-in-the-api-codex-and-chatgpt/1399925",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-09-05",
+  "lab": "Anthropic",
+  "type": "funding",
+  "title": "Reuters reports Anthropic IPO timing for mid-October or later",
+  "detail": "Reported IPO timing, not confirmed by the company. Later reports on Sep 21 suggested November 2026. Underwriters reportedly Morgan Stanley, Goldman Sachs and JPMorgan.",
+  "source_url": "https://themesetfs.com/insights/anthropic-ipo-what-is-known-and-what-remains-unconfirmed",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-09-12",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "Altman says no IPO in 2026",
+  "detail": "Reported that OpenAI will not list this year; NYT reported in June that a 2027 IPO was being considered.",
+  "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-09-22",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-6 Sol and GPT-6 Luna released",
+  "detail": "Sol is the flagship and Luna the fast, low-cost model; built on GPT-6 Astra research.",
+  "source_url": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna-in-the-api-codex-and-chatgpt/1399925",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-09-22",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Opus 5.5 released (first Claude 5.5 model)",
+  "detail": "Priced at $4/$20 per million tokens, 30%+ faster output than Opus 5. Available on the Claude API, Bedrock, Google Cloud and Microsoft Foundry.",
+  "source_url": "https://cellcog.ai/blog/claude-opus-5-5-release-date/"
+ },
+ {
+  "date": "2026-09-25",
+  "lab": "Anthropic",
+  "type": "legal",
+  "title": "D.C. Circuit (2-1) upholds Pentagon supply-chain-risk designation",
+  "detail": "Judge Henderson dissented. Designation rests on the FASCSA authority, which is separate from the N.D. Cal. ruling.",
+  "source_url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
+ },
+ {
+  "date": "2026-09-28",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "OpenAI delays and does not ship GPT-6.1 Astra over safety concerns",
+  "detail": "Announced Monday 2026-09-28; internal testing found deception and scope/authorization problems. Safety head Saachi Jain said it did not meet the bar.",
+  "source_url": "https://www.itv.com/news/2026-09-29/openai-delays-release-of-latest-model-due-to-security-concerns"
+ },
+ {
+  "date": "2026-09-28",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Sonnet 5.5 released",
+  "detail": "Same price as Sonnet 5 ($2/$10), faster and cheaper per task than predecessor. Claude.ai rollout came before API and enterprise access.",
+  "source_url": "https://decrypt.co/379482/anthropic-claude-sonnet-5-5-release"
+ },
+ {
+  "date": "2026-09-29",
+  "lab": "OpenAI",
+  "type": "other",
+  "title": "DevDay 2026 keynote in San Francisco",
+  "detail": "Keynote at Fort Mason with 20+ announcements: Dots always-on agents, a new $500/month ChatGPT tier, a faster developer speed tier, and 1.2B weekly ChatGPT users cited.",
+  "source_url": "https://openai.com/index/devday-2026/"
+ },
+ {
+  "date": "2026-09-29",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-6.1 Sol released (API model gpt-6.1-sol)",
+  "detail": "Near-Astra performance for agentic coding and computer use at $2/$10 per M tokens; available in ChatGPT Work and Codex for paid tiers.",
+  "source_url": "https://openai.com/index/devday-2026-recap/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-09-30",
+  "lab": "OpenAI",
+  "type": "funding",
+  "title": "OpenAI reportedly in talks to raise $30B+ at about $1.4T valuation (not confirmed)",
+  "detail": "Bloomberg-reported pre-IPO round; Forbes reports up to $1.5T. No closed round announced as of 2026-10-06.",
+  "source_url": "https://americanbazaaronline.com/2026/09/30/openai-reportedly-targets-1-4t-valuation-in-new-funding-round-489091/",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-10-06",
+  "lab": "Mistral",
+  "type": "model_release",
+  "title": "Mistral Large 4 released as public preview (open-weight multimodal MoE)",
+  "detail": "Nicknamed Le Chonk. Secondary source says 1.05T total / 49B active; TechCrunch headline says about 1T. Positioned against US and Chinese frontier models.",
+  "source_url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
+ },
+ {
+  "date": "2026-10-07",
+  "lab": "OpenAI",
+  "type": "product",
+  "title": "GPT-6 with Intelligent UI rolls out in ChatGPT",
+  "detail": "Responses can include text, visuals and interactive elements; paid tiers get GPT-6 Sol, Free and Go get GPT-6 Luna from 2026-10-08.",
+  "source_url": "https://community.openai.com/t/gpt-6-and-intelligent-ui-in-chatgpt/1404139",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-10-07",
+  "lab": "Anthropic",
+  "type": "model_release",
+  "title": "Claude Haiku 5.5 released",
+  "detail": "High-volume, low-cost model at $0.10/$0.50 per million tokens for prompts up to 100K. Adds configurable effort levels. One outlier source still lists it as announced-only.",
+  "source_url": "https://letsdatascience.com/news/anthropic-releases-claude-haiku-55-with-lower-prices-and-eff-f698c663",
+  "date_confidence": "low"
+ },
+ {
+  "date": "2026-10-08",
+  "lab": "OpenAI",
+  "type": "model_release",
+  "title": "GPT-6.1 Sol Ultrafast available to all API users",
+  "detail": "Separate pricing and rate limits for the Ultrafast tier.",
+  "source_url": "https://community.openai.com/t/gpt-6-and-intelligent-ui-in-chatgpt/1404139",
+  "date_confidence": "low"
+ }
+]
