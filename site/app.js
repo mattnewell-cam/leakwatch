@@ -5,7 +5,7 @@
   const app = $("#app");
   const S = { claims: [], leakers: [], meta: {}, byId: {}, byHandle: {}, claimsByHandle: {} };
   const UI = { feedTab: "latest", lab: "all", q: "", showStale: false, minScore: 0, limit: 60,
-               lbGroup: "leakers", lbCat: "all", lbSort: "leak_score", lbDir: -1, profFilter: "all" };
+               lbGroup: "leakers", lbCat: "all", lbSort: "leak_score", lbDir: -1, profFilter: "all", profLimit: 100 };
 
   const VERDICT_LABEL = {
     true: "Came true", mostly_true: "Mostly true", partly_true: "Partly true", false: "False",
@@ -17,6 +17,8 @@
 
   // ---------- utils ----------
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  // only http(s) links/images from data the site doesn't control
+  const safeUrl = (u) => { try { const x = new URL(String(u || "")); return /^https?:$/.test(x.protocol) ? esc(x.href) : "#"; } catch (e) { return "#"; } };
   const fmtDate = (s) => { if (!s) return ""; const d = new Date(s.length <= 10 ? s + "T00:00:00Z" : s);
     return d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }); };
   const fmtNum = (n) => n == null ? "–" : n >= 1e6 ? (n / 1e6).toFixed(1) + "M" : n >= 1e3 ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1) + "k" : String(n);
@@ -38,7 +40,7 @@
   };
   const avatar = (l, cls = "") => {
     const src = l && l.avatar ? l.avatar.replace("_normal.", "_bigger.") : "";
-    return src ? `<img class="avatar ${cls}" src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`
+    return src ? `<img class="avatar ${cls}" src="${safeUrl(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`
                : `<span class="avatar ${cls}"></span>`;
   };
   const dots = (n) => `<span class="dots" title="Specificity ${n}/5">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>`;
@@ -150,10 +152,10 @@
     const l = leakerOf(c);
     const r = c.resolution || {};
     const comps = (c.legitimacy?.components || []).map((x) => `<div class="comp"><span>${esc(x.label)}</span><span class="dv ${x.delta > 0 ? "pos" : x.delta < 0 ? "neg" : ""}">${x.value != null ? x.value : x.delta == null ? "" : (x.delta > 0 ? "+" : "") + x.delta}</span></div>`).join("");
-    const tweets = (c.tweets || []).map((t) => `<div class="tweet">${esc(t.text)}<span class="tmeta">${fmtDate(t.created_at)} · ♥ ${fmtNum(t.likes)} · <a href="${esc(t.url)}" target="_blank" rel="noopener">view on X ↗</a></span></div>`).join("")
+    const tweets = (c.tweets || []).map((t) => `<div class="tweet">${esc(t.text)}${t.quoted ? `<div class="tweet" style="margin:8px 0 0;opacity:.8">quoting @${esc(t.quoted.handle || "")}: ${esc(t.quoted.text || "")}</div>` : ""}<span class="tmeta">${fmtDate(t.created_at)} · ♥ ${fmtNum(t.likes)} · <a href="${safeUrl(t.url)}" target="_blank" rel="noopener">view on X ↗</a></span></div>`).join("")
       || (c.quote ? `<div class="tweet">${esc(c.quote)}</div>` : "");
     const lab = c.lab;
-    const past = (S.claimsByHandle[c.handle.toLowerCase()] || []).filter((x) => x.id !== c.id && RESOLVED.has(x.verdict))
+    const past = (S.claimsByHandle[c.handle.toLowerCase()] || []).filter((x) => x.id !== c.id && RESOLVED.has(x.verdict) && x.date < c.date)
       .sort((a, b) => (b.lab === lab) - (a.lab === lab) || b.date.localeCompare(a.date)).slice(0, 6);
     const st = l.stats;
     const labSt = st && st.by_lab && st.by_lab[lab];
@@ -169,11 +171,12 @@
         ${c.resolve_by ? `<span>resolves by ${fmtDate(c.resolve_by)}</span>` : ""}</div>
       <div class="d-claim">${esc(c.claim)}</div>
       ${tweets ? `<div class="panel"><h3>${c.origin === "trawl" ? "As documented" : "Original post"}</h3>${tweets}
-        ${c.origin === "trawl" && c.source_url ? `<div class="note">Recovered from <a class="link" href="${esc(c.source_url)}" target="_blank" rel="noopener">this source ↗</a>${c.deleted ? " — the original tweet appears deleted." : ""}</div>` : ""}</div>` : ""}
+        ${c.origin === "trawl" && c.source_url ? `<div class="note">Recovered from <a class="link" href="${safeUrl(c.source_url)}" target="_blank" rel="noopener">this source ↗</a>${c.deleted ? " — the original tweet appears deleted." : ""}</div>` : ""}</div>` : ""}
       ${RESOLVED.has(c.verdict) || ["already_public", "unverifiable"].includes(c.verdict) ? `<div class="panel"><h3>What happened</h3>
         <div>${esc(r.explanation || "")}</div>
-        ${lead != null && lead > 0 && RESOLVED.has(c.verdict) && c.verdict !== "false" ? `<p style="margin:10px 0 0"><b style="color:var(--true)">${plural(lead, "day")} ahead</b> <span class="note">of public confirmation on ${fmtDate(r.public_date)}</span></p>` : r.public_date ? `<p class="note" style="margin:10px 0 0">Publicly confirmed ${fmtDate(r.public_date)}</p>` : ""}
-        <div class="ev" style="margin-top:8px">${(r.evidence || []).map((e) => `<a href="${esc(e.url)}" target="_blank" rel="noopener">↗ ${esc(e.title || e.url)}</a>`).join("")}</div>
+        ${lead != null && lead > 0 && RESOLVED.has(c.verdict) && c.verdict !== "false" ? `<p style="margin:10px 0 0"><b style="color:var(--true)">${plural(lead, "day")} ahead</b> <span class="note">of ${c.lead_ref_kind === "official" ? "official confirmation" : "it becoming public"} on ${fmtDate(c.lead_ref_date)}</span></p>` : r.public_date ? `<p class="note" style="margin:10px 0 0">First public ${fmtDate(r.public_date)}${r.official_date && r.official_date !== r.public_date ? ` · officially confirmed ${fmtDate(r.official_date)}` : ""}</p>` : ""}
+        ${c.repeat_of ? `<p class="note" style="margin:8px 0 0">Repeat of <a class="link" href="#/?claim=${esc(c.repeat_of)}">an earlier claim</a> by the same account — counted once in their record.</p>` : ""}
+        <div class="ev" style="margin-top:8px">${(r.evidence || []).map((e) => `<a href="${safeUrl(e.url)}" target="_blank" rel="noopener">↗ ${esc(e.title || e.url)}</a>`).join("")}</div>
         <div class="note" style="margin-top:8px">Resolver confidence: ${esc(r.confidence || "–")}${r.vetted ? ` · <span title="${esc(r.vetted.note || "")}">✓ audited${r.vetted.changed_from ? ` (was “${esc(VERDICT_LABEL[r.vetted.changed_from] || r.vetted.changed_from)}”)` : ""}</span>` : ""}</div></div>`
       : c.verdict === "pending" ? `<div class="panel"><h3>Status</h3><div>Not yet resolved. ${c.resolve_by ? `The claim's own deadline is ${fmtDate(c.resolve_by)}; we re-check it as that approaches.` : "Open claims are re-checked regularly."}</div>${r.explanation ? `<p class="note">${esc(r.explanation)}</p>` : ""}</div>` : ""}
       <div class="panel"><h3>Why this legitimacy score</h3>${comps || `<div class="note">No score.</div>`}
@@ -187,7 +190,7 @@
           <div><b>${labSt ? pct(labSt.credibility) : "–"}</b><span>on ${esc(lab)} (${labSt ? labSt.n : 0})</span></div>
           <div><b>${st.median_lead_days != null ? st.median_lead_days + "d" : "–"}</b><span>median lead</span></div>
           <div><b>${l.rank ? "#" + l.rank : "–"}</b><span>leaderboard</span></div></div>` : `<div class="note">No track record yet — this account isn't on our tracked list, so the score uses a sceptical prior.</div>`}
-        ${past.length ? `<div class="section-title" style="margin-top:16px">Their past claims${labSt ? ` (${esc(lab)} first)` : ""}</div>` +
+        ${past.length ? `<div class="section-title" style="margin-top:16px">Their earlier claims${labSt ? ` (${esc(lab)} first)` : ""} · outcomes as now known</div>` +
           past.map((x) => `<div class="minirow" data-claim="${esc(x.id)}"><span class="chip-dot bg-${x.verdict}"></span><span class="mt">${esc(x.claim)}</span><span class="md">${fmtDate(x.date)}</span></div>`).join("") : ""}
         ${l.handle && S.byHandle[(l.handle || "").toLowerCase()] ? `<p style="margin:12px 0 0"><a class="link" href="#/leaker/${esc(l.handle)}">Full profile →</a></p>` : ""}
       </div>`;
@@ -205,7 +208,7 @@
   const LB_COLS = [
     ["rank", "#", false], ["handle", "Leaker", false], ["leak_score", "Leak score", true], ["credibility", "Accuracy", true],
     ["hits", "Hits", true], ["n_false", "Misses", true], ["n_pending", "Pending", true], ["median_lead_days", "Lead", true],
-    ["impact", "Impact", true], ["record", "Recent record", false],
+    ["impact", "Impact", true], ["coverage", "Settled", true], ["record", "Recent record", false],
   ];
   function lbValue(l, k) {
     const s = l.stats;
@@ -239,6 +242,7 @@
         <td class="num mono" style="color:var(--pending)">${s.n_pending}</td>
         <td class="num mono">${s.median_lead_days != null ? s.median_lead_days + "d" : "–"}</td>
         <td class="num mono">${s.impact.toFixed(1)}</td>
+        <td class="num mono" title="Share of their checkable claims that have been settled (rest pending/unverifiable)">${pct(s.coverage)}</td>
         <td><div class="strip">${rec}</div></td></tr>`;
     };
     const blurb = UI.lbGroup === "journalists"
@@ -293,12 +297,15 @@
         <div><b>${s.median_lead_days != null ? s.median_lead_days + "d" : "–"}</b><span>median lead time</span></div>
         <div><b>${pct(s.stale_rate)}</b><span>already-public rate</span></div>
         <div><b>${pct(s.vague_rate)}</b><span>vague claims</span></div>
+        <div><b>${pct(s.coverage)}</b><span>of checkable claims settled</span></div>
+        <div><b>${s.n_events ?? "–"}</b><span>independent events</span></div>
       </div>
       <div class="prof-grid">
         <div>
           <div class="section-title">All claims</div>
           <div class="seg" id="pf" style="margin-bottom:12px">${[["all", "All"], ["hits", "Hits"], ["misses", "Misses"], ["pending", "Pending"], ["stale", "Already public"]].map(([k, v]) => `<button data-f="${k}" class="${filt === k ? "on" : ""}">${v}</button>`).join("")}</div>
-          <div id="pclaims">${shown.length ? shown.slice(0, 300).map(cardHTML).join("") : `<div class="empty">Nothing here.</div>`}</div>
+          <div id="pclaims">${shown.length ? shown.slice(0, UI.profLimit).map(cardHTML).join("") : `<div class="empty">Nothing here.</div>`}</div>
+          ${shown.length > UI.profLimit ? `<button class="more" id="pmore">Show more (${shown.length - UI.profLimit} more)</button>` : ""}
         </div>
         <div>
           <div class="panel"><h3>Accuracy by lab</h3><div class="labbars">${labs.map(([lab, v]) => `<div class="lr"><span>${esc(lab)}</span><span class="track"><i style="width:${Math.round(v.credibility * 100)}%;background:${scoreColor(v.credibility * 100)}"></i></span><span class="mono note">${pct(v.credibility)} · ${v.n}</span></div>`).join("") || `<div class="note">No resolved claims.</div>`}</div></div>
@@ -307,7 +314,8 @@
           <div class="panel"><h3>Record over time</h3><div class="strip" style="flex-wrap:wrap;gap:3px">${(l.record || []).map((v) => `<i class="bg-${v}" title="${VERDICT_LABEL[v]}"></i>`).join("")}</div><p class="note" style="margin:8px 0 0">Resolved claims, oldest → newest.</p></div>
         </div>
       </div>`;
-    $("#pf").onclick = (e) => { const b = e.target.closest("button"); if (!b) return; UI.profFilter = b.dataset.f; renderProfile(handle); };
+    $("#pf").onclick = (e) => { const b = e.target.closest("button"); if (!b) return; UI.profFilter = b.dataset.f; UI.profLimit = 100; renderProfile(handle); };
+    const pm = $("#pmore"); if (pm) pm.onclick = () => { UI.profLimit += 200; const y = scrollY; renderProfile(handle); scrollTo(0, y); };
   }
 
   // ---------- about ----------
@@ -324,16 +332,16 @@
       <h2>Leakers vs journalists</h2>
       <p>Professional reporters (The Information, Bloomberg, The Verge, Reuters…) are ranked on a separate board: their scoops come with institutional sourcing and editors, and they turn out to be far more reliable than anonymous accounts. For a journalist's own scoop, lead time is measured to official confirmation rather than to their article.</p>
       <h2>3. Scores</h2>
-      <p><b>Credibility</b> is a Bayesian hit rate: resolved claims are weighted by specificity (and down-weighted when hedged, cryptic or second-hand), starting from a 50/50 prior worth four claims — so three lucky guesses can't beat a long, solid record. True = 1, mostly true = 0.8, partly true = 0.4, false = 0.</p>
+      <p><b>Credibility</b> (shown as "accuracy") is the expected credit per claim — true = 1, mostly true = 0.8, partly true = 0.4, false = 0 — estimated with a Bayesian prior worth four claims (50/50 for tracked accounts, more sceptical for newcomers), so three lucky guesses can't beat a long, solid record. Claims are weighted by specificity and down-weighted when hedged, cryptic or second-hand. <b>Several claims settled by the same event</b> (e.g. a name, a date and a benchmark for one launch) count as one piece of evidence, not several. It's credit among <i>settled</i> claims, so each profile also shows <b>coverage</b>: how much of the account's checkable output has actually been settled — low coverage means the accuracy rests on a small slice.</p>
       <p><b>No credit for the obvious.</b> Claims whose information was already public when posted — including "hits" posted the same day it became public, which can't be told apart from reacting to the news — count neither for nor against accuracy, but show up in each profile's <i>already-public rate</i>. Exceptions: a code/A-B-test find or a journalist's own scoop, where same-day coverage <i>is</i> the leak (their lead time runs to official confirmation).</p>
       <p><b>Impact</b> sums the significance of correct claims, boosted for lead time (a call made two months early counts more than one made the day before).</p>
       <p><b>Leak score</b> = credibility<sup>1.5</sup> × (1 − e<sup>−impact/${m.impact_k || 8}</sup>) × 100. You need both a good hit rate <i>and</i> a body of significant early calls.</p>
-      <p><b>Legitimacy</b> (the ring on each claim) estimates the chance the claim is true. It starts from the leaker's credibility <i>as of the day the claim was made</i> (blended with their lab-specific record when there's enough data), then adjusts for claim type (code/test evidence +10, journalism +6, speculation −15), hedging, vagueness, and corroboration by other tracked leakers.</p>
+      <p><b>Legitimacy</b> (the ring on each claim) estimates the chance the claim is true. It starts from the leaker's credibility <i>as of the day the claim was made</i> (blended with their lab-specific record when there's enough data), then adjusts for claim type (code/test evidence +10, journalism +6, speculation −15), hedging, vagueness, and corroboration by other tracked accounts with above-average records (echoes from weak sources add nothing). It's a heuristic estimate, not a fitted probability.</p>
       <h2>Is the legitimacy score any good?</h2>
-      <p>Because historical scores are computed without hindsight, we can check calibration: of claims scored in each band, how many came true (true/mostly = 1, partly = 0.4)?</p>
+      <p>Because historical scores are computed only from what was settled before each claim, we can run a reconstructed backtest: of claims scored in each band, what share of credit did they earn (true = 1, mostly true = 0.8, partly = 0.4, false = 0)?</p>
       ${cal.length ? `<div class="calib">${cal.map((b) => `<div class="col" title="${b.n} claims"><div class="exp" style="bottom:${b.mid}%"></div><div class="barv" style="height:${Math.round(b.rate * 100)}%"></div></div>`).join("")}</div>
       <div class="calib-labels">${cal.map((b) => `<span>${b.lo}–${b.hi}<br>${Math.round(b.rate * 100)}% · n=${b.n}</span>`).join("")}</div>
-      <p class="note">Bars: observed hit rate. Dashed line: what a perfectly calibrated score would give.</p>` : ""}
+      <p class="note">Bars: observed credit rate (true 1, mostly 0.8, partly 0.4, false 0). Dashed line: the average score given in that band (what a perfectly calibrated score would earn). Caveat: outcomes are graded by the same pipeline, and claims about the same event aren't independent.</p>` : ""}
       ${m.audit ? `<h2>How accurate is the grading?</h2>
       <p>${fmtNum(m.n_audited)} of the most score-relevant verdicts were re-checked by an independent auditor model, which corrected many of them. To measure the rest honestly, the auditor also graded a <b>blind random sample of ${m.audit.sample_n}</b> un-audited verdicts: it agreed on the outcome category (hit / partly / miss / excluded) <b>${Math.round(m.audit.bucket_agreement * 100)}%</b> of the time, and on the exact verdict ${Math.round(m.audit.exact_agreement * 100)}% of the time. Treat any single un-audited verdict accordingly — the aggregate scores are much more robust than individual grades.</p>` : ""}
       <h2>Caveats</h2>

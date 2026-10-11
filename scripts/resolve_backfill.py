@@ -13,7 +13,7 @@ WORKERS = int(sys.argv[1]) if len(sys.argv) > 1 else 24
 def main():
     claims = load_json(DATA / "claims.json")
     byid = {c["id"]: c for c in claims}
-    todo = [c for c in claims if not c.get("resolution") and c["specificity"] >= 2]
+    todo = [c for c in claims if not c.get("resolution") and c["specificity"] >= 2 and not c.get("pruned")]
     todo.sort(key=lambda c: (c["lab"], c["date"]))
     jobs = []
     big = [c for c in todo if c["significance"] >= 4]

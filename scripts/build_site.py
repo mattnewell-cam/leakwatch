@@ -4,6 +4,7 @@ from collections import defaultdict
 
 from leakwatch.common import DATA, SITE, load_json, now_iso
 from leakwatch import scoring as sc
+from leakwatch.resolve import deadline_stated
 
 MIN_RESOLVED = 5
 REPO_URL = "https://github.com/mattnewell-cam/leakwatch"
@@ -13,7 +14,8 @@ def main():
     all_accounts = load_json(DATA / "accounts.json", [])
     accounts = {a["handle"].lower(): a for a in all_accounts if not a.get("skip")}
     skipped = {a["handle"].lower() for a in all_accounts if a.get("skip")}
-    claims = [c for c in load_json(DATA / "claims.json", []) if c["handle"].lower() not in skipped]
+    claims = [c for c in load_json(DATA / "claims.json", []) if c["handle"].lower() not in skipped
+              and not c.get("pruned") and (c.get("resolution") or {}).get("verdict") != "not_a_claim"]
     profiles = load_json(DATA / "profiles.json", {})  # handle -> {summary}
     newcomers = load_json(DATA / "newcomers.json", {})
     by_handle = defaultdict(list)
@@ -21,7 +23,9 @@ def main():
         c["_category"] = (accounts.get(c["handle"].lower()) or {}).get("category")
         c["verdict"] = sc.effective_verdict(c)
         c["lead_days"] = sc.lead_days(c)
-        by_handle[c["handle"].lower()].append(c)
+        c["lead_ref_date"], c["lead_ref_kind"] = sc.lead_ref(c) if c["lead_days"] is not None else (None, None)
+        if not c.get("repeat_of"):            # a leaker repeating their own claim is scored once
+            by_handle[c["handle"].lower()].append(c)
 
     # corroboration index for pending claims: story ids assigned by the daily pipeline
     story = defaultdict(list)
@@ -34,7 +38,7 @@ def main():
         acct = accounts.get(h)
         info = {}
         prof = (acct or {}).get("profile") or newcomers.get(h) or {}
-        st = sc.leaker_stats(cl)
+        st = sc.leaker_stats(cl, tracked=bool(acct))
         resolved = sorted([c for c in cl if c["verdict"] in sc.VALUE], key=lambda c: c["date"])
         good = [c for c in resolved if sc.VALUE[c["verdict"]] >= 0.8]
         best = sorted(good, key=lambda c: -(c["significance"] * sc.lead_factor(c["lead_days"]) * c["specificity"]))[:5]
@@ -68,16 +72,19 @@ def main():
     leakers.sort(key=lambda l: (l.get("rank") or 9999, -l["stats"]["n_claims"]))
 
     # legitimacy, no hindsight
-    cal = defaultdict(lambda: [0, 0.0])
+    cal = defaultdict(lambda: [0, 0.0, 0.0])
     for c in claims:
         h = c["handle"].lower()
         corro = 0.0
-        if c.get("story_id"):
-            others = [o for o in story[c["story_id"]] if o["handle"].lower() != h and o["date"] <= c["date"]]
-            if others:
-                cr = [sc.credibility_as_of(by_handle[o["handle"].lower()], c["date"][:10])[0] for o in others]
-                corro = min(0.15, 0.1 * sum(max(0, x - 0.4) for x in cr) + 0.03 * len(others))
-                c["corroborated_by"] = sorted({o["handle"] for o in others})
+        if c.get("story_id") and c.get("source_type") != "relayed":
+            # one vote per distinct tracked account that made the same claim no later than this one
+            hs = sorted({o["handle"] for o in story[c["story_id"]] if o["handle"].lower() != h
+                         and o["date"] <= c["date"] and o["handle"].lower() in accounts})
+            if hs:
+                # only corroborators with an above-average record add anything; echoes from weak sources add nothing
+                cr = [sc.credibility_as_of(by_handle[x.lower()], c["date"][:10])[0] for x in hs]
+                corro = min(0.10, 0.25 * sum(max(0.0, x - 0.5) for x in cr))
+                c["corroborated_by"] = hs
         score, comps = sc.legitimacy(c, by_handle[h], tracked=h in accounts, corroboration=corro,
                                      plausibility=c.get("plausibility"))
         c["legitimacy"] = {"score": score, "components": comps}
@@ -85,27 +92,26 @@ def main():
             b = min(9, score // 10)
             cal[b][0] += 1
             cal[b][1] += sc.VALUE[c["verdict"]]
+            cal[b][2] += score
     calibration = []
     for b in range(10):
-        n, s = cal.get(b, [0, 0])
+        n, s, ps = cal.get(b, [0, 0, 0])
         if n >= 8:
-            calibration.append({"lo": b * 10, "hi": b * 10 + 10, "mid": b * 10 + 5, "n": n, "rate": round(s / n, 3)})
+            # compare against the mean score actually given in the band, not the band midpoint
+            calibration.append({"lo": b * 10, "hi": b * 10 + 10, "mid": round(ps / n, 1), "n": n,
+                                "rate": round(s / n, 3)})
 
     out_claims = []
     for c in claims:
         o = {k: c.get(k) for k in ("id", "handle", "date", "claim", "lab", "topic", "specificity", "significance",
                                    "resolve_by", "hedged", "source_type", "cryptic", "origin", "verdict", "lead_days",
                                    "legitimacy", "first_seen", "feed_date", "corroborated_by", "quote", "source_url",
-                                   "deleted")}
-        try:
-            gap = (sc.d(c["resolve_by"]) - sc.d(c["date"])).days if c.get("resolve_by") else None
-        except ValueError:
-            gap = None
-        if gap is not None and abs(gap - 180) <= 2:
-            o.pop("resolve_by", None)   # default horizon, not a date the leaker gave - don't show it
-        o["tweets"] = [{k: t.get(k) for k in ("id", "url", "created_at", "text", "likes")} for t in c.get("tweets", [])[:3]]
+                                   "deleted", "repeat_of", "lead_ref_date", "lead_ref_kind")}
+        if not deadline_stated(c):
+            o.pop("resolve_by", None)   # default review horizon, not a date the leaker gave - don't show it
+        o["tweets"] = [{k: t.get(k) for k in ("id", "url", "created_at", "text", "likes", "quoted")} for t in c.get("tweets", [])[:3]]
         r = c.get("resolution") or {}
-        o["resolution"] = {k: r.get(k) for k in ("explanation", "evidence", "public_date", "confidence", "vetted")} if r else None
+        o["resolution"] = {k: r.get(k) for k in ("explanation", "evidence", "public_date", "official_date", "confidence", "vetted")} if r else None
         out_claims.append({k: v for k, v in o.items() if v not in (None, [], "")})
 
     n_res = sum(1 for c in claims if c["verdict"] in sc.VALUE)

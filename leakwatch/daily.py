@@ -1,9 +1,8 @@
-"""Daily run: pull new posts, extract + score new leak claims, re-check pending claims, refresh profiles.
+"""Daily run: pull new posts, extract + score new leak claims, re-check open claims, refresh profiles.
 
 Usage: python -m leakwatch.daily [--no-resolve] [--hours 48]
 """
 import calendar
-import re
 import sys
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
@@ -11,12 +10,13 @@ from datetime import date, datetime, timedelta, timezone
 from .common import DATA, MODEL_FAST, MODEL_SMART, load_json, now_iso, save_json
 from .extract import extract_batch, scope_filter
 from .llm import USAGE, S, arr, call_json, obj
-from .resolve import resolve_many
+from .resolve import deadline_stated, resolve_many
 from .scoring import effective_verdict
 from .twitter import Budget, TwitterAPI
 
 DAILY_CREDIT_CAP = 20_000          # ~ $0.20/day of twitterapi.io credit
 MAX_RESOLVE_PER_DAY = 120
+MAX_LOOKBACK_HOURS = 24 * 7        # catch up after outages, but never more than a week
 VIRAL_MIN_LIKES = 400              # untracked accounts only surface if a claim goes viral
 NEWCOMER_MIN_FOLLOWERS = 2000
 NEWCOMER_MIN_ACCOUNT_AGE_DAYS = 120
@@ -42,26 +42,25 @@ def mf_for(followers):
     return int(min(300, max(10, (followers or 0) / 1000)))
 
 
-def fetch_tracked(api, accounts, since):
-    """One OR-query per group of accounts with similar like thresholds."""
+def fetch_tracked(api, accounts, since, out):
+    """One OR-query per group of accounts with similar like thresholds. Appends to `out` as pages arrive, so tweets
+    already paid for survive a budget stop."""
     groups = defaultdict(list)
     for a in accounts:
         mf = mf_for((a.get("profile") or {}).get("followers"))
         bucket = 10 if mf <= 15 else 25 if mf <= 35 else 50 if mf <= 70 else 100 if mf <= 150 else 200
         groups[bucket].append(a["handle"])
-    tweets = []
     for mf, hs in groups.items():
         for i in range(0, len(hs), 8):
             q = "(" + " OR ".join(f"from:{h}" for h in hs[i:i + 8]) + f") min_faves:{mf} since_time:{ts(since)}"
-            tweets += list(api.search(q, "Latest", max_tweets=300))
-    return tweets
+            for t in api.search(q, "Latest", max_tweets=300):
+                out.append(t)
 
 
-def search_general(api, since):
-    out = []
+def search_general(api, since, out):
     for q in SEARCHES:
-        out += list(api.search(f"{q} min_faves:{VIRAL_MIN_LIKES} since_time:{ts(since)}", "Top", max_tweets=80))
-    return out
+        for t in api.search(f"{q} min_faves:{VIRAL_MIN_LIKES} since_time:{ts(since)}", "Top", max_tweets=80):
+            out.append(t)
 
 
 def newcomer_ok(t):
@@ -76,24 +75,25 @@ def newcomer_ok(t):
 
 
 STORY_SCHEMA = obj({"matches": arr(obj({"new_id": S, "same_as": arr(S)}))})
-STORY_SYS = """Match new leak claims to earlier claims that assert substantially the SAME thing (same product/event, compatible
-details). Different but related claims are NOT matches. Return for each new claim the ids of matching earlier claims
-(possibly empty)."""
+STORY_SYS = """Match each NEW leak claim to OTHER claims (earlier ones, or other new ones) that assert substantially the
+SAME thing (same product/event, compatible details, not contradictory - "will release X" vs "won't release X" is NOT a
+match). Related-but-different claims are NOT matches. Return for each new claim the ids of matching claims (possibly
+empty). Only use ids from the lists given."""
 
 
 def link_stories(new, claims):
-    """Assign story_id so corroborating claims from different leakers are linked."""
+    """Link claims about the same thing. Same author repeating themselves -> repeat_of (scored once);
+    different authors -> shared story_id (corroboration)."""
     cutoff = (date.today() - timedelta(days=30)).isoformat()
-    recent = [c for c in claims if c["date"][:10] >= cutoff]
-    by_lab = defaultdict(list)
-    for c in recent:
-        by_lab[c["lab"]].append(c)
-    byid = {c["id"]: c for c in claims}
-    for lab, ns in defaultdict(list, {k: [n for n in new if n["lab"] == k] for k in {n["lab"] for n in new}}).items():
-        pool = [c for c in by_lab.get(lab, []) if c["id"] not in {n["id"] for n in ns}][-120:]
-        if not pool:
-            continue
-        txt = ("EARLIER CLAIMS:\n" + "\n".join(f"{c['id']} (@{c['handle']}, {c['date'][:10]}): {c['claim']}" for c in pool) +
+    live = [c for c in claims if not c.get("pruned")]
+    byid = {c["id"]: c for c in live}
+    new_ids = {n["id"] for n in new}
+    for lab in {n["lab"] for n in new}:
+        ns = [n for n in new if n["lab"] == lab]
+        pool = [c for c in live if c["lab"] == lab and c["date"][:10] >= cutoff and c["id"] not in new_ids][-120:]
+        allowed = {c["id"] for c in pool} | {n["id"] for n in ns}
+        txt = ("EARLIER CLAIMS:\n" + ("\n".join(f"{c['id']} (@{c['handle']}, {c['date'][:10]}): {c['claim']}"
+                                               for c in pool) or "(none)") +
                "\n\nNEW CLAIMS:\n" + "\n".join(f"{c['id']} (@{c['handle']}, {c['date'][:10]}): {c['claim']}" for c in ns))
         try:
             res = call_json(MODEL_FAST, STORY_SYS, txt, STORY_SCHEMA, name="stories")["matches"]
@@ -101,43 +101,86 @@ def link_stories(new, claims):
             log("story link error", e)
             continue
         for m in res:
-            n = byid.get(m["new_id"])
-            same = [byid[i] for i in m["same_as"] if i in byid]
+            n = byid.get(m["new_id"]) if m["new_id"] in {x["id"] for x in ns} else None
+            same = [byid[i] for i in m["same_as"] if i in allowed and i in byid and i != m["new_id"]]
             if not n or not same:
                 continue
-            root = min(same + [n], key=lambda c: c["date"])
-            sid = root.get("story_id") or root["id"]
-            for c in same + [n]:
-                c["story_id"] = sid
+            mine = [c for c in same if c["handle"].lower() == n["handle"].lower() and c["date"] < n["date"]]
+            if mine:
+                n["repeat_of"] = min(mine, key=lambda c: c["date"])["id"]
+            others = [c for c in same if c["handle"].lower() != n["handle"].lower()]
+            if others:
+                group = others + [n]
+                # merge whole existing groups, not just the matched members
+                sids = {c.get("story_id") for c in group if c.get("story_id")}
+                members = [c for c in live if c.get("story_id") in sids] + group
+                root = min(members, key=lambda c: c["date"])
+                sid = root.get("story_id") or root["id"]
+                for c in members:
+                    c["story_id"] = sid
+
+
+def due_for_check(c, today):
+    """Which claims to (re)grade today."""
+    if c.get("pruned") or c.get("specificity", 3) < 2 or c.get("repeat_of"):
+        return False
+    r = c.get("resolution") or {}
+    if not r or c.get("_needs_regrade"):
+        return True
+    last = (r.get("resolved_at") or "2000-01-01")[:10]
+    age_since_check = (date.fromisoformat(today) - date.fromisoformat(last)).days
+    v = effective_verdict(c)
+    if v == "pending":
+        overdue = deadline_stated(c) and c["resolve_by"][:10] <= today
+        return age_since_check >= (3 if overdue else 14)
+    if v == "false" and deadline_stated(c):
+        # a release can still land within the lateness grace window -> keep checking for 6 weeks after the deadline
+        grace_end = (date.fromisoformat(c["resolve_by"][:10]) + timedelta(days=45)).isoformat()
+        return today <= grace_end and age_since_check >= 7
+    if v == "unverifiable":
+        # internal claims sometimes get confirmed later; re-look occasionally during the first year
+        young = c["date"][:10] >= (date.fromisoformat(today) - timedelta(days=365)).isoformat()
+        return young and age_since_check >= 60
+    return False
 
 
 def main():
     hours = 48
     if "--hours" in sys.argv:
         hours = int(sys.argv[sys.argv.index("--hours") + 1])
-    accounts = [a for a in load_json(DATA / "accounts.json") if not a.get("skip")]
+    all_accounts = load_json(DATA / "accounts.json")
+    accounts = [a for a in all_accounts if not a.get("skip")]
     tracked = {a["handle"].lower(): a for a in accounts}
     claims = load_json(DATA / "claims.json", [])
     state = load_json(DATA / "state.json", {})
-    seen = set(state.get("seen_tweets", [])[-20000:])
-    for c in claims:
-        for t in c.get("tweets", []):
-            seen.add(t["id"])
     now = datetime.now(timezone.utc)
+    # seen: recently processed tweet ids with timestamps (expire after the max lookback) + ids already in claims
+    seen_recent = state.get("seen_recent") or {}
+    expire = (now - timedelta(hours=MAX_LOOKBACK_HOURS + 24)).isoformat()
+    seen_recent = {k: v for k, v in seen_recent.items() if v >= expire}
+    seen = set(seen_recent) | {t["id"] for c in claims for t in c.get("tweets", [])}
+    # look back far enough to cover any missed runs (with overlap), capped
     since = now - timedelta(hours=hours)
+    if state.get("last_run"):
+        try:
+            last = datetime.fromisoformat(state["last_run"].replace("Z", "+00:00"))
+            since = min(since, last - timedelta(hours=24))
+        except ValueError:
+            pass
+    since = max(since, now - timedelta(hours=MAX_LOOKBACK_HOURS))
     api = TwitterAPI(credit_limit=DAILY_CREDIT_CAP)
 
     # 1. pull posts
-    tweets = []
+    tracked_tw, general_tw = [], []
     try:
-        tweets += fetch_tracked(api, accounts, since)
-        log(f"tracked tweets: {len(tweets)} (credits {api.credits_used})")
-        gen = search_general(api, since)
-        log(f"general search tweets: {len(gen)} (credits {api.credits_used})")
-        tweets += [t for t in gen if t["author"]["handle"] and
-                   (t["author"]["handle"].lower() in tracked or newcomer_ok(t))]
+        fetch_tracked(api, accounts, since, tracked_tw)
+        log(f"tracked tweets: {len(tracked_tw)} (credits {api.credits_used})")
+        search_general(api, since, general_tw)
+        log(f"general search tweets: {len(general_tw)} (credits {api.credits_used})")
     except Budget as e:
         log("twitter budget hit:", e)
+    tweets = tracked_tw + [t for t in general_tw if t["author"]["handle"] and
+                           (t["author"]["handle"].lower() in tracked or newcomer_ok(t))]
     uniq = {}
     for t in tweets:
         if t["id"] not in seen and t["author"]["handle"]:
@@ -148,33 +191,41 @@ def main():
     by_author = defaultdict(list)
     for t in uniq.values():
         by_author[t["author"]["handle"]].append(t)
-    new_claims = []
+    new_claims, processed = [], set()
+    existing_ids = {c["id"] for c in claims}
     newcomers = load_json(DATA / "newcomers.json", {})
     for handle, tw in by_author.items():
         acct = tracked.get(handle.lower())
         cat = acct["category"] if acct else "untracked account (no track record)"
         tw.sort(key=lambda t: t["created_at"])
         for i in range(0, len(tw), 30):
+            batch = tw[i:i + 30]
             try:
-                cs = extract_batch(handle, cat, tw[i:i + 30], model=MODEL_SMART)
+                cs = extract_batch(handle, cat, batch, model=MODEL_SMART)
             except Exception as e:
-                log("extract error", handle, e)
+                log("extract error (will retry next run)", handle, e)
                 continue
-            byid = {t["id"]: t for t in tw}
+            processed.update(t["id"] for t in batch)     # only successfully-extracted tweets count as seen
+            byid = {t["id"]: t for t in batch}
             for c in cs:
                 if not acct and c["significance"] < 3:
                     continue
                 ts_ = [byid[x] for x in c["tweet_ids"] if x in byid]
-                cid = f"{handle.lower()}-{c['tweet_ids'][0]}"
-                if any(x["id"] == cid for x in claims) or any(x["id"] == cid for x in new_claims):
+                if not ts_:
                     continue
+                base = cid = f"{handle.lower()}-{c['tweet_ids'][0]}"
+                k = 2
+                while cid in existing_ids:
+                    cid = f"{base}-{k}"
+                    k += 1
+                existing_ids.add(cid)
                 new_claims.append({
                     "id": cid, "handle": handle, "date": min(t["created_at"] for t in ts_), "claim": c["claim"],
                     "lab": c["lab"], "topic": c["topic"], "specificity": c["specificity"],
                     "significance": c["significance"], "resolve_by": c["resolve_by"], "hedged": c["hedged"],
                     "source_type": c["source_type"], "cryptic": c["cryptic"],
                     "tweets": [{"id": t["id"], "url": t["url"], "created_at": t["created_at"], "text": t["text"][:4000],
-                                "likes": t["likes"]} for t in ts_],
+                                "likes": t["likes"], "quoted": t.get("quoted")} for t in ts_],
                     "origin": "daily", "first_seen": now_iso(), "feed_date": now_iso()})
                 if not acct:
                     a = ts_[0]["author"]
@@ -187,24 +238,15 @@ def main():
     if new_claims:
         link_stories(new_claims, claims + new_claims)
     claims += new_claims
+    # checkpoint ingestion before the (slower, costlier) resolution step
+    save_json(DATA / "claims.json", sorted(claims, key=lambda c: c["date"]))
 
-    # 3. re-check pending claims (overdue first, then oldest-checked)
+    # 3. (re)grade claims that are due
     if "--no-resolve" not in sys.argv:
         today = date.today().isoformat()
-        def due(c):
-            r = c.get("resolution") or {}
-            if c.get("specificity", 3) < 2:
-                return False
-            if not r:
-                return True
-            if effective_verdict(c) != "pending":
-                return False
-            last = (r.get("resolved_at") or "2000-01-01")[:10]
-            overdue = (c.get("resolve_by") or "9999") <= today
-            stale_check = (date.fromisoformat(today) - date.fromisoformat(last)).days >= (3 if overdue else 14)
-            return stale_check
-        todo = [c for c in claims if due(c)]
-        todo.sort(key=lambda c: (0 if (c.get("resolve_by") or "9999") <= today else 1,
+        todo = [c for c in claims if due_for_check(c, today)]
+        todo.sort(key=lambda c: (0 if not c.get("resolution") else 1,
+                                 0 if (deadline_stated(c) and c["resolve_by"][:10] <= today) else 1,
                                  ((c.get("resolution") or {}).get("resolved_at") or "")))
         todo = todo[:MAX_RESOLVE_PER_DAY]
         log(f"resolving {len(todo)} claims")
@@ -217,34 +259,38 @@ def main():
             c = byid.get(k)
             if not c:
                 continue
-            prev = (c.get("resolution") or {}).get("verdict")
+            prev = effective_verdict(c) if c.get("resolution") else None
             v.pop("id", None)
             v["resolved_at"] = now_iso()
-            if c.get("resolution", {}).get("vetted"):
-                v["vetted"] = c["resolution"]["vetted"]
-            c["resolution"] = v
-            if prev == "pending" and v["verdict"] not in ("pending",):
-                c["feed_date"] = now_iso()       # newly resolved -> resurfaces in the feed
-                c["resolved_recently"] = True
+            c["resolution"] = v              # a fresh grade is not audited - drop any old audit badge
+            c.pop("_needs_regrade", None)
+            if prev == "pending" and effective_verdict(c) != "pending":
+                c["feed_date"] = now_iso()   # newly resolved -> resurfaces in the feed
 
-    # 4. weekly profile refresh (followers / avatars)
+    # 4. weekly profile refresh (followers / avatars) - keeps skipped accounts in the file
     if now.weekday() == 0:
-        for a in accounts:
-            try:
+        try:
+            for a in accounts:
                 info = api.user_info(a["handle"])
                 if info.get("userName"):
                     a["profile"] = {"name": info.get("name"), "avatar": info.get("profilePicture"),
                                     "followers": info.get("followers"), "bio": info.get("description")}
-            except Exception:
-                pass
-        save_json(DATA / "accounts.json", accounts)
+        except Budget as e:
+            log("profile refresh stopped:", e)
+        except Exception as e:
+            log("profile refresh error:", e)
+        save_json(DATA / "accounts.json", all_accounts)
 
     claims.sort(key=lambda c: c["date"])
     save_json(DATA / "claims.json", claims)
     save_json(DATA / "newcomers.json", newcomers)
-    state["seen_tweets"] = list(seen | set(uniq))[-20000:]
-    state["last_run"] = now_iso()
-    state.setdefault("runs", []).append({"at": now_iso(), "new_claims": len(new_claims), "tweets": len(uniq),
+    stamp = now_iso()
+    for tid in processed:
+        seen_recent[tid] = stamp
+    state["seen_recent"] = seen_recent
+    state.pop("seen_tweets", None)
+    state["last_run"] = stamp
+    state.setdefault("runs", []).append({"at": stamp, "new_claims": len(new_claims), "tweets": len(uniq),
                                          "twitter_credits": api.credits_used, "openai": dict(USAGE)})
     state["runs"] = state["runs"][-60:]
     save_json(DATA / "state.json", state)

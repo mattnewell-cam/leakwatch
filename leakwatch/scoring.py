@@ -44,30 +44,57 @@ def effective_verdict(c):
         pd = (r.get("public_date") or "")[:10]
         if not pd or pd > c["date"][:10] or (is_scoop(c) and pd >= c["date"][:10]):
             return "unverifiable"
-    if v in ("true", "mostly_true", "partly_true") and r.get("public_date") and not is_scoop(c):
+    if v in ("true", "mostly_true", "partly_true") and r.get("public_date"):
         try:
+            pd = d(r["public_date"])
+            # someone else had it first -> no credit (applies to scoops/code finds too)
+            if pd < d(c["date"]):
+                return "already_public"
             # same-day "hits" can't be told apart from reacting to the launch -> no credit, no penalty
-            if d(r["public_date"]) <= d(c["date"]):
+            # (except original finds/scoops, whose same-day coverage IS the leak)
+            if pd == d(c["date"]) and not is_scoop(c):
                 return "already_public"
         except ValueError:
             pass
-    if v == "unverifiable" and (c.get("resolve_by") or "") > date.today().isoformat():
-        return "pending"        # can't confirm yet, but its own window is still open
+    if v == "unverifiable" and review_until(c) > date.today().isoformat():
+        return "pending"        # can't confirm yet, but it's still within its window
     if c.get("specificity", 3) <= 1 and v == "pending":
         return "unfalsifiable"
     return v
 
 
-def lead_days(c):
-    """Days between the claim and public knowledge (for journalists' own scoops: official confirmation)."""
+def review_until(c):
+    """The claim's own deadline if the poster gave one, else a 1-year review horizon (not attributed to the poster)."""
+    from .resolve import deadline_stated
+    if deadline_stated(c):
+        return c["resolve_by"][:10]
+    try:
+        return date.fromordinal(d(c["date"]).toordinal() + 365).isoformat()
+    except (TypeError, ValueError):
+        return ""
+
+
+def lead_ref(c):
+    """(date, kind) the lead time is measured to: first public report, or official confirmation for original
+    finds/scoops (and when the first report was same-day)."""
     r = c.get("resolution") or {}
+    ref, kind = r.get("public_date"), "public"
+    try:
+        if is_scoop(c) or (ref and d(ref) <= d(c["date"])):
+            if r.get("official_date"):
+                ref, kind = r["official_date"], "official"
+    except ValueError:
+        return None, None
+    return (ref[:10], kind) if ref else (None, None)
+
+
+def lead_days(c):
+    """Days between the claim and public knowledge (for original finds/scoops: official confirmation)."""
     v = effective_verdict(c)
     if v not in VALUE or VALUE[v] == 0:
         return None
-    ref = r.get("public_date")
+    ref, _ = lead_ref(c)
     try:
-        if is_scoop(c) or (ref and d(ref) <= d(c["date"])):
-            ref = r.get("official_date") or ref
         return max(0, (d(ref) - d(c["date"])).days) if ref else None
     except ValueError:
         return None
@@ -93,22 +120,52 @@ def resolved_on(c):
     """Date on which the outcome became knowable (for no-hindsight legitimacy)."""
     r = c.get("resolution") or {}
     v = effective_verdict(c)
-    if v in ("true", "mostly_true", "partly_true") and r.get("public_date"):
-        return r["public_date"][:10]
+    if v in ("true", "mostly_true", "partly_true") and (r.get("official_date") or r.get("public_date")):
+        # knowable once independently confirmed: official confirmation if any, else first public report
+        return (r.get("official_date") or r.get("public_date"))[:10]
     if v == "false":
-        rb = c.get("resolve_by")
-        return max(rb or c["date"][:10], c["date"][:10])
+        from .resolve import deadline_stated
+        rb = c["resolve_by"][:10] if deadline_stated(c) else None
+        fallback = date.fromordinal(d(c["date"]).toordinal() + 180).isoformat()
+        return max(rb or fallback, c["date"][:10])
     return None
 
 
-def posterior(pairs):
+def posterior(pairs, prior=(PRIOR_A, PRIOR_B)):
     """pairs: [(weight, value)] -> (mean, low, effective_n)"""
     sw = sum(w for w, _ in pairs)
     swv = sum(w * v for w, v in pairs)
-    a, b = PRIOR_A + swv, PRIOR_B + (sw - swv)
+    a, b = prior[0] + swv, prior[1] + (sw - swv)
     m = a / (a + b)
     sd = math.sqrt(m * (1 - m) / (a + b + 1))
     return m, max(0.0, m - sd), sw
+
+
+UNTRACKED_PRIOR = (UNKNOWN_PRIOR * 4, (1 - UNKNOWN_PRIOR) * 4)   # same strength as Beta(2,2), sceptical mean
+
+
+def event_key(c):
+    """Claims settled by the same event (same lab + same confirmation/deadline date) are one piece of evidence:
+    five details about one launch shouldn't count as five independent hits."""
+    r = c.get("resolution") or {}
+    v = effective_verdict(c)
+    if v in ("true", "mostly_true", "partly_true"):
+        return (c["lab"], "hit", (r.get("official_date") or r.get("public_date") or c["date"])[:10])
+    return (c["lab"], "miss", (c.get("resolve_by") or c["date"])[:10], c["id"] if not c.get("resolve_by") else "")
+
+
+def grouped(claims):
+    """-> list of (weight, value, members) per event: weight = max member weight, value = weighted mean."""
+    groups = defaultdict(list)
+    for c in claims:
+        v = effective_verdict(c)
+        if v in VALUE:
+            groups[event_key(c)].append((claim_weight(c), VALUE[v], c))
+    out = []
+    for g in groups.values():
+        sw = sum(w for w, _, _ in g)
+        out.append((max(w for w, _, _ in g), sum(w * v for w, v, _ in g) / sw if sw else 0.0, [c for _, _, c in g]))
+    return out
 
 
 def lead_factor(ld):
@@ -117,36 +174,48 @@ def lead_factor(ld):
     return 0.5 + 0.5 * min(max(ld, 0), 60) / 60 + (0.25 if ld > 60 else 0)
 
 
-def leaker_stats(claims):
+def lab_credibility(groups_lab, overall_mean, k=4.0):
+    """Per-lab accuracy shrunk continuously toward the account's overall accuracy (no hard threshold)."""
+    return posterior([(w, v) for w, v, _ in groups_lab], prior=(k * overall_mean, k * (1 - overall_mean)))[0]
+
+
+def leaker_stats(claims, tracked=True):
     """claims: all claims of one leaker (with resolution). Returns stats dict."""
-    pairs, by_lab, impact = [], defaultdict(list), 0.0
+    prior = (PRIOR_A, PRIOR_B) if tracked else UNTRACKED_PRIOR
     counts = defaultdict(int)
-    leads = []
     for c in claims:
-        v = effective_verdict(c)
-        counts[v] += 1
-        if v in VALUE:
-            w = claim_weight(c)
-            pairs.append((w, VALUE[v]))
-            by_lab[c["lab"]].append((w, VALUE[v]))
-            if VALUE[v] > 0:
+        counts[effective_verdict(c)] += 1
+    groups = grouped(claims)
+    m, low, n_eff = posterior([(w, v) for w, v, _ in groups], prior)
+    impact, leads = 0.0, []
+    by_lab = defaultdict(list)
+    for w, v, members in groups:
+        by_lab[members[0]["lab"]].append((w, v, members))
+        if v > 0:
+            best = 0.0
+            for c in members:
                 ld = lead_days(c)
                 if ld is not None:
                     leads.append(ld)
-                impact += VALUE[v] * SIG_W.get(c.get("significance", 3), 1) * lead_factor(ld) * min(1.0, w)
-    m, low, n_eff = posterior(pairs)
+                vv = VALUE[effective_verdict(c)]
+                best = max(best, vv * SIG_W.get(c.get("significance", 3), 1) * lead_factor(ld) * min(1.0, claim_weight(c)))
+            impact += best
     n = len(claims)
     resolved = sum(counts[k] for k in VALUE)
+    open_or_unsettled = counts["pending"] + counts["unverifiable"]
     hits = counts["true"] + counts["mostly_true"]
     score = 100 * (m ** 1.5) * (1 - math.exp(-impact / IMPACT_K))
     leads.sort()
     return {
         "n_claims": n,
         "n_resolved": resolved,
+        "n_events": len(groups),
         "n_true": counts["true"], "n_mostly_true": counts["mostly_true"], "n_partly_true": counts["partly_true"],
         "n_false": counts["false"], "n_pending": counts["pending"], "n_unverifiable": counts["unverifiable"],
         "n_already_public": counts["already_public"], "n_unfalsifiable": counts["unfalsifiable"],
         "hit_rate_raw": round(hits / resolved, 3) if resolved else None,
+        # share of checkable claims that have actually been settled (low coverage = accuracy rests on a small slice)
+        "coverage": round(resolved / (resolved + open_or_unsettled), 3) if resolved + open_or_unsettled else None,
         "credibility": round(m, 3),
         "credibility_low": round(low, 3),
         "effective_n": round(n_eff, 1),
@@ -155,27 +224,23 @@ def leaker_stats(claims):
         "median_lead_days": leads[len(leads) // 2] if leads else None,
         "stale_rate": round(counts["already_public"] / n, 3) if n else None,
         "vague_rate": round(sum(1 for c in claims if c.get("specificity", 3) <= 2) / n, 3) if n else None,
-        "by_lab": {lab: {"n": len(p), "credibility": round(posterior(p)[0], 3),
-                         "hits": sum(1 for _, v in p if v >= 0.8), "misses": sum(1 for _, v in p if v == 0)}
-                   for lab, p in by_lab.items()},
+        "by_lab": {lab: {"n": sum(len(g[2]) for g in gs), "credibility": round(lab_credibility(gs, m), 3),
+                         "hits": sum(1 for g in gs for c in g[2] if VALUE[effective_verdict(c)] >= 0.8),
+                         "misses": sum(1 for g in gs for c in g[2] if VALUE[effective_verdict(c)] == 0)}
+                   for lab, gs in by_lab.items()},
     }
 
 
-def credibility_as_of(claims, when, lab=None):
-    """Leaker credibility using only claims resolved strictly before `when` (YYYY-MM-DD)."""
-    pairs, lab_pairs = [], []
-    for c in claims:
-        ro = resolved_on(c)
-        if ro and ro < when and c["date"][:10] < when:
-            v = effective_verdict(c)
-            if v in VALUE:
-                pairs.append((claim_weight(c), VALUE[v]))
-                if lab and c["lab"] == lab:
-                    lab_pairs.append((claim_weight(c), VALUE[v]))
-    m, low, n = posterior(pairs)
-    if lab and sum(w for w, _ in lab_pairs) >= 3:
-        ml, _, _ = posterior(lab_pairs)
-        m = 0.5 * m + 0.5 * ml
+def credibility_as_of(claims, when, lab=None, tracked=True):
+    """Leaker credibility using only claims made and resolved strictly before `when` (YYYY-MM-DD)."""
+    prior = (PRIOR_A, PRIOR_B) if tracked else UNTRACKED_PRIOR
+    known = [c for c in claims if c["date"][:10] < when and (resolved_on(c) or "9999") < when]
+    groups = grouped(known)
+    m, low, n = posterior([(w, v) for w, v, _ in groups], prior)
+    if lab:
+        gl = [g for g in groups if g[2][0]["lab"] == lab]
+        if gl:
+            m = lab_credibility(gl, m)
     return m, n
 
 
@@ -186,10 +251,8 @@ SOURCE_ADJ = {"code_or_testing_evidence": 0.10, "journalism": 0.06, "insider": 0
 def legitimacy(claim, history, tracked=True, corroboration=0.0, plausibility=None):
     """0-100 score for how likely a claim is to be true, from the leaker's track record at claim time."""
     when = claim["date"][:10]
-    if tracked and history:
-        base, n_eff = credibility_as_of(history, when, claim.get("lab"))
-    else:
-        base, n_eff = UNKNOWN_PRIOR, 0.0
+    # every account learns from its own record; untracked accounts just start from a more sceptical prior
+    base, n_eff = credibility_as_of(history or [], when, claim.get("lab"), tracked=tracked)
     comps = [{"label": "Track record at time of claim" if n_eff else "No track record (prior)",
               "value": round(base * 100)}]
     p = base

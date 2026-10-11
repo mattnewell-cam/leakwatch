@@ -1,0 +1,50 @@
+# Overnight log (2026-10-11 → 12)
+
+Loop: find issue → fix → verify → push. OpenAI budget for the night: $100 (ledger: `python -m scripts.spend <ts>`,
+start ts in `data/cache/budget_start.txt`).
+
+## Done
+- **Pipeline model → gpt-6-luna** (extraction, resolution, scope, story linking). Benchmarked first: Luna 77.6% vs
+  GPT-5.4 59.5% bucket agreement with adjudicated gold on 294 claims (Haiku 5.5 74.8%, Opus 5.5 89.5%).
+- **Resolver now grades the post itself**: post(s) shown first (incl. quoted post), extractor summary demoted to a
+  pointer; new verdict `not_a_claim` (excluded from site + scores).
+- **Bug: tweet text truncated to 500 chars for the resolver** (cause of the "doesn't mention Carbon" note) → full text;
+  160 truncated stored tweets restored from raw cache.
+- **Bug: resolver/prune prompts referenced `account_type` but never received it** (silent failed patch) → fixed.
+  The earlier journalist re-grade therefore ran without knowing who was a journalist.
+- **Bug: quote-tweets** — resolver/prune never saw the quoted post (1,163 claims); daily pipeline didn't store it → fixed.
+- **Prune pass** (`scripts/prune_claims.py`): Luna re-reads every post, drops non-claims (commentary, reactions,
+  relays of named sources, using public products, jokes/vibes, quoting officials) and corrects misstated summaries.
+  Pre-June-2022 claims dropped as out of scope (2015 Facebook scoops etc.).
+- Front end: no longer shows arbitrary default deadlines (only ones the leaker actually gave).
+
+- **Prune details**: journalists exempted from the LLM prune (couldn't reliably tell own-outlet scoops from relays given
+  career moves); for everyone else ~15% of claims dropped. Spot-checked samples look right.
+- **GPT-6 Astra code review** (`scripts/astra_review.py`, output in data/cache/astra_review_*.md) — 28 findings, most
+  real. Fixed:
+  - untimed claims were judged `false` at an invented +180d deadline → resolver now told "no deadline stated" and
+    told time passing alone never falsifies; scoring uses a 1-year review horizon (not attributed to the poster).
+  - code finds / journalist scoops were exempt from novelty checks entirely → now already_public if someone *else*
+    published first; only same-day coverage of the find itself is exempt.
+  - conflicting timing rubric → one policy (exact date / window / "soon" / no deadline; state-of-affairs vs outcome).
+  - false verdicts never revisited → re-checked weekly for 45 days after a stated deadline; unverifiable every 60
+    days in the first year.
+  - daily: ID collisions dropped extra claims from one tweet; failed extraction marked tweets as seen; Monday profile
+    refresh wiped `skip` accounts; Budget stop discarded already-paid tweets; model-returned IDs could overwrite claims
+    outside the batch; seen-cache kept an arbitrary set; no catch-up after missed runs; fresh grades kept old "audited"
+    badges; repeats of one's own claim counted as extra hits (now `repeat_of`, scored once); same-run corroboration
+    not linked; story merges split groups.
+  - permanent API errors (bad key/model/schema) retried 12× → now fail fast; overall per-call deadline.
+  - corroboration counted claims not people → distinct tracked accounts.
+  - lead time shown against the wrong date → exported reference date + kind (public vs official).
+  - drawer "past claims" showed claims made *after* the one being viewed; calibration copy mismatched the metric;
+    profile silently capped at 300; unvalidated URL schemes → all fixed.
+  - apply_audit could overwrite newer grades on re-run → skips claims re-graded after the audit file.
+- **Full re-grade** of ~3,050 unaudited live claims with the new resolver (Luna). Benchmark note: against the old
+  adjudicated gold the new resolver *looks* worse (69% vs 75%), but reading the regressions the new one is usually right
+  — the old gold was made by graders who never saw quoted posts, so it misses relays (biggest shift: true→already_public).
+
+## Open / ideas
+- Astra #1 (no-hindsight dates) partly fixed (uses official date when present); a proper fix needs outcome history.
+- Astra #14 (evidence provenance not verified) and #20 (no write lock) not addressed.
+- Calibration is measured against the same grader's verdicts (shared-grader bias).

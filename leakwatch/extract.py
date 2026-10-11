@@ -75,8 +75,21 @@ def _fmt(t):
     return s
 
 
-def extract_batch(handle, category, tweets, model=MODEL_FAST):
-    user = (f"Author: @{handle} (account type: {category})\n\nTweets:\n\n" +
+def _events_context(tweets):
+    """Official events from shortly before / during the batch, so the extractor can tell what was already public."""
+    from datetime import date, timedelta
+    from .common import DATA, load_json
+    ev = load_json(DATA / "events.json", [])
+    lo = (date.fromisoformat(min(t["created_at"][:10] for t in tweets)) - timedelta(days=60)).isoformat()
+    hi = max(t["created_at"][:10] for t in tweets)
+    rel = [e for e in ev if lo <= e["date"] <= hi]
+    return "\n".join(f"{e['date']} [{e['lab']}] {e['title']}" for e in rel[-80:]) or "(none in this period)"
+
+
+def extract_batch(handle, category, tweets, model=MODEL_SMART):
+    tweets = sorted(tweets, key=lambda t: t["created_at"])
+    user = (f"PUBLIC EVENTS already announced around this period (official, dated):\n{_events_context(tweets)}\n\n"
+            f"Author: @{handle} (account type: {category})\n\nTweets:\n\n" +
             "\n\n---\n\n".join(_fmt(t) for t in tweets))
     out = call_json(model, SYSTEM, user, SCHEMA, name="claims")
     ids = {t["id"] for t in tweets}

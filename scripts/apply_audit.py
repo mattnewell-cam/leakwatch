@@ -1,6 +1,8 @@
 """Apply Claude audit results (data/cache/audit/out_*.json) to data/claims.json and data/profiles.json."""
 import glob
 import json
+import os
+from datetime import datetime, timezone
 
 from leakwatch.common import DATA, load_json, now_iso, save_json
 
@@ -12,7 +14,9 @@ def main():
     byid = {c["id"]: c for c in claims}
     profiles = load_json(DATA / "profiles.json", {})
     changed = checked = 0
+    stale = 0
     for f in sorted(glob.glob(str(DATA / "cache" / "audit" / "out_*.json"))):
+        audit_time = datetime.fromtimestamp(os.path.getmtime(f), timezone.utc).isoformat()
         try:
             out = json.load(open(f, encoding="utf-8"))
         except Exception as e:
@@ -23,6 +27,10 @@ def main():
             if not c or not c.get("resolution"):
                 continue
             r = c["resolution"]
+            # never let an old audit overwrite a verdict that was re-graded after the audit was written
+            if not r.get("vetted") and (r.get("resolved_at") or "") > audit_time:
+                stale += 1
+                continue
             v = a.get("verdict")
             if v not in VALID:
                 continue
@@ -44,7 +52,7 @@ def main():
             profiles[h.lower().lstrip("@")] = {"summary": s}
     save_json(DATA / "claims.json", claims)
     save_json(DATA / "profiles.json", profiles)
-    print(f"audited {checked} claims, changed {changed}; {len(profiles)} profile summaries")
+    print(f"audited {checked} claims, changed {changed}; skipped {stale} re-graded since; {len(profiles)} summaries")
 
 
 if __name__ == "__main__":
