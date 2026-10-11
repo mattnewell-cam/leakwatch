@@ -65,6 +65,29 @@ start ts in `data/cache/budget_start.txt`).
 - Resolver: one batch rejected by OpenAI's bio-risk filter — those claims keep their previous verdict.
 - Spend so far: ~$31 OpenAI (Luna re-grade ~$25, prune ~$1, benchmarks ~$4, Astra ~$2).
 
+- **Astra blind audit** of 80 random un-audited verdicts: 68.8% outcome-bucket agreement with Luna (same as the earlier
+  Opus figure → ~70% looks like the inherent ambiguity ceiling, not a pipeline defect). Disagreements roughly
+  symmetric; Astra's verdict adopted where it differed (25 claims, marked audited). Method page states this.
+- Evidence URLs: random sample of 60 → no 404s; ~half 403 (openai.com etc. block bots), so fabrication can't be fully
+  ruled out but no sign of it.
+- "Most credible pending" tab limited to the last 90 days (was dominated by old long-horizon business claims).
+- Daily re-check cadence: not-yet-confirmable internal claims monthly (was fortnightly) → ~30 claims/day steady.
+- Leaker blurbs refreshed against the current record (Luna, keeps Opus wording where still true; neutral pronouns);
+  CI refreshes them every Monday.
+- CI: deploy job was missing `pip install` (broke when build_site started importing resolve) → fixed; pushes touching
+  data/ now redeploy.
+
+- **Third Astra review (regressions)** → fixed: failed extractions now go to a retry queue (were silently lost after a
+  catch-up); explicit `deadline_stated` from extraction (was the ±180d heuristic for new claims too); daily prune is
+  drop-only (text corrections could leave lab/deadline stale) and only marks claims checked when a decision came back;
+  journalist-scoop classification centralised (daily and site disagreed); independently-confirmed journalist scoops no
+  longer excluded (the same-day-only rule now applies just to code/arena finds); event grouping is
+  outcome-independent (lab + ISO week of the event, or story id); repeats show the original's status and are
+  un-repeated if the original is pruned; resolver acceptance gate (invalid dates / still-inconsistent retries dropped,
+  first-pass grades kept if a retry fails); false claims get one last check after the grace window; verdict rules
+  applied in one consistent order; corroboration excludes relays/repeats/already-public contributors; run-wide
+  extraction time budget + per-search error isolation; method copy matches the code.
+
 ## Open / ideas
 - Astra #1 (no-hindsight dates) partly fixed (uses official date when present); a proper fix needs outcome history.
 - Astra #14 (evidence provenance not verified) and #20 (no write lock) not addressed.

@@ -23,6 +23,7 @@ CLAIM_SCHEMA = obj({
     "hedged": B,
     "source_type": enum("insider", "code_or_testing_evidence", "journalism", "relayed", "speculation"),
     "cryptic": B,
+    "deadline_stated": B,
 })
 SCHEMA = obj({"claims": arr(CLAIM_SCHEMA)})
 
@@ -59,6 +60,8 @@ For each claim:
   big corporate event; 5 = frontier flagship release or industry-shaking event (CEO fired, $100B deal, GPT-5 launch date).
 - resolve_by: YYYY-MM-DD by which the claim should have come true if it is right (use stated/implied timing; if
   none, use tweet date + 180 days), or null if inherently unfalsifiable.
+- deadline_stated: true only if the post itself states or clearly implies timing ("next week", "on Tuesday", "by Q3",
+  "soon"/"imminent" count); false if resolve_by is just the default horizon.
 - hedged: true if heavily caveated ("rumor", "unconfirmed", "might").
 - source_type: insider (claims sources/inside knowledge), code_or_testing_evidence (found in code, A/B test, model
   arena, API listing), journalism (reporter's own reporting/article), relayed (passing on someone else's leak),

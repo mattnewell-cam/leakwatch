@@ -30,41 +30,51 @@ def d(s):
 
 def is_scoop(c):
     """Original finds whose same-day press coverage IS the leak: a journalist's own reporting, or a code/A-B-test find
-    (coverage of the find is not prior public knowledge). Lead time for these runs to official confirmation."""
+    (coverage of the find is not prior public knowledge). Lead time for these runs to official confirmation.
+    Uses the same account classification everywhere (daily, build, resolver)."""
     if c.get("source_type") == "code_or_testing_evidence":
         return True
-    return c.get("source_type") == "journalism" and c.get("_category") == "journalist"
+    if c.get("source_type") != "journalism":
+        return False
+    from .resolve import _category
+    return _category(c["handle"]) == "journalist"
+
+
+def _valid_date(s):
+    try:
+        return d(s) if s else None
+    except ValueError:
+        return None
 
 
 def effective_verdict(c):
-    """Normalize the resolver verdict: true-ish claims that weren't ahead of public knowledge become already_public."""
+    """Normalize the resolver verdict, applying each rule in order to one working verdict:
+    1. novelty: true-ish claims that weren't ahead of public knowledge -> already_public; an already_public verdict
+       without a valid earlier date -> unverifiable
+    2. code/arena finds whose only confirmation is same-day coverage of the find itself -> unverifiable
+    3. unverifiable but still inside its review window -> pending
+    4. pending but too vague to ever check -> unfalsifiable"""
     r = c.get("resolution") or {}
     v = r.get("verdict") or "pending"
+    cd = _valid_date(c["date"])
+    pd = _valid_date(r.get("public_date"))
     if v == "already_public":
-        # must point to an earlier public source; original finds/scoops need a strictly earlier one
-        pd = (r.get("public_date") or "")[:10]
-        if not pd or pd > c["date"][:10] or (is_scoop(c) and pd >= c["date"][:10]):
-            return "unverifiable"
-    if v in ("true", "mostly_true", "partly_true") and r.get("public_date"):
-        try:
-            pd = d(r["public_date"])
-            # someone else had it first -> no credit (applies to scoops/code finds too)
-            if pd < d(c["date"]):
-                return "already_public"
-            # same-day "hits" can't be told apart from reacting to the launch -> no credit, no penalty
-            # (except original finds/scoops, whose same-day coverage IS the leak)
-            if pd == d(c["date"]) and not is_scoop(c):
-                return "already_public"
-            # an original find/scoop whose only "confirmation" is same-day coverage of the find itself (e.g. others
-            # seeing the same public arena listing) and no later official confirmation is not independently verified
-            if is_scoop(c) and pd <= d(c["date"]) and not r.get("official_date"):
-                return "unverifiable"
-        except ValueError:
-            pass
+        if not pd or not cd or pd > cd or (is_scoop(c) and pd >= cd):
+            v = "unverifiable"
+    elif v in ("true", "mostly_true", "partly_true") and pd and cd:
+        if pd < cd:                                  # someone else had it first (applies to scoops too)
+            v = "already_public"
+        elif pd == cd and not is_scoop(c):           # same-day "hit" can't be told from reacting to the launch
+            v = "already_public"
+        elif (pd == cd and c.get("source_type") == "code_or_testing_evidence"
+              and not _valid_date(r.get("official_date"))):
+            # e.g. others seeing the same public arena listing - the attribution itself was never confirmed.
+            # (journalists' scoops are exempt: the resolver already requires independent confirmation for them)
+            v = "unverifiable"
     if v == "unverifiable" and review_until(c) > date.today().isoformat():
-        return "pending"        # can't confirm yet, but it's still within its window
-    if c.get("specificity", 3) <= 1 and v == "pending":
-        return "unfalsifiable"
+        v = "pending"                                # can't confirm yet, but it's still within its window
+    if v == "pending" and c.get("specificity", 3) <= 1:
+        v = "unfalsifiable"
     return v
 
 
@@ -152,11 +162,20 @@ UNTRACKED_PRIOR = (UNKNOWN_PRIOR * 8, (1 - UNKNOWN_PRIOR) * 8)   # same strength
 def event_key(c):
     """Claims settled by the same event (same lab + same confirmation/deadline date) are one piece of evidence:
     five details about one launch shouldn't count as five independent hits."""
+    # outcome-independent: hits and misses about the same launch land in the same group. Approximation: same lab +
+    # same ISO week of the event the claim is about (confirmation date for hits, stated deadline for misses, else the
+    # claim date); daily-linked story ids take precedence.
+    if c.get("story_id"):
+        return ("story", c["story_id"])
     r = c.get("resolution") or {}
-    v = effective_verdict(c)
-    if v in ("true", "mostly_true", "partly_true"):
-        return (c["lab"], "hit", (r.get("official_date") or r.get("public_date") or c["date"])[:10])
-    return (c["lab"], "miss", (c.get("resolve_by") or c["date"])[:10], c["id"] if not c.get("resolve_by") else "")
+    from .resolve import deadline_stated
+    if effective_verdict(c) in ("true", "mostly_true", "partly_true"):
+        ref = r.get("official_date") or r.get("public_date") or c["date"]
+    else:
+        ref = c["resolve_by"] if deadline_stated(c) else c["date"]
+    t = _valid_date(ref) or _valid_date(c["date"])
+    y, w, _ = t.isocalendar()
+    return (c["lab"], y, w)
 
 
 def grouped(claims):

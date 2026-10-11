@@ -124,8 +124,21 @@ def _fmt(c):
             f"{c['claim']}")
 
 
+def _date_ok(s):
+    if s is None:
+        return True
+    try:
+        date.fromisoformat(str(s)[:10])
+        return True
+    except ValueError:
+        return False
+
+
 def _consistent(c, r):
-    """already_public must cite an earlier public date (same day only for relays, never for original finds)."""
+    """Accept a grade only if its dates are real calendar dates and an already_public verdict cites an earlier public
+    date (same day only for relays, never for original finds)."""
+    if not (_date_ok(r.get("public_date")) and _date_ok(r.get("official_date"))):
+        return False
     if r.get("verdict") != "already_public":
         return True
     pd = (r.get("public_date") or "")[:10]
@@ -135,18 +148,20 @@ def _consistent(c, r):
 
 
 def resolve_batch(claims, model=MODEL_SMART, today=None, reasoning=None):
+    """Grade a batch; retry missing/inconsistent items once; drop anything still invalid (stays ungraded/retryable)."""
     today = today or date.today().isoformat()
     res = _resolve_batch(claims, model, today, reasoning)
-    missing = [c for c in claims if c["id"] not in res]
-    bad = [c for c in claims if c["id"] in res and not _consistent(c, res[c["id"]])]
-    if bad:
-        note = ("\n\nNOTE: a previous grading marked these already_public without a public source dated before the post "
-                "(or for an original find whose only earlier coverage was of the find itself). Re-grade each; use "
-                "already_public only with an earlier source by someone else.")
-        res.update(_resolve_batch(bad, model, today, reasoning, extra=note))
-    if missing:
-        res.update(_resolve_batch(missing, model, today, reasoning))
-    return res
+    redo = [c for c in claims if c["id"] not in res or not _consistent(c, res[c["id"]])]
+    if redo:
+        note = ("\n\nNOTE: a previous attempt left these ungraded or marked them already_public without a valid public "
+                "source dated before the post (or for an original find whose only earlier coverage was of the find "
+                "itself). Re-grade each; use already_public only with an earlier source by someone else.")
+        try:
+            res.update(_resolve_batch(redo, model, today, reasoning, extra=note))
+        except Exception:
+            pass                                  # keep the valid first-pass grades for the rest of the batch
+    byid = {c["id"]: c for c in claims}
+    return {k: v for k, v in res.items() if k in byid and _consistent(byid[k], v)}
 
 
 def _resolve_batch(claims, model, today, reasoning, extra=""):

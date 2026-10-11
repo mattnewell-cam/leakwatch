@@ -19,6 +19,10 @@ def main():
               and not c.get("pruned") and (c.get("resolution") or {}).get("verdict") != "not_a_claim"]
     profiles = load_json(DATA / "profiles.json", {})  # handle -> {summary}
     newcomers = load_json(DATA / "newcomers.json", {})
+    live_ids = {c["id"] for c in claims}
+    for c in claims:
+        if c.get("repeat_of") and c["repeat_of"] not in live_ids:
+            c.pop("repeat_of")                 # original was pruned/dropped -> this one counts in its own right
     by_handle = defaultdict(list)
     for c in claims:
         c["_category"] = (accounts.get(c["handle"].lower()) or {}).get("category")
@@ -27,6 +31,10 @@ def main():
         c["lead_ref_date"], c["lead_ref_kind"] = sc.lead_ref(c) if c["lead_days"] is not None else (None, None)
         if not c.get("repeat_of"):            # a leaker repeating their own claim is scored once
             by_handle[c["handle"].lower()].append(c)
+    byid_all = {c["id"]: c for c in claims}
+    for c in claims:
+        if c.get("repeat_of"):                 # show the original's status rather than a forever-pending repeat
+            c["verdict"] = byid_all[c["repeat_of"]]["verdict"]
 
     # corroboration index for pending claims: story ids assigned by the daily pipeline
     story = defaultdict(list)
@@ -79,11 +87,13 @@ def main():
         corro = 0.0
         if c.get("story_id") and c.get("source_type") != "relayed":
             # one vote per distinct tracked account that made the same claim no later than this one
-            hs = sorted({o["handle"] for o in story[c["story_id"]] if o["handle"].lower() != h
-                         and o["date"] <= c["date"] and o["handle"].lower() in accounts})
+            hs = sorted({o["handle"].lower() for o in story[c["story_id"]] if o["handle"].lower() != h
+                         and o["date"] <= c["date"] and o["handle"].lower() in accounts
+                         and o.get("source_type") != "relayed" and not o.get("repeat_of")
+                         and o["verdict"] != "already_public"})
             if hs:
                 # only corroborators with an above-average record add anything; echoes from weak sources add nothing
-                cr = [sc.credibility_as_of(by_handle[x.lower()], c["date"][:10])[0] for x in hs]
+                cr = [sc.credibility_as_of(by_handle[x], c["date"][:10])[0] for x in hs]
                 corro = min(0.10, 0.25 * sum(max(0.0, x - 0.5) for x in cr))
                 c["corroborated_by"] = hs
         score, comps = sc.legitimacy(c, by_handle[h], tracked=h in accounts, corroboration=corro,

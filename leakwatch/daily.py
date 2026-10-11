@@ -4,6 +4,7 @@ Usage: python -m leakwatch.daily [--no-resolve] [--hours 48]
 """
 import calendar
 import sys
+import time
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 
@@ -17,6 +18,7 @@ from .twitter import Budget, TwitterAPI
 DAILY_CREDIT_CAP = 20_000          # ~ $0.20/day of twitterapi.io credit
 MAX_RESOLVE_PER_DAY = 120
 MAX_LOOKBACK_HOURS = 24 * 7        # catch up after outages, but never more than a week
+EXTRACT_TIME_BUDGET = 35 * 60      # seconds; leaves room in the 90-min job for resolution + build
 VIRAL_MIN_LIKES = 400              # untracked accounts only surface if a claim goes viral
 NEWCOMER_MIN_FOLLOWERS = 2000
 NEWCOMER_MIN_ACCOUNT_AGE_DAYS = 120
@@ -139,12 +141,17 @@ def due_for_check(c, today):
     if v == "false" and deadline_stated(c):
         # a release can still land within the lateness grace window -> keep checking for 6 weeks after the deadline
         grace_end = (date.fromisoformat(c["resolve_by"][:10]) + timedelta(days=45)).isoformat()
-        return today <= grace_end and age_since_check >= 7
+        if today <= grace_end:
+            return age_since_check >= 7
+        return last < grace_end                    # one final look after the window closes
     if v == "unverifiable":
         # internal claims sometimes get confirmed later; re-look occasionally during the first year
         young = c["date"][:10] >= (date.fromisoformat(today) - timedelta(days=365)).isoformat()
         return young and age_since_check >= 60
     return False
+
+
+T0 = time.time()
 
 
 def main():
@@ -175,15 +182,22 @@ def main():
 
     # 1. pull posts
     tracked_tw, general_tw = [], []
-    try:
-        fetch_tracked(api, accounts, since, tracked_tw)
-        log(f"tracked tweets: {len(tracked_tw)} (credits {api.credits_used})")
-        search_general(api, since, general_tw)
-        log(f"general search tweets: {len(general_tw)} (credits {api.credits_used})")
-    except Budget as e:
-        log("twitter budget hit:", e)
-    tweets = tracked_tw + [t for t in general_tw if t["author"]["handle"] and
-                           (t["author"]["handle"].lower() in tracked or newcomer_ok(t))]
+    for name, fn, out in (("tracked", fetch_tracked, tracked_tw), ("general search", search_general, general_tw)):
+        try:
+            if fn is fetch_tracked:
+                fn(api, accounts, since, out)
+            else:
+                fn(api, since, out)
+        except Budget as e:
+            log("twitter budget hit:", e)
+            break
+        except Exception as e:                  # network/API trouble: keep what we already have, carry on
+            log(f"{name} fetch error (partial results kept):", str(e)[:200])
+        log(f"{name} tweets: {len(out)} (credits {api.credits_used})")
+    # tweets whose extraction failed on a previous run are retried from the queue (not re-fetched)
+    retry_q = state.get("retry_tweets") or {}
+    tweets = list(retry_q.values()) + tracked_tw + [t for t in general_tw if t["author"]["handle"] and
+                                                    (t["author"]["handle"].lower() in tracked or newcomer_ok(t))]
     uniq = {}
     for t in tweets:
         if t["id"] not in seen and t["author"]["handle"]:
@@ -198,6 +212,9 @@ def main():
     existing_ids = {c["id"] for c in claims}
     newcomers = load_json(DATA / "newcomers.json", {})
     for handle, tw in by_author.items():
+        if time.time() - T0 > EXTRACT_TIME_BUDGET:
+            log("extraction time budget reached; remaining tweets queued for next run")
+            break
         acct = tracked.get(handle.lower())
         cat = acct["category"] if acct else "untracked account (no track record)"
         tw.sort(key=lambda t: t["created_at"])
@@ -206,7 +223,7 @@ def main():
             try:
                 cs = extract_batch(handle, cat, batch, model=MODEL_SMART)
             except Exception as e:
-                log("extract error (will retry next run)", handle, e)
+                log("extract error (queued for retry next run)", handle, str(e)[:200])
                 continue
             processed.update(t["id"] for t in batch)     # only successfully-extracted tweets count as seen
             byid = {t["id"]: t for t in batch}
@@ -227,6 +244,7 @@ def main():
                     "lab": c["lab"], "topic": c["topic"], "specificity": c["specificity"],
                     "significance": c["significance"], "resolve_by": c["resolve_by"], "hedged": c["hedged"],
                     "source_type": c["source_type"], "cryptic": c["cryptic"],
+                    "deadline_stated": bool(c.get("deadline_stated")) and bool(c["resolve_by"]),
                     "tweets": [{"id": t["id"], "url": t["url"], "created_at": t["created_at"], "text": t["text"][:4000],
                                 "likes": t["likes"], "quoted": t.get("quoted")} for t in ts_],
                     "origin": "daily", "first_seen": now_iso(), "feed_date": now_iso()})
@@ -251,9 +269,10 @@ def main():
             if r and not r["is_leak_claim"]:
                 log(f"  pruned new claim @{c['handle']}: {c['claim'][:80]} ({r['kind']})")
                 continue
-            if r and not r["summary_ok"] and r.get("corrected_claim"):
-                c["claim_v1"], c["claim"] = c["claim"], r["corrected_claim"]
-            c["prune_checked"] = True
+            # (text corrections are not applied here: they could leave lab/deadline fields stale, and the resolver
+            # grades the post itself anyway)
+            if r:
+                c["prune_checked"] = True
             kept.append(c)
         new_claims = kept
     log(f"new claims: {len(new_claims)}")
@@ -266,6 +285,11 @@ def main():
     # 3. (re)grade claims that are due
     if "--no-resolve" not in sys.argv:
         today = date.today().isoformat()
+        live = {c["id"] for c in claims if not c.get("pruned")
+                and (c.get("resolution") or {}).get("verdict") != "not_a_claim"}
+        for c in claims:
+            if c.get("repeat_of") and c["repeat_of"] not in live:
+                c.pop("repeat_of")             # original gone -> grade this one in its own right
         todo = [c for c in claims if due_for_check(c, today)]
         todo.sort(key=lambda c: (0 if not c.get("resolution") else 1,
                                  0 if (deadline_stated(c) and c["resolve_by"][:10] <= today) else 1,
@@ -309,6 +333,10 @@ def main():
     stamp = now_iso()
     for tid in processed:
         seen_recent[tid] = stamp
+    # unprocessed tweets (extraction failed or ran out of time) are kept for the next run, oldest dropped after a week
+    keep_after = (now - timedelta(hours=MAX_LOOKBACK_HOURS)).isoformat()
+    state["retry_tweets"] = {tid: t for tid, t in uniq.items()
+                             if tid not in processed and t["created_at"] >= keep_after[:19]}
     state["seen_recent"] = seen_recent
     state.pop("seen_tweets", None)
     state["last_run"] = stamp

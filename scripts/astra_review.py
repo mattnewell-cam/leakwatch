@@ -9,7 +9,8 @@ from leakwatch.llm import _log_spend
 
 FILES = ["leakwatch/common.py", "leakwatch/twitter.py", "leakwatch/llm.py", "leakwatch/extract.py", "leakwatch/resolve.py",
          "leakwatch/scoring.py", "leakwatch/daily.py", "scripts/build_site.py", "scripts/import_backfill.py",
-         "scripts/prune_claims.py", "scripts/apply_audit.py", ".github/workflows/daily.yml", "site/app.js",
+         "scripts/prune_claims.py", "scripts/apply_audit.py", "scripts/resolve_backfill.py", "scripts/refresh_summaries.py",
+         ".github/workflows/daily.yml", "site/app.js",
          "site/index.html"]
 
 PROMPT = """You are reviewing LeakWatch: a site that extracts AI-lab "leak claims" from X posts, grades them against what
