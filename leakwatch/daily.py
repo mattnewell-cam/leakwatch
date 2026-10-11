@@ -132,7 +132,10 @@ def due_for_check(c, today):
     v = effective_verdict(c)
     if v == "pending":
         overdue = deadline_stated(c) and c["resolve_by"][:10] <= today
-        return age_since_check >= (3 if overdue else 14)
+        if overdue:
+            return age_since_check >= 3
+        # "can't be confirmed yet" internal-state claims change slowly -> monthly; genuinely open ones fortnightly
+        return age_since_check >= (30 if r.get("verdict") == "unverifiable" else 14)
     if v == "false" and deadline_stated(c):
         # a release can still land within the lateness grace window -> keep checking for 6 weeks after the deadline
         grace_end = (date.fromisoformat(c["resolve_by"][:10]) + timedelta(days=45)).isoformat()
