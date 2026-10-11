@@ -51,7 +51,8 @@ For each claim:
 - tweet_ids: tweet id(s) making it (merge a thread / repeated tweets of the same claim into one claim).
 - claim: one standalone sentence restating precisely what was asserted, including the lab, product, and any timing
   in ABSOLUTE terms (convert "next week" etc. using the tweet date). Don't add info not in the tweet. Keep the leaker's
-  hedges ("reportedly", "possibly") if present.
+  hedges ("reportedly", "possibly") if present. State the claim itself ("Google will release X on ...") - never
+  "The author says/claims ..." or "@handle tweeted that ...", and don't start with "As of <date>," (the date is shown).
 - specificity 1-5: 1 = vague vibes ("something big soon"); 2 = names a thing loosely; 3 = names product/event + rough
   timing; 4 = precise detail (codename, specific feature, week); 5 = exact date / number / multiple checkable details.
 - significance 1-5: 1 = trivial UI tweak; 2 = minor feature; 3 = notable product/model update; 4 = major model release or
