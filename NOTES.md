@@ -119,6 +119,15 @@ start ts in `data/cache/budget_start.txt`).
 - Untimed claims are never false just because time passed; the 180-day default is only a review horizon.
 - Legitimacy is recalibrated on the backtest, so its range is compressed (~25–90).
 
+## Decision for you (not made unilaterally)
+**How should code/app-string finds that never ship be scored?** Right now "OpenAI is testing X" (found in app code) is
+true if X launches and *unverifiable* (excluded) if it never does — so a sleuth who reports 10 strings of which 5 ship
+scores ~100% on the settled ones (their lower "coverage" hints at this). Alternative: treat a code find as an implied
+launch prediction → false if cancelled / not shipped within ~12 months. That would noticeably lower @btibor91,
+@testingcatalog, @legit_api, @AiBattle_ (top 4). ~210 such claims; re-grading costs ~$3. A few older audited verdicts
+already use the stricter reading (e.g. Tibor's shelved Sora-in-ChatGPT find is marked false), so there's some
+inconsistency until this is decided.
+
 ## Running costs from here
 - OpenAI: ~$0.5–1/day (Luna grading ~30–120 claims/day, extraction, prune); +~$0.05 on Mondays (blurb refresh).
 - twitterapi.io: ~3–6k credits/day (~$0.05); ~400k left ≈ 2–3 months.
