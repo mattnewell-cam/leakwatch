@@ -224,8 +224,8 @@
     const cats = ["all", ...new Set(S.leakers.filter(inGroup).map((l) => l.category))];
     if (!cats.includes(UI.lbCat)) UI.lbCat = "all";
     const pool = S.leakers.filter((l) => inGroup(l) && (UI.lbCat === "all" || l.category === UI.lbCat));
-    let ranked = pool.filter((l) => l.stats.n_resolved >= MIN && l.rank);
-    const unranked = pool.filter((l) => !(l.stats.n_resolved >= MIN && l.rank));
+    let ranked = pool.filter((l) => l.rank);
+    const unranked = pool.filter((l) => !l.rank);
     // rank shown = position by leak score within the current view
     const pos = {}; ranked.slice().sort((a, b) => b.stats.leak_score - a.stats.leak_score).forEach((l, i) => (pos[l.handle] = i + 1));
     if (UI.lbSort === "rank") ranked.sort((a, b) => pos[a.handle] - pos[b.handle]);
@@ -252,14 +252,14 @@
       : UI.lbGroup === "all" ? "Everyone we track, leakers and journalists together."
       : "Anonymous insiders, code sleuths, aggregators and commentators. Ranked by <b>Leak score</b>: accuracy (a Bayesian hit rate, so tiny samples can't top the board) × the volume of significant claims they got right <i>before</i> they were public.";
     app.innerHTML = `<section class="lb-head"><h1>Leaderboard</h1>
-      <p>${blurb} Click a column to re-sort, or a row for the full record. ${MIN}+ resolved claims needed to rank.</p></section>
+      <p>${blurb} Click a column to re-sort, or a row for the full record. ${MIN}+ distinct settled stories needed to rank.</p></section>
       <div class="controls">
         <div class="seg" id="grp">${[["leakers", "Leakers"], ["journalists", "Journalists"], ["all", "All"]].map(([k, v]) => `<button data-g="${k}" class="${UI.lbGroup === k ? "on" : ""}">${v}</button>`).join("")}</div>
         ${cats.length > 2 ? `<div class="seg" id="cats">${cats.map((c) => `<button data-cat="${c}" class="${UI.lbCat === c ? "on" : ""}">${c === "all" ? "All types" : CAT_LABEL[c] || c}</button>`).join("")}</div>` : ""}
       </div>
       <div class="table-wrap"><table class="lb"><thead><tr>${LB_COLS.map(([k, label, num]) => `<th data-sort="${k}" class="${num ? "num" : ""} ${UI.lbSort === k ? "sorted" : ""}">${label}${UI.lbSort === k ? (UI.lbDir < 0 ? " ↓" : " ↑") : ""}</th>`).join("")}</tr></thead>
       <tbody>${ranked.map(row).join("")}</tbody></table></div>
-      ${unranked.length ? `<div class="section-title">Not enough resolved claims yet</div><div class="table-wrap"><table class="lb"><tbody>${unranked.sort((a, b) => b.stats.n_claims - a.stats.n_claims).map(row).join("")}</tbody></table></div>` : ""}`;
+      ${unranked.length ? `<div class="section-title">Not enough settled stories yet</div><div class="table-wrap"><table class="lb"><tbody>${unranked.sort((a, b) => b.stats.n_claims - a.stats.n_claims).map(row).join("")}</tbody></table></div>` : ""}`;
     $("#grp").onclick = (e) => { const b = e.target.closest("button"); if (!b) return; UI.lbGroup = b.dataset.g; UI.lbCat = "all"; renderLeaderboard(); };
     const cs = $("#cats"); if (cs) cs.onclick = (e) => { const b = e.target.closest("button"); if (!b) return; UI.lbCat = b.dataset.cat; renderLeaderboard(); };
     app.querySelectorAll("th[data-sort]").forEach((th) => th.onclick = () => {

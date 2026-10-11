@@ -68,7 +68,8 @@ def main():
             "worst_misses": [c["id"] for c in worst],
             "summary": (profiles.get(h) or {}).get("summary"),
         })
-    ranked = sorted([l for l in leakers if l["stats"]["n_resolved"] >= MIN_RESOLVED and l["tracked"]],
+    # rank on independent evidence: 5+ distinct settled stories, not 5 details of one launch
+    ranked = sorted([l for l in leakers if l["stats"]["n_events"] >= MIN_RESOLVED and l["tracked"]],
                     key=lambda l: -l["stats"]["leak_score"])
     # journalists play a different game (institutional sourcing) - rank them separately
     for grp in ("journalists", "leakers"):
