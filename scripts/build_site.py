@@ -1,5 +1,6 @@
 """Compute scores and write site/data/{claims,leakers,meta}.json from data/claims.json."""
 import json
+import re
 from collections import defaultdict
 
 from leakwatch.common import DATA, SITE, load_json, now_iso
@@ -103,6 +104,9 @@ def main():
 
     out_claims = []
     for c in claims:
+        # "As of 2024-05-01, X..." is redundant next to the displayed date
+        txt = re.sub(r"^\s*(As of|On) \d{4}-\d{2}-\d{2},\s*", "", c["claim"])
+        c = dict(c, claim=txt[:1].upper() + txt[1:] if txt else c["claim"])
         o = {k: c.get(k) for k in ("id", "handle", "date", "claim", "lab", "topic", "specificity", "significance",
                                    "resolve_by", "hedged", "source_type", "cryptic", "origin", "verdict", "lead_days",
                                    "legitimacy", "first_seen", "feed_date", "corroborated_by", "quote", "source_url",

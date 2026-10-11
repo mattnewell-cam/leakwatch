@@ -18,9 +18,10 @@ from datetime import date
 VALUE = {"true": 1.0, "mostly_true": 0.8, "partly_true": 0.4, "false": 0.0}
 SPEC_W = {1: 0.3, 2: 0.6, 3: 1.0, 4: 1.3, 5: 1.6}
 SIG_W = {1: 0.25, 2: 0.5, 3: 1.0, 4: 2.0, 5: 3.0}
-PRIOR_A, PRIOR_B = 2.0, 2.0
+PRIOR_A, PRIOR_B = 4.0, 4.0     # prior worth 8 claims: chosen by backtest Brier (scripts/tune_prior.py)
 IMPACT_K = 8.0
 UNKNOWN_PRIOR = 0.35  # accounts with no track record
+CALIB_A, CALIB_B = 0.229, 0.683   # legitimacy recalibration (see legitimacy())
 
 
 def d(s):
@@ -54,6 +55,10 @@ def effective_verdict(c):
             # (except original finds/scoops, whose same-day coverage IS the leak)
             if pd == d(c["date"]) and not is_scoop(c):
                 return "already_public"
+            # an original find/scoop whose only "confirmation" is same-day coverage of the find itself (e.g. others
+            # seeing the same public arena listing) and no later official confirmation is not independently verified
+            if is_scoop(c) and pd <= d(c["date"]) and not r.get("official_date"):
+                return "unverifiable"
         except ValueError:
             pass
     if v == "unverifiable" and review_until(c) > date.today().isoformat():
@@ -141,7 +146,7 @@ def posterior(pairs, prior=(PRIOR_A, PRIOR_B)):
     return m, max(0.0, m - sd), sw
 
 
-UNTRACKED_PRIOR = (UNKNOWN_PRIOR * 4, (1 - UNKNOWN_PRIOR) * 4)   # same strength as Beta(2,2), sceptical mean
+UNTRACKED_PRIOR = (UNKNOWN_PRIOR * 8, (1 - UNKNOWN_PRIOR) * 8)   # same strength, sceptical mean
 
 
 def event_key(c):
@@ -277,5 +282,9 @@ def legitimacy(claim, history, tracked=True, corroboration=0.0, plausibility=Non
         delta = (plausibility - 0.5) * 0.2
         p += delta
         comps.append({"label": "Plausibility check (model judgement)", "delta": round(delta * 100)})
-    p = min(0.97, max(0.03, p))
-    return round(p * 100), comps
+    # linear recalibration fitted on the no-hindsight backtest (held-out Brier 0.122 -> 0.113): the heuristic above
+    # spreads too wide - low scores still come true ~40% of the time, top scores ~86%
+    raw = min(0.97, max(0.03, p))
+    q = min(0.95, max(0.05, CALIB_A + CALIB_B * raw))
+    comps.append({"label": "Calibration to past outcomes", "delta": round((q - raw) * 100)})
+    return round(q * 100), comps

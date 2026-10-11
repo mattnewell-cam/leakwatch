@@ -234,6 +234,25 @@ def main():
                                                  "first_seen": newcomers.get(handle.lower(), {}).get("first_seen") or now_iso()}
     if new_claims:
         new_claims = scope_filter(new_claims)
+    if new_claims:
+        # second opinion on the post itself: drop commentary / live-feature observations / relays (journalists exempt)
+        from scripts.prune_claims import check
+        from .resolve import _category
+        to_check = [c for c in new_claims if _category(c["handle"]) != "journalist"]
+        verdicts = {}
+        for i in range(0, len(to_check), 20):
+            verdicts.update(check(to_check[i:i + 20]))
+        kept = []
+        for c in new_claims:
+            r = verdicts.get(c["id"])
+            if r and not r["is_leak_claim"]:
+                log(f"  pruned new claim @{c['handle']}: {c['claim'][:80]} ({r['kind']})")
+                continue
+            if r and not r["summary_ok"] and r.get("corrected_claim"):
+                c["claim_v1"], c["claim"] = c["claim"], r["corrected_claim"]
+            c["prune_checked"] = True
+            kept.append(c)
+        new_claims = kept
     log(f"new claims: {len(new_claims)}")
     if new_claims:
         link_stories(new_claims, claims + new_claims)

@@ -44,6 +44,27 @@ start ts in `data/cache/budget_start.txt`).
   adjudicated gold the new resolver *looks* worse (69% vs 75%), but reading the regressions the new one is usually right
   — the old gold was made by graders who never saw quoted posts, so it misses relays (biggest shift: true→already_public).
 
+- **Second Astra review (scoring design)** → implemented:
+  - claims settled by the same event (same lab + confirmation date) count as ONE piece of evidence (five details of
+    one launch ≠ five hits); impact takes the best member per event.
+  - coverage shown (share of checkable claims actually settled) on leaderboard ("Settled") + profiles.
+  - newcomers now learn from their own record (sceptical prior) instead of being stuck at 35%.
+  - per-lab accuracy shrinks continuously toward the account's overall accuracy (no hard 3-claim threshold).
+  - corroboration: only corroborators with above-average records add anything; relays get none.
+  - calibration chart compares to mean score per band (not band midpoint); labelled as reconstructed backtest.
+- **Prior strength + recalibration fitted on the backtest** (`scripts/tune_prior.py`): prior worth 8 claims; final
+  linear recalibration q = 0.229 + 0.683·p (held-out Brier 0.122 → 0.113). Raw scores spread far too wide (claims
+  scored <30 still earned ~40% credit).
+- **Original finds need real confirmation**: a code/arena find or journalist scoop whose only "confirmation" is
+  same-day coverage of the find itself (e.g. others seeing the same public LM Arena listing) and no later official
+  confirmation → unverifiable (no credit). Fixed AiBattle/TestingCatalog being credited for arena sightings that Google
+  never confirmed.
+- **Meta-phrased summaries rewritten** ("Jimmy Apples tweeted that…" → the claim itself), 150 claims; "As of DATE,"
+  prefixes stripped at build time.
+- **Daily pipeline now runs the prune check on new claims** (drops "Grok Web now has Weather cards"-type observations).
+- Resolver: one batch rejected by OpenAI's bio-risk filter — those claims keep their previous verdict.
+- Spend so far: ~$31 OpenAI (Luna re-grade ~$25, prune ~$1, benchmarks ~$4, Astra ~$2).
+
 ## Open / ideas
 - Astra #1 (no-hindsight dates) partly fixed (uses official date when present); a proper fix needs outcome history.
 - Astra #14 (evidence provenance not verified) and #20 (no write lock) not addressed.
