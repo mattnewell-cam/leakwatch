@@ -105,6 +105,11 @@ start ts in `data/cache/budget_start.txt`).
   100 highest-significance hits/misses of ranked leakers. Agreement on these extremes is low (25–42%): Luna's errors
   cluster exactly where they're most visible, so targeted auditing there is the best use of budget.
 
+- Loophole closed: launch-day posts by code sleuths/journalists ("OpenAI o3-pro today") counted as original finds
+  because the company confirmed the same day. Now: officially announced on/before the post date → no credit, for
+  everyone (257 claims). Real code-find leaks are confirmed later, so they're unaffected. Regression tests added
+  (`python -m tests.test_scoring`, also run in CI before every build).
+
 ## Policy decisions I made (flag if you disagree)
 - A prediction *presented as information* is a leak claim; one framed as the poster's own guess/odds is not.
 - Same-day "hits" earn nothing unless it's an original find/scoop; code/arena finds additionally need later official

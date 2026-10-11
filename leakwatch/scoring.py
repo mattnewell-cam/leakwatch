@@ -64,8 +64,11 @@ def effective_verdict(c):
         if not pd or not cd or pd > cd or (is_scoop(c) and pd >= cd):
             v = "unverifiable"
     elif v in ("true", "mostly_true", "partly_true") and pd and cd:
+        od = _valid_date(r.get("official_date"))
         if pd < cd:                                  # someone else had it first (applies to scoops too)
             v = "already_public"
+        elif od and od <= cd:                        # officially announced that same day ("o3-pro today") - a
+            v = "already_public"                     # launch-day relay, even from a code sleuth or journalist
         elif pd == cd and not is_scoop(c):           # same-day "hit" can't be told from reacting to the launch
             v = "already_public"
         elif (pd == cd and c.get("source_type") == "code_or_testing_evidence"

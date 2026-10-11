@@ -41,6 +41,9 @@ def test_code_finds():
                                                   "official_date": day(-450)})) == "true"
     # someone else published first -> already_public even for a code find
     assert sc.effective_verdict(claim(**old, res={"verdict": "true", "public_date": day(-520)})) == "already_public"
+    # launch-day relay ("o3-pro today"): officially announced the same day -> no credit, even for a code sleuth
+    assert sc.effective_verdict(claim(**old, res={"verdict": "true", "public_date": day(-500),
+                                                  "official_date": day(-500)})) == "already_public"
 
 
 def test_invalid_already_public():
