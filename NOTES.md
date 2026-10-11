@@ -1,4 +1,16 @@
-# Overnight log (2026-10-11 → 12)
+# Overnight log (2026-10-11)
+
+## TL;DR for the morning
+- Pipeline now on **GPT-6 Luna**; resolver grades **the post itself** (full text + quoted post), not the summary.
+- Data cleaned: non-claims, personal guesses, non-AI and pre-2022 items pruned → **3,580 live claims**
+  (1,179 settled, 683 pending). Everything re-graded with the fixed resolver.
+- Three GPT-6 Astra code reviews → ~40 real bugs/design flaws fixed (deadlines, novelty loopholes, daily-run
+  robustness, event-level scoring, coverage, recalibrated legitimacy). Regression tests now run in CI.
+- Astra audits: random sample agrees with Luna ~69% (≈ the ambiguity ceiling); targeted audits of the claims readers
+  see first + the 100 most ranking-relevant ones.
+- **One decision for you** (see below): how to score code finds that never ship.
+- OpenAI spend tonight ≈ $86 of the $100 cap.
+
 
 Loop: find issue → fix → verify → push. OpenAI budget for the night: $100 (ledger: `python -m scripts.spend <ts>`,
 start ts in `data/cache/budget_start.txt`).
