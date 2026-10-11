@@ -1,6 +1,15 @@
 {
- "sample_n": 120,
- "exact_agreement": 0.642,
- "bucket_agreement": 0.692,
- "computed_at": "2026-10-10T22:37:07Z"
+ "sample_n": 80,
+ "exact_agreement": 0.537,
+ "bucket_agreement": 0.688,
+ "computed_at": "2026-10-11T02:02:57Z",
+ "astra_samples": [
+  {
+   "n": 80,
+   "bucket": 55,
+   "exact": 43,
+   "at": "2026-10-11T02:02:57Z"
+  }
+ ],
+ "auditor": "GPT-6 Astra"
 }

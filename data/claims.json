@@ -8315,7 +8315,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:11:39Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1755349332092485851",
@@ -9374,7 +9375,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:03:44Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1774947348767973493",
@@ -9942,14 +9944,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "unverifiable",
-   "public_date": "2024-04-17",
-   "official_date": null,
-   "explanation": "The post reports strings in the Quest iOS app and implies future support, but I found no independent confirmation that Meta implemented or officially announced third-party controller pairing. The app-string finding itself was public in the post; whether it reflected a real planned feature remains unsettled.",
-   "evidence": [],
-   "confidence": "low",
-   "resolved_at": "2026-10-11T01:09:16Z"
-  }
+   "verdict": "true",
+   "public_date": "2024-06-16",
+   "official_date": "2024-06-17",
+   "explanation": "Logitech announced its Meta-supported MX Ink tracked stylus on June 17, 2024, following public coverage on June 16; its official instructions confirm pairing through the mobile app's Controllers menu. This independently supports the substantive claim of third-party tracked-controller pairing, although it does not authenticate the exact April app string. ([reddit.com](https://www.reddit.com/r/OculusQuest/comments/1dhhbm7))",
+   "evidence": [
+    {
+     "title": "Logitech MX Ink is a Meta-supported tracked stylus for Quest headsets",
+     "url": "https://www.reddit.com/r/OculusQuest/comments/1dhhbm7/logitech_mx_ink_is_a_metasupported_tracked_stylus/"
+    },
+    {
+     "title": "Bring Familiarity and Precision to Mixed Reality with Logitech MX Ink, a Stylus for Meta Quest",
+     "url": "https://www.logitech.com/blog/2024/06/17/bring-familiarity-and-precision-to-mixed-reality-with-logitech-mx-ink-a-stylus-for-meta-quest/"
+    },
+    {
+     "title": "Getting Started — MX Ink",
+     "url": "https://support.logi.com/hc/en-us/articles/24152549839767-Getting-Started-MX-Ink"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "unverifiable",
+    "note": "Logitech announced its Meta-supported MX Ink tracked stylus on June 17, 2024, following public coverage on June 16; its official instructions confirm pairing through the mobile app's Controllers menu. This independently supports the substantive claim of third-party tracked-controller pairing, although it does not authenticate the exact April app string. ([reddit.com](https://www.reddit.com/r/OculusQuest/comments/1dhhbm7))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-1780414705221382517",
@@ -11778,7 +11800,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:15:28Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1799275475732410764",
@@ -15219,7 +15242,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:11:54Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "apples_jimmy-1833595024543781088",
@@ -16527,23 +16551,26 @@
   "prune_checked": true,
   "claim_v1": "OpenAI was preparing to release GPT-4.5 with an improved o1-style reasoning capability after September 25, 2024.",
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2024-09-25",
-   "official_date": "2025-02-27",
-   "explanation": "GPT-4.5 was released on February 27, 2025, but not as a combined product with an improved o1. The post’s “it’s coming” phrasing also implied a nearer arrival than the five-month gap to GPT-4.5’s release.",
+   "verdict": "false",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "GPT-4.5 launched on February 27, 2025, explicitly as a non-reasoning model distinct from o1—not GPT-4.5 incorporating an improved o1. Separate releases of GPT-4.5 and improved reasoning models do not establish the combination asserted here.",
    "evidence": [
     {
      "title": "Introducing GPT-4.5",
      "url": "https://openai.com/index/introducing-gpt-4-5/"
-    },
-    {
-     "title": "GPT-4.5 system card",
-     "url": "https://openai.com/index/gpt-4-5-system-card/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:02:15Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "partly_true",
+    "note": "GPT-4.5 launched on February 27, 2025, explicitly as a non-reasoning model distinct from o1—not GPT-4.5 incorporating an improved o1. Separate releases of GPT-4.5 and improved reasoning models do not establish the combination asserted here."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "shiringhaffary-1839061202095538505",
@@ -22731,7 +22758,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:26:00Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1869304081279517048",
@@ -30530,7 +30558,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:40:42Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-1900583042659541477",
@@ -30900,7 +30929,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:10:32Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-1902419197273239995",
@@ -31622,7 +31652,8 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:42:41Z"
   },
-  "claim_v1": "Andrew Curran posted that \"one of the labs had completed its largest ever successful training run, and that the model that emerged from it performed far above both internal expectations and what people assumed the scaling laws would predict,\" and speculated that the lab was probably Anthropic."
+  "claim_v1": "Andrew Curran posted that \"one of the labs had completed its largest ever successful training run, and that the model that emerged from it performed far above both internal expectations and what people assumed the scaling laws would predict,\" and speculated that the lab was probably Anthropic.",
+  "astra_checked": true
  },
  {
   "id": "andrewcurran_-aad3aec4038",
@@ -35309,23 +35340,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2025-04-18",
+   "verdict": "not_a_claim",
+   "public_date": null,
    "official_date": null,
-   "explanation": "Dayhush was being tested in LM Arena by April 19–20, consistent with the post’s claim that the mystery model was available by April 18. Its Google/Gemini identity was not officially confirmed.",
+   "explanation": "These posts demonstrate and review an accessible mystery model, offering subjective comparisons rather than claiming non-public development information. The extractor turns that review into an existence leak; contemporary Arena discussions likewise describe users testing Dayhush.",
    "evidence": [
     {
-     "title": "AI News community roundup discussing Dayhush in LMArena, April 19, 2025",
+     "title": "AI News for April 17–18, 2025: Dayhush and Nightwhisper Arena discussions",
      "url": "https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/"
-    },
-    {
-     "title": "Arena users compare Dayhush and Claybrook, April 20, 2025",
-     "url": "https://linux.do/t/topic/581546"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:51:27Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "true",
+    "note": "These posts demonstrate and review an accessible mystery model, offering subjective comparisons rather than claiming non-public development information. The extractor turns that review into an existence leak; contemporary Arena discussions likewise describe users testing Dayhush."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "smokeawayyy-1913321635471413366",
@@ -37883,7 +37917,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:07:53Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-1925247579656257556",
@@ -38270,7 +38305,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:13:17Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "ns123abc-a9bfdf66aa4",
@@ -38677,7 +38713,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:09:16Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "shiringhaffary-1929768710707019872",
@@ -40330,7 +40367,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:00:56Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1935443174895300977",
@@ -44770,7 +44808,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:11:51Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "tetsuoai-a7717b1e022",
@@ -51061,19 +51100,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "unverifiable",
+   "verdict": "true",
    "public_date": "2025-09-05",
    "official_date": null,
-   "explanation": "A later article describes DH3 as an anonymous model on the Artificial Analysis Image Arena, but I found no independent evidence confirming that it was already being tested there on September 5. The claimed comparison with Nano Banana is also not independently established.",
+   "explanation": "Other users independently documented DH3 on Artificial Analysis Image Arena on September 5, corroborating the specific testing claim. No strictly earlier publication was established, and the post presents its own testing rather than merely relaying the quoted speculation. ([note.com](https://note.com/taku_sid/n/nc7abe793988e))",
    "evidence": [
     {
-     "title": "謎の画像生成AI「DH3」の正体を追う",
+     "title": "Investigating the mysterious DH3 image model on ArtificialAnalysis Image Arena",
      "url": "https://note.com/taku_sid/n/nc7abe793988e"
+    },
+    {
+     "title": "Mysterious DH3 model appears on Arena ahead of Jimeng 4.0",
+     "url": "https://developer.cloud.tencent.com/article/2573027?policyId=1004"
     }
    ],
-   "confidence": "low",
-   "resolved_at": "2026-10-11T01:32:50Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "unverifiable",
+    "note": "Other users independently documented DH3 on Artificial Analysis Image Arena on September 5, corroborating the specific testing claim. No strictly earlier publication was established, and the post presents its own testing rather than merely relaying the quoted speculation. ([note.com](https://note.com/taku_sid/n/nc7abe793988e))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-1964063307624542492",
@@ -54849,19 +54899,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
+   "verdict": "true",
    "public_date": "2025-10-09",
    "official_date": "2025-10-20",
-   "explanation": "The reported cloud-based Claude Code preview and environment controls broadly matched the product Anthropic announced, but the public research preview arrived on October 20—11 days after the post’s stated October 9 date. Anthropic’s announcement does not independently establish that this exact updated preview was available on October 9.",
+   "explanation": "This was an original preview-interface find, not a promise of public availability on October 9. Anthropic launched the web research preview on October 20, and its documentation confirms configurable cloud environments, network restrictions, environment variables, and environment selection. ([claude.com](https://claude.com/resources/articles/claude-code-on-the-web?product=crm&utm_source=openai))",
    "evidence": [
     {
      "title": "Claude Code on the web — Anthropic",
-     "url": "https://claude.com/blog/claude-code-on-the-web"
+     "url": "https://claude.com/resources/articles/claude-code-on-the-web?product=crm"
+    },
+    {
+     "title": "Configure cloud environments — Claude Code Docs",
+     "url": "https://code.claude.com/docs/en/cloud-environments"
+    },
+    {
+     "title": "Early Preview of Anthropic's Claude Code for web",
+     "url": "https://www.testingcatalog.com/early-preview-of-anthropics-claude-code-for-web/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T00:42:02Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "partly_true",
+    "note": "This was an original preview-interface find, not a promise of public availability on October 9. Anthropic launched the web research preview on October 20, and its documentation confirms configurable cloud environments, network restrictions, environment variables, and environment selection. ([claude.com](https://claude.com/resources/articles/claude-code-on-the-web?product=crm&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-1976275529566437516",
@@ -57748,7 +57813,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:15:27Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "techdevnotes-1983477537876640181",
@@ -59085,7 +59151,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:43:01Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1987249841072972140",
@@ -59647,7 +59714,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:55:30Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-1988175943522021822",
@@ -61102,23 +61170,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "already_public",
-   "public_date": "2025-11-18",
+   "verdict": "true",
+   "public_date": "2025-11-19",
    "official_date": "2025-11-19",
-   "explanation": "OpenAI’s GPT-5.1-Codex-Max system card, dated November 18, 2025, had already publicly identified and described the model before this post. OpenAI released it in Codex on November 19, within the stated November 26 deadline.",
+   "explanation": "The post disclosed a forthcoming model through codebase references rather than relaying its launch announcement. OpenAI released GPT-5.1-Codex-Max later on November 19, confirming the name and long-running, project-scale coding capabilities well before November 26. ([testingcatalog.com](https://www.testingcatalog.com/openai-prepares-gpt-5-1-codex-max-for-large-scale-projects/))",
    "evidence": [
     {
-     "title": "GPT-5.1-Codex-Max System Card",
-     "url": "https://cdn.openai.com/pdf/2a7d98b1-57e5-4147-8d0e-683894d782ae/5p1_codex_max_card_03.pdf"
+     "title": "Building more with GPT-5.1-Codex-Max — OpenAI",
+     "url": "https://openai.com/index/gpt-5-1-codex-max/"
     },
     {
-     "title": "Building more with GPT-5.1-Codex-Max",
-     "url": "https://openai.com/index/gpt-5-1-codex-max/"
+     "title": "OpenAI prepares GPT-5.1-Codex-MAX for large-scale projects",
+     "url": "https://www.testingcatalog.com/openai-prepares-gpt-5-1-codex-max-for-large-scale-projects/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:21:39Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "already_public",
+    "note": "The post disclosed a forthcoming model through codebase references rather than relaying its launch announcement. OpenAI released GPT-5.1-Codex-Max later on November 19, confirming the name and long-running, project-scale coding capabilities well before November 26. ([testingcatalog.com](https://www.testingcatalog.com/openai-prepares-gpt-5-1-codex-max-for-large-scale-projects/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-1991037542796521801",
@@ -64031,14 +64106,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "unverifiable",
-   "public_date": "2025-12-07",
-   "official_date": null,
-   "explanation": "The post reports seeing signs of a “Claude AI images search” feature in app changes, but the feature’s existence in development was not independently confirmed by October 10, 2026. No deadline was stated, and the lack of a public launch does not by itself refute this internal-development claim.",
-   "evidence": [],
-   "confidence": "low",
-   "resolved_at": "2026-10-11T00:43:01Z"
-  }
+   "verdict": "true",
+   "public_date": "2026-02-12",
+   "official_date": "2026-03-16",
+   "explanation": "Claude subsequently shipped native image search, reported by February 12, 2026 and explicitly confirmed in dated Anthropic documentation on March 16. This matches the feature discovery, which specified no release deadline; no earlier independent disclosure was located. ([techradar.com](https://www.techradar.com/ai-platforms-assistants/claude/claude-just-made-its-most-powerful-tools-free-from-file-creation-to-app-integration-all-without-ads?utm_source=openai))",
+   "evidence": [
+    {
+     "title": "Claude just made its most powerful tools free",
+     "url": "https://www.techradar.com/ai-platforms-assistants/claude/claude-just-made-its-most-powerful-tools-free-from-file-creation-to-app-integration-all-without-ads"
+    },
+    {
+     "title": "Use visual and interactive content on Team and Enterprise plans",
+     "url": "https://support.claude.com/en/articles/13663666-use-visual-and-interactive-content-on-team-and-enterprise-plans"
+    },
+    {
+     "title": "Enable and use web search",
+     "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "unverifiable",
+    "note": "Claude subsequently shipped native image search, reported by February 12, 2026 and explicitly confirmed in dated Anthropic documentation on March 16. This matches the feature discovery, which specified no release deadline; no earlier independent disclosure was located. ([techradar.com](https://www.techradar.com/ai-platforms-assistants/claude/claude-just-made-its-most-powerful-tools-free-from-file-creation-to-app-integration-all-without-ads?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-1997776073132744859-2",
@@ -64918,7 +65013,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:36Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "apples_jimmy-1998875271924212067",
@@ -67801,7 +67897,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:15Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2007061182960767289-4",
@@ -70566,7 +70663,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:19:38Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "alexeheath-2011871334117130750",
@@ -71105,7 +71203,8 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:20:13Z"
   },
-  "claim_v1": "An OpenAI researcher said that inside OpenAI, researchers will be replaced by AI first, infrastructure engineers second, and sales last."
+  "claim_v1": "An OpenAI researcher said that inside OpenAI, researchers will be replaced by AI first, infrastructure engineers second, and sales last.",
+  "astra_checked": true
  },
  {
   "id": "btibor91-2013342480029118827",
@@ -71783,23 +71882,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2026-01-22",
-   "official_date": "2026-02-08",
-   "explanation": "OpenAI did run an Easter-egg promotion with a hidden clue and mystery merch, beginning with its February 8 Super Bowl campaign. But the documented promotion used a Codex skill and offered 1,000 merch kits; it did not match the post’s claimed San Francisco/New York billboard setup, 500-person limits, or free ChatGPT Pro month.",
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "No independent confirmation of this specific US-only, 500-subscription/500-merch billboard campaign was located; OpenAI’s documented Codex giveaway instead covers 1,000 eligible participants under different terms. With no deadline or demonstrated cancellation, that separate promotion neither confirms nor refutes the claim. ([linkedin.com](https://www.linkedin.com/posts/tiborblaho_openai-is-preparing-an-easter-egg-promo-campaign-activity-7420060616784023552-zhZd?utm_source=openai))",
    "evidence": [
     {
-     "title": "You Can Just Build Things Promotion Terms",
-     "url": "https://cdn.openai.com/pdf/c4c0b11c-33cd-41e0-99aa-8f2b1a8fac2f/you-can-just-build-things-promotion-terms.pdf"
+     "title": "Tibor Blaho’s original campaign discovery",
+     "url": "https://www.linkedin.com/posts/tiborblaho_openai-is-preparing-an-easter-egg-promo-campaign-activity-7420060616784023552-zhZd"
     },
     {
-     "title": "OpenAI Codex Super Bowl 2026 TV Spot",
-     "url": "https://www.ispot.tv/ad/gOWh/openai-codex-super-bowl-2026-you-can-just-build-things"
+     "title": "Codex video surprise",
+     "url": "https://openai.com/codex/youcanjustbuildthings/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:20:13Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "partly_true",
+    "note": "No independent confirmation of this specific US-only, 500-subscription/500-merch billboard campaign was located; OpenAI’s documented Codex giveaway instead covers 1,000 eligible participants under different terms. With no deadline or demonstrated cancellation, that separate promotion neither confirms nor refutes the claim. ([linkedin.com](https://www.linkedin.com/posts/tiborblaho_openai-is-preparing-an-easter-egg-promo-campaign-activity-7420060616784023552-zhZd?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-2014361796279181388",
@@ -84620,7 +84726,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:48Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-2032555736098836729",
@@ -87923,7 +88030,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:09:38Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "m1astra-a4ae8b1782f",
@@ -90891,7 +90999,8 @@
    "evidence": [],
    "confidence": "low",
    "resolved_at": "2026-10-11T01:19:20Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "flowersslop-2041461721911504950",
@@ -93022,19 +93131,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "already_public",
-   "public_date": "2026-04-08",
-   "official_date": "2026-04-08",
-   "explanation": "Before these posts, OpenAI had publicly described its plan for a unified AI superapp bringing together ChatGPT, Codex, agentic browsing, and broader capabilities. The account's comments about Codex becoming central largely echoed that announced direction; its guesses about specific releases were not firm claims of inside information.",
+   "verdict": "true",
+   "public_date": "2026-04-16",
+   "official_date": "2026-04-16",
+   "explanation": "Although the broader superapp strategy was public on March 19, the specific prediction of a major Codex expansion the following week matched April 16's computer-use, image-generation, memory and integration update. Spud and a new image model were explicitly guesses, not firm release promises; superiority to Claude is subjective.",
    "evidence": [
     {
-     "title": "The next phase of enterprise AI — OpenAI",
-     "url": "https://openai.com/index/next-phase-of-enterprise-ai/"
+     "title": "Codex for (almost) everything",
+     "url": "https://openai.com/index/codex-for-almost-everything/"
+    },
+    {
+     "title": "OpenAI plans desktop 'superapp' to simplify user experience, WSJ reports",
+     "url": "https://www.marketscreener.com/news/openai-plans-desktop-superapp-to-simplify-user-experience-wsj-reports-ce7e5eded081f52c"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:13:52Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "already_public",
+    "note": "Although the broader superapp strategy was public on March 19, the specific prediction of a major Codex expansion the following week matched April 16's computer-use, image-generation, memory and integration update. Spud and a new image model were explicitly guesses, not firm release promises; superiority to Claude is subjective."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "andrewcurran_-2043407450490224769",
@@ -93165,7 +93285,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:01:29Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "ns123abc-2043682835026923725",
@@ -95739,7 +95860,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:17:03Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2045520225336971353",
@@ -96029,19 +96151,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2026-04-19",
-   "official_date": "2026-04-23",
-   "explanation": "GPT-5.5, the model later associated with the “Spud” codename, was released on April 23, supporting the claim that a new Pro variant was being tested. The specific frontend and one-shot SVG demonstrations were anecdotal and are not independently confirmed as general capabilities.",
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "OpenAI released GPT-5.5 on April 23, 2026 and acknowledged prerelease testing, but that does not establish a stealth replacement inside GPT-5.4 Pro on April 19. No independent evidence found identifies the model behind the poster’s frontend and SVG demonstrations. ([openai.com](https://openai.com/index/introducing-gpt-5-5/))",
    "evidence": [
     {
-     "title": "GPT-5.5 System Card — OpenAI",
-     "url": "https://deploymentsafety.openai.com/gpt-5-5/gpt-5-5.pdf"
+     "title": "Introducing GPT-5.5",
+     "url": "https://openai.com/index/introducing-gpt-5-5/"
+    },
+    {
+     "title": "GPT-5.5 System Card",
+     "url": "https://deploymentsafety.openai.com/gpt-5-5/health"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:20:24Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "mostly_true",
+    "note": "OpenAI released GPT-5.5 on April 23, 2026 and acknowledged prerelease testing, but that does not establish a stealth replacement inside GPT-5.4 Pro on April 19. No independent evidence found identifies the model behind the poster’s frontend and SVG demonstrations. ([openai.com](https://openai.com/index/introducing-gpt-5-5/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-2045825319089623137",
@@ -101692,19 +101825,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-05-02",
-   "official_date": "2026-05-14",
-   "explanation": "The post says “Codex phone confirmed,” quoting Sam Altman’s positive reaction; it does not establish a separate OpenAI-branded phone. OpenAI did bring Codex access to the ChatGPT mobile app on May 14, consistent with the narrower claim that Codex was coming to phones.",
+   "verdict": "already_public",
+   "public_date": "2026-05-01",
+   "official_date": null,
+   "explanation": "Android Authority's own APK teardown reported the same Bubbles-and-Accessibility screen-sharing method on May 1, 2026 at 04:30 ET (08:30 UTC), before this post at 14:16 UTC. The post relays that previously published finding rather than establishing an original discovery. ([androidauthority.com](https://www.androidauthority.com/chatgpt-android-17-new-screen-sharing-3662693/))",
    "evidence": [
     {
-     "title": "OpenAI brings Codex to your phone",
-     "url": "https://www.axios.com/2026/05/14/openai-brings-codex-to-your-phone"
+     "title": "Lesser-known Android trick could make ChatGPT's screen sharing way smoother on your phone",
+     "url": "https://www.androidauthority.com/chatgpt-android-17-new-screen-sharing-3662693/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:22:02Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "true",
+    "note": "Android Authority's own APK teardown reported the same Bubbles-and-Accessibility screen-sharing method on May 1, 2026 at 04:30 ET (08:30 UTC), before this post at 14:16 UTC. The post relays that previously published finding rather than establishing an original discovery. ([androidauthority.com](https://www.androidauthority.com/chatgpt-android-17-new-screen-sharing-3662693/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "andrewcurran_-2050247891063832691",
@@ -102190,7 +102330,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:16:45Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "andrewcurran_-2051151418602774836",
@@ -104964,7 +105105,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:56:09Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-2053788481869189469",
@@ -108032,7 +108174,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:56:39Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2056030457959952525",
@@ -110116,7 +110259,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:32:46Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "alexeheath-2057217091489669620",
@@ -118496,7 +118640,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:16:29Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2064721766090506712",
@@ -118721,7 +118866,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:16:29Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "daniel_mac8-2064824643110797735",
@@ -119586,19 +119732,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2026-06-26",
-   "official_date": "2026-07-09",
-   "explanation": "The post’s prediction that a GPT-5.6 model would follow GPT-5.5 was borne out: GPT-5.6 entered limited preview on June 26 and launched generally on July 9. Its “if GPT 5.6 lands” wording is conditional, not a claim that it was already publicly available.",
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "“If GPT 5.6 lands the way I think it will” is conditional speculation about a future model, not a claim of privileged knowledge about its existence or development. The June 26 preview does not retroactively turn that commentary into a leak. ([openai.com](https://openai.com/index/previewing-gpt-5-6-sol/))",
    "evidence": [
     {
-     "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-     "url": "https://openai.com/index/gpt-5-6/"
+     "title": "Previewing GPT-5.6 Sol: a next-generation model",
+     "url": "https://openai.com/index/previewing-gpt-5-6-sol/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:23:34Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "mostly_true",
+    "note": "“If GPT 5.6 lands the way I think it will” is conditional speculation about a future model, not a claim of privileged knowledge about its existence or development. The June 26 preview does not retroactively turn that commentary into a leak. ([openai.com](https://openai.com/index/previewing-gpt-5-6-sol/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "daniel_mac8-2066109716581777466",
@@ -121751,7 +121904,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:17:55Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-2067642369403740220",
@@ -121817,7 +121971,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:22:22Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2067649489293185267",
@@ -121964,23 +122119,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-06-18",
+   "verdict": "partly_true",
+   "public_date": "2026-06-26",
    "official_date": "2026-06-26",
-   "explanation": "The post gave June 25 as the planned launch date; OpenAI began the limited GPT-5.6 preview on June 26, one day later and within the timing rule for an exact date. The cited claim about stealth-testing specifically for some Pro accounts is not independently verified, but the launch timing was essentially right.",
+   "explanation": "GPT-5.6 entered limited preview on June 26, within the three-day tolerance of the predicted June 25 launch, while its ChatGPT rollout began July 9. The separate, substantial assertion that GPT-5.6 Pro was secretly serving requests under the GPT-5.5 Pro selector remains unconfirmed, so only the launch portion is established.",
    "evidence": [
     {
      "title": "Previewing GPT-5.6 Sol: a next-generation model",
      "url": "https://openai.com/index/previewing-gpt-5-6-sol/"
     },
     {
-     "title": "Trump administration asks OpenAI to limit next model release",
-     "url": "https://www.axios.com/2026/06/25/ai-openai-gpt-model-release"
+     "title": "Model Release Notes",
+     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:17:55Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "true",
+    "note": "GPT-5.6 entered limited preview on June 26, within the three-day tolerance of the predicted June 25 launch, while its ChatGPT rollout began July 9. The separate, substantial assertion that GPT-5.6 Pro was secretly serving requests under the GPT-5.5 Pro selector remains unconfirmed, so only the launch portion is established."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-2067660068787519565",
@@ -124850,23 +125012,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "Neither ChatGPT nor Fable arrived on June 25. GPT-5.6 entered limited preview on June 26, while Anthropic had suspended Fable on June 12 and announced its redeployment on June 30.",
+   "verdict": "partly_true",
+   "public_date": "2026-06-26",
+   "official_date": "2026-06-26",
+   "explanation": "Read in context, this predicts a new OpenAI release and Fable’s return after government restrictions, not ChatGPT’s original launch. GPT-5.6 entered a restricted preview on June 26 and general availability on July 9, while Fable returned July 1—so the substance materialized, but not the promised unrestricted June 25 arrival. ([openai.com](https://openai.com/index/previewing-gpt-5-6-sol/))",
    "evidence": [
     {
      "title": "Previewing GPT-5.6 Sol: a next-generation model",
      "url": "https://openai.com/index/previewing-gpt-5-6-sol/"
     },
     {
-     "title": "Redeploying Claude Fable 5",
+     "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+     "url": "https://openai.com/index/gpt-5-6/"
+    },
+    {
+     "title": "Redeploying Fable 5",
      "url": "https://www.anthropic.com/news/redeploying-fable-5"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:30:42Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "false",
+    "note": "Read in context, this predicts a new OpenAI release and Fable’s return after government restrictions, not ChatGPT’s original launch. GPT-5.6 entered a restricted preview on June 26 and general availability on July 9, while Fable returned July 1—so the substance materialized, but not the promised unrestricted June 25 arrival. ([openai.com](https://openai.com/index/previewing-gpt-5-6-sol/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-2069813760622043483",
@@ -140075,7 +140248,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:54:08Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-ad022b0de33",
@@ -140587,23 +140761,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2026-05-27",
+   "verdict": "pending",
+   "public_date": null,
    "official_date": null,
-   "explanation": "A Jules team member had publicly said on May 27 that Jules V2 was being rebuilt, so the upcoming V2 was not new information in this July 14 post. The claim of a new logo and the suggestion that the update was imminent were not independently confirmed by October 10, 2026.",
+   "explanation": "Earlier reporting discussed Jules V2, but does not independently confirm this post’s specific new-logo/update claim. Google’s available changelog contains no confirmation of that release; without a fixed deadline or demonstrated cancellation, it remains pending. ([t.co](https://t.co/VGQ6FCESkJ))",
    "evidence": [
     {
-     "title": "Hi, from Jules! — Jules team member on Reddit",
-     "url": "https://www.reddit.com/r/JulesAgent/comments/1topv0o/hi_from_jules/"
+     "title": "Jules official changelog",
+     "url": "https://jules.google/docs/changelog/"
     },
     {
-     "title": "Jules changelog — Google",
-     "url": "https://jules.google/docs/changelog/"
+     "title": "Google prepares Jules V2 agent capable of taking bigger tasks",
+     "url": "https://www.testingcatalog.com/google-prepares-jules-v2-agent-capable-of-taking-bigger-tasks/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:01:49Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "partly_true",
+    "note": "Earlier reporting discussed Jules V2, but does not independently confirm this post’s specific new-logo/update claim. Google’s available changelog contains no confirmation of that release; without a fixed deadline or demonstrated cancellation, it remains pending. ([t.co](https://t.co/VGQ6FCESkJ))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-2077085180175544375",
@@ -141468,23 +141649,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2026-07-15",
+   "verdict": "unverifiable",
+   "public_date": null,
    "official_date": null,
-   "explanation": "Gemini 3.5 Pro did not launch by July 31, and Bloomberg independently reported on July 16 that it was months behind schedule, supporting the prediction of further delay. The precise claims that Google had produced five checkpoints and that a July 15 test checkpoint performed worse than Kimi remain unverified.",
+   "explanation": "Bloomberg independently confirmed performance-related delays on July 16, 2026, but not five checkpoints or the claimed private-server test. Those specific internal assertions remain unverified, and the posts themselves do not promise a July 31 release.",
    "evidence": [
     {
-     "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals — Bloomberg",
+     "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
      "url": "https://bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals"
-    },
-    {
-     "title": "Gemini API deprecations and model list — Google",
-     "url": "https://ai.google.dev/gemini-api/docs/deprecations"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:01:49Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "partly_true",
+    "note": "Bloomberg independently confirmed performance-related delays on July 16, 2026, but not five checkpoints or the claimed private-server test. Those specific internal assertions remain unverified, and the posts themselves do not promise a July 31 release."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-2077229885395992892",
@@ -142793,7 +142977,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:20:29Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "scaling01-2077747229498958277",
@@ -147411,7 +147596,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:44:44Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "mark_k-2080192967915045313",
@@ -148552,7 +148738,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:41:23Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-2080662662443385240",
@@ -150896,27 +151083,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2026-07-29",
-   "official_date": "2026-09-21",
-   "explanation": "Grok 4.6 released August 12, five days after the August 7 target, while Grok 4.7 did not release until September 21—well after the post’s August expectation. The official release confirms 4.6’s stronger post-training and 4.7’s larger base, but does not establish the post’s exact parameter counts.",
+   "verdict": "already_public",
+   "public_date": "2026-07-28",
+   "official_date": "2026-07-28",
+   "explanation": "Musk publicly supplied the August 7 target, 1.5T/2.1T sizes, improved SFT/RL, and relative serving-speed claims on July 28, before this July 29 relay. These were publicly announced targets, regardless of subsequent release delays. ([aiwiki.ai](https://aiwiki.ai/wiki/grok_4_6))",
    "evidence": [
     {
-     "title": "Introducing Grok 4.6",
-     "url": "https://x.ai/news/grok-4-6"
+     "title": "Elon Musk's July 28 Grok 4.6 and 4.7 roadmap statement",
+     "url": "https://x.com/elonmusk/status/2082123925283041545"
     },
     {
-     "title": "Introducing Grok 4.7",
-     "url": "https://x.ai/news/grok-4-7"
-    },
-    {
-     "title": "Grok 4.7 launch report",
-     "url": "https://decrypt.co/378824/xai-launches-grok-4-7%2C"
+     "title": "Grok 4.6 — announcement history and source references",
+     "url": "https://aiwiki.ai/wiki/grok_4_6"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:34:47Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "partly_true",
+    "note": "Musk publicly supplied the August 7 target, 1.5T/2.1T sizes, improved SFT/RL, and relative serving-speed claims on July 28, before this July 29 relay. These were publicly announced targets, regardless of subsequent release delays. ([aiwiki.ai](https://aiwiki.ai/wiki/grok_4_6))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-2082521981543419953",
@@ -150961,7 +151151,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:31:12Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "mark_k-2082535032439099646",
@@ -157723,27 +157914,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
+   "verdict": "mostly_true",
    "public_date": "2026-08-10",
-   "official_date": null,
-   "explanation": "A Kimi K3-derived agentic model from Abacus.AI is publicly documented as Smaug-Agentic, supporting the substance of a K3-based agentic fine-tune. The evidence found does not establish that Smaug-Agentic was the promised “Dragon,” or verify that the promised release occurred that night.",
+   "official_date": "2026-08-11",
+   "explanation": "Smaug-Agentic was released by August 11, within the allowed timing tolerance, matching the claimed 2.8T Kimi K3 base and agentic-coding focus. The secondary qualification is licensing: it shipped as open weights under the custom Kimi K3 license, rather than the straightforward open-source release advertised. ([stackfutures.com](https://stackfutures.com/blog/smaug-agentic-abacus-ai-kimi-k3-finetune-agentic-coding/?utm_source=openai))",
    "evidence": [
     {
-     "title": "Smaug-Agentic model card — Hugging Face",
-     "url": "https://huggingface.co/abacusai/Smaug-Agentic"
+     "title": "Abacus.AI Smaug-Agentic model card",
+     "url": "https://huggingface.co/abacusai/Smaug-Agentic?library=transformers"
     },
     {
-     "title": "Smaug — Abacus.AI",
-     "url": "https://abacus.ai/smaug"
+     "title": "Abacus AI Ships Smaug-Agentic: Kimi K3 Fine-Tune",
+     "url": "https://stackfutures.com/blog/smaug-agentic-abacus-ai-kimi-k3-finetune-agentic-coding/"
     },
     {
-     "title": "August 10 report on the Dragon announcement",
-     "url": "https://aimattie.nl/blogs/dragon-abacus-ais-open-source-model-op-basis-van-kimi-k3"
+     "title": "Abacus.AI Smaug: Not All 3 Models Are Equally Free",
+     "url": "https://questloops.com/blog/abacus-ai-calls-smaug-open-weight-only-one-of-the-three-models-is-actually-free-to-self-host"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:05:46Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "partly_true",
+    "note": "Smaug-Agentic was released by August 11, within the allowed timing tolerance, matching the claimed 2.8T Kimi K3 base and agentic-coding focus. The secondary qualification is licensing: it shipped as open weights under the custom Kimi K3 license, rather than the straightforward open-source release advertised. ([stackfutures.com](https://stackfutures.com/blog/smaug-agentic-abacus-ai-kimi-k3-finetune-agentic-coding/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "mark_k-2086870923009823034",
@@ -160462,23 +160660,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-08-11",
-   "official_date": "2026-08-11",
-   "explanation": "The closest matching official product was Grok Bot, which xAI announced as available on desktop on Aug. 11—before this Aug. 14 post called Grok Desktop upcoming. The post’s product name does not match the announced product name.",
+   "verdict": "already_public",
+   "public_date": "2026-05-07",
+   "official_date": "2026-06-27",
+   "explanation": "TestingCatalog reported the forthcoming Grok desktop application on May 7, 2026, including early access and supported platforms. xAI's June 27 changelog explicitly referenced “grok-desktop,” so its existence was public before the August 14 post. ([testingcatalog.com](https://www.testingcatalog.com/spacexai-prepares-grok-build-desktop-app-to-rival-openai-codex/))",
    "evidence": [
     {
-     "title": "Introducing Grok Bot · SpaceXAI",
-     "url": "https://x.ai/news/introducing-grok-bot"
+     "title": "SpaceXAI prepares Grok Build desktop app to rival OpenAI Codex",
+     "url": "https://www.testingcatalog.com/spacexai-prepares-grok-build-desktop-app-to-rival-openai-codex/"
     },
     {
-     "title": "Grok Bot: host computer channel stays disconnected after app restart",
-     "url": "https://forum.cursor.com/t/grok-bot-host-computer-channel-stays-disconnected-after-app-restart/168922"
+     "title": "Grok Build Changelog",
+     "url": "https://x.ai/changelog/build"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:37:57Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "false",
+    "note": "TestingCatalog reported the forthcoming Grok desktop application on May 7, 2026, including early access and supported platforms. xAI's June 27 changelog explicitly referenced “grok-desktop,” so its existence was public before the August 14 post. ([testingcatalog.com](https://www.testingcatalog.com/spacexai-prepares-grok-build-desktop-app-to-rival-openai-codex/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "andrewcurran_-2088297560398278837",
@@ -165736,7 +165941,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:27:39Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2091162671882063928",
@@ -170224,7 +170430,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:46:38Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-a0a79be9fc1",
@@ -172792,7 +172999,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:21:37Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "tokengremlin-2093625794916499562",
@@ -175790,7 +175998,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:48:15Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-2094845802401444145",
@@ -177211,7 +177420,8 @@
    "evidence": [],
    "confidence": "low",
    "resolved_at": "2026-10-11T01:36:23Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "tokengremlin-2094998905075171381",
@@ -180782,7 +180992,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:25Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2095575530921926790",
@@ -183636,7 +183847,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:33:47Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2096753152926122300",
@@ -189201,19 +189413,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-09-14",
-   "official_date": "2026-09-22",
-   "explanation": "The post’s version-number inference was that the upcoming Opus update was 5.2 rather than 5.1. The next Opus model in the supplied timeline was Opus 5.5, released September 22, not Opus 5.2.",
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post alleges existing 5.2 identifiers and stealth testing, not an October 14 release deadline; those internal naming and routing claims lack independent confirmation. Anthropic released Opus 5.5 on September 22, but that neither establishes nor disproves an earlier internal 5.2 designation. ([techxtelco.com](https://techxtelco.com/news/claude-opus-5-1-what-is-confirmed/))",
    "evidence": [
     {
-     "title": "Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family",
-     "url": "https://claude.com/blog"
+     "title": "Introducing Claude Opus 5.5",
+     "url": "https://www.anthropic.com/claude-opus-5-5?campaign=19995287&trk=public_post_comment-text"
+    },
+    {
+     "title": "Model system cards",
+     "url": "https://www.anthropic.com/system-cards"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T00:46:52Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "false",
+    "note": "The post alleges existing 5.2 identifiers and stealth testing, not an October 14 release deadline; those internal naming and routing claims lack independent confirmation. Anthropic released Opus 5.5 on September 22, but that neither establishes nor disproves an earlier internal 5.2 designation. ([techxtelco.com](https://techxtelco.com/news/claude-opus-5-1-what-is-confirmed/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-2099567109860983203",
@@ -190437,7 +190660,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:26:49Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "vraserx-2099849495827644886",
@@ -192152,19 +192376,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-09-16",
+   "verdict": "already_public",
+   "public_date": "2026-09-14",
    "official_date": null,
-   "explanation": "This reverse-engineering post reported the feature before it was publicly listed. OpenAI later listed an official Codex Replay app with the described historical Claude-thread replays, isolated implementations, comparisons, and parallel sessions; I found no dated official launch announcement.",
+   "explanation": "RuntimeWire independently published the core Codex Replay discovery on September 13 at 9:10 p.m. Central (September 14 UTC), describing imported Claude Code tasks, the replay plugin and browser-controller integration. That predates the September 16 post, although its additional parallel-session and default-model details were not established in the earlier report. ([runtimewire.com](https://runtimewire.com/article/openai-wants-a-head-to-head-with-claude-code-using-your-own-work))",
    "evidence": [
     {
-     "title": "Codex Replay | ChatGPT",
-     "url": "https://chatgpt.com/plugins/Plugin_a2dab42b4d448191beca93f30317b2b9"
+     "title": "OpenAI wants a head-to-head with Claude Code—using your own work",
+     "url": "https://runtimewire.com/article/openai-wants-a-head-to-head-with-claude-code-using-your-own-work"
+    },
+    {
+     "title": "Codex Replay — MCP App Store",
+     "url": "https://mcp-app-store.keenethics-labs.com/app/Plugin_a2dab42b4d448191beca93f30317b2b9"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:36:31Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "true",
+    "note": "RuntimeWire independently published the core Codex Replay discovery on September 13 at 9:10 p.m. Central (September 14 UTC), describing imported Claude Code tasks, the replay plugin and browser-controller integration. That predates the September 16 post, although its additional parallel-session and default-model details were not established in the earlier report. ([runtimewire.com](https://runtimewire.com/article/openai-wants-a-head-to-head-with-claude-code-using-your-own-work))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "xfreeze-2100241920345940374",
@@ -192365,7 +192600,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:57:33Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2100272203535188239",
@@ -195160,7 +195396,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:47:07Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "tokengremlin-2101204759961096631",
@@ -197775,7 +198012,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:47:39Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2101960963838574608",
@@ -197914,7 +198152,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:38:45Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-2101986356645794028",
@@ -198118,7 +198357,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:24:38Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "tokengremlin-2102049457034448951",
@@ -198375,23 +198615,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-09-21",
+   "verdict": "partly_true",
+   "public_date": "2026-09-22",
    "official_date": null,
-   "explanation": "GPT-6 Sol and Luna launched on September 22, but GPT-5.6 Terra was not discontinued: OpenAI continued to list it as a live model and described it as still available after the launch. The claimed discontinuation therefore did not happen as stated.",
+   "explanation": "The September 22, 2026 GPT-6 expansion introduced Sol and Luna without a Terra model, matching the narrower lineup prediction. However, omission is not confirmed discontinuation: GPT-5.6 Terra remained supported and listed as a recommended migration destination, with no Terra retirement announcement found. ([openai.com](https://openai.com/index/introducing-gpt-6-sol-and-luna/))",
    "evidence": [
     {
-     "title": "GPT-5.6 Terra Model",
-     "url": "https://developers.openai.com/api/docs/models/gpt-5.6-terra"
+     "title": "Introducing GPT-6 Sol and Luna",
+     "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
     },
     {
-     "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-     "url": "https://openai.com/index/gpt-5-6/"
+     "title": "OpenAI API deprecations",
+     "url": "https://developers.openai.com/api/docs/deprecations"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:33:44Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "false",
+    "note": "The September 22, 2026 GPT-6 expansion introduced Sol and Luna without a Terra model, matching the narrower lineup prediction. However, omission is not confirmed discontinuation: GPT-5.6 Terra remained supported and listed as a recommended migration destination, with no Terra retirement announcement found. ([openai.com](https://openai.com/index/introducing-gpt-6-sol-and-luna/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-2102060292175782035-3",
@@ -208274,27 +208521,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2026-08-13",
-   "official_date": "2026-08-13",
-   "explanation": "OpenAI had already publicly announced Ultrafast for its API on August 13, but the post’s specific claim about Agents API support and the playground flag was not established by that announcement. DevDay announced Ultrafast and the Agents API on September 29; OpenAI’s later documentation confirms the Ultrafast request header, but not the claimed playground flag.",
+   "verdict": "true",
+   "public_date": "2026-09-26",
+   "official_date": "2026-09-29",
+   "explanation": "OpenAI's specification independently confirms the Agents API tier, and a separate September 26 inspection documented the exact Playground flag and request header. OpenAI announced expanded Ultrafast availability across its API, Work and Codex on September 29, within the stated deadline. ([github.com](https://github.com/openai/openai-openapi/commit/fe4f7a1fc17e154a521f2b63760c207b195fd2e3))",
    "evidence": [
     {
-     "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-     "url": "https://openai.com/index/previewing-ultrafast/"
+     "title": "Add 'ultrafast' service tier option to improve request speed",
+     "url": "https://github.com/openai/openai-openapi/commit/fe4f7a1fc17e154a521f2b63760c207b195fd2e3"
+    },
+    {
+     "title": "Ultrafast API: OpenAI's Quick, Powerful Playground Upgrade",
+     "url": "https://www.progressiverobot.com/2026/09/26/openai-ultrafast-api-playground-speed-selector/"
     },
     {
      "title": "DevDay 2026 Recap",
      "url": "https://openai.com/index/devday-2026-recap/"
-    },
-    {
-     "title": "Fast mode FAQ",
-     "url": "https://help.openai.com/en/articles/11647665-fast-mode-faq"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:30:58Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "partly_true",
+    "note": "OpenAI's specification independently confirms the Agents API tier, and a separate September 26 inspection documented the exact Playground flag and request header. OpenAI announced expanded Ultrafast availability across its API, Work and Codex on September 29, within the stated deadline. ([github.com](https://github.com/openai/openai-openapi/commit/fe4f7a1fc17e154a521f2b63760c207b195fd2e3))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "haider1-2103867188184768891",
@@ -208419,23 +208673,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2026-09-26",
+   "verdict": "unverifiable",
+   "public_date": null,
    "official_date": null,
-   "explanation": "User reports from September 26 describe Codex usage resetting earlier than scheduled, consistent with a reset being applied that day. The available evidence supports a broad reset among affected paid users, but does not establish that it reached the vast majority of all ChatGPT users.",
+   "explanation": "A reset for paid Codex and ChatGPT Work users was publicly announced, with completion confirmed on September 26, 2026 at 18:17 UTC—57 minutes after this post. That does not establish the specific assertion that the vast majority of ChatGPT users had already received it at posting time. ([aiusagetracker.app](https://aiusagetracker.app/reset-history))",
    "evidence": [
     {
-     "title": "OpenAI community report of September 26 usage resets",
-     "url": "https://community.openai.com/t/200-chatgpt-pro-20x-hard-usage-limits-appeared-without-advance-notice/1400674"
+     "title": "Codex reset history and completion timestamps",
+     "url": "https://aiusagetracker.app/reset-history"
     },
     {
-     "title": "Usage reset?",
-     "url": "https://www.reddit.com/r/ChatGPT/comments/1wqriyp/usage_reset/"
+     "title": "Tibo Sottiaux's reset-completion announcement",
+     "url": "https://x.com/thsottiaux/status/2103911959544610829"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:30:58Z"
-  }
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "mostly_true",
+    "note": "A reset for paid Codex and ChatGPT Work users was publicly announced, with completion confirmed on September 26, 2026 at 18:17 UTC—57 minutes after this post. That does not establish the specific assertion that the vast majority of ChatGPT users had already received it at posting time. ([aiusagetracker.app](https://aiusagetracker.app/reset-history))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "tokengremlin-2103908504771956910",
@@ -208579,7 +208840,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:58Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "tokengremlin-2103947418350096413",
@@ -210499,23 +210761,26 @@
   "prune_checked": true,
   "claim_v1": "OpenAI DevDay will include three major releases on 2026-09-29: OpenAI o, an always-on agent; Astra 6.1; and a unification of ChatGPT and Work.",
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2026-09-28",
-   "official_date": "2026-09-29",
-   "explanation": "DevDay introduced Dots, an always-on agent, and ChatGPT Space, a shared workspace—but GPT-6.1 Astra was delayed over safety concerns, not released. The post therefore got two ideas broadly right but missed a major named release.",
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This is a commentator's crystal-ball forecast, with no sourcing or assertion of access to non-public information, rather than an identifiable insider leak. September 29, 2026 was the publicly announced DevDay date, not information newly disclosed by this post. ([devday.openai.com](https://devday.openai.com/?st_source=ai_overview&utm_source=openai))",
    "evidence": [
     {
-     "title": "DevDay 2026 Recap | OpenAI",
-     "url": "https://openai.com/index/devday-2026-recap/"
-    },
-    {
-     "title": "OpenAI delays latest model over security concerns, as industry faces new safety pressures | AP",
-     "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5"
+     "title": "OpenAI DevDay 2026",
+     "url": "https://devday.openai.com/?st_source=ai_overview"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:28:52Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:02:57Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:02:57Z",
+    "changed_from": "partly_true",
+    "note": "This is a commentator's crystal-ball forecast, with no sourcing or assertion of access to non-public information, rather than an identifiable insider leak. September 29, 2026 was the publicly announced DevDay date, not information newly disclosed by this post. ([devday.openai.com](https://devday.openai.com/?st_source=ai_overview&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "haider1-2104473723822821669",
@@ -215968,7 +216233,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:20Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2106070404976849403",
@@ -222298,7 +222564,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:53:21Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2108465147186470979",
@@ -223309,7 +223576,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:57:23Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-2108662320708698289",

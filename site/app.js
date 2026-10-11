@@ -70,12 +70,13 @@
   // ---------- feed ----------
   function feedFilter() {
     const q = UI.q.trim().toLowerCase();
+    const recentCut = new Date(Date.now() - 90 * 864e5).toISOString();   // "most credible pending" = live rumours only
     let list = S.claims.filter((c) => {
       if (!UI.showStale && (c.verdict === "already_public")) return false;
       if (UI.lab !== "all" && c.lab !== UI.lab) return false;
       if (UI.feedTab === "pending" && c.verdict !== "pending") return false;
       if (UI.feedTab === "resolved" && !RESOLVED.has(c.verdict)) return false;
-      if (UI.feedTab === "top" && !(c.verdict === "pending" && (c.legitimacy?.score ?? 0) >= 55)) return false;
+      if (UI.feedTab === "top" && !(c.verdict === "pending" && (c.legitimacy?.score ?? 0) >= 55 && c.date >= recentCut)) return false;
       if (q && !(c.claim.toLowerCase().includes(q) || c.handle.toLowerCase().includes(q) || (c.lab || "").toLowerCase().includes(q))) return false;
       return true;
     });
@@ -117,7 +118,7 @@
         <div class="stat"><div class="n">${fmtNum(m.n_pending)}</div><div class="l">pending</div></div>
       </div></section>
       <div class="controls">
-        <div class="seg" id="tabs">${[["latest", "Latest"], ["top", "Most credible pending"], ["pending", "Pending"], ["resolved", "Resolved"]]
+        <div class="seg" id="tabs">${[["latest", "Latest"], ["top", "Most credible (last 90 days)"], ["pending", "Pending"], ["resolved", "Resolved"]]
           .map(([k, v]) => `<button data-tab="${k}" class="${UI.feedTab === k ? "on" : ""}">${v}</button>`).join("")}</div>
         <select class="select" id="labSel"><option value="all">All labs</option>${labs.map((l) => `<option ${UI.lab === l ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>
         <input class="search" id="q" placeholder="Search claims or @handles" value="${esc(UI.q)}">
@@ -343,7 +344,7 @@
       <div class="calib-labels">${cal.map((b) => `<span>${b.lo}–${b.hi}<br>${Math.round(b.rate * 100)}% · n=${b.n}</span>`).join("")}</div>
       <p class="note">Bars: observed credit rate (true 1, mostly 0.8, partly 0.4, false 0). Dashed line: the average score given in that band (what a perfectly calibrated score would earn). Caveat: outcomes are graded by the same pipeline, and claims about the same event aren't independent.</p>` : ""}
       ${m.audit ? `<h2>How accurate is the grading?</h2>
-      <p>${fmtNum(m.n_audited)} of the most score-relevant verdicts were re-checked by an independent auditor model, which corrected many of them. To measure the rest honestly, the auditor also graded a <b>blind random sample of ${m.audit.sample_n}</b> un-audited verdicts: it agreed on the outcome category (hit / partly / miss / excluded) <b>${Math.round(m.audit.bucket_agreement * 100)}%</b> of the time, and on the exact verdict ${Math.round(m.audit.exact_agreement * 100)}% of the time. Treat any single un-audited verdict accordingly — the aggregate scores are much more robust than individual grades.</p>` : ""}
+      <p>Every claim is graded by GPT-6 Luna with web search, reading the original post (and any post it quotes). ${fmtNum(m.n_audited)} verdicts have additionally been audited by a stronger model (Claude Opus or GPT-6 Astra) — audited verdicts carry a ✓, and corrections show what they replaced. To measure the un-audited remainder honestly, ${esc(m.audit.auditor || "a stronger model")} independently re-graded a <b>blind random sample of ${m.audit.sample_n}</b>: it agreed on the outcome category (hit / partly / miss / excluded) <b>${Math.round(m.audit.bucket_agreement * 100)}%</b> of the time (exact verdict ${Math.round(m.audit.exact_agreement * 100)}%). Most disagreements are genuine judgement calls (how late is "partly true"? does a second report count as confirmation?) and they run in both directions, so aggregate scores are much more robust than any single grade.</p>` : ""}
       <h2>Caveats</h2>
       <ul><li>Automated grading makes mistakes; each claim links to its sources so you can check.</li>
       <li>Deleted tweets are only captured when the press or forums documented them.</li>
