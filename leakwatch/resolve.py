@@ -128,8 +128,7 @@ def _date_ok(s):
     if s is None:
         return True
     try:
-        date.fromisoformat(str(s)[:10])
-        return True
+        return date.fromisoformat(str(s)[:10]) <= date.today()      # no future dates
     except ValueError:
         return False
 

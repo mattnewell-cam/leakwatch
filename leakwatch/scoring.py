@@ -41,10 +41,12 @@ def is_scoop(c):
 
 
 def _valid_date(s):
+    """A real calendar date that isn't in the future (graders occasionally typo a year)."""
     try:
-        return d(s) if s else None
+        x = d(s) if s else None
     except ValueError:
         return None
+    return x if x and x <= date.today() else None
 
 
 def effective_verdict(c):
@@ -93,14 +95,11 @@ def lead_ref(c):
     """(date, kind) the lead time is measured to: first public report, or official confirmation for original
     finds/scoops (and when the first report was same-day)."""
     r = c.get("resolution") or {}
-    ref, kind = r.get("public_date"), "public"
-    try:
-        if is_scoop(c) or (ref and d(ref) <= d(c["date"])):
-            if r.get("official_date"):
-                ref, kind = r["official_date"], "official"
-    except ValueError:
-        return None, None
-    return (ref[:10], kind) if ref else (None, None)
+    pub, off = _valid_date(r.get("public_date")), _valid_date(r.get("official_date"))
+    ref, kind = pub, "public"
+    if (is_scoop(c) or (pub and pub <= _valid_date(c["date"]))) and off:
+        ref, kind = off, "official"
+    return (ref.isoformat(), kind) if ref else (None, None)
 
 
 def lead_days(c):
@@ -110,7 +109,7 @@ def lead_days(c):
         return None
     ref, _ = lead_ref(c)
     try:
-        return max(0, (d(ref) - d(c["date"])).days) if ref else None
+        return min(365, max(0, (d(ref) - d(c["date"])).days)) if ref else None   # >1y usually = a looser later event
     except ValueError:
         return None
 

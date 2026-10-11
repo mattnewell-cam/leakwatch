@@ -4065,7 +4065,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "steph_palazzolo-1681277713154297856",
@@ -9971,7 +9972,8 @@
     "note": "Logitech announced its Meta-supported MX Ink tracked stylus on June 17, 2024, following public coverage on June 16; its official instructions confirm pairing through the mobile app's Controllers menu. This independently supports the substantive claim of third-party tracked-controller pairing, although it does not authenticate the exact April app string. ([reddit.com](https://www.reddit.com/r/OculusQuest/comments/1dhhbm7))"
    }
   },
-  "astra_checked": true
+  "astra_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "amir-1780414705221382517",
@@ -34554,7 +34556,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:07:39Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "steph_palazzolo-1912168854815465968",
@@ -38400,7 +38403,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:50:45Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "legit_api-1926690021559476733",
@@ -38714,7 +38718,8 @@
    "confidence": "high",
    "resolved_at": "2026-10-11T01:09:16Z"
   },
-  "astra_checked": true
+  "astra_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "shiringhaffary-1929768710707019872",
@@ -39371,7 +39376,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:50:45Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "vraserx-a093ce863ee",
@@ -39754,7 +39760,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:58:17Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "shiringhaffary-1932852606851789278",
@@ -49760,7 +49767,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:49:59Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-1959665102313205875",
@@ -49805,7 +49813,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:50:45Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-1959717192758706516",
@@ -49850,7 +49859,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:49:59Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-1959719079469830642",
@@ -49903,7 +49913,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:50:45Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "btibor91-1959953528220442831",
@@ -50092,7 +50103,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:52:56Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "btibor91-1960417242862289179",
@@ -51700,7 +51712,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:49:59Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "aibattle_-1966427775750869205",
@@ -52255,7 +52268,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:33:37Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "btibor91-1968770868634697785",
@@ -55115,7 +55129,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "btibor91-1976552668203200543",
@@ -55711,7 +55726,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:52:56Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "m1astra-1978448164798476363",
@@ -56297,7 +56313,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:49:59Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-1978961316057341982",
@@ -56350,7 +56367,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:52:56Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "apples_jimmy-1978977701999309146",
@@ -58322,7 +58340,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:52:56Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "amir-1985077064719122438",
@@ -58561,7 +58580,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "shiringhaffary-1985773110826844326",
@@ -63754,7 +63774,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:49:59Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "yuchenj_uw-1996459643904905563",
@@ -63799,7 +63820,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:17:32Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "btibor91-1996995721950908919",
@@ -64028,7 +64050,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:57:33Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-1997365852757471553",
@@ -77020,7 +77043,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-2020497180214403338",
@@ -77687,7 +77711,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:35:28Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "wongmjane-2021037618885234893",
@@ -86341,7 +86366,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:38:03Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "daniel_mac8-2036988834353741846",
@@ -88449,7 +88475,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:49:50Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "andrewcurran_-2039048645044281479",
@@ -101479,7 +101506,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:49:50Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "iruletheworldmo-2049805995648471098",
@@ -114584,7 +114612,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:49:50Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-2062882768040992956-2",
@@ -114633,7 +114662,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:49:50Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-2062882768040992956-3",
@@ -114727,7 +114757,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:55:49Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-2062886139627979208",
@@ -117188,7 +117219,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:55:49Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "imjustnewatai-2064153433301471301",
@@ -117599,7 +117631,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:55:49Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "chrisgpt-2064234354239291503",
@@ -120165,7 +120198,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "tomwarren-2066631719545917594",
@@ -120219,7 +120253,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "techdevnotes-2066670572893798534",
@@ -130380,7 +130415,8 @@
     "note": "The only 'confirmation' is his own Verge scoop, which is circular; there is no independent confirmation or launch yet, and the window runs to Dec 28."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "deredleritt3r-2072386578736173506",
@@ -130483,7 +130519,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:57:33Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-2072423003875393644",
@@ -130553,7 +130590,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:49:59Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "btibor91-2072434813009555910",
@@ -133043,7 +133081,8 @@
     "note": "Microsoft confirmed about 4,800 cuts that day, mostly in Commercial and Xbox, so the claim matches and the 'slightly stronger wording' nitpick is not a real discrepancy."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "tomwarren-2074124284432191882",
@@ -133097,7 +133136,8 @@
     "note": "All four studio outcomes were confirmed as stated; 'new management' was claimed only for Ninja Theory and Undead Labs, so no element is wrong."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "andrewcurran_-2074129405346292171",
@@ -133151,7 +133191,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "pankajkumar_dev-2074135405314896383",
@@ -166680,7 +166721,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:49:59Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "daniel_mac8-2091534344150044818",
@@ -167931,7 +167973,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:49:59Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-2092069007134527866",
@@ -167985,7 +168028,8 @@
     "note": "The resolve-by date (2026-12-31) has not passed, so AirPods 5 could still launch in 2026."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-2092069060603494646",
@@ -168039,7 +168083,8 @@
     "note": "The resolve-by date (2026-10-31) has not passed, and an October iPad mini launch is still possible."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "haider1-2092079516118126737",
@@ -185897,7 +185942,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:49:59Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "tokengremlin-2097944402899443894",
@@ -194832,7 +194878,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:47:35Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "tokengremlin-2100970670674887034",
@@ -204595,7 +204642,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:03:44Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "markgurman-2102910427541999687",
@@ -205169,7 +205217,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:08:23Z"
-  }
+  },
+  "pruned": "out_of_scope: not about AI"
  },
  {
   "id": "testingcatalog-2103113565880090830",
