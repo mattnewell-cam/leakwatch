@@ -36,6 +36,15 @@ def main():
         from leakwatch.common import SITE
         show = {i for l in load_json(SITE / "data" / "leakers.json") for i in l.get("best_hits", []) + l.get("worst_misses", [])}
         sample = [c for c in pool if c["id"] in show][:n]
+    elif "--influential" in sys.argv:
+        # targeted: highest-significance settled hits/misses of ranked leakers (they move the rankings most)
+        from leakwatch.common import SITE
+        from leakwatch.scoring import claim_weight
+        ranked = {l["handle"].lower() for l in load_json(SITE / "data" / "leakers.json") if l.get("rank")}
+        cand = [c for c in pool if c["handle"].lower() in ranked and effective_verdict(c) in VALUE
+                and c.get("significance", 3) >= 4]
+        cand.sort(key=lambda c: -(c.get("significance", 3) * claim_weight(c)))
+        sample = cand[:n]
     else:
         random.seed(seed)
         sample = random.sample(pool, min(n, len(pool)))
@@ -62,7 +71,7 @@ def main():
               f"   astra: {a['explanation'][:230]}")
     stats = load_json(DATA / "audit_stats.json", {}) or {}
     hist = stats.get("astra_samples", [])
-    if "--displayed" not in sys.argv:          # only random samples feed the published agreement rate
+    if "--displayed" not in sys.argv and "--influential" not in sys.argv:   # only random samples feed the stat
         hist.append({"n": tot, "bucket": agree_b, "exact": agree_e, "at": now_iso()})
     stats["astra_samples"] = hist
     N = sum(h["n"] for h in hist)

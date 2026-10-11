@@ -99,7 +99,26 @@ start ts in `data/cache/budget_start.txt`).
   explicit personal guesses ("nonzero chance…", "my prediction…"), an April-Fools riff. Policy sharpened (prune +
   resolver): a prediction *presented as information* is a claim; one *framed as the poster's own guess/odds* is not.
   Re-checked the 537 speculation-typed claims → 180 dropped. Rankings barely moved (robust).
-- Spend so far ≈ $64 (Luna ≈ $30, Astra ≈ $34).
+- Spend tonight ≈ $86 (Luna ≈ $30, Astra ≈ $57) — stopped discretionary spending here to stay under $100.
+
+- Astra audits of the claims readers see first (best calls / biggest misses; converged after 3 passes) and of the
+  100 highest-significance hits/misses of ranked leakers. Agreement on these extremes is low (25–42%): Luna's errors
+  cluster exactly where they're most visible, so targeted auditing there is the best use of budget.
+
+## Policy decisions I made (flag if you disagree)
+- A prediction *presented as information* is a leak claim; one framed as the poster's own guess/odds is not.
+- Same-day "hits" earn nothing unless it's an original find/scoop; code/arena finds additionally need later official
+  confirmation (others seeing the same public listing doesn't confirm what it is).
+- Journalists ranked separately; they're exempt from the automatic prune (couldn't reliably tell own-outlet scoops
+  from relays) — the resolver's `not_a_claim` is the backstop.
+- Untimed claims are never false just because time passed; the 180-day default is only a review horizon.
+- Legitimacy is recalibrated on the backtest, so its range is compressed (~25–90).
+
+## Running costs from here
+- OpenAI: ~$0.5–1/day (Luna grading ~30–120 claims/day, extraction, prune); +~$0.05 on Mondays (blurb refresh).
+- twitterapi.io: ~3–6k credits/day (~$0.05); ~400k left ≈ 2–3 months.
+- One-off Astra audits ≈ $0.18/claim (`python -m scripts.astra_audit N seed --apply`, or `--displayed` /
+  `--influential` for targeted passes).
 
 ## Open / ideas
 - Astra #1 (no-hindsight dates) partly fixed (uses official date when present); a proper fix needs outcome history.

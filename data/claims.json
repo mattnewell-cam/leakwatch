@@ -3925,7 +3925,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:12:46Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-1669456425872146432",
@@ -3970,7 +3971,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:57:23Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-1674972375950180354",
@@ -4210,7 +4212,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:12:46Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-1696897461464297551",
@@ -4764,7 +4767,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:24Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1709339546922426727",
@@ -4917,7 +4921,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:58:25Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibreakfast-1712890200597180754",
@@ -5786,7 +5791,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:58:25Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "kateclarktweets-a988622c262",
@@ -6882,7 +6888,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:00:58Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "kateclarktweets-1726696365491941619",
@@ -6931,7 +6938,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:00:58Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "kateclarktweets-a16000f1de3",
@@ -7012,7 +7020,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:00:58Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-1726775736391114757",
@@ -7284,23 +7293,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
+   "verdict": "unverifiable",
    "public_date": "2023-11-22",
    "official_date": null,
-   "explanation": "Independent reporting confirmed that OpenAI had a project called Q* and described reported math-solving progress before Altman’s firing. The specific claim that Ilya Sutskever’s method overcame training-data limitations was not independently established, so the post’s stronger technical characterization remains unconfirmed.",
+   "explanation": "Reuters independently corroborated Q* research on November 22, 2023, and linked it to Strawberry on July 12, 2024, but did not establish the specific Sutskever-developed breakthrough claimed here. The attribution and claimed solution to training-data limitations remain insufficiently verified independently; WIRED's account attributes those details to The Information itself. ([uk.investing.com](https://uk.investing.com/news/stock-market-news/exclusivesam-altmans-ouster-at-openai-was-precipitated-by-letter-to-board-about-ai-breakthrough-sources-3246958?ampMode=1))",
    "evidence": [
     {
      "title": "Reuters: OpenAI researchers warned board of AI breakthrough ahead of CEO ouster",
-     "url": "https://finance.yahoo.com/news/exclusive-sam-altmans-ouster-openai-224405716.html"
+     "url": "https://uk.investing.com/news/stock-market-news/exclusivesam-altmans-ouster-at-openai-was-precipitated-by-letter-to-board-about-ai-breakthrough-sources-3246958?ampMode=1"
     },
     {
-     "title": "Fortune: OpenAI staff warned board about AI breakthrough before Sam Altman was fired",
-     "url": "https://fortune.com/2023/11/23/openai-sam-altman-board-directors-agi-breakthrough-reuters/"
+     "title": "Reuters: OpenAI working on new reasoning technology under code name Strawberry",
+     "url": "https://www.investing.com/news/stock-market-news/exclusiveopenai-working-on-new-reasoning-technology-under-code-name-strawberry-3517996"
+    },
+    {
+     "title": "These Clues Hint at the True Nature of OpenAI's Shadowy Q* Project",
+     "url": "https://www.wired.com/story/fast-forward-clues-hint-openai-shadowy-q-project/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T00:59:29Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "partly_true",
+    "note": "Reuters independently corroborated Q* research on November 22, 2023, and linked it to Strawberry on July 12, 2024, but did not establish the specific Sutskever-developed breakthrough claimed here. The attribution and claimed solution to training-data limitations remain insufficiently verified independently; WIRED's account attributes those details to The Information itself. ([uk.investing.com](https://uk.investing.com/news/stock-market-news/exclusivesam-altmans-ouster-at-openai-was-precipitated-by-letter-to-board-about-ai-breakthrough-sources-3246958?ampMode=1))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "apples_jimmy-1729995967238476180",
@@ -7664,7 +7684,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:29:43Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "erinkwoo-1736799981460500536",
@@ -7851,23 +7872,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
+   "verdict": "unverifiable",
    "public_date": "2023-12-26",
    "official_date": null,
-   "explanation": "The original report said Anthropic projected over $850 million in annualized revenue by end-2024, up from a $500 million forecast, and described Menlo’s SPV. Later reporting supports the SPV and fee structure, though it describes fees on some investors’ resold allocations rather than clearly confirming the exact fee arrangement in this post.",
+   "explanation": "The post reports an internal forecast, not a promise that revenue would reach that level; Reuters attributed those projections to the same scoop rather than independently confirming them. Forbes independently corroborated Menlo’s fee-bearing SPV in January 2024, but the specific forecast revision remains unverified. ([finance.yahoo.com](https://finance.yahoo.com/news/anthropic-forecasts-more-850-million-233750868.html?utm_source=openai))",
    "evidence": [
     {
-     "title": "Anthropic Projects At Least $850 Million in Annualized Revenue Rate Next Year — The Information",
-     "url": "https://www.theinformation.com/articles/anthropic-projects-at-least-850-million-in-annualized-revenue-rate-next-year"
+     "title": "Anthropic forecasts more than $850 million in annualized revenue rate by 2024-end — Reuters",
+     "url": "https://finance.yahoo.com/news/anthropic-forecasts-more-850-million-233750868.html"
     },
     {
-     "title": "VCs are selling shares of hot AI companies like Anthropic and xAI to small investors in a wild SPV market — TechCrunch",
-     "url": "https://techcrunch.com/2024/06/01/vcs-are-selling-shares-of-hot-ai-companies-like-anthropic-and-xai-to-small-investors-in-a-wild-spv-market/"
+     "title": "Inside AI Unicorn Anthropic’s Unusual $750 Million Fundraise",
+     "url": "https://tollbit.forbes.com/sites/alexkonrad/2024/01/11/anthropic-750million-funding-round-menlo-ventures/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:43:03Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "mostly_true",
+    "note": "The post reports an internal forecast, not a promise that revenue would reach that level; Reuters attributed those projections to the same scoop rather than independently confirming them. Forbes independently corroborated Menlo’s fee-bearing SPV in January 2024, but the specific forecast revision remains unverified. ([finance.yahoo.com](https://finance.yahoo.com/news/anthropic-forecasts-more-850-million-233750868.html?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1741117504406126736",
@@ -9689,23 +9717,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2024-04-05",
+   "verdict": "already_public",
+   "public_date": "2023-09-28",
    "official_date": null,
-   "explanation": "The post reported funding talks for the Altman–Ive AI-device venture, and subsequent Financial Times reporting also described talks to raise as much as $1 billion. The claim concerns talks, not a completed financing, and is supported by that later corroboration.",
+   "explanation": "The Financial Times had already reported billion-dollar funding discussions involving Altman, Ive and SoftBank on September 28, 2023, covered that day by Reuters. The graded post does not specify new investors or another distinguishing detail beyond those previously public funding talks. ([investing.com](https://www.investing.com/news/stock-market-news/openai-jony-ive-in-talks-to-raise-1-billion-from-softbank-for-ai-device-venture--ft-3184847?utm_source=openai))",
    "evidence": [
     {
-     "title": "The Information: Jony Ive and Sam Altman’s AI device startup in funding talks",
-     "url": "https://www.theinformation.com/articles/jony-ive-and-sam-altmans-ai-device-startup-in-funding-talks-with-emerson-thrive"
-    },
-    {
-     "title": "Financial Times report on Ive and Altman’s AI-device funding talks, carried by Reuters",
+     "title": "Reuters: OpenAI, Jony Ive in talks to raise $1 billion from SoftBank for AI device venture",
      "url": "https://www.investing.com/news/stock-market-news/openai-jony-ive-in-talks-to-raise-1-billion-from-softbank-for-ai-device-venture--ft-3184847"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:59:29Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "The Financial Times had already reported billion-dollar funding discussions involving Altman, Ive and SoftBank on September 28, 2023, covered that day by Reuters. The graded post does not specify new investors or another distinguishing detail beyond those previously public funding talks. ([investing.com](https://www.investing.com/news/stock-market-news/openai-jony-ive-in-talks-to-raise-1-billion-from-softbank-for-ai-device-venture--ft-3184847?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "shiringhaffary-1778182016565191077",
@@ -9750,7 +9781,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:59:29Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1778196730137465089",
@@ -9779,23 +9811,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
+   "verdict": "unverifiable",
    "public_date": "2024-04-10",
    "official_date": null,
-   "explanation": "OpenAI did invite some former employees to participate in the $86 billion tender offer, as the post reported on April 10, 2024. The Information later reported the sale had closed; OpenAI did not officially confirm this specific invitation.",
+   "explanation": "The April 10, 2024 invitation expansion remains supported by the original scoop, without independent confirmation located. Later CNBC reporting establishes former-employee participation in tender offers generally, but does not independently establish this particular extension. ([theinformation.com](https://www.theinformation.com/briefings/openai-expands-86-billion-tender-offer-inviting-former-employees?utm_source=openai))",
    "evidence": [
     {
      "title": "OpenAI Expands $86 Billion Tender Offer, Inviting Former Employees",
      "url": "https://www.theinformation.com/briefings/openai-expands-86-billion-tender-offer-inviting-former-employees"
     },
     {
-     "title": "OpenAI Wraps Up Tender as AI Talent War Heats Up",
-     "url": "https://www.theinformation.com/articles/openai-wraps-up-tender-as-ai-talent-war-heats-up"
+     "title": "CNBC reporting reproduced: OpenAI ex-employees worry about company’s control over their millions of dollars in shares",
+     "url": "https://securitydone.com/openai-ex-employees-worry-about-companys-control-over-their-millions-of-dollars-in-shares/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:00:09Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "The April 10, 2024 invitation expansion remains supported by the original scoop, without independent confirmation located. Later CNBC reporting establishes former-employee participation in tender offers generally, but does not independently establish this particular extension. ([theinformation.com](https://www.theinformation.com/briefings/openai-expands-86-billion-tender-offer-inviting-former-employees?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-a0b468814e9",
@@ -11039,7 +11078,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:00:09Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-a5107586aba",
@@ -11574,7 +11614,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:15:28Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "apples_jimmy-1793081686802280576",
@@ -12652,7 +12693,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:52:19Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-1810722740963586193",
@@ -12709,7 +12751,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:32:40Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-1810722841106821623",
@@ -12758,7 +12801,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:15:28Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1811047267199013182",
@@ -13633,7 +13677,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:04:46Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1819175229941318032",
@@ -13678,7 +13723,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:04:46Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1819405392398401809",
@@ -14228,23 +14274,26 @@
   "prune_checked": true,
   "claim_v1": "Also on Aug. 10, 2024, the account claimed GPT Next / GPT-5 was ready internally, with red-teaming finished and post-training done, but that safety and competition considerations affected release timing.",
   "resolution": {
-   "verdict": "false",
-   "public_date": "2024-08-10",
+   "verdict": "unverifiable",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post said GPT Next/GPT X was ready, with post-training and red-teaming finished by August 31, 2024. Later reporting described Orion, the anticipated next flagship, as still being trained later in 2024, contradicting the claimed readiness by that deadline.",
+   "explanation": "The post asserts an internal readiness state, not an August 31 release deadline, and no independent evidence located establishes that this ambiguously identified model had completed post-training and red-teaming. OpenAI documents o1 red-teaming continuing into September 2024, but that cannot conclusively settle a claim about an unidentified 'GPT X.' ([openai.com](https://openai.com/index/openai-o1-system-card/?utm_source=openai))",
    "evidence": [
     {
-     "title": "OpenAI and other AI giants struggle to build more advanced AI — Bloomberg",
-     "url": "https://www.bloomberg.com/news/articles/2024-11-13/openai-google-and-anthropic-struggle-to-build-more-advanced-ai"
-    },
-    {
-     "title": "OpenAI’s Next Big AI Effort, GPT-5, Is Behind Schedule and Crazy Expensive — The Wall Street Journal",
-     "url": "https://www.wsj.com/tech/ai/openai-gpt5-orion-delays-costs-29a1f4e0"
+     "title": "OpenAI o1 System Card",
+     "url": "https://openai.com/index/openai-o1-system-card/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:03:19Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "false",
+    "note": "The post asserts an internal readiness state, not an August 31 release deadline, and no independent evidence located establishes that this ambiguously identified model had completed post-training and red-teaming. OpenAI documents o1 red-teaming continuing into September 2024, but that cannot conclusively settle a claim about an unidentified 'GPT X.' ([openai.com](https://openai.com/index/openai-o1-system-card/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-a17de6d554d",
@@ -15818,7 +15867,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:11:54Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1837693485995954268-3",
@@ -17158,19 +17208,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "By the stated end-of-2025 deadline, OpenAI had not publicly identified a model in the 1–10 billion parameter range that was significantly better than GPT-4. Its open-weight releases were 20B and 120B, and its other model releases did not publicly establish that parameter range.",
+   "explanation": "Public disclosures do not establish that OpenAI had a 1–10B-total-parameter model significantly better than GPT-4 by December 31, 2025; the disclosed gpt-oss models exceed that range despite having fewer active parameters. Because the quoted claim does not require a public release, an undisclosed internal model cannot be ruled out. ([deploymentsafety.openai.com](https://deploymentsafety.openai.com/gpt-oss?utm_source=openai))",
    "evidence": [
     {
-     "title": "OpenAI releases gpt-oss open-weight models",
-     "url": "https://openai.com/index/introducing-gpt-oss/"
+     "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+     "url": "https://deploymentsafety.openai.com/gpt-oss"
+    },
+    {
+     "title": "Introducing GPT-4.1 in the API",
+     "url": "https://openai.com/index/gpt-4-1/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:03:06Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "false",
+    "note": "Public disclosures do not establish that OpenAI had a 1–10B-total-parameter model significantly better than GPT-4 by December 31, 2025; the disclosed gpt-oss models exceed that range despite having fewer active parameters. Because the quoted claim does not require a public release, an undisclosed internal model cannot be ruled out. ([deploymentsafety.openai.com](https://deploymentsafety.openai.com/gpt-oss?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1844455801236357506",
@@ -17686,19 +17747,34 @@
   "prune_checked": true,
   "claim_v1": "On 2024-10-15, journalist Anissa Gardizy reported that Crusoe had raised a $3.4 billion joint venture with Blue Owl and Primary Digital Infrastructure to build an AI data center in Abilene, Texas for Oracle and OpenAI, and that the site was on track to have 1 gigawatt of power and hundreds of thousands of Nvidia GPUs.",
   "resolution": {
-   "verdict": "true",
-   "public_date": "2024-10-15",
+   "verdict": "already_public",
+   "public_date": "2024-10-14",
    "official_date": "2024-10-15",
-   "explanation": "Crusoe, Blue Owl Capital, and Primary Digital Infrastructure announced the $3.4 billion Abilene data-center joint venture on October 15, 2024. The announcement identified the project and its partners; Oracle and OpenAI were reported as intended tenants.",
+   "explanation": "Baxtel’s October 14 article already described the $3.4 billion joint venture and its partners; the official announcement followed at 12:00 UTC on October 15, before the 12:14 UTC tweet. The financing news was therefore public, although Gardizy’s outlet had separately reported the Oracle/OpenAI tenancy. ([baxtel.com](https://baxtel.com/news/crusoe-signs-joint-venture-with-blue-owl?utm_source=openai))",
    "evidence": [
     {
-     "title": "Crusoe, Blue Owl Capital and Primary Digital Infrastructure Enter $3.4 billion Joint Venture — Crusoe",
-     "url": "https://crusoe.ai/newsroom/crusoe-blue-owl-capital-primary-digital-joint-venture/"
+     "title": "Crusoe signs joint venture with Blue Owl",
+     "url": "https://baxtel.com/news/crusoe-signs-joint-venture-with-blue-owl"
+    },
+    {
+     "title": "Crusoe, Blue Owl Capital and Primary Digital Infrastructure Enter $3.4 billion Joint Venture for AI Data Center Development",
+     "url": "https://www.nasdaq.com/press-release/crusoe-blue-owl-capital-and-primary-digital-infrastructure-enter-34-billion-joint"
+    },
+    {
+     "title": "Crusoe Confirms $3.4 Billion Data Center Financing Deal",
+     "url": "https://www.theinformation.com/briefings/crusoe-in-talks-to-raise-several-billion-dollars-for-oracle-openai-data-center"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:03:06Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "Baxtel’s October 14 article already described the $3.4 billion joint venture and its partners; the official announcement followed at 12:00 UTC on October 15, before the 12:14 UTC tweet. The financing news was therefore public, although Gardizy’s outlet had separately reported the Oracle/OpenAI tenancy. ([baxtel.com](https://baxtel.com/news/crusoe-signs-joint-venture-with-blue-owl?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1846765185752502601",
@@ -17973,7 +18049,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:03:06Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "shiringhaffary-1848743624223371747",
@@ -18301,7 +18378,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:52:19Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1850674495100461194",
@@ -18829,7 +18907,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:24Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-1854667104647332278",
@@ -18968,7 +19047,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:02:49Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1855374230097187169",
@@ -21191,7 +21271,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:03:50Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1864458982833762587",
@@ -22827,7 +22908,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:04:00Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1869379132745982415",
@@ -23291,7 +23373,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:06:12Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1869848094009110826",
@@ -23336,7 +23419,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:06:12Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1869919189240254781",
@@ -23632,7 +23716,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:06:12Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1870012654468604198",
@@ -25009,23 +25094,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
+   "verdict": "unverifiable",
    "public_date": "2025-01-19",
-   "official_date": "2025-01-23",
-   "explanation": "The post documented hidden macOS ChatGPT shortcut options labeled “Toggle Operator” and “Force Quit Operator”; TechCrunch reported those specific options on January 20, and OpenAI unveiled Operator on January 23. The later article covered the original code find, so the find is not marked already public.",
+   "official_date": null,
+   "explanation": "TechCrunch’s January 20 coverage attributes the hidden macOS shortcuts to Blaho rather than independently verifying them. Operator launched on January 23, 2025, but that does not establish that the specific app settings existed. ([techcrunch.com](https://techcrunch.com/2025/01/20/openais-agent-tool-may-be-nearing-release/?utm_source=openai))",
    "evidence": [
     {
-     "title": "OpenAI’s agent tool may be nearing release — TechCrunch",
+     "title": "OpenAI’s agent tool may be nearing release",
      "url": "https://techcrunch.com/2025/01/20/openais-agent-tool-may-be-nearing-release/"
     },
     {
-     "title": "Introducing Operator — OpenAI",
+     "title": "Introducing Operator",
      "url": "https://openai.com/index/introducing-operator/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:04:11Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "TechCrunch’s January 20 coverage attributes the hidden macOS shortcuts to Blaho rather than independently verifying them. Operator launched on January 23, 2025, but that does not establish that the specific app settings existed. ([techcrunch.com](https://techcrunch.com/2025/01/20/openais-agent-tool-may-be-nearing-release/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1880913522525430147",
@@ -25549,19 +25641,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
+   "verdict": "unverifiable",
    "public_date": "2025-01-22",
    "official_date": null,
-   "explanation": "The Information reported on January 22 that OpenAI was developing an advanced coding assistant intended to replicate the work of a Level 6 engineer. The reporter’s post linked his outlet’s original report, which is treated as the scoop itself rather than prior third-party publication.",
+   "explanation": "OpenAI's May 16, 2025 Codex launch confirms a software-engineering agent, but does not establish the specific L6 development target as of January 22. Searches found that internal target only in the original scoop and repetitions of it, not independent confirmation. ([openai.com](https://openai.com/index/introducing-codex/?utm_source=openai))",
    "evidence": [
     {
-     "title": "OpenAI Targets AGI with System That Thinks Like a Pro Engineer — The Information",
+     "title": "OpenAI Targets AGI with System That Thinks Like a Pro Engineer",
      "url": "https://www.theinformation.com/articles/openai-targets-agi-with-system-that-thinks-like-a-pro-engineer"
+    },
+    {
+     "title": "Introducing Codex",
+     "url": "https://openai.com/index/introducing-codex/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:04:11Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "OpenAI's May 16, 2025 Codex launch confirms a software-engineering agent, but does not establish the specific L6 development target as of January 22. Searches found that internal target only in the original scoop and repetitions of it, not independent confirmation. ([openai.com](https://openai.com/index/introducing-codex/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1882196262310855117",
@@ -25743,23 +25846,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2025-04-16",
-   "official_date": "2025-04-16",
-   "explanation": "OpenAI released o4-mini on April 16, not a full model called o4 around June; that was substantially earlier than the prediction. The release established a capable reasoning model, but does not confirm a leap specifically comparable to GPT-4o to o1.",
+   "verdict": "false",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The claimed June 2025 o4 release did not occur: OpenAI released o3 and o4-mini on April 16, then o3-pro on June 10. Neither release establishes the specifically claimed o4 product and comparable generational leap around June. ([openai.com](https://openai.com/index/introducing-o3-and-o4-mini/?utm_source=openai))",
    "evidence": [
     {
      "title": "Introducing OpenAI o3 and o4-mini",
      "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
-     "title": "OpenAI o4-mini model documentation",
-     "url": "https://developers.openai.com/api/docs/models/o4-mini"
+     "title": "Model Release Notes",
+     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:05:10Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "partly_true",
+    "note": "The claimed June 2025 o4 release did not occur: OpenAI released o3 and o4-mini on April 16, then o3-pro on June 10. Neither release establishes the specifically claimed o4 product and comparable generational leap around June. ([openai.com](https://openai.com/index/introducing-o3-and-o4-mini/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1883024570896273832",
@@ -26166,7 +26276,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:58:17Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1883620099862773842",
@@ -27685,7 +27796,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:05:40Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-1889766373640839638",
@@ -27960,7 +28072,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:41Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "smokeawayyy-1890431610924740824",
@@ -29482,19 +29595,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2025-02-26",
+   "verdict": "unverifiable",
+   "public_date": "2025-02-25",
    "official_date": null,
-   "explanation": "The Information reported on February 26 that Meta executives discussed eventually needing 5–7 gigawatts of power for the AI data-center project. That supports the claimed capacity planning; no separate official confirmation of this specific target was found.",
+   "explanation": "This was Gardizy’s original reporting, but Meta disputed the report; independent confirmation of the specific February 2025 search for 5–7 GW was not found. Zuckerberg’s July 14 announcement of 5-GW Hyperion supports the scale, but does not establish when those plans existed. ([finance.yahoo.com](https://finance.yahoo.com/news/meta-talks-200-billion-ai-005654296.html?utm_source=openai))",
    "evidence": [
     {
-     "title": "The Information report on Meta’s data-center project",
+     "title": "Meta Discusses AI Data Center Project That Could Cost $200 Billion",
      "url": "https://www.theinformation.com/articles/meta-discusses-200-billion-ai-data-center-project"
+    },
+    {
+     "title": "Meta in talks for $200 billion AI data center project, The Information reports",
+     "url": "https://finance.yahoo.com/news/meta-talks-200-billion-ai-005654296.html"
+    },
+    {
+     "title": "Mark Zuckerberg says Meta is building a 5GW AI data center",
+     "url": "https://techcrunch.com/2025/07/14/mark-zuckerberg-says-meta-is-building-a-5gw-ai-data-center/?_bhlid=abe91d4028c15f71c81ff3134b60f4fe9efe7e65"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:58:17Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "This was Gardizy’s original reporting, but Meta disputed the report; independent confirmation of the specific February 2025 search for 5–7 GW was not found. Zuckerberg’s July 14 announcement of 5-GW Hyperion supports the scale, but does not establish when those plans existed. ([finance.yahoo.com](https://finance.yahoo.com/news/meta-talks-200-billion-ai-005654296.html?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1894785791018332505",
@@ -30112,7 +30240,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:50:00Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1898068354155331777",
@@ -31163,7 +31292,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:41Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "smokeawayyy-1903115511803809895",
@@ -32361,7 +32491,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:41Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1907941993789141475",
@@ -32691,19 +32822,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "Meta released Llama 4 Scout and Maverick on April 5, 2025, not a model called Llama 4 Omni. The named model and its claimed 10-million-token context and parameter specifications were not confirmed, and no Omni release followed within the roughly three-week period implied by “soon.”",
+   "verdict": "already_public",
+   "public_date": "2025-04-05",
+   "official_date": "2025-04-05",
+   "explanation": "Llama 4’s release was publicly reported at 20:01 UTC, before this 22:24 UTC post. The post garbles already-public specifications: Scout had 10M context, while Maverick had 17B active/400B total parameters and 128 experts—not a single announced “Omni” model with the claimed combination. ([techcrunch.com](https://techcrunch.com/2025/04/05/meta-releases-llama-4-a-new-crop-of-flagship-ai-models/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))",
    "evidence": [
     {
-     "title": "Meta’s Llama 4 announcement",
-     "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+     "title": "Meta releases Llama 4, a new crop of flagship AI models",
+     "url": "https://techcrunch.com/2025/04/05/meta-releases-llama-4-a-new-crop-of-flagship-ai-models/?trk=article-ssr-frontend-pulse_little-text-block"
+    },
+    {
+     "title": "Meta Llama 4 official model card",
+     "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md?pubDate=20250427"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:58:17Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "false",
+    "note": "Llama 4’s release was publicly reported at 20:01 UTC, before this 22:24 UTC post. The post garbles already-public specifications: Scout had 10M context, while Maverick had 17B active/400B total parameters and 128 experts—not a single announced “Omni” model with the claimed combination. ([techcrunch.com](https://techcrunch.com/2025/04/05/meta-releases-llama-4-a-new-crop-of-flagship-ai-models/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-1909004255027229062",
@@ -32748,7 +32890,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:07:25Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-1909005149634175426",
@@ -32846,7 +32989,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:49:45Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1909590461716611356",
@@ -33011,23 +33155,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "partly_true",
    "public_date": "2025-04-28",
    "official_date": "2025-04-29",
-   "explanation": "Qwen3 did not release on April 9. Its models appeared publicly on ModelScope on April 28, followed by Qwen’s official release announcement on April 29.",
+   "explanation": "Qwen3 became publicly available on April 28 US time, with the official announcement dated April 29—not April 9. That approximately three-week delay falls within the specified 1–6-week-late category. ([reddit.com](https://www.reddit.com/r/LocalLLaMA/comments/1k9qxbl?utm_source=openai))",
    "evidence": [
     {
-     "title": "Qwen3: Think Deeper, Act Faster — Qwen",
+     "title": "Qwen3: Think Deeper, Act Faster",
      "url": "https://qwenlm.github.io/blog/qwen3/"
     },
     {
-     "title": "Qwen 3 release imminent — Reddit",
-     "url": "https://www.reddit.com/r/singularity/comments/1k9r0mt/qwen_3_release_imminent/"
+     "title": "Qwen3 Published 30 seconds ago (Model Weights Available)",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1k9qxbl"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:44:16Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "false",
+    "note": "Qwen3 became publicly available on April 28 US time, with the official announcement dated April 29—not April 9. That approximately three-week delay falls within the specified 1–6-week-late category. ([reddit.com](https://www.reddit.com/r/LocalLLaMA/comments/1k9qxbl?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1909902607973220560",
@@ -33931,19 +34082,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2025-04-14",
+   "verdict": "already_public",
+   "public_date": "2025-04-10",
    "official_date": "2025-04-14",
-   "explanation": "GPT-4.1 launched in the API on April 14, within the following week as predicted. The post preceded the announcement, so this was a timely original claim.",
+   "explanation": "The Verge reported GPT-4.1’s planned release the following week at 15:45 UTC on April 10, before the post at 17:26 UTC, making this a relay of already-public information. OpenAI subsequently released GPT-4.1 on April 14, within the claimed window. ([theverge.com](https://www.theverge.com/news/646458/openai-gpt-4-1-ai-model))",
    "evidence": [
     {
-     "title": "Introducing GPT-4.1 in the API — OpenAI",
+     "title": "OpenAI gets ready to launch GPT-4.1",
+     "url": "https://www.theverge.com/news/646458/openai-gpt-4-1-ai-model"
+    },
+    {
+     "title": "Introducing GPT-4.1 in the API",
      "url": "https://openai.com/index/gpt-4-1/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:07:39Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "The Verge reported GPT-4.1’s planned release the following week at 15:45 UTC on April 10, before the post at 17:26 UTC, making this a relay of already-public information. OpenAI subsequently released GPT-4.1 on April 14, within the claimed window. ([theverge.com](https://www.theverge.com/news/646458/openai-gpt-4-1-ai-model))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "smokeawayyy-1910441314182979650",
@@ -35968,7 +36130,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:08:58Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "bindureddy-1916171873941131453",
@@ -36170,7 +36333,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:44:16Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "phill__1-1917182877785329742",
@@ -37383,7 +37547,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:41Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "m1astra-1922710970247336135",
@@ -37495,7 +37660,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:08:58Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-1923439681116524937",
@@ -38179,7 +38345,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:07:53Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1925596323341828335",
@@ -39297,7 +39464,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:58:17Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-1931625043844362313",
@@ -39855,7 +40023,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:00:56Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-1932924311075238225",
@@ -40071,23 +40240,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2025-06-12",
+   "verdict": "already_public",
+   "public_date": "2025-06-11",
    "official_date": "2025-06-12",
-   "explanation": "Bloomberg reported Droege was Scale’s pick after Meta’s investment, and Scale named him interim CEO when announcing the leadership transition on June 12, 2025. The post’s “next CEO” wording omits that his announced role was interim.",
+   "explanation": "The Economic Times had already reported on June 11 that Scale was expected to name Jason Droege its next CEO, making the substantive succession information public before this post, although Ghaffary presented firmer confirmation of his selection. Scale officially announced his appointment as interim CEO on June 12. ([economictimes.indiatimes.com](https://economictimes.indiatimes.com/tech/technology/early-investors-await-meta-scale-deal-windfall-report/articleshow/121780593.cms?from=mdr))",
    "evidence": [
     {
-     "title": "Scale AI Picks New CEO As Wang Set to Join Meta After Investment — Bloomberg Law",
-     "url": "https://news.bloomberglaw.com/artificial-intelligence/scale-ai-picks-new-ceo-as-wang-set-to-join-meta-after-investment"
+     "title": "Early investors await Meta-Scale deal windfall: Report",
+     "url": "https://economictimes.indiatimes.com/tech/technology/early-investors-await-meta-scale-deal-windfall-report/articleshow/121780593.cms?from=mdr"
     },
     {
-     "title": "Scale AI Announces Next Phase of Company’s Evolution — Scale AI",
-     "url": "https://www.nasdaq.com/press-release/scale-ai-announces-next-phase-companys-evolution-2025-06-12"
+     "title": "Scale AI Announces Next Phase of Company’s Evolution",
+     "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:30:53Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "mostly_true",
+    "note": "The Economic Times had already reported on June 11 that Scale was expected to name Jason Droege its next CEO, making the substantive succession information public before this post, although Ghaffary presented firmer confirmation of his selection. Scale officially announced his appointment as interim CEO on June 12. ([economictimes.indiatimes.com](https://economictimes.indiatimes.com/tech/technology/early-investors-await-meta-scale-deal-windfall-report/articleshow/121780593.cms?from=mdr))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "markgurman-1933266062411260388",
@@ -42295,7 +42471,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:00:56Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-1942551299679306047",
@@ -45227,7 +45404,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:41:51Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-1950461342290424025",
@@ -47861,7 +48039,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:11:58Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-1953501367844188218",
@@ -49548,7 +49727,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:41:51Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-1958646658222498221",
@@ -52421,23 +52601,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
+   "verdict": "unverifiable",
    "public_date": "2025-09-19",
    "official_date": null,
-   "explanation": "The Information reported that OpenAI had recruited more than two dozen Apple consumer-hardware employees and that Luxshare had a contract to assemble an OpenAI device. Later public reporting and Apple’s 2026 lawsuit confirmed OpenAI’s hardware effort and substantial Apple-employee recruitment, but the specific Luxshare contract has not been independently established here.",
+   "explanation": "This was an original outlet scoop, not a relay, but contemporary coverage explicitly traces the hiring count and Luxshare contract to The Information. Later reporting supports Apple's broader personnel losses, without independently establishing both specific facts as of September 19, 2025. ([9to5mac.com](https://9to5mac.com/2025/09/19/openai-and-jony-ive-poach-apple-designers-target-key-suppliers-for-hardware-push/?utm_source=openai))",
    "evidence": [
     {
-     "title": "OpenAI Raids Apple for Hardware Talent, Manufacturing Partners",
-     "url": "https://www.theinformation.com/articles/openai-raids-apple-hardware-talent-manufacturing-partners/"
+     "title": "OpenAI and Jony Ive poach Apple designers, target key suppliers for hardware push",
+     "url": "https://9to5mac.com/2025/09/19/openai-and-jony-ive-poach-apple-designers-target-key-suppliers-for-hardware-push/"
     },
     {
-     "title": "Apple Sues OpenAI for Stealing Trade Secrets to Build AI Hardware",
-     "url": "https://www.macrumors.com/2026/07/10/apple-sues-openai/"
+     "title": "Apple files lawsuit accusing OpenAI of stealing trade secrets",
+     "url": "https://apnews.com/article/apple-openai-lawsuit-trade-secrets-theft-6fff8833f5889d86406b89a02dd8fb16"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:08:43Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "mostly_true",
+    "note": "This was an original outlet scoop, not a relay, but contemporary coverage explicitly traces the hiring count and Luxshare contract to The Information. Later reporting supports Apple's broader personnel losses, without independently establishing both specific facts as of September 19, 2025. ([9to5mac.com](https://9to5mac.com/2025/09/19/openai-and-jony-ive-poach-apple-designers-target-key-suppliers-for-hardware-push/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-1969043037805228388",
@@ -57157,7 +57344,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:52:43Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1981011763777990790",
@@ -59231,23 +59419,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
+   "verdict": "true",
    "public_date": "2025-11-07",
    "official_date": "2026-05-13",
-   "explanation": "Socher later launched Recursive, a lab focused on automating AI research, confirming the core direction and his involvement. But it launched with $650 million in funding, not the roughly $1 billion the post said he was raising; the original report itself does not independently confirm the fundraising target.",
+   "explanation": "Independent reporting and Recursive's May 13, 2026 launch substantiate Socher's research-automation venture; subsequent reporting also supports billion-dollar fundraising ambitions and his continuing You.com role. The $650 million initially announced does not contradict a claim that he was seeking $1 billion rather than had secured it. ([implicator.ai](https://www.implicator.ai/recursive-superintelligence-raises-500m-from-gv-and-nvidia-at-4b-valuation/?utm_source=openai))",
    "evidence": [
     {
-     "title": "You.com CEO Socher Seeks $1 Billion for New AI Lab — The Information",
-     "url": "https://www.theinformation.com/articles/com-ceo-socher-seeks-1-billion-new-ai-lab/"
+     "title": "Recursive Superintelligence Raises $500M From GV and Nvidia at $4B Valuation",
+     "url": "https://www.implicator.ai/recursive-superintelligence-raises-500m-from-gv-and-nvidia-at-4b-valuation/"
     },
     {
-     "title": "Recursive Superintelligence raises $650M to build self-improving AI models — SiliconANGLE",
+     "title": "Recursive Superintelligence raises $650M to build self-improving AI models",
      "url": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/"
+    },
+    {
+     "title": "WATCH: Conversations on data governance in the AI era",
+     "url": "https://www.axios.com/2026/10/04/watch-conversations-on-data-governance-in-the-ai-era"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:30:53Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "partly_true",
+    "note": "Independent reporting and Recursive's May 13, 2026 launch substantiate Socher's research-automation venture; subsequent reporting also supports billion-dollar fundraising ambitions and his continuing You.com role. The $650 million initially announced does not contradict a claim that he was seeking $1 billion rather than had secured it. ([implicator.ai](https://www.implicator.ai/recursive-superintelligence-raises-500m-from-gv-and-nvidia-at-4b-valuation/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-1986875091519742391",
@@ -67760,7 +67959,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:11:56Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-2006745730892128470-2",
@@ -70582,7 +70782,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:09:26Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "kyliebytes-2011572331798548899",
@@ -73176,23 +73377,30 @@
   "prune_checked": true,
   "claim_v1": "Anthropic was expected to release Sonnet 4.7 during the week of 2026-02-02, and it was described as better than Opus, faster, cheaper, more intelligent, incorporating continual-learning developments, and achieving 85% on SWE-bench.",
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-01-26",
-   "official_date": null,
-   "explanation": "The post predicted Sonnet 4.7 during the week of February 2, 2026; Anthropic did not release a Sonnet 4.7 then. Sonnet 4.6 arrived February 17, and the next major Sonnet release, Sonnet 5, arrived June 30.",
+   "verdict": "partly_true",
+   "public_date": "2026-02-17",
+   "official_date": "2026-02-17",
+   "explanation": "Sonnet 4.6—not 4.7—arrived February 17, nine days after the deadline, offering lower-cost Opus-class performance and beating Opus 4.5 in some user preferences. That supports part of the substance, but the February 5 release was Opus 4.6, and the announcements do not substantiate the claimed continual-learning developments. ([anthropic.com](https://www.anthropic.com/news/claude-sonnet-4-6))",
    "evidence": [
     {
-     "title": "Introducing Sonnet 4.6 — Anthropic",
+     "title": "Introducing Sonnet 4.6",
      "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
     },
     {
-     "title": "Introducing Claude Sonnet 5 — Anthropic",
-     "url": "https://www.anthropic.com/news/claude-sonnet-5"
+     "title": "Introducing Claude Opus 4.6",
+     "url": "https://www.anthropic.com/news/claude-opus-4-6?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment-text"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:42:13Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "false",
+    "note": "Sonnet 4.6—not 4.7—arrived February 17, nine days after the deadline, offering lower-cost Opus-class performance and beating Opus 4.5 in some user preferences. That supports part of the substance, but the February 5 release was Opus 4.6, and the announcements do not substantiate the claimed continual-learning developments. ([anthropic.com](https://www.anthropic.com/news/claude-sonnet-4-6))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2015759494567862446-3",
@@ -73801,7 +74009,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:10:39Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "ai_for_success-2016879884921164220",
@@ -77266,7 +77475,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:57:33Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "markgurman-2020497635053093172",
@@ -83047,23 +83257,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
+   "verdict": "partly_true",
    "public_date": "2026-03-04",
    "official_date": "2026-03-05",
-   "explanation": "The Information’s March 4 report, promoted by its journalist that morning, said GPT-5.4 was coming and described an “extreme” reasoning mode; OpenAI released GPT-5.4 the next day. The release confirmed the model and reasoning features, but not a mode officially named “Extreme.”",
+   "explanation": "GPT-5.4 launched March 5, but its documented reasoning settings run through xhigh, without a separately confirmed “extreme” mode. GPT-5.4 with “Extra High” reasoning was already publicly visible by February 28, so that existing setting cannot independently validate the report’s distinctive new-mode assertion. ([openai.com](https://openai.com/index/introducing-gpt-5-4/))",
    "evidence": [
     {
-     "title": "OpenAI’s Next AI Model Will Have ‘Extreme’ Reasoning — The Information",
-     "url": "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning"
+     "title": "Introducing GPT-5.4",
+     "url": "https://openai.com/index/introducing-gpt-5-4/"
     },
     {
-     "title": "Introducing GPT-5.4 — OpenAI",
-     "url": "https://openai.com/index/introducing-gpt-5-4/"
+     "title": "GPT-5.4 Model — OpenAI API",
+     "url": "https://developers.openai.com/api/docs/models/gpt-5.4"
+    },
+    {
+     "title": "February 28 discussion preserving an OpenAI employee’s GPT-5.4 screenshot",
+     "url": "https://linux.do/t/topic/1669534?tl=en"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:12:15Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "mostly_true",
+    "note": "GPT-5.4 launched March 5, but its documented reasoning settings run through xhigh, without a separately confirmed “extreme” mode. GPT-5.4 with “Extra High” reasoning was already publicly visible by February 28, so that existing setting cannot independently validate the report’s distinctive new-mode assertion. ([openai.com](https://openai.com/index/introducing-gpt-5-4/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "kateclarktweets-2029235068489683354",
@@ -90973,7 +91194,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:16:50Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "flowersslop-2041163015370756580",
@@ -92187,7 +92409,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:13:52Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "scaling01-aa12d1cf357",
@@ -100060,7 +100283,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:51:15Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "ns123abc-2047718409236860937",
@@ -109685,27 +109909,30 @@
   "prune_checked": true,
   "claim_v1": "Gemini 3.5 Flash was appearing in Google Cloud Console pricing ahead of launch on May 19, 2026, with pricing of $1.50 input and $9 output per 1 million tokens, faster responses and lower latency, reasoning much closer to Gemini 3.1 Pro, stronger grounding and search reliability, and a January 2026 knowledge cutoff.",
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2026-05-19",
+   "verdict": "already_public",
+   "public_date": "2026-05-17",
    "official_date": "2026-05-19",
-   "explanation": "Gemini 3.5 Flash launched on May 19, and Google’s published prices match the post’s $1.50 input and $9 output rates, versus $0.50/$3 for Gemini 3 Flash. The post’s speed, reasoning, grounding, and knowledge-cutoff details go beyond what those release and pricing facts establish.",
+   "explanation": "A May 17 preview already reported the expected May 19 Gemini 3.5 Flash launch and the same $1.50/$9 pricing, so the central information preceded this post. Google officially announced the model on May 19. ([digitalapplied.com](https://www.digitalapplied.com/blog/google-io-2026-preview-gemini-3-5-agents))",
    "evidence": [
     {
-     "title": "Gemini 3.5 Flash — Gemini Enterprise Agent Platform",
-     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash"
-    },
-    {
-     "title": "Agent Platform Pricing",
-     "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+     "title": "Google I/O 2026 Preview: What Gemini 3.5 Means for Devs",
+     "url": "https://www.digitalapplied.com/blog/google-io-2026-preview-gemini-3-5-agents"
     },
     {
      "title": "Gemini 3.5: frontier intelligence with action",
      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:59:55Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "mostly_true",
+    "note": "A May 17 preview already reported the expected May 19 Gemini 3.5 Flash launch and the same $1.50/$9 pricing, so the central information preceded this post. Google officially announced the model on May 19. ([digitalapplied.com](https://www.digitalapplied.com/blog/google-io-2026-preview-gemini-3-5-agents))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-2056737983680647219",
@@ -118278,7 +118505,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:46:19Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chrisgpt-2064364244842250620",
@@ -118485,7 +118713,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:46:19Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chrisgpt-2064393789582516433",
@@ -119900,7 +120129,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:46:19Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2065844289809055768",
@@ -126514,7 +126744,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:17:26Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-2070241787180966279",
@@ -133591,23 +133822,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2026-08-13",
-   "official_date": "2026-08-13",
-   "explanation": "Cerebras later powered GPT-5.6 Sol Ultrafast at up to 750 output tokens per second, confirming the core throughput claim. It was announced for limited preview on August 13, more than a month after the post’s July 12 deadline.",
+   "verdict": "already_public",
+   "public_date": "2026-06-26",
+   "official_date": "2026-06-26",
+   "explanation": "OpenAI's June 26 preview announcement explicitly stated that GPT-5.6 Sol would launch on Cerebras in July at up to 750 tokens per second. The July 6 post therefore repeated an already official announcement. ([openai.com](https://openai.com/index/previewing-gpt-5-6-sol/))",
    "evidence": [
     {
-     "title": "Cerebras Powers Ultrafast Mode for OpenAI’s GPT-5.6 Sol",
-     "url": "https://cerebras.gcs-web.com/news-releases/news-release-details/cerebras-powers-ultrafast-mode-openais-gpt-56-sol"
-    },
-    {
-     "title": "How Cerebras serves GPT-5.6 Sol at up to 750 tokens per second",
-     "url": "https://www.cerebras.ai/blog/how-cerebras-serves-gpt-5-6-sol-at-up-to-750-tokens-per-second"
+     "title": "Previewing GPT-5.6 Sol: a next-generation model",
+     "url": "https://openai.com/index/previewing-gpt-5-6-sol/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:20:25Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "partly_true",
+    "note": "OpenAI's June 26 preview announcement explicitly stated that GPT-5.6 Sol would launch on Cerebras in July at up to 750 tokens per second. The July 6 post therefore repeated an already official announcement. ([openai.com](https://openai.com/index/previewing-gpt-5-6-sol/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "markgurman-2074139309058208093",
@@ -140223,7 +140457,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:37:49Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "markgurman-2076648313672094190",
@@ -140832,7 +141067,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:58:13Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2077023002622128272",
@@ -140877,7 +141113,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:58:13Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2077023002622128272-2",
@@ -146914,7 +147151,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:44:44Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2079914791481565293",
@@ -147919,7 +148157,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:19:54Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-2080169929840451645",
@@ -150353,7 +150592,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:19:42Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "ai_for_success-2081547572389535851",
@@ -152342,7 +152582,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:47:51Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-2083069277872214206",
@@ -157254,7 +157495,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:20:28Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2086405194053525699-2",
@@ -158524,23 +158766,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
+   "verdict": "pending",
    "public_date": "2026-08-10",
    "official_date": null,
-   "explanation": "OpenAI completed a roughly $7 billion employee share tender, as Shirin Ghaffary reported on August 10. Later CNBC reporting independently confirmed the sale; OpenAI did not officially announce it.",
+   "explanation": "Independent employee interviews corroborate that a tender occurred, but Fortune still attributes the $7 billion aggregate to Bloomberg. I found no independent confirmation of that central amount by October 11, so repetitions of Ghaffary’s own scoop cannot establish the full claim. ([fortune.com](https://fortune.com/2026/08/13/buried-in-openais-latest-research-no-correlation-between-ai-use-and-revenue-per-employee/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))",
    "evidence": [
     {
-     "title": "Bloomberg: OpenAI buys back US$7 billion of employee shares in tender offer",
-     "url": "https://sg.finance.yahoo.com/news/openai-buys-back-us-7-171354017.html"
+     "title": "OpenAI’s 69-page report on ChatGPT enterprise adoption doesn’t address the biggest question: ROI",
+     "url": "https://fortune.com/2026/08/13/buried-in-openais-latest-research-no-correlation-between-ai-use-and-revenue-per-employee/?trk=article-ssr-frontend-pulse_little-text-block"
     },
     {
-     "title": "Quartz, citing CNBC: OpenAI completes $7 billion employee stock tender offer",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/openai-completes-7-billion-employee-111836206.html"
+     "title": "BRIEF—OpenAI Buys Back $7 Billion Of Employee Shares In Tender Offer—Bloomberg News",
+     "url": "https://thedailyguardian.com/world/brief-openai-buys-back-7-billion-of-employee-shares-in-tender-offer-bloomberg-news-746688/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:24:20Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "Independent employee interviews corroborate that a tender occurred, but Fortune still attributes the $7 billion aggregate to Bloomberg. I found no independent confirmation of that central amount by October 11, so repetitions of Ghaffary’s own scoop cannot establish the full claim. ([fortune.com](https://fortune.com/2026/08/13/buried-in-openais-latest-research-no-correlation-between-ai-use-and-revenue-per-employee/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "m1astra-2086940377009791463",
@@ -161385,7 +161634,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:24:20Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chrisgpt-2088476680650215451",
@@ -180962,7 +181212,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:25Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "vraserx-2095541035862511989",
@@ -181345,19 +181596,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
+   "verdict": "pending",
    "public_date": "2026-09-03",
    "official_date": null,
-   "explanation": "The post reported financing discussions around a $40 billion valuation and, in its September 4 update, Nvidia’s investment talks. The Information later independently reported that Thinking Machines was discussing a $5–6 billion round at a valuation of at least $40 billion and a $2.5 billion Nvidia investment.",
+   "explanation": "The posts describe financing negotiations, not a promise to close by September 4; TechCrunch independently corroborated Accel’s involvement, but the specific Nvidia $2.5–3 billion detail still traces to The Information’s report. I found no independent confirmation of that component by October 11, leaving the combined claim pending. ([techcrunch.com](https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))",
    "evidence": [
     {
-     "title": "The Information: Nvidia Discusses $2.5 Billion Investment in Mira Murati’s Thinking Machines Lab",
-     "url": "https://www.theinformation.com/briefings/nvidia-discusses-2-5-billion-investment-mira-muratis-thinking-machines-lab"
+     "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+     "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/?trk=article-ssr-frontend-pulse_little-text-block"
+    },
+    {
+     "title": "Thinking Machines is in talks to raise $6bn, The Information reports",
+     "url": "https://thenextweb.com/news/thinking-machines-lab-6bn-round-nvidia-accel"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:35:18Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "The posts describe financing negotiations, not a promise to close by September 4; TechCrunch independently corroborated Accel’s involvement, but the specific Nvidia $2.5–3 billion detail still traces to The Information’s report. I found no independent confirmation of that component by October 11, leaving the combined claim pending. ([techcrunch.com](https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "scaling01-2095569688906371547",
@@ -190643,23 +190905,26 @@
   "prune_checked": true,
   "claim_v1": "The author claims to have access to an unreleased OpenAI model called GPT-6 Astra and says it can autonomously play and ultimately beat Fallout 3's main story, which it did by 2026-09-16 after about 59 hours.",
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-09-17",
+   "verdict": "not_a_claim",
+   "public_date": null,
    "official_date": null,
-   "explanation": "Independent coverage reported that GPT-6 Astra completed Fallout 3 after roughly 59 hours, and the published recording documents the run. The recording covers September 14–16, meeting the stated September 16 deadline.",
+   "explanation": "These posts document the author's own gameplay experiment and promote a forthcoming video, rather than claim non-public OpenAI information. The quoted posts also do not promise completion or publication by September 16.",
    "evidence": [
     {
-     "title": "The Decoder: GPT-6 Astra’s game experiments, including Fallout 3",
-     "url": "https://the-decoder.de/gpt-6-astra-pokemon-champion-in-18-stunden-kartoffelbauer-nach-einem-creeper-unfall/"
-    },
-    {
-     "title": "Reddit: GPT-6 Astra beat Fallout 3 after 59 hours",
-     "url": "https://www.reddit.com/r/ItsAllAboutGames/comments/1wkea59/gamer_makes_gpt6_astra_beat_fallout_3_the_ai_took/"
+     "title": "GPT-6 Astra gameplay experiments in Fallout and Pokémon",
+     "url": "https://the-decoder.de/gpt-6-astra-pokemon-champion-in-18-stunden-kartoffelbauer-nach-einem-creeper-unfall/?cmpscreencustom=1"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:26:49Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "These posts document the author's own gameplay experiment and promote a forthcoming video, rather than claim non-public OpenAI information. The quoted posts also do not promise completion or publication by September 16."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "kimmonismus-2099737727868555625",
@@ -199177,23 +199442,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-09-22",
+   "verdict": "already_public",
+   "public_date": "2026-09-20",
    "official_date": "2026-09-22",
-   "explanation": "OpenAI released GPT-6 Sol and Luna on September 22, within the stated September 28 deadline. Anthropic’s Opus 5.5 also shipped on September 22, consistent with the post’s imminent-launch claim.",
+   "explanation": "The targeted launch information was already circulating publicly by September 20, 2026: Reddit discussions anticipated Sol/Luna and Opus 5.5 that coming week. All three launched September 22, but that confirmation does not make the September 21 post a novel scoop on this assertion. ([reddit.com](https://www.reddit.com/r/accelerate/comments/1wl5onq/gpt_6_solluna_on_tuesday/?utm_source=openai))",
    "evidence": [
     {
-     "title": "Introducing GPT-6 Sol and Luna | OpenAI",
+     "title": "This coming week could have a couple of model releases",
+     "url": "https://www.reddit.com/r/accelerate/comments/1wlnvz4/this_coming_week_could_have_a_couple_of_model/"
+    },
+    {
+     "title": "Introducing GPT-6 Sol and Luna",
      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
     },
     {
-     "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes | TechCrunch",
-     "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
+     "title": "Introducing Claude Opus 5.5",
+     "url": "https://www.anthropic.com/claude-opus-5-5"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:26:21Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "true",
+    "note": "The targeted launch information was already circulating publicly by September 20, 2026: Reddit discussions anticipated Sol/Luna and Opus 5.5 that coming week. All three launched September 22, but that confirmation does not make the September 21 post a novel scoop on this assertion. ([reddit.com](https://www.reddit.com/r/accelerate/comments/1wl5onq/gpt_6_solluna_on_tuesday/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-2102060292175782035-2",
@@ -207719,23 +207995,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
-   "public_date": "2026-09-28",
+   "verdict": "false",
+   "public_date": null,
    "official_date": null,
-   "explanation": "GPT-6.1 Astra did not launch at DevDay: OpenAI had delayed it over safety concerns. DevDay did bring GPT-6.1 Sol and an Ultrafast offering, but that does not substantiate the claimed Astra release, 750-token-per-second figure, or prediction that it would outperform Opus 5.5.",
+   "explanation": "Although the initial post expressed an expectation, the September 27 follow-up explicitly promised a DevDay release. OpenAI withheld GPT-6.1 Astra on September 28 over safety concerns; the supplied timeline identifies September 29's release as Sol, not Astra. ([washingtonpost.com](https://www.washingtonpost.com/business/2026/09/28/open-ai-artificial-intelligence-altman-trump-astra/7f7af10e-bba7-11f1-81fc-9b76f8343b6c_story.html?utm_source=openai))",
    "evidence": [
     {
-     "title": "OpenAI delays latest model over security concerns, as industry faces new safety pressures",
-     "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5"
+     "title": "CBS News: OpenAI holds back GPT-6.1 Astra",
+     "url": "https://www.cbsnews.com/news/openai-halts-gpt-astra-safety-concerns/?intcid=CNI-00-10aaa3a"
     },
     {
-     "title": "DevDay 2026 Recap",
-     "url": "https://openai.com/index/devday-2026-recap/"
+     "title": "Washington Post: OpenAI delays model over security concerns",
+     "url": "https://www.washingtonpost.com/business/2026/09/28/open-ai-artificial-intelligence-altman-trump-astra/7f7af10e-bba7-11f1-81fc-9b76f8343b6c_story.html"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:26:22Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "partly_true",
+    "note": "Although the initial post expressed an expectation, the September 27 follow-up explicitly promised a DevDay release. OpenAI withheld GPT-6.1 Astra on September 28 over safety concerns; the supplied timeline identifies September 29's release as Sol, not Astra. ([washingtonpost.com](https://www.washingtonpost.com/business/2026/09/28/open-ai-artificial-intelligence-altman-trump-astra/7f7af10e-bba7-11f1-81fc-9b76f8343b6c_story.html?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-2103557981803606465-2",
@@ -212237,7 +212520,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:47:57Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "scaling01-2104630290450964877",
@@ -222453,23 +222737,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "partly_true",
+   "verdict": "pending",
    "public_date": "2026-10-07",
    "official_date": null,
-   "explanation": "The post was the journalist's own WSJ scoop, so its publication does not make it already public beforehand. Bloomberg independently reported early financing talks for OpenAI chips but described a roughly $30 billion figure, not the approximately $50 billion in the post; the exact amount and proposed financing remain unconfirmed officially.",
+   "explanation": "Bloomberg independently confirmed financing discussions on October 7, 2026, but described approximately $30 billion of debt rather than corroborating the specific $50 billion package. The precise amount and its linkage to both named chips remain unconfirmed; coverage repeating Gardizy's WSJ scoop is not independent verification. ([news.bloomberglaw.com](https://news.bloomberglaw.com/tech-and-telecom-law/broadcom-holds-early-talks-about-financing-deal-for-openai-chips))",
    "evidence": [
     {
-     "title": "Broadcom Holds Early Talks About Financing for OpenAI Chips — Bloomberg Law",
-     "url": "https://news.bloomberglaw.com/artificial-intelligence/broadcom-holds-early-talks-about-financing-deal-for-openai-chips"
+     "title": "Bloomberg: Broadcom Holds Early Talks About Financing for OpenAI Chips",
+     "url": "https://news.bloomberglaw.com/tech-and-telecom-law/broadcom-holds-early-talks-about-financing-deal-for-openai-chips"
     },
     {
-     "title": "OpenAI and Broadcom Unveil LLM-Optimized Intelligence Processor — Broadcom",
-     "url": "https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-unveil-llm-optimized-intelligence-processor"
+     "title": "TrendForce: Reports give differing estimates for OpenAI chip financing",
+     "url": "https://www.trendforce.com/news/2026/10/08/news-ai-chip-spending-fuels-debt-financing-wave-broadcom-reportedly-eyes-tens-of-billions-to-fund-openai/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:28:55Z"
-  }
+   "resolved_at": "2026-10-11T02:54:50Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:54:50Z",
+    "changed_from": "partly_true",
+    "note": "Bloomberg independently confirmed financing discussions on October 7, 2026, but described approximately $30 billion of debt rather than corroborating the specific $50 billion package. The precise amount and its linkage to both named chips remain unconfirmed; coverage repeating Gardizy's WSJ scoop is not independent verification. ([news.bloomberglaw.com](https://news.bloomberglaw.com/tech-and-telecom-law/broadcom-holds-early-talks-about-financing-deal-for-openai-chips))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-2107943052694437979-2",
