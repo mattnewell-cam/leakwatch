@@ -31,8 +31,14 @@ def main():
         if (not c.get("pruned") and r and not r.get("vetted") and not c.get("astra_checked")
                 and r.get("verdict") not in ("pending", "not_a_claim")):
             pool.append(c)
-    random.seed(seed)
-    sample = random.sample(pool, min(n, len(pool)))
+    if "--displayed" in sys.argv:
+        # targeted: the claims shown as leakers' best calls / biggest misses (not a random sample -> no stats update)
+        from leakwatch.common import SITE
+        show = {i for l in load_json(SITE / "data" / "leakers.json") for i in l.get("best_hits", []) + l.get("worst_misses", [])}
+        sample = [c for c in pool if c["id"] in show][:n]
+    else:
+        random.seed(seed)
+        sample = random.sample(pool, min(n, len(pool)))
     batches = [sample[i:i + 5] for i in range(0, len(sample), 5)]
     out = {}
     with ThreadPoolExecutor(4) as ex:
@@ -56,7 +62,8 @@ def main():
               f"   astra: {a['explanation'][:230]}")
     stats = load_json(DATA / "audit_stats.json", {}) or {}
     hist = stats.get("astra_samples", [])
-    hist.append({"n": tot, "bucket": agree_b, "exact": agree_e, "at": now_iso()})
+    if "--displayed" not in sys.argv:          # only random samples feed the published agreement rate
+        hist.append({"n": tot, "bucket": agree_b, "exact": agree_e, "at": now_iso()})
     stats["astra_samples"] = hist
     N = sum(h["n"] for h in hist)
     stats.update({"sample_n": N, "bucket_agreement": round(sum(h["bucket"] for h in hist) / N, 3),

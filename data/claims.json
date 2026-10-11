@@ -5449,7 +5449,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:58:25Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly frames the timing as a personal suspicion, not inside information."
  },
  {
   "id": "anissagardizy8-1722014107858350426",
@@ -6334,7 +6335,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:00:07Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "alexeheath-1726328727431491731",
@@ -6424,7 +6426,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:00:07Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "amir-a97a57cfd5d",
@@ -10051,23 +10054,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2024-04-18",
-   "official_date": "2024-07-23",
-   "explanation": "Llama 3 did launch with 8B and 70B models, but no larger model arrived by the stated May 31, 2024 deadline; Meta released the 405B model on July 23, outside the deadline. I found no earlier source establishing the release sizes before this post, so this is not marked already_public.",
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This reads as a reaction to model-size information, with explicit speculation—“maybe”—about performance and a larger model next month, not a sourced May-release claim. Meta's April 18 announcement confirmed 8B and 70B models but described additional sizes as coming in the following months; that does not turn the poster's speculation into an insider scoop. ([ai.meta.com](https://ai.meta.com/blog/meta-llama-3?utm_source=openai))",
    "evidence": [
     {
-     "title": "Introducing Meta Llama 3 — Meta",
+     "title": "Introducing Meta Llama 3: The most capable openly available LLM to date",
      "url": "https://ai.meta.com/blog/meta-llama-3"
-    },
-    {
-     "title": "Meta releases larger version of its open source AI model — Axios",
-     "url": "https://www.axios.com/2024/07/23/meta-releases-open-source-llama-ai-model"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T00:58:17Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "This reads as a reaction to model-size information, with explicit speculation—“maybe”—about performance and a larger model next month, not a sourced May-release claim. Meta's April 18 announcement confirmed 8B and 70B models but described additional sizes as coming in the following months; that does not turn the poster's speculation into an insider scoop. ([ai.meta.com](https://ai.meta.com/blog/meta-llama-3?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibreakfast-1781553008565776429",
@@ -10120,7 +10126,8 @@
     "note": "GPT-4o (2024-05-13) was in fact OpenAI's next flagship, not named GPT-5, released in May with features rolling out over the summer; most of the any-to-any wishlist did not ship."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The post explicitly labels these as the author's GPT-5 predictions."
  },
  {
   "id": "legit_api-1781737254131482682",
@@ -10225,23 +10232,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2024-04-25",
+   "verdict": "not_a_claim",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post inferred that access to all threads, evals, and a native browser tool might soon arrive in Assistants. OpenAI’s documented Assistants API tools did not include a native browser tool or the predicted bundle; OpenAI later deprecated the API and set its removal for August 2026.",
+   "explanation": "The post explicitly offers a tentative interpretation of public help-center documentation, including uncertainty about whether evals would be developer-facing; it does not assert independently obtained non-public roadmap information. The available FAQ and changelog do not establish the historical three-feature wording, so they cannot verify the extractor's implied launch prediction. ([help.openai.com](https://help.openai.com/en/articles/8550641-assistants-api-v2-faq))",
    "evidence": [
     {
      "title": "Assistants API (v2) FAQ",
-     "url": "https://help.openai.com/en/articles/8550641"
+     "url": "https://help.openai.com/en/articles/8550641-assistants-api-v2-faq"
     },
     {
      "title": "OpenAI API changelog",
-     "url": "https://developers.openai.com/api/docs/changelog"
+     "url": "https://developers.openai.com/api/docs/changelog?mw_entry=2026-08-20-974ac0734e053853"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:07:16Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "The post explicitly offers a tentative interpretation of public help-center documentation, including uncertainty about whether evals would be developer-facing; it does not assert independently obtained non-public roadmap information. The available FAQ and changelog do not establish the historical three-feature wording, so they cannot verify the extractor's implied launch prediction. ([help.openai.com](https://help.openai.com/en/articles/8550641-assistants-api-v2-faq))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "legit_api-1784722167583609008",
@@ -12354,7 +12368,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:15:28Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-1806812006009442671",
@@ -14179,7 +14194,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:03:19Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-a9b919a1cc0",
@@ -15756,7 +15772,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:07:26Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly frames the collaboration and project connection as speculation and belief, not inside information."
  },
  {
   "id": "imjustnewatai-1837693485995954268-2",
@@ -17230,7 +17247,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:10:04Z"
-  }
+  },
+  "pruned": "general_prediction: The post says OpenAI might release Sora soon, presenting this as an uncertain forecast without inside information."
  },
  {
   "id": "anissagardizy8-1844904694470279518",
@@ -17762,7 +17780,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:41Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly says the releases could happen today but hedges that this is uncertain."
  },
  {
   "id": "steph_palazzolo-1847269008543727979",
@@ -19633,7 +19652,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:08:33Z"
-  }
+  },
+  "pruned": "reaction_to_public_news: Reports public Arena activity and attributes the model identification to other people's speculation."
  },
  {
   "id": "anissagardizy8-1858151830280126834",
@@ -20467,7 +20487,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:03:50Z"
-  }
+  },
+  "pruned": "general_prediction: The post frames the release timing as a likelihood and presents GPT-5 preview versus full o1 as speculative alternatives."
  },
  {
   "id": "anissagardizy8-1861953152083546260",
@@ -20918,7 +20939,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: This is a question about whether o1 will appear today, not an assertion of non-public information."
  },
  {
   "id": "imjustnewatai-1864067903261229258",
@@ -21123,7 +21145,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:08:17Z"
-  }
+  },
+  "pruned": "general_prediction: “Smells like” frames this as the poster’s own vague speculation, and no specific product is named."
  },
  {
   "id": "shiringhaffary-1864393800547803549",
@@ -21502,7 +21525,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:03:50Z"
-  }
+  },
+  "pruned": "general_prediction: The poster explicitly says this is a guess."
  },
  {
   "id": "imjustnewatai-1864764803090100636",
@@ -22607,7 +22631,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:26:00Z"
-  }
+  },
+  "pruned": "general_prediction: “There’s a chance” explicitly frames the idea as speculation rather than inside information."
  },
  {
   "id": "imjustnewatai-1868897055349129480",
@@ -24937,19 +24962,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2025-01-18",
+   "verdict": "unverifiable",
+   "public_date": null,
    "official_date": null,
-   "explanation": "OpenAI’s May 28, 2024 announcement concerned the start of training a new frontier model; it did not identify that model as GPT-5 or say GPT-5 had been in use since that date. The post presents the GPT-5 identification and “in use” claim as fact, which the public record does not support.",
+   "explanation": "No independent evidence establishes secret GPT-5 use beginning May 28, 2024: OpenAI’s announcement that day only said its next frontier model had recently begun training. GPT-5’s August 7, 2025 introduction neither confirms nor conclusively excludes the alleged earlier internal use. ([openai.com](https://openai.com/index/openai-board-forms-safety-and-security-committee/?_hsmi=309128137&utm_source=openai))",
    "evidence": [
     {
-     "title": "OpenAI announces new AI training and safety efforts — OpenAI",
-     "url": "https://openai.com/index/introducing-openais-safety-commitments/"
+     "title": "OpenAI board forms safety and security committee",
+     "url": "https://openai.com/index/openai-board-forms-safety-and-security-committee/?_hsmi=309128137"
+    },
+    {
+     "title": "Introducing GPT-5",
+     "url": "https://openai.com/index/introducing-gpt-5/?ashby_jid=af2e43fb-f98a-4db3-9ad1-ae223933c50f"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:04:11Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "No independent evidence establishes secret GPT-5 use beginning May 28, 2024: OpenAI’s announcement that day only said its next frontier model had recently begun training. GPT-5’s August 7, 2025 introduction neither confirms nor conclusively excludes the alleged earlier internal use. ([openai.com](https://openai.com/index/openai-board-forms-safety-and-security-committee/?_hsmi=309128137&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-ae6cdd50558",
@@ -25358,23 +25394,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2025-01-21",
-   "official_date": "2025-01-21",
-   "explanation": "The post’s linked coverage concerned changes to cloud-compute exclusivity, not the end of the partnership. On January 21, 2025, Microsoft said the strategic partnership and key terms remained in place through 2030, and OpenAI said it would continue working with Microsoft.",
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This is a sweeping commentator reaction to the Stargate news, not a specific report of non-public termination plans. Microsoft’s January 21, 2025 announcement explicitly maintained the partnership while changing exclusivity for additional computing capacity. ([texxr.com](https://texxr.com/handle/smokeawayyy?utm_source=openai))",
    "evidence": [
     {
-     "title": "Microsoft and OpenAI evolve partnership — Microsoft",
-     "url": "https://blogs.microsoft.com/blog/2025/01/21/microsoft-and-openai-evolve-partnership-to-drive-the-next-phase-of-ai/"
+     "title": "@smokeawayyy — archived commentary and associated news",
+     "url": "https://texxr.com/handle/smokeawayyy"
     },
     {
-     "title": "Announcing The Stargate Project — OpenAI",
-     "url": "https://openai.com/index/announcing-the-stargate-project/"
+     "title": "Microsoft and OpenAI evolve partnership to drive the next phase of AI",
+     "url": "https://blogs.microsoft.com/blog/2025/01/21/microsoft-and-openai-evolve-partnership-to-drive-the-next-phase-of-ai/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:04:11Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "This is a sweeping commentator reaction to the Stargate news, not a specific report of non-public termination plans. Microsoft’s January 21, 2025 announcement explicitly maintained the partnership while changing exclusivity for additional computing capacity. ([texxr.com](https://texxr.com/handle/smokeawayyy?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "phill__1-1882058362894110953",
@@ -25813,7 +25856,7 @@
   "id": "imjustnewatai-1883075255503331647",
   "handle": "imjustnewatai",
   "date": "2025-01-25T08:51:41Z",
-  "claim": "An open-source model comparable to OpenAI's o3 will be available in about three months from 2025-01-25.",
+  "claim": "An open-source o3 will be available in about three months from 2025-01-25.",
   "lab": "Other",
   "topic": "model_release",
   "specificity": 3,
@@ -25860,7 +25903,9 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:41Z"
-  }
+  },
+  "claim_v1": "An open-source model comparable to OpenAI's o3 will be available in about three months from 2025-01-25.",
+  "_needs_regrade": true
  },
  {
   "id": "imjustnewatai-1883076506865619327",
@@ -26616,7 +26661,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:54:45Z"
-  }
+  },
+  "pruned": "general_prediction: The author frames Gemini 2.0 Pro’s timing as something that might happen and comments on a public product announcement; this is speculation, not asserted inside information."
  },
  {
   "id": "legit_api-1885090557715706102",
@@ -31615,7 +31661,7 @@
   "id": "andrewcurran_-ae405bacae5",
   "handle": "AndrewCurran_",
   "date": "2025-03-29T00:00:00Z",
-  "claim": "One of the labs had completed its largest-ever successful training run, and the model that emerged performed far above both internal expectations and what people assumed the scaling laws would predict; the lab was probably Anthropic.",
+  "claim": "There were rumors that one lab had completed its largest-ever successful training run and produced a model far above expectations, and Andrew Curran thought the lab was probably Anthropic.",
   "lab": "Anthropic",
   "topic": "model_capability",
   "specificity": 3,
@@ -31654,8 +31700,9 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:42:41Z"
   },
-  "claim_v1": "Andrew Curran posted that \"one of the labs had completed its largest ever successful training run, and that the model that emerged from it performed far above both internal expectations and what people assumed the scaling laws would predict,\" and speculated that the lab was probably Anthropic.",
-  "astra_checked": true
+  "claim_v1": "One of the labs had completed its largest-ever successful training run, and the model that emerged performed far above both internal expectations and what people assumed the scaling laws would predict; the lab was probably Anthropic.",
+  "astra_checked": true,
+  "_needs_regrade": true
  },
  {
   "id": "andrewcurran_-aad3aec4038",
@@ -31887,24 +31934,27 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2025-04-01",
+   "verdict": "not_a_claim",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post’s claim that AGI triggered the SoftBank investment or allowed OpenAI to end its Microsoft relationship was contradicted by the announced terms: the investment was tied to restructuring conditions, and OpenAI and Microsoft continued their partnership. The AGI closing condition was never confirmed.",
+   "explanation": "The April 1 post reads as an April Fools-style riff on the quoted AGI celebration, including its joke framing and 'end of all blue chairs' punchline, rather than a genuine financing scoop. The actual published funding condition concerned recapitalization, not achieving AGI or terminating Microsoft’s partnership. ([group.softbank](https://group.softbank/en/news/press/20250401))",
    "evidence": [
     {
-     "title": "SoftBank: Announcement Regarding Follow-on Investments in OpenAI",
+     "title": "Announcement Regarding Follow-on Investments in OpenAI",
      "url": "https://group.softbank/en/news/press/20250401"
-    },
-    {
-     "title": "OpenAI and Microsoft: Joint Statement",
-     "url": "https://openai.com/index/continuing-microsoft-partnership/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:10:32Z"
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "The April 1 post reads as an April Fools-style riff on the quoted AGI celebration, including its joke framing and 'end of all blue chairs' punchline, rather than a genuine financing scoop. The actual published funding condition concerned recapitalization, not achieving AGI or terminating Microsoft’s partnership. ([group.softbank](https://group.softbank/en/news/press/20250401))"
+   }
   },
-  "claim_v1": "OpenAI's reported $40 billion funding round allegedly had an AGI achievement as a closing condition because SoftBank would not close the investment while OpenAI's relationship with Microsoft remained intact."
+  "claim_v1": "OpenAI's reported $40 billion funding round allegedly had an AGI achievement as a closing condition because SoftBank would not close the investment while OpenAI's relationship with Microsoft remained intact.",
+  "astra_checked": true
  },
  {
   "id": "deredleritt3r-1906933406421901345-3",
@@ -32882,7 +32932,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:07:25Z"
-  }
+  },
+  "pruned": "general_prediction: “High chance” frames this as an odds-based forecast, not a claim of inside information."
  },
  {
   "id": "phill__1-1909623249563959551",
@@ -33526,7 +33577,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:10:14Z"
-  }
+  },
+  "pruned": "general_prediction: “Most likely” frames the model identification as speculation rather than a claim of inside information."
  },
  {
   "id": "legit_api-1910377606371041331",
@@ -39103,7 +39155,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:58:17Z"
-  }
+  },
+  "pruned": "general_prediction: Identifies the checkpoint as Goldmane only as a likelihood-based guess, without asserting inside information."
  },
  {
   "id": "aibattle_-1930760636989853850",
@@ -40847,7 +40900,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:41:47Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "kyliebytes-a3b7108cc80",
@@ -41273,23 +41327,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "mostly_true",
    "public_date": "2025-06-27",
    "official_date": null,
-   "explanation": "The Information’s June 27 report said OpenAI would use Google TPUs, but its own follow-up noted that OpenAI said it had no current plans to use TPUs specifically. Reuters had reported an earlier Google Cloud deal on June 10, but that did not establish TPU use; the journalist’s own report is not independent confirmation.",
+   "explanation": "Reuters independently confirmed Google-chip rentals on June 27, 2025, supporting the core of this original scoop. However, OpenAI clarified on June 29 that it was only conducting early TPU tests without plans for deployment at scale, making the asserted shift away from Nvidia overstated. ([investing.com](https://www.investing.com/news/stock-market-news/openai-turns-to-googles-ai-chips-to-power-its-products-the-information-reports-4115244?ampMode=1&utm_source=openai))",
    "evidence": [
     {
-     "title": "Google Convinces OpenAI to Use TPU Chips in Win Against Nvidia",
-     "url": "https://www.theinformation.com/articles/google-convinces-openai-use-tpu-chips-win-nvidia"
+     "title": "Reuters: OpenAI turns to Google’s AI chips to power its products, source says",
+     "url": "https://www.investing.com/news/stock-market-news/openai-turns-to-googles-ai-chips-to-power-its-products-the-information-reports-4115244?ampMode=1"
     },
     {
-     "title": "Exclusive: OpenAI taps Google in unprecedented cloud deal despite AI rivalry, sources say",
-     "url": "https://www.investing.com/news/stock-market-news/exclusiveopenai-taps-google-in-unprecedented-cloud-deal-despite-ai-rivalry-sources-say-4089031"
+     "title": "Reuters: OpenAI says it has no plan to use Google's in-house chip",
+     "url": "https://www.boursorama.com/bourse/actualites-amp/openai-declare-ne-pas-avoir-l-intention-d-utiliser-la-puce-interne-de-google-1a83b1d65c02fe5ceee92ec5ac07dd65"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T00:51:29Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "Reuters independently confirmed Google-chip rentals on June 27, 2025, supporting the core of this original scoop. However, OpenAI clarified on June 29 that it was only conducting early TPU tests without plans for deployment at scale, making the asserted shift away from Nvidia overstated. ([investing.com](https://www.investing.com/news/stock-market-news/openai-turns-to-googles-ai-chips-to-power-its-products-the-information-reports-4115244?ampMode=1&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-1938692185379291513",
@@ -41770,7 +41831,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:41:51Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "kyliebytes-1940123469481758857",
@@ -41815,7 +41877,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:00:56Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-1940139539525419512",
@@ -42146,7 +42209,7 @@
   "id": "bindureddy-1941298667195146291",
   "handle": "bindureddy",
   "date": "2025-07-05T00:50:44Z",
-  "claim": "xAI's Grok 4 coding model would be released in 2 days, i.e. by 2025-07-07, and might be released as an API.",
+  "claim": "xAI's Grok 4 coding model is coming in two days and has a good chance of beating Sonnet 4 if released as an API.",
   "lab": "xAI",
   "topic": "model_release",
   "specificity": 3,
@@ -42185,7 +42248,9 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:38:58Z"
-  }
+  },
+  "claim_v1": "xAI's Grok 4 coding model would be released in 2 days, i.e. by 2025-07-07, and might be released as an API.",
+  "_needs_regrade": true
  },
  {
   "id": "markgurman-1942341725499863272",
@@ -42804,7 +42869,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:06:25Z"
-  }
+  },
+  "pruned": "general_prediction: Expresses anticipation about Kimi K2 reasoning rather than asserting specific inside information about a release."
  },
  {
   "id": "kyliebytes-a64a7545534",
@@ -43671,7 +43737,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:08:16Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly frames the GPT-5 timing as something that could happen, making it a speculative forecast."
  },
  {
   "id": "btibor91-1947392618675245254",
@@ -43781,23 +43848,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2025-10-13",
+   "verdict": "already_public",
+   "public_date": "2025-07-21",
    "official_date": null,
-   "explanation": "Later reporting identified former NVIDIA researchers Ethan He and Zeeshan Patel among xAI hires, and He said he joined xAI in mid-2025. That supports the hiring claim, though the description “one of NVIDIA’s top AI researchers” is not independently established as stated.",
+   "explanation": "Nvidia researcher Ethan He had publicly announced his move to xAI earlier on July 21, 2025, before this post at 22:32 UTC. This was a reaction to an announced hire, not a novel hiring leak. ([linkedin.com](https://www.linkedin.com/posts/ethanhe42_excited-to-announce-im-joining-xai-to-help-activity-7353100154326994946-e4KE?utm_source=openai))",
    "evidence": [
     {
-     "title": "xAI has been snapping up ex-Nvidia specialists to help make AI world models — PC Gamer",
-     "url": "https://www.pcgamer.com/software/ai/elon-musk-has-been-snapping-up-ex-nvidia-specialists-to-help-make-ai-world-models-which-is-fine-but-please-keep-away-from-our-games/"
+     "title": "Ethan He announces that he is joining xAI",
+     "url": "https://www.linkedin.com/posts/ethanhe42_excited-to-announce-im-joining-xai-to-help-activity-7353100154326994946-e4KE"
     },
     {
-     "title": "Ethan He: 2025 recap — LinkedIn",
-     "url": "https://www.linkedin.com/posts/ethanhe42_my-2025-wrapped-cosmos-world-foundation-activity-7410834072975007746-ju2o"
+     "title": "Weekly roundup preserving Ethan He’s original X announcement",
+     "url": "https://ethanbholland.com/2025/07/25/ethics-legal-security-ai-news-week-ending-07-25-2025/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:38:58Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "mostly_true",
+    "note": "Nvidia researcher Ethan He had publicly announced his move to xAI earlier on July 21, 2025, before this post at 22:32 UTC. This was a reaction to an announced hire, not a novel hiring leak. ([linkedin.com](https://www.linkedin.com/posts/ethanhe42_excited-to-announce-im-joining-xai-to-help-activity-7353100154326994946-e4KE?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-1947428331101819290",
@@ -44396,7 +44470,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:08:16Z"
-  }
+  },
+  "pruned": "general_prediction: The poster explicitly calls this a hunch and poses it as a question, not as inside information."
  },
  {
   "id": "aibattle_-1948686031319957784",
@@ -45007,7 +45082,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:00:56Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "kateclarktweets-1950233291883258066",
@@ -45844,7 +45920,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The poster explicitly says this is a guess about GPT-5's timing."
  },
  {
   "id": "apples_jimmy-1951180954208444758",
@@ -46353,7 +46430,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:41:51Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-1951458654127006010",
@@ -46503,7 +46581,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "The author asserted on 2025-08-02 that OpenAI had nothing launching during the week of 2025-08-04 through 2025-08-10."
+  "claim_v1": "The author asserted on 2025-08-02 that OpenAI had nothing launching during the week of 2025-08-04 through 2025-08-10.",
+  "pruned": "commentary: Only says no launch for the following week had been confirmed; it does not assert whether a launch will happen."
  },
  {
   "id": "aibattle_-1951948640353677578",
@@ -47140,7 +47219,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:11:58Z"
-  }
+  },
+  "pruned": "relay_of_named_source: The post links to a report while relaying the reported valuation."
  },
  {
   "id": "shiringhaffary-1952909165703086210",
@@ -48724,7 +48804,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:13:15Z"
-  }
+  },
+  "pruned": "using_public_product: Comments on differing compute settings in use with the already available GPT-5 product."
  },
  {
   "id": "btibor91-a62378eaa44",
@@ -49375,7 +49456,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:21Z"
-  }
+  },
+  "pruned": "general_prediction: This is the poster’s own broad valuation forecast, not an assertion of inside information."
  },
  {
   "id": "anissagardizy8-1958557346063609906",
@@ -52613,23 +52695,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2025-09-23",
-   "official_date": "2025-09-23",
-   "explanation": "Alibaba released Qwen3-Omni on September 23, 2025, but the released models were 30B-A3B variants, not the specifically claimed Qwen3-Omni-7B. The named 7B model was not confirmed as the imminent release.",
+   "verdict": "mostly_true",
+   "public_date": "2025-09-20",
+   "official_date": "2025-09-22",
+   "explanation": "Qwen3-Omni launched on September 22, two days after the post, matching the imminent-release claim. However, the released models were Qwen3-Omni-30B-A3B variants, not the claimed 7B model. ([github.com](https://github.com/QwenLM/Qwen3-Omni/blob/main/README.md?utm_source=openai))",
    "evidence": [
     {
-     "title": "Qwen3-Omni technical report",
-     "url": "https://arxiv.org/abs/2509.17765"
+     "title": "Qwen3-Omni official repository and release history",
+     "url": "https://github.com/QwenLM/Qwen3-Omni/blob/main/README.md"
     },
     {
-     "title": "Alibaba Cloud Model Studio model release history",
-     "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+     "title": "Qwen3-Omni Technical Report",
+     "url": "https://arxiv.org/abs/2509.17765"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:42:26Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "Qwen3-Omni launched on September 22, two days after the post, matching the imminent-release claim. However, the released models were Qwen3-Omni-30B-A3B variants, not the claimed 7B model. ([github.com](https://github.com/QwenLM/Qwen3-Omni/blob/main/README.md?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibreakfast-a57e1a7ea20",
@@ -53113,7 +53202,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:21:39Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "m1astra-1971038376703987990",
@@ -55075,7 +55165,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:15:55Z"
-  }
+  },
+  "pruned": "general_prediction: The post frames a possible OpenAI response as the poster’s expectation, not as inside information."
  },
  {
   "id": "markgurman-1976455960177803352",
@@ -56839,7 +56930,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:52:43Z"
-  }
+  },
+  "pruned": "general_prediction: This is speculative commentary about Gemini 4, explicitly hedged as a possibility, rather than a claim of inside information."
  },
  {
   "id": "tetsuoai-1980279700464513088",
@@ -57224,7 +57316,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:09:16Z"
-  }
+  },
+  "pruned": "general_prediction: The summary concerns the poster’s expressly framed opinion about Yann LeCun’s future departure."
  },
  {
   "id": "btibor91-1981272380380238263",
@@ -58046,19 +58139,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2025-10-31",
-   "official_date": "2025-11-28",
-   "explanation": "The post listed Imagine text-to-video as upcoming. xAI later announced that text-to-video worked with Grok Imagine on November 28, 2025; the post gave no firm deadline.",
+   "verdict": "already_public",
+   "public_date": "2025-07-29",
+   "official_date": "2025-10-13",
+   "explanation": "Imagine text-to-video plans were publicly reported on July 29, and Musk publicly discussed text-to-video functionality by October 13. The October 31 roundup therefore repeated an already-public product direction rather than revealing a new feature plan. ([digit.in](https://www.digit.in/news/general/elon-musks-grok-will-soon-let-you-generate-videos-from-text-availability-and-other-details.html?utm_source=openai))",
    "evidence": [
     {
-     "title": "You can now create fun AI videos from text with Grok",
-     "url": "https://www.digitaltrends.com/phones/you-can-now-create-ai-videos-from-text-with-grok/"
+     "title": "Elon Musk’s Grok will soon let you generate videos from text: Availability and other details",
+     "url": "https://www.digit.in/news/general/elon-musks-grok-will-soon-let-you-generate-videos-from-text-availability-and-other-details.html"
+    },
+    {
+     "title": "Grok Imagine New UI Update Makes Text-to-Video Generation Fastest Online, Elon Musk Reacts",
+     "url": "https://www.latestly.com/socially/technology/grok-imagine-new-ui-update-makes-text-to-video-generation-fastest-online-elon-musk-reacts-7156709.html"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:36:35Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "Imagine text-to-video plans were publicly reported on July 29, and Musk publicly discussed text-to-video functionality by October 13. The October 31 roundup therefore repeated an already-public product direction rather than revealing a new feature plan. ([digit.in](https://www.digit.in/news/general/elon-musks-grok-will-soon-let-you-generate-videos-from-text-availability-and-other-details.html?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "techdevnotes-1984051354244096390-3",
@@ -58181,23 +58285,27 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-04-15",
+   "verdict": "not_a_claim",
+   "public_date": null,
    "official_date": null,
-   "explanation": "Within six months of November 1, 2025, reporting put Anthropic’s annualized revenue at about $30 billion, above OpenAI’s reported figure at the time. The comparison is best understood as revenue run rate rather than a directly comparable, audited MRR figure.",
+   "explanation": "The post explicitly offers a personal revenue prediction, not a report of non-public financial information. Later reporting of Anthropic's higher reported revenue run rate does not turn that forecast into an insider scoop. ([apnews.com](https://apnews.com/article/3c2674f5cdf67ac6d88eedb207de117c?utm_source=openai))",
    "evidence": [
     {
-     "title": "AP: OpenAI shifts its focus to business users amid Anthropic pressure",
+     "title": "ChatGPT maker OpenAI shifts its focus to business users amid Anthropic pressure",
      "url": "https://apnews.com/article/3c2674f5cdf67ac6d88eedb207de117c"
-    },
-    {
-     "title": "Reuters: OpenAI topped $25 billion in annualized revenue at the end of February 2026",
-     "url": "https://finance.yahoo.com/news/openai-tops-25-billion-annualized-033836274.html"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T00:42:35Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "The post explicitly offers a personal revenue prediction, not a report of non-public financial information. Later reporting of Anthropic's higher reported revenue run rate does not turn that forecast into an insider scoop. ([apnews.com](https://apnews.com/article/3c2674f5cdf67ac6d88eedb207de117c?utm_source=openai))"
+   }
+  },
+  "astra_checked": true,
+  "pruned": "general_prediction: The post explicitly labels this as a prediction about future revenue, not non-public information."
  },
  {
   "id": "chetaslua-1984546828256170166",
@@ -58937,23 +59045,31 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2025-11-06",
+   "verdict": "not_a_claim",
+   "public_date": null,
    "official_date": null,
-   "explanation": "Neither model launched on November 6, 2025. GPT-5.1 was released November 12 and Gemini 3 Pro on November 18, both after the stated date.",
+   "explanation": "A 'nonzero chance' is speculative possibility, not an assertion that both releases were scheduled for November 6. GPT-5.1 actually launched November 12 and Gemini 3 Pro November 18, 2025, but those dates cannot falsify an unspecified probability. ([openai.com](https://openai.com/index/gpt-5-1/?utm_source=openai))",
    "evidence": [
     {
-     "title": "GPT-5.1: A smarter, more conversational ChatGPT — OpenAI",
+     "title": "GPT-5.1: A smarter, more conversational ChatGPT",
      "url": "https://openai.com/index/gpt-5-1/"
     },
     {
-     "title": "Google rolls out Gemini 3 Pro to power search and app — Axios",
-     "url": "https://www.axios.com/2025/11/18/google-rolls-out-gemini-3-pro-to-power-search-and-app"
+     "title": "A new era of intelligence with Gemini 3",
+     "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:30:53Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "A 'nonzero chance' is speculative possibility, not an assertion that both releases were scheduled for November 6. GPT-5.1 actually launched November 12 and Gemini 3 Pro November 18, 2025, but those dates cannot falsify an unspecified probability. ([openai.com](https://openai.com/index/gpt-5-1/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true,
+  "pruned": "general_prediction: “Nonzero chance” frames this as an odds-based forecast, not inside information."
  },
  {
   "id": "btibor91-1986445946323149174",
@@ -59278,7 +59394,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:55:30Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "techdevnotes-1987325806515790288",
@@ -61261,7 +61378,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:15:29Z"
-  }
+  },
+  "pruned": "quoting_official: The summary's release claim is already stated in the quoted official announcement; the post reacts to that public news."
  },
  {
   "id": "yuchenj_uw-1991046416949715211",
@@ -61533,7 +61651,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The post speculates that Opus 4.5 may launch this week and provides no indication of inside information."
  },
  {
   "id": "techdevnotes-1991522042181751018",
@@ -62166,7 +62285,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:35Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "yuchenj_uw-1992820492978249992",
@@ -63536,7 +63656,8 @@
     "note": "GPT-5.2 (Dec 11) was published with scores above Gemini 3 Pro on several frontier benchmarks (e.g. ARC-AGI-2, SWE-Bench Pro, GDPval), so the December bet was won."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The author frames the release claim as a bet, not as inside information."
  },
  {
   "id": "scaling01-1996153060012265828",
@@ -63717,7 +63838,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:11:53Z"
-  }
+  },
+  "pruned": "relay_of_named_source: The post relays a named account's claim about models being tested and reacts to it; it does not present independent information."
  },
  {
   "id": "markgurman-1996301293099663850",
@@ -63948,7 +64070,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:11:56Z"
-  }
+  },
+  "pruned": "reaction_to_public_news: The release timing is quoted as another user's hope, while the author's comments about UI quality are commentary rather than inside information."
  },
  {
   "id": "apples_jimmy-1997106761996947695",
@@ -64930,23 +65053,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2025-12-10",
-   "official_date": "2026-04-21",
-   "explanation": "The post identifies Chestnut as GPT-Image-2. GPT-Image-2 was officially released on April 21, 2026, and later reporting associated the arena codename Chestnut with that image model.",
+   "verdict": "already_public",
+   "public_date": "2025-12-09",
+   "official_date": null,
+   "explanation": "Chestnut and Hazelnut had already been publicly attributed to OpenAI's next image-generation models on Design Arena and LM Arena in December 9 reporting crediting another poster. This post relays that existing identification; its confident GPT-Image-2 label was not independently established by that reporting. ([windowsreport.com](https://windowsreport.com/openai-is-reportedly-working-on-new-ai-image-models-codenamed-chestnut-hazelnut/?utm_source=openai))",
    "evidence": [
     {
-     "title": "GPT-Image-2 model documentation",
-     "url": "https://developers.openai.com/api/docs/models/gpt-image-2"
+     "title": "OpenAI is Reportedly Working on New AI Image Models Codenamed Chestnut & Hazelnut",
+     "url": "https://windowsreport.com/openai-is-reportedly-working-on-new-ai-image-models-codenamed-chestnut-hazelnut/"
     },
     {
-     "title": "OpenAI launches Images 2.0; arena codenames included Chestnut and Hazelnut",
-     "url": "https://www.testingcatalog.com/icymi-openai-launches-images-2-0-on-chatgpt-codex-and-api/"
+     "title": "New OpenAI Image Model Reportedly Spotted in the Wild",
+     "url": "https://www.timesofai.com/news/new-openai-image-model-reportedly-spotted-in-the-wild/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:19:17Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "Chestnut and Hazelnut had already been publicly attributed to OpenAI's next image-generation models on Design Arena and LM Arena in December 9 reporting crediting another poster. This post relays that existing identification; its confident GPT-Image-2 label was not independently established by that reporting. ([windowsreport.com](https://windowsreport.com/openai-is-reportedly-working-on-new-ai-image-models-codenamed-chestnut-hazelnut/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "anissagardizy8-1998814870888931755",
@@ -66605,23 +66735,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2026-02-17",
+   "verdict": "partly_true",
+   "public_date": "2025-12-18",
    "official_date": "2026-04-23",
-   "explanation": "Grok 4.2 entered limited beta on February 17, 2026, and OpenAI released GPT-5.5 on April 23, 2026. The predicted order was right, though “quickly after” amounts to roughly two months.",
+   "explanation": "The release order matched: Grok 4.20 launched February 17, followed by GPT-5.5 on April 23, 2026, but the nine-week gap did not substantiate “quickly after” or the holiday-break framing. Grok’s forthcoming release was already public before this post; the additional rapid-sequence prediction was only partly borne out. ([aihola.com](https://aihola.com/article/grok-420-beta-multi-agent?utm_source=openai))",
    "evidence": [
     {
-     "title": "Introducing GPT-5.5 — OpenAI",
-     "url": "https://openai.com/index/introducing-gpt-5-5/"
+     "title": "Grok 4.20 Beta: xAI's Multi-Agent Model Finally Ships",
+     "url": "https://aihola.com/article/grok-420-beta-multi-agent"
     },
     {
-     "title": "Grok 4.20 System Card — xAI",
-     "url": "https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf"
+     "title": "Introducing GPT-5.5",
+     "url": "https://openai.com/index/introducing-gpt-5-5/?_bhlid=42de939ac029f9667758b867b0ce1a73b165eaae&trk=article-ssr-frontend-pulse_little-text-block"
+    },
+    {
+     "title": "Elon Musk announces Grok 4.20 release in 3-4 weeks",
+     "url": "https://dataconomy.com/2025/12/08/elon-musk-announces-grok-4-20-release-in-3-4-weeks/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:41:03Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "mostly_true",
+    "note": "The release order matched: Grok 4.20 launched February 17, followed by GPT-5.5 on April 23, 2026, but the nine-week gap did not substantiate “quickly after” or the holiday-break framing. Grok’s forthcoming release was already public before this post; the additional rapid-sequence prediction was only partly borne out. ([aihola.com](https://aihola.com/article/grok-420-beta-multi-agent?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-2001739700151930966",
@@ -66865,7 +67006,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:54:25Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-2004169219873952250",
@@ -74940,23 +75082,34 @@
   "prune_checked": true,
   "claim_v1": "Anthropic has an unreleased model called Sonnet 5, also referred to as Fennec, that the author had tested before release and that was expected to launch in February 2026, possibly together with an unreleased model called Opus 4.6.",
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-02-02",
+   "verdict": "partly_true",
+   "public_date": "2026-02-01",
    "official_date": "2026-06-30",
-   "explanation": "Sonnet 5/Fennec rumors were already circulating before this post, but Sonnet 5 did not launch in February; Anthropic released it on June 30, 2026. The February deadline was missed by months, and the later official announcement does not substantiate the claimed 1M context or the author's claimed testing.",
+   "explanation": "A coding-and-agentic Sonnet upgrade with a 1-million-token context window shipped on February 17 as Sonnet 4.6, but Sonnet 5 itself arrived June 30, missing the February deadline. The overlapping capabilities merit partial credit, not confirmation that Fennec was that February model or that the claimed private testing and deployment malfunction occurred. ([anthropic.com](https://www.anthropic.com/news/claude-sonnet-4-6?_hsmi=352996231&utm_source=openai))",
    "evidence": [
     {
-     "title": "Claude Sonnet 5 'Fennec' Leak: What's Real vs. Speculation",
-     "url": "https://dev.to/marc0dev/claude-sonnet-5-fennec-leak-what-the-vertex-ai-logs-actually-show-3ho5"
+     "title": "Sonnet 5 next week? — February 1 circulation of the poster's earlier claim",
+     "url": "https://www.reddit.com/r/singularity/comments/1qtc4jg/sonnet_5_next_week/"
+    },
+    {
+     "title": "Introducing Claude Sonnet 4.6",
+     "url": "https://www.anthropic.com/news/claude-sonnet-4-6?_hsmi=352996231"
     },
     {
      "title": "Introducing Claude Sonnet 5",
-     "url": "https://www.anthropic.com/news/claude-sonnet-5"
+     "url": "https://www.anthropic.com/news/claude-sonnet-5?s=03"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:42:48Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "A coding-and-agentic Sonnet upgrade with a 1-million-token context window shipped on February 17 as Sonnet 4.6, but Sonnet 5 itself arrived June 30, missing the February deadline. The overlapping capabilities merit partial credit, not confirmation that Fennec was that February model or that the claimed private testing and deployment malfunction occurred. ([anthropic.com](https://www.anthropic.com/news/claude-sonnet-4-6?_hsmi=352996231&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-2018597357877895238-2",
@@ -75275,7 +75428,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:31Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly labels the deployment-and-rollback explanation as the poster's guess."
  },
  {
   "id": "daniel_mac8-2018818179682947481",
@@ -76124,7 +76278,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:18:50Z"
-  }
+  },
+  "pruned": "general_prediction: The release timing is explicitly framed as the poster's personal likelihood judgment, not inside information."
  },
  {
   "id": "synthwavedd-2019437825972957489",
@@ -76786,7 +76941,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:44:16Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "daniel_mac8-2020123816895119759",
@@ -76928,7 +77084,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:44:16Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-2020474451574579565",
@@ -82839,7 +82996,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "The author expects OpenAI to release Codex for Windows on 2026-03-04 and a larger GPT-5.4 launch on 2026-03-05 featuring a new larger pretrain, video input, a context window over 1 million tokens, and major reasoning gains at roughly Claude Opus-level EQ."
+  "claim_v1": "The author expects OpenAI to release Codex for Windows on 2026-03-04 and a larger GPT-5.4 launch on 2026-03-05 featuring a new larger pretrain, video input, a context window over 1 million tokens, and major reasoning gains at roughly Claude Opus-level EQ.",
+  "pruned": "general_prediction: The post frames the release timing and feature expectations as the poster's own expectations."
  },
  {
   "id": "steph_palazzolo-2029212039760023941",
@@ -84232,23 +84390,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-03-10",
-   "official_date": null,
-   "explanation": "The Information reported on March 10 that OpenAI planned to bring Sora video to ChatGPT, but video generation did not launch there; OpenAI later discontinued Sora. This was a prediction of a coming product experience, and the promised integration did not happen.",
+   "verdict": "already_public",
+   "public_date": "2025-02-28",
+   "official_date": "2025-02-28",
+   "explanation": "OpenAI publicly disclosed plans to integrate Sora into ChatGPT on February 28, 2025—over a year before this post. The post's broad assertion therefore was already public. ([techcrunch.com](https://techcrunch.com/2025/02/28/openai-plans-to-bring-soras-video-generator-to-chatgpt/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))",
    "evidence": [
     {
-     "title": "The Information: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift",
-     "url": "https://www.theinformation.com/articles/openai-plans-launch-sora-video-ai-chatgpt-strategy-shift"
+     "title": "OpenAI plans to bring Sora’s video generator to ChatGPT",
+     "url": "https://techcrunch.com/2025/02/28/openai-plans-to-bring-soras-video-generator-to-chatgpt/?trk=article-ssr-frontend-pulse_little-text-block"
     },
     {
-     "title": "OpenAI: Sora 2 is here (page notes Sora is no longer available)",
-     "url": "https://openai.com/index/sora-2/"
+     "title": "OpenAI just announced that its Sora AI video generator is coming to ChatGPT",
+     "url": "https://www.tomsguide.com/ai/openai-just-announced-that-its-sora-ai-video-generator-is-coming-to-chatgpt"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:19:38Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "OpenAI publicly disclosed plans to integrate Sora into ChatGPT on February 28, 2025—over a year before this post. The post's broad assertion therefore was already public. ([techcrunch.com](https://techcrunch.com/2025/02/28/openai-plans-to-bring-soras-video-generator-to-chatgpt/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "steph_palazzolo-2031585974720049610",
@@ -86035,23 +86200,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
+   "verdict": "unverifiable",
    "public_date": "2026-03-24",
    "official_date": null,
-   "explanation": "The post reported that Disney and OpenAI were still working on a Sora-related project shortly before OpenAI informed Disney it would scrap Sora, and that Disney’s planned $1 billion investment had not been transferred. Subsequent reporting corroborated the collaboration, Disney being blindsided, and that no money had changed hands.",
+   "explanation": "Axios independently confirmed that no investment money changed hands. However, the specific March 23 working-session and notification chronology traces to Seetharaman and Chmielewski’s own Reuters reporting; I found no independent confirmation of those central internal details. ([axios.com](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app))",
    "evidence": [
     {
-     "title": "Disney cancels $1 billion OpenAI partnership amid Sora shutdown plans",
-     "url": "https://arstechnica.com/ai/2026/03/the-end-of-sora-also-means-the-end-of-disneys-1-billion-openai-investment/"
+     "title": "OpenAI drops AI video tool Sora, startling Disney, sources say — Reuters",
+     "url": "https://www.fidelity.com/news/article/default/202603242011RTRSNEWSCOMBINED_KBN3Q6296-OUSBS_1"
     },
     {
-     "title": "OpenAI ends $1bn deal with Disney, Sora",
-     "url": "https://kuwaittimes.com/uploads/pdf/2026/03/26/kt_pdf-20260326-1.pdf?ts=213750"
+     "title": "OpenAI will shutter Sora video app",
+     "url": "https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:13:54Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "Axios independently confirmed that no investment money changed hands. However, the specific March 23 working-session and notification chronology traces to Seetharaman and Chmielewski’s own Reuters reporting; I found no independent confirmation of those central internal details. ([axios.com](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "chrisgpt-2036595943471001902",
@@ -86407,7 +86579,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:13:54Z"
-  }
+  },
+  "pruned": "joke_or_vibes: This is a humorous conditional about what would happen if Spud achieved the score, not a claim that it will."
  },
  {
   "id": "synthwavedd-2037229093033332832",
@@ -87250,7 +87423,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:48:35Z"
-  }
+  },
+  "pruned": "general_prediction: The claim that Mythos may be enterprise-only is speculative and not presented as sourced inside information."
  },
  {
   "id": "tetsuoai-2037614683646206037",
@@ -87345,7 +87519,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:42:13Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-2037632363220639979-2",
@@ -88426,7 +88601,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:49:50Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "markgurman-2039012881401070048",
@@ -88521,7 +88697,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:44:43Z"
-  }
+  },
+  "pruned": "general_prediction: The proposed reveal format and timing are explicitly the author's speculation, signaled by 'makes me think' and 'could happen.'"
  },
  {
   "id": "iruletheworldmo-2039079005769371936",
@@ -89148,7 +89325,7 @@
   "id": "iruletheworldmo-2039935631233556492",
   "handle": "iruletheworldmo",
   "date": "2026-04-03T05:18:49Z",
-  "claim": "OpenAI's GPT-6 is coming soon as of 2026-04-03.",
+  "claim": "OpenAI's GPT-6 is coming.",
   "lab": "OpenAI",
   "topic": "model_release",
   "specificity": 1,
@@ -89169,7 +89346,8 @@
   ],
   "origin": "tweet",
   "imported_at": "2026-10-10T20:48:31Z",
-  "prune_checked": true
+  "prune_checked": true,
+  "claim_v1": "OpenAI's GPT-6 is coming soon as of 2026-04-03."
  },
  {
   "id": "iruletheworldmo-2040036415874941378",
@@ -90104,23 +90282,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-04-04",
+   "verdict": "partly_true",
+   "public_date": "2026-04-21",
    "official_date": "2026-04-21",
-   "explanation": "GPT Image 2 was officially released on April 21, not globally launched in ChatGPT by April 4. The available public evidence around the early period describes testing, not a confirmed rollout routing all image generations to it.",
+   "explanation": "Early-April reports described limited testing, whereas OpenAI dates availability across all ChatGPT plans to April 21, 2026. The broad rollout arrived 17 days after the claimed April 4 launch—partly_true under the specified timing rule—but universal routing on April 4 is unsupported. ([fal.ai](https://fal.ai/learn/tools/what-is-gpt-image-2?utm_source=openai))",
    "evidence": [
     {
-     "title": "Introducing ChatGPT Images 2.0 — OpenAI",
-     "url": "https://openai.com/index/introducing-chatgpt-images-2-0/"
+     "title": "What Is GPT Image 2? OpenAI's Latest Model live on fal",
+     "url": "https://fal.ai/learn/tools/what-is-gpt-image-2"
     },
     {
-     "title": "GPT-Image-2 Model — OpenAI API",
-     "url": "https://developers.openai.com/api/docs/models/gpt-image-2"
+     "title": "ChatGPT Release Notes — April 21, 2026",
+     "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes%E2%80%AC"
+    },
+    {
+     "title": "Introducing ChatGPT Images 2.0",
+     "url": "https://openai.com/index/introducing-chatgpt-images-2-0/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:16:50Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "Early-April reports described limited testing, whereas OpenAI dates availability across all ChatGPT plans to April 21, 2026. The broad rollout arrived 17 days after the claimed April 4 launch—partly_true under the specified timing rule—but universal routing on April 4 is unsupported. ([fal.ai](https://fal.ai/learn/tools/what-is-gpt-image-2?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "bindureddy-2040457599376904692",
@@ -91456,7 +91645,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The author explicitly gives their own confidence estimate about what Spud may be, making this a personal forecast rather than an information claim."
  },
  {
   "id": "chetaslua-2041616193958871174",
@@ -95024,7 +95214,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "OpenAI's GPT-5.5, codenamed Spud, would be released within 1 hour of 2026-04-16T16:20."
+  "claim_v1": "OpenAI's GPT-5.5, codenamed Spud, would be released within 1 hour of 2026-04-16T16:20.",
+  "pruned": "general_prediction: The author explicitly frames the release timing as a bet, so this is a personal forecast."
  },
  {
   "id": "iruletheworldmo-2044854644011110646",
@@ -95838,7 +96029,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:17:03Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly labels the capability and architecture claims as predictions, not information from an asserted inside source."
  },
  {
   "id": "synthwavedd-2045519721798238601",
@@ -96382,7 +96574,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:34:29Z"
-  }
+  },
+  "pruned": "commentary: This is a conditional opinion about what a disappointing release would mean for the author’s view of AI progress, not a claim about non-public information."
  },
  {
   "id": "steph_palazzolo-2046230292344553548",
@@ -96883,7 +97076,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:14:37Z"
-  }
+  },
+  "pruned": "general_prediction: The release timing is framed as what seems likely based on public rollout patterns, making it a forecast rather than an information claim."
  },
  {
   "id": "vraserx-2046541994869039581",
@@ -97438,7 +97632,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:01:43Z"
-  }
+  },
+  "pruned": "general_prediction: This is a vague competitive prediction with no specific product, event, or timing."
  },
  {
   "id": "flowersslop-2046606761554051511",
@@ -100661,7 +100856,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:51:15Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "haider1-2049078251906314608",
@@ -100752,7 +100948,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:51:15Z"
-  }
+  },
+  "pruned": "general_prediction: This is a commentator's forecast about Google's competitive performance at I/O, not a claim of inside information."
  },
  {
   "id": "iruletheworldmo-2049145069333057974",
@@ -101027,23 +101224,30 @@
   "prune_checked": true,
   "claim_v1": "Google's next imminent Gemini model, referred to as Gemini 3.5, would become the new state of the art and be much more capable than the current state of the art, with over ten trillion parameters.",
   "resolution": {
-   "verdict": "mostly_true",
+   "verdict": "partly_true",
    "public_date": "2026-05-19",
    "official_date": "2026-05-19",
-   "explanation": "Gemini 3.5 Flash arrived 20 days after the April 29 post and Google presented it as a frontier-intelligence model built for action, calling it its strongest agentic and coding model yet. That substantially supports the agency prediction, though the post’s unqualified claim that it would be the new state of the art was broader than the public evidence establishes.",
+   "explanation": "Gemini 3.5 Flash launched on May 19 with substantial agentic improvements, matching the imminent release and agency assertions. However, Google's own evaluations show it trailing existing competitors on several major coding and reasoning benchmarks, not establishing the broadly superior new state of the art claimed; the asserted parameter count was not disclosed. ([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/))",
    "evidence": [
     {
-     "title": "Google: Gemini 3.5: frontier intelligence with action",
+     "title": "Gemini 3.5: frontier intelligence with action",
      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
     },
     {
-     "title": "Google DeepMind: Gemini 3.5 Flash model card",
-     "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/"
+     "title": "Gemini 3.5 Flash — Model Card",
+     "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/?trk=article-ssr-frontend-pulse_little-text-block"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T00:51:15Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "mostly_true",
+    "note": "Gemini 3.5 Flash launched on May 19 with substantial agentic improvements, matching the imminent release and agency assertions. However, Google's own evaluations show it trailing existing competitors on several major coding and reasoning benchmarks, not establishing the broadly superior new state of the art claimed; the asserted parameter count was not disclosed. ([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2049476615747309897",
@@ -101273,7 +101477,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: “There is a good chance” frames the GPT-6 launch date as an odds-based forecast."
  },
  {
   "id": "vraserx-2049568352184492471",
@@ -101824,7 +102029,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:31:43Z"
-  }
+  },
+  "pruned": "general_prediction: The post offers broad predictions about model progress and computer use rather than specific checkable product or event information."
  },
  {
   "id": "chetaslua-2050217781694787779",
@@ -102131,7 +102337,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:51:15Z"
-  }
+  },
+  "pruned": "general_prediction: The post frames its release dates and model lineup as the author's forecast, using “likely” and “hopefully.”"
  },
  {
   "id": "techdevnotes-2050592464382165371",
@@ -102695,7 +102902,8 @@
    "confidence": "high",
    "resolved_at": "2026-10-11T01:00:56Z"
   },
-  "claim_v1": "ChrisGPT claimed on 2026-05-04 that Meta would release 1T and 5T models in summer 2026."
+  "claim_v1": "ChrisGPT claimed on 2026-05-04 that Meta would release 1T and 5T models in summer 2026.",
+  "astra_checked": true
  },
  {
   "id": "bindureddy-2051416139235053586",
@@ -102731,7 +102939,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:59:14Z"
-  }
+  },
+  "pruned": "general_prediction: This is a commentator's expectation about the quality and price of an upcoming Gemini model, not a claim of inside information."
  },
  {
   "id": "andrewcurran_-2051426944106049851",
@@ -102886,7 +103095,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:16:45Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "vraserx-2051515149807235286",
@@ -103171,7 +103381,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:46:40Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly labels its claims as predictions, including the Sonnet 4.7 forecast; it does not assert inside information."
  },
  {
   "id": "andrewcurran_-2051651614294057362",
@@ -103315,7 +103526,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:59:14Z"
-  }
+  },
+  "pruned": "other_non_claim: The summary says Google is expected to announce these products at I/O, but the post only predicts they will likely be best in class; the summary's announcement claim is not present."
  },
  {
   "id": "pankajkumar_dev-2051667320888856632",
@@ -104283,7 +104495,8 @@
    "confidence": "high",
    "resolved_at": "2026-10-11T01:21:00Z"
   },
-  "claim_v1": "Rumor said OpenAI would release a Codex iOS app on 2026-05-07."
+  "claim_v1": "Rumor said OpenAI would release a Codex iOS app on 2026-05-07.",
+  "astra_checked": true
  },
  {
   "id": "yuchenj_uw-2052433997482049768",
@@ -105038,7 +105251,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:22:33Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "vraserx-2053733863482863691",
@@ -105383,27 +105597,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "already_public",
    "public_date": "2026-05-06",
    "official_date": null,
-   "explanation": "The anticipated Gemini 3.2 Flash did not launch by the May 31 deadline; Google instead announced Gemini 3.5 Flash on May 19. The post’s reported $0.25/$2 pricing and the four checkpoint codenames were not confirmed for the released model.",
+   "explanation": "Coverage published by May 6 already listed Ajax, Hercules, Hector and Orpheus, the $0.25/$2 pricing, near-Pro reasoning at Flash speed, and a May/pre-I/O release expectation. The May 11 post repackaged those circulating claims rather than revealing an original scoop; their prior circulation does not establish their truth. ([asi.tokyo](https://asi.tokyo/2026/05/06/gemini-omni%E3%80%81gemini-3-2-flash%E3%80%811200%E4%B8%87%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%A2%E3%83%87%E3%83%AB%E3%80%81claude/))",
    "evidence": [
     {
-     "title": "Gemini 3.2 Flash: $0.25/M Tokens, Faster Than 3.1 Pro",
-     "url": "https://aitechconnect.in/news/gemini-3-2-flash-025-per-million-tokens"
+     "title": "Gemini Omni, Gemini 3.2 Flash, a 12M Context Window Model, and more — May 6 coverage",
+     "url": "https://asi.tokyo/2026/05/06/gemini-omni%E3%80%81gemini-3-2-flash%E3%80%811200%E4%B8%87%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%A2%E3%83%87%E3%83%AB%E3%80%81claude/"
     },
     {
-     "title": "Gemini 3.5: frontier intelligence with action",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
-    },
-    {
-     "title": "Gemini API release notes",
-     "url": "https://ai.google.dev/gemini-api/docs/changelog"
+     "title": "Gemini 3.2 Flash, SubQ's 12M Context Window, and Claude's Finance Play",
+     "url": "https://buzzrag.com/article/gemini-32-flash-subq-12m-context-window-claude-finance-agents"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:59:14Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "Coverage published by May 6 already listed Ajax, Hercules, Hector and Orpheus, the $0.25/$2 pricing, near-Pro reasoning at Flash speed, and a May/pre-I/O release expectation. The May 11 post repackaged those circulating claims rather than revealing an original scoop; their prior circulation does not establish their truth. ([asi.tokyo](https://asi.tokyo/2026/05/06/gemini-omni%E3%80%81gemini-3-2-flash%E3%80%811200%E4%B8%87%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%A2%E3%83%87%E3%83%AB%E3%80%81claude/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-2053864197780619465",
@@ -105928,7 +106145,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:17:52Z"
-  }
+  },
+  "pruned": "general_prediction: The GPT-5.6 timing is explicitly framed as the author's guess, not inside information."
  },
  {
   "id": "vraserx-2054611050159387050-4",
@@ -106256,23 +106474,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "partly_true",
    "public_date": "2026-05-14",
-   "official_date": null,
-   "explanation": "OpenAI introduced an improved memory summary, but the claim that it would replace saved memories on September 1, 2026 did not happen as stated: OpenAI’s current help documentation still describes switching between improved memory and legacy saved memories. The summary and personalization controls were real, but the dated replacement was not.",
+   "official_date": "2026-06-04",
+   "explanation": "OpenAI independently confirmed the memory-summary feature on June 4, and its documentation supports reviewing and editing that summary. However, the specific September 1 replacement was not established: legacy saved memories remained available, and the sources found do not independently substantiate the original dated plan sufficiently to award full credit. ([help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))",
    "evidence": [
     {
-     "title": "Memory in ChatGPT",
+     "title": "ChatGPT release notes — June 4 memory update",
+     "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+     "title": "Memory in ChatGPT — improved memory and legacy saved memories",
      "url": "https://help.openai.com/en/articles/8590148-memory-in-chatgpt"
     },
     {
-     "title": "Dreaming: Better memory for a more helpful ChatGPT",
-     "url": "https://openai.com/index/chatgpt-memory-dreaming/"
+     "title": "May 14 public discussion of Tibor Blaho's original discovery",
+     "url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1td1tfn/oais_trying_to_erase_the_last_trace_of_4o_on/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:21:28Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "OpenAI independently confirmed the memory-summary feature on June 4, and its documentation supports reviewing and editing that summary. However, the specific September 1 replacement was not established: legacy saved memories remained available, and the sources found do not independently substantiate the original dated plan sufficiently to award full credit. ([help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-2054855591408099603-2",
@@ -107929,23 +108158,22 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-05-16",
-   "official_date": "2026-05-19",
-   "explanation": "The post floated Gemini 3.2 as a possible release instead of 3.5. Google announced and released Gemini 3.5 Flash on May 19, 2026; the Cloud Console sighting did not lead to a 3.2 launch in its place.",
-   "evidence": [
-    {
-     "title": "Gemini 3.5: frontier intelligence with action — Google",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
-    },
-    {
-     "title": "Gemini 3.5 Flash — Google DeepMind model card",
-     "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/"
-    }
-   ],
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "“We might be getting” is explicitly a speculative interpretation of the console sighting, not a separate assertion of non-public release plans. The targeted assertion concerns that naming speculation, not whether the reported console entry existed.",
+   "evidence": [],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:56:39Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "“We might be getting” is explicitly a speculative interpretation of the console sighting, not a separate assertion of non-public release plans. The targeted assertion concerns that naming speculation, not whether the reported console entry existed."
+   }
+  },
+  "astra_checked": true,
+  "pruned": "general_prediction: The summary claim is the poster's speculation about what Google might release, based on a spotted model name."
  },
  {
   "id": "aibattle_-2055762242373558477",
@@ -108022,7 +108250,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:46:40Z"
-  }
+  },
+  "pruned": "general_prediction: The post asks whether Anthropic is preparing a public release; the summary accurately captures that speculation, not an asserted plan."
  },
  {
   "id": "iruletheworldmo-2055817195754553418",
@@ -108540,7 +108769,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:59:55Z"
-  }
+  },
+  "pruned": "general_prediction: The post labels these as potential releases and speculates that Gemini 3.2 may appear at I/O; it presents no inside information for this claim."
  },
  {
   "id": "daniel_mac8-2056373708382486994-2",
@@ -108630,7 +108860,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:44:46Z"
-  }
+  },
+  "pruned": "general_prediction: The post raises Opus 5 as a speculative possibility at the event, rather than asserting a release plan."
  },
  {
   "id": "pankajkumar_dev-2056380438801953223",
@@ -109201,7 +109432,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:56:52Z"
-  }
+  },
+  "pruned": "general_prediction: The summary describes the author's explicitly stated expectations about an announcement and availability."
  },
  {
   "id": "aibattle_-2056700354826235963",
@@ -110087,23 +110319,26 @@
   "prune_checked": true,
   "claim_v1": "Google had officially confirmed Gemini 3.5 Pro was coming in June 2026, likely mid-to-late June, and it would be Google's new flagship model focused on coding, agents, reasoning, and memory, with pricing near Gemini 3.1 Pro or about 1.5x higher and faster responses than Gemini 3.1 Pro.",
   "resolution": {
-   "verdict": "false",
+   "verdict": "already_public",
    "public_date": "2026-05-19",
-   "official_date": null,
-   "explanation": "Google’s May 19 announcement already said Gemini 3.5 Pro was expected the following month, so the June timing was not novel. It did not launch by the stated June 30 deadline; later reporting described it as delayed and still in testing.",
+   "official_date": "2026-05-19",
+   "explanation": "Google's May 19 announcement already said Gemini 3.5 Pro was being used internally and was planned for rollout the following month. The May 20 post explicitly relayed that official confirmation; its pricing expectations and hoped-for knowledge cutoff do not turn the public announcement into a scoop. ([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/))",
    "evidence": [
     {
-     "title": "Google: Gemini 3.5: frontier intelligence with action",
+     "title": "Gemini 3.5: frontier intelligence with action",
      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
-    },
-    {
-     "title": "Bloomberg: Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
-     "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:55:18Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "Google's May 19 announcement already said Gemini 3.5 Pro was being used internally and was planned for rollout the following month. The May 20 post explicitly relayed that official confirmation; its pricing expectations and hoped-for knowledge cutoff do not turn the public announcement into a scoop. ([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2057120472785928257",
@@ -110288,7 +110523,8 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:32:46Z"
   },
-  "astra_checked": true
+  "astra_checked": true,
+  "pruned": "general_prediction: The author explicitly frames the assertions as a prediction to quote later."
  },
  {
   "id": "alexeheath-2057217091489669620",
@@ -110821,23 +111057,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2026-05-22",
-   "official_date": "2026-06-30",
-   "explanation": "A Sonnet model did arrive on the stated June 30 deadline, and Anthropic publicly skipped from Sonnet 4.6 to Sonnet 5. The post’s predicted Sonnet 4.8 name and several specific technical details were not confirmed, making this a substantially right product/timing prediction with meaningful inaccuracies.",
+   "verdict": "already_public",
+   "public_date": "2026-03-31",
+   "official_date": null,
+   "explanation": "The Sonnet 4.8 source-map rumor was already circulating after the March 31 leak, and an April 21 article discussed skipping 4.7 and inheriting Opus vision, coding and xhigh improvements. This post repackages those public rumors with a speculative June estimate rather than presenting an original discovery. ([decodethefuture.org](https://decodethefuture.org/en/claude-opus-4-7-sonnet-4-8-capybara-model-roadmap-leaked/))",
    "evidence": [
     {
-     "title": "Introducing Claude Sonnet 5",
-     "url": "https://www.anthropic.com/news/claude-sonnet-5"
+     "title": "Claude Sonnet 4.8 & Capybara Leak: What Shipped",
+     "url": "https://decodethefuture.org/en/claude-opus-4-7-sonnet-4-8-capybara-model-roadmap-leaked/"
     },
     {
-     "title": "Claude Opus 4.8’s launch and features",
-     "url": "https://www.anthropic.com/news/claude-opus-4-8"
+     "title": "Claude Sonnet 4.8: Release Signals, Pricing and Alternatives",
+     "url": "https://www.nxcode.ai/resources/news/claude-sonnet-4-8-release-date-features-what-to-expect-2026"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T00:44:46Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "mostly_true",
+    "note": "The Sonnet 4.8 source-map rumor was already circulating after the March 31 leak, and an April 21 article discussed skipping 4.7 and inheriting Opus vision, coding and xhigh improvements. This post repackages those public rumors with a speculative June estimate rather than presenting an original discovery. ([decodethefuture.org](https://decodethefuture.org/en/claude-opus-4-7-sonnet-4-8-capybara-model-roadmap-leaked/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "ns123abc-2057897605934244265",
@@ -111873,23 +112116,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
+   "verdict": "pending",
    "public_date": "2026-05-27",
-   "official_date": "2026-09-16",
-   "explanation": "Google’s Business edition later confirmed collaborative project workspaces and workflow-agent capabilities, matching the post’s core description. The public confirmation found here documents agent building and team sharing, but does not independently establish every claimed detail about the rollout or deeper integration.",
+   "official_date": null,
+   "explanation": "TestingCatalog's May 27 report describes a Business-specific Projects experience; Google's earlier Enterprise announcement does not independently establish that expansion. The Business release notes document agent functionality but do not confirm the claimed collaborative Projects rollout, leaving the distinctive assertion unresolved without a deadline. ([testingcatalog.com](https://www.testingcatalog.com/google-expands-gemini-for-business-with-shareable-projects/))",
    "evidence": [
-    {
-     "title": "Create and manage agents using Agent Designer — Gemini Enterprise – Business Edition Help",
-     "url": "https://support.google.com/g/answer/16540723?hl=en"
-    },
     {
      "title": "Google expands Gemini for Business with shareable Projects",
      "url": "https://www.testingcatalog.com/google-expands-gemini-for-business-with-shareable-projects/"
+    },
+    {
+     "title": "Gemini Enterprise – Business edition release notes",
+     "url": "https://support.google.com/g/answer/16719009?hl=en-GB"
+    },
+    {
+     "title": "What’s new in Gemini Enterprise",
+     "url": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise/?hl=en"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T00:56:52Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "mostly_true",
+    "note": "TestingCatalog's May 27 report describes a Business-specific Projects experience; Google's earlier Enterprise announcement does not independently establish that expansion. The Business release notes document agent functionality but do not confirm the claimed collaborative Projects rollout, leaving the distinctive assertion unresolved without a deadline. ([testingcatalog.com](https://www.testingcatalog.com/google-expands-gemini-for-business-with-shareable-projects/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2059714382460817875",
@@ -112483,23 +112737,26 @@
   "prune_checked": true,
   "claim_v1": "OpenAI is definitely preparing a better image model as of 2026-05-28.",
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-05-28",
-   "official_date": "2026-09-08",
-   "explanation": "OpenAI later announced ChatGPT Images 2.5, an improved image-generation model, on September 8. That supports the post’s broad claim that OpenAI was preparing a better image model, though it does not establish that the linked example was from that model.",
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post infers a better model from differences between two image outputs; it offers no identifiable unreleased model or concrete evidence of an internal test. OpenAI's September 8 Images 2.5 release does not retroactively turn this subjective reaction into a substantiated leak. ([openai.com](https://openai.com/index/introducing-chatgpt-images-2-5/))",
    "evidence": [
     {
      "title": "Introducing ChatGPT Images 2.5",
      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
-    },
-    {
-     "title": "ChatGPT Images 2.5 System Card",
-     "url": "https://deploymentsafety.openai.com/chatgpt-images-2-5/safety-evaluations"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:23:38Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "The post infers a better model from differences between two image outputs; it offers no identifiable unreleased model or concrete evidence of an internal test. OpenAI's September 8 Images 2.5 release does not retroactively turn this subjective reaction into a substantiated leak. ([openai.com](https://openai.com/index/introducing-chatgpt-images-2-5/))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2060192684564779358",
@@ -113418,7 +113675,7 @@
   "id": "daniel_mac8-2062477630620790978",
   "handle": "daniel_mac8",
   "date": "2026-06-04T10:12:40Z",
-  "claim": "GPT-5.6 will not be released on 2026-06-04, and it will be the Codex SuperApp.",
+  "claim": "The Codex SuperApp, rather than GPT-5.6, will be released on 2026-06-04.",
   "lab": "OpenAI",
   "topic": "product_feature",
   "specificity": 4,
@@ -113444,7 +113701,7 @@
   "origin": "tweet",
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
-  "claim_v1": "OpenAI was going to release the Codex SuperApp on 2026-06-04 instead of GPT-5.6.",
+  "claim_v1": "GPT-5.6 will not be released on 2026-06-04, and it will be the Codex SuperApp.",
   "resolution": {
    "verdict": "partly_true",
    "public_date": "2026-06-04",
@@ -113462,7 +113719,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:15:55Z"
-  }
+  },
+  "_needs_regrade": true
  },
  {
   "id": "synthwavedd-2062519972379652339",
@@ -115547,7 +115805,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:43:17Z"
-  }
+  },
+  "pruned": "general_prediction: The launch timing is framed as speculation: Mythos might arrive next week. The GPT-5.6 timing is also expressed as a feeling, not inside information."
  },
  {
   "id": "haider1-2063320013772063128",
@@ -118362,7 +118621,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:16:37Z"
-  }
+  },
+  "pruned": "general_prediction: The summary concerns a possible arrival date, which the post explicitly frames as something that could happen, not as inside information."
  },
  {
   "id": "imjustnewatai-2064419017058562093-2",
@@ -118456,7 +118716,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:43:38Z"
-  }
+  },
+  "pruned": "general_prediction: The post speculates that access may end after June 22 and conditions that prediction on Anthropic not extending the window."
  },
  {
   "id": "anissagardizy8-2064530402119913839",
@@ -118900,7 +119161,8 @@
    "confidence": "high",
    "resolved_at": "2026-10-11T01:16:29Z"
   },
-  "astra_checked": true
+  "astra_checked": true,
+  "pruned": "general_prediction: The June 22 timing is presented as a strategic guess about what OpenAI will probably do, not as inside information."
  },
  {
   "id": "daniel_mac8-2064824643110797735",
@@ -119147,7 +119409,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:16:29Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly labels these as predictions and gives its own odds and forecast for release timing."
  },
  {
   "id": "chrisgpt-2065298469082775678",
@@ -119176,19 +119439,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-09-06",
-   "official_date": "2026-09-06",
-   "explanation": "On September 6, OpenAI publicly said it had reached its goal of an automated research intern by September. That substantially matches the post’s September prediction of unveiling an assistant auto-researcher, though OpenAI’s public label was “automated research intern.”",
+   "verdict": "already_public",
+   "public_date": "2025-10-28",
+   "official_date": "2025-10-28",
+   "explanation": "Sam Altman publicly announced the September 2026 research-assistant target during OpenAI's October 28, 2025 livestream, months before this countdown post. OpenAI subsequently reported reaching the automated research-intern milestone on September 6, 2026. ([tomsguide.com](https://www.tomsguide.com/live/news/openai-event-live-sam-altman-october-ama))",
    "evidence": [
     {
-     "title": "OpenAI: Research acceleration: The view inside OpenAI",
+     "title": "OpenAI live blog — Sam Altman hosts AMA",
+     "url": "https://www.tomsguide.com/live/news/openai-event-live-sam-altman-october-ama"
+    },
+    {
+     "title": "Research acceleration: The view inside OpenAI",
      "url": "https://openai.com/index/research-acceleration-view-inside-openai/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:16:29Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "Sam Altman publicly announced the September 2026 research-assistant target during OpenAI's October 28, 2025 livestream, months before this countdown post. OpenAI subsequently reported reaching the automated research-intern milestone on September 6, 2026. ([tomsguide.com](https://www.tomsguide.com/live/news/openai-event-live-sam-altman-october-ama))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "bindureddy-2065328668570964015",
@@ -119784,7 +120058,8 @@
     "note": "“If GPT 5.6 lands the way I think it will” is conditional speculation about a future model, not a claim of privileged knowledge about its existence or development. The June 26 preview does not retroactively turn that commentary into a leak. ([openai.com](https://openai.com/index/previewing-gpt-5-6-sol/))"
    }
   },
-  "astra_checked": true
+  "astra_checked": true,
+  "pruned": "other_non_claim: The summary claims an unreleased GPT-5.6 model exists, but the post only makes a conditional prediction about how GPT-5.6 might perform; it does not assert the model exists."
  },
  {
   "id": "daniel_mac8-2066109716581777466",
@@ -120003,7 +120278,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "Fable 5 would be open-sourced on 2026-06-15."
+  "claim_v1": "Fable 5 would be open-sourced on 2026-06-15.",
+  "pruned": "joke_or_vibes: The post is a joking first-person claim about open-sourcing a model the poster does not control, rather than credible non-public information."
  },
  {
   "id": "testingcatalog-2066527408472080411",
@@ -120600,7 +120876,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:58:13Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2066909192674226550",
@@ -120832,13 +121109,14 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:17:55Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly says the author expects a July–August release, framing the timing as their own forecast."
  },
  {
   "id": "chrisgpt-2066917962704171443-4",
   "handle": "ChrisGPT",
   "date": "2026-06-16T16:16:58Z",
-  "claim": "OpenAI will start training Vera Rubin-class models and end 2026 with spectacular resulting systems.",
+  "claim": "OpenAI is expected to begin a training run on Vera Rubin-class models, which the author expects will lead to some spectacular results by the end of 2026.",
   "lab": "OpenAI",
   "topic": "model_release",
   "specificity": 2,
@@ -120877,7 +121155,9 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:22:16Z"
-  }
+  },
+  "claim_v1": "OpenAI will start training Vera Rubin-class models and end 2026 with spectacular resulting systems.",
+  "_needs_regrade": true
  },
  {
   "id": "testingcatalog-2066919098236146167",
@@ -121775,7 +122055,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:22:16Z"
-  }
+  },
+  "pruned": "general_prediction: “Could drop today” is a hedged prediction, and the post gives no indication of inside information."
  },
  {
   "id": "pankajkumar_dev-2067610983565246494",
@@ -122650,7 +122931,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:43:56Z"
-  }
+  },
+  "pruned": "general_prediction: “Bet on it” frames the release timing as the author's own prediction, not inside information."
  },
  {
   "id": "imjustnewatai-2068156587139571902",
@@ -123179,7 +123461,7 @@
   "id": "andrewcurran_-2068748019030483365",
   "handle": "AndrewCurran_",
   "date": "2026-06-21T17:28:57Z",
-  "claim": "Anthropic has completed training a new, more capable successor to Mythos 5 by 2026-06-21, though it may be released as Mythos 5.1 or Mythos 6 or kept internal.",
+  "claim": "Anthropic has a new, more capable version of Mythos that has emerged from training, and it may be called Mythos 5.1 or Mythos 6 or kept internal.",
   "lab": "Anthropic",
   "topic": "model_release",
   "specificity": 3,
@@ -123214,7 +123496,9 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:44:26Z"
-  }
+  },
+  "claim_v1": "Anthropic has completed training a new, more capable successor to Mythos 5 by 2026-06-21, though it may be released as Mythos 5.1 or Mythos 6 or kept internal.",
+  "_needs_regrade": true
  },
  {
   "id": "chrisgpt-2068759922079105239",
@@ -123310,7 +123594,8 @@
    "confidence": "high",
    "resolved_at": "2026-10-11T00:44:26Z"
   },
-  "claim_v1": "ChrisGPT speculated that Anthropic would likely release this newly trained Mythos model sometime in July 2026."
+  "claim_v1": "ChrisGPT speculated that Anthropic would likely release this newly trained Mythos model sometime in July 2026.",
+  "pruned": "general_prediction: The July release timing is explicitly framed as the author's expectation, not inside information."
  },
  {
   "id": "synthwavedd-2068796360162226346",
@@ -124513,7 +124798,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:54:08Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-2069432791184650426-3",
@@ -126497,7 +126783,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:37:33Z"
-  }
+  },
+  "pruned": "other_non_claim: The post reports a visible model-picker change but leaves its cryptic implication unspecified; the summary adds an imminent new-model switch not clearly stated."
  },
  {
   "id": "testingcatalog-2070299350601789652",
@@ -127173,7 +127460,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:45Z"
-  }
+  },
+  "pruned": "general_prediction: The post frames a U.S.-only GPT-5.6 launch as merely within the realm of possibility."
  },
  {
   "id": "deredleritt3r-2070661019437764731",
@@ -127215,7 +127503,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:45:34Z"
-  }
+  },
+  "pruned": "commentary: This is the author's interpretation of a letter, presented as commentary about what the U.S. government inferred."
  },
  {
   "id": "chrisgpt-2070689483901604202",
@@ -127570,7 +127859,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The claim that Fable 5 will be available soon is explicitly framed as the author's belief and expectation."
  },
  {
   "id": "deredleritt3r-2071012413630259407-4",
@@ -131075,7 +131365,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:21:43Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "haider1-2072621387358032306",
@@ -131236,7 +131527,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The post frames a same-day voice-mode release as a hope, not information."
  },
  {
   "id": "pankajkumar_dev-2072683989207523471",
@@ -134220,7 +134512,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:45:42Z"
-  }
+  },
+  "pruned": "general_prediction: The surprise-reset claim is framed as the author’s own odds-based prediction, not inside information."
  },
  {
   "id": "ns123abc-2074595966137610288",
@@ -134819,7 +135112,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "quoting_official: Attributes the release timing to OpenAI and presents it as an official announcement rather than independent inside information."
  },
  {
   "id": "chetaslua-2074765505416864168",
@@ -135285,7 +135579,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:41:45Z"
-  }
+  },
+  "pruned": "reaction_to_public_news: The usage-limit reset is described as already observed, while the proposed coincidence with a release is the author’s speculation."
  },
  {
   "id": "scaling01-2074836771951587592",
@@ -137468,23 +137763,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-10-08",
-   "official_date": "2026-10-08",
-   "explanation": "By October 8, SpaceXAI’s documentation described Grok using Imagine for image creation as part of conversational or agentic workflows, and the official Grok Build repository included an Imagine-video command. That confirms the substance of the no-deadline claim, although the image and video integrations are documented through different interfaces.",
+   "verdict": "already_public",
+   "public_date": "2026-07-08",
+   "official_date": "2026-07-08",
+   "explanation": "Elon Musk publicly announced on July 8 that Grok would call Imagine as a tool in agentic mode for image and video generation. XFreeze's July 9 post relayed that already-public plan rather than revealing it independently. ([247wallst.com](https://247wallst.com/cards/xpost-01kx1rjxpp8qq31wm197995vzt?utm_source=openai))",
    "evidence": [
     {
-     "title": "Image Generation Tool — SpaceXAI Docs",
-     "url": "https://docs.x.ai/developers/tools/image-generation"
-    },
-    {
-     "title": "Grok Build user guide",
-     "url": "https://github.com/xai-org/grok-build/blob/main/crates/codegen/xai-grok-pager/docs/user-guide/04-slash-commands.md"
+     "title": "Grok Gets Agentic Image and Video Generation via Imagine Tool",
+     "url": "https://247wallst.com/cards/xpost-01kx1rjxpp8qq31wm197995vzt"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:41:45Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "Elon Musk publicly announced on July 8 that Grok would call Imagine as a tool in agentic mode for image and video generation. XFreeze's July 9 post relayed that already-public plan rather than revealing it independently. ([247wallst.com](https://247wallst.com/cards/xpost-01kx1rjxpp8qq31wm197995vzt?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "xfreeze-2075252689529983026-5",
@@ -137624,7 +137922,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:52Z"
-  }
+  },
+  "pruned": "reaction_to_public_news: The post interprets teasers associated with an announced public livestream; it does not provide non-public information."
  },
  {
   "id": "ai_for_success-2075255574829383863",
@@ -137864,7 +138163,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:20:22Z"
-  }
+  },
+  "pruned": "general_prediction: The post frames the launch idea as a speculative inference from livestream timing, not as inside information."
  },
  {
   "id": "chrisgpt-2075263583798337643",
@@ -138194,23 +138494,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post said Gemini 3.5 Pro was tentatively aiming for the end of July, but it did not launch by July 31. Google said on July 21 that the model was still testing with partners and would be broadly available when ready.",
+   "explanation": "July 16 reporting independently confirmed continuing delays, but did not corroborate an internal end-of-July target as of July 10. The post describes a tentative internal aim, not an unconditional launch promise; the subsequent absence of a July release does not establish whether that aim existed. ([investing.com](https://www.investing.com/news/stock-market-news/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals-bloomberg-news-reports-4796622))",
    "evidence": [
     {
-     "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
-     "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/"
+     "title": "Google Gemini launch delayed as tech falls short of internal goals, Bloomberg News reports",
+     "url": "https://www.investing.com/news/stock-market-news/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals-bloomberg-news-reports-4796622"
     },
     {
      "title": "Gemini API release notes",
      "url": "https://ai.google.dev/gemini-api/docs/changelog"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:54:08Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "July 16 reporting independently confirmed continuing delays, but did not corroborate an internal end-of-July target as of July 10. The post describes a tentative internal aim, not an unconditional launch promise; the subsequent absence of a July release does not establish whether that aim existed. ([investing.com](https://www.investing.com/news/stock-market-news/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals-bloomberg-news-reports-4796622))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-2075663002758471713",
@@ -138526,7 +138833,7 @@
   "id": "bindureddy-2075815752213712959",
   "handle": "bindureddy",
   "date": "2026-07-11T05:33:36Z",
-  "claim": "Google's Gemini 3.5 has been delayed until 2026-07-31.",
+  "claim": "Google's Gemini 3.5 has been delayed until the end of July 2026.",
   "lab": "Google",
   "topic": "model_release",
   "specificity": 4,
@@ -138565,7 +138872,9 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:54:08Z"
-  }
+  },
+  "claim_v1": "Google's Gemini 3.5 has been delayed until 2026-07-31.",
+  "_needs_regrade": true
  },
  {
   "id": "bindureddy-2075815752213712959-2",
@@ -138727,7 +139036,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The post explicitly labels the eight-week timing and model-size estimates as the poster's prediction; the indirect-confirmation language refers to a public engineer's remarks."
  },
  {
   "id": "techdevnotes-2075882531682160937",
@@ -139272,7 +139582,8 @@
     "note": "Opus 5 did ship, but 10 days after the predicted July 14, at roughly GPT-5.6 Sol's price; the Fable-removal and Mythos-distillation parts are unconfirmed, so some substance is right and a major element is off."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The post explicitly labels its claims as a prediction and treats the identification of Opus 5 as speculation."
  },
  {
   "id": "btibor91-2076030966238470548",
@@ -139445,23 +139756,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "The claim gives Grok 4.5 an exact cutoff of February 1, 2026, but the Grok 4.5 model card says its pretraining cutoff was January 2026. xAI’s documentation associates February 1, 2026 with Grok 4.6, not Grok 4.5.",
+   "explanation": "No reliably dated source establishes that this specific cutoff was public before July 12, 2026; DataCamp's July 14 article states February 1, 2026, but provides no independently verifiable sourcing for that detail. xAI's available Grok 4.5 documentation omits the cutoff, leaving the exact claim unconfirmed rather than disproved. ([datacamp.com](https://www.datacamp.com/blog/grok-4-5))",
    "evidence": [
     {
-     "title": "Grok 4.5 Model Card · Cursor",
-     "url": "https://cursor.com/blog/grok-4-5-model-card"
+     "title": "Grok 4.5 — official model documentation",
+     "url": "https://docs.x.ai/developers/models/grok-4.5"
     },
     {
-     "title": "Grok Models & Pricing · SpaceXAI Docs",
-     "url": "https://docs.x.ai/developers/models"
+     "title": "Grok 4.5: Features, Benchmarks, Pricing, and Hands-On Tests",
+     "url": "https://www.datacamp.com/blog/grok-4-5"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:41:31Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "No reliably dated source establishes that this specific cutoff was public before July 12, 2026; DataCamp's July 14 article states February 1, 2026, but provides no independently verifiable sourcing for that detail. xAI's available Grok 4.5 documentation omits the cutoff, leaving the exact claim unconfirmed rather than disproved. ([datacamp.com](https://www.datacamp.com/blog/grok-4-5))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "techdevnotes-2076209356950192321",
@@ -139952,7 +140270,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:41:31Z"
-  }
+  },
+  "pruned": "other_non_claim: The post merely says the author is waiting for Grok Desktop; it adds no non-public product information."
  },
  {
   "id": "chrisgpt-2076672793408672045",
@@ -140646,7 +140965,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:02:51Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-2077049516923007378",
@@ -142086,19 +142406,31 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-07-08",
-   "official_date": "2026-07-08",
-   "explanation": "Grok 4.5 was already available in Cursor on July 8, according to Cursor’s launch announcement. It did not newly become available later on July 15 as the post expected.",
+   "verdict": "true",
+   "public_date": "2026-07-16",
+   "official_date": "2026-07-16",
+   "explanation": "In context, the prediction concerns European Cursor availability, not the already-public July 8 launch elsewhere. Cursor confirmed EU availability on July 16, within the three-day tolerance for the July 15 prediction. ([prod.cursor.com](https://prod.cursor.com/blog/grok-4-5))",
    "evidence": [
     {
-     "title": "Cursor: Introducing Grok 4.5",
+     "title": "Cursor staff update: Grok 4.5 availability in the EU",
+     "url": "https://forum.cursor.com/t/share-your-thoughts-on-grok-4-5/165160/136"
+    },
+    {
+     "title": "Introducing Grok 4.5",
      "url": "https://prod.cursor.com/blog/grok-4-5"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:41:31Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "In context, the prediction concerns European Cursor availability, not the already-public July 8 launch elsewhere. Cursor confirmed EU availability on July 16, within the three-day tolerance for the July 15 prediction. ([prod.cursor.com](https://prod.cursor.com/blog/grok-4-5))"
+   }
+  },
+  "astra_checked": true,
+  "pruned": "general_prediction: The availability in Cursor is explicitly framed as the author's expectation, not as inside information."
  },
  {
   "id": "techdevnotes-2077364422612595021",
@@ -142859,7 +143191,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The post says Fable 5 likely will not return after the publicly stated access period, which is a forecast rather than inside information."
  },
  {
   "id": "ai_for_success-2077662060536881213",
@@ -142888,23 +143221,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-07-17",
-   "official_date": "2026-07-17",
-   "explanation": "Fable 5 remained included in Max and Team Premium plans starting July 20, as Anthropic announced July 17. That supports the post’s prediction that access would be extended again, although the arrangement changed rather than simply extending the same promotion for everyone.",
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post presents competitive commentary and an inferred prediction—Anthropic has 'no other option'—rather than claiming knowledge of an unannounced access decision. The previously announced extension through July 19 should not be credited as confirmation of a further extension predicted on July 16. ([forbes.com](https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/?utm_source=openai))",
    "evidence": [
     {
-     "title": "Anthropic Help Center: Claude Fable 5 on your plan",
-     "url": "https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan"
-    },
-    {
-     "title": "Anthropic’s July 17 plan-change announcement, quoted in the post",
-     "url": "https://x.com/claudeai/status/2078120000000000000"
+     "title": "Claude Fable 5 Extends To July 19. 7 Days, 7 Power Moves",
+     "url": "https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:47:35Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "The post presents competitive commentary and an inferred prediction—Anthropic has 'no other option'—rather than claiming knowledge of an unannounced access decision. The previously announced extension through July 19 should not be credited as confirmation of a further extension predicted on July 16. ([forbes.com](https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "daniel_mac8-2077702012305559824",
@@ -144397,7 +144733,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "OpenAI's GPT-6 is likely to launch by 2026-08-07, with one tweet also saying it has been rumored to launch in August 2026."
+  "claim_v1": "OpenAI's GPT-6 is likely to launch by 2026-08-07, with one tweet also saying it has been rumored to launch in August 2026.",
+  "pruned": "general_prediction: The post frames GPT-6's timing as the author's likelihood-based forecast and offers no indication of inside information."
  },
  {
   "id": "m1astra-2078338547505926453",
@@ -146390,7 +146727,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:19:54Z"
-  }
+  },
+  "pruned": "general_prediction: “I smell” and the question mark frame an August release as the poster’s own speculation."
  },
  {
   "id": "pankajkumar_dev-2079792974645670324",
@@ -146857,7 +147195,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:41:31Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2079952595817472391",
@@ -148902,7 +149241,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:19:42Z"
-  }
+  },
+  "pruned": "general_prediction: The post asks whether the release is coming rather than asserting that it is; it is a speculative question."
  },
  {
   "id": "imjustnewatai-2080689343916540217",
@@ -149198,23 +149538,30 @@
   "prune_checked": true,
   "claim_v1": "Anthropic has an unreleased model called Claude Opus 5 that was spotted in the API on 2026-07-24, and it reportedly outperforms models such as Fable 5, Sol 5.6, Opus 4.8, and Mythos on benchmarks including Frontier Bench, ARC-AGI-3, AA Coding Agent Index, while only losing in cybersecurity.",
   "resolution": {
-   "verdict": "false",
+   "verdict": "partly_true",
    "public_date": "2026-07-24",
    "official_date": "2026-07-24",
-   "explanation": "Opus 5 did appear in the API and later launched on July 24, but the claim that it beat Fable 5 in every benchmark is too broad: Anthropic described it as close to Fable 5 overall and reported specific areas where it led, not universal benchmark dominance.",
+   "explanation": "Opus 5 launched on July 24, and ARC Prize independently confirmed its leading ARC-AGI-3 result. However, the claim that it beat Fable 5 on every benchmark was overstated: Anthropic reported it remained slightly behind Fable on CursorBench and behind Mythos in biology as well as cybersecurity. ([arcprize.org](https://arcprize.org/results/anthropic-claude-opus-5?utm_source=openai))",
    "evidence": [
     {
      "title": "Introducing Claude Opus 5",
      "url": "https://www.anthropic.com/news/claude-opus-5"
     },
     {
-     "title": "Claude Opus 5 model overview",
-     "url": "https://platform.claude.com/docs/en/models/opus-5/overview"
+     "title": "Claude Opus 5 — ARC-AGI Results",
+     "url": "https://arcprize.org/results/anthropic-claude-opus-5"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:45:46Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "Opus 5 launched on July 24, and ARC Prize independently confirmed its leading ARC-AGI-3 result. However, the claim that it beat Fable 5 on every benchmark was overstated: Anthropic reported it remained slightly behind Fable on CursorBench and behind Mythos in biology as well as cybersecurity. ([arcprize.org](https://arcprize.org/results/anthropic-claude-opus-5?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "andrewcurran_-2080699829177799160",
@@ -149814,7 +150161,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:46:36Z"
-  }
+  },
+  "pruned": "general_prediction: The poster explicitly frames the claim as their own belief with “I think,” rather than asserting inside information."
  },
  {
   "id": "vraserx-2081448236951167124",
@@ -150200,7 +150548,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:37:49Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-2081772731163648425",
@@ -152238,7 +152587,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:31:12Z"
-  }
+  },
+  "pruned": "general_prediction: The poster explicitly describes this as gambling on alternative outcomes, not as information about what will happen."
  },
  {
   "id": "dseetharaman-2083292737877754107",
@@ -152617,7 +152967,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The GPT-6 timing and checkpoint claims are explicitly framed as plausibility and likelihood judgments, with no claim of inside information."
  },
  {
   "id": "haider1-2083440088566878491",
@@ -153132,7 +153483,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:20:41Z"
-  }
+  },
+  "pruned": "general_prediction: The claimed future system is explicitly presented as the author’s interpretation of Tibo’s remarks, not as inside information."
  },
  {
   "id": "mark_k-2084531415220208006",
@@ -153172,7 +153524,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:24:54Z"
-  }
+  },
+  "pruned": "commentary: The post speculates about possible agent swarms and cloud computing based on a public quote; it does not assert inside information."
  },
  {
   "id": "daniel_mac8-2084605896923988112",
@@ -153438,7 +153791,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "OpenAI will release GPT Astra or GPT-6 Astra by the end of August 2026."
+  "claim_v1": "OpenAI will release GPT Astra or GPT-6 Astra by the end of August 2026.",
+  "pruned": "general_prediction: The post says Astra may arrive at the end of August, framing this as an uncertain forecast rather than inside information."
  },
  {
   "id": "imjustnewatai-2084785293329043867",
@@ -153484,7 +153838,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:24:54Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly says “i think” the Hot Chips talk will reveal Jalapeño, making this their own prediction."
  },
  {
   "id": "chetaslua-a95649083b5",
@@ -154464,7 +154819,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:55:36Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2085313166658130222",
@@ -154944,7 +155300,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:22:49Z"
-  }
+  },
+  "pruned": "general_prediction: The launch timing is only a conditional scenario, and the post explicitly frames its capability assessment as the author's suspicion."
  },
  {
   "id": "testingcatalog-2085423356665352313",
@@ -155127,23 +155484,30 @@
   "prune_checked": true,
   "claim_v1": "Google is releasing Gemini 3.7 Flash in August 2026, the same month as GPT-6.",
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-08-07",
+   "verdict": "partly_true",
+   "public_date": "2026-08-13",
    "official_date": "2026-08-13",
-   "explanation": "Gemini 3.7 Flash launched on August 13, while OpenAI introduced GPT-6 in September—not the same month. The claimed month match was wrong.",
+   "explanation": "Google released Gemini 3.7 Flash on August 13, 2026, correctly matching the named model and August window. However, the post specifically claimed the same month as GPT-6, whereas GPT-6 Astra launched on September 3, so the central timing comparison was wrong. ([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/?trk=public_post_comment-text&utm_source=openai))",
    "evidence": [
     {
-     "title": "Introducing Gemini 3.7 Flash",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+     "title": "Google: Introducing Gemini 3.7 Flash",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/?trk=public_post_comment-text"
     },
     {
-     "title": "GPT-6 Astra: A new generation of intelligence",
-     "url": "https://openai.com/index/gpt-6-astra/"
+     "title": "OpenAI: Safety overview — GPT-6 Astra",
+     "url": "https://openai.com/index/safety-overview-gpt-6-astra/?trk=public_post_comment-text"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:02:24Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "Google released Gemini 3.7 Flash on August 13, 2026, correctly matching the named model and August window. However, the post specifically claimed the same month as GPT-6, whereas GPT-6 Astra launched on September 3, so the central timing comparison was wrong. ([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/?trk=public_post_comment-text&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "flowersslop-2085542000653156834",
@@ -156210,7 +156574,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:20:28Z"
-  }
+  },
+  "pruned": "general_prediction: The summary's launch-timing claim is framed as the author's own possibility and forecast, not as inside information."
  },
  {
   "id": "pankajkumar_dev-2086033443046220142",
@@ -156631,7 +156996,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:20:28Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly asks whether Astra might arrive in August, presenting the timing as speculation rather than inside information."
  },
  {
   "id": "ai_for_success-2086259462101434679",
@@ -156676,23 +157042,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": null,
+   "verdict": "already_public",
+   "public_date": "2026-08-04",
    "official_date": "2026-08-12",
-   "explanation": "Grok 4.6 did launch in Cursor, but on August 12 rather than the specifically predicted August 11—one day late and within the policy’s three-day allowance. The release also fell within the broader “next week” expectation.",
+   "explanation": "Musk publicly said on August 4 that Grok 4.6 would probably arrive the following week, preceding this aggregator’s quoted-teaser reactions. The later Cursor-today inference narrowed that public window; Cursor actually released Grok 4.6 on August 12, 2026, one day afterward. ([elonmuskarchive.org](https://elonmuskarchive.org/video/spacex-q2-2026-earnings-call?utm_source=openai))",
    "evidence": [
     {
-     "title": "Introducing Grok 4.6 — SpaceXAI",
-     "url": "https://x.ai/news/grok-4-6"
+     "title": "SpaceX Q2 2026 earnings call transcript — August 4",
+     "url": "https://elonmuskarchive.org/video/spacex-q2-2026-earnings-call"
     },
     {
-     "title": "Introducing Grok 4.6 — Cursor",
-     "url": "https://cursor.com/blog/grok-4-6"
+     "title": "Cursor: Introducing Grok 4.6",
+     "url": "https://prod.cursor.com/blog/grok-4-6"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:39:06Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "Musk publicly said on August 4 that Grok 4.6 would probably arrive the following week, preceding this aggregator’s quoted-teaser reactions. The later Cursor-today inference narrowed that public window; Cursor actually released Grok 4.6 on August 12, 2026, one day afterward. ([elonmuskarchive.org](https://elonmuskarchive.org/video/spacex-q2-2026-earnings-call?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2086337656854897020",
@@ -159294,7 +159667,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:37:57Z"
-  }
+  },
+  "pruned": "general_prediction: The author speculates that the unusual behavior could be a test flight; no inside information is asserted."
  },
  {
   "id": "scaling01-2087561493873066277",
@@ -159330,7 +159704,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:27:47Z"
-  }
+  },
+  "pruned": "general_prediction: “Maybe something from OpenAI” is a speculative prediction, not an assertion of inside information."
  },
  {
   "id": "andrewcurran_-2087580578678026742",
@@ -159366,7 +159741,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:46:36Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly frames the idea that Anthropic is holding Fable 5.1 back as their own speculation."
  },
  {
   "id": "imjustnewatai-2087589137469632685",
@@ -160626,7 +161002,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:53:46Z"
-  }
+  },
+  "pruned": "general_prediction: The post presents the cancellation and non-release of Gemini 3.5 Pro as the author’s inference and doubt, not as inside information."
  },
  {
   "id": "ai_for_success-2088138570443923884",
@@ -161870,7 +162247,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:20:50Z"
-  }
+  },
+  "pruned": "general_prediction: The Thursday release timing is presented as a possibility inferred from employees’ vague posts, not as inside information."
  },
  {
   "id": "kimmonismus-2089256067398078471",
@@ -161931,7 +162309,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:20:50Z"
-  }
+  },
+  "pruned": "general_prediction: The post asks whether Astra might drop that week and expresses hope for an imminent release; it does not assert a release plan."
  },
  {
   "id": "chetaslua-2089292588243411023",
@@ -162050,7 +162429,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:20:50Z"
-  }
+  },
+  "pruned": "general_prediction: The post’s release-week claim is framed as a question, and its follow-up explicitly asks whether Astra might release that week."
  },
  {
   "id": "kimmonismus-2089309262174392583",
@@ -162095,7 +162475,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:31:25Z"
-  }
+  },
+  "pruned": "general_prediction: The author says OpenAI is “presumably” planning a reveal or launch, framing it as speculation rather than inside information."
  },
  {
   "id": "pankajkumar_dev-2089320707125866560",
@@ -163980,23 +164361,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-09-01",
-   "official_date": "2026-09-01",
-   "explanation": "Anthropic released Claude Mythos 5.1 on September 1, contradicting the claim that it did not plan to release Mythos 5.1. I found no independent confirmation of the separate claim that Mythos 5.1 or a “Mythos 2” had already finished training by August 20.",
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "Anthropic released Mythos 5.1 to vetted organizations on September 1, 2026, but that does not establish its internal release intentions or completed-training status on August 20. No independent confirmation was found for those historical internal-state assertions; a later release alone does not refute an earlier alleged plan. ([anthropic.com](https://www.anthropic.com/claude/mythos?utm_source=openai))",
    "evidence": [
     {
-     "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 — Anthropic",
-     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+     "title": "Anthropic: Claude Mythos announcements and availability",
+     "url": "https://www.anthropic.com/claude/mythos"
     },
     {
-     "title": "Claude Mythos 5.1 — Claude Platform Docs",
+     "title": "Claude Mythos 5.1 — model overview and release date",
      "url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:46:24Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "Anthropic released Mythos 5.1 to vetted organizations on September 1, 2026, but that does not establish its internal release intentions or completed-training status on August 20. No independent confirmation was found for those historical internal-state assertions; a later release alone does not refute an earlier alleged plan. ([anthropic.com](https://www.anthropic.com/claude/mythos?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-2090319352214196272",
@@ -164372,7 +164760,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:37:57Z"
-  }
+  },
+  "pruned": "general_prediction: The Grok 4.6 stealth-rollout statement is explicitly the author’s speculation (“I think”); the Grok Build beta detail is a report of the author’s own product access."
  },
  {
   "id": "pankajkumar_dev-2090502261990637889",
@@ -164751,7 +165140,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:36:35Z"
-  }
+  },
+  "pruned": "commentary: The poster frames the GLM identification and 5.x-with-vision theory as their own suspicion based on their experience with the model."
  },
  {
   "id": "haider1-2090686587587932551",
@@ -164896,7 +165286,8 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:37:57Z"
   },
-  "claim_v1": "Mark K speculated on 2026-08-21 that xAI was testing Grok 4.6 in chat and that it would probably launch soon."
+  "claim_v1": "Mark K speculated on 2026-08-21 that xAI was testing Grok 4.6 in chat and that it would probably launch soon.",
+  "pruned": "general_prediction: The Grok 4.6 testing and launch timing are explicitly framed as the poster's own speculation."
  },
  {
   "id": "ns123abc-2090796906196705368",
@@ -165731,7 +166122,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:58:20Z"
-  }
+  },
+  "pruned": "joke_or_vibes: The post is a joking reaction to a quoted joke, not a substantive assertion about Ox Alpha's origin."
  },
  {
   "id": "chetaslua-2091086141764354364",
@@ -166164,7 +166556,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:01:29Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-2091190207320117754",
@@ -166427,7 +166820,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:58:20Z"
-  }
+  },
+  "pruned": "general_prediction: The cancellation and skipped-release claims are the poster's inference from public employee hype and vagueposting, not presented as inside information."
  },
  {
   "id": "amir-2091311353671930285",
@@ -166558,7 +166952,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:36:35Z"
-  }
+  },
+  "pruned": "general_prediction: “GLM 5.5 will drive it hard” is a broad prediction about a future model, not a specific inside-information claim."
  },
  {
   "id": "chetaslua-2091503462756594170",
@@ -166792,14 +167187,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "The post predicted a new video model that week and claimed it could generate a good-quality, 10-second video with sound in two seconds. No matching public release was found by the August 29 deadline.",
-   "evidence": [],
+   "verdict": "partly_true",
+   "public_date": "2026-08-26",
+   "official_date": "2026-08-26",
+   "explanation": "The likely match, fal’s H3 Max, launched on August 26, 2026, within the stated week. However, fal documents approximately three seconds to generate five seconds of video—not ten seconds in two—so the release and broad capability match, but the defining speed assertion does not. ([blog.fal.ai](https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/?utm_source=openai))",
+   "evidence": [
+    {
+     "title": "Introducing H3 Max by fal",
+     "url": "https://blog.fal.ai/introducing-h3-max-by-fal/"
+    },
+    {
+     "title": "H3 Max: Built with fal Inference and Training",
+     "url": "https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/"
+    }
+   ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:32:14Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "The likely match, fal’s H3 Max, launched on August 26, 2026, within the stated week. However, fal documents approximately three seconds to generate five seconds of video—not ten seconds in two—so the release and broad capability match, but the defining speed assertion does not. ([blog.fal.ai](https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2091578066980180274",
@@ -167401,7 +167812,7 @@
   "id": "haider1-2091826599557791783",
   "handle": "haider1",
   "date": "2026-08-24T09:55:00Z",
-  "claim": "A major new model, probably OpenAI's Astra or a model in that capability class, is likely about to be released as of 2026-08-24.",
+  "claim": "A major model with a much larger-than-usual capability jump is coming, possibly Astra or a model in that class.",
   "lab": "OpenAI",
   "topic": "model_release",
   "specificity": 2,
@@ -167440,7 +167851,9 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:21:30Z"
-  }
+  },
+  "claim_v1": "A major new model, probably OpenAI's Astra or a model in that capability class, is likely about to be released as of 2026-08-24.",
+  "_needs_regrade": true
  },
  {
   "id": "kimmonismus-2091882849863451042",
@@ -167518,19 +167931,21 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-08-24",
+   "verdict": "not_a_claim",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post said releases from all the main players were in their final stages and could arrive by August 29. The public timeline records Tencent’s Hy4 preview on August 28, but does not show the broad slate of major-lab releases implied by the claim within that window.",
-   "evidence": [
-    {
-     "title": "Tencent Releases and Open-Sources Tencent Hy4 preview",
-     "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/"
-    }
-   ],
+   "explanation": "This is a vague release-week outlook, expressly saying launches are merely possible rather than predicting that every frontier lab will ship by August 29. Neither the labs nor their supposedly near-final releases are identified sufficiently to grade a specific non-public disclosure.",
+   "evidence": [],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:36:23Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "This is a vague release-week outlook, expressly saying launches are merely possible rather than predicting that every frontier lab will ship by August 29. Neither the labs nor their supposedly near-final releases are identified sufficiently to grade a specific non-public disclosure."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "andrewcurran_-2091888369173426511-2",
@@ -167676,7 +168091,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:32:24Z"
-  }
+  },
+  "pruned": "general_prediction: The poster explicitly labels this a prediction; the quoted post also describes the underlying information as unverified rumors."
  },
  {
   "id": "iruletheworldmo-2091906952372551941",
@@ -167823,7 +168239,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:40:42Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly presents the identification of the stealth model as the author's prediction based on analysis and public statements."
  },
  {
   "id": "wongmjane-2091967611345289447",
@@ -168337,7 +168754,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "Anthropic would hopefully cut API pricing within one month of 2026-08-25, with Sonnet dropping from $15 to $5, Opus from $25 to $15, and Fable from $50 to $30."
+  "claim_v1": "Anthropic would hopefully cut API pricing within one month of 2026-08-25, with Sonnet dropping from $15 to $5, Opus from $25 to $15, and Fable from $50 to $30.",
+  "pruned": "general_prediction: The poster says they hope Anthropic cuts prices within a month; this is an expressed expectation, not inside information."
  },
  {
   "id": "chrisgpt-2092101074194678023",
@@ -168432,7 +168850,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:21:30Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly characterizes the claimed reveal/demo and September target as highly likely, presenting an inference from a public DevDay teaser rather than inside information."
  },
  {
   "id": "andrewcurran_-2092244031002771643",
@@ -170702,7 +171121,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:21:44Z"
-  }
+  },
+  "pruned": "general_prediction: The author frames early September as their own inference and hope based on a vague public teaser."
  },
  {
   "id": "iruletheworldmo-2092945031447339325",
@@ -171071,7 +171491,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "SSI is raising $7.4 billion at a $74 billion valuation and plans to use the funds for compute buildout to train larger models."
+  "claim_v1": "SSI is raising $7.4 billion at a $74 billion valuation and plans to use the funds for compute buildout to train larger models.",
+  "pruned": "relay_of_named_source: The post relays a fundraising report via a linked article."
  },
  {
   "id": "amir-2093040475846697375",
@@ -171190,23 +171611,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-08-27",
-   "official_date": "2026-10-06",
-   "explanation": "The post identified an upcoming Grok Bot Android app. By October 6, xAI’s official mobile documentation described Grok Bot use on Android, confirming the app arrived after the original finding.",
+   "verdict": "already_public",
+   "public_date": "2026-08-26",
+   "official_date": "2026-09-02",
+   "explanation": "An August 26, 2026 Reddit discussion already described Grok Bot’s Android app as coming, preceding this post’s broad assertion. The Android app subsequently launched on September 2; the post provides no additional specific finding to distinguish it from that earlier information. ([reddit.com](https://www.reddit.com/r/cursor/comments/1vz4cei/grok_bot_is_now_included_with_cursor_pro/?utm_source=openai))",
    "evidence": [
     {
-     "title": "Grok Bot for Mobile",
-     "url": "https://docs.x.ai/grok-bot/mobile"
+     "title": "Grok Bot is now included with Cursor Pro",
+     "url": "https://www.reddit.com/r/cursor/comments/1vz4cei/grok_bot_is_now_included_with_cursor_pro/"
     },
     {
-     "title": "Grok Bot — Google Play",
-     "url": "https://play.google.com/store/apps/details?id=ai.x.grok.bot"
+     "title": "Grok Bot is Now Live on Android",
+     "url": "https://forum.cursor.com/t/grok-bot-is-now-live-on-android/170384"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:39:18Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "An August 26, 2026 Reddit discussion already described Grok Bot’s Android app as coming, preceding this post’s broad assertion. The Android app subsequently launched on September 2; the post provides no additional specific finding to distinguish it from that earlier information. ([reddit.com](https://www.reddit.com/r/cursor/comments/1vz4cei/grok_bot_is_now_included_with_cursor_pro/?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "btibor91-2093073769623654853",
@@ -171965,7 +172393,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:12:46Z"
-  }
+  },
+  "pruned": "relay_of_named_source: The post relays a report about a proposed government rule via a linked article."
  },
  {
   "id": "haider1-2093370522860233051",
@@ -172430,7 +172859,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:21:44Z"
-  }
+  },
+  "pruned": "general_prediction: The timing and release details are presented as the author’s own bets and possibilities, not as asserted inside information."
  },
  {
   "id": "imjustnewatai-2093501435056971962-2",
@@ -172525,7 +172955,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:26:12Z"
-  }
+  },
+  "pruned": "relay_of_named_source: The post relays a reported contract-ending announcement via a linked article."
  },
  {
   "id": "scaling01-2093526743671779686",
@@ -173180,7 +173611,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:31:38Z"
-  }
+  },
+  "pruned": "general_prediction: The summary covers only the author’s explicitly tentative prediction that release windows could converge within the same week."
  },
  {
   "id": "iruletheworldmo-2093635043881075189",
@@ -173282,7 +173714,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:21:37Z"
-  }
+  },
+  "pruned": "general_prediction: The post labels the feature list as predictions and says the release could happen this week; these are framed as speculation rather than asserted inside information."
  },
  {
   "id": "tokengremlin-2093654421620117708",
@@ -174718,7 +175151,8 @@
     "note": "The predicted Oct-Dec 2026 window is still open. GPT-6.1 Astra was finished and held back Sep 28, which supports the premise."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The author explicitly says the post-Astra model timing and finalized status are their own inference and speculation."
  },
  {
   "id": "tokengremlin-2093964165048098945",
@@ -175317,7 +175751,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The timing is framed as an uncertain forecast with “Don't be surprised if,” rather than a claim of inside information."
  },
  {
   "id": "haider1-2094145630805598711",
@@ -175489,7 +175924,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:27:02Z"
-  }
+  },
+  "pruned": "general_prediction: The author infers that a vague public teaser may concern Astra; it does not assert specific non-public release information."
  },
  {
   "id": "chetaslua-2094368972661567571",
@@ -175978,23 +176414,26 @@
   "prune_checked": true,
   "claim_v1": "Anthropic's Fable 5.1 was expected to drop on 2026-09-01, and Astra would probably launch on 2026-09-04.",
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-09-01",
-   "official_date": "2026-09-03",
-   "explanation": "Fable 5.1 launched on September 1, and OpenAI released GPT-6 Astra on Thursday, September 3, as anticipated. Both predictions landed within the post’s stated September 4 deadline.",
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The posts offer conditional commentary about release timing and explicitly base confidence in Fable 5.1 on publicly accessible Claude Code/GitHub evidence. They do not present the September 1 and September 3 dates as a sourced disclosure of non-public launch plans.",
    "evidence": [
     {
-     "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
-     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
-    },
-    {
-     "title": "GPT-6 Astra: A new generation of intelligence",
-     "url": "https://openai.com/index/gpt-6-astra/"
+     "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+     "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot/?trk=article-ssr-frontend-pulse_little-text-block"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:48:15Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "true",
+    "note": "The posts offer conditional commentary about release timing and explicitly base confidence in Fable 5.1 on publicly accessible Claude Code/GitHub evidence. They do not present the September 1 and September 3 dates as a sourced disclosure of non-public launch plans."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2094843657933463766",
@@ -179139,7 +179578,7 @@
   "id": "haider1-2095293193541898316",
   "handle": "haider1",
   "date": "2026-09-02T23:30:00Z",
-  "claim": "OpenAI might release GPT-6 Astra on 2026-09-03.",
+  "claim": "OpenAI might release Astra on 2026-09-03.",
   "lab": "OpenAI",
   "topic": "model_release",
   "specificity": 3,
@@ -179186,7 +179625,9 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:25:34Z"
-  }
+  },
+  "claim_v1": "OpenAI might release GPT-6 Astra on 2026-09-03.",
+  "_needs_regrade": true
  },
  {
   "id": "tokengremlin-2095309959865008231",
@@ -179632,7 +180073,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The price is explicitly framed as the poster's own possibility and estimate."
  },
  {
   "id": "chetaslua-2095426269307678833",
@@ -180275,7 +180717,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:05Z"
-  }
+  },
+  "pruned": "reaction_to_public_news: This is a brief reaction to an official OpenAI post, with no information beyond the public teaser."
  },
  {
   "id": "chetaslua-2095532070080815285",
@@ -180329,7 +180772,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "reaction_to_public_news: The imminent-release phrasing is a reaction to the quoted official OpenAI post, not a distinct information claim."
  },
  {
   "id": "synthwavedd-2095536656023470365",
@@ -180549,7 +180993,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:25Z"
-  }
+  },
+  "pruned": "general_prediction: The post reports names found in Codex, but the summarized long-horizon capability is explicitly conditional speculation."
  },
  {
   "id": "andrewcurran_-2095542688154349601",
@@ -180589,7 +181034,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:28:03Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly frames the limited-access variant claim as an assumption."
  },
  {
   "id": "chetaslua-2095543186920005987",
@@ -180695,7 +181141,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:25Z"
-  }
+  },
+  "pruned": "reaction_to_public_news: The post reacts to an official teaser and explicitly says Astra might land that day, making this a forecast rather than an information claim."
  },
  {
   "id": "haider1-2095545131848159374",
@@ -181629,7 +182076,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:28:03Z"
-  }
+  },
+  "pruned": "reaction_to_public_news: The timing is an inference from a quoted public statement by Sam Altman that he was hopeful users could access Astra that weekend."
  },
  {
   "id": "vraserx-2095725540606988557",
@@ -182159,7 +182607,7 @@
   "id": "flowersslop-2096009566253158525",
   "handle": "flowersslop",
   "date": "2026-09-04T22:56:37Z",
-  "claim": "As of 2026-09-04, OpenAI employees reportedly already have access internally to a post-GPT-6 Astra model such as GPT-6.1, GPT-6.5, GPT-7, or 'Astra Ultra' running at 2.5x or greater speed with unlimited usage.",
+  "claim": "The post asks whether OpenAI employees already have access to a later model such as GPT-6.1, GPT-6.5, GPT-7, or Astra Ultra, and suggests Astra Ultra runs at 2.5x or greater speed with unlimited usage.",
   "lab": "OpenAI",
   "topic": "model_capability",
   "specificity": 2,
@@ -182194,7 +182642,9 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:23:14Z"
-  }
+  },
+  "claim_v1": "As of 2026-09-04, OpenAI employees reportedly already have access internally to a post-GPT-6 Astra model such as GPT-6.1, GPT-6.5, GPT-7, or 'Astra Ultra' running at 2.5x or greater speed with unlimited usage.",
+  "_needs_regrade": true
  },
  {
   "id": "synthwavedd-2096045070327664992",
@@ -182978,23 +183428,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "not_a_claim",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post predicted that more-impressive demos would come out the following week (September 7–13, 2026). The available public record does not establish that those predicted demos appeared in that window; the demos and videos found around launch do not substantiate this dated prediction.",
+   "explanation": "The post predicts subjectively more impressive demos, without claiming that OpenAI itself will release them or identifying a specific unreleased capability. Its “next week” means September 7–13, 2026, not the supplied September 13, 2027 deadline.",
    "evidence": [
     {
-     "title": "GPT-6 Astra: A new generation of intelligence — OpenAI",
-     "url": "https://openai.com/index/gpt-6-astra/"
-    },
-    {
-     "title": "I Made GPT-6 Astra & Fable 5.1 Build the Same App (RAW RESULTS) — YouTube",
-     "url": "https://www.youtube.com/watch?v=HCs-9uu5eUw"
+     "title": "Contemporaneous Reddit discussion linking the ChrisGPT post",
+     "url": "https://www.reddit.com/r/accelerate/comments/1w8mygl/a_credible_leaker_claims_openai_will_release/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:29:21Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "The post predicts subjectively more impressive demos, without claiming that OpenAI itself will release them or identifying a specific unreleased capability. Its “next week” means September 7–13, 2026, not the supplied September 13, 2027 deadline."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "haider1-2096425655080497396",
@@ -183115,19 +183568,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": null,
+   "verdict": "true",
+   "public_date": "2026-09-07",
    "official_date": null,
-   "explanation": "The post said the additional 3D-benchmark result would be posted during September 7–13, 2026. I found no independent benchmark report or public posting in that window confirming the claimed result or its comparison with Fable 5.1.",
+   "explanation": "MazeBench's test team published Astra's record 14% result, versus Fable 5.1's 2% in the no-Python comparison, on September 7, 2026. This independently matches the claimed spatial-reasoning benchmark lead and September 7–13 publication window; no earlier publication of that result was found.",
    "evidence": [
     {
-     "title": "GPT-6 Astra: A new generation of intelligence — OpenAI",
-     "url": "https://openai.com/index/gpt-6-astra/"
+     "title": "GPT-6 Astra Multimodal Tests: 3D Mazes and Modeling",
+     "url": "https://blog.sandbase.ai/gpt-6-astra-multimodal-spatial-reasoning-2026/"
+    },
+    {
+     "title": "Maze Bench — Visual Spatial Reasoning in a 3D Open World",
+     "url": "https://mazebench.com/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:29:21Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "MazeBench's test team published Astra's record 14% result, versus Fable 5.1's 2% in the no-Python comparison, on September 7, 2026. This independently matches the claimed spatial-reasoning benchmark lead and September 7–13 publication window; no earlier publication of that result was found."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "tokengremlin-2096530730553585826",
@@ -183642,7 +184106,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:13Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly frames the DevDay items as things they are expecting, not as inside information."
  },
  {
   "id": "pankajkumar_dev-2096659264748306512-2",
@@ -183687,7 +184152,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:13Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly frames the DevDay items as things they are expecting, not as inside information."
  },
  {
   "id": "pankajkumar_dev-2096659264748306512-3",
@@ -183732,7 +184198,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:33:47Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly frames the DevDay items as things they are expecting, not as inside information."
  },
  {
   "id": "pankajkumar_dev-2096659264748306512-4",
@@ -183987,7 +184454,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:23:57Z"
-  }
+  },
+  "pruned": "general_prediction: Bel’s possible arrival is expressed as the author’s hope, not as a claim of inside information."
  },
  {
   "id": "vraserx-2096813182660624650",
@@ -185764,7 +186232,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:24:01Z"
-  }
+  },
+  "pruned": "relay_of_named_source: The claim about the more capable internal model is explicitly attributed to Leo’s information; the release timing is framed as the author’s hope."
  },
  {
   "id": "synthwavedd-2097720011229950297",
@@ -186613,7 +187082,9 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:24:01Z"
-  }
+  },
+  "astra_checked": true,
+  "pruned": "general_prediction: The claim that the model will be named Aeon is explicitly framed as Andrew’s belief, rather than inside information."
  },
  {
   "id": "andrewcurran_-2098083604853342688-5",
@@ -187021,7 +187492,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:38:07Z"
-  }
+  },
+  "pruned": "general_prediction: The timing is explicitly speculative: the post says Grok 4.7 could arrive tomorrow or, if delayed, early the following week."
  },
  {
   "id": "andrewcurran_-2098197758872289638",
@@ -187375,7 +187847,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The post frames the release timing and model characteristics as the author’s expectations, not as inside information."
  },
  {
   "id": "chetaslua-2098526091522802050",
@@ -187750,7 +188223,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:58:22Z"
-  }
+  },
+  "pruned": "general_prediction: The summary’s Gemini Pro launch timing is explicitly framed as the author’s belief and a possibility."
  },
  {
   "id": "chetaslua-2098549653948313977",
@@ -190747,7 +191221,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:26:49Z"
-  }
+  },
+  "pruned": "general_prediction: The post conditionally discusses what would follow if GPT-6 Sol releases that week, and speculates that Luna could follow; it does not assert a release plan."
  },
  {
   "id": "chetaslua-2099861782710071424",
@@ -190891,7 +191366,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:39:49Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly says Grok 4.7 might launch that day, framing it as an uncertain forecast rather than inside information."
  },
  {
   "id": "kimmonismus-2099871125631033843",
@@ -191340,7 +191816,7 @@
   "id": "haider1-2099903570787360954",
   "handle": "haider1",
   "date": "2026-09-15T16:50:00Z",
-  "claim": "OpenAI was expected to release a line of GPT-6 models named Sol, Terra, and Luna distilled from Astra, with GPT-6 Sol possibly releasing shortly after 2026-09-15 and before DevDay.",
+  "claim": "OpenAI is going to release GPT-6 models named Sol, Terra, and Luna distilled from Astra, and the poster thinks GPT-6 Sol may follow Astra soon.",
   "lab": "OpenAI",
   "topic": "model_release",
   "specificity": 4,
@@ -191391,7 +191867,9 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:27:06Z"
-  }
+  },
+  "claim_v1": "OpenAI was expected to release a line of GPT-6 models named Sol, Terra, and Luna distilled from Astra, with GPT-6 Sol possibly releasing shortly after 2026-09-15 and before DevDay.",
+  "_needs_regrade": true
  },
  {
   "id": "aibattle_-2099916924700524706",
@@ -191437,7 +191915,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:44:16Z"
-  }
+  },
+  "pruned": "general_prediction: The post derives a possible Qwen announcement from public conference agenda details and past announcements; it is explicitly framed as a possibility, not inside information."
  },
  {
   "id": "andrewcurran_-2099925225433633163",
@@ -194563,7 +195042,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:01:18Z"
-  }
+  },
+  "pruned": "general_prediction: The author speculates that Google may be training Gemini 4 and diverting compute to it."
  },
  {
   "id": "testingcatalog-2100908046377521445",
@@ -195591,7 +196071,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: “I'm expecting” frames this as the author's own prediction, not inside information."
  },
  {
   "id": "haider1-2101236656040972490-3",
@@ -195641,7 +196122,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The possible hardware demo is explicitly framed as the author's expectation, not inside information."
  },
  {
   "id": "haider1-2101236656040972490-4",
@@ -196127,7 +196609,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:26:05Z"
-  }
+  },
+  "pruned": "general_prediction: The post labels the release timing as a prediction and quotes someone saying it is coming Tuesday."
  },
  {
   "id": "xfreeze-2101404563538678172",
@@ -196489,7 +196972,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:01:18Z"
-  }
+  },
+  "pruned": "general_prediction: “I wouldn't be surprised” explicitly presents the Flash release timing as speculation."
  },
  {
   "id": "haider1-2101608745470169385-2",
@@ -196530,7 +197014,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:54:32Z"
-  }
+  },
+  "pruned": "general_prediction: “I still expect” explicitly frames the Gemini 4 Pro release as the author's expectation."
  },
  {
   "id": "chrisgpt-2101620010376389004",
@@ -199790,7 +200275,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "Anthropic will likely release Opus 5.5 on 2026-09-22 and OpenAI will likely release GPT-6 Sol on 2026-09-25."
+  "claim_v1": "Anthropic will likely release Opus 5.5 on 2026-09-22 and OpenAI will likely release GPT-6 Sol on 2026-09-25.",
+  "pruned": "general_prediction: The author explicitly calls the release dates their guess."
  },
  {
   "id": "chrisgpt-2102138517132587186",
@@ -199842,7 +200328,7 @@
   "id": "haider1-2102144587313909878",
   "handle": "haider1",
   "date": "2026-09-21T21:15:00Z",
-  "claim": "There was definite progress happening on the Riemann hypothesis at OpenAI.",
+  "claim": "There is definitely some progress happening on the Riemann hypothesis.",
   "lab": "OpenAI",
   "topic": "model_capability",
   "specificity": 2,
@@ -199885,7 +200371,9 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:26:07Z"
-  }
+  },
+  "claim_v1": "There was definite progress happening on the Riemann hypothesis at OpenAI.",
+  "_needs_regrade": true
  },
  {
   "id": "wongmjane-2102163039999168521",
@@ -200628,7 +201116,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:47:39Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "kimmonismus-2102232919658099125-5",
@@ -200766,7 +201255,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:47:37Z"
-  }
+  },
+  "pruned": "general_prediction: The post says Opus 5.5 is coming this week “probably,” presenting a tentative forecast rather than inside information."
  },
  {
   "id": "chrisgpt-2102252424232648898",
@@ -204202,7 +204692,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:03Z"
-  }
+  },
+  "pruned": "general_prediction: The poster says they can imagine these releases and speculates that DevDay will be exciting; this is not presented as inside information."
  },
  {
   "id": "aibattle_-2102775779054502289",
@@ -204495,19 +204986,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-09-23",
+   "verdict": "not_a_claim",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The prediction was that major Muse models would be announced on September 23. Meta Connect brought Muse-related features and a tease of a future model, but no major Muse model announcement that day.",
+   "explanation": "“Looks like” is a speculative reaction to Danny Trinh's public Muse teaser, not an assertion of independently obtained non-public information. The post identifies neither particular models nor concrete specifications that would distinguish a leak from event-day commentary.",
    "evidence": [
     {
-     "title": "Latent Space: Meta Connect 2026 recap",
-     "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses"
+     "title": "Archived feed preserving Danny Trinh's “As it was written @Muse” teaser",
+     "url": "https://x.twstalker.com/elissayli_"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:43:01Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "“Looks like” is a speculative reaction to Danny Trinh's public Muse teaser, not an assertion of independently obtained non-public information. The post identifies neither particular models nor concrete specifications that would distinguish a leak from event-day commentary."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "iruletheworldmo-2102853680735096983",
@@ -204770,19 +205268,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "unverifiable",
    "public_date": null,
-   "official_date": "2026-09-29",
-   "explanation": "DevDay took place on September 29, but OpenAI’s recap lists GPT-6.1 Sol and other announcements, not a second looped language model besides Astra. The specific promised release was not identified or confirmed by the stated deadline.",
+   "official_date": null,
+   "explanation": "GPT-6.1 Sol shipped at DevDay on September 29, but the announcement does not establish that it was OpenAI’s second looped model. The architectural assertion remains unconfirmed; releasing another model is insufficient to validate it. ([openai.com](https://openai.com/index/introducing-gpt-6-1-sol/?_bhlid=213736f025ee801170e80284ba2020483ece40f8&trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))",
    "evidence": [
     {
-     "title": "DevDay 2026 Recap — OpenAI",
-     "url": "https://openai.com/index/devday-2026-recap/"
+     "title": "Introducing GPT-6.1 Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-1-sol/?_bhlid=213736f025ee801170e80284ba2020483ece40f8&trk=article-ssr-frontend-pulse_little-text-block"
+    },
+    {
+     "title": "GPT-6.1 Sol Model — OpenAI API",
+     "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol?trk=public_post_comment-text"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:26:24Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "GPT-6.1 Sol shipped at DevDay on September 29, but the announcement does not establish that it was OpenAI’s second looped model. The architectural assertion remains unconfirmed; releasing another model is insufficient to validate it. ([openai.com](https://openai.com/index/introducing-gpt-6-1-sol/?_bhlid=213736f025ee801170e80284ba2020483ece40f8&trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "kimmonismus-2102972781495566455",
@@ -204901,7 +205410,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:54:32Z"
-  }
+  },
+  "pruned": "general_prediction: The post frames the release timing as the author's own belief and probability-based forecast, not as inside information."
  },
  {
   "id": "iruletheworldmo-2103077200811671777",
@@ -204975,23 +205485,34 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2026-09-29",
+   "verdict": "already_public",
+   "public_date": "2026-09-21",
    "official_date": "2026-09-29",
-   "explanation": "OpenAI introduced Dots, persistent always-on agents, at DevDay on September 29, matching much of the described product, but it did not publicly call them Aeon. That was five days after the post’s September 24 release prediction, making the timing mostly true under the stated rule.",
+   "explanation": "The September 21–22 public record already contained the Aeon name, Grok Bot competitor reporting, and speculation about a Thursday launch; this post explicitly relays that rumor. OpenAI subsequently announced its always-on Dots agents on September 29, not September 24. ([techmeme.com](https://www.techmeme.com/260921/p45))",
    "evidence": [
     {
-     "title": "DevDay 2026 Recap — OpenAI",
-     "url": "https://openai.com/index/devday-2026-recap/"
+     "title": "Techmeme September 21 snapshot: OpenAI agent reporting and Aeon posts",
+     "url": "https://www.techmeme.com/260921/p45"
     },
     {
-     "title": "Altman unveils ‘always-on’ AI agent after OpenAI shelves model — AP News",
-     "url": "https://apnews.com/article/77b6b8888145869206996d7509d24256"
+     "title": "Agent Wars! — September 22, 2026",
+     "url": "https://aidailybrief.ai/e/2026-09-22"
+    },
+    {
+     "title": "DevDay 2026 Recap",
+     "url": "https://openai.com/index/devday-2026-recap/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T01:26:24Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "mostly_true",
+    "note": "The September 21–22 public record already contained the Aeon name, Grok Bot competitor reporting, and speculation about a Thursday launch; this post explicitly relays that rumor. OpenAI subsequently announced its always-on Dots agents on September 29, not September 24. ([techmeme.com](https://www.techmeme.com/260921/p45))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2103094052409250062",
@@ -205386,23 +205907,31 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "The post predicted an announcement at DevDay on September 29, 2026, that ChatGPT “Chat” and “Work” would be merged. DevDay announcements described Work features and cross-device tasks, but did not announce that merger.",
+   "verdict": "not_a_claim",
+   "public_date": "2026-10-04",
+   "official_date": "2026-10-04",
+   "explanation": "The commentator explicitly labels this “Prediction time,” presenting an inference rather than claiming access to non-public information. Tibo Sottiaux subsequently discussed merging Chat and Work in an October 4 interview, but that does not retroactively make this a sourced leak. ([pasqualepillitteri.it](https://pasqualepillitteri.it/en/news/21024/openai-merge-chatgpt-chat-work-usage-limits-unclear))",
    "evidence": [
     {
-     "title": "DevDay 2026",
-     "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026"
+     "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again)",
+     "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering"
     },
     {
-     "title": "OpenAI DevDay 2026",
-     "url": "https://devday.openai.com/"
+     "title": "OpenAI Announces It Will Merge ChatGPT Chat and Work, Usage Limits Unclear",
+     "url": "https://pasqualepillitteri.it/en/news/21024/openai-merge-chatgpt-chat-work-usage-limits-unclear"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:30:03Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "The commentator explicitly labels this “Prediction time,” presenting an inference rather than claiming access to non-public information. Tibo Sottiaux subsequently discussed merging Chat and Work in an October 4 interview, but that does not retroactively make this a sourced leak. ([pasqualepillitteri.it](https://pasqualepillitteri.it/en/news/21024/openai-merge-chatgpt-chat-work-usage-limits-unclear))"
+   }
+  },
+  "astra_checked": true,
+  "pruned": "general_prediction: The post explicitly labels this as prediction time and offers the merge and DevDay announcement as its own guess."
  },
  {
   "id": "ns123abc-2103143161727992118",
@@ -205547,7 +206076,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:03Z"
-  }
+  },
+  "pruned": "general_prediction: The author says an OpenAI alternative will probably be revealed at DevDay, framing it as speculation."
  },
  {
   "id": "btibor91-2103222629171908937",
@@ -206155,7 +206685,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:47:55Z"
-  }
+  },
+  "pruned": "other_non_claim: The post expresses excitement about Fable 5.5 but does not assert that it is coming after Opus 5.5."
  },
  {
   "id": "imjustnewatai-2103346501577506945",
@@ -207322,7 +207853,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:02Z"
-  }
+  },
+  "pruned": "general_prediction: The author frames stealth testing as a possibility inferred from a perceived intelligence boost, not as confirmed inside information."
  },
  {
   "id": "testingcatalog-2103637976420847863",
@@ -207408,7 +207940,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:27:45Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly presents the October release as their own expectation."
  },
  {
   "id": "iruletheworldmo-2103638199142928528",
@@ -209284,7 +209817,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:47:55Z"
-  }
+  },
+  "pruned": "general_prediction: The author says they fully expect a nerf, clearly presenting this as their own forecast."
  },
  {
   "id": "teortaxestex-2104021012186869971",
@@ -209555,7 +210089,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:58Z"
-  }
+  },
+  "pruned": "general_prediction: The post frames a Cerebras model as something the author thinks might appear and explicitly says what they expect it to be."
  },
  {
   "id": "tokengremlin-2104182491573534852",
@@ -209761,23 +210296,34 @@
   "prune_checked": true,
   "claim_v1": "OpenAI's DevDay on 2026-09-30 was expected to include an always-on autonomous agent with persistent memory that keeps working indefinitely for the user.",
   "resolution": {
-   "verdict": "mostly_true",
-   "public_date": "2026-09-29",
+   "verdict": "already_public",
+   "public_date": "2026-09-22",
    "official_date": "2026-09-29",
-   "explanation": "OpenAI announced Dots at DevDay as agents that take on ongoing responsibilities and keep making progress between conversations. The “always-on” agent prediction was substantially right, but the post’s claims of indefinite operation and access through memory and plugins went beyond what the announcement established.",
+   "explanation": "A persistent agent potentially arriving at DevDay was already circulating on September 22, and TestingCatalog reported the “o” name and DevDay launch possibility on September 26—before both posts. OpenAI announced the corresponding always-on Dots product on September 29. ([agiright.org](https://agiright.org/pis/signals?utm_source=openai))",
    "evidence": [
+    {
+     "title": "Signals: Persistent cloud agent Aeon rumored for DevDay",
+     "url": "https://agiright.org/pis/signals"
+    },
+    {
+     "title": "OpenAI to announce “o” always-on agent during DevDay",
+     "url": "https://www.testingcatalog.com/openai-to-announce-o-always-on-agent-during-devday/"
+    },
     {
      "title": "DevDay 2026 Recap",
      "url": "https://openai.com/index/devday-2026-recap/"
-    },
-    {
-     "title": "DevDay 2026",
-     "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:29:29Z"
-  }
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "mostly_true",
+    "note": "A persistent agent potentially arriving at DevDay was already circulating on September 22, and TestingCatalog reported the “o” name and DevDay launch possibility on September 26—before both posts. OpenAI announced the corresponding always-on Dots product on September 29. ([agiright.org](https://agiright.org/pis/signals?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "vraserx-2104271602804219922-2",
@@ -210100,7 +210646,8 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:27:35Z"
   },
-  "claim_v1": "The author expects OpenAI may launch some kind of powerful model at DevDay as an answer to Opus 5.5, possibly GPT-6.1 Astra, though they could not confirm it internally."
+  "claim_v1": "The author expects OpenAI may launch some kind of powerful model at DevDay as an answer to Opus 5.5, possibly GPT-6.1 Astra, though they could not confirm it internally.",
+  "pruned": "general_prediction: The author says they could not confirm the launch internally and describes it as an inference from signals, explicitly presenting a forecast rather than a leak."
  },
  {
   "id": "chrisgpt-2104337024949817346",
@@ -210302,7 +210849,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:30:41Z"
-  }
+  },
+  "pruned": "general_prediction: The author says they are starting to think a merger may happen and explicitly says they do not know for sure; this is speculation."
  },
  {
   "id": "daniel_mac8-af48ecd4d80",
@@ -210451,7 +210999,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:47:55Z"
-  }
+  },
+  "pruned": "commentary: This is commentary about how Anthropic’s Sonnet and Haiku models might affect OpenAI DevDay, not a claim of non-public information."
  },
  {
   "id": "chrisgpt-2104392237761053005",
@@ -210608,7 +211157,8 @@
     "note": "DeepSeek's changelog shows no releases Sept 28–Oct 1, 2026, and no DSH 0.2 or V4.1 Pro; the resolver's explanation described a different claim and gave a spurious public_date."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "pruned": "general_prediction: The author explicitly frames the release timing as their own guess, then speculates about the remaining possible release day based on a public holiday."
  },
  {
   "id": "imjustnewatai-2104423054868881728",
@@ -211242,7 +211792,8 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:47:57Z"
   },
-  "story_id": "chrisgpt-2103418373925445648"
+  "story_id": "chrisgpt-2103418373925445648",
+  "pruned": "commentary: The post speculates about Anthropic’s internal training and research models rather than presenting inside information as fact."
  },
  {
   "id": "scaling01-2104570702397415610",
@@ -211808,7 +212359,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:28:52Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly frames the successor’s timing as their own expectation."
  },
  {
   "id": "tokengremlin-2104654064105497009",
@@ -211973,7 +212525,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:30:41Z"
-  }
+  },
+  "pruned": "general_prediction: The post speculates that OpenAI might release a guardian feature, without indicating inside information."
  },
  {
   "id": "vraserx-2104676555817427317",
@@ -213051,7 +213604,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:31:15Z"
-  }
+  },
+  "pruned": "general_prediction: The $500 plan is described only as potentially coming soon, a speculative possibility rather than an asserted leak."
  },
  {
   "id": "tokengremlin-2104901366325928094",
@@ -213994,7 +214548,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:56:23Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly presents Ascend training as something that would not surprise them, not as information they know."
  },
  {
   "id": "teortaxestex-2105190746324410607",
@@ -214969,7 +215524,7 @@
   "id": "teortaxestex-2105567713393316023",
   "handle": "teortaxesTex",
   "date": "2026-10-01T07:57:17Z",
-  "claim": "Google has larger internal Gemini 4 models beyond Gemini 4 Argon, with at least two higher tiers ahead of Argon, and Gemini 4 Ultra may exist, as of 2026-10-01.",
+  "claim": "The post says Gemini 4’s frontier is at least two tiers ahead of Argon, refers to larger internal models, and asks whether there is a Gemini 4 Ultra.",
   "lab": "Google",
   "topic": "model_release",
   "specificity": 2,
@@ -215004,7 +215559,9 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:56:36Z"
-  }
+  },
+  "claim_v1": "Google has larger internal Gemini 4 models beyond Gemini 4 Argon, with at least two higher tiers ahead of Argon, and Gemini 4 Ultra may exist, as of 2026-10-01.",
+  "_needs_regrade": true
  },
  {
   "id": "imjustnewatai-2105596869720322429",
@@ -215297,23 +215854,26 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-10-07",
-   "official_date": "2026-10-07",
-   "explanation": "The post says Grok Bot would soon be triggerable from an X post or reply; xAI’s documentation confirms that feature, but the provided deadline is March 30, 2026—before the October 1 post and more than six months before the October 7 documentation. The August 29 X integration announcement described other capabilities and did not establish this specific trigger feature beforehand.",
+   "verdict": "pending",
+   "public_date": "2026-10-01",
+   "official_date": null,
+   "explanation": "The post says “soon,” not March 30, which predates its October 1 publication; its approximately three-week window remains open on October 11. I found reporting of an October 1 engineer announcement promising the same feature, but not a verified rollout or an earlier timestamp establishing that this post relayed it. ([grokbot.sh](https://www.grokbot.sh/blog/x-this-week-a-four-tier-plan-that-replaces-three-bills-september-17-october-4?utm_source=openai))",
    "evidence": [
     {
-     "title": "Tag @bot on X — SpaceXAI Docs (last updated October 7, 2026)",
-     "url": "https://docs.x.ai/grok-bot/tag-on-x"
-    },
-    {
-     "title": "Grok Bot now works with X — SpaceXAI (August 29, 2026)",
-     "url": "https://x.ai/news/grok-bot-and-x"
+     "title": "X This Week: A four-tier plan that replaces three bills",
+     "url": "https://www.grokbot.sh/blog/x-this-week-a-four-tier-plan-that-replaces-three-bills-september-17-october-4"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:40:23Z"
-  }
+   "confidence": "low",
+   "resolved_at": "2026-10-11T02:31:55Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:31:55Z",
+    "changed_from": "false",
+    "note": "The post says “soon,” not March 30, which predates its October 1 publication; its approximately three-week window remains open on October 11. I found reporting of an October 1 engineer announcement promising the same feature, but not a verified rollout or an earlier timestamp establishing that this post relayed it. ([grokbot.sh](https://www.grokbot.sh/blog/x-this-week-a-four-tier-plan-that-replaces-three-bills-september-17-october-4?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "tokengremlin-2105660504324600018",
@@ -216896,7 +217456,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:29:58Z"
-  }
+  },
+  "pruned": "general_prediction: The specific claim in the summary is the author's explicitly stated personal forecast that Bel will not appear soon."
  },
  {
   "id": "tokengremlin-2106120431908605981-3",
@@ -217180,7 +217741,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:43:01Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly labels this as a prediction, not inside information."
  },
  {
   "id": "vraserx-2106280511098474518",
@@ -217353,7 +217915,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:29:58Z"
-  }
+  },
+  "pruned": "general_prediction: The author frames the release interpretation as their own reading and says their money is on a particular possibility."
  },
  {
   "id": "chrisgpt-2106303514523943041",
@@ -218188,7 +218751,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:34:26Z"
-  }
+  },
+  "pruned": "general_prediction: The GPT-6.5 timing is framed as the author's personal suspicion."
  },
  {
   "id": "haider1-2106615969703444808",
@@ -220138,7 +220702,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:34:26Z"
-  }
+  },
+  "pruned": "general_prediction: The timing and performance claims are explicitly presented as the author's prediction and expectation."
  },
  {
   "id": "scaling01-2107329121806090255",
@@ -220890,7 +221455,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:51:21Z"
-  }
+  },
+  "pruned": "general_prediction: The post reacts to a failed launch rumor and frames its Haiku/Fable timing claims as the author's own speculation."
  },
  {
   "id": "chetaslua-2107728601512845677",
@@ -221397,7 +221963,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:51:23Z"
-  }
+  },
+  "pruned": "general_prediction: The post explicitly frames the Fable timing and Haiku identification as conditional speculation."
  },
  {
   "id": "andrewcurran_-2107893400968253763",
@@ -221490,7 +222057,7 @@
   "id": "teortaxestex-2107899753279181007",
   "handle": "teortaxesTex",
   "date": "2026-10-07T18:23:58Z",
-  "claim": "Anthropic reportedly has an unreleased product lineup including models named Fable and Mythos as of 2026-10-07.",
+  "claim": "Anthropic's product lineup includes Haiku, Sonnet, Opus, Fable, and Mythos.",
   "lab": "Anthropic",
   "topic": "model_release",
   "specificity": 3,
@@ -221524,13 +222091,15 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:53:21Z"
-  }
+  },
+  "claim_v1": "Anthropic reportedly has an unreleased product lineup including models named Fable and Mythos as of 2026-10-07.",
+  "_needs_regrade": true
  },
  {
   "id": "teortaxestex-2107899753279181007-2",
   "handle": "teortaxesTex",
   "date": "2026-10-07T18:23:58Z",
-  "claim": "OpenAI reportedly has an unreleased model lineup including models named Luna, Sol, Astra, and HPIM as of 2026-10-07, with HPIM inaccessible.",
+  "claim": "OpenAI has Luna, Sol, and Astra, while HPIM is inaccessible.",
   "lab": "OpenAI",
   "topic": "model_release",
   "specificity": 3,
@@ -221573,7 +222142,9 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:33:46Z"
-  }
+  },
+  "claim_v1": "OpenAI reportedly has an unreleased model lineup including models named Luna, Sol, Astra, and HPIM as of 2026-10-07, with HPIM inaccessible.",
+  "_needs_regrade": true
  },
  {
   "id": "imjustnewatai-2107906476639736090",
@@ -222323,7 +222894,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:56:02Z"
-  }
+  },
+  "pruned": "general_prediction: The rollout is explicitly framed as a possibility, without a claim of inside information."
  },
  {
   "id": "tokengremlin-2108190225335787974",
@@ -222461,7 +223033,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:56:02Z"
-  }
+  },
+  "pruned": "general_prediction: The author explicitly frames this as a non-zero chance, making it a forecast rather than an asserted leak."
  },
  {
   "id": "wongmjane-2108266310492917916",
@@ -222681,7 +223254,7 @@
   "id": "haider1-2108478825432830019",
   "handle": "haider1",
   "date": "2026-10-09T08:45:00Z",
-  "claim": "OpenAI has an internal model called Astra 6.1 that is coming soon as of 2026-10-09.",
+  "claim": "OpenAI's Astra 6.1 is coming soon.",
   "lab": "OpenAI",
   "topic": "model_release",
   "specificity": 3,
@@ -222736,7 +223309,9 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:30:34Z"
-  }
+  },
+  "claim_v1": "OpenAI has an internal model called Astra 6.1 that is coming soon as of 2026-10-09.",
+  "_needs_regrade": true
  },
  {
   "id": "iruletheworldmo-2108494176237351173",
@@ -225724,7 +226299,7 @@
   "id": "andrewcurran_-2109049637449687135",
   "handle": "AndrewCurran_",
   "date": "2026-10-10T22:33:12Z",
-  "claim": "Anthropic's internal models are many generations beyond Mythos Preview as of October 9, 2026.",
+  "claim": "Anthropic's internal models are many generations beyond Mythos Preview as of October 10, 2026.",
   "lab": "Anthropic",
   "topic": "model_capability",
   "specificity": 2,
@@ -225751,7 +226326,8 @@
   "first_seen": "2026-10-11T01:49:17Z",
   "feed_date": "2026-10-11T01:49:17Z",
   "prune_checked": true,
-  "story_id": "chrisgpt-2103418373925445648"
+  "story_id": "chrisgpt-2103418373925445648",
+  "claim_v1": "Anthropic's internal models are many generations beyond Mythos Preview as of October 9, 2026."
  },
  {
   "id": "deredleritt3r-2109054115569377378",

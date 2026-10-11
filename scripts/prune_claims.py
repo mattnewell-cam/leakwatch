@@ -33,8 +33,11 @@ NOT leak claims (is_leak_claim=false): opinions/commentary, reactions to somethi
 public product, relaying a named published source ("per Bloomberg", "according to @x", linked article), quoting an
 official announcement, jokes/vibes/hype with no specific content, generic predictions ("AGI by 2030", "progress is accelerating",
 "models will keep getting better").
-KEEP specific, checkable predictions about a named product/event/timing (e.g. "X ships before Y", "GPT-5 lands between
-March and June", "Gemini 3.5 Pro was cancelled") - leakers often phrase leaks as predictions; these are scored later.
+KEEP specific, checkable predictions PRESENTED AS INFORMATION about a named product/event/timing (e.g. "X ships next
+week", "GPT-5 lands between March and June", "Gemini 3.5 Pro was cancelled") - leakers often phrase leaks this way.
+DROP predictions explicitly framed as the poster's own guess or odds ("I think", "my prediction", "my guess",
+"nonzero chance", "I'd bet", "maybe", "could be", "wouldn't be surprised") with no claim of inside information
+(kind general_prediction) - those are forecasts, not leaks.
 
 JOURNALISTS (account_type=journalist, bio given): a post sharing their OWN outlet's reporting IS a leak claim - their
 own story, a co-written story ("story w/ @colleague"), or a colleague's scoop at the same outlet ("New from @reuters",
@@ -99,6 +102,9 @@ def main():
     # journalists are exempt: deciding "own outlet vs relay" from one post (with career moves) proved unreliable
     pool = [c for c in claims if not c.get("pruned") and not c.get("prune_checked")
             and _category(c["handle"]) != "journalist"]
+    if "--speculation" in sys.argv:            # re-check speculation-typed claims under the guess-vs-information rule
+        pool = [c for c in claims if not c.get("pruned") and c.get("source_type") == "speculation"
+                and _category(c["handle"]) != "journalist"]
     if "--sample" in sys.argv:
         random.seed(int(sys.argv[sys.argv.index("--sample") + 2]) if len(sys.argv) > sys.argv.index("--sample") + 2
                     and sys.argv[sys.argv.index("--sample") + 2].isdigit() else 1)

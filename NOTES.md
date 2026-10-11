@@ -88,6 +88,19 @@ start ts in `data/cache/budget_start.txt`).
   applied in one consistent order; corroboration excludes relays/repeats/already-public contributors; run-wide
   extraction time budget + per-search error isolation; method copy matches the code.
 
+- Pruned 49 non-AI claims (iPads, Xbox layoffs, Threads, Find My…) with a sharper scope definition, now also used by
+  the daily filter. Dates in the future (a grader typo'd 2025→2026) are rejected; displayed lead capped at "over a year"
+  (multi-year leads usually meant the grader latched onto a looser later event).
+- Ranking threshold is now 5+ distinct settled *stories* (event groups), not 5 claims.
+- Tested a looser wider-X search (150 likes): mostly relays/engagement bait → kept the 400-like bar.
+- Astra audit of the 80 un-audited claims shown as leakers' "best calls"/"biggest misses" (what readers see first).
+
+- That audit agreed only 40% — expected for the most extreme verdicts — and showed many "biggest misses" weren't leaks:
+  explicit personal guesses ("nonzero chance…", "my prediction…"), an April-Fools riff. Policy sharpened (prune +
+  resolver): a prediction *presented as information* is a claim; one *framed as the poster's own guess/odds* is not.
+  Re-checked the 537 speculation-typed claims → 180 dropped. Rankings barely moved (robust).
+- Spend so far ≈ $64 (Luna ≈ $30, Astra ≈ $34).
+
 ## Open / ideas
 - Astra #1 (no-hindsight dates) partly fixed (uses official date when present); a proper fix needs outcome history.
 - Astra #14 (evidence provenance not verified) and #20 (no write lock) not addressed.

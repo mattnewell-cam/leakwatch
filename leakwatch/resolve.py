@@ -44,7 +44,9 @@ Verdicts:
 - pending: not yet confirmed or contradicted, and could still come true.
 - already_public: info was public before the post (see STEP 1). public_date = that earlier date (same day is allowed
   only for relays of news that broke earlier that day; never for original finds).
-- not_a_claim: the post doesn't actually make this assertion, or isn't a leak claim at all.
+- not_a_claim: the post doesn't actually make this assertion, or isn't a leak claim at all - including forecasts
+  explicitly framed as the poster's own guess/odds ("I think", "my prediction", "nonzero chance") with no claim of
+  inside information. (A prediction presented as information, e.g. "X ships next week", IS a claim.)
 - unverifiable: can't be confirmed or refuted from public info (internal-only facts never independently reported).
 
 TIMING RULES (one policy):
