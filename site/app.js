@@ -238,7 +238,7 @@
         <td class="rank ${r && r <= 3 ? "top" : ""}">${r || "–"}</td>
         <td><div class="lbwho">${avatar(l, "md")}<div><div class="n1">${esc(l.name)}</div><div class="n2">@${esc(l.handle)} · <span class="catbadge">${CAT_LABEL[l.category] || l.category}</span></div></div></div></td>
         <td class="num"><div class="scorebar"><span class="mono">${s.leak_score.toFixed(0)}</span><span class="bar"><i style="width:${Math.min(100, s.leak_score)}%"></i></span></div></td>
-        <td class="num mono" title="Bayesian credibility; raw hit rate ${pct(s.hit_rate_raw)}">${pct(s.credibility)}</td>
+        <td class="num mono" title="Bayesian credibility; raw hit rate ${pct(s.hit_rate_raw)}">${s.n_resolved ? pct(s.credibility) : "–"}</td>
         <td class="num mono" style="color:var(--true)">${s.n_true + s.n_mostly_true}</td>
         <td class="num mono" style="color:var(--false)">${s.n_false}</td>
         <td class="num mono" style="color:var(--pending)">${s.n_pending}</td>
@@ -291,7 +291,7 @@
       </section>
       ${l.summary ? `<div class="panel" style="margin-top:6px"><h3>Verdict on this leaker</h3><div>${esc(l.summary)}</div></div>` : ""}
       <div class="kv" style="margin:14px 0 6px">
-        <div><b>${pct(s.credibility)}</b><span>credibility (raw ${pct(s.hit_rate_raw)})</span></div>
+        <div><b>${s.n_resolved ? pct(s.credibility) : "–"}</b><span>${s.n_resolved ? `credibility (raw ${pct(s.hit_rate_raw)})` : "credibility — nothing settled yet"}</span></div>
         <div><b style="color:var(--true)">${s.n_true + s.n_mostly_true}</b><span>hits</span></div>
         <div><b style="color:var(--partly)">${s.n_partly_true}</b><span>partly right</span></div>
         <div><b style="color:var(--false)">${s.n_false}</b><span>misses</span></div>
