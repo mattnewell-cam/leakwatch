@@ -131,6 +131,12 @@ start ts in `data/cache/budget_start.txt`).
 - Untimed claims are never false just because time passed; the 180-day default is only a review horizon.
 - Legitimacy is recalibrated on the backtest, so its range is compressed (~25–90).
 
+## Morning check (06:41 UTC)
+- The **scheduled 06:17 UTC run hadn't fired by 06:41** (GitHub cron is best-effort and often late, especially on new
+  repos), so I triggered the same workflow by hand. Both jobs passed on the new code: regression tests ✓, 391 tweets
+  fetched (6,030 credits), 40 unseen, 2 non-claims pruned, 5 new claims, 31 graded (~$0.40 OpenAI), deploy ✓.
+- If the schedule keeps slipping, Actions → "Daily leak update" → Run workflow does the same thing.
+
 ## Decision for you (not made unilaterally)
 **How should code/app-string finds that never ship be scored?** Right now "OpenAI is testing X" (found in app code) is
 true if X launches and *unverifiable* (excluded) if it never does — so a sleuth who reports 10 strings of which 5 ship
