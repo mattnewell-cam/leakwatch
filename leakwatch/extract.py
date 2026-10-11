@@ -123,9 +123,12 @@ def _safe(handle, category, b, model):
 
 
 SCOPE_SCHEMA = obj({"in_scope_ids": arr(S)})
-SCOPE_SYS = """Keep only claims about AI: AI models, AI products/features, AI labs & their people/finances/deals/legal
-issues, AI chips/compute/data centers, government AI policy. Drop claims about unrelated topics (e.g. iPhone hardware,
-general tech, crypto, Tesla cars, politics unrelated to AI). Return the ids to keep."""
+SCOPE_SYS = """Keep only claims about AI: AI models and their capabilities/releases, AI products and features, AI labs
+(OpenAI, Anthropic, Google DeepMind/Gemini, xAI, Meta AI, Mistral, DeepSeek, ...) and their people, funding, deals, IPOs
+and legal fights, AI chips/compute/data centres, government AI policy. Big-tech claims count only when they're about AI
+(Siri/Apple Intelligence, Gemini in Android, Copilot, AI deals). Drop iPhone/Mac/iPad/Watch/Vision Pro/VR hardware,
+modems, displays, OS features unrelated to AI, Xbox/gaming, Threads/Instagram product changes, Tesla cars, SpaceX
+launches, crypto, politics unrelated to AI. Return the ids to keep."""
 
 
 def scope_filter(claims):
