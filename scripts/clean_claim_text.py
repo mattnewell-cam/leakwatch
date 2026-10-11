@@ -16,13 +16,15 @@ SCHEMA = obj({"items": arr(obj({"id": S, "claim": S}))})
 SYS = """Rewrite each leak-claim summary as a direct, standalone statement of WHAT IS CLAIMED (not who said it):
 "Jimmy Apples tweeted that OpenAI achieved AGI internally" -> "OpenAI has achieved AGI internally."
 "The author claimed Gemini 3 launches on 2025-10-22" -> "Google will launch Gemini 3 on 2025-10-22."
-Keep every detail, date and hedge ("reportedly", "may") exactly; don't add or remove information. If the summary
+Keep every detail, date and hedge ("reportedly", "may") exactly; don't add or remove information. If a summary is
+already a direct statement of the claim, return it unchanged. If the summary
 describes OTHER people discussing the account (e.g. a forum recording what they said), still extract the claim itself."""
 
 
 def main():
     claims = load_json(DATA / "claims.json")
-    todo = [c for c in claims if not c.get("pruned") and META.search(c["claim"])]
+    todo = [c for c in claims if not c.get("pruned") and (META.search(c["claim"]) or
+            ("--trawl" in sys.argv and c.get("origin") == "trawl"))]
     print("meta-phrased:", len(todo))
     out = {}
     for i in range(0, len(todo), 30):
