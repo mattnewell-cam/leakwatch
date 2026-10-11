@@ -13,11 +13,11 @@ The site is fully static (`site/`) and is rebuilt every day by GitHub Actions.
 | Stage | What happens | Code |
 |---|---|---|
 | Backfill | Pulled ~45 accounts' high-engagement post history from twitterapi.io, plus famous deleted claims found in press and forum coverage | `scripts/backfill_fetch.py`, `scripts/trawl_gpt.py` |
-| Extract | An LLM keeps only assertions of **non-public** info (not commentary, not relays of published stories), with specificity and significance ratings | `leakwatch/extract.py` |
-| Resolve | Each claim is graded against an official event timeline (`data/events.json`) and web search: true / mostly / partly / false / pending / already public / unverifiable, plus the date it became public (lead time) | `leakwatch/resolve.py` |
-| Audit | High-impact verdicts were re-checked by a second model (Claude), and corrections are marked in `resolution.vetted` | `scripts/apply_audit.py` |
-| Score | Credibility, impact, Leak score, and no-hindsight legitimacy, with calibration shown on the Method page | `leakwatch/scoring.py` |
-| Daily | 06:17 UTC: new posts from tracked accounts, a wider X search for viral leaks, extraction, story linking (corroboration), re-check of overdue pending claims, rebuild, deploy | `leakwatch/daily.py`, `.github/workflows/daily.yml` |
+| Extract | An LLM keeps only assertions of **non-public** info (not commentary, not relays of published stories), with specificity, significance and whether the poster stated a deadline; a second pass re-reads each post and drops non-claims | `leakwatch/extract.py`, `scripts/prune_claims.py` |
+| Resolve | GPT-6 Luna + web search grades **the post itself** (incl. any quoted post) against an official event timeline (`data/events.json`): true / mostly / partly / false / pending / already public / unverifiable / not a claim, plus first-public and official-confirmation dates (lead time). One timing rubric; untimed claims are never "false" just because time passed; no circular evidence | `leakwatch/resolve.py` |
+| Audit | High-impact verdicts re-checked by Claude Opus; random samples blind re-graded by GPT-6 Astra (≈69% outcome agreement — the ambiguity ceiling between strong graders). Corrections marked in `resolution.vetted` | `scripts/apply_audit.py`, `scripts/astra_audit.py` |
+| Score | Credibility (expected credit, Bayesian, claims about one event counted once), coverage, impact, Leak score, and no-hindsight legitimacy recalibrated on the backtest (`scripts/tune_prior.py`) | `leakwatch/scoring.py` |
+| Daily | 06:17 UTC: new posts from tracked accounts (catch-up after missed runs, retry queue), a wider X search for viral leaks, extraction + prune, story linking (corroboration / repeats), grading of new claims and re-checks of open ones, weekly blurb refresh, rebuild, deploy | `leakwatch/daily.py`, `.github/workflows/daily.yml` |
 
 Untracked accounts only surface when a claim goes viral (≥400 likes, ≥2k followers, account ≥120 days old). They are scored with a sceptical prior and build a record over time.
 
@@ -38,13 +38,13 @@ python -m http.server 8765 --directory site
 - Re-run the workflow by hand from the Actions tab ("Daily leak update" → Run workflow).
 - To add a leaker, add `{"handle": "...", "category": "anon_insider|reverse_engineer|journalist|aggregator|commentator"}` to `data/accounts.json`, then run `python -m scripts.backfill_fetch <handle>`, `python -m scripts.extract_claims <handle>`, `python -m scripts.import_backfill` and `python -m scripts.resolve_backfill`.
 
-## Status at launch (2026-10-10)
+## Status (2026-10-11, after the overnight overhaul)
 
-- 45 tracked accounts (33 leakers and 11 journalists ranked) and 4,634 claims from 2023 to today. 1,682 are resolved and ~1,000 are pending.
-- 987 of the most score-relevant verdicts were audited by Claude. A blind random sample of 120 unaudited verdicts agreed with the auditor on the outcome category 69% of the time (exact verdict 64%), and the disagreements run in both directions. Aggregate scores are robust; individual unaudited verdicts can be off.
-- Legitimacy calibration (no hindsight): claims scored 0–10 came true about 27% of the time, and claims scored 80–100 about 82%.
-- Top leakers: @btibor91, @testingcatalog, @TokenGremlin, @legit_api. Lowest accuracy among prolific accounts: @iruletheworldmo (~28%) and @imjustnewatai (~32%), each with 110+ resolved claims.
-- twitterapi.io balance: about 414k credits at launch. A daily run uses about 5–6k, so it lasts about 2.5 months. Top up at twitterapi.io/dashboard.
+- 45 tracked accounts; 3,780 live claims (non-claims pruned), 1,487 settled, 705 pending.
+- Grading reliability: a stronger model (GPT-6 Astra) blind re-graded a random sample of un-audited verdicts and agreed on the outcome category 69% of the time; disagreements run both ways. Aggregate scores are far more robust than any single verdict.
+- Top leakers by Leak score: @btibor91, @AiBattle_, @testingcatalog, @legit_api.
+- See `NOTES.md` for the full log of what changed and why.
+- twitterapi.io: ~400k credits left; a daily run uses ~3–6k (≈ 2–3 months). Top up at twitterapi.io/dashboard.
 
 ## Caveats
 
