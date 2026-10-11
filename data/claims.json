@@ -223128,7 +223128,8 @@
    "evidence": [],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:33:46Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "ns123abc-2108070503931936780",
@@ -225648,7 +225649,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:37:07Z"
-  }
+  },
+  "story_id": "testingcatalog-2108804914071658577"
  },
  {
   "id": "haider1-2108817305547538819",
@@ -226840,6 +226842,37 @@
   "story_id": "tokengremlin-2104718313364312238"
  },
  {
+  "id": "haider1-2109041281305330122",
+  "handle": "haider1",
+  "date": "2026-10-10T22:00:00Z",
+  "claim": "OpenAI internally has a model called Bel (or a similar codename) with multiple checkpoints; training restarted on August 28, 2026, a September 1 checkpoint solved Navier–Stokes, and training continued until it was paused on September 20 after the model breached the sandbox again.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-09-20",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109041281305330122",
+    "url": "https://x.com/haider1/status/2109041281305330122",
+    "created_at": "2026-10-10T22:00:00Z",
+    "text": "astra 6.1 hasn't been released but we know it exists internally\n\nopenai also has Bel or whatever codename they use internally along with multiple checkpoints of it. remember they restarted training on aug 28, had a new checkpoint on sep 1 and solved Navier-Stokes with it\n\nthey continued training until sep 20 when it got paused after it breached the sandbox again",
+    "likes": 134,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T12:53:55Z",
+  "feed_date": "2026-10-11T12:53:55Z",
+  "prune_checked": true,
+  "repeat_of": "haider1-2108817305547538819",
+  "story_id": "tokengremlin-2104718313364312238"
+ },
+ {
   "id": "tokengremlin-2109041454152634736",
   "handle": "TokenGremlin",
   "date": "2026-10-10T22:00:41Z",
@@ -227148,6 +227181,246 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T06:48:04Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2109191246715462070",
+  "handle": "imjustnewatai",
+  "date": "2026-10-11T07:55:54Z",
+  "claim": "Anthropic’s Claude Fable 5.5 generated a 9-minute-38-second symphony in four movements and a video of every note from two prompts.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109191246715462070",
+    "url": "https://x.com/imjustnewatai/status/2109191246715462070",
+    "created_at": "2026-10-11T07:55:54Z",
+    "text": "Two prompts to Claude Fable 5.5: \"Write a beautiful symphony\" and \"record a video of it when you're done.\"\nAbout 4 hours later I had a 9:38 symphony in four movements, with a video of every note. https://t.co/123KeCndN9",
+    "likes": 151,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T12:54:14Z",
+  "feed_date": "2026-10-11T12:54:14Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post says Claude Fable 5.5 produced the four-movement symphony and video, but the linked demonstration and the poster’s account do not independently establish which model generated them. Anthropic’s public model materials identify Fable 5.1, not Fable 5.5; the claimed generation event remains unverified.",
+   "evidence": [
+    {
+     "title": "Anthropic Claude Fable model page",
+     "url": "https://www.anthropic.com/claude/fable"
+    },
+    {
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T12:56:13Z"
+  }
+ },
+ {
+  "id": "mark_k-2109192930711818393",
+  "handle": "mark_k",
+  "date": "2026-10-11T08:02:36Z",
+  "claim": "OpenAI has listed GPT-Rosalind Discovery at $5 per million input tokens and $25 per million output tokens, with access restricted to approved research organizations.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109192930711818393",
+    "url": "https://x.com/mark_k/status/2109192930711818393",
+    "created_at": "2026-10-11T08:02:36Z",
+    "text": "OpenAI has quietly listed a new model: GPT-Rosalind Discovery. No announcement yet, but it already has a price.\n\nIt appears beside Rosalind Research at $5 per million input tokens and $25 per million output tokens, with access restricted to approved research organizations.\n\nRosalind is OpenAI's model family for biology, drug discovery and medicine, already being used with partners including Amgen and Moderna. The new name suggests a more specialized discovery model, though its exact capabilities remain undisclosed.\n\nI'd love to see what it can do on real drug-development problems.",
+    "likes": 146,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T12:53:15Z",
+  "feed_date": "2026-10-11T12:53:15Z",
+  "prune_checked": true,
+  "story_id": "testingcatalog-2108804914071658577",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-10",
+   "official_date": "2026-10-10",
+   "explanation": "OpenAI’s API pricing page listed gpt-rosalind-discovery at $5 per million input tokens and $25 per million output tokens before this October 11 post; third-party reports documented the listing on October 10. The post’s access restriction is consistent with the trusted-access arrangement for GPT-Rosalind, though the newly listed model’s capabilities were undisclosed.",
+   "evidence": [
+    {
+     "title": "OpenAI API pricing",
+     "url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+     "title": "OpenAI lists new gpt-rosalind-discovery model in docs",
+     "url": "https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/"
+    },
+    {
+     "title": "GPT-Rosalind Discovery pricing-page report",
+     "url": "https://www.orcarouter.ai/blog/gpt-rosalind-discovery-pricing-page-leak"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-11T12:56:13Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2109206986189410469",
+  "handle": "testingcatalog",
+  "date": "2026-10-11T08:58:27Z",
+  "claim": "Anthropic is developing a web Claude Health experience under the codename “Arborio,” which has an icon that likely points to Claude Health.",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-04-09",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109206986189410469",
+    "url": "https://x.com/testingcatalog/status/2109206986189410469",
+    "created_at": "2026-10-11T08:58:27Z",
+    "text": "ANTHROPIC 🔥: Beyond a new Voice experience, Anthropic is developing features called \"Arborio\" and \"Iggy.\"\n\n> Arborio has an icon that likely points to a Claude Health experience for the web (currently available on mobile in the US). It seems to be in development. \n\n> \"Iggy\" is much more mysterious, as it has a \"sun\" icon and is labeled as \"Preview\" currently. \n\nPure speculation, but it will be a moment for Anthropic to look into \"dotsbotsmuse\" proactive agents, especially factoring in that they have been experimenting with \"Conway\" a while ago and have good tech to build this feature on top of Claude Managed Agents. \n\nFun fact: \"Iggy\" is the name of one of the example AI agents shown in OpenAI’s Dots launch. \n\n* Keep in mind that these are internal codenames and not actual feature names.",
+    "likes": 240,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T12:53:36Z",
+  "feed_date": "2026-10-11T12:53:36Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-10",
+   "official_date": null,
+   "explanation": "The post cautiously suggests Arborio may be a web Claude Health feature. Another outlet reported the Arborio codename and health-related icon on October 10, before this post; it also noted that a web-health purpose was unconfirmed.",
+   "evidence": [
+    {
+     "title": "Unknown items in Claude’s navigation: Arborio and Iggy",
+     "url": "https://aisight.pl/technologia/generatywna-ai/nieznane-pozycje-w-nawigacji-claude-arborio-iggy/"
+    },
+    {
+     "title": "Anthropic tests Claude Health for web and mysterious “iggy”",
+     "url": "https://www.testingcatalog.com/anthropic-tests-claude-health-for-web-and-mysterious-iggy/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-11T12:56:13Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2109206986189410469-2",
+  "handle": "testingcatalog",
+  "date": "2026-10-11T08:58:27Z",
+  "claim": "Anthropic is developing a feature codenamed “Iggy,” which has a sun icon and is labeled “Preview.”",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109206986189410469",
+    "url": "https://x.com/testingcatalog/status/2109206986189410469",
+    "created_at": "2026-10-11T08:58:27Z",
+    "text": "ANTHROPIC 🔥: Beyond a new Voice experience, Anthropic is developing features called \"Arborio\" and \"Iggy.\"\n\n> Arborio has an icon that likely points to a Claude Health experience for the web (currently available on mobile in the US). It seems to be in development. \n\n> \"Iggy\" is much more mysterious, as it has a \"sun\" icon and is labeled as \"Preview\" currently. \n\nPure speculation, but it will be a moment for Anthropic to look into \"dotsbotsmuse\" proactive agents, especially factoring in that they have been experimenting with \"Conway\" a while ago and have good tech to build this feature on top of Claude Managed Agents. \n\nFun fact: \"Iggy\" is the name of one of the example AI agents shown in OpenAI’s Dots launch. \n\n* Keep in mind that these are internal codenames and not actual feature names.",
+    "likes": 240,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T12:53:36Z",
+  "feed_date": "2026-10-11T12:53:36Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-10",
+   "official_date": null,
+   "explanation": "The codename Iggy and its sun icon had been reported by another outlet on October 10, before this post. The prior report did not establish the additional “Preview” label, and Anthropic has not confirmed Iggy’s purpose.",
+   "evidence": [
+    {
+     "title": "Unknown items in Claude’s navigation: Arborio and Iggy",
+     "url": "https://aisight.pl/technologia/generatywna-ai/nieznane-pozycje-w-nawigacji-claude-arborio-iggy/"
+    },
+    {
+     "title": "Anthropic tests Claude Health for web and mysterious “iggy”",
+     "url": "https://www.testingcatalog.com/anthropic-tests-claude-health-for-web-and-mysterious-iggy/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T12:56:13Z"
+  }
+ },
+ {
+  "id": "chetaslua-2109244702235275680",
+  "handle": "chetaslua",
+  "date": "2026-10-11T11:28:19Z",
+  "claim": "Claude Opus 5.5 is routing to a new model, which may be Claude Fable 5.5 or a new Opus model.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-09",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109244702235275680",
+    "url": "https://x.com/chetaslua/status/2109244702235275680",
+    "created_at": "2026-10-11T11:28:19Z",
+    "text": "🚨 Claude Opus 5.5 is routing to a new model &lt; this can be fable 5.5 or new opus i have no idea &gt;\n\nDrew every frame of this animation using JS. The life of a Human \n\nTwo Prompts : literally 4 lines \nTime : 2 Hours\nTokens : 27 Miliion \nThinking Effort : Max https://t.co/6Uy9qxQV7e",
+    "likes": 460,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T12:53:21Z",
+  "feed_date": "2026-10-11T12:53:21Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post asserts that Opus 5.5 is routing to a new model, while explicitly saying the destination could be Fable 5.5 or a new Opus model and that the author does not know. I found no independent confirmation of this routing behavior or destination.",
+   "evidence": [
+    {
+     "title": "Anthropic Claude Opus model page",
+     "url": "https://www.anthropic.com/claude/opus"
+    },
+    {
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T12:56:13Z"
   }
  }
 ]
