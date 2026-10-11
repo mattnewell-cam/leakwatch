@@ -11,7 +11,7 @@ on:
         default: true
   push:
     branches: [main]
-    paths: ["site/**", "data/**", "scripts/build_site.py", "leakwatch/scoring.py", "leakwatch/resolve.py"]
+    paths: ["site/**", "data/**", "scripts/build_site.py", "leakwatch/scoring.py", "leakwatch/resolve.py", "tests/**"]
 
 permissions:
   contents: write
@@ -33,6 +33,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Scoring regression tests
+        run: python -m tests.test_scoring
       - name: Pull new posts, extract and score claims, re-check pending
         env:
           TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
@@ -76,6 +78,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - run: python -m tests.test_scoring
       - run: python -m scripts.build_site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
