@@ -58779,7 +58779,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:55:30Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-1986108210563145927",
@@ -68561,23 +68562,30 @@
   "prune_checked": true,
   "claim_v1": "Anthropic is not expected to release a new model or product in January 2026 and its next release will come later than that month.",
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-01-12",
-   "official_date": "2026-01-12",
-   "explanation": "The post said an Anthropic release hoped for in January would take longer. Anthropic released Cowork as a research preview on January 12, within the stated January deadline.",
+   "verdict": "partly_true",
+   "public_date": "2026-02-05",
+   "official_date": "2026-02-05",
+   "explanation": "The narrower model-release reading was correct: Anthropic’s next new Claude model, Opus 4.6, launched February 5, 2026. However, the post did not specify models, and its broader suggestion of no Anthropic release in January conflicts with Anthropic’s confirmation that it launched more than thirty products and features that month, including Cowork. ([anthropic.com](https://www.anthropic.com/news/claude-opus-4-6))",
    "evidence": [
     {
-     "title": "Introducing Labs — Anthropic",
-     "url": "https://www.anthropic.com/news/introducing-anthropic-labs"
+     "title": "Introducing Claude Opus 4.6",
+     "url": "https://www.anthropic.com/news/claude-opus-4-6"
     },
     {
-     "title": "Anthropic launches Cowork — Ars Technica",
-     "url": "https://arstechnica.com/ai/2026/01/anthropic-launches-cowork-a-claude-code-like-for-general-computing/"
+     "title": "Anthropic raises $30B Series G at $380B valuation",
+     "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T00:42:15Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:45:21Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:45:21Z",
+    "changed_from": "false",
+    "note": "The narrower model-release reading was correct: Anthropic’s next new Claude model, Opus 4.6, launched February 5, 2026. However, the post did not specify models, and its broader suggestion of no Anthropic release in January conflicts with Anthropic’s confirmation that it launched more than thirty products and features that month, including Cowork. ([anthropic.com](https://www.anthropic.com/news/claude-opus-4-6))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "apples_jimmy-2008317578947551534",
@@ -69516,23 +69524,21 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-02-17",
-   "official_date": "2026-02-17",
-   "explanation": "Grok 4.20 entered limited beta on February 17, before OpenAI announced GPT-5.5 on April 23. That meets the post’s February 28 deadline for Grok to come first.",
-   "evidence": [
-    {
-     "title": "Grok 4.20 launch timeline",
-     "url": "https://epoch.ai/models/grok-4-20"
-    },
-    {
-     "title": "Introducing GPT-5.5",
-     "url": "https://openai.com/index/introducing-gpt-5-5/"
-    }
-   ],
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This is a commentator’s speculative forecast built around typical sprint lengths and qualified with “could” and “likely,” without asserting inside information. The post also does not commit Grok 4.2 to a February 28 deadline; the extractor adds that implication.",
+   "evidence": [],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:37:06Z"
-  }
+   "resolved_at": "2026-10-11T02:45:21Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:45:21Z",
+    "changed_from": "true",
+    "note": "This is a commentator’s speculative forecast built around typical sprint lengths and qualified with “could” and “likely,” without asserting inside information. The post also does not commit Grok 4.2 to a February 28 deadline; the extractor adds that implication."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-2010742930206769333",
@@ -75793,23 +75799,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-02-03",
+   "verdict": "unverifiable",
+   "public_date": null,
    "official_date": null,
-   "explanation": "Claude had an API error incident on February 3, but Anthropic's public status record does not support the post's claim that four outages confirmed a failed Sonnet 5/Opus 4.6 deployment and rollback. Opus 4.6 launched February 5; the post's deployment explanation was not independently confirmed.",
+   "explanation": "Public incident reporting establishes February 3 service problems, but does not independently establish a failed deployment and rollback of Sonnet 5 and Opus 4.6. Opus 4.6’s confirmed February 5 launch does not validate that internal causal story, which remains uncorroborated. ([gist.github.com](https://gist.github.com/LEX8888/675867b7f130b7ad614905c9dd86b57a?utm_source=openai))",
    "evidence": [
     {
-     "title": "Claude Status - Incident History",
-     "url": "https://status.claude.com/history"
+     "title": "Anthropic incident: Elevated error rate on API across all Claude models",
+     "url": "https://status.claude.com/incidents/pr6yx3bfr172"
     },
     {
      "title": "Introducing Claude Opus 4.6",
      "url": "https://www.anthropic.com/news/claude-opus-4-6"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-11T00:42:48Z"
-  }
+   "confidence": "high",
+   "resolved_at": "2026-10-11T02:45:21Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:45:21Z",
+    "changed_from": "false",
+    "note": "Public incident reporting establishes February 3 service problems, but does not independently establish a failed deployment and rollback of Sonnet 5 and Opus 4.6. Opus 4.6’s confirmed February 5 launch does not validate that internal causal story, which remains uncorroborated. ([gist.github.com](https://gist.github.com/LEX8888/675867b7f130b7ad614905c9dd86b57a?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2019055211164381649-2",
@@ -76822,23 +76835,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-02-07",
+   "verdict": "already_public",
+   "public_date": "2026-01-30",
    "official_date": "2026-02-17",
-   "explanation": "The post said Grok 4.2 was coming “shortly,” and xAI’s Grok 4.20 beta launched ten days later, on February 17. Pony Alpha was not reliable evidence of xAI authorship, but the release prediction itself was borne out.",
+   "explanation": "Musk had publicly identified mid-February as the revised Grok 4.20 target on January 30, before this February 7 post; the public beta arrived February 17. The graded near-term release assertion was therefore already public, independently of the post’s separate Pony Alpha speculation.",
    "evidence": [
     {
-     "title": "Pony Alpha on OpenRouter",
-     "url": "https://openrouter.ai/openrouter/pony-alpha/activity"
+     "title": "XAI Grok 4.20 Delayed to Mid-February",
+     "url": "https://www.nextbigfuture.com/2026/01/xai-grok-4-20-delayed-to-mid-february.html"
     },
     {
-     "title": "Grok 4.20 — Epoch AI",
-     "url": "https://epoch.ai/models/grok-4-20"
+     "title": "Grok 4.2 public beta announced",
+     "url": "https://gigazine.net/news/20260218-grok-4-2-public-beta/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:37:03Z"
-  }
+   "resolved_at": "2026-10-11T02:47:13Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:47:13Z",
+    "changed_from": "true",
+    "note": "Musk had publicly identified mid-February as the revised Grok 4.20 target on January 30, before this February 7 post; the public beta arrived February 17. The graded near-term release assertion was therefore already public, independently of the post’s separate Pony Alpha speculation."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "bindureddy-2020013006768468423-2",
@@ -78868,7 +78888,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:55:19Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "daniel_mac8-2022010923247108389",
@@ -97575,19 +97596,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
+   "verdict": "not_a_claim",
    "public_date": null,
-   "official_date": "2026-04-21",
-   "explanation": "The post offered two alternatives for April 21; OpenAI announced ChatGPT Images 2.0 that day, satisfying the image-generation alternative. GPT-5.5 did not launch that day, but the claim was disjunctive.",
+   "official_date": null,
+   "explanation": "This is an interpretation of OpenAI’s public teaser: the poster offers two possible products and explicitly derives the timing from the generated image, without claiming inside information. ChatGPT Images 2.0 did launch April 21, 2026, but that does not turn the reaction into an original leak.",
    "evidence": [
     {
-     "title": "Introducing ChatGPT Images 2.0 — OpenAI",
+     "title": "OpenAI’s public “This is not a screenshot” teaser",
+     "url": "https://x.noodl3.net/OpenAI/status/2046589828918317155"
+    },
+    {
+     "title": "Introducing ChatGPT Images 2.0",
      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:14:37Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:47:13Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:47:13Z",
+    "changed_from": "true",
+    "note": "This is an interpretation of OpenAI’s public teaser: the poster offers two possible products and explicitly derives the timing from the generated image, without claiming inside information. ChatGPT Images 2.0 did launch April 21, 2026, but that does not turn the reaction into an original leak."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "synthwavedd-2046596364545527854",
@@ -99106,7 +99138,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:21:07Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "aibattle_-2047317823932747979",
@@ -117119,7 +117152,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:55:18Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "testingcatalog-2064007926843416838",
@@ -121442,23 +121476,21 @@
   "prune_checked": true,
   "claim_v1": "OpenAI has or is developing a voice model called GPT Bidi 1 that is bidirectional and full duplex.",
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-07-08",
-   "official_date": "2026-07-08",
-   "explanation": "The post framed the capability conditionally, but its specific point—that ChatGPT’s new voice mode could listen and speak simultaneously—was confirmed when OpenAI launched GPT-Live on July 8. OpenAI called the architecture full-duplex; the post’s “GPT Bidi 1” label was not the released product name.",
-   "evidence": [
-    {
-     "title": "Introducing GPT-Live",
-     "url": "https://openai.com/index/introducing-gpt-live/"
-    },
-    {
-     "title": "GPT-Live 1 Model",
-     "url": "https://developers.openai.com/api/docs/models/gpt-live-1"
-    }
-   ],
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post explicitly conditions its discussion on whether GPT Bidi 1 is actually bidirectional and full duplex. It extrapolates possible implications rather than claiming inside knowledge that this architecture exists.",
+   "evidence": [],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:22:16Z"
-  }
+   "resolved_at": "2026-10-11T02:45:21Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:45:21Z",
+    "changed_from": "true",
+    "note": "The post explicitly conditions its discussion on whether GPT Bidi 1 is actually bidirectional and full duplex. It extrapolates possible implications rather than claiming inside knowledge that this architecture exists."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "chetaslua-2067197698542084427",
@@ -139808,23 +139840,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-07-12",
-   "official_date": "2026-07-12",
-   "explanation": "The bundled `/build-with-ai` skill’s stated purpose and xAI-defaulting behavior match the post, and later Grok Build materials independently document the skill. The available record supports it being present by the stated July 12 date.",
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "Independent public snapshots corroborate a bundled build-with-ai skill that steers app integrations toward SpaceXAI. However, the located evidence does not establish its presence on July 12, 2026, or the specifically claimed grok-4.5 default at that time. ([github.com](https://github.com/korallis/skills-collection?utm_source=openai))",
    "evidence": [
     {
-     "title": "Grok Build changelog",
-     "url": "https://x.ai/changelog/build"
+     "title": "Skills collection documenting Grok Build's bundled product skills",
+     "url": "https://github.com/korallis/skills-collection"
     },
     {
-     "title": "Grok Build source documentation on skills",
-     "url": "https://github.com/xai-org/grok-build/blob/main/crates/codegen/xai-grok-pager/docs/user-guide/08-skills.md"
+     "title": "Grok CLI prompt snapshot identifying the bundled build-with-ai skill",
+     "url": "https://www.sshipanoo.com/labs/agent-runtime/prompts/0ba15a89-e7d6-472c-8e9f-7381815e2e48"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:41:31Z"
-  }
+   "resolved_at": "2026-10-11T02:45:21Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:45:21Z",
+    "changed_from": "true",
+    "note": "Independent public snapshots corroborate a bundled build-with-ai skill that steers app integrations toward SpaceXAI. However, the located evidence does not establish its presence on July 12, 2026, or the specifically claimed grok-4.5 default at that time. ([github.com](https://github.com/korallis/skills-collection?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "imjustnewatai-2076260145193988516",
@@ -141652,19 +141691,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-07-16",
-   "official_date": "2026-07-16",
-   "explanation": "X’s @premium announcement on July 16 said SuperGrok Heavy would include X Premium+ at no extra cost. That confirms the post’s “soon” claim, two days after it was posted.",
+   "verdict": "already_public",
+   "public_date": "2026-07-11",
+   "official_date": "2026-07-11",
+   "explanation": "Musk publicly promised the change on July 11, and same-day commentary explicitly described SuperGrok Heavy gaining X Premium+, preceding this July 14 post. The subsequent Premium announcement was documented on July 17, but the planned benefit was already public. ([nitter.kareem.one](https://nitter.kareem.one/ayv4zyan?utm_source=openai))",
    "evidence": [
     {
-     "title": "Report quoting the July 16 @premium announcement",
-     "url": "https://www.payforchat.com/grok/articles/grok-supergrok-heavy-x-premium-plus-claim-2026"
+     "title": "July 11 discussion quoting Musk's promise to add X Premium+ to Heavy",
+     "url": "https://nitter.kareem.one/ayv4zyan"
+    },
+    {
+     "title": "44BITS report citing the official Premium announcement",
+     "url": "https://news.44bits.io/2026/08/supergrok-plus-plan/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:41:31Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-10-11T02:45:21Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:45:21Z",
+    "changed_from": "true",
+    "note": "Musk publicly promised the change on July 11, and same-day commentary explicitly described SuperGrok Heavy gaining X Premium+, preceding this July 14 post. The subsequent Premium announcement was documented on July 17, but the planned benefit was already public. ([nitter.kareem.one](https://nitter.kareem.one/ayv4zyan?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "chrisgpt-2077131738489221262",
@@ -184228,23 +184278,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-02-20",
+   "verdict": "not_a_claim",
+   "public_date": null,
    "official_date": null,
-   "explanation": "OpenAI did not tease a hardware device at DevDay on September 29, 2026. The February 2027 consumer-device timing had already appeared in reporting before this post, including a February 20, 2026 report; that public timing does not validate the predicted DevDay tease.",
+   "explanation": "The post explicitly frames the list as personal expectations and says the device only “could” be teased, not that a reveal or February release will happen. Its February reference relays existing reporting, which actually said shipping would occur no earlier than the end of February 2027.",
    "evidence": [
     {
-     "title": "MacRumors: Jony Ive's First OpenAI Device Will Be Smart Speaker With Camera, 2027 Launch Planned",
-     "url": "https://www.macrumors.com/2026/02/20/jony-ive-openai-smart-speaker-2027/"
+     "title": "OpenAI Abandons ‘io’ Branding for Its AI Hardware",
+     "url": "https://www.wired.com/story/openai-drops-io-branding-hardware-devices/"
     },
     {
-     "title": "Axios: The 5 biggest announcements from OpenAI's DevDay",
-     "url": "https://www.axios.com/2026/09/29/openai-dev-day-2026-dots-space-sol"
+     "title": "OpenAI's Jony Ive-Designed Device Delayed to 2027",
+     "url": "https://www.macrumors.com/2026/02/10/openais-jony-ive-designed-device-delayed-to-2027/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:23:13Z"
-  }
+   "resolved_at": "2026-10-11T02:47:13Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:47:13Z",
+    "changed_from": "false",
+    "note": "The post explicitly frames the list as personal expectations and says the device only “could” be teased, not that a reveal or February release will happen. Its February reference relays existing reporting, which actually said shipping would occur no earlier than the end of February 2027."
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "pankajkumar_dev-2096659264748306512-5",
@@ -185715,7 +185772,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T00:48:15Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "kimmonismus-2097357380254138866",
@@ -192790,7 +192848,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:36:31Z"
-  }
+  },
+  "astra_checked": true
  },
  {
   "id": "bindureddy-2100234987702243409",
@@ -193803,14 +193862,30 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post predicted another American Robotics update around September 22, 2026. No matching update is documented by that deadline, so the dated prediction did not come true.",
-   "evidence": [],
+   "explanation": "The post identifies neither the company nor the substance of the second American robotics update, preventing a reliable match to an eventual announcement. Searches found September 22 announcements from Viam and Arrive AI, but neither independently establishes what the poster was referring to. ([viam.com](https://www.viam.com/press-releases/viam-debuts-box-opening-robot-at-iros-2026?utm_source=openai))",
+   "evidence": [
+    {
+     "title": "Viam Debuts Box-Opening Robot at IROS 2026",
+     "url": "https://www.viam.com/press-releases/viam-debuts-box-opening-robot-at-iros-2026"
+    },
+    {
+     "title": "Arrive AI to Demonstrate Autonomous Delivery Infrastructure at Investor Showcase",
+     "url": "https://investors.arriveai.com/news-releases/news-release-details/arrive-ai-demonstrate-autonomous-delivery-infrastructure"
+    }
+   ],
    "confidence": "medium",
-   "resolved_at": "2026-10-11T01:43:01Z"
-  }
+   "resolved_at": "2026-10-11T02:45:21Z",
+   "vetted": {
+    "by": "gpt-6-astra",
+    "at": "2026-10-11T02:45:21Z",
+    "changed_from": "false",
+    "note": "The post identifies neither the company nor the substance of the second American robotics update, preventing a reliable match to an eventual announcement. Searches found September 22 announcements from Viam and Arrive AI, but neither independently establishes what the poster was referring to. ([viam.com](https://www.viam.com/press-releases/viam-debuts-box-opening-robot-at-iros-2026?utm_source=openai))"
+   }
+  },
+  "astra_checked": true
  },
  {
   "id": "chrisgpt-2100503554460958930-3",
