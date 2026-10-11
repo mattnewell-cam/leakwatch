@@ -188028,7 +188028,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:31:38Z"
-  }
+  },
+  "story_id": "mark_k-2099063314592510420"
  },
  {
   "id": "teortaxestex-2099137551713841620",
@@ -189704,7 +189705,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:34:43Z"
-  }
+  },
+  "story_id": "haider1-2099629263184171518"
  },
  {
   "id": "imjustnewatai-2099632027184017633",
@@ -197279,7 +197281,8 @@
    "confidence": "low",
    "resolved_at": "2026-10-11T01:43:01Z"
   },
-  "claim_v1": "The author says they have been hearing that OpenAI and Anthropic already have something like Jev internally."
+  "claim_v1": "The author says they have been hearing that OpenAI and Anthropic already have something like Jev internally.",
+  "story_id": "haider1-2099629263184171518"
  },
  {
   "id": "imjustnewatai-2101792656812564743-2",
@@ -206252,7 +206255,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:47:57Z"
-  }
+  },
+  "story_id": "chrisgpt-2103418373925445648"
  },
  {
   "id": "tokengremlin-2103446513972113488",
@@ -210923,7 +210927,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:47:57Z"
-  }
+  },
+  "story_id": "chrisgpt-2103418373925445648"
  },
  {
   "id": "scaling01-2104570702397415610",
@@ -220842,7 +220847,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:28:55Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "andrewcurran_-2107866118161654214",
@@ -220897,7 +220903,8 @@
     "changed_from": "already_public"
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "mark_k-2107869943983190394",
@@ -220933,7 +220940,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:33:46Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "tokengremlin-2107888218930545046",
@@ -222293,6 +222301,67 @@
   }
  },
  {
+  "id": "testingcatalog-2108465147186470979",
+  "handle": "testingcatalog",
+  "date": "2026-10-09T07:50:39Z",
+  "claim": "Google renamed its in-development Antigravity voice agent from Concierge to Chief of Staff in the latest test build, and the agent had not yet been released as of October 9, 2026.",
+  "lab": "Google",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-04-07",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108465147186470979",
+    "url": "https://x.com/testingcatalog/status/2108465147186470979",
+    "created_at": "2026-10-09T07:50:39Z",
+    "text": "DAILY AI BRIEF 🗞 — Oct 9\n\nOPENAI 🔥:\n* GPT-6.1 Sol Ultrafast is rolling out in the API, Codex and ChatGPT Work, running up to 8x faster than Sol Standard at $12/$60 per million tokens.\n* Steering in Codex is now instant, so you can correct a running task in real time, on day four of the 28-day pledge.\n* OpenAI's Node SDK 7.31.0 adds API support for prewarmed hosted environments.\n\nANTHROPIC 🔥:\n* Claude Dashboards is in beta on paid plans, building live dashboards from data platforms like BigQuery and Snowflake or from CRMs like Salesforce.\n* Claude Motion is in beta on Team and Enterprise plans, turning reports and charts into short animations written as code.\n* Claude Docs, Slides and Design are out of beta and available on every plan, including Free.\n* Anthropic launched OSS Scanner, which gives opt-in open-source projects free, regular security scans by its strongest models.\n* Anthropic updated its usage policy for the first time in over a year, including a ban on sustained abusive or cruel behavior toward Claude.\n\nGOOGLE 🔥:\n* Google Cloud launched the Gemini agent in Gemini Enterprise, a \"universal agent for work\" that runs inside Workspace apps, on your devices and in tools like Slack.\n* Google renamed its in-development Antigravity voice agent from Concierge to \"Chief of Staff\" in the latest test build, still not released.\n\nSTEPFUN 🔥:\n* StepFun's Step 5 Preview, a 600B-parameter MoE model with 27B active parameters built for agentic work, is now on OpenRouter.\n\nSPACEXAI 🔥:\n* SpaceXAI is donating $1.5 million in Grok tokens to the Omarchy Linux project as a founding patron of its foundation.\n\nJETBRAINS 🔥:\n* JetBrains released Mellum2.1, an open 12B MoE coding model for agents under Apache 2.0.\n\nHUGGING FACE 🔥:\n* Hugging Face released Carbon-A, a 1.2B-parameter gene-finding model, along with a database of 566 million predicted genes.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.",
+    "likes": 160,
+    "quoted": {
+     "handle": "testingcatalog",
+     "text": "DAILY AI BRIEF 🗞 — Oct 8\n\nANTHROPIC 🔥:\n* Anthropic launched Claude Haiku 5.5 with a 1M-token context window and adjustable effort, priced at $0.10/$0.50 per million tokens.\n* Prompt cache reads on Claude Sonnet 5.5 now cost half as much, dropping from $0.20 to $0.10 per million tokens.\n\nOPENAI 🔥:\n* A new GPT-6 version with Intelligent UI is rolling out to all ChatGPT users, bringing interactive visual answers.\n* ChatGPT for Teens is getting a College Planner that tracks application and financial aid deadlines.\n\nMICROSOFT 🔥:\n* Copilot on Copilot+ PCs will be able to use your PC's files, take ac",
+     "created_at": "2026-10-08T08:13:39Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:49:09Z",
+  "feed_date": "2026-10-11T01:49:09Z",
+  "prune_checked": true,
+  "repeat_of": "testingcatalog-2107835952924065925"
+ },
+ {
+  "id": "vraserx-2108470549873639678",
+  "handle": "VraserX",
+  "date": "2026-10-09T08:12:07Z",
+  "claim": "OpenAI has around 1.2 billion users, and Codex grew from 1 million to 40 million users in a matter of weeks.",
+  "lab": "OpenAI",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-08",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108470549873639678",
+    "url": "https://x.com/VraserX/status/2108470549873639678",
+    "created_at": "2026-10-09T08:12:07Z",
+    "text": "@kimmonismus I disagree. Anthropic are still doomers who want to control how and by whom AI is used. They’re popular with coders, but nowhere near the same reach among the masses. OpenAI has around 1.2 billion users, and Codex went from 1M to 40M users in weeks. Calling this a role reversal is a stretch.",
+    "likes": 71,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:50:04Z",
+  "feed_date": "2026-10-11T01:50:04Z",
+  "prune_checked": true
+ },
+ {
   "id": "haider1-2108478825432830019",
   "handle": "haider1",
   "date": "2026-10-09T08:45:00Z",
@@ -222402,6 +222471,64 @@
   },
   "prune_checked": true,
   "pruned": "using_public_product: The post describes companies serving Claude models in their products as a present-tense product observation, not an upcoming non-public event."
+ },
+ {
+  "id": "jimvandehei-2108495293620650261",
+  "handle": "JimVandeHei",
+  "date": "2026-10-09T09:50:26Z",
+  "claim": "Executives at Anthropic, OpenAI, and other AI companies are privately planning for a public and political revolt following a catastrophic AI event, and they assume such an event will occur in 2027.",
+  "lab": "Other",
+  "topic": "other",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-12-31",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108495293620650261",
+    "url": "https://x.com/JimVandeHei/status/2108495293620650261",
+    "created_at": "2026-10-09T09:50:26Z",
+    "text": "Scoop: Top executives at Anthropic, OpenAI and other AI companies are privately gaming out scenarios for a public and political revolt after a catastrophic AI event…They assume one in ‘27…\n https://t.co/Jro9TigbgH",
+    "likes": 2451,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:51:38Z",
+  "feed_date": "2026-10-11T01:51:38Z",
+  "prune_checked": true,
+  "story_id": "jimvandehei-2108495293620650261"
+ },
+ {
+  "id": "axios-2108518113243213997",
+  "handle": "axios",
+  "date": "2026-10-09T11:21:07Z",
+  "claim": "Top executives at Anthropic, OpenAI, and other AI companies are privately gaming out scenarios for a public and political revolt after a catastrophic AI event.",
+  "lab": "Other",
+  "topic": "corporate",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-04-07",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108518113243213997",
+    "url": "https://x.com/axios/status/2108518113243213997",
+    "created_at": "2026-10-09T11:21:07Z",
+    "text": "SCOOP: Top executives at Anthropic, OpenAI and other AI companies are privately gaming out scenarios for a public and political revolt after a catastrophic AI event. https://t.co/SC1Wur2dS0",
+    "likes": 607,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:51:53Z",
+  "feed_date": "2026-10-11T01:51:53Z",
+  "prune_checked": true,
+  "story_id": "jimvandehei-2108495293620650261"
  },
  {
   "id": "testingcatalog-2108540572449300741",
@@ -223106,6 +223233,35 @@
   "pruned": "relay_of_named_source: Relays Business Insider’s reporting and explicitly attributes the model details to that outlet."
  },
  {
+  "id": "imjustnewatai-2108656750685544552",
+  "handle": "imjustnewatai",
+  "date": "2026-10-09T20:32:00Z",
+  "claim": "OpenAI has many more math results than the 722 papers associated with its recent results.",
+  "lab": "OpenAI",
+  "topic": "other",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-07",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108656750685544552",
+    "url": "https://x.com/imjustnewatai/status/2108656750685544552",
+    "created_at": "2026-10-09T20:32:00Z",
+    "text": "OpenAI has a bunch more math results far more than 722 papers, no idea on when another big release like this is coming but I expect another one this year",
+    "likes": 385,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:51:32Z",
+  "feed_date": "2026-10-11T01:51:32Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238"
+ },
+ {
   "id": "kimmonismus-2108658452293718408",
   "handle": "kimmonismus",
   "date": "2026-10-09T20:38:46Z",
@@ -223335,7 +223491,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:37:49Z"
-  }
+  },
+  "story_id": "haider1-2099629263184171518"
  },
  {
   "id": "chetaslua-2108663566878527592",
@@ -223483,6 +223640,72 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:57:23Z"
   }
+ },
+ {
+  "id": "synthwavedd-2108679397117178092",
+  "handle": "synthwavedd",
+  "date": "2026-10-09T22:02:00Z",
+  "claim": "Google's latest Argon dogfood checkpoint was apparently comparable to Claude Opus 5.5 on coding tasks.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-07",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108679397117178092",
+    "url": "https://x.com/synthwavedd/status/2108679397117178092",
+    "created_at": "2026-10-09T22:02:00Z",
+    "text": "I have to say though... if they're going to take forever to get it in public hands, and if you combine that with Google's 100% pre-launch nerf rate, Argon is going to look thoroughly meh by the time it's usable\n\nMuch love to the Google bureaucracy!",
+    "likes": 930,
+    "quoted": {
+     "handle": "synthwavedd",
+     "text": "👀 Google's work on Argon continues, with their latest dogfood checkpoint apparently comparable to Claude Opus 5.5 in code tasks\n\nCarbon \"feels like Opus 5.5\" for coding, per an employee who has tested the model, though they said they \"would need to test it more\"",
+     "created_at": "2026-10-09T21:01:37Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:48:41Z",
+  "feed_date": "2026-10-11T01:48:41Z",
+  "prune_checked": true,
+  "repeat_of": "synthwavedd-2108664201103151428"
+ },
+ {
+  "id": "synthwavedd-2108679397117178092-2",
+  "handle": "synthwavedd",
+  "date": "2026-10-09T22:02:00Z",
+  "claim": "A Google employee who tested Carbon said it felt similar to Claude Opus 5.5 for coding, while noting they needed to test it more.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-07",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108679397117178092",
+    "url": "https://x.com/synthwavedd/status/2108679397117178092",
+    "created_at": "2026-10-09T22:02:00Z",
+    "text": "I have to say though... if they're going to take forever to get it in public hands, and if you combine that with Google's 100% pre-launch nerf rate, Argon is going to look thoroughly meh by the time it's usable\n\nMuch love to the Google bureaucracy!",
+    "likes": 930,
+    "quoted": {
+     "handle": "synthwavedd",
+     "text": "👀 Google's work on Argon continues, with their latest dogfood checkpoint apparently comparable to Claude Opus 5.5 in code tasks\n\nCarbon \"feels like Opus 5.5\" for coding, per an employee who has tested the model, though they said they \"would need to test it more\"",
+     "created_at": "2026-10-09T21:01:37Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:48:41Z",
+  "feed_date": "2026-10-11T01:48:41Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169"
  },
  {
   "id": "haider1-2108688959849275784",
@@ -223747,7 +223970,7 @@
   ],
   "origin": "tweet",
   "imported_at": "2026-10-10T20:48:31Z",
-  "story_id": "tokengremlin-2108732263642935789-2",
+  "story_id": "chrisgpt-2103418373925445648",
   "prune_checked": true,
   "resolution": {
    "verdict": "pending",
@@ -223878,6 +224101,35 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:37:07Z"
   }
+ },
+ {
+  "id": "bindureddy-2108734298853618064",
+  "handle": "bindureddy",
+  "date": "2026-10-10T01:40:09Z",
+  "claim": "In experiments with some of Bindu Reddy's biggest customers, Astra won 80% of comparisons against Opus 5.5 for hard-core coding when the models were anonymous and the price was not revealed, with very strong engagement.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-08",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108734298853618064",
+    "url": "https://x.com/bindureddy/status/2108734298853618064",
+    "created_at": "2026-10-10T01:40:09Z",
+    "text": "Experimenting with Astra vs Opus 5.5 with some of our biggest customers \n\nGenerally they prefer Astra on hard core coding if the model is anonymous and the price is not revealed! \n\nAstra wins 80% of the time and results in very strong engagement",
+    "likes": 597,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:50:45Z",
+  "feed_date": "2026-10-11T01:50:45Z",
+  "claim_v1": "In tests with some of Bindu Reddy’s biggest customers, OpenAI’s GPT-6 Astra wins 80% of comparisons against Anthropic’s Claude Opus 5.5 for hard-core coding when the model is anonymous and its price is not revealed, and the results produce very strong engagement.",
+  "prune_checked": true
  },
  {
   "id": "tokengremlin-2108736396823302400",
@@ -224305,6 +224557,63 @@
   }
  },
  {
+  "id": "xfreeze-2108885289167208595",
+  "handle": "XFreeze",
+  "date": "2026-10-10T11:40:08Z",
+  "claim": "SpaceX has an unnamed hosting customer deal worth $1.11 billion per month starting December 1, 2026.",
+  "lab": "Other",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-12-01",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108885289167208595",
+    "url": "https://x.com/XFreeze/status/2108885289167208595",
+    "created_at": "2026-10-10T11:40:08Z",
+    "text": "SpaceX has become an SI compute giant in plain sight\n\nAnd when you put its major compute deals together, the scale gets ridiculous:\n\n• Anthropic → $1.25B/month → ~$15B annualized\n• Google → $920M/month → ~$11B annualized\n• Reflection AI → $150M/month (reported) → ~$1.8B annualized\n• New unnamed hosting customer → $1.11B/month from Dec 1 → ~$13.3B annualized\n\nThose FOUR deals alone represent:\n\n$3.43 BILLION per month\n\n$41.16 BILLION in annualized compute revenue once all four run at full rate in December\n\n$41 BILLION.....from just four compute and hosting deals\n\nAnd that’s not even the entire compute business\n\nSpaceX has separately contracted another $6.7 BILLION of cloud-services revenue over a six-month period, with capacity beginning to ramp in October\n\nAnd with another MASSIVE hosting deal just closed, CFO Bret Johnsen said SpaceX is on track for a $100 BILLION annualized revenue run-rate across the whole company by the end of this year\n\nSpaceX started by building rockets\n\nNow it runs multiple enormous businesses on top of the same engineering and infrastructure machine",
+    "likes": 487,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:50:33Z",
+  "feed_date": "2026-10-11T01:50:33Z",
+  "prune_checked": true,
+  "story_id": "mark_k-2099063314592510420"
+ },
+ {
+  "id": "xfreeze-2108885289167208595-2",
+  "handle": "XFreeze",
+  "date": "2026-10-10T11:40:08Z",
+  "claim": "SpaceX has separately contracted $6.7 billion in cloud-services revenue over six months, with capacity beginning to ramp in October 2026.",
+  "lab": "Other",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-10",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108885289167208595",
+    "url": "https://x.com/XFreeze/status/2108885289167208595",
+    "created_at": "2026-10-10T11:40:08Z",
+    "text": "SpaceX has become an SI compute giant in plain sight\n\nAnd when you put its major compute deals together, the scale gets ridiculous:\n\n• Anthropic → $1.25B/month → ~$15B annualized\n• Google → $920M/month → ~$11B annualized\n• Reflection AI → $150M/month (reported) → ~$1.8B annualized\n• New unnamed hosting customer → $1.11B/month from Dec 1 → ~$13.3B annualized\n\nThose FOUR deals alone represent:\n\n$3.43 BILLION per month\n\n$41.16 BILLION in annualized compute revenue once all four run at full rate in December\n\n$41 BILLION.....from just four compute and hosting deals\n\nAnd that’s not even the entire compute business\n\nSpaceX has separately contracted another $6.7 BILLION of cloud-services revenue over a six-month period, with capacity beginning to ramp in October\n\nAnd with another MASSIVE hosting deal just closed, CFO Bret Johnsen said SpaceX is on track for a $100 BILLION annualized revenue run-rate across the whole company by the end of this year\n\nSpaceX started by building rockets\n\nNow it runs multiple enormous businesses on top of the same engineering and infrastructure machine",
+    "likes": 487,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:50:33Z",
+  "feed_date": "2026-10-11T01:50:33Z",
+  "prune_checked": true
+ },
+ {
   "id": "tokengremlin-2108891152157966630",
   "handle": "TokenGremlin",
   "date": "2026-10-10T12:03:26Z",
@@ -224329,7 +224638,7 @@
   "origin": "daily",
   "first_seen": "2026-10-10T21:55:16Z",
   "feed_date": "2026-10-10T21:55:16Z",
-  "story_id": "tokengremlin-2108732263642935789-2",
+  "story_id": "chrisgpt-2103418373925445648",
   "prune_checked": true,
   "resolution": {
    "verdict": "pending",
@@ -224386,6 +224695,34 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:29:43Z"
   }
+ },
+ {
+  "id": "ai_for_success-2108902474161820123",
+  "handle": "ai_for_success",
+  "date": "2026-10-10T12:48:26Z",
+  "claim": "SpaceX AI acquired Cursor, and the acquisition has already made a huge difference for Grok.",
+  "lab": "Other",
+  "topic": "corporate",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-10",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2108902474161820123",
+    "url": "https://x.com/ai_for_success/status/2108902474161820123",
+    "created_at": "2026-10-10T12:48:26Z",
+    "text": "Cursor’s harness is seriously underrated. I hardly see anyone talking about it. No wonder they were able to build such an amazing product like Grok Bot. SpaceX AI’s acquisition of Cursor might be one of the best acquisitions in recent times. It’s already made a huge difference for Grok.",
+    "likes": 425,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:49:46Z",
+  "feed_date": "2026-10-11T01:49:46Z",
+  "prune_checked": true
  },
  {
   "id": "iruletheworldmo-2108906392811946464",
@@ -224614,7 +224951,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:37:49Z"
-  }
+  },
+  "story_id": "haider1-2099629263184171518"
  },
  {
   "id": "haider1-2108955353698455917",
@@ -225034,5 +225372,97 @@
    "confidence": "high",
    "resolved_at": "2026-10-11T00:48:32Z"
   }
+ },
+ {
+  "id": "tokengremlin-2109041454152634736",
+  "handle": "TokenGremlin",
+  "date": "2026-10-10T22:00:41Z",
+  "claim": "The author says Fable 5.5's test results were much better than in previous weeks, and colleagues called it the best model in the world while saying SVGs, Three.js, and design were solved.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-04-08",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2109041454152634736",
+    "url": "https://x.com/TokenGremlin/status/2109041454152634736",
+    "created_at": "2026-10-10T22:00:41Z",
+    "text": "I've been getting some Fable 5.5 test results, and they're WAY BETTER than what you guys saw in previous weeks. My colleagues are calling it \"the best model in the world\" and \"the beginning of the singularity.\"\n\nSVGs are solved. Three.js is solved. Design is solved. Almost everything is solved, believe me.\n\nAnd I'm not someone who usually hypes things up.",
+    "likes": 544,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:51:22Z",
+  "feed_date": "2026-10-11T01:51:22Z",
+  "claim_v1": "Anthropic’s Fable 5.5 had test results on October 10, 2026, that were much better than in previous weeks, and the author’s colleagues described it as the best model in the world while saying SVGs, Three.js, and design were solved.",
+  "prune_checked": true,
+  "repeat_of": "tokengremlin-2105759601236832701"
+ },
+ {
+  "id": "andrewcurran_-2109049637449687135",
+  "handle": "AndrewCurran_",
+  "date": "2026-10-10T22:33:12Z",
+  "claim": "Anthropic's internal models are many generations beyond Mythos Preview as of October 9, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-07",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2109049637449687135",
+    "url": "https://x.com/AndrewCurran_/status/2109049637449687135",
+    "created_at": "2026-10-10T22:33:12Z",
+    "text": "A 4× internal uplift is consistent with what Anthropic self-reported in their August 2026 Risk Report. This is still below Anthropic's Responsible Scaling Policy threshold for Dramatic Acceleration.\n\nThis report was for Mythos Preview. They are many generations beyond this now. https://t.co/nno9lg742T",
+    "likes": 308,
+    "quoted": {
+     "handle": "hilbertspaess",
+     "text": "@kimmonismus They have uplift from internal models- I would guess a 4x uplift at Anthropic currently, but it’s easy to overestimate. And uplift is doubling every 3-6 months everywhere.",
+     "created_at": "2026-10-10T19:02:09Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:49:17Z",
+  "feed_date": "2026-10-11T01:49:17Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2103418373925445648"
+ },
+ {
+  "id": "deredleritt3r-2109054115569377378",
+  "handle": "deredleritt3r",
+  "date": "2026-10-10T22:51:00Z",
+  "claim": "OpenAI and Anthropic had models capable of autonomously building significantly more capable successors more than one year before October 10, 2026.",
+  "lab": "Other",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-04-08",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "tweets": [
+   {
+    "id": "2109054115569377378",
+    "url": "https://x.com/deredleritt3r/status/2109054115569377378",
+    "created_at": "2026-10-10T22:51:00Z",
+    "text": "I am very skeptical of claims by certain labs that they have achieved RSI.\n\nIf your model isn't capable of autonomously building its own significantly more capable successor, then all you have - at best - is sparkling AI-powered acceleration of your own AI research.  OpenAI and Anthropic hit this target more than one year ago.  That's not RSI.",
+    "likes": 213,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-11T01:49:51Z",
+  "feed_date": "2026-10-11T01:49:51Z",
+  "prune_checked": true,
+  "story_id": "haider1-2099629263184171518"
  }
 ]
