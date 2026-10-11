@@ -11,7 +11,7 @@ on:
         default: true
   push:
     branches: [main]
-    paths: ["site/**", "scripts/build_site.py", "leakwatch/scoring.py"]
+    paths: ["site/**", "data/**", "scripts/build_site.py", "leakwatch/scoring.py", "leakwatch/resolve.py"]
 
 permissions:
   contents: write
