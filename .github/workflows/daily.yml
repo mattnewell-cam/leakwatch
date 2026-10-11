@@ -44,6 +44,14 @@ jobs:
             python -m leakwatch.daily
           fi
       - run: python -m scripts.build_site
+      - name: Weekly refresh of leaker verdict blurbs (Mondays)
+        if: github.event_name == 'schedule'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ "$(date -u +%u)" = "1" ]; then
+            python -m scripts.refresh_summaries --apply && python -m scripts.build_site
+          fi
       - name: Commit data
         run: |
           git config user.name "leakwatch-bot"
