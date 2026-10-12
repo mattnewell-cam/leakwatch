@@ -213508,7 +213508,8 @@
     "note": "Reuters published the prospectus figures at 7:17pm EDT on Sep 28, about 1.5 hours before this tweet (00:51 UTC Sep 29)."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "story_id": "ns123abc-2104735822029176833"
  },
  {
   "id": "chrisgpt-2104765332480991743",
@@ -214759,7 +214760,8 @@
     "note": "The tweet says 'reportedly' and relays The Information's prospectus-based report of the $84.5B SpaceX agreements."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "story_id": "ns123abc-2104735822029176833"
  },
  {
   "id": "tokengremlin-2105039733734678552",
@@ -217279,7 +217281,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:20Z"
-  }
+  },
+  "story_id": "pankajkumar_dev-2106070404976849403"
  },
  {
   "id": "tokengremlin-2106088849831002177",
@@ -219434,7 +219437,8 @@
     "note": ""
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "story_id": "pankajkumar_dev-2106635462563819647-2"
  },
  {
   "id": "testingcatalog-2106654630503731350",
@@ -224303,7 +224307,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:37:49Z"
-  }
+  },
+  "story_id": "tokengremlin-2108612750087778432"
  },
  {
   "id": "iruletheworldmo-2108620213256356026",
@@ -227421,6 +227426,1206 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T12:56:13Z"
+  },
+  "story_id": "pankajkumar_dev-2106070404976849403"
+ },
+ {
+  "id": "vraserx-2109270038880616708",
+  "handle": "VraserX",
+  "date": "2026-10-11T13:09:00Z",
+  "claim": "OpenAI is benchmarking its latest internal model against Millennium Prize Problems because ordinary math benchmarks are becoming too easy.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109270038880616708",
+    "url": "https://x.com/VraserX/status/2109270038880616708",
+    "created_at": "2026-10-11T13:09:00Z",
+    "text": "People are declaring OpenAI dead while its latest internal model is being benchmarked against Millennium Prize Problems because ordinary math benchmarks are becoming too easy.\n\nProblems that have stumped humanity’s greatest minds for decades.\n\nBut sure, OpenAI is finished. Lmao. 🤣",
+    "likes": 128,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:30:41Z",
+  "feed_date": "2026-10-12T15:30:41Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-08",
+   "official_date": "2026-09-08",
+   "explanation": "OpenAI had already said on September 8, 2026 that it launched an effort to evaluate its internal model on open Millennium Prize Problems after a step-change in performance and rumors of solutions. The post’s phrasing about ordinary math benchmarks becoming too easy is not OpenAI’s stated rationale.",
+   "evidence": [
+    {
+     "title": "On the Navier–Stokes Millennium Prize Problem",
+     "url": "https://openai.com/index/navier-stokes-solution/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2109273310324552059",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-11T13:22:00Z",
+  "claim": "OpenAI is very close to releasing papers about recursive self-improvement.",
+  "lab": "OpenAI",
+  "topic": "other",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-10-31",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109273310324552059",
+    "url": "https://x.com/iruletheworldmo/status/2109273310324552059",
+    "created_at": "2026-10-11T13:22:00Z",
+    "text": "openai are very close to releasing some rsi papers. the model after bel be cookin",
+    "likes": 944,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:30:03Z",
+  "feed_date": "2026-10-12T15:30:03Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post says OpenAI is very close to releasing recursive-self-improvement papers, with the supplied deadline of October 31, 2026. As of October 12, I found no independent confirmation or contradiction, so the deadline has not passed.",
+   "evidence": [],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2109273310324552059-2",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-11T13:22:00Z",
+  "claim": "OpenAI’s model after BEL is progressing well.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109273310324552059",
+    "url": "https://x.com/iruletheworldmo/status/2109273310324552059",
+    "created_at": "2026-10-11T13:22:00Z",
+    "text": "openai are very close to releasing some rsi papers. the model after bel be cookin",
+    "likes": 944,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:30:03Z",
+  "feed_date": "2026-10-12T15:30:03Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "“The model after BEL be cookin” is a forward-looking claim that a future OpenAI model will be strong, not a specific confirmed report about its current progress. No deadline is stated, and it remains unconfirmed rather than contradicted.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2109282429223530751",
+  "handle": "TokenGremlin",
+  "date": "2026-10-11T13:58:14Z",
+  "claim": "OpenAI's compute shortages are getting very serious.",
+  "lab": "OpenAI",
+  "topic": "other",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109282429223530751",
+    "url": "https://x.com/TokenGremlin/status/2109282429223530751",
+    "created_at": "2026-10-11T13:58:14Z",
+    "text": "Good morning, friends. Apparently not such a good morning for OpenAI, though...\n\nI've been hearing that their compute shortages are getting really serious.",
+    "likes": 510,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:32:22Z",
+  "feed_date": "2026-10-12T15:32:22Z",
+  "prune_checked": true,
+  "repeat_of": "tokengremlin-2104901366325928094"
+ },
+ {
+  "id": "markgurman-2109284244015165795",
+  "handle": "markgurman",
+  "date": "2026-10-11T14:05:27Z",
+  "claim": "Apple has tested a new Apple TV with built-in microphones for hands-free Siri use without the remote, and a refreshed remote with a speaker to support Find My.",
+  "lab": "Apple",
+  "topic": "product_feature",
+  "specificity": 5,
+  "significance": 2,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109284244015165795",
+    "url": "https://x.com/markgurman/status/2109284244015165795",
+    "created_at": "2026-10-11T14:05:27Z",
+    "text": "NEW: Apple has tested two features for its new Apple TV: built-in microphones in the set-top box itself for hands-free Siri AI without the remote, and a refreshed remote with a speaker for Find My. https://t.co/u9Yt8XHdro",
+    "likes": 480,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:31:41Z",
+  "feed_date": "2026-10-12T15:31:41Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-11",
+   "official_date": null,
+   "explanation": "This is Gurman’s own report of Apple having tested built-in Apple TV microphones and a speaker-equipped remote, not a relay of earlier coverage. The reports I found repeat his scoop and say the features are not confirmed for the shipping device, so independent confirmation is still lacking.",
+   "evidence": [
+    {
+     "title": "Apple testing two new features for upgraded Apple TV 4K, per report",
+     "url": "https://9to5mac.com/2026/10/11/apple-testing-two-new-features-for-upgraded-apple-tv-4k-per-report/"
+    },
+    {
+     "title": "Apple TV 4K Getting A19 Chip and Easier-to-Find Siri Remote",
+     "url": "https://www.macrumors.com/2026/10/11/apple-tv-4k-a19-chip-easier-to-find-remote/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "markgurman-2109284668021596474",
+  "handle": "markgurman",
+  "date": "2026-10-11T14:07:08Z",
+  "claim": "Apple's HomeView smart-home hub will not have an App Store and will instead run a limited selection of Apple apps, with Siri and connected accessories central to the experience.",
+  "lab": "Apple",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109284668021596474",
+    "url": "https://x.com/markgurman/status/2109284668021596474",
+    "created_at": "2026-10-11T14:07:08Z",
+    "text": "Apple’s new HomeView smart home hub won’t have an App Store. It will run a limited set of Apple apps, with Siri and connected accessories at the center of the experience — not third-party apps. More in Power On: https://t.co/8X27fWDnDC",
+    "likes": 291,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:31:41Z",
+  "feed_date": "2026-10-12T15:31:41Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-11",
+   "official_date": null,
+   "explanation": "This is Gurman’s own report about HomeView’s software, not a relay of earlier coverage. Articles published afterward repeat the claim that it will lack an App Store, but I found no independent or official confirmation yet.",
+   "evidence": [
+    {
+     "title": "Last-minute leak reveals key details about Apple's 'HomeView' hub",
+     "url": "https://www.macworld.com/article/3258488/last-minute-leak-reveals-key-details-about-apples-homeview-hub.html"
+    },
+    {
+     "title": "Apple HomeView Reportedly Won't Have an App Store",
+     "url": "https://www.theapplepost.com/2026/10/11/73088/apple-homeview-reportedly-wont-have-an-app-store/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "chetaslua-2109290983896818132",
+  "handle": "chetaslua",
+  "date": "2026-10-11T14:32:13Z",
+  "claim": "Anthropic is testing a model referred to as Claude Next in Claude Code.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109290983896818132",
+    "url": "https://x.com/chetaslua/status/2109290983896818132",
+    "created_at": "2026-10-11T14:32:13Z",
+    "text": "🚨 Claude Next is being tested on claude code \n\nand i thought it will take a month to make image and video gen model obsolete i was wrong \n\nBehold the supremacy , fully coded ,this akes even Opus 5.5 look primitive\n\nI will upload more test different types its SOTA in every f#ing thing",
+    "likes": 1460,
+    "quoted": {
+     "handle": "chetaslua",
+     "text": "🚨 Claude Opus 5.5 is routing to a new model &lt; this can be fable 5.5 or new opus i have no idea &gt;\n\nDrew every frame of this animation using JS. The life of a Human \n\nTwo Prompts : literally 4 lines \nTime : 2 Hours\nTokens : 27 Miliion \nThinking Effort : Max https://t.co/6Uy9qxQV7e",
+     "created_at": "2026-10-11T11:28:19Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:28:55Z",
+  "feed_date": "2026-10-12T15:28:55Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-11",
+   "official_date": null,
+   "explanation": "The post specifically claims “Claude Next” is being tested in Claude Code. I found no independent confirmation of that name or test; the other reports concern suspected model routing and do not establish this specific claim.",
+   "evidence": [
+    {
+     "title": "Anthropic Newsroom",
+     "url": "https://www.anthropic.com/news?subjects=announcements"
+    },
+    {
+     "title": "Claude Opus 5.6 Release Date: The Routing Reports",
+     "url": "https://cellcog.ai/blog/claude-opus-5-6-release-date/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2109298223898833339",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-11T15:01:00Z",
+  "claim": "Anthropic is routing some Opus 5.5 users to an unreleased model, possibly Opus 5.6 or a future Fable model, and its launch may not be far away.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-11-10",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109298223898833339",
+    "url": "https://x.com/pankajkumar_dev/status/2109298223898833339",
+    "created_at": "2026-10-11T15:01:00Z",
+    "text": "Opus 5.5 Routing to Opus 5.6\n\n- Some accounts are getting routed to a new model when using Opus 5.5. My first guess is Opus 5.6, as Anthropic has done this kind of testing before. Maybe the launch isn't that far away.\n- Fable 5.5 is also a possibility. What if they're testing the next Fable model through Opus 5.5?\n- Both are possible, but I couldn't test it myself as my account is not routing.\n\n Anthropic seems to be moving pretty fast with new models, while we're still waiting for Google's next Gemini Pro model.",
+    "likes": 1811,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:31:07Z",
+  "feed_date": "2026-10-12T15:31:07Z",
+  "prune_checked": true,
+  "story_id": "pankajkumar_dev-2106070404976849403"
+ },
+ {
+  "id": "kimmonismus-2109300315669565612",
+  "handle": "kimmonismus",
+  "date": "2026-10-11T15:09:18Z",
+  "claim": "Anthropic may already be routing user requests to a new Opus 5.5 checkpoint or possibly an Opus 5.6 checkpoint, and the new checkpoint appears to perform very well.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-10-11",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109300315669565612",
+    "url": "https://x.com/kimmonismus/status/2109300315669565612",
+    "created_at": "2026-10-11T15:09:18Z",
+    "text": "Damn, what is Anthropic cooking right now? Are requests already being routed to a new Opus 5.5 checkpoint, or even something like Opus 5.6? Mine seem to be hitting the new one, and it looks really, really good. https://t.co/vuerfQvou7",
+    "likes": 1352,
+    "quoted": {
+     "handle": "koltregaskes",
+     "text": "Fable 5.5, is that you? 👀\n\nCheck if you have the new \"Opus 5.5\".\n\nNews from https://t.co/nFU8YlWMeP\n\nh/t @legit_api https://t.co/NXf6Pho7rv",
+     "created_at": "2026-10-11T14:22:05Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:29:21Z",
+  "feed_date": "2026-10-12T15:29:21Z",
+  "prune_checked": true,
+  "story_id": "pankajkumar_dev-2106070404976849403"
+ },
+ {
+  "id": "tokengremlin-2109364052539347430",
+  "handle": "TokenGremlin",
+  "date": "2026-10-11T19:22:34Z",
+  "claim": "OpenAI has extremely powerful models in the final stages of preparation, and a large amount of compute is expected to come online within the next few weeks, by around 2026-11-01.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-11-01",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109364052539347430",
+    "url": "https://x.com/TokenGremlin/status/2109364052539347430",
+    "created_at": "2026-10-11T19:22:34Z",
+    "text": "\"Good research takes time.\"\n\nOpenAI has some extremely powerful models in the final stages of preparation, with a massive amount of compute expected to come online over the next few weeks.\n\nBut before that, I'm expecting plenty of UI/UX improvements and updates to the tools themselves, especially Codex and ChatGPT.\n\nMainly because of the huge amount of user feedback I've been seeing collected today.",
+    "likes": 255,
+    "quoted": null
+   },
+   {
+    "id": "2109364907766329553",
+    "url": "https://x.com/TokenGremlin/status/2109364907766329553",
+    "created_at": "2026-10-11T19:25:58Z",
+    "text": "@n_mate123 I haven't been able to get any specific dates yet. What I can say is that the team is excited, working hard, and collecting hundreds of pieces of feedback today. There's also a lot of compute expected to come online soon. And they're definitely not just sitting around patiently watching users complain.",
+    "likes": 11,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:32:22Z",
+  "feed_date": "2026-10-12T15:32:22Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post asserts that powerful OpenAI models are in final preparation and that substantial compute will come online over the next few weeks; the supplied timeline does not independently confirm either assertion. The compute window has not elapsed, and the model-preparation claim has no firm deadline.",
+   "evidence": [],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "web3marmot-2109367116147134692",
+  "handle": "Web3Marmot",
+  "date": "2026-10-11T19:34:45Z",
+  "claim": "Broadcom is building chips for Anthropic, leasing them back, and guaranteeing the related debt; the arrangement includes $42 billion in senior debt from Broadcom and $60 billion in junior debt being raised by Wall Street, with the total package potentially reaching $100 billion.",
+  "lab": "Anthropic",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2027-04-09",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109367116147134692",
+    "url": "https://x.com/Web3Marmot/status/2109367116147134692",
+    "created_at": "2026-10-11T19:34:45Z",
+    "text": "🚨 THIS IS HOW THE NEXT BUBBLE BLOWS UP\n\nEveryone is watching Anthropic's IPO.\n\nThey see a tech company.\n\nWhat they don't see is a $100 billion debt loop built on one player.\n\nHere is what leaked:\n\nBroadcom builds Anthropic's chips.\n\nThen it leases them back.\n\nAnd guarantees the debt that pays for them.\n\nOne player. Three roles. A closed loop.\n\nThe money leaves Broadcom and comes right back to Broadcom.\n\nAnd the numbers are insane:\n\n$42B in senior debt from Broadcom.\n\n$60B in junior debt being raised by Wall Street (Blackstone, Apollo).\n\nTotal package could reach $100B.\n\nMeanwhile, Anthropic's revenue is around $4.6B.\n\nBut it just signed $518B in infrastructure obligations.\n\nRead that again.\n\n$4.6B in revenue.\n\n$518B in commitments.\n\nThis is not a growth story.\n\nThis is a debt story.\n\nAnd it is not just Broadcom.\n\nAmazon is doing the same thing with $8B in Nvidia chips.\n\nWe have seen this before.\n\n2000. Dot-com era.\n\nLucent lent customers $8.1 billion to buy Lucent gear.\n\nNortel lent $3.1 billion.\n\nThen the customers could not pay.\n\n47 telecom operators went bankrupt.\n\nThe vendors wrote off billions.\n\nThe record back then was about $8 billion.\n\nOne Broadcom-Anthropic loop is $42 to $60 billion.\n\nEven adjusted for inflation, that is 3 to 4 times the old record.\n\nThe technology is real.\n\nBut the financing is the bubble.\n\nIn 2000, this trick ended with the S&P 500 down 49%.\n\nThe loop is bigger now.\n\nIf Claude's revenue does not catch the buildout, there is nothing to pay the debt with.\n\nAnd this time, the fall could be worse.\n\nFor the record, I've called every major turn for the last 10 years, including the exact BTC bottom at $16K, the $111K top in October, and the current pump from $60K 10 days before it started.\n\nTurn on notifications.\n\nI will guide you through this liquidity squeeze, and when the real bottom finally forms, I’ll call it here publicly.",
+    "likes": 426,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:33:10Z",
+  "feed_date": "2026-10-12T15:33:10Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-02",
+   "official_date": null,
+   "explanation": "The Broadcom financing and its reported $42 billion senior and $18 billion junior tranches had been reported before October 11. The post materially misstates the reported structure: $60 billion was the total financing sought, not $60 billion of junior debt; the $42 billion Broadcom-to-Anthropic notes were reported separately.",
+   "evidence": [
+    {
+     "title": "Bloomberg: Broadcom Starts Amassing $60 Billion to Fund Chips for Anthropic",
+     "url": "https://au.finance.yahoo.com/news/broadcom-starts-amassing-60-billion-041233805.html"
+    },
+    {
+     "title": "Reuters: Broadcom to lend Anthropic up to $42 billion to lease its chips",
+     "url": "https://www.marketscreener.com/news/broadcom-to-lend-anthropic-up-to-42-billion-to-lease-its-chips-filing-says-ce785ad3de89fe20"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "web3marmot-2109367116147134692-2",
+  "handle": "Web3Marmot",
+  "date": "2026-10-11T19:34:45Z",
+  "claim": "Anthropic has about $4.6 billion in revenue and has signed $518 billion in infrastructure obligations.",
+  "lab": "Anthropic",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109367116147134692",
+    "url": "https://x.com/Web3Marmot/status/2109367116147134692",
+    "created_at": "2026-10-11T19:34:45Z",
+    "text": "🚨 THIS IS HOW THE NEXT BUBBLE BLOWS UP\n\nEveryone is watching Anthropic's IPO.\n\nThey see a tech company.\n\nWhat they don't see is a $100 billion debt loop built on one player.\n\nHere is what leaked:\n\nBroadcom builds Anthropic's chips.\n\nThen it leases them back.\n\nAnd guarantees the debt that pays for them.\n\nOne player. Three roles. A closed loop.\n\nThe money leaves Broadcom and comes right back to Broadcom.\n\nAnd the numbers are insane:\n\n$42B in senior debt from Broadcom.\n\n$60B in junior debt being raised by Wall Street (Blackstone, Apollo).\n\nTotal package could reach $100B.\n\nMeanwhile, Anthropic's revenue is around $4.6B.\n\nBut it just signed $518B in infrastructure obligations.\n\nRead that again.\n\n$4.6B in revenue.\n\n$518B in commitments.\n\nThis is not a growth story.\n\nThis is a debt story.\n\nAnd it is not just Broadcom.\n\nAmazon is doing the same thing with $8B in Nvidia chips.\n\nWe have seen this before.\n\n2000. Dot-com era.\n\nLucent lent customers $8.1 billion to buy Lucent gear.\n\nNortel lent $3.1 billion.\n\nThen the customers could not pay.\n\n47 telecom operators went bankrupt.\n\nThe vendors wrote off billions.\n\nThe record back then was about $8 billion.\n\nOne Broadcom-Anthropic loop is $42 to $60 billion.\n\nEven adjusted for inflation, that is 3 to 4 times the old record.\n\nThe technology is real.\n\nBut the financing is the bubble.\n\nIn 2000, this trick ended with the S&P 500 down 49%.\n\nThe loop is bigger now.\n\nIf Claude's revenue does not catch the buildout, there is nothing to pay the debt with.\n\nAnd this time, the fall could be worse.\n\nFor the record, I've called every major turn for the last 10 years, including the exact BTC bottom at $16K, the $111K top in October, and the current pump from $60K 10 days before it started.\n\nTurn on notifications.\n\nI will guide you through this liquidity squeeze, and when the real bottom finally forms, I’ll call it here publicly.",
+    "likes": 426,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:33:10Z",
+  "feed_date": "2026-10-12T15:33:10Z",
+  "prune_checked": true,
+  "story_id": "ns123abc-2104735822029176833",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-28",
+   "official_date": null,
+   "explanation": "Reuters had reported Anthropic’s roughly $4.6 billion in 2025 revenue and $518 billion in cloud, computing, and infrastructure obligations from its prospectus before this post. The post repeats those reported figures.",
+   "evidence": [
+    {
+     "title": "Reuters: Anthropic's IPO prospectus shows sweeping AI vision, surging costs",
+     "url": "https://www.marketscreener.com/news/anthropic-s-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-ce785dd5d98afe2c"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "web3marmot-2109367116147134692-3",
+  "handle": "Web3Marmot",
+  "date": "2026-10-11T19:34:45Z",
+  "claim": "Amazon is using a similar financing arrangement for $8 billion in Nvidia chips.",
+  "lab": "Amazon",
+  "topic": "deal_funding",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109367116147134692",
+    "url": "https://x.com/Web3Marmot/status/2109367116147134692",
+    "created_at": "2026-10-11T19:34:45Z",
+    "text": "🚨 THIS IS HOW THE NEXT BUBBLE BLOWS UP\n\nEveryone is watching Anthropic's IPO.\n\nThey see a tech company.\n\nWhat they don't see is a $100 billion debt loop built on one player.\n\nHere is what leaked:\n\nBroadcom builds Anthropic's chips.\n\nThen it leases them back.\n\nAnd guarantees the debt that pays for them.\n\nOne player. Three roles. A closed loop.\n\nThe money leaves Broadcom and comes right back to Broadcom.\n\nAnd the numbers are insane:\n\n$42B in senior debt from Broadcom.\n\n$60B in junior debt being raised by Wall Street (Blackstone, Apollo).\n\nTotal package could reach $100B.\n\nMeanwhile, Anthropic's revenue is around $4.6B.\n\nBut it just signed $518B in infrastructure obligations.\n\nRead that again.\n\n$4.6B in revenue.\n\n$518B in commitments.\n\nThis is not a growth story.\n\nThis is a debt story.\n\nAnd it is not just Broadcom.\n\nAmazon is doing the same thing with $8B in Nvidia chips.\n\nWe have seen this before.\n\n2000. Dot-com era.\n\nLucent lent customers $8.1 billion to buy Lucent gear.\n\nNortel lent $3.1 billion.\n\nThen the customers could not pay.\n\n47 telecom operators went bankrupt.\n\nThe vendors wrote off billions.\n\nThe record back then was about $8 billion.\n\nOne Broadcom-Anthropic loop is $42 to $60 billion.\n\nEven adjusted for inflation, that is 3 to 4 times the old record.\n\nThe technology is real.\n\nBut the financing is the bubble.\n\nIn 2000, this trick ended with the S&P 500 down 49%.\n\nThe loop is bigger now.\n\nIf Claude's revenue does not catch the buildout, there is nothing to pay the debt with.\n\nAnd this time, the fall could be worse.\n\nFor the record, I've called every major turn for the last 10 years, including the exact BTC bottom at $16K, the $111K top in October, and the current pump from $60K 10 days before it started.\n\nTurn on notifications.\n\nI will guide you through this liquidity squeeze, and when the real bottom finally forms, I’ll call it here publicly.",
+    "likes": 426,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:33:10Z",
+  "feed_date": "2026-10-12T15:33:10Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-02",
+   "official_date": null,
+   "explanation": "The reported $8 billion Amazon/Nvidia-chip sale-and-leaseback structure was in public reporting before this post. The post relays that news rather than making a new finding.",
+   "evidence": [
+    {
+     "title": "Reuters: Amazon seeks to offload $8 billion of Nvidia chips to investors",
+     "url": "https://www.investing.com/news/stock-market-news/amazon-seeks-to-offload-8-billion-of-nvidia-chips-to-investors-ft-reports-4928877"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2109397371805130997",
+  "handle": "imjustnewatai",
+  "date": "2026-10-11T21:34:58Z",
+  "claim": "Anthropic's Opus 5.5 and Fable 5.1 are routing to Fable 5.5.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109397371805130997",
+    "url": "https://x.com/imjustnewatai/status/2109397371805130997",
+    "created_at": "2026-10-11T21:34:58Z",
+    "text": "Opus 5.5 and fable 5.1 is routing to fable 5.5, there’s a chance that opus 5.6 exists? Someone with more knowledge than me would need to confirm.",
+    "likes": 188,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:32:47Z",
+  "feed_date": "2026-10-12T15:32:47Z",
+  "prune_checked": true,
+  "story_id": "pankajkumar_dev-2106070404976849403",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-11",
+   "official_date": null,
+   "explanation": "The post asserts that Opus 5.5 and Fable 5.1 are routing to Fable 5.5, while separately framing Opus 5.6 as only a possibility. I found no independent confirmation of that specific routing; the broader reports of an unnamed model routing do not establish Fable 5.5 as its identity.",
+   "evidence": [
+    {
+     "title": "Anthropic Newsroom",
+     "url": "https://www.anthropic.com/news?subjects=announcements"
+    },
+    {
+     "title": "Claude Opus 5.6 Release Date: The Routing Reports",
+     "url": "https://cellcog.ai/blog/claude-opus-5-6-release-date/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "agrippa_inv-2109407480790884455",
+  "handle": "Agrippa_Inv",
+  "date": "2026-10-11T22:15:08Z",
+  "claim": "Anthropic very likely secured 50 MW of air-cooled B300 capacity coming online in 2026 at IREN’s Childress site.",
+  "lab": "Anthropic",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-12-31",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109407480790884455",
+    "url": "https://x.com/Agrippa_Inv/status/2109407480790884455",
+    "created_at": "2026-10-11T22:15:08Z",
+    "text": "🚨 $IREN x Anthropic Leak\n\nThe Information, one of the best-sourced outlets covering the AI industry, just reported that Anthropic recently signed a cloud deal with $IREN.\n\nFor anybody who has followed management’s commentary closely over the past few weeks, this doesn’t come as much of a surprise.\n\nFirst, $IREN announced a new contract with an unnamed “leading frontier AI lab” during its recent earnings call, followed by CCO Kent Draper revealing that the company in question was “1 of 2” possible customers.\n\nWhile The Information didn’t disclose any specific MW amounts or terms of the deal, I believe it’s very likely that Anthropic secured the 50 MW of air-cooled B300 capacity coming online at $IREN's Childress site THIS year.\n\nAs for the economics behind the deal and where this relationship could go from here, we recently published an in-depth report for both our X and Substack subscribers covering exactly that.\n\nI’ll link it below in the comments for anybody interested.\n\nWishing everybody a great rest of Sunday and a great start to the new week. Cheers!",
+    "likes": 1345,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:32:58Z",
+  "feed_date": "2026-10-12T15:32:58Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post explicitly presents the 50 MW B300 allocation as the author’s own belief about what Anthropic likely secured; The Information’s reported deal did not specify capacity or terms. That speculative estimate is not a claim of inside information.",
+   "evidence": [
+    {
+     "title": "The Information: Attractive Economics Behind Anthropic’s Data Center Sprint",
+     "url": "https://www.theinformation.com/newsletters/ai-infrastructure/attractive-economics-behind-anthropic-data-center-sprint"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2109419984002728289",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-11T23:04:49Z",
+  "claim": "OpenAI and Anthropic have each reached the 15-trillion-parameter scale associated with recursive self-improvement.",
+  "lab": "Other",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109419984002728289",
+    "url": "https://x.com/iruletheworldmo/status/2109419984002728289",
+    "created_at": "2026-10-11T23:04:49Z",
+    "text": "so we’ve had spud weighing in at five trillion parameters. we’ve had doug weighing in at ten. \n\neverything i’m hearing from researchers suggests what we always knew. the bitter lesson strikes again and 15t is the magic number for recursive self improvement and both openai and anthropic have hit that magic number. \n\nhence the karplord xeeting like el strawberry himself. remember he got brought in five months ago to train the beast. these two models are better than any single individual at training the frontier. it’s ipo season boys, light up the hard takeoff.",
+    "likes": 676,
+    "quoted": {
+     "handle": "iruletheworldmo",
+     "text": "ok, apologies in advance because i do so hate to provide actual signal.\n\nopenai basically sucked at pre-training for a while and crushed at post. their answer to this was spud. spud was the large new pre-train for the new family of models: sol, terra, and luna.\n\nthe upcoming model, ‘astra’, has an even bigger pre-train, codenamed ‘doug’. (this was a running joke, as doug was the name for the world’s largest spud, although that’s not technically accurate — look it up).\n\nstill with me?\n\nok good, so sol is a 5t model based on the spud pre-train. astra is a 10t model based on the doug pre-train. t",
+     "created_at": "2026-08-09T22:55:33Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:30:03Z",
+  "feed_date": "2026-10-12T15:30:03Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post asserts that OpenAI and Anthropic have each reached the 15-trillion-parameter scale, but the public releases and timeline do not disclose those models’ parameter counts or independently confirm that threshold. The quoted Spud/Doug figures had circulated earlier, but they do not verify the new joint claim.",
+   "evidence": [
+    {
+     "title": "GPT-6 Astra: A new generation of intelligence — OpenAI",
+     "url": "https://openai.com/index/gpt-6-astra/"
+    },
+    {
+     "title": "Introducing Claude Sonnet 5.5 — Anthropic",
+     "url": "https://www.anthropic.com/claude-sonnet-5-5"
+    },
+    {
+     "title": "Original Spud/Doug post mirror",
+     "url": "https://zamantika.com/iruletheworldmo/status/2086587213190516773"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2109419984002728289-2",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-11T23:04:49Z",
+  "claim": "Models from OpenAI and Anthropic are better than any individual at training frontier models.",
+  "lab": "Other",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 5,
+  "resolve_by": "2027-04-09",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109419984002728289",
+    "url": "https://x.com/iruletheworldmo/status/2109419984002728289",
+    "created_at": "2026-10-11T23:04:49Z",
+    "text": "so we’ve had spud weighing in at five trillion parameters. we’ve had doug weighing in at ten. \n\neverything i’m hearing from researchers suggests what we always knew. the bitter lesson strikes again and 15t is the magic number for recursive self improvement and both openai and anthropic have hit that magic number. \n\nhence the karplord xeeting like el strawberry himself. remember he got brought in five months ago to train the beast. these two models are better than any single individual at training the frontier. it’s ipo season boys, light up the hard takeoff.",
+    "likes": 676,
+    "quoted": {
+     "handle": "iruletheworldmo",
+     "text": "ok, apologies in advance because i do so hate to provide actual signal.\n\nopenai basically sucked at pre-training for a while and crushed at post. their answer to this was spud. spud was the large new pre-train for the new family of models: sol, terra, and luna.\n\nthe upcoming model, ‘astra’, has an even bigger pre-train, codenamed ‘doug’. (this was a running joke, as doug was the name for the world’s largest spud, although that’s not technically accurate — look it up).\n\nstill with me?\n\nok good, so sol is a 5t model based on the spud pre-train. astra is a 10t model based on the doug pre-train. t",
+     "created_at": "2026-08-09T22:55:33Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:30:03Z",
+  "feed_date": "2026-10-12T15:30:03Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post states that the two labs’ models are better than any individual at training frontier models. No independent public evidence located confirms or refutes that specific capability; the companies’ public model announcements do not establish it.",
+   "evidence": [
+    {
+     "title": "GPT-6 Astra: A new generation of intelligence — OpenAI",
+     "url": "https://openai.com/index/gpt-6-astra/"
+    },
+    {
+     "title": "Introducing Claude Sonnet 5.5 — Anthropic",
+     "url": "https://www.anthropic.com/claude-sonnet-5-5"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2109419984002728289-3",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-11T23:04:49Z",
+  "claim": "OpenAI brought Karpathy in around May 2026 to train a powerful model referred to as “the beast.”",
+  "lab": "OpenAI",
+  "topic": "people",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-10-11",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109419984002728289",
+    "url": "https://x.com/iruletheworldmo/status/2109419984002728289",
+    "created_at": "2026-10-11T23:04:49Z",
+    "text": "so we’ve had spud weighing in at five trillion parameters. we’ve had doug weighing in at ten. \n\neverything i’m hearing from researchers suggests what we always knew. the bitter lesson strikes again and 15t is the magic number for recursive self improvement and both openai and anthropic have hit that magic number. \n\nhence the karplord xeeting like el strawberry himself. remember he got brought in five months ago to train the beast. these two models are better than any single individual at training the frontier. it’s ipo season boys, light up the hard takeoff.",
+    "likes": 676,
+    "quoted": {
+     "handle": "iruletheworldmo",
+     "text": "ok, apologies in advance because i do so hate to provide actual signal.\n\nopenai basically sucked at pre-training for a while and crushed at post. their answer to this was spud. spud was the large new pre-train for the new family of models: sol, terra, and luna.\n\nthe upcoming model, ‘astra’, has an even bigger pre-train, codenamed ‘doug’. (this was a running joke, as doug was the name for the world’s largest spud, although that’s not technically accurate — look it up).\n\nstill with me?\n\nok good, so sol is a 5t model based on the spud pre-train. astra is a 10t model based on the doug pre-train. t",
+     "created_at": "2026-08-09T22:55:33Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:30:03Z",
+  "feed_date": "2026-10-12T15:30:03Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "false",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "Read in context, the post says Karpathy was brought in five months earlier to train OpenAI’s “beast.” Public reporting instead says Karpathy joined Anthropic on May 19, 2026, not OpenAI; the alleged OpenAI hire is unsupported and contradicted by that reporting.",
+   "evidence": [
+    {
+     "title": "TechCrunch: OpenAI co-founder Andrej Karpathy joins Anthropic’s pre-training team",
+     "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2109433565846925396",
+  "handle": "TokenGremlin",
+  "date": "2026-10-11T23:58:48Z",
+  "claim": "OpenAI has a planned schedule of developments over roughly the next two months that the author expects will make keeping subscriptions worthwhile if it proceeds without major setbacks.",
+  "lab": "OpenAI",
+  "topic": "other",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2026-12-11",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": true,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109433565846925396",
+    "url": "https://x.com/TokenGremlin/status/2109433565846925396",
+    "created_at": "2026-10-11T23:58:48Z",
+    "text": "I'm suggesting to my colleagues that they keep their OpenAI subscriptions for another ~2 months.\n\nBelieve me, you won't regret it if the entire planned schedule goes smoothly without too many unexpected setbacks.",
+    "likes": 297,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:32:22Z",
+  "feed_date": "2026-10-12T15:32:22Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post implies a planned OpenAI schedule over roughly the next two months but gives no concrete developments to verify; it also makes the benefit to subscribers conditional on the schedule going smoothly. The stated window runs through December 11, 2026, so it remains pending.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2109489787396604182",
+  "handle": "TokenGremlin",
+  "date": "2026-10-12T03:42:12Z",
+  "claim": "OpenCode Zen's model catalog has added an entry called “Claude Opus 5.5 backup.”",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2026-10-12",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109489787396604182",
+    "url": "https://x.com/TokenGremlin/status/2109489787396604182",
+    "created_at": "2026-10-12T03:42:12Z",
+    "text": "Just spotted something interesting in OpenCode Zen's model catalog.\n\nA new entry called \"Claude Opus 5.5 backup\" just appeared.\n\nI'm wondering if this could be a different checkpoint of Opus 5.5, or simply a backup route for when the main model is overloaded.\n\nThe name alone doesn't tell us much, and there's no confirmation that it's accessible yet.\n\nStill, pretty interesting to see a new Opus 5.5 entry showing up out of nowhere.",
+    "likes": 67,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:32:22Z",
+  "feed_date": "2026-10-12T15:32:22Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-10-12",
+   "official_date": null,
+   "explanation": "A current model-directory listing independently shows the OpenCode Zen entry “claude-opus-5-5-backup,” matching the post’s central observation. That listing does not establish when the entry first appeared or whether it is a distinct checkpoint or merely a fallback route.",
+   "evidence": [
+    {
+     "title": "OpenCode Zen Models and Pricing | AI Model Directory",
+     "url": "https://models.agent-one.dev/providers/opencode-zen"
+    },
+    {
+     "title": "Models | OpenCode",
+     "url": "https://dev.opencode.ai/v2/docs/console/models"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2109599972454727744",
+  "handle": "synthwavedd",
+  "date": "2026-10-12T11:00:02Z",
+  "claim": "Something involving Argon will happen during the week of October 12, 2026, possibly alongside other releases.",
+  "lab": "Other",
+  "topic": "other",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2026-10-18",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": true,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109599972454727744",
+    "url": "https://x.com/synthwavedd/status/2109599972454727744",
+    "created_at": "2026-10-12T11:00:02Z",
+    "text": "Hey, remember Argon? Been a while\n\nWell, this week is the week - for Argon and perhaps some other goodies!",
+    "likes": 1062,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:28:38Z",
+  "feed_date": "2026-10-12T15:28:38Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2108612750087778432",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-12",
+   "official_date": null,
+   "explanation": "The post predicts that something involving Argon will happen during October 12–18, 2026; that week is still underway as of October 12, so the claim cannot yet be judged. Google had already announced Gemini 4 Argon on September 30, but that does not confirm the post’s implied further event this week.",
+   "evidence": [
+    {
+     "title": "Introducing Gemini 4 Argon — Google, September 30, 2026",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    {
+     "title": "Google unveils long-awaited Gemini 4 — Axios, September 30, 2026",
+     "url": "https://www.axios.com/2026/09/30/google-gemini-4"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2109633920568377583",
+  "handle": "testingcatalog",
+  "date": "2026-10-12T13:14:56Z",
+  "claim": "Claude Opus 5.5 is reportedly routed to a different, better-performing model, with Claude Fable 5.5 a possible candidate for that model.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-10",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109633920568377583",
+    "url": "https://x.com/testingcatalog/status/2109633920568377583",
+    "created_at": "2026-10-12T13:14:56Z",
+    "text": "ANTHROPIC 🔥: Claude Opus 5.5 is reportedly routed to a different model with much better performance. \n\nClaude Fable 5.5 is a potential candidate for the model behind the scenes, but it remains unknown. \n\nAs a side note, Anthropic is hosting a Founder House event in Stockholm this week. Typically, these events aren't used for product announcements but may overlap with showcases of frontier capabilities. \n\nThe best is yet to come 👀",
+    "likes": 418,
+    "quoted": {
+     "handle": "johnjhoffmann",
+     "text": "The best is yet to come. Stay tuned peeps",
+     "created_at": "2026-10-11T22:10:47Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:29:39Z",
+  "feed_date": "2026-10-12T15:29:39Z",
+  "prune_checked": true,
+  "story_id": "pankajkumar_dev-2106070404976849403",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-11",
+   "official_date": null,
+   "explanation": "The post presents the routing report as something already being reported, and the same-day routing discussion predates it. Fable 5.5 is described only as a possible candidate, not as a confirmed identity.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 Release Date: The Routing Reports",
+     "url": "https://cellcog.ai/blog/claude-opus-5-6-release-date/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2109647413602369696",
+  "handle": "TokenGremlin",
+  "date": "2026-10-12T14:08:33Z",
+  "claim": "Google's Gemini 4 Argon is coming, with a possible launch during the week of 2026-10-12 to 2026-10-18.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-10-18",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109647413602369696",
+    "url": "https://x.com/TokenGremlin/status/2109647413602369696",
+    "created_at": "2026-10-12T14:08:33Z",
+    "text": "Another week is kicking off, and this one's looking pretty packed.\n\nWe could see a bunch of Chinese AI model launches over the next few days, along with the long-awaited Gemini 4 Argon. A few of my colleagues have confirmed Gemini is coming, but I'm not sure how excited people are anymore.\n\nHonestly, I think some are already expecting more delays, or worrying that it'll end up being locked behind some ridiculously expensive subscription tier.\n\nWell, I'm staying optimistic!",
+    "likes": 86,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:32:22Z",
+  "feed_date": "2026-10-12T15:32:22Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": "2026-09-30",
+   "explanation": "Google had officially introduced Gemini 4 Argon on September 30, but this post’s distinct claim—that it was coming during October 12–18—has not yet been confirmed or contradicted as of October 12. Its stated launch window is still in the future.",
+   "evidence": [
+    {
+     "title": "Google: Introducing Gemini 4 Argon",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2109651631583240290",
+  "handle": "testingcatalog",
+  "date": "2026-10-12T14:25:19Z",
+  "claim": "Google’s Gemini 4 Argon has reportedly been A/B-tested on Antigravity under the Gemini 3.8 Flash name and appears to be a huge jump over the existing Flash model.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-10",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109651631583240290",
+    "url": "https://x.com/testingcatalog/status/2109651631583240290",
+    "created_at": "2026-10-12T14:25:19Z",
+    "text": "GOOGLE 🔥: Gemini 4 Argon has reportedly been A/B-tested under Gemini 3.8 Flash on Antigravity for some time. \n\nIt seems like a huge jump compared with the existing Flash model. \n\nWorld gen prompt &gt; Gemini 4 Argon (supposedly) https://t.co/ZJZzYzlqwL",
+    "likes": 175,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:29:39Z",
+  "feed_date": "2026-10-12T15:29:39Z",
+  "prune_checked": true,
+  "story_id": "pankajkumar_dev-2106635462563819647-2",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-11",
+   "official_date": null,
+   "explanation": "Antigravity outputs attributed to Argon and routing from Gemini 3.8 Flash were being shared by other users by October 11, before this October 12 post. The cited early outputs and A/B testing reports were not an official Google confirmation.",
+   "evidence": [
+    {
+     "title": "Gemini 4 Argon spotted in A/B testing on Antigravity",
+     "url": "https://www.testingcatalog.com/gemini-4-argon-ab-tests-early-outputs/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "steph_palazzolo-2109654612760248694",
+  "handle": "steph_palazzolo",
+  "date": "2026-10-12T14:37:09Z",
+  "claim": "A startup cofounded by Jeffrey Katzenberg and former Sora lead Bill Peebles is in talks with OpenAI to modify Sora and sell it to film studios.",
+  "lab": "OpenAI",
+  "topic": "corporate",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-10",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109654612760248694",
+    "url": "https://x.com/steph_palazzolo/status/2109654612760248694",
+    "created_at": "2026-10-12T14:37:09Z",
+    "text": "OpenAI’s Sora could be coming back…ish. A stealthy startup cofounded by Hollywood mogul Jeffrey Katzenberg and ex Sora lead Bill Peebles is in talks with OpenAI to tweak and sell the model to film studios.\n\nw/@coryweinberg \n\nhttps://t.co/sJtcCppqu9",
+    "likes": 39,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:30:36Z",
+  "feed_date": "2026-10-12T15:30:36Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-12",
+   "official_date": null,
+   "explanation": "The October 12 report says the Katzenberg–Peebles startup is in talks with OpenAI to access and customize Sora for film-industry customers. This is the journalist’s own scoop, so it is not already public beforehand, but I found no independent confirmation of the talks; the report alone cannot verify itself.",
+   "evidence": [
+    {
+     "title": "OpenAI’s Plan To Revive Sora",
+     "url": "https://www.theinformation.com/newsletters/ai-agenda/openais-plan-revive-sora"
+    },
+    {
+     "title": "Jeffrey Katzenberg Teams Up with Former OpenAI Sora Head on New AI Video Startup",
+     "url": "https://www.theinformation.com/articles/jeffrey-katzenberg-teams-former-openai-sora-head-new-ai-video-startup"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2109658193496551467",
+  "handle": "testingcatalog",
+  "date": "2026-10-12T14:51:23Z",
+  "claim": "Meta has an upcoming model codenamed “Watermelon,” apparently hinted at by a watermelon-themed teaser.",
+  "lab": "Meta",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-10",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": true,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109658193496551467",
+    "url": "https://x.com/testingcatalog/status/2109658193496551467",
+    "created_at": "2026-10-12T14:51:23Z",
+    "text": "META 🔥: An upcoming “Watermelon” model from Meta has been teased!\n\nVibes check - would that mean that training has been finalised?\n\nSoon? 👀 https://t.co/DlU0IqcKRE",
+    "likes": 173,
+    "quoted": {
+     "handle": "alexandr_wang",
+     "text": "vibes kinda good 🍉",
+     "created_at": "2026-10-12T14:48:14Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:29:39Z",
+  "feed_date": "2026-10-12T15:29:39Z",
+  "prune_checked": true,
+  "story_id": "testingcatalog-2109658193496551467",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-08-05",
+   "official_date": null,
+   "explanation": "Meta’s upcoming model internally codenamed Watermelon had been reported before this post, including in The Information’s August 5, 2026 report. The October 12 watermelon-emoji exchange did not originate the claim that such a model was upcoming.",
+   "evidence": [
+    {
+     "title": "How Meta Plans to Close the Gap with Anthropic and OpenAI in Coding",
+     "url": "https://www.theinformation.com/newsletters/ai-agenda/meta-plans-close-gap-anthropic-openai-coding"
+    },
+    {
+     "title": "Meta Plans to Launch ‘Hatch’ AI Agent Platform in Coming Weeks",
+     "url": "https://www.theinformation.com/articles/meta-plans-launch-hatch-ai-agent-platform-coming-weeks"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "kimmonismus-2109661536616657031",
+  "handle": "kimmonismus",
+  "date": "2026-10-12T15:04:40Z",
+  "claim": "Meta is expected to release a major new model very soon, possibly during the week of October 12, 2026.",
+  "lab": "Meta",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-10-19",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109661536616657031",
+    "url": "https://x.com/kimmonismus/status/2109661536616657031",
+    "created_at": "2026-10-12T15:04:40Z",
+    "text": "Nvm lol. Looks like it’s pretty much confirmed I guess we see a new release\nFrom meta very soon. \n\nMeta is really impressing me lately. I'm really curious to see how their new model stacks up against OpenAI and Anthropic. https://t.co/YupPqyE8b6",
+    "likes": 115,
+    "quoted": {
+     "handle": "kimmonismus",
+     "text": "This sounds and reads to me like Meta is about to release a major new model, especially since even Meta employees are hinting at it!\n\nI think this week is going to be really good and exciting! https://t.co/90ElnD0vhA https://t.co/mzLkKknOSm",
+     "created_at": "2026-10-12T14:51:00Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-12T15:29:21Z",
+  "feed_date": "2026-10-12T15:29:21Z",
+  "prune_checked": true,
+  "story_id": "testingcatalog-2109658193496551467",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-08-25",
+   "official_date": null,
+   "explanation": "Meta’s next major model and an October release target had already been reported before this post; Zuckerberg also publicly described the next model as coming soon. The post’s broad “new release very soon” framing was therefore not a novel leak.",
+   "evidence": [
+    {
+     "title": "The Information-based report: Meta’s Watermelon model set for October",
+     "url": "https://www.aidailyinsights.cn/en/2026-08-25/4/"
+    },
+    {
+     "title": "Alex Heath post quoting Zuckerberg on Watermelon coming soon",
+     "url": "https://x.noodl3.net/alexeheath/status/2097819732393214370"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-12T15:38:31Z"
   }
  }
 ]

@@ -30,5 +30,21 @@
   "followers": 13249,
   "bio": "",
   "first_seen": "2026-10-10T21:55:34Z"
+ },
+ "agrippa_inv": {
+  "handle": "Agrippa_Inv",
+  "name": "𝐀𝐠𝐫𝐢𝐩𝐩𝐚 𝐈𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭𝐬",
+  "avatar": "https://pbs.twimg.com/profile_images/2006717284635557888/JlmyxucP_normal.jpg",
+  "followers": 33903,
+  "bio": "",
+  "first_seen": "2026-10-12T15:32:58Z"
+ },
+ "web3marmot": {
+  "handle": "Web3Marmot",
+  "name": "MARMOT",
+  "avatar": "https://pbs.twimg.com/profile_images/1745493067547713536/z9nnExwL_normal.jpg",
+  "followers": 86418,
+  "bio": "",
+  "first_seen": "2026-10-12T15:33:10Z"
  }
 }
