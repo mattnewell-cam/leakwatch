@@ -217125,28 +217125,15 @@
    "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "The resolve_by window (2026-10-11) has not closed as of 2026-10-10, though no Fable 5.5 release had happened yet and a weekend launch is unlikely.",
+   "explanation": "The stated release window was October 5–11; as of October 13, Anthropic had not released Fable 5.5. The timing rules allow up to seven days after the window for a mostly-true result, so the claim can still fall within that grace period; the claimed release and model details remain unconfirmed.",
    "evidence": [
     {
-     "title": "Introducing Claude Haiku 5.5",
-     "url": "https://www.anthropic.com/claude-haiku-5-5"
-    },
-    {
      "title": "Anthropic Newsroom",
-     "url": "https://www.anthropic.com/news"
-    },
-    {
-     "title": "Anthropic Transparency Hub",
-     "url": "https://www.anthropic.com/transparency"
+     "url": "https://www.anthropic.com/news?subjects=announcements"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-10T22:04:08Z",
-   "vetted": {
-    "by": "claude-audit",
-    "at": "2026-10-10T22:37:24Z",
-    "note": "The resolve_by window (2026-10-11) has not closed as of 2026-10-10, though no Fable 5.5 release had happened yet and a weekend launch is unlikely."
-   }
+   "resolved_at": "2026-10-13T14:27:48Z"
   },
   "prune_checked": true,
   "claim_v1": "Anthropic's Fable 5.5 will be released during the week of 2026-10-05 to 2026-10-11, and some accounts already have access to it before release."
@@ -217626,28 +217613,15 @@
    "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "The resolve_by date (2026-10-12) hasn't passed, so false is premature.",
+   "explanation": "Fable 5.5 had not been released by the stated October 12 deadline, but the timing rules allow a late release through October 19 to count as mostly true. Its alleged major leap and high price cannot yet be independently assessed.",
    "evidence": [
     {
      "title": "Anthropic Newsroom",
-     "url": "https://www.anthropic.com/news"
-    },
-    {
-     "title": "Anthropic model system cards",
-     "url": "https://www.anthropic.com/system-cards"
-    },
-    {
-     "title": "Claude Haiku 5.5 announcement",
-     "url": "https://www.anthropic.com/claude-haiku-5-5"
+     "url": "https://www.anthropic.com/news?subjects=announcements"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-10T21:20:22Z",
-   "vetted": {
-    "by": "claude-audit",
-    "at": "2026-10-10T22:37:24Z",
-    "note": "The resolve_by date (2026-10-12) hasn't passed, so false is premature."
-   }
+   "resolved_at": "2026-10-13T14:27:48Z"
   },
   "prune_checked": true,
   "claim_v1": "Anthropic's unreleased model Fable 5.5 is expected to launch within a few days of 2026-10-02, possibly as early as the week of 2026-10-05, and it is a major leap over prior Anthropic models but will be extremely expensive and likely inaccessible on Anthropic's $20 plan."
@@ -218954,7 +218928,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:21Z"
-  }
+  },
+  "story_id": "tokengremlin-2106543721848123812"
  },
  {
   "id": "chrisgpt-2106559513591779421",
@@ -219052,7 +219027,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:21Z"
-  }
+  },
+  "story_id": "tokengremlin-2106543721848123812"
  },
  {
   "id": "vraserx-2106568850850615340",
@@ -225164,7 +225140,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:37:49Z"
-  }
+  },
+  "story_id": "iruletheworldmo-2108694026975326209"
  },
  {
   "id": "testingcatalog-2108696747874697354",
@@ -227750,7 +227727,21 @@
   "first_seen": "2026-10-12T15:31:07Z",
   "feed_date": "2026-10-12T15:31:07Z",
   "prune_checked": true,
-  "story_id": "pankajkumar_dev-2106070404976849403"
+  "story_id": "pankajkumar_dev-2106070404976849403",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post reports that some Opus 5.5 users are being routed to a different model, but presents Opus 5.6 and Fable 5.5 as guesses. As of October 13, 2026, independent confirmation of this specific routing claim is lacking, and its November 10 deadline has not passed.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 Release Date: The Routing Reports",
+     "url": "https://cellcog.ai/blog/claude-opus-5-6-release-date/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
  },
  {
   "id": "kimmonismus-2109300315669565612",
@@ -228344,6 +228335,100 @@
   }
  },
  {
+  "id": "mr_salio-2109617200256397465",
+  "handle": "Mr_Salio",
+  "date": "2026-10-12T12:08:29Z",
+  "claim": "Anthropic has been testing a new model behind Opus 5.5 since October 11, 2026, and some users are being routed to it; it may be called Opus 5.6 or Fable 5.5 and has image and video generation capabilities that can outperform dedicated image-generation models.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-04-10",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109617200256397465",
+    "url": "https://x.com/Mr_Salio/status/2109617200256397465",
+    "created_at": "2026-10-12T12:08:29Z",
+    "text": "🚨 Fable 5.5 / Opus 5.6: My Impressions \n\n> These models are being tested under the name \"Opus 5.5\" since yesterday \n> It could be Opus 5.6 or Fable 5.5\n> Some accounts are getting routed to a new model when using Opus 5.5\n> Anthropic has done this kind of testing before previous launches\n> I've been testing this model since yesterday, and I'm genuinely impressed.\n> Its image and video generation capabilities are insane. \n> It can even outperform dedicated image generation models\n\nDo you think it's opus or Fable Model?",
+    "likes": 515,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:20:27Z",
+  "feed_date": "2026-10-13T14:20:27Z",
+  "prune_checked": true,
+  "story_id": "pankajkumar_dev-2106070404976849403",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post alleges testing and user routing beginning October 11, plus image- and video-generation capabilities, but there is no independent confirmation or contradiction so far. With no stated deadline, the claim remains pending while it could still be publicly verified.",
+   "evidence": [
+    {
+     "title": "Anthropic Newsroom",
+     "url": "https://www.anthropic.com/news?subjects=announcements"
+    },
+    {
+     "title": "Anthropic Model System Cards",
+     "url": "https://www.anthropic.com/system-cards"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "tomwarren-2109631414186434791",
+  "handle": "tomwarren",
+  "date": "2026-10-12T13:04:58Z",
+  "claim": "Microsoft’s Maia 300 AI chip will start rolling out to production AI workloads in 2027.",
+  "lab": "Microsoft",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-12-31",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109631414186434791",
+    "url": "https://x.com/tomwarren/status/2109631414186434791",
+    "created_at": "2026-10-12T13:04:58Z",
+    "text": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs. The new Maia 300 chip will start rolling out to production AI workloads in 2027 https://t.co/ouirRn7IAK",
+    "likes": 321,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:19:05Z",
+  "feed_date": "2026-10-13T14:19:05Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-12",
+   "official_date": "2026-10-12",
+   "explanation": "Microsoft announced on October 12 that Maia 300 will begin production deployments in 2027, matching the stated plan, but the deployment has not happened yet. The post links Tom Warren’s own outlet report, so that reporting does not itself make his claim already public under the novelty rule.",
+   "evidence": [
+    {
+     "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+     "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+    },
+    {
+     "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+     "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
   "id": "testingcatalog-2109633920568377583",
   "handle": "testingcatalog",
   "date": "2026-10-12T13:14:56Z",
@@ -228432,7 +228517,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-12T15:38:31Z"
-  }
+  },
+  "story_id": "tokengremlin-2109647413602369696"
  },
  {
   "id": "testingcatalog-2109651631583240290",
@@ -228626,6 +228712,1061 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-12T15:38:31Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2109668574147035426",
+  "handle": "synthwavedd",
+  "date": "2026-10-12T15:32:38Z",
+  "claim": "Meta's Fable-class model, codenamed Watermelon, has been in development for months and is around the corner; it is expected to be very good.",
+  "lab": "Meta",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-10-26",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109668574147035426",
+    "url": "https://x.com/synthwavedd/status/2109668574147035426",
+    "created_at": "2026-10-12T15:32:38Z",
+    "text": "Heard lots about this one - Watermelon is Meta's Fable class model, in the works for months now. Should be very good and seems to be around the corner with lots of little teasers from people at Meta today. Exciting! https://t.co/Hf9ybRj8NS",
+    "likes": 892,
+    "quoted": {
+     "handle": "alexandr_wang",
+     "text": "vibes kinda good 🍉",
+     "created_at": "2026-10-12T14:48:14Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:15:10Z",
+  "feed_date": "2026-10-13T14:15:10Z",
+  "prune_checked": true,
+  "story_id": "testingcatalog-2109658193496551467",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-12",
+   "official_date": "2026-10-12",
+   "explanation": "The Watermelon codename had been reported before this post on October 12. Meta announced Muse Wonder that day, confirming the model’s release; the “very good” assessment is opinion rather than a separately verifiable leak detail.",
+   "evidence": [
+    {
+     "title": "Muse buys a watermelon: Inside Zuckerberg’s AI tease — Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/muse-buys-a-watermelon-inside-zuckerbergs-ai-tease-4944889"
+    },
+    {
+     "title": "Introducing Muse Wonder and Muse Wonder Full — Meta",
+     "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2109674008769614075",
+  "handle": "TokenGremlin",
+  "date": "2026-10-12T15:54:14Z",
+  "claim": "Meta has a new AI model called Watermelon.",
+  "lab": "Meta",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-10",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109674008769614075",
+    "url": "https://x.com/TokenGremlin/status/2109674008769614075",
+    "created_at": "2026-10-12T15:54:14Z",
+    "text": "Honestly, I'm more excited about this new Meta model (Watermelon) than Gemini.",
+    "likes": 207,
+    "quoted": {
+     "handle": "alexandr_wang",
+     "text": "vibes kinda good 🍉",
+     "created_at": "2026-10-12T14:48:14Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:19:25Z",
+  "feed_date": "2026-10-13T14:19:25Z",
+  "prune_checked": true,
+  "story_id": "testingcatalog-2109658193496551467",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-07-02",
+   "official_date": "2026-10-12",
+   "explanation": "Meta’s upcoming model codename Watermelon had been reported publicly by July 2, 2026, well before this post. Meta later released Muse Wonder and Muse Wonder Full on October 12, 2026; reporting identified Watermelon as their internal codename.",
+   "evidence": [
+    {
+     "title": "Meta’s Wang says coming AI model has caught up with OpenAI — Business Insider",
+     "url": "https://ca.investing.com/news/stock-market-news/metas-wang-says-coming-ai-model-has-caught-up-with-openai-business-insider-4719452"
+    },
+    {
+     "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+     "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2109684900181774666",
+  "handle": "synthwavedd",
+  "date": "2026-10-12T16:37:30Z",
+  "claim": "Meta's Fable-class model Muse Wonder is rolling out with pricing of $4 per million input tokens and $20 per million output tokens, a 1-million-token context window, and maximum-reasoning mode limited to MuseCode Power and Maximum Usage plans.",
+  "lab": "Meta",
+  "topic": "product_feature",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-10-12",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109684900181774666",
+    "url": "https://x.com/synthwavedd/status/2109684900181774666",
+    "created_at": "2026-10-12T16:37:30Z",
+    "text": "🚨 Looks like Meta's Fable-class model, \"Muse Wonder\", is rolling out at $4 in, $20 out per Mtok. \"Wonder Full\" (max reasoning) only available for MuseCode Power &amp; Maximum Usage plans. 1M context. https://t.co/LtiDPkzi4K",
+    "likes": 918,
+    "quoted": {
+     "handle": "synthwavedd",
+     "text": "Heard lots about this one - Watermelon is Meta's Fable class model, in the works for months now. Should be very good and seems to be around the corner with lots of little teasers from people at Meta today. Exciting! https://t.co/Hf9ybRj8NS",
+     "created_at": "2026-10-12T15:32:38Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:15:10Z",
+  "feed_date": "2026-10-13T14:15:10Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2109684900181774666",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-10-12",
+   "official_date": "2026-10-12",
+   "explanation": "The post preceded Meta’s public launch announcement: Muse Wonder launched with $4/M input and $20/M output pricing, a 1M-token context window, and Muse Wonder Full access limited to Muse Code Power and Maximum Usage plans. The claimed launch timing was met.",
+   "evidence": [
+    {
+     "title": "Meta: Introducing Muse Wonder and Muse Wonder Full",
+     "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    },
+    {
+     "title": "Meta Model API: Muse Wonder",
+     "url": "https://dev.meta.ai/models/muse-wonder"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "chetaslua-2109685495261479358",
+  "handle": "chetaslua",
+  "date": "2026-10-12T16:39:52Z",
+  "claim": "Meta has two flagship Muse models, Muse Wonder 1.0 and Muse Wonder Full, and Muse Wonder costs $4 per input, $20 per output, and $0.20 for cache.",
+  "lab": "Meta",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-10",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109685495261479358",
+    "url": "https://x.com/chetaslua/status/2109685495261479358",
+    "created_at": "2026-10-12T16:39:52Z",
+    "text": "🚨 Muse Wonder 1.0 : big bad boy https://t.co/vyaIsiJEgn",
+    "likes": 233,
+    "quoted": {
+     "handle": "alexandr_wang",
+     "text": "vibes kinda good 🍉",
+     "created_at": "2026-10-12T14:48:14Z"
+    }
+   },
+   {
+    "id": "2109689121744834771",
+    "url": "https://x.com/chetaslua/status/2109689121744834771",
+    "created_at": "2026-10-12T16:54:17Z",
+    "text": "🚨 Meta Two FlagShip Model\n\nMuse Wonder &lt; input 4$ , output 20$ , cache 0.2$&gt;\nMuse Wonder Full\n\nsimilar price to opus 5.5 , i will upload few of the test in few minutes https://t.co/qsKqu9rXVa",
+    "likes": 186,
+    "quoted": {
+     "handle": "chetaslua",
+     "text": "🚨 Muse Wonder 1.0 : big bad boy https://t.co/vyaIsiJEgn",
+     "created_at": "2026-10-12T16:39:52Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:15:28Z",
+  "feed_date": "2026-10-13T14:15:28Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2109684900181774666",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-10-12",
+   "official_date": "2026-10-12",
+   "explanation": "Meta released Muse Wonder and Muse Wonder Full on October 12, 2026. The claimed $4-per-million input, $20-per-million output, and $0.20-per-million cached-input pricing applies to Muse Wonder; Wonder Full is a separate model available to Muse Code subscribers, not a token-priced API model.",
+   "evidence": [
+    {
+     "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+     "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    },
+    {
+     "title": "Muse Wonder | Meta",
+     "url": "https://dev.meta.ai/models/muse-wonder"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "deredleritt3r-2109687319255036150",
+  "handle": "deredleritt3r",
+  "date": "2026-10-12T16:47:07Z",
+  "claim": "A number of AI labs are scheduled to release very large models over the next few weeks.",
+  "lab": "Other",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-11-02",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109687319255036150",
+    "url": "https://x.com/deredleritt3r/status/2109687319255036150",
+    "created_at": "2026-10-12T16:47:07Z",
+    "text": "@_AashishReddy There are a number of labs that are scheduled to release very large models over the next few weeks.  I am anticipating Very Big Claims(TM) that will accompany releases of these models.",
+    "likes": 43,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:18:08Z",
+  "feed_date": "2026-10-13T14:18:08Z",
+  "prune_checked": true,
+  "story_id": "iruletheworldmo-2108694026975326209",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post asserts that multiple labs have very large models scheduled for release in the coming weeks, but does not name the labs or models. As of October 13, I found no independent confirmation sufficient to verify or refute that claim, and its November 2 deadline is still ahead.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "aibattle_-2109688245982511504",
+  "handle": "AiBattle_",
+  "date": "2026-10-12T16:50:48Z",
+  "claim": "Meta’s Muse Wonder (Full) scores 56 on the AA-Intelligence Index, above GPT-6 Astra’s 53 and below Claude Opus 5.5’s 58.",
+  "lab": "Meta",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-10",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109688245982511504",
+    "url": "https://x.com/AiBattle_/status/2109688245982511504",
+    "created_at": "2026-10-12T16:50:48Z",
+    "text": "New Meta model \"Muse Wonder (Full)\" scores 56 on the AA-Intelligence Index. Higher than GPT-6-Astra (53) and only behind Opus 5.5 (58) https://t.co/7SpEEn3XBu",
+    "likes": 94,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:19:40Z",
+  "feed_date": "2026-10-13T14:19:40Z",
+  "prune_checked": true,
+  "story_id": "aibattle_-2109688245982511504",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-10-12",
+   "official_date": "2026-10-12",
+   "explanation": "Artificial Analysis reported Muse Wonder Full at 56 on its Intelligence Index; the comparison in the post—above GPT-6 Astra at 53 and below Claude Opus 5.5 at 58—matches the reported figures. Meta’s models were released on October 12, 2026.",
+   "evidence": [
+    {
+     "title": "Muse Wonder Full (max) — Intelligence, Performance & Price Analysis",
+     "url": "https://artificialanalysis.ai/models/muse-wonder-full"
+    },
+    {
+     "title": "Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models",
+     "url": "https://artificialanalysis.ai/articles/muse-wonder"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "mark_k-2109690301895901364",
+  "handle": "mark_k",
+  "date": "2026-10-12T16:58:58Z",
+  "claim": "Meta's Muse Wonder Full scores 59.1 on the Personal Superintelligence Index, 79.0 on DeepSWE 1.1, and 57.5 on SWE-Marathon, outperforming GPT-6 Astra and Claude Opus 5.5 on some of these benchmarks.",
+  "lab": "Meta",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-10",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109690301895901364",
+    "url": "https://x.com/mark_k/status/2109690301895901364",
+    "created_at": "2026-10-12T16:58:58Z",
+    "text": "Meta is back in the frontier model race! Muse Wonder is starting to appear, and the first benchmark numbers look seriously impressive.\n\nMuse Wonder Full scores 59.1 on the Personal Superintelligence Index, beating GPT-6 Astra (54.5) and Claude Opus 5.5 (55.2). It also leads on several agentic benchmarks, including legal work, business automation, and long-horizon coding.\n\nThe coding results are particularly interesting: 79.0 on DeepSWE 1.1 and 57.5 on SWE-Marathon, comfortably ahead of Opus 5.5. However, Opus still has a substantial lead on ProgramBench and remains ahead on the overall Artificial Analysis Index.\n\nMeta is becoming a serious contender again, especially when it comes to agentic capabilities. And competition at the frontier is exactly what we want!",
+    "likes": 334,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:14:44Z",
+  "feed_date": "2026-10-13T14:14:44Z",
+  "prune_checked": true,
+  "story_id": "aibattle_-2109688245982511504"
+ },
+ {
+  "id": "aibattle_-2109697732604752203",
+  "handle": "AiBattle_",
+  "date": "2026-10-12T17:28:30Z",
+  "claim": "Meta has a Muse Wonder (xHigh) model variant associated with an output labeled “Voxel Pagoda.”",
+  "lab": "Meta",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-11",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109697732604752203",
+    "url": "https://x.com/AiBattle_/status/2109697732604752203",
+    "created_at": "2026-10-12T17:28:30Z",
+    "text": "Muse Wonder (xHigh) - Voxel Pagoda https://t.co/UK7tERUSxX",
+    "likes": 139,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:19:40Z",
+  "feed_date": "2026-10-13T14:19:40Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": "2026-10-12",
+   "official_date": "2026-10-12",
+   "explanation": "The post is a label for a Muse Wonder xHigh output called “Voxel Pagoda”; it does not assert that Meta has a distinct xHigh model variant or disclose a non-public product fact. Muse Wonder itself had been publicly announced on October 12.",
+   "evidence": [
+    {
+     "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+     "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "aibattle_-2109698931730894914",
+  "handle": "AiBattle_",
+  "date": "2026-10-12T17:33:16Z",
+  "claim": "Meta’s Muse Wonder Full is available only on the Power ($50/month) and Maximum ($200/month) usage plans.",
+  "lab": "Meta",
+  "topic": "product_feature",
+  "specificity": 5,
+  "significance": 2,
+  "resolve_by": "2027-04-11",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109698931730894914",
+    "url": "https://x.com/AiBattle_/status/2109698931730894914",
+    "created_at": "2026-10-12T17:33:16Z",
+    "text": "Muse Wonder Full is only available on the Power ($50.00/month) and Maximum ($200.00/month) usage plans https://t.co/7XZro3eAlP",
+    "likes": 140,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:19:40Z",
+  "feed_date": "2026-10-13T14:19:40Z",
+  "prune_checked": true
+ },
+ {
+  "id": "haider1-2109700957282148755",
+  "handle": "haider1",
+  "date": "2026-10-12T17:41:19Z",
+  "claim": "Meta's Muse Wonder and Muse Wonder Full (max) score higher on intelligence than Claude Fable 5.1 and GPT-6 Astra, and use fewer tokens per task than Meta's Muse Spark 1.3 (max).",
+  "lab": "Meta",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-10",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109700957282148755",
+    "url": "https://x.com/haider1/status/2109700957282148755",
+    "created_at": "2026-10-12T17:41:19Z",
+    "text": "holy shit.\n\nMeta Muse Wonder cooked Fable 5.1 and GPT-6 Astra https://t.co/IItHbgzRMd",
+    "likes": 330,
+    "quoted": null
+   },
+   {
+    "id": "2109703812005175365",
+    "url": "https://x.com/haider1/status/2109703812005175365",
+    "created_at": "2026-10-12T17:52:39Z",
+    "text": "what's even more impressive is the token efficiency\n\nboth Muse Wonder (max) and Muse Wonder Full (max) score higher than Muse Spark 1.3 (max) on intelligence while using fewer tokens per task\n\nreally curious what Meta is cooking https://t.co/7FgHOoD9uB",
+    "likes": 115,
+    "quoted": {
+     "handle": "haider1",
+     "text": "holy shit.\n\nMeta Muse Wonder cooked Fable 5.1 and GPT-6 Astra https://t.co/IItHbgzRMd",
+     "created_at": "2026-10-12T17:41:19Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:17:15Z",
+  "feed_date": "2026-10-13T14:17:15Z",
+  "prune_checked": true,
+  "story_id": "aibattle_-2109688245982511504"
+ },
+ {
+  "id": "scaling01-2109709931750289598",
+  "handle": "scaling01",
+  "date": "2026-10-12T18:16:58Z",
+  "claim": "An internal OpenAI model solved the Navier–Stokes Millennium Prize problem more than a month before October 12, 2026.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2026-09-11",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109709931750289598",
+    "url": "https://x.com/scaling01/status/2109709931750289598",
+    "created_at": "2026-10-12T18:16:58Z",
+    "text": "Navier Stokes was solved over a month ago btw\n\nI think one of the best indicator of a frontier lab is the number of meaningful scientific contributions\n\nthis will become very clear in the next months and years",
+    "likes": 335,
+    "quoted": {
+     "handle": "scaling01",
+     "text": "Wonder Full seems like a good model\n\nbut I would still say that Meta is ~3-6 months behind OpenAI/Ant",
+     "created_at": "2026-10-12T18:12:37Z"
+    }
+   },
+   {
+    "id": "2109724589349888453",
+    "url": "https://x.com/scaling01/status/2109724589349888453",
+    "created_at": "2026-10-12T19:15:13Z",
+    "text": "&gt; over a month ago: OpenAI solves millennium prize problem with internal model\n&gt; Meta releases a watermelon\n&gt; \"IT'S SO FUCKING OVER FOR OPENAI\"",
+    "likes": 404,
+    "quoted": {
+     "handle": "theo",
+     "text": "Meta is a frontier lab now.\n\nOpenAI has fallen into 3rd place.\n\nI think Google is kinda screwed.",
+     "created_at": "2026-10-12T18:47:04Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:15:46Z",
+  "feed_date": "2026-10-13T14:15:46Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-08",
+   "official_date": "2026-09-08",
+   "explanation": "OpenAI publicly announced its claimed Navier–Stokes solution on September 8, 2026—34 days before this October 12 post. The post repeats that already-public claim.",
+   "evidence": [
+    {
+     "title": "On the Navier–Stokes Millennium Prize Problem — OpenAI",
+     "url": "https://openai.com/index/navier-stokes-solution/"
+    },
+    {
+     "title": "OpenAI says its AI has solved the Navier–Stokes Millennium Prize problem — Axios",
+     "url": "https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2109757279881048198",
+  "handle": "imjustnewatai",
+  "date": "2026-10-12T21:25:07Z",
+  "claim": "Google will release Gemini 4 Argon during the week of October 12, 2026.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-18",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109757279881048198",
+    "url": "https://x.com/imjustnewatai/status/2109757279881048198",
+    "created_at": "2026-10-12T21:25:07Z",
+    "text": "Google Gemini 4 argon is gonna release this week. It’s going to be quickly overshadowed by opus 6 and fable 5.5 within a week 😭",
+    "likes": 100,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:20:04Z",
+  "feed_date": "2026-10-13T14:20:04Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2109647413602369696",
+  "resolution": {
+   "verdict": "false",
+   "public_date": "2026-09-30",
+   "official_date": "2026-09-30",
+   "explanation": "The post predicted Gemini 4 Argon would launch during the week of October 12, but Google had already announced and begun rolling it out on September 30. The October prediction is contradicted by Google’s official launch date.",
+   "evidence": [
+    {
+     "title": "Introducing Gemini 4 Argon — Google, September 30, 2026",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2109757279881048198-2",
+  "handle": "imjustnewatai",
+  "date": "2026-10-12T21:25:07Z",
+  "claim": "Anthropic will release Opus 6 within a week of Google Gemini 4 Argon’s release during the week of October 12, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2026-10-19",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109757279881048198",
+    "url": "https://x.com/imjustnewatai/status/2109757279881048198",
+    "created_at": "2026-10-12T21:25:07Z",
+    "text": "Google Gemini 4 argon is gonna release this week. It’s going to be quickly overshadowed by opus 6 and fable 5.5 within a week 😭",
+    "likes": 100,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:20:04Z",
+  "feed_date": "2026-10-13T14:20:04Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post predicts Opus 6 will overshadow Gemini 4 Argon within a week of Argon’s anticipated October 12–18 release; the supplied deadline is October 19. As of October 13, Opus 6 had not been announced, but the prediction’s window has not expired.",
+   "evidence": [
+    {
+     "title": "Anthropic Newsroom",
+     "url": "https://www.anthropic.com/news?subjects=announcements"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2109757279881048198-3",
+  "handle": "imjustnewatai",
+  "date": "2026-10-12T21:25:07Z",
+  "claim": "Anthropic will release Fable 5.5 within a week of Google Gemini 4 Argon’s release during the week of October 12, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-19",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109757279881048198",
+    "url": "https://x.com/imjustnewatai/status/2109757279881048198",
+    "created_at": "2026-10-12T21:25:07Z",
+    "text": "Google Gemini 4 argon is gonna release this week. It’s going to be quickly overshadowed by opus 6 and fable 5.5 within a week 😭",
+    "likes": 100,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:20:04Z",
+  "feed_date": "2026-10-13T14:20:04Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post predicts Fable 5.5 will overshadow Gemini 4 Argon within a week of Argon’s anticipated October 12–18 release; the supplied deadline is October 19. As of October 13, Fable 5.5 had not been released, but the prediction window remains open.",
+   "evidence": [
+    {
+     "title": "Anthropic Newsroom",
+     "url": "https://www.anthropic.com/news?subjects=announcements"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "haider1-2109758508170109428",
+  "handle": "haider1",
+  "date": "2026-10-12T21:30:00Z",
+  "claim": "Meta is launching a new Muse version within the first 15 days of each month, with each successive version exponentially better than the last.",
+  "lab": "Meta",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-11-15",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109758508170109428",
+    "url": "https://x.com/haider1/status/2109758508170109428",
+    "created_at": "2026-10-12T21:30:00Z",
+    "text": "Zuck is launching a new version of Muse within the first 15 days of every month and each version is exponentially better than the last\n\nbased zuck https://t.co/jtQfVIvkM6",
+    "likes": 118,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:17:15Z",
+  "feed_date": "2026-10-13T14:17:15Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This asserts a continuing monthly launch pattern, with the next version due by November 15, and says successive versions will be exponentially better. As of October 13, the deadline has not passed and the October 12 launch alone does not establish that cadence or improvement trend.",
+   "evidence": [
+    {
+     "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+     "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2109811005395996875",
+  "handle": "imjustnewatai",
+  "date": "2026-10-13T00:58:36Z",
+  "claim": "Anthropic’s unreleased Claude Fable 5.5 generated a video by researching breakthroughs, writing its script, building 21 3D scenes, composing music in code, and rendering 3,240 frames.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-11",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109811005395996875",
+    "url": "https://x.com/imjustnewatai/status/2109811005395996875",
+    "created_at": "2026-10-13T00:58:36Z",
+    "text": "Claude fable 5.5 made this entire video.\n\nIt researched the breakthroughs, wrote the script, built 21 3D scenes, composed the music in code and rendered 3,240 frames.\n\nAI went from \"strawberry\" to claiming a Millennium Prize in 2 years.\n\nHere are the next 10: https://t.co/MEEGD3ojHG",
+    "likes": 59,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:20:04Z",
+  "feed_date": "2026-10-13T14:20:04Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post attributes the linked video’s research, script, 21 3D scenes, coded music, and 3,240 rendered frames to Fable 5.5. The video’s claimed model provenance has not been independently established or refuted, and there is no deadline.",
+   "evidence": [
+    {
+     "title": "Anthropic Newsroom",
+     "url": "https://www.anthropic.com/news?subjects=announcements"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2109821687151690008",
+  "handle": "imjustnewatai",
+  "date": "2026-10-13T01:41:03Z",
+  "claim": "Anthropic’s unreleased Claude Fable 5.5 produced an SVG of a penguin riding a donkey from a prompt.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-04-11",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109821687151690008",
+    "url": "https://x.com/imjustnewatai/status/2109821687151690008",
+    "created_at": "2026-10-13T01:41:03Z",
+    "text": "I asked Claude Fable 5.5’s latest checkpoint for an SVG of a penguin  riding a donkey.\n\nHere’s the result: https://t.co/Ao6bAJYVgu",
+    "likes": 17,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:20:04Z",
+  "feed_date": "2026-10-13T14:20:04Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post claims the latest Claude Fable 5.5 checkpoint produced the linked SVG, but the output and the specific checkpoint cannot be independently verified from public evidence. Earlier reports of Fable 5.5 testing do not verify this particular test result.",
+   "evidence": [
+    {
+     "title": "Fable 5.5 is being secretly tested similar to how Opus 5.5 was",
+     "url": "https://www.reddit.com/r/ClaudeCode/comments/1wve3q8/fable_55_is_being_secretly_tested_similar_to_how/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "haider1-2109839038165254622",
+  "handle": "haider1",
+  "date": "2026-10-13T02:50:00Z",
+  "claim": "Anthropic is holding back Fable 5.5 while Claude Opus 5.5 stays ahead, and Fable 5.5 is expected to follow GPT-6.1 Astra's release or possibly launch before it.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-11",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109839038165254622",
+    "url": "https://x.com/haider1/status/2109839038165254622",
+    "created_at": "2026-10-13T02:50:00Z",
+    "text": "openai is trying to release Astra 6.1 but hasn't been able to due to safety concerns; it was originally planned for DevDay\n\nanthropic seems comfortable holding back Fable 5.5 while opus 5.5 stays ahead\n\nonce astra 6.1 drops, expect fable 5.5 to follow. or anth will release it first and crush oai even harder",
+    "likes": 351,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:17:15Z",
+  "feed_date": "2026-10-13T14:17:15Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2106543721848123812",
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The targeted assertion about Anthropic holding back Fable 5.5 and its possible release order is framed as the poster’s interpretation and alternative speculation, not a report of inside information. The separate Astra delay statement was already publicly reported before this post, but it is not the claim identified for grading.",
+   "evidence": [
+    {
+     "title": "OpenAI delays latest model over security concerns",
+     "url": "https://www.washingtonpost.com/business/2026/09/28/open-ai-artificial-intelligence-altman-trump-astra/7f7af10e-bba7-11f1-81fc-9b76f8343b6c_story"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "haider1-2109889387513426118",
+  "handle": "haider1",
+  "date": "2026-10-13T06:10:04Z",
+  "claim": "Google's Gemini 4 Argon is expected to launch on 2026-10-13.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-13",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109889387513426118",
+    "url": "https://x.com/haider1/status/2109889387513426118",
+    "created_at": "2026-10-13T06:10:04Z",
+    "text": "Gemini 4 Argon is expected to launch today and i really hope Google doesn't limit it to ultra users\n\ngiven google's massive compute capacity and how long we've already waited for this model, that would be disappointing",
+    "likes": 513,
+    "quoted": {
+     "handle": "OfficialLoganK",
+     "text": "Gemini",
+     "created_at": "2026-10-13T02:39:51Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:17:15Z",
+  "feed_date": "2026-10-13T14:17:15Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2109647413602369696",
+  "resolution": {
+   "verdict": "false",
+   "public_date": "2026-09-30",
+   "official_date": "2026-09-30",
+   "explanation": "The post said Gemini 4 Argon was expected to launch on October 13, but Google had already announced and begun rolling it out on September 30. The claimed launch date is wrong.",
+   "evidence": [
+    {
+     "title": "Introducing Gemini 4 Argon — Google, September 30, 2026",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "chetaslua-2109896242704912818",
+  "handle": "chetaslua",
+  "date": "2026-10-13T06:37:18Z",
+  "claim": "Google will release Gemini 4 Argon on 2026-10-13.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-10-13",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109896242704912818",
+    "url": "https://x.com/chetaslua/status/2109896242704912818",
+    "created_at": "2026-10-13T06:37:18Z",
+    "text": "🚨Gemini 4 Argon coming today \n\nPrompt : draw a picture using javascript, of \"new york skylines\", it should look like a real drawing and very realistic in one html file https://t.co/ahspJiyr7k",
+    "likes": 478,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:15:28Z",
+  "feed_date": "2026-10-13T14:15:28Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2109647413602369696",
+  "resolution": {
+   "verdict": "false",
+   "public_date": null,
+   "official_date": "2026-09-30",
+   "explanation": "Gemini 4 Argon had already been announced for a phased rollout on September 30, but there is no confirmation that it launched on October 13 as this post predicted. The specific “coming today” timing was not public beforehand and the stated deadline passed without confirmation.",
+   "evidence": [
+    {
+     "title": "Introducing Gemini 4 Argon — Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    {
+     "title": "Google unveils long-awaited Gemini 4 — Axios",
+     "url": "https://www.axios.com/2026/09/30/google-gemini-4"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "vraserx-2109903996458610802",
+  "handle": "VraserX",
+  "date": "2026-10-13T07:08:07Z",
+  "claim": "OpenAI reportedly used an internal model capable of solving previously unsolved math problems to improve its algorithms, in a way that may cut inference costs by 50%.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-11",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2109903996458610802",
+    "url": "https://x.com/VraserX/status/2109903996458610802",
+    "created_at": "2026-10-13T07:08:07Z",
+    "text": "OpenAI used its internal model, capable of solving previously unsolved math problems, to improve its own algorithms.\n\nApparently, they’ve found a way to cut inference costs by 50%.\n\nIf true, this is massive. AI is starting to make AI itself cheaper and more efficient. And we’re just getting started.",
+    "likes": 231,
+    "quoted": {
+     "handle": "thsottiaux",
+     "text": "Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon.",
+     "created_at": "2026-10-13T06:21:26Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:18:16Z",
+  "feed_date": "2026-10-13T14:18:16Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-06-30",
+   "official_date": null,
+   "explanation": "The Information reported on June 30 that OpenAI engineers had found optimizations to more than halve inference costs; OpenAI’s internal-model mathematics result was also public by September 8. The specific 50% figure was reported by the outlet, not officially confirmed by OpenAI.",
+   "evidence": [
+    {
+     "title": "OpenAI Discovers New Way to Cut Inference Costs in Half — The Information",
+     "url": "https://www.theinformation.com/newsletters/ai-agenda/openai-discovers-new-way-cut-inference-costs-half"
+    },
+    {
+     "title": "On the Navier–Stokes Millennium Prize Problem — OpenAI",
+     "url": "https://openai.com/index/navier-stokes-solution/"
+    },
+    {
+     "title": "Building abundant intelligence — OpenAI",
+     "url": "https://openai.com/index/building-abundant-intelligence/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "aibattle_-2109981594706489384",
+  "handle": "AiBattle_",
+  "date": "2026-10-13T12:16:28Z",
+  "claim": "Google’s Gemini 4 Argon has appeared on the quotas page and should go live within a few hours on October 13, 2026.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-13",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109981594706489384",
+    "url": "https://x.com/AiBattle_/status/2109981594706489384",
+    "created_at": "2026-10-13T12:16:28Z",
+    "text": "Gemini 4 Argon now appears in the quotas page\n\nThe model should be live in a few hours https://t.co/7WWUV3hvww",
+    "likes": 283,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:19:40Z",
+  "feed_date": "2026-10-13T14:19:40Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2109647413602369696",
+  "resolution": {
+   "verdict": "false",
+   "public_date": null,
+   "official_date": "2026-09-30",
+   "explanation": "Google had announced Argon’s phased rollout on September 30, but there is no independent confirmation that the claimed quota-page appearance led to a new launch within hours on October 13. That stated timing passed without confirmation; the page finding itself cannot be independently verified from public evidence.",
+   "evidence": [
+    {
+     "title": "Introducing Gemini 4 Argon — Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    },
+    {
+     "title": "Google unveils long-awaited Gemini 4 — Axios",
+     "url": "https://www.axios.com/2026/09/30/google-gemini-4"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
+  }
+ },
+ {
+  "id": "mark_k-2109983702302220790",
+  "handle": "mark_k",
+  "date": "2026-10-13T12:24:50Z",
+  "claim": "Meta and Google will have major Super Intelligence developments during the week of October 13, 2026, with another unnamed entity also hinted at.",
+  "lab": "Other",
+  "topic": "other",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2026-10-18",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": true,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2109983702302220790",
+    "url": "https://x.com/mark_k/status/2109983702302220790",
+    "created_at": "2026-10-13T12:24:50Z",
+    "text": "Told you all this will be a BIG WEEK for Super Intelligence 😏\n\nMeta, Google, and... ?",
+    "likes": 127,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-13T14:14:44Z",
+  "feed_date": "2026-10-13T14:14:44Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This is vague hype about a “BIG WEEK” and hints at Meta, Google, and an unnamed party, without specifying any non-public development or release. The post is commentary rather than a sufficiently concrete leak claim to grade.",
+   "evidence": [],
+   "confidence": "medium",
+   "resolved_at": "2026-10-13T14:27:48Z"
   }
  }
 ]
