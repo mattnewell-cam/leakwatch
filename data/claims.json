@@ -164126,27 +164126,18 @@
   "origin": "tweet",
   "imported_at": "2026-10-10T20:48:31Z",
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-08-24",
+   "verdict": "already_public",
+   "public_date": "2026-08-18",
    "official_date": "2026-08-24",
-   "explanation": "OpenAI did expand ChatGPT Ads into Europe later, but the public expansion date was not the week of August 24 in the form claimed here, and the specific country list/timing does not match the verified rollout. The statement is therefore not accurate as written.",
+   "explanation": "OpenAI had announced the expansion to 31 European markets before the August 19 post. Ads went live across Europe the week of August 24, matching the quoted timing.",
    "evidence": [
     {
-     "title": "OpenAI and Reddit Partnership | OpenAI",
-     "url": "https://www.linkedin.com/posts/openai_openai-and-reddit-partnership-activity-7196971175275581441-_7gi"
-    },
-    {
-     "title": "OpenAI timeline provided in prompt",
-     "url": "https://openai.com/index/devday-2026/"
+     "title": "ChatGPT Ads expands across Europe",
+     "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
     }
    ],
-   "confidence": "low",
-   "resolved_at": "2026-10-10T21:31:05Z",
-   "vetted": {
-    "by": "claude-audit",
-    "at": "2026-10-10T22:37:24Z",
-    "note": ""
-   }
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
   },
   "prune_checked": true
  },
@@ -166747,17 +166738,21 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "false",
-   "public_date": null,
+   "public_date": "2026-08-22",
    "official_date": null,
-   "explanation": "The stated release window was August 24–30, 2026. No OpenAI or SSI release occurred during that week; SSI’s public updates show no model launch in that period.",
+   "explanation": "The prediction was that both OpenAI and SSI would have releases during August 24–30, but SSI did not announce or release a product in that window, and OpenAI did not release a new model then. OpenAI’s dated updates that week were product or service changes, not the predicted joint release event.",
    "evidence": [
     {
-     "title": "Safe Superintelligence: Updates",
+     "title": "Safe Superintelligence Inc. updates",
      "url": "https://ssi.inc/updates"
+    },
+    {
+     "title": "ChatGPT release notes",
+     "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-11T01:32:14Z"
+   "confidence": "medium",
+   "resolved_at": "2026-10-15T11:47:08Z"
   }
  },
  {
@@ -167099,31 +167094,13 @@
   "origin": "tweet",
   "imported_at": "2026-10-10T20:48:31Z",
   "resolution": {
-   "verdict": "false",
+   "verdict": "not_a_claim",
    "public_date": null,
    "official_date": null,
-   "explanation": "No major Codex release arrived in the week after August 22. The next major OpenAI public model release was GPT-6 Astra on September 3, and no public evidence found supports a distinct big Codex-team launch in the claimed window or the 'Patrick later' sequencing.",
-   "evidence": [
-    {
-     "title": "Product News and Updates",
-     "url": "https://openai.com/news/product-releases/?limit=18&sortBy=old"
-    },
-    {
-     "title": "ChatGPT — Release Notes",
-     "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes%E2%80%AC"
-    },
-    {
-     "title": "GPT-6 Astra: A new generation of intelligence",
-     "url": "https://openai.com/index/gpt-6-astra/?video=1223245030"
-    }
-   ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-10T22:14:34Z",
-   "vetted": {
-    "by": "claude-audit",
-    "at": "2026-10-10T22:37:24Z",
-    "note": ""
-   }
+   "explanation": "This is cryptic commentary about a “big week” and the Codex team, not a specific assertion of non-public information or a definite release.",
+   "evidence": [],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
   },
   "prune_checked": true,
   "claim_v1": "OpenAI's Codex team had a major upcoming release planned for the week after 2026-08-22, and the previously mentioned Patrick project would come later."
@@ -204359,7 +204336,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:50:39Z"
-  }
+  },
+  "story_id": "amir-2102584936306008443"
  },
  {
   "id": "kimmonismus-2102629242915955125",
@@ -210937,19 +210915,24 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
+   "verdict": "false",
+   "public_date": "2026-09-27",
    "official_date": null,
-   "explanation": "The post predicted a substantially more intelligent model about one or two weeks after DevDay, with mid-October as the stated expectation. As of October 10, that window has not fully elapsed, and the prediction is not yet confirmed or contradicted.",
+   "explanation": "No model matching the prediction—one much more intelligent than Fable 5.5—was released in the stated week or by October 15. OpenAI delayed GPT-6.1 Astra, while its later October 8 update was Ultrafast mode for GPT-6.1 Sol, not a new model.",
    "evidence": [
     {
-     "title": "Introducing GPT-6.1 Sol",
-     "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+     "title": "OpenAI delays latest model over security concerns",
+     "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5"
+    },
+    {
+     "title": "OpenAI API changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:27:35Z"
-  }
+   "resolved_at": "2026-10-15T11:47:08Z"
+  },
+  "feed_date": "2026-10-15T11:47:08Z"
  },
  {
   "id": "imjustnewatai-2104298224840532295",
@@ -212706,7 +212689,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:08Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "synthwavedd-2104647832103956631-2",
@@ -213599,7 +213583,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:23Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "dseetharaman-2104787520001310923",
@@ -214863,7 +214848,8 @@
     "note": "The figures come from the Reuters prospectus report (Sep 28), and the tweet itself says others were already reporting the numbers."
    }
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "story_id": "chrisgpt-2105080888698523812"
  },
  {
   "id": "haider1-2105145612136276071",
@@ -215869,7 +215855,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:23Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "teortaxestex-2105560533860774243",
@@ -216757,7 +216744,8 @@
    }
   },
   "prune_checked": true,
-  "claim_v1": "Anthropic is targeting an IPO by 2026-11-15 at a $2 trillion valuation."
+  "claim_v1": "Anthropic is targeting an IPO by 2026-11-15 at a $2 trillion valuation.",
+  "story_id": "ns123abc-2104735822029176833"
  },
  {
   "id": "tokengremlin-2105759601236832701",
@@ -217624,7 +217612,8 @@
    "resolved_at": "2026-10-13T14:27:48Z"
   },
   "prune_checked": true,
-  "claim_v1": "Anthropic's unreleased model Fable 5.5 is expected to launch within a few days of 2026-10-02, possibly as early as the week of 2026-10-05, and it is a major leap over prior Anthropic models but will be extremely expensive and likely inaccessible on Anthropic's $20 plan."
+  "claim_v1": "Anthropic's unreleased model Fable 5.5 is expected to launch within a few days of 2026-10-02, possibly as early as the week of 2026-10-05, and it is a major leap over prior Anthropic models but will be extremely expensive and likely inaccessible on Anthropic's $20 plan.",
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "kimmonismus-2106116402134294568",
@@ -218930,7 +218919,7 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:21Z"
   },
-  "story_id": "tokengremlin-2106543721848123812"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "chrisgpt-2106559513591779421",
@@ -219029,7 +219018,7 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:21Z"
   },
-  "story_id": "tokengremlin-2106543721848123812"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "vraserx-2106568850850615340",
@@ -219909,7 +219898,8 @@
    "confidence": "medium",
    "resolved_at": "2026-10-14T12:09:13Z"
   },
-  "feed_date": "2026-10-14T12:09:13Z"
+  "feed_date": "2026-10-14T12:09:13Z",
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "imjustnewatai-2106925306736955566",
@@ -222598,7 +222588,7 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:51:23Z"
   },
-  "story_id": "imjustnewatai-2107906476639736090"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "tokengremlin-2107908991145652356",
@@ -222746,7 +222736,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:51:23Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "anissagardizy8-2107943052694437979",
@@ -223592,7 +223583,8 @@
    "confidence": "high",
    "resolved_at": "2026-10-11T00:53:21Z"
   },
-  "astra_checked": true
+  "astra_checked": true,
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "testingcatalog-2108465147186470979",
@@ -226912,7 +226904,8 @@
   "feed_date": "2026-10-11T01:51:22Z",
   "claim_v1": "Anthropic’s Fable 5.5 had test results on October 10, 2026, that were much better than in previous weeks, and the author’s colleagues described it as the best model in the world while saying SVGs, Three.js, and design were solved.",
   "prune_checked": true,
-  "repeat_of": "tokengremlin-2105759601236832701"
+  "repeat_of": "tokengremlin-2105759601236832701",
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "andrewcurran_-2109049637449687135",
@@ -229406,7 +229399,7 @@
    "confidence": "high",
    "resolved_at": "2026-10-13T14:27:48Z"
   },
-  "story_id": "imjustnewatai-2107906476639736090"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "haider1-2109758508170109428",
@@ -229595,7 +229588,7 @@
   "first_seen": "2026-10-13T14:17:15Z",
   "feed_date": "2026-10-13T14:17:15Z",
   "prune_checked": true,
-  "story_id": "tokengremlin-2106543721848123812",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "not_a_claim",
    "public_date": null,
@@ -230009,7 +230002,7 @@
   "first_seen": "2026-10-14T12:00:34Z",
   "feed_date": "2026-10-14T12:00:34Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2107906476639736090",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "pending",
    "public_date": null,
@@ -230097,7 +230090,7 @@
   "first_seen": "2026-10-14T12:00:34Z",
   "feed_date": "2026-10-14T12:00:34Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2107906476639736090",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "pending",
    "public_date": "2026-10-13",
@@ -230210,7 +230203,7 @@
   "first_seen": "2026-10-14T11:55:35Z",
   "feed_date": "2026-10-14T11:55:35Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2107906476639736090"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "deredleritt3r-2110034099511648381",
@@ -230285,7 +230278,7 @@
   "first_seen": "2026-10-14T11:56:23Z",
   "feed_date": "2026-10-14T11:56:23Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2107906476639736090",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "pending",
    "public_date": "2026-10-13",
@@ -230570,7 +230563,8 @@
   "first_seen": "2026-10-14T12:00:34Z",
   "feed_date": "2026-10-14T12:00:34Z",
   "prune_checked": true,
-  "repeat_of": "tokengremlin-2109041454152634736"
+  "repeat_of": "tokengremlin-2109041454152634736",
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "imjustnewatai-2110066547280486779",
@@ -230616,7 +230610,7 @@
   "first_seen": "2026-10-14T11:59:59Z",
   "feed_date": "2026-10-14T11:59:59Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2107906476639736090",
+  "story_id": "synthwavedd-2104647832103956631",
   "repeat_of": "imjustnewatai-2107906476639736090"
  },
  {
@@ -230651,7 +230645,7 @@
   "first_seen": "2026-10-14T11:56:46Z",
   "feed_date": "2026-10-14T11:56:46Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2107906476639736090"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "iruletheworldmo-2110073316434489737",
@@ -230744,7 +230738,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-14T12:09:13Z"
-  }
+  },
+  "story_id": "ns123abc-2110106771356532891"
  },
  {
   "id": "steph_palazzolo-2110129497186197760",
@@ -231001,7 +230996,7 @@
   "first_seen": "2026-10-14T11:57:26Z",
   "feed_date": "2026-10-14T11:57:26Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2107906476639736090",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "pending",
    "public_date": "2026-10-14",
@@ -231015,6 +231010,1145 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-14T12:09:13Z"
+  }
+ },
+ {
+  "id": "chetaslua-2110334798694859171",
+  "handle": "chetaslua",
+  "date": "2026-10-14T11:39:58Z",
+  "claim": "Microsoft Azure records show Claude Fable 5.5 was registered on September 28, 2026, in nine regions and had been sitting ready for 15 days as of October 14.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-12",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110334798694859171",
+    "url": "https://x.com/chetaslua/status/2110334798694859171",
+    "created_at": "2026-10-14T11:39:58Z",
+    "text": "🚨Fable 5.5 in Azure , found Microsoft's raw record\n\n&gt; registered Sep 28 , same day as Sonnet 5.5 + Haiku 5.5 , both already shipped\n&gt; 9 regions , exact same footprint as Fable 5.1\n\nit's been sitting ready for 15 days 🧐 https://t.co/QDApFiULTs",
+    "likes": 629,
+    "quoted": {
+     "handle": "chetaslua",
+     "text": "🚨 Claude Fable 5.5 just showed up in Microsoft Azure\n\n&gt; TrueFoundry models-bot → microsoft-foundry/claude-fable-5-5 https://t.co/8fUoWHalpA",
+     "created_at": "2026-10-13T15:39:00Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:32:28Z",
+  "feed_date": "2026-10-15T11:32:28Z",
+  "prune_checked": true,
+  "repeat_of": "chetaslua-2110032565927329992",
+  "story_id": "synthwavedd-2104647832103956631"
+ },
+ {
+  "id": "tokengremlin-2110368277159453035",
+  "handle": "TokenGremlin",
+  "date": "2026-10-14T13:53:00Z",
+  "claim": "OpenAI has allocated 10% of its total compute to safety following risks identified with GPT-6.1 Astra.",
+  "lab": "OpenAI",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-12",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110368277159453035",
+    "url": "https://x.com/TokenGremlin/status/2110368277159453035",
+    "created_at": "2026-10-14T13:53:00Z",
+    "text": "Good morning, my friends. I've got some incredible news about OpenAI!\n\nA few weeks ago, I told you that OpenAI had put the GPT-6.1 Astra launch on hold to focus its efforts on an even more powerful model, and now we have confirmation.\n\nThey've also allocated 10% of the company's total compute to safety, following the risks identified with GPT-6.1 Astra.\n\nIn short, they're building ridiculously more powerful architectures (Bel is closer than ever!), expanding their compute capacity at record speed, and preparing to release something incredible and unexpected very soon.",
+    "likes": 926,
+    "quoted": {
+     "handle": "steph_palazzolo",
+     "text": "New: OpenAI is all-hands-on-deck to get its next flagship model in a place where leaders feel like they can safely release it. At the same time, they're dealing with the fallout from 3 safety researchers' firings.\n\nw/ @aaronpholmes @amir: \n\nhttps://t.co/E0v30G7xGP",
+     "created_at": "2026-10-13T22:04:11Z"
+    }
+   },
+   {
+    "id": "2110588040808722569",
+    "url": "https://x.com/TokenGremlin/status/2110588040808722569",
+    "created_at": "2026-10-15T04:26:16Z",
+    "text": "A few things we really can't ignore about OpenAI's current situation:\n\n- Models started showing pop-ups saying they were temporarily out of capacity.\n- OpenAI temporarily paused its $200 plans.\n- Then brought them back and cut usage limits across all plans in half.\n- Roughly 10% of the company's total compute was redirected to safety.\n- They've gone all-in on training an extremely powerful new model and two (or more) smaller distilled models.\n- In the middle of all this, Tibo went a little crazy and promised 28 improvements or resets.\n- Day 10 was literally skipped. No reset, no update, nothing.\n\nThe company seems to be trying everything it can to stay ahead, but right now, the pressure on them is absolutely insane.\n\nThey simply don't have enough compute to handle all of this at once.",
+    "likes": 355,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:37:48Z",
+  "feed_date": "2026-10-15T11:37:48Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post asserts that OpenAI allocated 10% of its total compute to safety, but no independent report or official source located confirms that specific figure. Public safety materials discuss monitoring and safeguards without verifying the claimed allocation.",
+   "evidence": [
+    {
+     "title": "Safety overview: GPT-6 Astra",
+     "url": "https://openai.com/index/safety-overview-gpt-6-astra/"
+    },
+    {
+     "title": "GPT-6 Sol and GPT-6 Luna: October 2026 update",
+     "url": "https://deploymentsafety.openai.com/gpt-6-october/model-safety"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2110368277159453035-2",
+  "handle": "TokenGremlin",
+  "date": "2026-10-14T13:53:00Z",
+  "claim": "OpenAI is preparing an exceptionally powerful flagship model referred to as Bel, which may be about three months away from public release after government testing and distribution to partners.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2027-01-14",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110368277159453035",
+    "url": "https://x.com/TokenGremlin/status/2110368277159453035",
+    "created_at": "2026-10-14T13:53:00Z",
+    "text": "Good morning, my friends. I've got some incredible news about OpenAI!\n\nA few weeks ago, I told you that OpenAI had put the GPT-6.1 Astra launch on hold to focus its efforts on an even more powerful model, and now we have confirmation.\n\nThey've also allocated 10% of the company's total compute to safety, following the risks identified with GPT-6.1 Astra.\n\nIn short, they're building ridiculously more powerful architectures (Bel is closer than ever!), expanding their compute capacity at record speed, and preparing to release something incredible and unexpected very soon.",
+    "likes": 926,
+    "quoted": {
+     "handle": "steph_palazzolo",
+     "text": "New: OpenAI is all-hands-on-deck to get its next flagship model in a place where leaders feel like they can safely release it. At the same time, they're dealing with the fallout from 3 safety researchers' firings.\n\nw/ @aaronpholmes @amir: \n\nhttps://t.co/E0v30G7xGP",
+     "created_at": "2026-10-13T22:04:11Z"
+    }
+   },
+   {
+    "id": "2110370036615385582",
+    "url": "https://x.com/TokenGremlin/status/2110370036615385582",
+    "created_at": "2026-10-14T14:00:00Z",
+    "text": "OpenAI employees are publicly acknowledging that we could see one or two new model launches before Christmas.\n\nHowever, the major flagship they're preparing might not be among them, as it still needs to go through government testing, distribution to partners, and only then a broader public release.\n\nThe good news? Multiple new models are coming. Multiple, as in plural, just like I told you a week ago.\n\nThe bad news? The most powerful one might still be 2 or 3 months away. In the meantime, we'll probably be getting the smaller variants first.",
+    "likes": 286,
+    "quoted": null
+   },
+   {
+    "id": "2110370342556283033",
+    "url": "https://x.com/TokenGremlin/status/2110370342556283033",
+    "created_at": "2026-10-14T14:01:13Z",
+    "text": "The most powerful model is still a few months away, around 3 months by my estimate.\n\nIn the meantime, we're expecting one or two smaller, distilled models before Christmas.",
+    "likes": 83,
+    "quoted": {
+     "handle": "ScarecrowlerOW",
+     "text": "@TokenGremlin When do you think will Bel Release? Or distilled Models from IT?",
+     "created_at": "2026-10-14T13:55:24Z"
+    }
+   },
+   {
+    "id": "2110387554314846642",
+    "url": "https://x.com/TokenGremlin/status/2110387554314846642",
+    "created_at": "2026-10-14T15:09:36Z",
+    "text": "OpenAI needs another CODE RED. Like, RIGHT NOW.\n\nFable 5.5 is about to drop, and from everything I've seen, it could kick off an entirely new era of AI.\n\nMeanwhile, OpenAI's most powerful model is still 2 or 3 months away, if everything goes according to plan. Until then, we're getting smaller, less ambitious models. Still a huge leap over what we have today, but nowhere near the flagship they're preparing.\n\nAnd here's the crazy part: by the time Fable 5.5 arrives, OpenAI will still be trying to catch up with Opus 5.5.",
+    "likes": 734,
+    "quoted": null
+   },
+   {
+    "id": "2110445401702793530",
+    "url": "https://x.com/TokenGremlin/status/2110445401702793530",
+    "created_at": "2026-10-14T18:59:28Z",
+    "text": "@Gruncle_Ellis So what? OpenAI has \"Bel\" but can't release it yet because of safety concerns. Anthropic has Opus 5.5 and actually shipped it.\n\nWho made more money? The company sitting on an insanely powerful internal model it can't release, or the one that actually put a better public model into users' hands?\n\nBeing ahead internally clearly doesn't mean you're ahead publicly. And that's what actually matters to users.",
+    "likes": 13,
+    "quoted": null
+   },
+   {
+    "id": "2110588040808722569",
+    "url": "https://x.com/TokenGremlin/status/2110588040808722569",
+    "created_at": "2026-10-15T04:26:16Z",
+    "text": "A few things we really can't ignore about OpenAI's current situation:\n\n- Models started showing pop-ups saying they were temporarily out of capacity.\n- OpenAI temporarily paused its $200 plans.\n- Then brought them back and cut usage limits across all plans in half.\n- Roughly 10% of the company's total compute was redirected to safety.\n- They've gone all-in on training an extremely powerful new model and two (or more) smaller distilled models.\n- In the middle of all this, Tibo went a little crazy and promised 28 improvements or resets.\n- Day 10 was literally skipped. No reset, no update, nothing.\n\nThe company seems to be trying everything it can to stay ahead, but right now, the pressure on them is absolutely insane.\n\nThey simply don't have enough compute to handle all of this at once.",
+    "likes": 355,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:37:48Z",
+  "feed_date": "2026-10-15T11:37:48Z",
+  "prune_checked": true,
+  "repeat_of": "tokengremlin-2108997841649565770"
+ },
+ {
+  "id": "tokengremlin-2110370036615385582",
+  "handle": "TokenGremlin",
+  "date": "2026-10-14T14:00:00Z",
+  "claim": "OpenAI is expected to release one or two smaller, distilled models before Christmas 2026, ahead of its flagship model.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-12-24",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110370036615385582",
+    "url": "https://x.com/TokenGremlin/status/2110370036615385582",
+    "created_at": "2026-10-14T14:00:00Z",
+    "text": "OpenAI employees are publicly acknowledging that we could see one or two new model launches before Christmas.\n\nHowever, the major flagship they're preparing might not be among them, as it still needs to go through government testing, distribution to partners, and only then a broader public release.\n\nThe good news? Multiple new models are coming. Multiple, as in plural, just like I told you a week ago.\n\nThe bad news? The most powerful one might still be 2 or 3 months away. In the meantime, we'll probably be getting the smaller variants first.",
+    "likes": 286,
+    "quoted": null
+   },
+   {
+    "id": "2110370342556283033",
+    "url": "https://x.com/TokenGremlin/status/2110370342556283033",
+    "created_at": "2026-10-14T14:01:13Z",
+    "text": "The most powerful model is still a few months away, around 3 months by my estimate.\n\nIn the meantime, we're expecting one or two smaller, distilled models before Christmas.",
+    "likes": 83,
+    "quoted": {
+     "handle": "ScarecrowlerOW",
+     "text": "@TokenGremlin When do you think will Bel Release? Or distilled Models from IT?",
+     "created_at": "2026-10-14T13:55:24Z"
+    }
+   },
+   {
+    "id": "2110387554314846642",
+    "url": "https://x.com/TokenGremlin/status/2110387554314846642",
+    "created_at": "2026-10-14T15:09:36Z",
+    "text": "OpenAI needs another CODE RED. Like, RIGHT NOW.\n\nFable 5.5 is about to drop, and from everything I've seen, it could kick off an entirely new era of AI.\n\nMeanwhile, OpenAI's most powerful model is still 2 or 3 months away, if everything goes according to plan. Until then, we're getting smaller, less ambitious models. Still a huge leap over what we have today, but nowhere near the flagship they're preparing.\n\nAnd here's the crazy part: by the time Fable 5.5 arrives, OpenAI will still be trying to catch up with Opus 5.5.",
+    "likes": 734,
+    "quoted": null
+   },
+   {
+    "id": "2110588040808722569",
+    "url": "https://x.com/TokenGremlin/status/2110588040808722569",
+    "created_at": "2026-10-15T04:26:16Z",
+    "text": "A few things we really can't ignore about OpenAI's current situation:\n\n- Models started showing pop-ups saying they were temporarily out of capacity.\n- OpenAI temporarily paused its $200 plans.\n- Then brought them back and cut usage limits across all plans in half.\n- Roughly 10% of the company's total compute was redirected to safety.\n- They've gone all-in on training an extremely powerful new model and two (or more) smaller distilled models.\n- In the middle of all this, Tibo went a little crazy and promised 28 improvements or resets.\n- Day 10 was literally skipped. No reset, no update, nothing.\n\nThe company seems to be trying everything it can to stay ahead, but right now, the pressure on them is absolutely insane.\n\nThey simply don't have enough compute to handle all of this at once.",
+    "likes": 355,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:37:48Z",
+  "feed_date": "2026-10-15T11:37:48Z",
+  "prune_checked": true,
+  "repeat_of": "tokengremlin-2108997841649565770"
+ },
+ {
+  "id": "tokengremlin-2110386201941119431",
+  "handle": "TokenGremlin",
+  "date": "2026-10-14T15:04:14Z",
+  "claim": "Anthropic's Fable 5.5 is ready to launch imminently and will be the world's best public model, surpassing Claude Opus 5.5 and enabling capabilities not previously seen.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-21",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110386201941119431",
+    "url": "https://x.com/TokenGremlin/status/2110386201941119431",
+    "created_at": "2026-10-14T15:04:14Z",
+    "text": "In short, Fable 5.5 is the best (public) model in the world, and it'll let you do things we've never seen before, making Opus 5.5 obsolete.",
+    "likes": 1910,
+    "quoted": {
+     "handle": "felixrieseberg",
+     "text": "Hi, I'm Felix. I'm an eng lead working on Claude. I love watching people take flight and do things they never thought possible.\n\nWe often describe that as \"being more ambitious\" when using AI, which is tricky advice to follow. I wrote a tutorial:\n\nhttps://t.co/vNPPs5FWm8",
+     "created_at": "2026-10-13T15:02:07Z"
+    }
+   },
+   {
+    "id": "2110387554314846642",
+    "url": "https://x.com/TokenGremlin/status/2110387554314846642",
+    "created_at": "2026-10-14T15:09:36Z",
+    "text": "OpenAI needs another CODE RED. Like, RIGHT NOW.\n\nFable 5.5 is about to drop, and from everything I've seen, it could kick off an entirely new era of AI.\n\nMeanwhile, OpenAI's most powerful model is still 2 or 3 months away, if everything goes according to plan. Until then, we're getting smaller, less ambitious models. Still a huge leap over what we have today, but nowhere near the flagship they're preparing.\n\nAnd here's the crazy part: by the time Fable 5.5 arrives, OpenAI will still be trying to catch up with Opus 5.5.",
+    "likes": 734,
+    "quoted": null
+   },
+   {
+    "id": "2110588637842694184",
+    "url": "https://x.com/TokenGremlin/status/2110588637842694184",
+    "created_at": "2026-10-15T04:28:38Z",
+    "text": "Meanwhile, Anthropic has grown over 1,000% in just one year, is having the best run in its history, and already has Fable 5.5 ready to launch, while Opus 5.5 is already more than enough for pretty much everything people need.\n\nAnthropic is basically competing against itself at this point. In some areas, nobody else even comes close. And somehow, they've pulled off an absolute miracle. They're filthy rich and playing in a league of their own.",
+    "likes": 179,
+    "quoted": {
+     "handle": "TokenGremlin",
+     "text": "A few things we really can't ignore about OpenAI's current situation:\n\n- Models started showing pop-ups saying they were temporarily out of capacity.\n- OpenAI temporarily paused its $200 plans.\n- Then brought them back and cut usage limits across all plans in half.\n- Roughly 10% of the company's total compute was redirected to safety.\n- They've gone all-in on training an extremely powerful new model and two (or more) smaller distilled models.\n- In the middle of all this, Tibo went a little crazy and promised 28 improvements or resets.\n- Day 10 was literally skipped. No reset, no update, nothin",
+     "created_at": "2026-10-15T04:26:16Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:37:48Z",
+  "feed_date": "2026-10-15T11:37:48Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "repeat_of": "tokengremlin-2106115238282039682"
+ },
+ {
+  "id": "deitaone-2110400084735131673",
+  "handle": "DeItaone",
+  "date": "2026-10-14T15:59:24Z",
+  "claim": "OpenAI’s compute chief is expected to leave the company after about a year there.",
+  "lab": "OpenAI",
+  "topic": "people",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-12",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110400084735131673",
+    "url": "https://x.com/DeItaone/status/2110400084735131673",
+    "created_at": "2026-10-14T15:59:24Z",
+    "text": "*OPENAI COMPUTE CHIEF TO LEAVE COMPANY AFTER ABOUT A YR, SOURCES SAY",
+    "likes": 418,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:38:55Z",
+  "feed_date": "2026-10-15T11:38:55Z",
+  "prune_checked": true,
+  "story_id": "deitaone-2110400084735131673",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-10-14",
+   "official_date": null,
+   "explanation": "The October 14 post said OpenAI’s compute chief would leave after about a year. The Information independently reported later that day that Sachin Katti would leave on November 15 after roughly a year at the company.",
+   "evidence": [
+    {
+     "title": "OpenAI’s Computing Lead Sachin Katti to Depart In November",
+     "url": "https://www.theinformation.com/briefings/openais-computing-lead-sachin-katti-depart-november"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "anissagardizy8-2110401852420370921",
+  "handle": "anissagardizy8",
+  "date": "2026-10-14T16:06:25Z",
+  "claim": "OpenAI head of compute Sachin Katti will leave the company in November 2026, after about a year in the role.",
+  "lab": "OpenAI",
+  "topic": "people",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-11-30",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110401852420370921",
+    "url": "https://x.com/anissagardizy8/status/2110401852420370921",
+    "created_at": "2026-10-14T16:06:25Z",
+    "text": "SCOOP: OpenAI’s head of compute is leaving the company next month after about a year. \n\nIt is the latest leadership change at a unit that plans to invest $750 billion in the coming years.\n\nSachin Katti joined OpenAI in late 2025 to rein in its ambitious Stargate data center effort. \n\nhttps://t.co/xXBJEn3aaV",
+    "likes": 95,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:38:19Z",
+  "feed_date": "2026-10-15T11:38:19Z",
+  "story_id": "deitaone-2110400084735131673",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-10-14",
+   "official_date": "2026-10-14",
+   "explanation": "Sachin Katti announced that he was leaving OpenAI, with November 15 as his last day; independent reporting also confirmed the departure. That matches the post’s “next month” timing.",
+   "evidence": [
+    {
+     "title": "OpenAI again shakes up data center leadership, with xAI exec Uday Ruddarraju to lead and Sachin Katti to leave",
+     "url": "https://www.datacenterdynamics.com/en/news/openai-again-shakes-up-compute-leadership-with-xai-exec-uday-ruddarraju-to-lead-and-sachin-katti-to-leave/"
+    },
+    {
+     "title": "Sachin Katti leaves OpenAI, Uday Ruddaraju to lead ChatGPT compute unit",
+     "url": "https://www.indiatoday.in/amp/technology/news/story/sachin-katti-leaves-openai-uday-ruddaraju-to-lead-chatgpt-compute-unit-3017670-2026-10-15"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "anissagardizy8-2110401852420370921-2",
+  "handle": "anissagardizy8",
+  "date": "2026-10-14T16:06:25Z",
+  "claim": "OpenAI’s compute unit plans to invest $750 billion in the coming years.",
+  "lab": "OpenAI",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2029-10-14",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110401852420370921",
+    "url": "https://x.com/anissagardizy8/status/2110401852420370921",
+    "created_at": "2026-10-14T16:06:25Z",
+    "text": "SCOOP: OpenAI’s head of compute is leaving the company next month after about a year. \n\nIt is the latest leadership change at a unit that plans to invest $750 billion in the coming years.\n\nSachin Katti joined OpenAI in late 2025 to rein in its ambitious Stargate data center effort. \n\nhttps://t.co/xXBJEn3aaV",
+    "likes": 95,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:38:19Z",
+  "feed_date": "2026-10-15T11:38:19Z",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-07-22",
+   "official_date": null,
+   "explanation": "OpenAI’s roughly $750 billion compute-spending projection through 2030 had been reported publicly in July, well before this October post. The post’s leadership scoop does not make that spending figure new.",
+   "evidence": [
+    {
+     "title": "OpenAI’s AI spending spree has ballooned to $750B",
+     "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "fanofaliens-2110410713063932318",
+  "handle": "fanofaliens",
+  "date": "2026-10-14T16:41:38Z",
+  "claim": "OpenAI's next model reportedly uses looping, and its thinking cannot be fully read.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-12",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110410713063932318",
+    "url": "https://x.com/fanofaliens/status/2110410713063932318",
+    "created_at": "2026-10-14T16:41:38Z",
+    "text": "MICROSOFT ACCIDENTALLY LEAKED OPENAI'S SECRET\n\n> GPT-6.1 Sol is just GPT-6 Sol thinking in 2 loops instead of 3\n> openai's next model reportedly loops too and we can't fully read its thinking\n> it's also now stuck in safety review\n\nmicrosoft took that section down once they realized it wasn't supposed to be public",
+    "likes": 2385,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:38:39Z",
+  "feed_date": "2026-10-15T11:38:39Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-13",
+   "official_date": null,
+   "explanation": "The claim that OpenAI’s next model also uses looping and that this design complicates monitoring was reported by The Information on October 13, before this post. Microsoft’s accidental disclosure about looping in GPT-6.1 Sol had also surfaced publicly on October 6.",
+   "evidence": [
+    {
+     "title": "OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model",
+     "url": "https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model"
+    },
+    {
+     "title": "Microsoft confirms OpenAI has been using Looped Transformers in the GPT-6 series",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz00vv/microsoft_confirms_openai_has_been_using_looped/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "billmelugin_-2110411372068557195",
+  "handle": "BillMelugin_",
+  "date": "2026-10-14T16:44:15Z",
+  "claim": "The Saudi national arrested by the FBI for allegedly placing an eavesdropping device at OpenAI had a green card approved in 2020 and a naturalization application filed the previous summer that was still pending at the time of his arrest.",
+  "lab": "OpenAI",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-12",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110411372068557195",
+    "url": "https://x.com/BillMelugin_/status/2110411372068557195",
+    "created_at": "2026-10-14T16:44:15Z",
+    "text": "NEW: Per federal source to @FoxNews, the Saudi national arrested by the FBI for allegedly placing an eavesdropping device at OpenAI has a green card (lawful permanent resident) and was in the process of trying to naturalize into a U.S. citizen at the time of his arrest. \n\nI’m told Abdulrahman Alfozan filed his naturalization application last summer and it was still pending at the time of his arrest, with USCIS still needing to interview him, and his green card was approved in 2020. \n\nIt’s unclear when/how Alfozan first came to the U.S., but I’m told there are records of him flying into San Francisco in 2018 and NYC in both 2019 & 2020.\n\nHis DHS photo, courtesy of source 👇🏻",
+    "likes": 2085,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:39:25Z",
+  "feed_date": "2026-10-15T11:39:25Z",
+  "prune_checked": true,
+  "story_id": "ns123abc-2110106771356532891",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-14",
+   "official_date": null,
+   "explanation": "The DOJ’s public account confirms Alfozan was arrested, but does not confirm the specific claim that his naturalization application was pending or that USCIS still needed to interview him. The available report of those details repeats Melugin’s post rather than independently verifying them.",
+   "evidence": [
+    {
+     "title": "DOJ: Saudi National Arrested for Installing Surreptitious Audio Recording Device at OpenAI",
+     "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai"
+    },
+    {
+     "title": "Israel Hayom report quoting Melugin’s post",
+     "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21627787"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "chetaslua-2110412393448866248",
+  "handle": "chetaslua",
+  "date": "2026-10-14T16:48:18Z",
+  "claim": "Broadcom's plan is for Anthropic to receive more than 1 GW of Google TPU capacity in 2026, an additional 5 GW in 2027, and an additional 10 GW in 2028, with the 10 GW in 2028 dedicated to Anthropic.",
+  "lab": "Anthropic",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2028-12-31",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110412393448866248",
+    "url": "https://x.com/chetaslua/status/2110412393448866248",
+    "created_at": "2026-10-14T16:48:18Z",
+    "text": "🚨 Anthropic gets more Google TPU in 2027 alone than Google had in total at the end of 2025\n\n> Google , every TPU it bought 2023–25 : ~2.2 GW < Epoch est >\n> Anthropic 2026 : 1 GW+\n> 2027 : +5 GW , 2028 : +10 GW < broadcom's plan , not shipped yet >\n> Hock Tan on the call : \"10 gigawatts is just for Anthropic\"\n\n16 GW by 2028 , ~7x google's whole fleet 🧐",
+    "likes": 373,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:32:28Z",
+  "feed_date": "2026-10-15T11:32:28Z",
+  "prune_checked": true,
+  "story_id": "amir-2102584936306008443",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-03",
+   "official_date": "2026-09-03",
+   "explanation": "The capacity figures were already public: Broadcom had disclosed over 1 GW for Anthropic in 2026 and another 5 GW beginning in 2027 in June, and the 10-GW 2028 figure was discussed publicly by Broadcom in September. The post relays those disclosures rather than making a new find.",
+   "evidence": [
+    {
+     "title": "Broadcom Q2 2026 earnings call transcript",
+     "url": "https://stockanalysis.com/stocks/avgo/transcripts/581106-q2-2026/"
+    },
+    {
+     "title": "Broadcom Q3 2026 earnings call transcript",
+     "url": "https://stockanalysis.com/stocks/avgo/transcripts/685349-q3-2026/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "anissagardizy8-2110421293111628178",
+  "handle": "anissagardizy8",
+  "date": "2026-10-14T17:23:40Z",
+  "claim": "Uday Ruddarraju is now leading OpenAI’s compute team.",
+  "lab": "OpenAI",
+  "topic": "people",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-12",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110421293111628178",
+    "url": "https://x.com/anissagardizy8/status/2110421293111628178",
+    "created_at": "2026-10-14T17:23:40Z",
+    "text": "When Elon Musk unveiled Colossus in 2024, Sam Altman got into an argument with Microsoft about it.\n\nOther competitors flew a propeller plane to Memphis, to take secret photos of what xAI was building, \n\nPretty crazy that two years later, OpenAI has hired a number of people from xAI, with Uday Ruddarraju now leading the OAI compute team. \n\nwsj: https://t.co/xXBJEn3aaV",
+    "likes": 287,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:38:19Z",
+  "feed_date": "2026-10-15T11:38:19Z",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-07-20",
+   "official_date": null,
+   "explanation": "Ruddarraju’s role leading OpenAI’s compute organization had been reported by July 20, 2026, when coverage described his appointment as CTO for Compute. The post on October 14 relayed information that was already public.",
+   "evidence": [
+    {
+     "title": "Uday Ruddarraju named OpenAI's CTO of Compute",
+     "url": "https://www.datacenterdynamics.com/en/news/uday-ruddarraju-named-openais-cto-of-compute/"
+    },
+    {
+     "title": "OpenAI elevates Uday Ruddarraju to CTO of Compute",
+     "url": "https://yourstory.com/ai-story/openai-elevates-uday-ruddarraju-to-cto-of-compute"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2110455911344931130",
+  "handle": "testingcatalog",
+  "date": "2026-10-14T19:41:14Z",
+  "claim": "Anthropic’s Claude Code Desktop sessions hub was tested for a while and went through several iterations before its release.",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-04-12",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110455911344931130",
+    "url": "https://x.com/testingcatalog/status/2110455911344931130",
+    "created_at": "2026-10-14T19:41:14Z",
+    "text": "ANTHROPIC 🔥: Claude Code Desktop now has a new sessions hub, live session statuses on the nav bar, and more!\n\nUsers can now start, track, manage, and follow up on multiple sessions at once from the Claude Code main screen. \n\nThis \"Claude Hub\" experience has been in testing for a while and has gone through several iterations. \n\nInterestingly, OpenAI was planning to release a similar experience called \"magic notepad\" but abandoned it. \n\nIf you use Claude Code heavily, this is worth testing! https://t.co/OaUKxKwUrC",
+    "likes": 470,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:34:10Z",
+  "feed_date": "2026-10-15T11:34:10Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-15",
+   "official_date": "2026-10-14",
+   "explanation": "A sessions-hub experience and its earlier development steps had been publicly reported by September 15; users could access the updated desktop experience by October 14. The post’s specific claim about several internal iterations is not independently established beyond that history.",
+   "evidence": [
+    {
+     "title": "Sessions Hub: Simple, Smart Claude Code Control in Desktop",
+     "url": "https://www.progressiverobot.com/2026/09/15/claude-desktop-sessions-hub-claude-code-management/"
+    },
+    {
+     "title": "Claude Code Desktop Introduces Multi-Session Hub Management",
+     "url": "https://digg.com/ai/balg6bgz"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2110455911344931130-2",
+  "handle": "testingcatalog",
+  "date": "2026-10-14T19:41:14Z",
+  "claim": "OpenAI had planned to release a similar experience called “magic notepad” but abandoned it.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-04-12",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110455911344931130",
+    "url": "https://x.com/testingcatalog/status/2110455911344931130",
+    "created_at": "2026-10-14T19:41:14Z",
+    "text": "ANTHROPIC 🔥: Claude Code Desktop now has a new sessions hub, live session statuses on the nav bar, and more!\n\nUsers can now start, track, manage, and follow up on multiple sessions at once from the Claude Code main screen. \n\nThis \"Claude Hub\" experience has been in testing for a while and has gone through several iterations. \n\nInterestingly, OpenAI was planning to release a similar experience called \"magic notepad\" but abandoned it. \n\nIf you use Claude Code heavily, this is worth testing! https://t.co/OaUKxKwUrC",
+    "likes": 470,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:34:10Z",
+  "feed_date": "2026-10-15T11:34:10Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-14",
+   "official_date": null,
+   "explanation": "The claim that OpenAI planned and then abandoned a product called “magic notepad” appears only in the post and later repetitions of it; no independent confirmation or official record was found. With no deadline stated, it cannot be judged false merely because it remains unconfirmed.",
+   "evidence": [],
+   "confidence": "medium",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "markgurman-2110459376846991620",
+  "handle": "markgurman",
+  "date": "2026-10-14T19:55:00Z",
+  "claim": "Apple is preparing to launch the first set of Apple Intelligence features in China in December 2026.",
+  "lab": "Apple",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-12-31",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110459376846991620",
+    "url": "https://x.com/markgurman/status/2110459376846991620",
+    "created_at": "2026-10-14T19:55:00Z",
+    "text": "NEW: Apple is preparing to launch the first set of Apple Intelligence features in China in December after being stuck in years of regulatory scrutiny. https://t.co/EdwtwMzuoh",
+    "likes": 419,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:36:13Z",
+  "feed_date": "2026-10-15T11:36:13Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-14",
+   "official_date": null,
+   "explanation": "Gurman’s Bloomberg report first made the December China launch plan public on October 14, 2026. December 31 is still in the future, and Apple has not officially confirmed the plan.",
+   "evidence": [
+    {
+     "title": "Apple Prepares to Debut First AI Features in China in December",
+     "url": "https://news.bloomberglaw.com/artificial-intelligence/apple-prepares-to-debut-first-ai-features-in-china-in-december"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "markgurman-2110459791139066146",
+  "handle": "markgurman",
+  "date": "2026-10-14T19:56:39Z",
+  "claim": "Apple executives have little optimism that Siri AI will launch in China anytime soon.",
+  "lab": "Apple",
+  "topic": "product_feature",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110459791139066146",
+    "url": "https://x.com/markgurman/status/2110459791139066146",
+    "created_at": "2026-10-14T19:56:39Z",
+    "text": "This doesn’t include the new AI features part of iOS 27 in the U.S. and elsewhere, nor does it include Siri AI. Apple executives have little optimism for Siri AI to happen in China anytime soon. But I believe the updated Apple Intelligence will eventually land in China.",
+    "likes": 614,
+    "quoted": {
+     "handle": "markgurman",
+     "text": "NEW: Apple is preparing to launch the first set of Apple Intelligence features in China in December after being stuck in years of regulatory scrutiny. https://t.co/EdwtwMzuoh",
+     "created_at": "2026-10-14T19:55:00Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:36:13Z",
+  "feed_date": "2026-10-15T11:36:13Z",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-14",
+   "official_date": null,
+   "explanation": "The post reports Apple executives’ private expectations about Siri AI in China. The available coverage repeats Gurman’s reporting rather than independently confirming what executives believed, and that internal sentiment may never be publicly settled.",
+   "evidence": [
+    {
+     "title": "Apple’s first AI features reach China in December, after a two-year wait",
+     "url": "https://thenextweb.com/news/apple-intelligence-china-december-eu"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2110485812228083745",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-14T21:40:03Z",
+  "claim": "Anthropic will release Claude Fable 5.5 on October 15, 2026, and it will be a big leap.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-10-15",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110485812228083745",
+    "url": "https://x.com/iruletheworldmo/status/2110485812228083745",
+    "created_at": "2026-10-14T21:40:03Z",
+    "text": "‼️fable 5.5 drops tomorrow \n\nit’s a big leap mr dario sir, are you sure we’re ready?",
+    "likes": 1118,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:35:07Z",
+  "feed_date": "2026-10-15T11:35:07Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "repeat_of": "iruletheworldmo-2110296509703139329-2"
+ },
+ {
+  "id": "andrewcurran_-2110498968082043327",
+  "handle": "AndrewCurran_",
+  "date": "2026-10-14T22:32:19Z",
+  "claim": "Anthropic's third-quarter 2026 revenue was $16.8 billion, up 45%, after revenue of $4.7 billion in the first quarter and $11.6 billion in the second quarter.",
+  "lab": "Anthropic",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-12",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110498968082043327",
+    "url": "https://x.com/AndrewCurran_/status/2110498968082043327",
+    "created_at": "2026-10-14T22:32:19Z",
+    "text": "The meeting is over and some numbers are starting to be reported by people who were in attendance.\n\nAnthropic's third-quarter revenue rose 45% to $16.8 billion. Revenue in the first quarter was $4.7 billion, and $11.6 billion in ⁠the second quarter.",
+    "likes": 1242,
+    "quoted": {
+     "handle": "AndrewCurran_",
+     "text": "Anthropic will disclose its third-quarter financials for the first time at a meeting with potential investors tomorrow. The plans for the IPO are still on track. https://t.co/RlCl21mpOk",
+     "created_at": "2026-10-13T15:16:56Z"
+    }
+   },
+   {
+    "id": "2110561387613491606",
+    "url": "https://x.com/AndrewCurran_/status/2110561387613491606",
+    "created_at": "2026-10-15T02:40:21Z",
+    "text": "$110 billion is back on the menu. They must have a lot of confidence in their next model release, the wizard, Fable 5.5. https://t.co/CyH3yGy54i",
+    "likes": 692,
+    "quoted": {
+     "handle": "AndrewCurran_",
+     "text": "The meeting is over and some numbers are starting to be reported by people who were in attendance.\n\nAnthropic's third-quarter revenue rose 45% to $16.8 billion. Revenue in the first quarter was $4.7 billion, and $11.6 billion in ⁠the second quarter.",
+     "created_at": "2026-10-14T22:32:19Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:34:59Z",
+  "feed_date": "2026-10-15T11:34:59Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2105080888698523812",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-14",
+   "official_date": null,
+   "explanation": "Reuters had reported the same Q3 figures on October 14 before this post: $16.8 billion in revenue, up 45%, following $4.7 billion in Q1 and $11.6 billion in Q2.",
+   "evidence": [
+    {
+     "title": "Anthropic’s Q3 revenue surges 45% to nearly $17 billion",
+     "url": "https://www.investing.com/news/stock-market-news/anthropics-q3-revenue-surges-45-to-nearly-17-billion-4950208"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "scaling01-2110508094530707498",
+  "handle": "scaling01",
+  "date": "2026-10-14T23:08:35Z",
+  "claim": "Anthropic will release Claude Fable 5.5 soon.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-14",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110508094530707498",
+    "url": "https://x.com/scaling01/status/2110508094530707498",
+    "created_at": "2026-10-14T23:08:35Z",
+    "text": "I'm pretty sure revenue growth is accelerating again right now with Opus 5.5 and soon Fable 5.5",
+    "likes": 248,
+    "quoted": {
+     "handle": "scaling01",
+     "text": "Anthropic Q3 revenue jumped to $16.8B and was profitable https://t.co/pz7hXhI6aZ",
+     "created_at": "2026-10-14T22:31:25Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:32:59Z",
+  "feed_date": "2026-10-15T11:32:59Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "“I’m pretty sure” frames Fable 5.5 shipping soon as the poster’s own prediction, not a claim of non-public information.",
+   "evidence": [],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "erinkwoo-2110555442627879145",
+  "handle": "erinkwoo",
+  "date": "2026-10-15T02:16:44Z",
+  "claim": "OpenAI is warning employees that people attempting to seduce them and strangers with children at playgrounds could be spies.",
+  "lab": "OpenAI",
+  "topic": "corporate",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110555442627879145",
+    "url": "https://x.com/erinkwoo/status/2110555442627879145",
+    "created_at": "2026-10-15T02:16:44Z",
+    "text": "OPENAI to EMPLOYEES: If someone is trying to seduce you, first consider — could they be a spy???\n\nOpenAI is warning its employees about honeypot spies and strangers with children in playgrounds ... a very fun one with @georgia_wells and @MeghanBobrowsky:\nhttps://t.co/w6o6i93rEO",
+    "likes": 610,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:35:31Z",
+  "feed_date": "2026-10-15T11:35:31Z",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The post summarizes a WSJ report published October 15 describing OpenAI employee warnings about honeypots and a stranger at a playground. The report is the source of the claim, and no independent confirmation of those specific training examples was found.",
+   "evidence": [
+    {
+     "title": "Wall Street Journal report republished by Mint",
+     "url": "https://www.livemint.com/ai/ai-companies-play-cat-and-mouse-with-secret-stealing-spies-11792030183031.html"
+    },
+    {
+     "title": "Wall Street Journal report listing the authors and details",
+     "url": "https://www.livemint.com/ai/ai-companies-play-cat-and-mouse-with-secret-stealing-spies-11792030183031.html"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "andrewcurran_-2110561387613491606",
+  "handle": "AndrewCurran_",
+  "date": "2026-10-15T02:40:21Z",
+  "claim": "Anthropic's next model release will be Fable 5.5, also referred to as the Wizard.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110561387613491606",
+    "url": "https://x.com/AndrewCurran_/status/2110561387613491606",
+    "created_at": "2026-10-15T02:40:21Z",
+    "text": "$110 billion is back on the menu. They must have a lot of confidence in their next model release, the wizard, Fable 5.5. https://t.co/CyH3yGy54i",
+    "likes": 692,
+    "quoted": {
+     "handle": "AndrewCurran_",
+     "text": "The meeting is over and some numbers are starting to be reported by people who were in attendance.\n\nAnthropic's third-quarter revenue rose 45% to $16.8 billion. Revenue in the first quarter was $4.7 billion, and $11.6 billion in ⁠the second quarter.",
+     "created_at": "2026-10-14T22:32:19Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:34:59Z",
+  "feed_date": "2026-10-15T11:34:59Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-08-13",
+   "official_date": null,
+   "explanation": "The expectation that a Fable 5.5 would be Anthropic’s next model was already circulating publicly before this post, and the name appeared in Azure’s catalog on October 13. “Wizard” is not independently confirmed as an official model name or codename.",
+   "evidence": [
+    {
+     "title": "Fable 5.5 Release Date: Azure Lists It, Anthropic Silent",
+     "url": "https://cellcog.ai/blog/fable-5-5-release-date/"
+    },
+    {
+     "title": "Anthropic’s Rapid But Slowing Growth Could Weigh on IPO Valuation",
+     "url": "https://www.theinformation.com/articles/anthropics-rapid-slowing-growth-weigh-ipo-valuation"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "amir-2110563526335213800",
+  "handle": "amir",
+  "date": "2026-10-15T02:48:51Z",
+  "claim": "Anthropic generated more than $840 million in Q3 2026 revenue from customers distilling its models.",
+  "lab": "Anthropic",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110563526335213800",
+    "url": "https://x.com/amir/status/2110563526335213800",
+    "created_at": "2026-10-15T02:48:51Z",
+    "text": "now we know how much rev Anthropic gets from customers distilling its models: &gt;$840m in Q3.\n\ngiven its overall Q3 performance, some investors think $1.5t is more appropriate mkt cap vs $2t that its bankers have wanted... https://t.co/ISb9CXzG9S",
+    "likes": 90,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:32:42Z",
+  "feed_date": "2026-10-15T11:32:42Z",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-14",
+   "official_date": null,
+   "explanation": "The Information’s report that distillation represented 5%–7% of revenue was publicly summarized by Techmeme on October 14, before this October 15 post. Applying that range to reported Q3 revenue of $16.8 billion yields more than $840 million; Anthropic has not officially confirmed the figure.",
+   "evidence": [
+    {
+     "title": "Techmeme coverage of The Information’s report",
+     "url": "https://www.techmeme.com/261014/p56"
+    },
+    {
+     "title": "Anthropic’s Q3 revenue surges 45% to nearly $17 billion",
+     "url": "https://www.investing.com/news/stock-market-news/anthropics-q3-revenue-surges-45-to-nearly-17-billion-4950208"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "amir-2110563526335213800-2",
+  "handle": "amir",
+  "date": "2026-10-15T02:48:51Z",
+  "claim": "Some Anthropic investors consider a $1.5 trillion market capitalization more appropriate than the $2 trillion valuation Anthropic's bankers have wanted, given Anthropic's Q3 2026 performance.",
+  "lab": "Anthropic",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110563526335213800",
+    "url": "https://x.com/amir/status/2110563526335213800",
+    "created_at": "2026-10-15T02:48:51Z",
+    "text": "now we know how much rev Anthropic gets from customers distilling its models: &gt;$840m in Q3.\n\ngiven its overall Q3 performance, some investors think $1.5t is more appropriate mkt cap vs $2t that its bankers have wanted... https://t.co/ISb9CXzG9S",
+    "likes": 90,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:32:42Z",
+  "feed_date": "2026-10-15T11:32:42Z",
+  "story_id": "ns123abc-2104735822029176833",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The post reports that some investors favor a $1.5 trillion valuation over the $2 trillion sought by bankers, but that investor sentiment is not independently confirmed by the public reporting found. The claim has no deadline and could remain unverified.",
+   "evidence": [
+    {
+     "title": "Anthropic brings Wall Street an AI bull case",
+     "url": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2110627383694819466",
+  "handle": "TokenGremlin",
+  "date": "2026-10-15T07:02:36Z",
+  "claim": "Chinese AI labs have probably been spending the past few weeks distilling OpenAI's GPT-6 Astra and Anthropic's Opus 5.5.",
+  "lab": "Other",
+  "topic": "other",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-04-13",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110627383694819466",
+    "url": "https://x.com/TokenGremlin/status/2110627383694819466",
+    "created_at": "2026-10-15T07:02:36Z",
+    "text": "Chinese AI labs have probably been pretty quiet these past few weeks because they've been busy distilling GPT-6 Astra and Opus 5.5.",
+    "likes": 188,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-15T11:37:48Z",
+  "feed_date": "2026-10-15T11:37:48Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post says Chinese labs have “probably” been distilling the models and frames that as speculation, not as inside information or a definite factual leak.",
+   "evidence": [],
+   "confidence": "high",
+   "resolved_at": "2026-10-15T11:47:08Z"
   }
  }
 ]
