@@ -103186,21 +103186,17 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "false",
-   "public_date": "2026-05-04",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post forecast 1T- and 5T-parameter Meta models for summer 2026, but no such pair of models was released by its August 31 deadline. Meta had publicly described a trillion-parameter ad-ranking system before the post, but that does not substantiate the forecast of two forthcoming AI models.",
+   "explanation": "The post said Meta would release 1T- and 5T-class models during summer 2026, but no such release occurred by the August 31 deadline. Meta’s later Muse Spark Open announcement was on October 15 and described an 816B-total-parameter model, not summer releases of 1T and 5T models.",
    "evidence": [
     {
-     "title": "Meta Engineering: Meta Adaptive Ranking Model",
-     "url": "https://engineering.fb.com/2026/03/31/ml-applications/meta-adaptive-ranking-model-bending-the-inference-scaling-curve-to-serve-llm-scale-models-for-ads/"
-    },
-    {
-     "title": "Meta AI Research: Latest research and model announcements",
-     "url": "https://research.meta.ai/"
+     "title": "Introducing Muse Spark Open",
+     "url": "https://research.meta.ai/blog/muse-spark-open"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:00:56Z"
+   "resolved_at": "2026-10-16T11:39:47Z"
   },
   "claim_v1": "ChrisGPT claimed on 2026-05-04 that Meta would release 1T and 5T models in summer 2026.",
   "astra_checked": true
@@ -131894,22 +131890,22 @@
   "prune_checked": true,
   "claim_v1": "Google's Gemini 3.5 Pro was said on 2026-07-02 to be an upcoming model with a major improvement over Gemini 3.1 Pro in frontend/UI generation and SVG generation, and by 2026-07-13 its launch was said to have slipped from a July 17, 2026 target (with July 24, 2026 as fallback) to the end of July 2026 or August 2026 because current internal Rev25 checkpoints were undercooked and Google was delaying release to improve the model.",
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-07-02",
+   "verdict": "already_public",
+   "public_date": "2026-06-08",
    "official_date": null,
-   "explanation": "The posts described Gemini 3.5 Pro as targeting a July 17 launch, but it had not launched by the stated August 31 deadline. Its claimed frontend, UI, and SVG improvements therefore were not demonstrated by the deadline.",
+   "explanation": "The claim that Gemini 3.5 Pro would improve visual generation and SVG output over Gemini 3.1 Pro was circulating publicly by June 8, before these July 2–5 posts. Google’s May 19 announcement identified Gemini 3.5 Flash, not those Pro capability claims.",
    "evidence": [
     {
-     "title": "Gemini 3.5 Pro missed July 17: launch vs leak",
-     "url": "https://packetnebula.com/articles/gemini-3-5-pro-missed-july-17/"
+     "title": "Earlier public Gemini 3.5 Pro leak discussion",
+     "url": "https://www.reddit.com/r/Bard/comments/1u0nzfh/35_pro_to_disappoint_son/"
     },
     {
-     "title": "Google Gemini 3.5 Pro Launches July 17 With Enhanced Visual Generation Capabilities",
-     "url": "https://www.gate.com/en-us/news/detail/google-gemini-35-pro-launches-july-17-with-enhanced-front-end-and-svg-visual-generation-17799601"
+     "title": "Google I/O 2026 Search update",
+     "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/?pubDate=20260520"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-14T12:09:13Z"
+   "confidence": "high",
+   "resolved_at": "2026-10-16T11:39:47Z"
   },
   "feed_date": "2026-10-14T12:09:13Z"
  },
@@ -144773,21 +144769,21 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "false",
-   "public_date": null,
+   "public_date": "2026-07-17",
    "official_date": null,
-   "explanation": "The posts predicted an August 2026 frontier-model release, including one supposedly superior to Fable across the board. No SSI model was released by the August 31 deadline, and the public record did not substantiate the performance or investor-pressure claims.",
+   "explanation": "The post predicted an SSI frontier-model release in August 2026 and claimed it would surpass Fable 5. August passed without a release, and SSI still had not publicly released a model by October; the superiority claim was never testable.",
    "evidence": [
     {
-     "title": "SSI official updates",
+     "title": "SSI’s own updates",
      "url": "https://ssi.inc/updates"
     },
     {
-     "title": "SSI & NVIDIA: 10x Compute, Proof Pending",
-     "url": "https://nahornyi.ai/en/news/ssi-nvidia-compute-scaling"
+     "title": "Ilya Sutskever's SSI Model: Confirmed vs Rumoured (September 2026)",
+     "url": "https://aitoolsreview.co.uk/insights/ilya-sutskever-superintelligence-model"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:37:49Z"
+   "resolved_at": "2026-10-16T11:39:47Z"
   }
  },
  {
@@ -150711,15 +150707,19 @@
    "verdict": "false",
    "public_date": "2026-07-27",
    "official_date": null,
-   "explanation": "The post predicted a Kimi K3.1 launch in August 2026 and claimed it would narrow the gap with Fable 5. August passed without a K3.1 launch, so the performance claim could not be verified by the stated window.",
+   "explanation": "The post said Kimi K3.1 was targeting an August launch, but no K3.1 launch occurred by the stated August 31 deadline; the claimed performance improvement over Fable 5 therefore was not demonstrated. Later coverage still described K3.1 as unreleased and unconfirmed.",
    "evidence": [
     {
-     "title": "Kimi K3.1 release-date review, September 19, 2026",
+     "title": "Kimi K3.1 Release Date: The Pi Post and the Rumor Chain",
      "url": "https://cellcog.ai/blog/kimi-k3-1-release-date/"
+    },
+    {
+     "title": "Kimi K3.1 Leak: What Moonshot AI's Next Model Could Bring",
+     "url": "https://www.timesofai.com/news/kimi-k3-1-leaks-what-we-know-so-far/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:57:18Z"
+   "resolved_at": "2026-10-16T11:39:47Z"
   }
  },
  {
@@ -154473,18 +154473,22 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-08-05",
-   "official_date": null,
-   "explanation": "Anthropic did not release Mythos 2 or Fable 2 in August 2026. It released Fable 5.1 and Mythos 5.1 on September 1, which does not match the claimed August release of version 2.",
+   "verdict": "mostly_true",
+   "public_date": "2026-09-01",
+   "official_date": "2026-09-01",
+   "explanation": "Anthropic released Claude Fable 5.1 and Mythos 5.1 on September 1—one day after the stated August window, which fits the timing rule for mostly_true. The post’s “Fables 2” naming was inaccurate.",
    "evidence": [
     {
      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    },
+    {
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:47:51Z"
+   "resolved_at": "2026-10-16T11:39:47Z"
   }
  },
  {
@@ -213342,7 +213346,7 @@
    "resolved_at": "2026-10-11T01:29:38Z"
   },
   "claim_v1": "Posted that “gpt 6.1 astra will not launch soon” and said the reason was that it was a “highly deceptive model.”",
-  "story_id": "chetaslua-aad48c3f277"
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "iruletheworldmo-2104728561235984626",
@@ -216110,7 +216114,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:23Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "tokengremlin-2105608677726065107",
@@ -216689,7 +216694,8 @@
    ],
    "confidence": "low",
    "resolved_at": "2026-10-11T00:48:08Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "ns123abc-2105756787228234205",
@@ -217113,15 +217119,19 @@
    "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "The stated release window was October 5–11; as of October 13, Anthropic had not released Fable 5.5. The timing rules allow up to seven days after the window for a mostly-true result, so the claim can still fall within that grace period; the claimed release and model details remain unconfirmed.",
+   "explanation": "As of October 16, Anthropic had not announced a Fable 5.5 release; its stated October 5–11 window has passed, but the seven-day timing tolerance runs through October 18. The release claim is not yet confirmed or contradicted within that tolerance.",
    "evidence": [
     {
-     "title": "Anthropic Newsroom",
-     "url": "https://www.anthropic.com/news?subjects=announcements"
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
+    },
+    {
+     "title": "Claude Fable",
+     "url": "https://www.anthropic.com/claude/fable"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-13T14:27:48Z"
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
   },
   "prune_checked": true,
   "claim_v1": "Anthropic's Fable 5.5 will be released during the week of 2026-10-05 to 2026-10-11, and some accounts already have access to it before release."
@@ -217211,7 +217221,8 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:20Z"
   },
-  "astra_checked": true
+  "astra_checked": true,
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "pankajkumar_dev-2106070404976849403",
@@ -217257,7 +217268,7 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:20Z"
   },
-  "story_id": "pankajkumar_dev-2106070404976849403"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "tokengremlin-2106088849831002177",
@@ -217601,15 +217612,19 @@
    "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "Fable 5.5 had not been released by the stated October 12 deadline, but the timing rules allow a late release through October 19 to count as mostly true. Its alleged major leap and high price cannot yet be independently assessed.",
+   "explanation": "No Fable 5.5 release or official confirmation was public by October 16. The stated October 12 deadline is still within the seven-day late window, through October 19; the model’s claimed leap and price also remain unverified.",
    "evidence": [
     {
-     "title": "Anthropic Newsroom",
-     "url": "https://www.anthropic.com/news?subjects=announcements"
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
+    },
+    {
+     "title": "Claude Fable",
+     "url": "https://www.anthropic.com/claude/fable"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-13T14:27:48Z"
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
   },
   "prune_checked": true,
   "claim_v1": "Anthropic's unreleased model Fable 5.5 is expected to launch within a few days of 2026-10-02, possibly as early as the week of 2026-10-05, and it is a major leap over prior Anthropic models but will be extremely expensive and likely inaccessible on Anthropic's $20 plan.",
@@ -217717,7 +217732,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T00:48:20Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "tokengremlin-2106120431908605981",
@@ -217894,7 +217910,7 @@
   ],
   "origin": "tweet",
   "imported_at": "2026-10-10T20:48:31Z",
-  "story_id": "chetaslua-aad48c3f277",
+  "story_id": "tokengremlin-2104718313364312238",
   "prune_checked": true,
   "resolution": {
    "verdict": "already_public",
@@ -219068,7 +219084,7 @@
    "confidence": "high",
    "resolved_at": "2026-10-14T12:09:13Z"
   },
-  "story_id": "vraserx-2106568850850615340",
+  "story_id": "tokengremlin-2104718313364312238",
   "feed_date": "2026-10-14T12:09:13Z"
  },
  {
@@ -219558,7 +219574,7 @@
   ],
   "origin": "tweet",
   "imported_at": "2026-10-10T20:48:31Z",
-  "story_id": "chetaslua-aad48c3f277",
+  "story_id": "tokengremlin-2104718313364312238",
   "prune_checked": true,
   "resolution": {
    "verdict": "already_public",
@@ -223727,7 +223743,7 @@
   },
   "claim_v1": "OpenAI has an internal model called Astra 6.1 that is coming soon as of 2026-10-09.",
   "feed_date": "2026-10-11T06:48:04Z",
-  "story_id": "vraserx-2106568850850615340"
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "iruletheworldmo-2108494176237351173",
@@ -226096,7 +226112,7 @@
   "origin": "daily",
   "first_seen": "2026-10-10T21:55:16Z",
   "feed_date": "2026-10-10T21:55:16Z",
-  "story_id": "chetaslua-aad48c3f277",
+  "story_id": "tokengremlin-2104718313364312238",
   "prune_checked": true,
   "resolution": {
    "verdict": "pending",
@@ -226519,7 +226535,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-11T01:36:35Z"
-  }
+  },
+  "story_id": "chrisgpt-2108983381245776293"
  },
  {
   "id": "iruletheworldmo-2108987463788380356",
@@ -227427,7 +227444,7 @@
    "confidence": "medium",
    "resolved_at": "2026-10-11T12:56:13Z"
   },
-  "story_id": "pankajkumar_dev-2106070404976849403"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "vraserx-2109270038880616708",
@@ -227750,7 +227767,7 @@
   "first_seen": "2026-10-12T15:31:07Z",
   "feed_date": "2026-10-12T15:31:07Z",
   "prune_checked": true,
-  "story_id": "pankajkumar_dev-2106070404976849403",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "pending",
    "public_date": null,
@@ -227798,7 +227815,7 @@
   "first_seen": "2026-10-12T15:29:21Z",
   "feed_date": "2026-10-12T15:29:21Z",
   "prune_checked": true,
-  "story_id": "pankajkumar_dev-2106070404976849403"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "tokengremlin-2109364052539347430",
@@ -228008,7 +228025,7 @@
   "first_seen": "2026-10-12T15:32:47Z",
   "feed_date": "2026-10-12T15:32:47Z",
   "prune_checked": true,
-  "story_id": "pankajkumar_dev-2106070404976849403",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "pending",
    "public_date": "2026-10-11",
@@ -228385,7 +228402,7 @@
   "first_seen": "2026-10-13T14:20:27Z",
   "feed_date": "2026-10-13T14:20:27Z",
   "prune_checked": true,
-  "story_id": "pankajkumar_dev-2106070404976849403",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "pending",
    "public_date": null,
@@ -228483,7 +228500,7 @@
   "first_seen": "2026-10-12T15:29:39Z",
   "feed_date": "2026-10-12T15:29:39Z",
   "prune_checked": true,
-  "story_id": "pankajkumar_dev-2106070404976849403",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "already_public",
    "public_date": "2026-10-11",
@@ -229162,7 +229179,25 @@
   "origin": "daily",
   "first_seen": "2026-10-13T14:19:40Z",
   "feed_date": "2026-10-13T14:19:40Z",
-  "prune_checked": true
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-10-12",
+   "official_date": "2026-10-12",
+   "explanation": "Muse Wonder Full was available only to Muse Code subscribers on the Power Usage and Maximum Usage plans, priced at $50 and $200 per month. Meta’s product page confirms those access restrictions and prices.",
+   "evidence": [
+    {
+     "title": "Meta Muse Wonder model page",
+     "url": "https://dev.meta.ai/models/muse-wonder"
+    },
+    {
+     "title": "Meta Muse Wonder announcement",
+     "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
  },
  {
   "id": "haider1-2109700957282148755",
@@ -229558,7 +229593,8 @@
   "first_seen": "2026-10-14T11:59:59Z",
   "feed_date": "2026-10-14T11:59:59Z",
   "prune_checked": true,
-  "repeat_of": "imjustnewatai-2105596869720322429"
+  "repeat_of": "imjustnewatai-2105596869720322429",
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "haider1-2109839038165254622",
@@ -230330,7 +230366,7 @@
   "first_seen": "2026-10-14T11:56:23Z",
   "feed_date": "2026-10-14T11:56:23Z",
   "prune_checked": true,
-  "story_id": "vraserx-2106568850850615340",
+  "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
    "verdict": "pending",
    "public_date": null,
@@ -230449,7 +230485,7 @@
   "first_seen": "2026-10-14T12:00:34Z",
   "feed_date": "2026-10-14T12:00:34Z",
   "prune_checked": true,
-  "story_id": "vraserx-2106568850850615340",
+  "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
    "verdict": "pending",
    "public_date": null,
@@ -230768,7 +230804,7 @@
   "origin": "daily",
   "first_seen": "2026-10-14T11:59:08Z",
   "feed_date": "2026-10-14T11:59:08Z",
-  "story_id": "chetaslua-aad48c3f277",
+  "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
    "verdict": "unverifiable",
    "public_date": "2026-10-13",
@@ -230948,7 +230984,7 @@
   "first_seen": "2026-10-14T11:57:26Z",
   "feed_date": "2026-10-14T11:57:26Z",
   "prune_checked": true,
-  "story_id": "chetaslua-aad48c3f277",
+  "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
    "verdict": "already_public",
    "public_date": "2026-09-28",
@@ -231182,7 +231218,8 @@
   "first_seen": "2026-10-15T11:37:48Z",
   "feed_date": "2026-10-15T11:37:48Z",
   "prune_checked": true,
-  "repeat_of": "tokengremlin-2108997841649565770"
+  "repeat_of": "tokengremlin-2108997841649565770",
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "tokengremlin-2110370036615385582",
@@ -232149,6 +232186,1242 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-15T11:47:08Z"
+  }
+ },
+ {
+  "id": "luminabench-2110672726075535404",
+  "handle": "LuminaBench",
+  "date": "2026-10-15T10:02:46Z",
+  "claim": "Anthropic's Claude Fable 5.5 may have the codename \"claude-onigiri-eap\" and be undergoing benchmarking, with low, medium, high, and xhigh variants and a fallback to Opus 4.8.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-13",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110672726075535404",
+    "url": "https://x.com/LuminaBench/status/2110672726075535404",
+    "created_at": "2026-10-15T10:02:46Z",
+    "text": "🚨Fable 5.5's codename might be \"claude-onigiri-eap\"\n\nI found a new codename in Artificial Analysis's frontend called \"claude-onigiri-eap\"\n\nIt has 4 variants low/med/high/xhigh, it also falls back to Opus 4.8 (which Fable/Opus tier models do)\n\nI haven't seen this codename before and could be wrong, but I wouldn't be surprised if this is Fable 5.5 getting benchmarked now",
+    "likes": 696,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:33:00Z",
+  "feed_date": "2026-10-16T11:33:00Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The Onigiri identifier, four effort variants, and Opus 4.8 fallback were found in Artificial Analysis’s public frontend code on October 15. The evidence does not establish that Onigiri is Fable 5.5 or that benchmarking is underway, so that identification remains unconfirmed.",
+   "evidence": [
+    {
+     "title": "Claude ‘Onigiri’ appears in Artificial Analysis code",
+     "url": "https://luminabench.com/journal/claude-onigiri/"
+    },
+    {
+     "title": "ArtificialWatch report on the Onigiri entry",
+     "url": "https://artificialwatch.com/wire/claude-onigiri-eap-artificial-analysis-fable-5-5"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2110707259613356471",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-15T12:20:00Z",
+  "claim": "Anthropic's Claude Fable 5.5 is sitting on Azure, unannounced.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110707259613356471",
+    "url": "https://x.com/iruletheworldmo/status/2110707259613356471",
+    "created_at": "2026-10-15T12:20:00Z",
+    "text": "nice to see we’ve hit a wall, quietest week for a long time. patience cave boys. \n\n>google launched gemini 4 argon\n\n>meta shipped muse wonder, a frontier floparoo\n\n>4nthropic did $16.8b in q3, up 45%, ahead of an ipo. dario’s in war mode, hashtag goblin \n\n>ye olde white house u-turned and restored uk access to pre-release models\n\n>the eu sent openai and anthropic their first ai act information requests\n\n>anthropic said small open models are months from self-replicating across devices\n\n>reuters said labs fought to control \"independent\" safety reports\n\n>some coreweave bond yields neared 15% (they’re fucked)\n\n>apple and openai are heading to court (sneaky bastards)\n\n>openai is reportedly holding back gpt-6.1 astra over deception concerns\n\nand fable 5.5 is sitting on azure, unannounced 🍓",
+    "likes": 333,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:28:44Z",
+  "feed_date": "2026-10-16T11:28:44Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-13",
+   "official_date": null,
+   "explanation": "The post presents the Azure listing as a brief item in a news roundup; that listing had already been reported on October 13. Anthropic had not officially announced Fable 5.5 by October 15.",
+   "evidence": [
+    {
+     "title": "Claude Fable 5.5 appears in Azure's catalog, Anthropic stays silent",
+     "url": "https://pasqualepillitteri.it/en/news/23513/claude-fable-5-5-azure-catalog-anthropic-silent"
+    },
+    {
+     "title": "Claude Fable product page",
+     "url": "https://www.anthropic.com/claude/fable"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "sashikantsingh_-2110710544332370054",
+  "handle": "sashikantsingh_",
+  "date": "2026-10-15T12:33:03Z",
+  "claim": "Anthropic's likely upcoming Claude model has the GitHub EAP name Odango.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-13",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110710544332370054",
+    "url": "https://x.com/sashikantsingh_/status/2110710544332370054",
+    "created_at": "2026-10-15T12:33:03Z",
+    "text": "GitHub just leaked the EAP name for a likely upcoming Claude model: Odango https://t.co/UKIBoA6Gyy",
+    "likes": 1533,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:32:51Z",
+  "feed_date": "2026-10-16T11:32:51Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The post reports a GitHub leak of the EAP name “Odango” for a likely upcoming Claude model. I found no independent confirmation identifying Odango as an Anthropic model or confirming its EAP status; the model’s identity could still be confirmed later.",
+   "evidence": [
+    {
+     "title": "Reddit discussion linking the Odango leak post",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x6iocw/a_github_tweet_leaked_the_eap_early_access/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2110714222141436252",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-15T12:47:40Z",
+  "claim": "Anthropic’s Claude Fable 5.5 is listed in Azure’s MLflow catalog and Artificial Analysis under the codename “claude-onigiri-eap-2,” with the same pricing as Fable 5.1 ($10/$50 and $0.25 cache-read pricing), an October 14 date, and a December 5, 2027 deprecation date.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110714222141436252",
+    "url": "https://x.com/pankajkumar_dev/status/2110714222141436252",
+    "created_at": "2026-10-15T12:47:40Z",
+    "text": "Fable 5.5 showed up in MLflow’s Azure catalog.\n\n- Its the 5.1 row with a new name. Pricing: $10 / $50, cache read $0.25. The only thing that changed is the date, Oct 14.\n- Deprecation is Dec 5, 2027, the same date already listed for Fable 5 and 5.1 in that file. Fable 5 cache read there is still $1.00.\n- Pricing is the same as Fable 5.1, and its visible in multiple places, like Azure and Artificial Analysis, under the codename \"claude-onigiri-eap-2\".\n\nAll of these signs make an immediate launch likely this week or next week.",
+    "likes": 85,
+    "quoted": null
+   },
+   {
+    "id": "2110983672002482516",
+    "url": "https://x.com/pankajkumar_dev/status/2110983672002482516",
+    "created_at": "2026-10-16T06:38:22Z",
+    "text": "Fable 5.5 is coming next week.\n\n- It has shown up in Azure, as I found it in the MLflow Azure catalog, and it's also listed on Artificial Analysis under the codename \"claude-onigiri-eap-2\".\n- In Claude Code, Opus 5.5 is also routing to a new model, which is most likely Fable 5.5.\n- Pricing is gonna be same as Fable 5.1, as the Azure MLflow mentioned the same pricing.\n- It's also in internal testing, and with all these signs launch not too far, They're also targeting this month for the release.\n\nSo, there's a high chance Fable 5.5 launches next week.",
+    "likes": 54,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:30:20Z",
+  "feed_date": "2026-10-16T11:30:20Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-13",
+   "official_date": null,
+   "explanation": "The Azure catalog row and its copied Fable 5.1 pricing and retirement details were publicly surfaced on October 13, before this October 15 post. Those catalog fields did not establish that the prices were confirmed for a released Fable 5.5.",
+   "evidence": [
+    {
+     "title": "Fable 5.5 Release Date: Azure Lists It, Anthropic Silent",
+     "url": "https://cellcog.ai/blog/fable-5-5-release-date/"
+    },
+    {
+     "title": "Claude Fable 5.5 appears in Azure's catalog, Anthropic stays silent",
+     "url": "https://pasqualepillitteri.it/en/news/23513/claude-fable-5-5-azure-catalog-anthropic-silent"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2110714222141436252-2",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-15T12:47:40Z",
+  "claim": "Anthropic is likely to release Claude Fable 5.5 next week, October 19–25, 2026; the author also says the release is targeted for October 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-10-25",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110714222141436252",
+    "url": "https://x.com/pankajkumar_dev/status/2110714222141436252",
+    "created_at": "2026-10-15T12:47:40Z",
+    "text": "Fable 5.5 showed up in MLflow’s Azure catalog.\n\n- Its the 5.1 row with a new name. Pricing: $10 / $50, cache read $0.25. The only thing that changed is the date, Oct 14.\n- Deprecation is Dec 5, 2027, the same date already listed for Fable 5 and 5.1 in that file. Fable 5 cache read there is still $1.00.\n- Pricing is the same as Fable 5.1, and its visible in multiple places, like Azure and Artificial Analysis, under the codename \"claude-onigiri-eap-2\".\n\nAll of these signs make an immediate launch likely this week or next week.",
+    "likes": 85,
+    "quoted": null
+   },
+   {
+    "id": "2110983672002482516",
+    "url": "https://x.com/pankajkumar_dev/status/2110983672002482516",
+    "created_at": "2026-10-16T06:38:22Z",
+    "text": "Fable 5.5 is coming next week.\n\n- It has shown up in Azure, as I found it in the MLflow Azure catalog, and it's also listed on Artificial Analysis under the codename \"claude-onigiri-eap-2\".\n- In Claude Code, Opus 5.5 is also routing to a new model, which is most likely Fable 5.5.\n- Pricing is gonna be same as Fable 5.1, as the Azure MLflow mentioned the same pricing.\n- It's also in internal testing, and with all these signs launch not too far, They're also targeting this month for the release.\n\nSo, there's a high chance Fable 5.5 launches next week.",
+    "likes": 54,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:30:20Z",
+  "feed_date": "2026-10-16T11:30:20Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-16",
+   "official_date": null,
+   "explanation": "The post predicts Fable 5.5 will launch during October 19–25, 2026, and says October is the target. As of October 16, that window had not begun and there was no official confirmation; the prediction remains unresolved.",
+   "evidence": [
+    {
+     "title": "Claude Fable product page",
+     "url": "https://www.anthropic.com/claude/fable"
+    },
+    {
+     "title": "Is Claude Fable 5.5 out yet? The Fable 5.5 release date, rumours and what we know",
+     "url": "https://madrobot.blog/2026/10/16/claude-fable-5-5-release-date-is-it-out/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "lyraxana-2110732706443067733",
+  "handle": "lyraxana",
+  "date": "2026-10-15T14:01:07Z",
+  "claim": "Anthropic has given partners access to Claude Fable 5.5 and is assumed to release it during the week of October 19, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-10-25",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110732706443067733",
+    "url": "https://x.com/lyraxana/status/2110732706443067733",
+    "created_at": "2026-10-15T14:01:07Z",
+    "text": "Partners got access to the upcoming Claude Fable 5.5.\nNo info on any release date this time but I assume next week.",
+    "likes": 1129,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:33:05Z",
+  "feed_date": "2026-10-16T11:33:05Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The post asserts that partners had access to Fable 5.5, but no independent confirmation of partner access was available by October 16. “I assume next week” is explicitly the poster’s speculation, not a confirmed release date.",
+   "evidence": [
+    {
+     "title": "Claude Fable 5.5: What Is Claimed and What Is Verified",
+     "url": "https://www.explainx.ai/blog/claude-fable-5-5-partner-access-azure-listing-claimed-vs-verified-2026"
+    },
+    {
+     "title": "Claude Fable product page",
+     "url": "https://www.anthropic.com/claude/fable"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "amir-2110744343841738973",
+  "handle": "amir",
+  "date": "2026-10-15T14:47:21Z",
+  "claim": "Cognition is setting software engineers’ token limits based on how effectively they use tokens.",
+  "lab": "Other",
+  "topic": "corporate",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110744343841738973",
+    "url": "https://x.com/amir/status/2110744343841738973",
+    "created_at": "2026-10-15T14:47:21Z",
+    "text": "new existential threat to software engineers has been unlocked by cognition:\n\ntoken limits based on how well the engineers use the tokens… https://t.co/jO5Jv5m3ts",
+    "likes": 480,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:28:08Z",
+  "feed_date": "2026-10-16T11:28:08Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The Information reported on October 15 that Cognition was developing usage limits that could increase for engineers judged to use Devin efficiently. The post appears to point to that outlet’s own report; without independent confirmation, the claim remains pending rather than verified.",
+   "evidence": [
+    {
+     "title": "Cognition’s Plan to Limit Tokenmaxxing to the Most Efficient Engineers",
+     "url": "https://www.theinformation.com/newsletters/ai-agenda/cognitions-plan-limit-tokenmaxxing-efficient-engineers/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "mark_k-2110754823716962755",
+  "handle": "mark_k",
+  "date": "2026-10-15T15:29:00Z",
+  "claim": "OpenAI will release GPT-6.1 Astra as part of the “28 Days of Improvements (or resets)” event.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-11-12",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110754823716962755",
+    "url": "https://x.com/mark_k/status/2110754823716962755",
+    "created_at": "2026-10-15T15:29:00Z",
+    "text": "That's right, OpenAI is going to release Astra 6.1 as part of their \"28 Days of Improvements (or resets)\" event.\n\nBut mostly it's just little features and bug fixes, nothing earth shaking.",
+    "likes": 165,
+    "quoted": {
+     "handle": "lyraxana",
+     "text": "Seems like Tibo's 28d challenge includes at least one new model.",
+     "created_at": "2026-10-15T14:07:26Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:27:20Z",
+  "feed_date": "2026-10-16T11:27:20Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The post asserts that GPT-6.1 Astra will be released during the 28-day event, whose stated window extends to November 12, 2026. OpenAI had delayed Astra over safety concerns, but that does not establish whether it will ship by the new deadline.",
+   "evidence": [
+    {
+     "title": "Codex Chief Pledges 28-Day Shipping Streak",
+     "url": "https://agihunt.info/en/story/1a108a61ceedb9b3bfc6dda4dbc"
+    },
+    {
+     "title": "OpenAI won't release next Astra model over safety worries",
+     "url": "https://www.itpro.com/technology/artificial-intelligence/openai-wont-release-next-astra-model-over-safety-worries"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2110755992120197522",
+  "handle": "TokenGremlin",
+  "date": "2026-10-15T15:33:39Z",
+  "claim": "Anthropic’s Fable 5.5 is already in early access with select companies and trusted individuals, and is expected to launch by October 25, 2026, after testing is completed.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-25",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110755992120197522",
+    "url": "https://x.com/TokenGremlin/status/2110755992120197522",
+    "created_at": "2026-10-15T15:33:39Z",
+    "text": "For anyone who missed it:\n\nFable 5.5 is already in early access with select companies and trusted individuals.\n\nAt this point, it's just a matter of wrapping up testing before the public release. It could drop today, tomorrow, or next week. The launch window is wide open.",
+    "likes": 397,
+    "quoted": {
+     "handle": "AnthropicAI",
+     "text": "Applications are now open for two new Anthropic Fellowships.\n\nSTEM Fellows (science and engineering) and Conceptual Reasoning Fellows (philosophy, cognitive science, economics, policy, and law) will spend four months at Anthropic from January 2027, working to help Claude reason well about some of the hardest problems in those fields.\n\nFor more information, see the descriptions below. The application deadline is October 28.\n\nConceptual Reasoning Fellows: https://t.co/kTaBPqttbK\n\nSTEM Fellows: https://t.co/KkD5ruJkjq",
+     "created_at": "2026-10-15T13:14:22Z"
+    }
+   },
+   {
+    "id": "2110781936130044415",
+    "url": "https://x.com/TokenGremlin/status/2110781936130044415",
+    "created_at": "2026-10-15T17:16:44Z",
+    "text": "@kimmonismus The Gremlin is cooking.",
+    "likes": 29,
+    "quoted": {
+     "handle": "TokenGremlin",
+     "text": "Fable 5.5 is expected to launch either this week or next.\n\nAnd GPT-6.1 Astra is reportedly Tibo's Day 28 surprise, assuming everything goes according to plan and there are no unexpected setbacks.\n\nNot to mention that OpenAI is also working on improving subscription usage limits.",
+     "created_at": "2026-10-13T22:09:45Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:32:11Z",
+  "feed_date": "2026-10-16T11:32:11Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "repeat_of": "tokengremlin-2106116897821634818"
+ },
+ {
+  "id": "markgurman-2110779608958484550",
+  "handle": "markgurman",
+  "date": "2026-10-15T17:07:29Z",
+  "claim": "Apple’s iOS 27.3 beta should arrive by October 31, 2026, with the first Apple Intelligence features for China included ahead of a public release in December 2026.",
+  "lab": "Apple",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-12-31",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110779608958484550",
+    "url": "https://x.com/markgurman/status/2110779608958484550",
+    "created_at": "2026-10-15T17:07:29Z",
+    "text": "The iOS 27.3 beta should hit end of month with this included before the December public release.",
+    "likes": 534,
+    "quoted": {
+     "handle": "markgurman",
+     "text": "NEW: Apple is preparing to launch the first set of Apple Intelligence features in China in December after being stuck in years of regulatory scrutiny. https://t.co/EdwtwMzuoh",
+     "created_at": "2026-10-14T19:55:00Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:31:35Z",
+  "feed_date": "2026-10-16T11:31:35Z",
+  "repeat_of": "markgurman-2110459376846991620"
+ },
+ {
+  "id": "tokengremlin-2110781936130044415",
+  "handle": "TokenGremlin",
+  "date": "2026-10-15T17:16:44Z",
+  "claim": "OpenAI’s GPT-6.1 Astra is reportedly planned as Tibo’s Day 28 surprise, expected around November 1, 2026, if there are no unexpected setbacks.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2026-11-01",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110781936130044415",
+    "url": "https://x.com/TokenGremlin/status/2110781936130044415",
+    "created_at": "2026-10-15T17:16:44Z",
+    "text": "@kimmonismus The Gremlin is cooking.",
+    "likes": 29,
+    "quoted": {
+     "handle": "TokenGremlin",
+     "text": "Fable 5.5 is expected to launch either this week or next.\n\nAnd GPT-6.1 Astra is reportedly Tibo's Day 28 surprise, assuming everything goes according to plan and there are no unexpected setbacks.\n\nNot to mention that OpenAI is also working on improving subscription usage limits.",
+     "created_at": "2026-10-13T22:09:45Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:32:11Z",
+  "feed_date": "2026-10-16T11:32:11Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "repeat_of": "tokengremlin-2110053566224162921"
+ },
+ {
+  "id": "tokengremlin-2110781936130044415-2",
+  "handle": "TokenGremlin",
+  "date": "2026-10-15T17:16:44Z",
+  "claim": "OpenAI is working on improving subscription usage limits.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110781936130044415",
+    "url": "https://x.com/TokenGremlin/status/2110781936130044415",
+    "created_at": "2026-10-15T17:16:44Z",
+    "text": "@kimmonismus The Gremlin is cooking.",
+    "likes": 29,
+    "quoted": {
+     "handle": "TokenGremlin",
+     "text": "Fable 5.5 is expected to launch either this week or next.\n\nAnd GPT-6.1 Astra is reportedly Tibo's Day 28 surprise, assuming everything goes according to plan and there are no unexpected setbacks.\n\nNot to mention that OpenAI is also working on improving subscription usage limits.",
+     "created_at": "2026-10-13T22:09:45Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:32:11Z",
+  "feed_date": "2026-10-16T11:32:11Z",
+  "prune_checked": true,
+  "repeat_of": "tokengremlin-2110053566224162921-2"
+ },
+ {
+  "id": "testingcatalog-2110782984974660018",
+  "handle": "testingcatalog",
+  "date": "2026-10-15T17:20:54Z",
+  "claim": "Meta is about to release Muse Spark Open, an open-weight version of Muse Spark 1.2, which will be runnable locally on new Mac Studio devices.",
+  "lab": "Meta",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-15",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110782984974660018",
+    "url": "https://x.com/testingcatalog/status/2110782984974660018",
+    "created_at": "2026-10-15T17:20:54Z",
+    "text": "BREAKING 🔥: Meta is about to drop Muse Spark Open, an open weight version of Muse Spark 1.2! \n\nIt is teased to be the best open model from US and users will be able to run it locally on new Mac Studio devices. https://t.co/YjxQr9uMmM",
+    "likes": 412,
+    "quoted": {
+     "handle": "alexandr_wang",
+     "text": "muse spark open.\n\nwhy 2026 won't be like 1984  https://t.co/jYnOSfZf9u",
+     "created_at": "2026-10-15T17:12:09Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:29:06Z",
+  "feed_date": "2026-10-16T11:29:06Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-15",
+   "official_date": "2026-10-15",
+   "explanation": "Meta’s Muse Spark Open announcement and reporting about local Mac Studio use were public on October 15 before this 17:20 UTC post. Meta’s announcement confirms the open-weight release and Mac Studio support, though it describes an 816B-parameter model and does not corroborate the post’s “1.2” wording.",
+   "evidence": [
+    {
+     "title": "Introducing Muse Spark Open",
+     "url": "https://research.meta.ai/blog/muse-spark-open"
+    },
+    {
+     "title": "Axios report on Muse Spark Open and Apple Macs",
+     "url": "https://www.axios.com/2026/10/15/apple-and-meta-bury-the-hatchet-for-ai"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2110785275584528656",
+  "handle": "synthwavedd",
+  "date": "2026-10-15T17:30:00Z",
+  "claim": "Anthropic's Fable 5.5 consumes a substantial amount of usage relative to Claude Opus.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110785275584528656",
+    "url": "https://x.com/synthwavedd/status/2110785275584528656",
+    "created_at": "2026-10-15T17:30:00Z",
+    "text": "fable 5.5 needs to be really, really good to justify using it over opus given how much usage it burns, and i don't know if it's going to be that much better than it tbh\n\n(they could also go the price cut + a bit better route!)",
+    "likes": 1514,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:27:48Z",
+  "feed_date": "2026-10-16T11:27:48Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The post asserts that Fable 5.5 burns substantial usage relative to Opus, but Anthropic has not released Fable 5.5 or independently confirmed its usage consumption. The post’s speculation about whether it will be better does not verify that premise.",
+   "evidence": [
+    {
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
+    },
+    {
+     "title": "Claude Fable 5.5 release-date rumors",
+     "url": "https://cellcog.ai/blog/fable-5-5-release-date/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2110785275584528656-2",
+  "handle": "synthwavedd",
+  "date": "2026-10-15T17:30:00Z",
+  "claim": "Anthropic is putting finishing touches on Fable 5.5 and is expected to launch it after October 18, 2026, following enterprise-partner feedback; those partners received access later than expected.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-10-25",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110785275584528656",
+    "url": "https://x.com/synthwavedd/status/2110785275584528656",
+    "created_at": "2026-10-15T17:30:00Z",
+    "text": "fable 5.5 needs to be really, really good to justify using it over opus given how much usage it burns, and i don't know if it's going to be that much better than it tbh\n\n(they could also go the price cut + a bit better route!)",
+    "likes": 1514,
+    "quoted": null
+   },
+   {
+    "id": "2110786182196175054",
+    "url": "https://x.com/synthwavedd/status/2110786182196175054",
+    "created_at": "2026-10-15T17:33:37Z",
+    "text": "@darkfore8h finishing touches! ant are quite a flexible org but i'd expect them to wait until the weekend is over to launch to allow for enterprise partners to give feedback (they got such access a little later than expected)",
+    "likes": 107,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:27:48Z",
+  "feed_date": "2026-10-16T11:27:48Z",
+  "prune_checked": true,
+  "repeat_of": "synthwavedd-2110045399385829469",
+  "story_id": "synthwavedd-2104647832103956631"
+ },
+ {
+  "id": "0x4d31-2110797664732500348",
+  "handle": "0x4D31",
+  "date": "2026-10-15T18:19:14Z",
+  "claim": "OpenAI’s GPT-5.6-Cyber, codenamed Daybreak Red, helped rediscover and validate a KVM escape vulnerability, finding it within 30 minutes after being given the clue “virtio.”",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110797664732500348",
+    "url": "https://x.com/0x4D31/status/2110797664732500348",
+    "created_at": "2026-10-15T18:19:14Z",
+    "text": "now that the KVM escape details are out (https://t.co/5QFoYyonbX)… if you’re wondering how i managed to rediscover it in under 2 hours after seeing the vercel bounty screenshot:\n\ni gave openai’s gpt-5.6-cyber (daybreak red) access to a devbox to experiment and explore different directions for 1.5 hours.\n\nthen i spotted that the word after “guest-controlled” in the screenshot wasn’t properly redacted. those 3 dots gave away “virtio”. might seem like a small hint, but i passed it to my agent, and it got excited and found the vulnerability in 30 minutes. :))\n\nopsec lesson right there.",
+    "likes": 512,
+    "quoted": {
+     "handle": "0x4D31",
+     "text": "next-level detection & response 😅\n\n> half-jokingly suggested trying to rediscover the bug\n> set up the environment, started an agent with a cyber model, gave it one clue partway through (not saying what it was until the patch is out :)))\n> ~2 hours later: found the bug and validated an end-to-end exploit*\n> …**\n\nhats off to @PaulosYibelo for the original discovery… incredible work! definitely not an easy bug to find, especially without “cheating” :D\n\n* https://t.co/dGzqGbDsA7\n** https://t.co/s6vgm8oF6u",
+     "created_at": "2026-10-04T17:11:02Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:33:12Z",
+  "feed_date": "2026-10-16T11:33:12Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The KVM escape itself was publicly disclosed, but the available independent write-up attributes the discovery to the researcher and does not confirm that GPT-5.6-Cyber rediscovered or validated it. The model’s alleged role is a firsthand account without independent corroboration.",
+   "evidence": [
+    {
+     "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+     "url": "https://www.pwn.ai/blog/pwnescape"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2110801206717436016",
+  "handle": "TokenGremlin",
+  "date": "2026-10-15T18:33:19Z",
+  "claim": "OpenAI is aiming to release one powerful model in October 2026, another in November or December 2026, and a third, described as exceptionally powerful and probably codenamed Bel, in late December 2026 or January 2027.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2027-01-31",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110801206717436016",
+    "url": "https://x.com/TokenGremlin/status/2110801206717436016",
+    "created_at": "2026-10-15T18:33:19Z",
+    "text": "OpenAI is quietly buying itself some time and going all-in on research. I've never seen the team this focused.\n\nThey've brought more compute online, just as I described a few days ago, and they're developing multiple powerful models, aiming to release one this month, another in November or December, and a third, insanely powerful one in late December or January if everything goes according to plan. (That last one is probably Bel!)\n\nTibo's Day 28 will be a success, and the ChatGPT / Codex infrastructure is being prepared to handle what they have in store.\n\nDon't forget who told you all of this first.",
+    "likes": 336,
+    "quoted": {
+     "handle": "TokenGremlin",
+     "text": "\"Good research takes time.\"\n\nOpenAI has some extremely powerful models in the final stages of preparation, with a massive amount of compute expected to come online over the next few weeks.\n\nBut before that, I'm expecting plenty of UI/UX improvements and updates to the tools themselves, especially Codex and ChatGPT.\n\nMainly because of the huge amount of user feedback I've been seeing collected today.",
+     "created_at": "2026-10-11T19:22:34Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:32:11Z",
+  "feed_date": "2026-10-16T11:32:11Z",
+  "prune_checked": true,
+  "repeat_of": "tokengremlin-2108997841649565770",
+  "story_id": "tokengremlin-2104718313364312238"
+ },
+ {
+  "id": "chetaslua-2110808933074092371",
+  "handle": "chetaslua",
+  "date": "2026-10-15T19:04:01Z",
+  "claim": "Claude Opus 5.5 High is routing to an undisclosed next Claude model, possibly Claude Fable 5.5 or a new Opus model.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-13",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110808933074092371",
+    "url": "https://x.com/chetaslua/status/2110808933074092371",
+    "created_at": "2026-10-15T19:04:01Z",
+    "text": "🚨 Opus 5.5 High is routing to claude next model \n\ni am late to part , as i prompted it to make a 3d version purely with python code in blender \n\nThis is stuttering and i had to stop as my mac crashed &lt; i will buy new one on my birthday - 18 oct&gt;\n\nEnjoy the life of a human https://t.co/Xk2j0KgwjC",
+    "likes": 543,
+    "quoted": {
+     "handle": "chetaslua",
+     "text": "🚨 Claude Opus 5.5 is routing to a new model &lt; this can be fable 5.5 or new opus i have no idea &gt;\n\nDrew every frame of this animation using JS. The life of a Human \n\nTwo Prompts : literally 4 lines \nTime : 2 Hours\nTokens : 27 Miliion \nThinking Effort : Max https://t.co/6Uy9qxQV7e",
+     "created_at": "2026-10-11T11:28:19Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:27:30Z",
+  "feed_date": "2026-10-16T11:27:30Z",
+  "prune_checked": true,
+  "repeat_of": "chetaslua-2109244702235275680",
+  "story_id": "synthwavedd-2104647832103956631"
+ },
+ {
+  "id": "chrisgpt-2110825688391381099",
+  "handle": "ChrisGPT",
+  "date": "2026-10-15T20:10:36Z",
+  "claim": "Moonshot AI is preparing to launch a Kimi 3.x model, with launch typically expected within a couple of days after its media assets are ready.",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-10-20",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110825688391381099",
+    "url": "https://x.com/ChrisGPT/status/2110825688391381099",
+    "created_at": "2026-10-15T20:10:36Z",
+    "text": "The Kimi team is and has been prepping a lunch of there 3.x model for some weeks now.\n\nMany people were trying to claim this model was coming weeks before it was ready. I even debated Nomura on the date of mid-October, but I had redacted it because I originally had read it as arriving by October 15th, which I knew was not going to happen. \n\nWe don't have a concrete date yet because the media team hasn't got the media assets ready (or at least quite ready), which is typically indicative of a launch within a couple of days from there. Once I get more information, I'll keep you updated.",
+    "likes": 51,
+    "quoted": {
+     "handle": "gpuhell",
+     "text": "According to Nomura, Moonshot AI is expected to launch Kimi K3.1 by mid-October and is already training a much larger 5–6T-parameter model, with high-end compute availability remaining the key bottleneck. https://t.co/aR4Tiw9sYD",
+     "created_at": "2026-10-09T14:30:49Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:28:26Z",
+  "feed_date": "2026-10-16T11:28:26Z",
+  "prune_checked": true,
+  "repeat_of": "chrisgpt-2108827835607748761"
+ },
+ {
+  "id": "chrisgpt-2110839982760079408",
+  "handle": "ChrisGPT",
+  "date": "2026-10-15T21:07:24Z",
+  "claim": "OpenAI has a model that is much better than GPT-6.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 4,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110839982760079408",
+    "url": "https://x.com/ChrisGPT/status/2110839982760079408",
+    "created_at": "2026-10-15T21:07:24Z",
+    "text": "OpenAI has a much better model than GPT 6, I hope the recent interp news can fast track a release for late October.",
+    "likes": 304,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:28:26Z",
+  "feed_date": "2026-10-16T11:28:26Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The post asserts that OpenAI has a model substantially better than GPT-6, but provides no identifying details or verifiable evidence. No independent confirmation of that internal-model claim was found.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2110844855970636197",
+  "handle": "imjustnewatai",
+  "date": "2026-10-15T21:26:45Z",
+  "claim": "Anthropic is expected to release Claude Fable 5.5 next week, probably on Tuesday, October 20, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-25",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110844855970636197",
+    "url": "https://x.com/imjustnewatai/status/2110844855970636197",
+    "created_at": "2026-10-15T21:26:45Z",
+    "text": "Okay okay I’m hearing fable 5.5 is actually releasing next week, let’s go! \n\nProbably a tuesday release",
+    "likes": 100,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:32:19Z",
+  "feed_date": "2026-10-16T11:32:19Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post predicts a Fable 5.5 release during October 19–25, probably Tuesday, October 20. As of October 16, the predicted week had not begun and Anthropic had not confirmed a release date.",
+   "evidence": [
+    {
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
+    },
+    {
+     "title": "Claude Fable",
+     "url": "https://www.anthropic.com/claude/fable"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "scaling01-2110855216820285761",
+  "handle": "scaling01",
+  "date": "2026-10-15T22:07:56Z",
+  "claim": "Anthropic’s Fable 5.5 is ready.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-10-15",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110855216820285761",
+    "url": "https://x.com/scaling01/status/2110855216820285761",
+    "created_at": "2026-10-15T22:07:56Z",
+    "text": "it doesn't even include Opus 5.5 and it looks pretty brutal for chinese models\n\n(and Fable 5.5 and the next Astra are both ready too) https://t.co/77WqPazbjn",
+    "likes": 155,
+    "quoted": {
+     "handle": "StepFun_ai",
+     "text": "Step 5 Preview is now open weights.\n\nBF16 and FP8 weights are live on Hugging Face and ModelScope, together with our technical blog.\n\n• Sparse MoE: 600B total, 27B active per token \n• 1M-token context window \n• Native text and vision input \n• Built for long-horizon agentic work: coding, software engineering, professional knowledge work and finance\n\nFrontier intelligence, open weights. Build what's next.\n\nHugging Face: https://t.co/nMfayf37ja\nModelScope: https://t.co/mkB3qIoMQA\nGitHub: https://t.co/siRkQqaruX",
+     "created_at": "2026-10-15T13:00:01Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:27:07Z",
+  "feed_date": "2026-10-16T11:27:07Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The post says Fable 5.5 and the next Astra are already ready, an internal-readiness claim. Public rumors about an imminent Fable release do not independently establish that either model was ready on October 15, 2026.",
+   "evidence": [
+    {
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
+    },
+    {
+     "title": "Claude Fable 5.5 release-date rumors",
+     "url": "https://www.orcarouter.ai/blog/claude-fable-5-5-this-week-leak"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "scaling01-2110855216820285761-2",
+  "handle": "scaling01",
+  "date": "2026-10-15T22:07:56Z",
+  "claim": "OpenAI’s next Astra model is ready.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-10-15",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110855216820285761",
+    "url": "https://x.com/scaling01/status/2110855216820285761",
+    "created_at": "2026-10-15T22:07:56Z",
+    "text": "it doesn't even include Opus 5.5 and it looks pretty brutal for chinese models\n\n(and Fable 5.5 and the next Astra are both ready too) https://t.co/77WqPazbjn",
+    "likes": 155,
+    "quoted": {
+     "handle": "StepFun_ai",
+     "text": "Step 5 Preview is now open weights.\n\nBF16 and FP8 weights are live on Hugging Face and ModelScope, together with our technical blog.\n\n• Sparse MoE: 600B total, 27B active per token \n• 1M-token context window \n• Native text and vision input \n• Built for long-horizon agentic work: coding, software engineering, professional knowledge work and finance\n\nFrontier intelligence, open weights. Build what's next.\n\nHugging Face: https://t.co/nMfayf37ja\nModelScope: https://t.co/mkB3qIoMQA\nGitHub: https://t.co/siRkQqaruX",
+     "created_at": "2026-10-15T13:00:01Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:27:07Z",
+  "feed_date": "2026-10-16T11:27:07Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "“The next Astra” appears to refer to GPT-6.1 Astra, which OpenAI had delayed over safety concerns. That history does not establish whether a subsequent Astra checkpoint was internally ready on October 15, and no independent confirmation of readiness was found.",
+   "evidence": [
+    {
+     "title": "OpenAI won't release next Astra model over safety worries",
+     "url": "https://www.itpro.com/technology/artificial-intelligence/openai-wont-release-next-astra-model-over-safety-worries"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "legit_api-2110861972937847038",
+  "handle": "legit_api",
+  "date": "2026-10-15T22:34:46Z",
+  "claim": "Anthropic has a Fable 5.5 model that @legit_api has been using.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-13",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110861972937847038",
+    "url": "https://x.com/legit_api/status/2110861972937847038",
+    "created_at": "2026-10-15T22:34:46Z",
+    "text": "we've been cooking with Fable 5.5\n\ngot some crazy stuff to show tomorrow https://t.co/A06bYjJt8d",
+    "likes": 286,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:32:31Z",
+  "feed_date": "2026-10-16T11:32:31Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "“We’ve been cooking with Fable 5.5” implies the poster has been using it, but no independent source confirms that access or use. Anthropic had not publicly released Fable 5.5 by October 16, 2026.",
+   "evidence": [
+    {
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
+    },
+    {
+     "title": "Anthropic Transparency Hub",
+     "url": "https://www.anthropic.com/transparency"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2110874923938033791",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-15T23:26:14Z",
+  "claim": "Anthropic will release Claude Fable 5.5 on October 16, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-10-16",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": true,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110874923938033791",
+    "url": "https://x.com/iruletheworldmo/status/2110874923938033791",
+    "created_at": "2026-10-15T23:26:14Z",
+    "text": "i like to see the positives. we get another day of being excited for the fable release. \n\ncya tomorrow for the big one my little claude fans.",
+    "likes": 167,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:28:44Z",
+  "feed_date": "2026-10-16T11:28:44Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-15",
+   "official_date": null,
+   "explanation": "The post implies a Fable 5.5 release on October 16, 2026. As of that date, Anthropic had not announced the release, but the stated deadline has not yet fully elapsed, so the claim remains pending.",
+   "evidence": [
+    {
+     "title": "Anthropic newsroom",
+     "url": "https://www.anthropic.com/news"
+    },
+    {
+     "title": "Anthropic Transparency Hub",
+     "url": "https://www.anthropic.com/transparency"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "bindureddy-2110904482808901973",
+  "handle": "bindureddy",
+  "date": "2026-10-16T01:23:42Z",
+  "claim": "Zhipu's GLM 5.5 will reportedly be released shortly, and its coding ability is expected to be as good as frontier models.",
+  "lab": "Zhipu",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-11-15",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2110904482808901973",
+    "url": "https://x.com/bindureddy/status/2110904482808901973",
+    "created_at": "2026-10-16T01:23:42Z",
+    "text": "GLM 5.5 is coming….\n\nOpen source has been lagging behind but rumors are GLM 5.5 will be dropping shortly \n\nThey have had plenty of user data to do very good RL post training! \n\nSo the coding ability is expected to be as good as the frontier models",
+    "likes": 292,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:31:00Z",
+  "feed_date": "2026-10-16T11:31:00Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108983381245776293",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-16",
+   "official_date": null,
+   "explanation": "The post presents GLM 5.5 as a rumor expected to arrive shortly, with coding performance forecast to match frontier models. Neither release nor performance was confirmed by October 16, 2026; the stated November 15 deadline has not passed.",
+   "evidence": [
+    {
+     "title": "GLM 5.5 rumor overview",
+     "url": "https://llmlearner.com/models/glm-5-5"
+    },
+    {
+     "title": "Z.ai GLM 5.5 status review",
+     "url": "https://www.orcarouter.ai/blog/glm-5-5"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2110983672002482516",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-16T06:38:22Z",
+  "claim": "Claude Code’s Opus 5.5 is routing to a new model that is most likely Anthropic’s Fable 5.5, which is also in internal testing.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-14",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2110983672002482516",
+    "url": "https://x.com/pankajkumar_dev/status/2110983672002482516",
+    "created_at": "2026-10-16T06:38:22Z",
+    "text": "Fable 5.5 is coming next week.\n\n- It has shown up in Azure, as I found it in the MLflow Azure catalog, and it's also listed on Artificial Analysis under the codename \"claude-onigiri-eap-2\".\n- In Claude Code, Opus 5.5 is also routing to a new model, which is most likely Fable 5.5.\n- Pricing is gonna be same as Fable 5.1, as the Azure MLflow mentioned the same pricing.\n- It's also in internal testing, and with all these signs launch not too far, They're also targeting this month for the release.\n\nSo, there's a high chance Fable 5.5 launches next week.",
+    "likes": 54,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:30:20Z",
+  "feed_date": "2026-10-16T11:30:20Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "repeat_of": "pankajkumar_dev-2109298223898833339"
+ },
+ {
+  "id": "vraserx-2111026421799801270",
+  "handle": "VraserX",
+  "date": "2026-10-16T09:28:14Z",
+  "claim": "OpenAI will release GPT-6.1 Astra as an early checkpoint of GPT-6.5 Bell, followed by GPT-6.5 Bell itself before the end of 2026.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2026-12-31",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2111026421799801270",
+    "url": "https://x.com/VraserX/status/2111026421799801270",
+    "created_at": "2026-10-16T09:28:14Z",
+    "text": "OpenAI has two more models coming this year.\n\nGPT-6.1 Astra, an early checkpoint of GPT-6.5 Bell, followed by Bell itself before the end of 2026.\n\nI expect Bell to basically saturate science benchmarks across math, physics, biology, chemistry, etc.\n\nOpus 5.5-level taste or better, a massive jump in complex backend coding, AA to AAA-level game design capabilities, and superhuman computer use. Basically anything a human can do on a computer.\n\n2027 is going to be the year of ASI.",
+    "likes": 150,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-16T11:30:03Z",
+  "feed_date": "2026-10-16T11:30:03Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-16",
+   "official_date": null,
+   "explanation": "The post predicts GPT-6.1 Astra and GPT-6.5 Bell releases by December 31, 2026. Neither release is confirmed in the available record, but the deadline has not passed, so the prediction remains pending.",
+   "evidence": [
+    {
+     "title": "OpenAI won't release next Astra model over safety worries",
+     "url": "https://www.itpro.com/technology/artificial-intelligence/openai-wont-release-next-astra-model-over-safety-worries"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-16T11:39:47Z"
   }
  }
 ]
