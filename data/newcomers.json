@@ -27,7 +27,7 @@
   "handle": "LuminaBench",
   "name": "Lumina",
   "avatar": "https://pbs.twimg.com/profile_images/2062955151820787712/m39pUS7O_normal.jpg",
-  "followers": 13668,
+  "followers": 14026,
   "bio": "",
   "first_seen": "2026-10-10T21:55:34Z"
  },
@@ -126,5 +126,21 @@
   "followers": 12036,
   "bio": "",
   "first_seen": "2026-10-17T10:50:55Z"
+ },
+ "statswire": {
+  "handle": "StatsWire",
+  "name": "Stats Wire",
+  "avatar": "https://pbs.twimg.com/profile_images/1739307409783631872/-vcmtbTP_normal.jpg",
+  "followers": 3167,
+  "bio": "",
+  "first_seen": "2026-10-20T11:44:48Z"
+ },
+ "5149jamesli": {
+  "handle": "5149jamesli",
+  "name": "James Li",
+  "avatar": "https://pbs.twimg.com/profile_images/1795711375341498368/6-l0qkth_normal.jpg",
+  "followers": 230496,
+  "bio": "",
+  "first_seen": "2026-10-20T11:44:56Z"
  }
 }
