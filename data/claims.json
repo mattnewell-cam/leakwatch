@@ -210820,21 +210820,21 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "false",
-   "public_date": "2026-09-27",
+   "public_date": null,
    "official_date": null,
-   "explanation": "No model matching the prediction—one much more intelligent than Fable 5.5—was released in the stated week or by October 15. OpenAI delayed GPT-6.1 Astra, while its later October 8 update was Ultrafast mode for GPT-6.1 Sol, not a new model.",
+   "explanation": "The post predicted a model launch a week or two after the September 29 DevDay, and set a mid-October expectation. No model matching the claim—one much more intelligent than Fable 5.5—was released by the October 15 deadline; GPT-6.1 Sol was released on DevDay, while the later GPT-6 rollout was not the claimed model.",
    "evidence": [
     {
-     "title": "OpenAI delays latest model over security concerns",
-     "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5"
+     "title": "GPT-6.1 Sol — OpenAI",
+     "url": "https://openai.com/index/gpt-6-1-sol/"
     },
     {
-     "title": "OpenAI API changelog",
-     "url": "https://developers.openai.com/api/docs/changelog"
+     "title": "GPT-6 Astra — OpenAI",
+     "url": "https://openai.com/index/gpt-6-astra/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-15T11:47:08Z"
+   "resolved_at": "2026-10-22T12:05:13Z"
   },
   "feed_date": "2026-10-15T11:47:08Z"
  },
@@ -234093,7 +234093,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-17T10:57:16Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "tokengremlin-2111198655591932040",
@@ -234144,7 +234145,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-17T10:57:16Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "imjustnewatai-2111203601616183301",
@@ -234806,7 +234808,25 @@
   "first_seen": "2026-10-18T11:09:45Z",
   "feed_date": "2026-10-18T11:09:45Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2111651488531677664"
+  "story_id": "imjustnewatai-2111651488531677664",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-17",
+   "official_date": null,
+   "explanation": "Other accounts had already posted the same three Aurora model IDs before Curran’s post: @gptbotio at 7:49 p.m. Pacific on October 17, followed by @scaling01. Later reporting described the same IDs appearing in OpenAI’s API, but OpenAI has not officially announced them.",
+   "evidence": [
+    {
+     "title": "OpenAI Aurora Image Models Spotted: What Is Known",
+     "url": "https://www.llms.blog/posts/openai-aurora-image-models-spotted-in-api-and-arena-tests-what-is-reported-and-what-is-not"
+    },
+    {
+     "title": "OpenAI testing new “Aurora” GPT-Image model on Arena",
+     "url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
  },
  {
   "id": "chetaslua-2111661115117900177",
@@ -234884,7 +234904,25 @@
   "first_seen": "2026-10-18T11:11:39Z",
   "feed_date": "2026-10-18T11:11:39Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2111651488531677664"
+  "story_id": "imjustnewatai-2111651488531677664",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-17",
+   "official_date": null,
+   "explanation": "The Red/Green/Blue model IDs had been posted publicly before this post, including by @gptbotio and @scaling01 on October 17 Pacific time. The RGB/image-model and cybersecurity interpretations are speculation, not confirmed OpenAI information.",
+   "evidence": [
+    {
+     "title": "OpenAI Aurora Image Models Spotted: What Is Known",
+     "url": "https://www.llms.blog/posts/openai-aurora-image-models-spotted-in-api-and-arena-tests-what-is-reported-and-what-is-not"
+    },
+    {
+     "title": "OpenAI testing new “Aurora” GPT-Image model on Arena",
+     "url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
  },
  {
   "id": "chrisgpt-2111679781699781037",
@@ -234914,7 +234952,25 @@
   "first_seen": "2026-10-18T11:08:39Z",
   "feed_date": "2026-10-18T11:08:39Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2111651488531677664"
+  "story_id": "imjustnewatai-2111651488531677664",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-17",
+   "official_date": null,
+   "explanation": "The three Aurora IDs and their appearance in OpenAI’s API had already been reported before this post. The idea that they were planned as a response to Fable 5.5 is framed as an inference and remains unconfirmed; no official OpenAI confirmation was found.",
+   "evidence": [
+    {
+     "title": "OpenAI Aurora Image Models Spotted: What Is Known",
+     "url": "https://www.llms.blog/posts/openai-aurora-image-models-spotted-in-api-and-arena-tests-what-is-reported-and-what-is-not"
+    },
+    {
+     "title": "OpenAI testing new “Aurora” GPT-Image model on Arena",
+     "url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
  },
  {
   "id": "tokengremlin-2111686447828701663",
@@ -235119,7 +235175,25 @@
   "first_seen": "2026-10-19T13:21:31Z",
   "feed_date": "2026-10-19T13:21:31Z",
   "prune_checked": true,
-  "story_id": "imjustnewatai-2111651488531677664"
+  "story_id": "imjustnewatai-2111651488531677664",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-17",
+   "official_date": null,
+   "explanation": "The names and their appearance in OpenAI’s API were publicly reported before Haider’s post. The proposed links to GPT-6.1 Luna or future Codex-Spark successors are explicitly possibilities, not established information.",
+   "evidence": [
+    {
+     "title": "OpenAI Aurora Image Models Spotted: What Is Known",
+     "url": "https://www.llms.blog/posts/openai-aurora-image-models-spotted-in-api-and-arena-tests-what-is-reported-and-what-is-not"
+    },
+    {
+     "title": "OpenAI testing new “Aurora” GPT-Image model on Arena",
+     "url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
  },
  {
   "id": "legit_api-2111762253791838428",
@@ -235153,7 +235227,8 @@
   "first_seen": "2026-10-18T11:10:57Z",
   "feed_date": "2026-10-18T11:10:57Z",
   "prune_checked": true,
-  "repeat_of": "legit_api-2111193444345667813"
+  "repeat_of": "legit_api-2111193444345667813",
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "chrisgpt-2111762432045535669",
@@ -236099,7 +236174,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-20T11:50:54Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "amir-2112183795025903752",
@@ -236953,7 +237029,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-20T11:50:54Z"
-  }
+  },
+  "story_id": "chrisgpt-2108655565761020169"
  },
  {
   "id": "bindureddy-2112344405961322808-2",
@@ -237558,7 +237635,29 @@
   "first_seen": "2026-10-21T11:51:55Z",
   "feed_date": "2026-10-21T11:51:55Z",
   "prune_checked": true,
-  "story_id": "testingcatalog-2102673476221866015"
+  "story_id": "testingcatalog-2102673476221866015",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-20",
+   "official_date": null,
+   "explanation": "I found no earlier independent publication of this specific 0.72.0 preview, so this appears to be an original find, not already-public information. xAI’s public materials confirm Grok Bot’s computer use and bot files, but do not independently confirm that version 0.72.0 contained the full listed interface and feature set; with no deadline stated, the claim remains pending.",
+   "evidence": [
+    {
+     "title": "Introducing Grok Bot — xAI",
+     "url": "https://x.ai/news/introducing-grok-bot"
+    },
+    {
+     "title": "Use the computer and apps — xAI Docs",
+     "url": "https://docs.x.ai/grok-bot/computer-and-apps"
+    },
+    {
+     "title": "Frequently asked questions — xAI Docs",
+     "url": "https://docs.x.ai/grok-bot/faq"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
  },
  {
   "id": "daniel_mac8-2112606517530710130",
@@ -237746,7 +237845,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-21T12:02:55Z"
-  }
+  },
+  "story_id": "anissagardizy8-2112628025015591107"
  },
  {
   "id": "anissagardizy8-2112628025015591107-2",
@@ -237792,7 +237892,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-21T12:02:55Z"
-  }
+  },
+  "story_id": "anissagardizy8-2112628025015591107"
  },
  {
   "id": "synthwavedd-2112652993862455693",
@@ -238066,6 +238167,137 @@
   }
  },
  {
+  "id": "haider1-2112807814779527437",
+  "handle": "haider1",
+  "date": "2026-10-21T07:26:51Z",
+  "claim": "Google is preparing another model after Gemini 4, possibly a smaller model called Carbon and a model called Argon that could be Google's equivalent of Astra or Fable.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-19",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2112807814779527437",
+    "url": "https://x.com/haider1/status/2112807814779527437",
+    "created_at": "2026-10-21T07:26:51Z",
+    "text": "gemini 4 isn't even a month old and google is already preparing another model\n\nnot sure i'd expect a substantial jump this soon. my guess is carbon is a smaller model given the naming possibly flash or pro with argon being google's equivalent of astra/fable\n\nsergey brin really seems to be pushing the pace now",
+    "likes": 135,
+    "quoted": {
+     "handle": "lyraxana",
+     "text": "Gemini 4 Cabrón https://t.co/OLBxTYEngk",
+     "created_at": "2026-10-21T05:00:16Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:56:22Z",
+  "feed_date": "2026-10-22T11:56:22Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-09",
+   "official_date": null,
+   "explanation": "Google employee testing of an internal Gemini 4 model called Carbon had been reported publicly by October 9, before this post. Haider explicitly marks his claims about Carbon’s size and how it might relate to Argon as guesses, rather than insider-confirmed details.",
+   "evidence": [
+    {
+     "title": "Google Staff Test New Gemini 4 'Carbon' Build on Jetski",
+     "url": "https://aiweekly.co/alerts/google-tests-new-gemini-4-carbon-build-on-jetski"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2112808743523975243",
+  "handle": "testingcatalog",
+  "date": "2026-10-21T07:30:33Z",
+  "claim": "An unannounced OpenAI GPT-6.1 Terra model surfaced in a public Microsoft code update.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-19",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2112808743523975243",
+    "url": "https://x.com/testingcatalog/status/2112808743523975243",
+    "created_at": "2026-10-21T07:30:33Z",
+    "text": "DAILY AI BRIEF 🗞 — Oct 21\n\nOPENAI 🔥:\n- OpenAI acquired Orchestra Bio, a drug-development coordination platform, to build on its Rosalind life sciences models and tools.\n- Locked Chats are rolling out in ChatGPT across all plans, letting users protect chats with a PIN, Face ID, Touch ID or device unlock.\n- The OpenAI API now offers 12-hour prompt caching, so persistent agents can keep shared context cached at the lower rate for longer.\n- ChatGPT team tasks can now automate recurring engineering work, like a weekly roundup of what shipped and what's blocked.\n\nSPACEXSI 🔥:\n- SpaceX reported $14.6B in Q3 revenue, with its Super Intelligence segment (Cursor, Grok Bot and its neocloud) bringing in $7.5B.\n\nGOOGLE 🔥:\n- Gemini with Personal Intelligence is rolling out globally on Android Auto, with cars with Google built-in following in the coming months.\n- Google released llm-d 1.0, an open-source Kubernetes-native stack for distributed LLM inference, at the PyTorch Conference.\n\nMISTRAL 🔥:\n- Mistral released Voxtral 3, a family of speech-to-text and text-to-speech models powering its new voice agents API.\n\nPERPLEXITY 🔥:\n- Perplexity Computer on Mac can now run fully local, powered by PPLX Pro, a post-trained Qwen 3.8 model, for Pro, Max and Enterprise users.\n\nMETA 🔥:\n- Muse web is preparing Confidential VMs, an encrypted mode for running Muse tasks that will initially be limited to Meta AI subscribers.\n\nELEVENLABS 🔥:\n- ElevenLabs released Eleven Realtime v1 Max and Mini speech-to-speech models on its ElevenAgents platform and APIs.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.",
+    "likes": 141,
+    "quoted": {
+     "handle": "testingcatalog",
+     "text": "DAILY AI BRIEF 🗞 — Oct 20\n\nOPENAI 🔥:\n- ChatGPT Slides now supports real-time collaborative editing, comments and on-slide edits for Pro, Business and Enterprise plans.\n- OpenAI Platform recently added a \"Decisions\" API playground for testing its decision model with Predicate, Choice, and Score modes.\n- An unannounced GPT-6.1 Terra model surfaced in a public Microsoft code update that switched 18 evaluation configs to it before being reverted.\n- Reuters reports OpenAI is speeding up a new fundraising round ahead of Anthropic's expected IPO.\n\nANTHROPIC 🔥:\n- The Information reports Anthropic will",
+     "created_at": "2026-10-20T08:19:39Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:57:07Z",
+  "feed_date": "2026-10-22T11:57:07Z",
+  "prune_checked": true,
+  "repeat_of": "testingcatalog-2112458715223732309",
+  "story_id": "testingcatalog-2112458715223732309"
+ },
+ {
+  "id": "pankajkumar_dev-2112814139207045436",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-21T07:51:59Z",
+  "claim": "Google may release Gemini 4 Carbon between October 31 and November 7, 2026.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-11-07",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2112814139207045436",
+    "url": "https://x.com/pankajkumar_dev/status/2112814139207045436",
+    "created_at": "2026-10-21T07:51:59Z",
+    "text": "Gemini 4 Carbon Leaks: Its Not Far Away\n\n- Gemini 4 Carbon EAP has started and has been given to partners for testing. Its also being tested on LMArena, and I will do my best to get access to test this model.\n- Its on LMArena, so people will most likely get access to it soon.\n- The model is an upgrade over Argon and should fix the things Argon lacks. For now, its still bad at frontend, like Argon, but better at 3D.\n- It could be released at the end of this month or the beginning of November. The release isn't far away.\n\nI hope Gemini 4 Carbon is much better at frontend and coding and can match Opus 5.5. Argon was a good start, but it’s time to compete.",
+    "likes": 40,
+    "quoted": {
+     "handle": "Lentils80",
+     "text": "Gemini 4 Carbon EAP has officially started. Early access has been given to partners and it's being tested in LMArena. The release is very close.\n\nIt's noticeably better than Gemini 4 Argon at 3D, though frontend/UI is still bad. It's also slower but less lazy.",
+     "created_at": "2026-10-21T04:59:15Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:57:51Z",
+  "feed_date": "2026-10-22T11:57:51Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-21",
+   "official_date": null,
+   "explanation": "The quoted Carbon-testing claims were already circulating, but this post gives a specific possible release window—October 31 through November 7, 2026—that had not been independently confirmed by October 22. That window is still in the future, so the forecast remains pending.",
+   "evidence": [
+    {
+     "title": "Google Staff Test New Gemini 4 'Carbon' Build on Jetski",
+     "url": "https://aiweekly.co/alerts/google-tests-new-gemini-4-carbon-build-on-jetski"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
   "id": "mark_k-2112820819608945136",
   "handle": "mark_k",
   "date": "2026-10-21T08:18:32Z",
@@ -238199,5 +238431,593 @@
    "confidence": "high",
    "resolved_at": "2026-10-21T12:02:55Z"
   }
+ },
+ {
+  "id": "iruletheworldmo-2112864283117969839",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-21T11:11:14Z",
+  "claim": "Anthropic's Fable 5.5 is a big jump, was ready in February 2026, and is not weeks away from release.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-11-18",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2112864283117969839",
+    "url": "https://x.com/iruletheworldmo/status/2112864283117969839",
+    "created_at": "2026-10-21T11:11:14Z",
+    "text": "don’t listen to haters telling you we won’t have fable for weeks. they’re misinformed or evil. perhaps both. \n\ncertainly ignore the chair boy.",
+    "likes": 267,
+    "quoted": null
+   },
+   {
+    "id": "2112916628178715094",
+    "url": "https://x.com/iruletheworldmo/status/2112916628178715094",
+    "created_at": "2026-10-21T14:39:14Z",
+    "text": "fable 5.5 should be called fable 6. remember fable was ready in february. \n\nit’s a big jump is my point.",
+    "likes": 549,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:56:51Z",
+  "feed_date": "2026-10-22T11:56:51Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post claims Fable 5.5 is a major jump, was ready in February, and will arrive within weeks; its November 18 deadline is still in the future as of October 22. The model’s alleged February readiness and expected capabilities have not been independently confirmed.",
+   "evidence": [],
+   "confidence": "medium",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "shiringhaffary-2112911049058054317",
+  "handle": "shiringhaffary",
+  "date": "2026-10-21T14:17:04Z",
+  "claim": "Anthropic CEO Dario Amodei regularly posts long essays or debate threads internally on Slack.",
+  "lab": "Anthropic",
+  "topic": "people",
+  "specificity": 2,
+  "significance": 1,
+  "resolve_by": "2027-04-19",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2112911049058054317",
+    "url": "https://x.com/shiringhaffary/status/2112911049058054317",
+    "created_at": "2026-10-21T14:17:04Z",
+    "text": "Dario is known to post on long essays/debate threads internally on Slack. This kind response is unusual by normal CEO comms standards (especially just ahead of an expected mega IPO) but more typical for him, and the rhetoric of the broader AI safety discourse",
+    "likes": 25,
+    "quoted": {
+     "handle": "DarioAmodei",
+     "text": "Thank you for this, @_NathanCalvin. I appreciate and am a fan of the investigative work you’ve done on behalf of AI safety and believe your comments are coming from a constructive, honest place, and that it benefits the public to have people whose job is to scrutinize the actions of frontier AI companies. I think something would be wrong if companies of the size of Anthropic didn’t get harshly criticized basically every day; strong antibodies against corporate power are a healthy feature of a free society, and especially so when issues of the gravity of the one we’re facing are at play. I also",
+     "created_at": "2026-10-21T02:26:30Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:59:20Z",
+  "feed_date": "2026-10-22T11:59:20Z",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-21",
+   "official_date": null,
+   "explanation": "Ghaffary asserts that Amodei is known to write long essays or debate threads internally on Slack, but the public record located does not independently confirm that internal habit. The post is commentary about his public response, not evidence of the internal Slack practice itself.",
+   "evidence": [
+    {
+     "title": "Techmeme",
+     "url": "https://www.techmeme.com/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2112935944433353186",
+  "handle": "synthwavedd",
+  "date": "2026-10-21T15:56:00Z",
+  "claim": "Google DeepMind has a larger image-generation model in the works that is coming soon.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-19",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2112935944433353186",
+    "url": "https://x.com/synthwavedd/status/2112935944433353186",
+    "created_at": "2026-10-21T15:56:00Z",
+    "text": "Underappreciated how OpenAI dropped GPT-Image 2 and literally no competing model has been able to decisively beat it even 6 months later!\n\nHad some hope for Google but fumbled w/ Nano Banana 2.1, though a bigger image model is in the works at GDM coming soon(tm) https://t.co/IQmZfjhHnx",
+    "likes": 895,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:55:41Z",
+  "feed_date": "2026-10-22T11:55:41Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post claims Google DeepMind has a larger image model in development, but I found no independent confirmation of that specific claim before or after the post. “Coming soon(tm)” is not a clear release date, so it remains pending.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "morningbrew-2112944460006904008",
+  "handle": "MorningBrew",
+  "date": "2026-10-21T16:29:50Z",
+  "claim": "Anthropic’s leaked IPO filing reports a first-half 2026 net loss of $80.7 billion, first-half 2026 revenue of $16.3 billion, first-half 2026 expenses of $9 billion, total future infrastructure costs of $600 billion, and approximately $450 billion in cloud deals.",
+  "lab": "Anthropic",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-19",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2112944460006904008",
+    "url": "https://x.com/MorningBrew/status/2112944460006904008",
+    "created_at": "2026-10-21T16:29:50Z",
+    "text": "Anthropic's IPO filing leaked (again) — some key figures:\n\nNet Loss\n• 2026: $80.7 billion (first half)\n• 2025: $41.9 billion\n\nRevenue\n• 2026: $16.3 billion (first half)\n• 2025: $4.6 billion\n\nExpenses\n• 2026: $9 billion (first half)\n• 2025: $7.3 billion\n\nFuture Infrastructure Costs\n• Total: $600 billion\n• Cloud Deals: ~$450 billion",
+    "likes": 629,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:59:54Z",
+  "feed_date": "2026-10-22T11:59:54Z",
+  "prune_checked": true,
+  "story_id": "anissagardizy8-2112628025015591107",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-20",
+   "official_date": null,
+   "explanation": "The figures were already reported on October 20, when The Wall Street Journal reported details from Anthropic’s draft IPO prospectus; Morning Brew’s October 21 post relayed them. The reported $600 billion infrastructure figure and roughly $450 billion in cloud deals were also covered in reporting before the post.",
+   "evidence": [
+    {
+     "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Massive Computing Costs — The Wall Street Journal",
+     "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1"
+    },
+    {
+     "title": "Why Anthropic can’t afford to delay its IPO — Axios",
+     "url": "https://www.axios.com/2026/10/21/anthropic-ipo-ai-costs"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2112946681977430469",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-21T16:38:40Z",
+  "claim": "A Google Gemini 4 Carbon checkpoint is being tested on LMArena under the codename \"gemini-4-argon,\" and its 3D capabilities are better than Gemini 4 Argon's.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-19",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2112946681977430469",
+    "url": "https://x.com/pankajkumar_dev/status/2112946681977430469",
+    "created_at": "2026-10-21T16:38:40Z",
+    "text": "Gemini 4 Carbon checkpoint in Arena under the codename \"gemini-4-argon.\"\n\nI asked it to build an interactive 3D Crystal Citrus with realistic textures, lighting, reflections, and animations.\n\nThe output is good. Its 3D capabilities better than the Argon.\n\nTook around 20 minutes to build this.",
+    "likes": 110,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:57:51Z",
+  "feed_date": "2026-10-22T11:57:51Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "Gemini 4 Carbon’s existence and internal testing had already been reported on October 9, 2026, but I found no independent confirmation that this Arena checkpoint used the “gemini-4-argon” codename or outperformed Argon on 3D tasks. The specific Arena sighting and performance claim remain unconfirmed.",
+   "evidence": [
+    {
+     "title": "Business Insider: Google employees test Gemini 4 Carbon",
+     "url": "https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "derleomartin-2112989031965351988-2",
+  "handle": "derleomartin",
+  "date": "2026-10-21T19:26:57Z",
+  "claim": "The White House was informed about the vulnerabilities on October 16, 2026, and OpenAI coordinated their disclosure with CISA and the Office of the National Cyber Director.",
+  "lab": "OpenAI",
+  "topic": "policy_legal",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-10-16",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2112989031965351988",
+    "url": "https://x.com/derleomartin/status/2112989031965351988",
+    "created_at": "2026-10-21T19:26:57Z",
+    "text": "🚨 Europas Behörden gehen offline. Das wird sehr sehr sehr übel enden.\n\nZwei kritische Lücken in PHP. Codeausführung aus der Ferne, ohne Anmeldung oder Nutzerinteraktion. Betroffen sind laut BSI potenziell alle Versionen ab PHP 5, also zwanzig Jahre Code. \n\nDas BSI stuft die Lage als kritisch. Betroffen sind u.A.:\n\n→ Bundespolizei, Bundesinnenministerium, Zoll\n→ Robert-Koch-Institut\n→ Charité Berlin, Klinikum Nürnberg\n→ Berliner Feuerwehr, Berliner Tafel\n→ Universität Potsdam, weitere Universitäten\n→ Hessische Landesregierung, Thüringer Landesverwaltung samt Landespolizei\n→ Bayerische Behörden, Landratsamt Rhön-Grabfeld, Landkreis Dahme-Spreewald\n→ Städte Dresden, Mainz, München und weitere Kommunen\n\nUnd am selben Tag patchten Node.js zehn Lücken, vier davon kritisch, sowie Go.\n\nJetzt der Teil, über den kaum jemand redet.\n\nDie Lücken lagen über ein Jahrzehnt unentdeckt im Code. Gefunden wurden sie von OpenAIs GPT-5.6 Sol (!!!). Wiz nennt sie die schwerwiegendsten Lücken, die je mit dieser Technologie gefunden wurden.\n\nBRISANT IST: Das Weiße Haus wusste seit Freitag, dem 16. Oktober, Bescheid. OpenAI koordinierte die Offenlegung mit CISA und dem Office of the National Cyber Director. Fünf Tage, in denen eine Regierung wusste, dass drei Viertel des Internets offenstehen, und die anderen nicht. Am Ende ging die Sache durch ein Leak vorzeitig raus, deshalb JETZT der Notfallmodus.\n\nGenau hier zeigt sich, was es praktisch bedeutet, keine eigenen Modelle zu haben - Wovor ich nun seit Jahren warne!\n\nDiesmal ging es noch gut aus. Doch jeder der sich in Europa jetzt nicht auf sehr düstere Zeiten vorbereitet, bewegt sich auf Glatteis.",
+    "likes": 2786,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:59:46Z",
+  "feed_date": "2026-10-22T11:59:46Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-21",
+   "official_date": "2026-10-21",
+   "explanation": "OpenAI’s October 21 disclosure and same-day AP reporting confirmed that OpenAI coordinated with U.S. government cyber agencies, including the White House, on the PHP vulnerability response. They do not independently establish the post’s specific assertion that the White House was informed on October 16, so that precise timing remains unverified.",
+   "evidence": [
+    {
+     "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities — OpenAI",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+    },
+    {
+     "title": "FBI and NSA warn of vulnerabilities in PHP web programming language — AP News",
+     "url": "https://apnews.com/article/php-websites-fbi-europe-vulnerability-a0af9576808a0963efca8df14d4b5183"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "derleomartin-2112989031965351988-3",
+  "handle": "derleomartin",
+  "date": "2026-10-21T19:26:57Z",
+  "claim": "A leak caused the disclosure of the vulnerabilities to be released prematurely, prompting an emergency response.",
+  "lab": "OpenAI",
+  "topic": "other",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-19",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2112989031965351988",
+    "url": "https://x.com/derleomartin/status/2112989031965351988",
+    "created_at": "2026-10-21T19:26:57Z",
+    "text": "🚨 Europas Behörden gehen offline. Das wird sehr sehr sehr übel enden.\n\nZwei kritische Lücken in PHP. Codeausführung aus der Ferne, ohne Anmeldung oder Nutzerinteraktion. Betroffen sind laut BSI potenziell alle Versionen ab PHP 5, also zwanzig Jahre Code. \n\nDas BSI stuft die Lage als kritisch. Betroffen sind u.A.:\n\n→ Bundespolizei, Bundesinnenministerium, Zoll\n→ Robert-Koch-Institut\n→ Charité Berlin, Klinikum Nürnberg\n→ Berliner Feuerwehr, Berliner Tafel\n→ Universität Potsdam, weitere Universitäten\n→ Hessische Landesregierung, Thüringer Landesverwaltung samt Landespolizei\n→ Bayerische Behörden, Landratsamt Rhön-Grabfeld, Landkreis Dahme-Spreewald\n→ Städte Dresden, Mainz, München und weitere Kommunen\n\nUnd am selben Tag patchten Node.js zehn Lücken, vier davon kritisch, sowie Go.\n\nJetzt der Teil, über den kaum jemand redet.\n\nDie Lücken lagen über ein Jahrzehnt unentdeckt im Code. Gefunden wurden sie von OpenAIs GPT-5.6 Sol (!!!). Wiz nennt sie die schwerwiegendsten Lücken, die je mit dieser Technologie gefunden wurden.\n\nBRISANT IST: Das Weiße Haus wusste seit Freitag, dem 16. Oktober, Bescheid. OpenAI koordinierte die Offenlegung mit CISA und dem Office of the National Cyber Director. Fünf Tage, in denen eine Regierung wusste, dass drei Viertel des Internets offenstehen, und die anderen nicht. Am Ende ging die Sache durch ein Leak vorzeitig raus, deshalb JETZT der Notfallmodus.\n\nGenau hier zeigt sich, was es praktisch bedeutet, keine eigenen Modelle zu haben - Wovor ich nun seit Jahren warne!\n\nDiesmal ging es noch gut aus. Doch jeder der sich in Europa jetzt nicht auf sehr düstere Zeiten vorbereitet, bewegt sich auf Glatteis.",
+    "likes": 2786,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:59:46Z",
+  "feed_date": "2026-10-22T11:59:46Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-20",
+   "official_date": "2026-10-21",
+   "explanation": "Details of the PHP vulnerabilities leaked publicly on October 20, 2026, and reporting before this post said the PHP security release was moved forward; patches shipped October 21. The post’s account of the leak prompting the emergency response was therefore already public when it was posted.",
+   "evidence": [
+    {
+     "title": "SecurityWeek: PHP2Shell patches land after an early leak",
+     "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/"
+    },
+    {
+     "title": "Official PHP 8.5.12 release announcement",
+     "url": "https://news-web.php.net/php.announce/513"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2113004898929299492",
+  "handle": "testingcatalog",
+  "date": "2026-10-21T20:30:00Z",
+  "claim": "Anthropic's Claude Duet has the internal name “aibo.”",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-04-19",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113004898929299492",
+    "url": "https://x.com/testingcatalog/status/2113004898929299492",
+    "created_at": "2026-10-21T20:30:00Z",
+    "text": "ANTHROPIC 🔥: An early look at how agentic shopping flow with Stripe Link would work on Claude Duet, Anthropic's upcoming proactive agent. \n\nInteresting to see these hashtags under the agent - does it mean that we will see its UI designed around \"threaded\" conversations like on Slack? \n\nFun fact: Duet's internal name is \"aibo\".\n\nAPKPLZ 👀 https://t.co/H5FQREwhvl",
+    "likes": 369,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:57:07Z",
+  "feed_date": "2026-10-22T11:57:07Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-21",
+   "official_date": null,
+   "explanation": "Claude Duet was officially announced on October 21, but no independent source located confirms that its internal codename is “aibo.” The post points to an APK, but the codename claim could not be independently verified from a separate public source.",
+   "evidence": [
+    {
+     "title": "Introducing Claude Duet",
+     "url": "https://claude.com/de/resources/articles/claude-duet"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "chrisgpt-2113009890671128750",
+  "handle": "ChrisGPT",
+  "date": "2026-10-21T20:49:50Z",
+  "claim": "Grok Bot is rolling out Claude Opus 5.5 as its underlying reasoning model.",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-10-21",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113009890671128750",
+    "url": "https://x.com/ChrisGPT/status/2113009890671128750",
+    "created_at": "2026-10-21T20:49:50Z",
+    "text": "Wait a minute. Has nobody considered what Anthropic launching Claude Duet means for Grok Bot?\n\nGrok Bot is rolling out Claude Opus 5.5 as its underlying reasoning model. This was a great move by SpaceXai\n\nBut…Anthropic just announced Duet, a first-party agent built around that same model, with native memory, skills, connectors, and its own execution environment.\n\nWhy would I use Opus 5.5 through Grok Bot when I could use Anthropic’s own agent harness, which I’d expect to be better optimized for its models?\n\nIs this a “I don’t wanna play with you anymore situation”?",
+    "likes": 142,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:56:02Z",
+  "feed_date": "2026-10-22T11:56:02Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-07",
+   "official_date": null,
+   "explanation": "Grok Bot’s use of Claude Opus 5.5 had been reported publicly by October 7, well before this post. The earlier reporting described Opus 5.5 as an available backend; it did not establish that it was Grok Bot’s exclusive or universal underlying model.",
+   "evidence": [
+    {
+     "title": "Grok Bot just got a lot smarter thanks to Anthropic’s Claude",
+     "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/"
+    },
+    {
+     "title": "What does this mean? My grok bot runs on Opus 5.5 for my tasks now?",
+     "url": "https://www.reddit.com/r/GrokBot/comments/1wzsk17/what_does_this_mean_my_grok_bot_runs_on_opus_55/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "ns123abc-2113115967555301735",
+  "handle": "ns123abc",
+  "date": "2026-10-22T03:51:21Z",
+  "claim": "DeepSeek has just raised $15 billion to build data centers and open-source models, with Tencent and CATL participating.",
+  "lab": "DeepSeek",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2026-10-22",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113115967555301735",
+    "url": "https://x.com/ns123abc/status/2113115967555301735",
+    "created_at": "2026-10-22T03:51:21Z",
+    "text": "BREAKING: DeepSeek just raised $15 BILLION to aggressively build data centers and open-source models \n\n>walks into investor meetings in hangzhou\n>\"we need $7 billion\"\n>investors start sweating >\"actually make it $11 billion\"\n>Tencent nods immediately\n>\"you know what, $15 billion\"\n>CATL, a literal battery company, throws in a bag\n>everyone just kept nodding\n\nOne of the largest funding rounds in Chinese history btw.",
+    "likes": 3551,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:56:10Z",
+  "feed_date": "2026-10-22T11:56:10Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-22",
+   "official_date": null,
+   "explanation": "The approximately 100-billion-yuan ($15 billion) round and Tencent and CATL’s participation had been reported before this post on October 22. The post’s “BREAKING” claim relayed that reporting; the round was reported as still being finalized, not officially announced by DeepSeek.",
+   "evidence": [
+    {
+     "title": "DeepSeek raises about 100 billion yuan in funding round — Digest AI",
+     "url": "https://digestai.news/story/deepseek-raises-about-100-billion-yuan-in-funding-round"
+    },
+    {
+     "title": "DeepSeek wrapping up $15 billion fundraising to fuel AI race — Reuters",
+     "url": "https://srnnews.com/deepseek-raises-15-billion-in-challenge-to-leading-us-labs-bloomberg-news-reports/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "chetaslua-2113121227762278725",
+  "handle": "chetaslua",
+  "date": "2026-10-22T04:12:15Z",
+  "claim": "Kibitz appearing on Code Arena is likely a new Kimi model, and it is expected to be a very efficient model.",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113121227762278725",
+    "url": "https://x.com/chetaslua/status/2113121227762278725",
+    "created_at": "2026-10-22T04:12:15Z",
+    "text": "Kibitz a new mysterious model on code arena\n\nHigh chances it can be a new kimi model \n\nPrompt : code an svg of pelican riding bike as detailed as you can https://t.co/4tnIp7GRia",
+    "likes": 237,
+    "quoted": null
+   },
+   {
+    "id": "2113184816044949916",
+    "url": "https://x.com/chetaslua/status/2113184816044949916",
+    "created_at": "2026-10-22T08:24:55Z",
+    "text": "🚨 Kimi Kibitz JS Drawing ABilities is Top Notch \n\nIts one shot obviously as on arena you can not ask same ai model twice in battle mode\n\nThis is so fast , and i heard this will be going to very efficient model from my friends inside Kimi https://t.co/NSb1wzir2G",
+    "likes": 133,
+    "quoted": {
+     "handle": "chetaslua",
+     "text": "Kibitz a new mysterious model on code arena\n\nHigh chances it can be a new kimi model \n\nPrompt : code an svg of pelican riding bike as detailed as you can https://t.co/4tnIp7GRia",
+     "created_at": "2026-10-22T04:12:15Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:55:30Z",
+  "feed_date": "2026-10-22T11:55:30Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2110825688391381099",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post explicitly frames Kibitz being a new Kimi model as a probability, not confirmed inside information. It does claim, citing friends inside Kimi, that the model is intended to be very efficient; I found no independent confirmation of that claim yet.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2113164167762878768",
+  "handle": "imjustnewatai",
+  "date": "2026-10-22T07:02:52Z",
+  "claim": "Anthropic has an unreleased Fable 5.5 model, and its outputs look very good.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113164167762878768",
+    "url": "https://x.com/imjustnewatai/status/2113164167762878768",
+    "created_at": "2026-10-22T07:02:52Z",
+    "text": "More outputs of fable 5.5, every single one I’ve seen looks really good. I cannot wait to use the released model",
+    "likes": 45,
+    "quoted": {
+     "handle": "dummerspast39",
+     "text": "Secret Anthropic model - hogwarts voxel built, no visual feedback, web app, 35 minutes https://t.co/sEL7CEfcnv",
+     "created_at": "2026-10-22T06:43:32Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:57:21Z",
+  "feed_date": "2026-10-22T11:57:21Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-01",
+   "official_date": null,
+   "explanation": "The existence of a purported Fable 5.5 had already been publicly speculated about by October 1, including claims of secret testing. This post adds a positive reaction to circulated outputs, but does not independently establish that they came from Fable 5.5 or that Anthropic released it.",
+   "evidence": [
+    {
+     "title": "Fable 5.5 is being secretly tested similar to how Opus 5.5 was",
+     "url": "https://www.reddit.com/r/ClaudeCode/comments/1wve3q8/fable_55_is_being_secretly_tested_similar_to_how/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-22T12:05:13Z"
+  }
+ },
+ {
+  "id": "chrisgpt-2113180444858667485",
+  "handle": "ChrisGPT",
+  "date": "2026-10-22T08:07:33Z",
+  "claim": "Moonshot will release Kimi K3.1, described as a state-of-the-art low-cost open-source model, before October 27, 2026; the post shows it completing a Minecraft task in 13,707 blocks at a cost of $0.38.",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-10-26",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113180444858667485",
+    "url": "https://x.com/ChrisGPT/status/2113180444858667485",
+    "created_at": "2026-10-22T08:07:33Z",
+    "text": "🚨Kimi k3.1 (Kibitz on Arena) will release before Tuesday next week.\n\nIt will be a state of the art Open Source model at low cost. \n\n“build what you think you look like in Minecraft”\n\nGPT6 ASTRA\n5,738 BLOCKS • $5.31\n\nKIMI K3.1\n13,707 BLOCKS • $0.38 https://t.co/z3p1aCv4VX",
+    "likes": 274,
+    "quoted": {
+     "handle": "ChrisGPT",
+     "text": "Keep an eye on Arena for Kimi this week",
+     "created_at": "2026-10-20T07:59:55Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-22T11:56:02Z",
+  "feed_date": "2026-10-22T11:56:02Z",
+  "prune_checked": true,
+  "repeat_of": "chrisgpt-2110825688391381099",
+  "story_id": "chrisgpt-2110825688391381099"
  }
 ]
