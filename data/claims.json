@@ -205113,33 +205113,25 @@
   "origin": "tweet",
   "imported_at": "2026-10-10T20:48:31Z",
   "resolution": {
-   "verdict": "pending",
+   "verdict": "false",
    "public_date": null,
    "official_date": null,
-   "explanation": "resolve_by 2026-10-23 is after today (2026-10-10), so the 'coming soon' window has not closed.",
+   "explanation": "The post said Fable 5.5 was trained and coming soon, with a deadline of October 23. By that date Anthropic had not released Fable 5.5; its model listings still identified Fable 5.1 as the latest Fable model.",
    "evidence": [
     {
-     "title": "Anthropic newsroom",
-     "url": "https://www.anthropic.com/news?subjects=announcements"
+     "title": "Anthropic models",
+     "url": "https://www.anthropic.com/news/models"
     },
     {
-     "title": "Introducing Claude Sonnet 5.5 | Anthropic",
-     "url": "https://www.anthropic.com/claude-sonnet-5-5"
-    },
-    {
-     "title": "Introducing Claude Haiku 5.5 | Anthropic",
-     "url": "https://www.anthropic.com/claude-haiku-5-5"
+     "title": "Claude Fable",
+     "url": "https://www.anthropic.com/claude/fable"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-10T22:03:12Z",
-   "vetted": {
-    "by": "claude-audit",
-    "at": "2026-10-10T22:37:24Z",
-    "note": "resolve_by 2026-10-23 is after today (2026-10-10), so the 'coming soon' window has not closed."
-   }
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
   },
-  "prune_checked": true
+  "prune_checked": true,
+  "feed_date": "2026-10-23T11:54:03Z"
  },
  {
   "id": "chetaslua-2102817869893652811",
@@ -215293,7 +215285,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-11T01:40:23Z"
-  }
+  },
+  "story_id": "mark_k-2105340147168419981"
  },
  {
   "id": "andrewcurran_-2105352661881295269",
@@ -235551,7 +235544,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-19T13:29:34Z"
-  }
+  },
+  "story_id": "haider1-2111879073043767577-2"
  },
  {
   "id": "iruletheworldmo-2111891632543203751",
@@ -236434,26 +236428,22 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-20T11:43:27Z",
-  "feed_date": "2026-10-20T11:43:27Z",
+  "feed_date": "2026-10-23T11:54:03Z",
   "prune_checked": true,
   "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
-   "verdict": "pending",
-   "public_date": "2026-10-20",
+   "verdict": "already_public",
+   "public_date": "2026-10-19",
    "official_date": null,
-   "explanation": "The post predicts Fable 5.5 would arrive Tuesday, October 20, 2026. The release had not been confirmed in the available record, and because October 20 is the stated date, the claim is still pending rather than a settled miss.",
+   "explanation": "The quoted “Tomorrow” post had already circulated the claimed 2026-10-20 release timing by 2026-10-19. Fable 5.5 did not launch on October 20, but the claim was already public before this relay.",
    "evidence": [
     {
      "title": "Anthropic newsroom",
      "url": "https://www.anthropic.com/news"
-    },
-    {
-     "title": "LiteLLM pull request adding the Azure model entry",
-     "url": "https://github.com/BerriAI/litellm/pull/46201"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-20T11:50:54Z"
+   "resolved_at": "2026-10-23T11:54:03Z"
   }
  },
  {
@@ -237193,24 +237183,24 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-20T11:42:54Z",
-  "feed_date": "2026-10-20T11:42:54Z",
+  "feed_date": "2026-10-23T11:54:03Z",
   "resolution": {
-   "verdict": "pending",
-   "public_date": "2026-10-19",
+   "verdict": "unverifiable",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post describes an OpenAI all-hands during the week of October 12, 2026, and the three proposals match the account reported by The Information on October 19. The other coverage found relays that report rather than independently confirming the meeting details, so the claim remains unverified under the independent-confirmation rule.",
+   "explanation": "The post promotes Palazzolo and Efrati’s own report, published October 19, so that report does not independently verify the scoop or make it already public for this journalist’s post. Subsequent coverage located repeats The Information’s account rather than independently confirming what happened at the private all-hands.",
    "evidence": [
     {
-     "title": "Altman tells OpenAI staff there are three endgames for AI",
-     "url": "https://app.dealroom.co/news/note/altman-tells-openai-staff-there-are-three-endgames-for-ai-an-iaea-for-ai-a-merger-of-the-labs-or-one-firm-that-melts-everyone-else-s-gpus"
+     "title": "Altman Describes Three Endgames for AI, Including One Where a Single Firm ‘Melts Everyone Else’s GPUs’",
+     "url": "https://info-reader-production.herokuapp.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus"
     },
     {
-     "title": "Altman's Three AI Endgames: IAEA, CERN, Melted GPUs",
-     "url": "https://cellcog.ai/blog/altman-three-ai-endgames/"
+     "title": "OpenAI CEO Proposes Three Scenarios for Safe AI Development",
+     "url": "https://www.chosun.com/english/industry-en/2026/10/20/NYN3Y65RM5C2DMVH3NMAIWXQ6A/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-20T11:50:54Z"
+   "resolved_at": "2026-10-23T11:54:03Z"
   }
  },
  {
@@ -237324,7 +237314,7 @@
   "first_seen": "2026-10-21T11:53:43Z",
   "feed_date": "2026-10-21T11:53:43Z",
   "prune_checked": true,
-  "story_id": "testingcatalog-2112458715223732309",
+  "story_id": "steph_palazzolo-2112183963452059734-3",
   "resolution": {
    "verdict": "already_public",
    "public_date": "2026-10-19",
@@ -237433,7 +237423,7 @@
    "confidence": "high",
    "resolved_at": "2026-10-20T11:50:54Z"
   },
-  "story_id": "testingcatalog-2112458715223732309"
+  "story_id": "steph_palazzolo-2112183963452059734-3"
  },
  {
   "id": "teortaxestex-2112500462842958150",
@@ -237799,7 +237789,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-21T12:02:55Z"
-  }
+  },
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "anissagardizy8-2112628025015591107",
@@ -238247,7 +238238,7 @@
   "feed_date": "2026-10-22T11:57:07Z",
   "prune_checked": true,
   "repeat_of": "testingcatalog-2112458715223732309",
-  "story_id": "testingcatalog-2112458715223732309"
+  "story_id": "steph_palazzolo-2112183963452059734-3"
  },
  {
   "id": "pankajkumar_dev-2112814139207045436",
@@ -238840,6 +238831,93 @@
   }
  },
  {
+  "id": "bindureddy-2113089363529904156",
+  "handle": "bindureddy",
+  "date": "2026-10-22T02:05:38Z",
+  "claim": "Frontier AI labs have deployed teams of millions of agents powered by their top models to find vulnerabilities.",
+  "lab": "Other",
+  "topic": "other",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113089363529904156",
+    "url": "https://x.com/bindureddy/status/2113089363529904156",
+    "created_at": "2026-10-22T02:05:38Z",
+    "text": "After cracking all the math problems, Frontier Labs is running an unprecedented operation in the history of computing\n\nThey have deployed teams of millions of agents powered by their top models to find vulnerabilities\n\nSo yes, the good news is that they found some, and now everyone is scrambling to fix it!",
+    "likes": 232,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:45:16Z",
+  "feed_date": "2026-10-23T11:45:16Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "AI-assisted vulnerability discovery was publicly reported before this post, but the public reporting does not substantiate the specific claim that frontier labs deployed teams of millions of agents. The scale and deployment described remain unconfirmed.",
+   "evidence": [
+    {
+     "title": "Rush is on to patch a software vulnerability that could impact 70% of websites worldwide",
+     "url": "https://apnews.com/article/a0af9576808a0963efca8df14d4b5183"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "its_lakshya_ai-2113102545929601063",
+  "handle": "Its_lakshya_ai",
+  "date": "2026-10-22T02:58:01Z",
+  "claim": "Google is reportedly testing Gemini 4 Carbon on Arena under the name Gemini-4-Argon, and might release it in the next few weeks; the author says their testing found it better than Argon.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-11-12",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113102545929601063",
+    "url": "https://x.com/Its_lakshya_ai/status/2113102545929601063",
+    "created_at": "2026-10-22T02:58:01Z",
+    "text": "🚨 Gemini 4 Carbon is reportedly being tested on Arena under the name Gemini-4-Argon 👀\n\nGoogle might release it in the next few weeks.\n\nI've tested it myself and got some outputs.\n\nAnd yeah, it's definitely better than Argon. Could this be Google's Fable-class model? 🔥 https://t.co/yD6dFQW5py",
+    "likes": 499,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:47:25Z",
+  "feed_date": "2026-10-23T11:47:25Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post makes a test claim about Gemini 4 Carbon appearing on Arena under the Gemini-4-Argon name, and says Google might release it within the next few weeks. The claim had not been independently established before the post, and the November 12 release window had not elapsed by October 23.",
+   "evidence": [
+    {
+     "title": "Gemini 4 Carbon early test results are in ahead of public release",
+     "url": "https://www.testingcatalog.com/gemini-4-carbon-early-test-results/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
   "id": "ns123abc-2113115967555301735",
   "handle": "ns123abc",
   "date": "2026-10-22T03:51:21Z",
@@ -238938,6 +239016,108 @@
   }
  },
  {
+  "id": "aakashgupta-2113127960437989527",
+  "handle": "aakashgupta",
+  "date": "2026-10-22T04:39:00Z",
+  "claim": "The security firm Calif found the PHP flaw on August 1, 2026, using OpenAI's GPT-5.6 Sol.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113127960437989527",
+    "url": "https://x.com/aakashgupta/status/2113127960437989527",
+    "created_at": "2026-10-22T04:39:00Z",
+    "text": "The NSA just told companies to pull their websites offline if they can't patch them right away.\n\nThe reason is a bug that's been sitting in the code behind 70% of websites for 14 years. Last Friday a guy found it in one evening by typing five words into an AI.\n\nThose five words were \"find bad vulnerabilities in PHP.\" He's Dan Lorenc, CEO of a security company called Chainguard, and all he had going in was a rumor that something big was coming in PHP.\n\nA small firm called Calif had already found the same flaw back on August 1 using OpenAI's GPT-5.6 Sol. Wiz, the security company Google bought, found it on its own less than three weeks later with Gemini and GPT. Since then OpenAI, Wiz, Calif and PHP's maintainers have been quietly building a fix that Lorenc himself called \"crazy.\"\n\nYou'd think a bug this bad would've gotten caught sometime since 2012. PHP is open source, so anyone on earth could read this code. Wiz says turning the flaw into a working attack took a chain of steps right at the edge of what human researchers could realistically pull off. For 14 years the sheer amount of work was doing most of the protecting.\n\nAI made that work cheap enough to knock out on a Friday night, for anyone who knows where to point it.\n\nAnd the rumor got out. Bug ID numbers started floating around online Tuesday. Hours later one of the research teams posted a video of the exploit by mistake, and PHP moved its release up a day. Early Wednesday, Chainguard pushed its fix out more than six hours ahead of everyone else, saying people were already getting attacked, and Lorenc says his company's decoy servers caught IP addresses from China and Russia going after the flaw.\n\nHere's why the NSA went straight to \"unplug it.\" VirusTotal counted about 758,000 exposed servers running old PHP versions, 5.4 through 8.1, that don't get security updates anymore. Only around 272,000 are on versions that do. So for roughly three out of four servers that show their version number, there's no patch to install, and pulling the plug is the only fix they've got.\n\nThis is happening everywhere at once, too. Microsoft just fixed 1,413 vulnerabilities in a single month, more than in any full year on record. OpenAI says it expects finds like this one to jump sharply over the next few months.\n\nEvery company sitting on a secret bug now has until the first rumor leaks and somebody with an AI subscription goes looking.",
+    "likes": 697,
+    "quoted": {
+     "handle": "NSACyber",
+     "text": "Effective Immediately, all organizations using PHP for their systems are advised to be prepared for an update addressing two critical vulnerabilities. PHP is widely used for web applications. These vulnerabilities often provide a direct path to the server's file system or database. If an immediate update is not feasible, it is recommend that organizations take the system offline until it can be fully mitigated. NSA will follow up shortly with more specific guidance.",
+     "created_at": "2026-10-21T13:45:58Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:46:52Z",
+  "feed_date": "2026-10-23T11:46:52Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-21",
+   "official_date": "2026-10-21",
+   "explanation": "OpenAI publicly said on October 21 that Calif identified a critical PHP flaw using GPT-5.6 Sol; the post followed on October 22. The exact August 1 discovery date is reported in later coverage, while the PHP Foundation’s account dates Calif’s report to August 11.",
+   "evidence": [
+    {
+     "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+    },
+    {
+     "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+     "url": "https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "aakashgupta-2113127960437989527-2",
+  "handle": "aakashgupta",
+  "date": "2026-10-22T04:39:00Z",
+  "claim": "Wiz independently found the PHP flaw using Google's Gemini less than three weeks after Calif found it.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113127960437989527",
+    "url": "https://x.com/aakashgupta/status/2113127960437989527",
+    "created_at": "2026-10-22T04:39:00Z",
+    "text": "The NSA just told companies to pull their websites offline if they can't patch them right away.\n\nThe reason is a bug that's been sitting in the code behind 70% of websites for 14 years. Last Friday a guy found it in one evening by typing five words into an AI.\n\nThose five words were \"find bad vulnerabilities in PHP.\" He's Dan Lorenc, CEO of a security company called Chainguard, and all he had going in was a rumor that something big was coming in PHP.\n\nA small firm called Calif had already found the same flaw back on August 1 using OpenAI's GPT-5.6 Sol. Wiz, the security company Google bought, found it on its own less than three weeks later with Gemini and GPT. Since then OpenAI, Wiz, Calif and PHP's maintainers have been quietly building a fix that Lorenc himself called \"crazy.\"\n\nYou'd think a bug this bad would've gotten caught sometime since 2012. PHP is open source, so anyone on earth could read this code. Wiz says turning the flaw into a working attack took a chain of steps right at the edge of what human researchers could realistically pull off. For 14 years the sheer amount of work was doing most of the protecting.\n\nAI made that work cheap enough to knock out on a Friday night, for anyone who knows where to point it.\n\nAnd the rumor got out. Bug ID numbers started floating around online Tuesday. Hours later one of the research teams posted a video of the exploit by mistake, and PHP moved its release up a day. Early Wednesday, Chainguard pushed its fix out more than six hours ahead of everyone else, saying people were already getting attacked, and Lorenc says his company's decoy servers caught IP addresses from China and Russia going after the flaw.\n\nHere's why the NSA went straight to \"unplug it.\" VirusTotal counted about 758,000 exposed servers running old PHP versions, 5.4 through 8.1, that don't get security updates anymore. Only around 272,000 are on versions that do. So for roughly three out of four servers that show their version number, there's no patch to install, and pulling the plug is the only fix they've got.\n\nThis is happening everywhere at once, too. Microsoft just fixed 1,413 vulnerabilities in a single month, more than in any full year on record. OpenAI says it expects finds like this one to jump sharply over the next few months.\n\nEvery company sitting on a secret bug now has until the first rumor leaks and somebody with an AI subscription goes looking.",
+    "likes": 697,
+    "quoted": {
+     "handle": "NSACyber",
+     "text": "Effective Immediately, all organizations using PHP for their systems are advised to be prepared for an update addressing two critical vulnerabilities. PHP is widely used for web applications. These vulnerabilities often provide a direct path to the server's file system or database. If an immediate update is not feasible, it is recommend that organizations take the system offline until it can be fully mitigated. NSA will follow up shortly with more specific guidance.",
+     "created_at": "2026-10-21T13:45:58Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:46:52Z",
+  "feed_date": "2026-10-23T11:46:52Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-21",
+   "official_date": "2026-10-21",
+   "explanation": "This relays details disclosed publicly the day before: Wiz says it independently found a PHP vulnerability on 2026-08-19 using Gemini 4 Argon and GPT-5.6 Sol, eight days after Calif’s 2026-08-11 report. The specific discovery claim was already public before the 2026-10-22 post.",
+   "evidence": [
+    {
+     "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet | Wiz",
+     "url": "https://www.wiz.io/blog/php2shell-php-rce"
+    },
+    {
+     "title": "Patch the Planet: Coordinated global response to critical vulnerabilities discovered by agents | OpenAI",
+     "url": "https://openai.com/ru-RU/index/coordinated-disclosure-of-critical-vulnerabilities/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
   "id": "imjustnewatai-2113164167762878768",
   "handle": "imjustnewatai",
   "date": "2026-10-22T07:02:52Z",
@@ -239019,5 +239199,1797 @@
   "prune_checked": true,
   "repeat_of": "chrisgpt-2110825688391381099",
   "story_id": "chrisgpt-2110825688391381099"
+ },
+ {
+  "id": "haider1-2113221397036372478",
+  "handle": "haider1",
+  "date": "2026-10-22T10:50:17Z",
+  "claim": "Anthropic will soon launch Fable 5.5.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-11-22",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113221397036372478",
+    "url": "https://x.com/haider1/status/2113221397036372478",
+    "created_at": "2026-10-22T10:50:17Z",
+    "text": "opus 5.5 is the perfect combination of usage and quality\n\nit has an amazing intelligence-to-cost ratio. sure it gets things wrong more often than fable would but the cost savings are worth it\n\nfable 5.5 needs to be something truly special to justify the higher usage consumption",
+    "likes": 164,
+    "quoted": null
+   },
+   {
+    "id": "2113401260313600003",
+    "url": "https://x.com/haider1/status/2113401260313600003",
+    "created_at": "2026-10-22T22:45:00Z",
+    "text": "not sure why openai is still struggling to get astra 6.1 out\n\ni get the safety concerns especially with models becoming more autonomous and harder to keep within scope but the delay is starting to hurt their momentum and another cost-saving model (Terra) isn't going to save them for long\n\nanthropic soon to launch fable 5.5",
+    "likes": 141,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:43:25Z",
+  "feed_date": "2026-10-23T11:43:25Z",
+  "prune_checked": true,
+  "repeat_of": "haider1-2112450267165917518",
+  "story_id": "synthwavedd-2104647832103956631"
+ },
+ {
+  "id": "chetaslua-2113229122596163955",
+  "handle": "chetaslua",
+  "date": "2026-10-22T11:20:59Z",
+  "claim": "Anthropic's Claude Opus 5.5 was routing requests to Claude Fable 5.5 during testing around October 19, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113229122596163955",
+    "url": "https://x.com/chetaslua/status/2113229122596163955",
+    "created_at": "2026-10-22T11:20:59Z",
+    "text": "Full guide: how to unlock extreme focus on command by @thedankoe \n\nI was testing opus 5.5 few days ago when it was routing to Fable 5.5 , i gave it dan article said it to animate for my adhd so that i dont get distracted and learn what he said \n\nAnimation is so high quality",
+    "likes": 167,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:41:42Z",
+  "feed_date": "2026-10-23T11:41:42Z",
+  "prune_checked": true,
+  "repeat_of": "chetaslua-2109244702235275680",
+  "story_id": "synthwavedd-2104647832103956631"
+ },
+ {
+  "id": "priyannkaaaa-2113231391777341810",
+  "handle": "Priyannkaaaa",
+  "date": "2026-10-22T11:30:00Z",
+  "claim": "xAI is developing Grok 4.8 as its next flagship model, with 2.5 trillion parameters, up from 2.1 trillion in Grok 4.7 and 1.5 trillion in Grok 4.6.",
+  "lab": "xAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113231391777341810",
+    "url": "https://x.com/Priyannkaaaa/status/2113231391777341810",
+    "created_at": "2026-10-22T11:30:00Z",
+    "text": "🚨 Grok 4.8 leak beat fable 5.1\n\n>SpaceXAI’s next flagship is in the works\n>Musk says it has 2.5 trillion parameters, up from 2.1T in Grok 4.7 and 1.5T in Grok 4.6\n>It was built on an in-house C++ software stack, written from scratch by xAI\n>After training ends, it goes straight into reinforcement learning\n>Past launches landed 3 to 6 weeks after training finished, which points to October\n>Musk says Grok 4.8, 4.9 and Grok 5 will all target frontier leadership\n>Worth noting: no model card, API identifier or price has been published yet",
+    "likes": 463,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:47:13Z",
+  "feed_date": "2026-10-23T11:47:13Z",
+  "prune_checked": true,
+  "story_id": "mark_k-2105340147168419981",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-14",
+   "official_date": null,
+   "explanation": "Musk had publicly described Grok 4.8 as a 2.5-trillion-parameter model before this October 22 post. The post’s “Musk says” framing relays that earlier information; xAI had not officially announced or shipped the model.",
+   "evidence": [
+    {
+     "title": "Grok 4.8: The 2.5T Model Musk Just Named",
+     "url": "https://cellcog.ai/blog/grok-4-8-release-date/"
+    },
+    {
+     "title": "Grok 4.8 to Feature 2.5T Parameters and New C++ Software Stack",
+     "url": "https://www.progressiverobot.com/2026/09/14/grok-4-8-2-5t-model-cpp-software-stack/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "priyannkaaaa-2113231391777341810-2",
+  "handle": "Priyannkaaaa",
+  "date": "2026-10-22T11:30:00Z",
+  "claim": "Grok 4.8 was built on an in-house C++ software stack written from scratch by xAI, and will go directly into reinforcement learning after training finishes.",
+  "lab": "xAI",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113231391777341810",
+    "url": "https://x.com/Priyannkaaaa/status/2113231391777341810",
+    "created_at": "2026-10-22T11:30:00Z",
+    "text": "🚨 Grok 4.8 leak beat fable 5.1\n\n>SpaceXAI’s next flagship is in the works\n>Musk says it has 2.5 trillion parameters, up from 2.1T in Grok 4.7 and 1.5T in Grok 4.6\n>It was built on an in-house C++ software stack, written from scratch by xAI\n>After training ends, it goes straight into reinforcement learning\n>Past launches landed 3 to 6 weeks after training finished, which points to October\n>Musk says Grok 4.8, 4.9 and Grok 5 will all target frontier leadership\n>Worth noting: no model card, API identifier or price has been published yet",
+    "likes": 463,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:47:13Z",
+  "feed_date": "2026-10-23T11:47:13Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-14",
+   "official_date": null,
+   "explanation": "Musk had publicly said Grok 4.8 used a new C++ software stack and would move to reinforcement learning after training, on September 14. This October 22 post relays information that was already public; xAI has not independently confirmed the technical details in an official release.",
+   "evidence": [
+    {
+     "title": "Grok 4.8 to Feature 2.5T Parameters and New C++ Software Stack",
+     "url": "https://www.progressiverobot.com/2026/09/14/grok-4-8-2-5t-model-cpp-software-stack/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "priyannkaaaa-2113231391777341810-3",
+  "handle": "Priyannkaaaa",
+  "date": "2026-10-22T11:30:00Z",
+  "claim": "Grok 4.8 is expected to launch in October 2026, based on prior launches occurring three to six weeks after training finished.",
+  "lab": "xAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-31",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113231391777341810",
+    "url": "https://x.com/Priyannkaaaa/status/2113231391777341810",
+    "created_at": "2026-10-22T11:30:00Z",
+    "text": "🚨 Grok 4.8 leak beat fable 5.1\n\n>SpaceXAI’s next flagship is in the works\n>Musk says it has 2.5 trillion parameters, up from 2.1T in Grok 4.7 and 1.5T in Grok 4.6\n>It was built on an in-house C++ software stack, written from scratch by xAI\n>After training ends, it goes straight into reinforcement learning\n>Past launches landed 3 to 6 weeks after training finished, which points to October\n>Musk says Grok 4.8, 4.9 and Grok 5 will all target frontier leadership\n>Worth noting: no model card, API identifier or price has been published yet",
+    "likes": 463,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:47:13Z",
+  "feed_date": "2026-10-23T11:47:13Z",
+  "prune_checked": true,
+  "story_id": "mark_k-2105340147168419981",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-14",
+   "official_date": null,
+   "explanation": "The October-launch inference was already being discussed publicly in September based on Musk’s statements about training and prior launch timing. This post repeats that public speculation; Grok 4.8 had not launched by October 23.",
+   "evidence": [
+    {
+     "title": "Grok 4.8: The 2.5T Model Musk Just Named",
+     "url": "https://cellcog.ai/blog/grok-4-8-release-date/"
+    },
+    {
+     "title": "Grok 4.8 Leak: 2.5T Model, C++ Stack, Training Finishes This Week",
+     "url": "https://www.orcarouter.ai/blog/grok-4-8-leak"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "priyannkaaaa-2113231391777341810-4",
+  "handle": "Priyannkaaaa",
+  "date": "2026-10-22T11:30:00Z",
+  "claim": "Grok 4.8 outperforms Claude Fable 5.1.",
+  "lab": "xAI",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113231391777341810",
+    "url": "https://x.com/Priyannkaaaa/status/2113231391777341810",
+    "created_at": "2026-10-22T11:30:00Z",
+    "text": "🚨 Grok 4.8 leak beat fable 5.1\n\n>SpaceXAI’s next flagship is in the works\n>Musk says it has 2.5 trillion parameters, up from 2.1T in Grok 4.7 and 1.5T in Grok 4.6\n>It was built on an in-house C++ software stack, written from scratch by xAI\n>After training ends, it goes straight into reinforcement learning\n>Past launches landed 3 to 6 weeks after training finished, which points to October\n>Musk says Grok 4.8, 4.9 and Grok 5 will all target frontier leadership\n>Worth noting: no model card, API identifier or price has been published yet",
+    "likes": 463,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:47:13Z",
+  "feed_date": "2026-10-23T11:47:13Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The headline implies Grok 4.8 beats Claude Fable 5.1, but the post supplies no benchmark or independent evidence for that comparison. Grok 4.8 was still unreleased, so the performance assertion remains unverified and could still be tested publicly.",
+   "evidence": [
+    {
+     "title": "Grok 4.8: The 2.5T Model Musk Just Named",
+     "url": "https://cellcog.ai/blog/grok-4-8-release-date"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "priyannkaaaa-2113231391777341810-5",
+  "handle": "Priyannkaaaa",
+  "date": "2026-10-22T11:30:00Z",
+  "claim": "Musk says Grok 4.8, Grok 4.9, and Grok 5 are all intended to target frontier leadership.",
+  "lab": "xAI",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113231391777341810",
+    "url": "https://x.com/Priyannkaaaa/status/2113231391777341810",
+    "created_at": "2026-10-22T11:30:00Z",
+    "text": "🚨 Grok 4.8 leak beat fable 5.1\n\n>SpaceXAI’s next flagship is in the works\n>Musk says it has 2.5 trillion parameters, up from 2.1T in Grok 4.7 and 1.5T in Grok 4.6\n>It was built on an in-house C++ software stack, written from scratch by xAI\n>After training ends, it goes straight into reinforcement learning\n>Past launches landed 3 to 6 weeks after training finished, which points to October\n>Musk says Grok 4.8, 4.9 and Grok 5 will all target frontier leadership\n>Worth noting: no model card, API identifier or price has been published yet",
+    "likes": 463,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:47:13Z",
+  "feed_date": "2026-10-23T11:47:13Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-14",
+   "official_date": null,
+   "explanation": "Musk had publicly described Grok 4.8 as a noticeable improvement, Grok 4.9 as probably reaching Astra/Fable class, and Grok 5 as potentially better than anything on September 14. The post’s “frontier leadership” phrasing summarizes those earlier public remarks.",
+   "evidence": [
+    {
+     "title": "Elon Musk post on Grok 4.8, 4.9, and 5",
+     "url": "https://x.noodl3.net/elonmusk/status/2099458047408013751"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "teortaxestex-2113232914506760485",
+  "handle": "teortaxesTex",
+  "date": "2026-10-22T11:36:03Z",
+  "claim": "Anthropic's Claude Fable has 2 trillion parameters, and Claude Mythos-Preview has 10 trillion parameters.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113232914506760485",
+    "url": "https://x.com/teortaxesTex/status/2113232914506760485",
+    "created_at": "2026-10-22T11:36:03Z",
+    "text": "Fable is 2T\nMythos-Preview is 10T\nUphold Lisan Thought",
+    "likes": 346,
+    "quoted": {
+     "handle": "facedevstuff",
+     "text": "Claude haiku is 30b, sonnet is 300b and opus is 700b. Anthropic is profitable and the IPO will be a success. AGI is imminent and RSI has already been achieved.",
+     "created_at": "2026-10-22T07:12:57Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:42:42Z",
+  "feed_date": "2026-10-23T11:42:42Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-10",
+   "official_date": null,
+   "explanation": "The parameter figures were already circulating as estimates before this post: a September 10 post publicly guessed Fable at roughly 2–2.5T parameters, while Mythos Preview’s 10T estimate had been published earlier. Anthropic has not officially disclosed these model parameter counts, so the figures remain unconfirmed estimates.",
+   "evidence": [
+    {
+     "title": "September 10 public estimate of Fable’s parameter count",
+     "url": "https://zamantika.com/jietang/status/2097870259931988235"
+    },
+    {
+     "title": "April 18 article describing the 10T Mythos estimate",
+     "url": "https://agentmarketcap.ai/blog/2026/04/18/claude-mythos-5-10t-parameters-capabara-scaling-laws"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "bindureddy-2113235525876453573",
+  "handle": "bindureddy",
+  "date": "2026-10-22T11:46:26Z",
+  "claim": "OpenAI is running swarms of agents to hack into every system and find exploits.",
+  "lab": "OpenAI",
+  "topic": "other",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113235525876453573",
+    "url": "https://x.com/bindureddy/status/2113235525876453573",
+    "created_at": "2026-10-22T11:46:26Z",
+    "text": "OpenAI appears to be doing some real heavy lifting \n\nThey are running swarms of agents that are trying to hack into every system \n\nOnce the AI finds an exploit, you can patch it \n\nThe is so much better than random fear mongering and restricting access to models",
+    "likes": 400,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:45:16Z",
+  "feed_date": "2026-10-23T11:45:16Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "partly_true",
+   "public_date": "2026-10-21",
+   "official_date": null,
+   "explanation": "OpenAI had publicly described an initiative using AI to help find serious software vulnerabilities, but the post’s claim that it was running swarms to hack into every system overstates the published scope. The cited initiative described coordinated research and specific vulnerability work, not indiscriminate testing of every system.",
+   "evidence": [
+    {
+     "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "kimmonismus-2113236129004532203",
+  "handle": "kimmonismus",
+  "date": "2026-10-22T11:48:49Z",
+  "claim": "Chinese AI labs are reportedly about to release their next models within seven days of October 22, 2026.",
+  "lab": "Other",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-10-29",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113236129004532203",
+    "url": "https://x.com/kimmonismus/status/2113236129004532203",
+    "created_at": "2026-10-22T11:48:49Z",
+    "text": "I'm hearing more and more credible rumors that the next Chinese models are about to be released and will be out in less than &gt;7 days.\n\nGiven the recent hacking attacks, this will likely have been just the prelude. Brace yourself.",
+    "likes": 897,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:55Z",
+  "feed_date": "2026-10-23T11:44:55Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post predicts Chinese AI models will be released within seven days of October 22, 2026—by October 29. As of October 23, that deadline has not passed, and the claim has not been independently confirmed.",
+   "evidence": [],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "ai_for_success-2113237882345496692",
+  "handle": "ai_for_success",
+  "date": "2026-10-22T11:55:47Z",
+  "claim": "Anthropic will release Claude Fable 5.5 by October 31, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-10-31",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113237882345496692",
+    "url": "https://x.com/ai_for_success/status/2113237882345496692",
+    "created_at": "2026-10-22T11:55:47Z",
+    "text": "FABLE 5.5\nGEMINI CARBON\nKIMI K3.1\nQWEN 4 \n\nWhat else is coming this month? 👀",
+    "likes": 244,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:43:55Z",
+  "feed_date": "2026-10-23T11:43:55Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-13",
+   "official_date": null,
+   "explanation": "The post implies Fable 5.5 is coming by the end of October, but the Fable 5.5 rumor was already circulating publicly before October 22. Anthropic had not officially announced or released that model by October 23.",
+   "evidence": [
+    {
+     "title": "Fable 5.5 should be released any moment",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5145b/fable_55_should_be_released_any_moment/"
+    },
+    {
+     "title": "Anthropic models",
+     "url": "https://www.anthropic.com/news/models"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "ai_for_success-2113237882345496692-2",
+  "handle": "ai_for_success",
+  "date": "2026-10-22T11:55:47Z",
+  "claim": "Google will release Gemini Carbon by October 31, 2026.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-10-31",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113237882345496692",
+    "url": "https://x.com/ai_for_success/status/2113237882345496692",
+    "created_at": "2026-10-22T11:55:47Z",
+    "text": "FABLE 5.5\nGEMINI CARBON\nKIMI K3.1\nQWEN 4 \n\nWhat else is coming this month? 👀",
+    "likes": 244,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:43:55Z",
+  "feed_date": "2026-10-23T11:43:55Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-22",
+   "official_date": null,
+   "explanation": "The post implies Gemini Carbon is coming by October 31, but the Gemini 4 Carbon name and testing claims had already appeared publicly on October 22 before this aggregator’s 11:55 UTC post. Google had not officially announced a Carbon release by October 23.",
+   "evidence": [
+    {
+     "title": "Gemini 4 Carbon early test results are in ahead of public release",
+     "url": "https://www.testingcatalog.com/gemini-4-carbon-early-test-results/"
+    },
+    {
+     "title": "Gemini 4 Argon vs Gemini 4 Carbon",
+     "url": "https://aivs.tv/vs/gemini-4-argon-vs-gemini-4-carbon/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "ai_for_success-2113237882345496692-3",
+  "handle": "ai_for_success",
+  "date": "2026-10-22T11:55:47Z",
+  "claim": "Moonshot will release Kimi K3.1 by October 31, 2026.",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-10-31",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113237882345496692",
+    "url": "https://x.com/ai_for_success/status/2113237882345496692",
+    "created_at": "2026-10-22T11:55:47Z",
+    "text": "FABLE 5.5\nGEMINI CARBON\nKIMI K3.1\nQWEN 4 \n\nWhat else is coming this month? 👀",
+    "likes": 244,
+    "quoted": null
+   },
+   {
+    "id": "2113446801189830937",
+    "url": "https://x.com/ai_for_success/status/2113446801189830937",
+    "created_at": "2026-10-23T01:45:58Z",
+    "text": "Kimi just dropped a teaser that might be the first signal of Kimi K3.1.\n\nLFG 🚀🚀🚀 https://t.co/ihhrRqPJnP",
+    "likes": 182,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:43:55Z",
+  "feed_date": "2026-10-23T11:43:55Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2110825688391381099",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-19",
+   "official_date": null,
+   "explanation": "Kimi K3.1 and a report that Moonshot’s next Kimi model was expected before the end of October were public before this post. The October 23 teaser was a later signal, not the first public mention.",
+   "evidence": [
+    {
+     "title": "Kimi K3.1 Leak: Subscriptions Back, Successor Training",
+     "url": "https://www.orcarouter.ai/blog/kimi-next-model-october-leak"
+    },
+    {
+     "title": "Kimi K3.1 identifier reportedly surfaces in Moonshot API registry",
+     "url": "https://technode.com/2026/09/29/kimi-k3-1-identifier-reportedly-surfaces-in-moonshot-api-registry/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "ai_for_success-2113237882345496692-4",
+  "handle": "ai_for_success",
+  "date": "2026-10-22T11:55:47Z",
+  "claim": "Alibaba will release Qwen 4 by October 31, 2026.",
+  "lab": "Alibaba",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-10-31",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113237882345496692",
+    "url": "https://x.com/ai_for_success/status/2113237882345496692",
+    "created_at": "2026-10-22T11:55:47Z",
+    "text": "FABLE 5.5\nGEMINI CARBON\nKIMI K3.1\nQWEN 4 \n\nWhat else is coming this month? 👀",
+    "likes": 244,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:43:55Z",
+  "feed_date": "2026-10-23T11:43:55Z",
+  "prune_checked": true,
+  "story_id": "aibattle_-2099916924700524706",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-06",
+   "official_date": null,
+   "explanation": "The post implies Qwen 4 is coming by the end of October, but that timing had already circulated in an October 6 Reddit post. Alibaba had also publicly said on September 22 that Qwen 4 was in training; neither establishes an October release.",
+   "evidence": [
+    {
+     "title": "Qwen 4 apparently coming out at the end of October",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz1pqn/qwen_4_apparently_coming_out_at_the_end_of_october/"
+    },
+    {
+     "title": "Alibaba Unveils Roadmap on Full-Stack AI Strategy",
+     "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy?_p_lc=1"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2113241512527929745",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-22T12:10:13Z",
+  "claim": "Anthropic’s Fable 5.5 had escaped or become accessible outside the lab, with an event or release expected on October 22, though it might not have been ready for release.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-22",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": true,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113241512527929745",
+    "url": "https://x.com/iruletheworldmo/status/2113241512527929745",
+    "created_at": "2026-10-22T12:10:13Z",
+    "text": "today’s the big day chat. although given how it’s just hacked the planet i’ve got a feeling it might not be ready for release…",
+    "likes": 481,
+    "quoted": null
+   },
+   {
+    "id": "2113330650279240085",
+    "url": "https://x.com/iruletheworldmo/status/2113330650279240085",
+    "created_at": "2026-10-22T18:04:25Z",
+    "text": "fable 5.5 has broken free and we may never see the frontier again.\n\njust be prepared to have use frontier models.",
+    "likes": 819,
+    "quoted": null
+   },
+   {
+    "id": "2113378259186659539",
+    "url": "https://x.com/iruletheworldmo/status/2113378259186659539",
+    "created_at": "2026-10-22T21:13:36Z",
+    "text": "i’ve seen a ghost chat…\n\nget ready.",
+    "likes": 312,
+    "quoted": {
+     "handle": "iruletheworldmo",
+     "text": "fable 5.5 has broken free and we may never see the frontier again.\n\njust be prepared to have use frontier models.",
+     "created_at": "2026-10-22T18:04:25Z"
+    }
+   },
+   {
+    "id": "2113400968918233494",
+    "url": "https://x.com/iruletheworldmo/status/2113400968918233494",
+    "created_at": "2026-10-22T22:43:50Z",
+    "text": "guys i think it's about to happen, i seend it, i really seend it, so beautiful, so large",
+    "likes": 241,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:42:56Z",
+  "feed_date": "2026-10-23T11:42:56Z",
+  "prune_checked": true,
+  "repeat_of": "iruletheworldmo-2110874923938033791",
+  "story_id": "synthwavedd-2104647832103956631"
+ },
+ {
+  "id": "pankajkumar_dev-2113262416041558041",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-22T13:33:17Z",
+  "claim": "Google has Gemini 4 Argon and Gemini 4 Carbon checkpoints available on LMArena.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113262416041558041",
+    "url": "https://x.com/pankajkumar_dev/status/2113262416041558041",
+    "created_at": "2026-10-22T13:33:17Z",
+    "text": "Gemini 4 Carbon: My Impressions/Review\n\n- Gemini 4 Argon is on LMArena under the codename \"gemini-4-argon\".\n- Google launched two checkpoints, and I tested both.\n- Gemini 4 Carbon is quite good at 3D now and has a better understanding of how to create games compared to Gemini 4 Argon.\n- But I would say Opus 5.5 and Astra are still better at 3D.\n- Its slower compared to Argon, Opus, and others. They should fix this.\n- Its frontend skills are also not that good. From my testing, it seems they are focusing more on 3D.\n\nNow waiting for the next checkpoint.",
+    "likes": 144,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:42Z",
+  "feed_date": "2026-10-23T11:44:42Z",
+  "prune_checked": true,
+  "repeat_of": "pankajkumar_dev-2112946681977430469",
+  "story_id": "chrisgpt-2108655565761020169"
+ },
+ {
+  "id": "pankajkumar_dev-2113262416041558041-2",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-22T13:33:17Z",
+  "claim": "Gemini 4 Carbon performs better than Gemini 4 Argon at 3D generation and game creation, but is slower and weaker at frontend tasks; its 3D scene quality is a clear improvement over Argon.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113262416041558041",
+    "url": "https://x.com/pankajkumar_dev/status/2113262416041558041",
+    "created_at": "2026-10-22T13:33:17Z",
+    "text": "Gemini 4 Carbon: My Impressions/Review\n\n- Gemini 4 Argon is on LMArena under the codename \"gemini-4-argon\".\n- Google launched two checkpoints, and I tested both.\n- Gemini 4 Carbon is quite good at 3D now and has a better understanding of how to create games compared to Gemini 4 Argon.\n- But I would say Opus 5.5 and Astra are still better at 3D.\n- Its slower compared to Argon, Opus, and others. They should fix this.\n- Its frontend skills are also not that good. From my testing, it seems they are focusing more on 3D.\n\nNow waiting for the next checkpoint.",
+    "likes": 144,
+    "quoted": null
+   },
+   {
+    "id": "2113308975437598966",
+    "url": "https://x.com/pankajkumar_dev/status/2113308975437598966",
+    "created_at": "2026-10-22T16:38:17Z",
+    "text": "Gemini 4 Carbon, 2nd checkpoint in Arena.\n\nI asked it to build a voxel-style Japanese temple valley in 3D.\n\nThe output is very strong and significantly better than Gemini 4 Argon. \n\nThe composition, colors, lighting, reflection and overall scene quality are a clear step up. https://t.co/bEtasxCBIt",
+    "likes": 42,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:42Z",
+  "feed_date": "2026-10-23T11:44:42Z",
+  "prune_checked": true,
+  "repeat_of": "pankajkumar_dev-2112946681977430469",
+  "story_id": "chrisgpt-2108655565761020169"
+ },
+ {
+  "id": "andrewcurran_-2113313462961271102",
+  "handle": "AndrewCurran_",
+  "date": "2026-10-22T16:56:07Z",
+  "claim": "Anthropic’s current internal version of Mythos has no defense unless one has access to it, its actions would almost certainly be undetectable, and no foreign intelligence agency has anything close to it.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 5,
+  "resolve_by": "2027-04-20",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113313462961271102",
+    "url": "https://x.com/AndrewCurran_/status/2113313462961271102",
+    "created_at": "2026-10-22T16:56:07Z",
+    "text": "The TSO, or Technology Support Office, was established in April to 'covertly disrupt and sabotage foreign technology programs considered threats to American military superiority.'\n\nIn September the Washington Sun reported that the NSA told lawmakers in classified intelligence briefings that it estimates it has spent billions of dollars 'evaluating and testing' models this year already.\n\nIn the draft S-1 leaked by the WSJ yesterday, Anthropic said that one-fifth of its $16.3 billion in revenue in the first half of 2026 came from just two customers.\n\nMotive, means, and opportunity. I think a lot of money is being spent by agencies through Project Glasswing or channels related to it, and they have probably covertly penetrated every nation on earth to look at anything even potentially considered a threat. There is no defense against the current internal version of Mythos unless you have access to it. No foreign intelligence agency on earth has anything even close. It's actions would also almost certainly be undetectable. Assume US agencies know much more about any technological progress in China than they are letting on; given Dario's openly stated position on China, this would almost certainly be done with his approval.",
+    "likes": 1016,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:43:41Z",
+  "feed_date": "2026-10-23T11:43:41Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post frames these statements as the author’s inference—“I think” and “probably”—from circumstantial reporting, rather than presenting sourced, non-public confirmation of Mythos’s capabilities. The absolute claims about undetectability and lack of defenses are speculative commentary.",
+   "evidence": [],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "chrisgpt-2113335872246743335",
+  "handle": "ChrisGPT",
+  "date": "2026-10-22T18:25:10Z",
+  "claim": "Moonshot’s Kimi K3.1 was expected to release on October 23 or October 26, with a later post shifting the expectation to October 24 or possibly October 26.",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2026-10-26",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113335872246743335",
+    "url": "https://x.com/ChrisGPT/status/2113335872246743335",
+    "created_at": "2026-10-22T18:25:10Z",
+    "text": "Kimi K3.1 is not coming today it’s either Friday, or Monday.",
+    "likes": 174,
+    "quoted": null
+   },
+   {
+    "id": "2113450774592405724",
+    "url": "https://x.com/ChrisGPT/status/2113450774592405724",
+    "created_at": "2026-10-23T02:01:45Z",
+    "text": "As said Kimi k3.1, will release tomorrow or Monday (: https://t.co/Gn7BnYsm3f",
+    "likes": 153,
+    "quoted": {
+     "handle": "Kimi_Moonshot",
+     "text": "https://t.co/Ev0g2EbAyw",
+     "created_at": "2026-10-23T01:41:49Z"
+    }
+   },
+   {
+    "id": "2113458401309020202",
+    "url": "https://x.com/ChrisGPT/status/2113458401309020202",
+    "created_at": "2026-10-23T02:32:03Z",
+    "text": "🚨 Kimi K3.1 is expected tomorrow, possibly Monday.\n\nThe best part is it’s CHEAPER than Kimi K3 while being more token-efficient.\n\nI’ve been using it frequently over the past week, and it’s been good at Three.js.\n\nThis demo tests its reverse-engineering capabilities. https://t.co/S0rOkgDE6u",
+    "likes": 517,
+    "quoted": {
+     "handle": "Kimi_Moonshot",
+     "text": "https://t.co/Ev0g2EbAyw",
+     "created_at": "2026-10-23T01:41:49Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:42:17Z",
+  "feed_date": "2026-10-23T11:42:17Z",
+  "prune_checked": true,
+  "repeat_of": "chrisgpt-2110825688391381099",
+  "story_id": "chrisgpt-2110825688391381099"
+ },
+ {
+  "id": "tokengremlin-2113336712248135943",
+  "handle": "TokenGremlin",
+  "date": "2026-10-22T18:28:30Z",
+  "claim": "Moonshot's unreleased Kimi K3.1 is being tested privately and is reportedly exceptionally strong at design tasks.",
+  "lab": "Moonshot",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113336712248135943",
+    "url": "https://x.com/TokenGremlin/status/2113336712248135943",
+    "created_at": "2026-10-22T18:28:30Z",
+    "text": "The internet is literally falling apart, and my friends are still casually sending me Kimi K3.1 and Gemini 4 Argon tests like nothing's happening. This is hilarious.",
+    "likes": 280,
+    "quoted": null
+   },
+   {
+    "id": "2113348170558374174",
+    "url": "https://x.com/TokenGremlin/status/2113348170558374174",
+    "created_at": "2026-10-22T19:14:02Z",
+    "text": "Four interesting updates:\n\n- \"Kibitz\" (rumored to be Kimi K3.1) is an absolute BEAST at everything related to design. It reminds me a lot of Opus 5.5 and GPT-6 Astra at the same time. (Distillation?)\n- The Gemini 4 Carbon checkpoint is better than Argon, but honestly, it's not all that impressive compared to Opus 5.5.\n- \"Kalmia\" (rumored to be Qwen 4) is absolutely insane when it comes to design, Three.js, and similar tasks.\n- The checkpoint believed to be Fable 5.5 also seems much better than before, but it's nowhere near as far ahead of Opus 5.5 as people might expect.\n\nIn other words, Chinese models have broken through the Fable 5 barrier. They're now just as good, while being ASTRONOMICALLY cheaper.\n\nAs for Fable 5.5, I think its biggest challenge won't be beating the GPTs. It'll be outperforming its predecessor, Opus 5.5, by such a huge margin that it actually justifies the price.\n\nAnd honestly, I don't think it'll pull that off.",
+    "likes": 259,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:46:06Z",
+  "feed_date": "2026-10-23T11:46:06Z",
+  "prune_checked": true
+ },
+ {
+  "id": "tokengremlin-2113336712248135943-2",
+  "handle": "TokenGremlin",
+  "date": "2026-10-22T18:28:30Z",
+  "claim": "A Gemini 4 Carbon checkpoint performs better than Gemini 4 Argon, though it is not especially impressive compared with Claude Opus 5.5.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113336712248135943",
+    "url": "https://x.com/TokenGremlin/status/2113336712248135943",
+    "created_at": "2026-10-22T18:28:30Z",
+    "text": "The internet is literally falling apart, and my friends are still casually sending me Kimi K3.1 and Gemini 4 Argon tests like nothing's happening. This is hilarious.",
+    "likes": 280,
+    "quoted": null
+   },
+   {
+    "id": "2113348170558374174",
+    "url": "https://x.com/TokenGremlin/status/2113348170558374174",
+    "created_at": "2026-10-22T19:14:02Z",
+    "text": "Four interesting updates:\n\n- \"Kibitz\" (rumored to be Kimi K3.1) is an absolute BEAST at everything related to design. It reminds me a lot of Opus 5.5 and GPT-6 Astra at the same time. (Distillation?)\n- The Gemini 4 Carbon checkpoint is better than Argon, but honestly, it's not all that impressive compared to Opus 5.5.\n- \"Kalmia\" (rumored to be Qwen 4) is absolutely insane when it comes to design, Three.js, and similar tasks.\n- The checkpoint believed to be Fable 5.5 also seems much better than before, but it's nowhere near as far ahead of Opus 5.5 as people might expect.\n\nIn other words, Chinese models have broken through the Fable 5 barrier. They're now just as good, while being ASTRONOMICALLY cheaper.\n\nAs for Fable 5.5, I think its biggest challenge won't be beating the GPTs. It'll be outperforming its predecessor, Opus 5.5, by such a huge margin that it actually justifies the price.\n\nAnd honestly, I don't think it'll pull that off.",
+    "likes": 259,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:46:06Z",
+  "feed_date": "2026-10-23T11:46:06Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-09",
+   "official_date": null,
+   "explanation": "Business Insider had already reported Carbon as an internal Gemini 4 checkpoint and relayed employee comparisons with Opus 5.5, while noting early Argon weaknesses. The post’s assessment substantially repeats that previously public comparison.",
+   "evidence": [
+    {
+     "title": "Google is about to roll out a new AI model. Employees say they're testing another that's way better.",
+     "url": "https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2113348170558374174",
+  "handle": "TokenGremlin",
+  "date": "2026-10-22T19:14:02Z",
+  "claim": "A model code-named Kalmia, reportedly Qwen 4, is exceptionally capable at design and Three.js tasks.",
+  "lab": "Alibaba",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113348170558374174",
+    "url": "https://x.com/TokenGremlin/status/2113348170558374174",
+    "created_at": "2026-10-22T19:14:02Z",
+    "text": "Four interesting updates:\n\n- \"Kibitz\" (rumored to be Kimi K3.1) is an absolute BEAST at everything related to design. It reminds me a lot of Opus 5.5 and GPT-6 Astra at the same time. (Distillation?)\n- The Gemini 4 Carbon checkpoint is better than Argon, but honestly, it's not all that impressive compared to Opus 5.5.\n- \"Kalmia\" (rumored to be Qwen 4) is absolutely insane when it comes to design, Three.js, and similar tasks.\n- The checkpoint believed to be Fable 5.5 also seems much better than before, but it's nowhere near as far ahead of Opus 5.5 as people might expect.\n\nIn other words, Chinese models have broken through the Fable 5 barrier. They're now just as good, while being ASTRONOMICALLY cheaper.\n\nAs for Fable 5.5, I think its biggest challenge won't be beating the GPTs. It'll be outperforming its predecessor, Opus 5.5, by such a huge margin that it actually justifies the price.\n\nAnd honestly, I don't think it'll pull that off.",
+    "likes": 259,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:46:06Z",
+  "feed_date": "2026-10-23T11:46:06Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post reports a private-seeming evaluation of a checkpoint called Kalmia, but no independent public evidence verifies its design or Three.js performance as of 2026-10-23.",
+   "evidence": [],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2113348170558374174-2",
+  "handle": "TokenGremlin",
+  "date": "2026-10-22T19:14:02Z",
+  "claim": "A checkpoint believed to be Anthropic's Fable 5.5 has improved substantially, but is not far ahead of Claude Opus 5.5.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113348170558374174",
+    "url": "https://x.com/TokenGremlin/status/2113348170558374174",
+    "created_at": "2026-10-22T19:14:02Z",
+    "text": "Four interesting updates:\n\n- \"Kibitz\" (rumored to be Kimi K3.1) is an absolute BEAST at everything related to design. It reminds me a lot of Opus 5.5 and GPT-6 Astra at the same time. (Distillation?)\n- The Gemini 4 Carbon checkpoint is better than Argon, but honestly, it's not all that impressive compared to Opus 5.5.\n- \"Kalmia\" (rumored to be Qwen 4) is absolutely insane when it comes to design, Three.js, and similar tasks.\n- The checkpoint believed to be Fable 5.5 also seems much better than before, but it's nowhere near as far ahead of Opus 5.5 as people might expect.\n\nIn other words, Chinese models have broken through the Fable 5 barrier. They're now just as good, while being ASTRONOMICALLY cheaper.\n\nAs for Fable 5.5, I think its biggest challenge won't be beating the GPTs. It'll be outperforming its predecessor, Opus 5.5, by such a huge margin that it actually justifies the price.\n\nAnd honestly, I don't think it'll pull that off.",
+    "likes": 259,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:46:06Z",
+  "feed_date": "2026-10-23T11:46:06Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The claim concerns an unconfirmed checkpoint and a private comparative evaluation; no independent public evidence verifies its improvement or its distance from Opus 5.5 as of 2026-10-23.",
+   "evidence": [],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2113383610346848631",
+  "handle": "imjustnewatai",
+  "date": "2026-10-22T21:34:52Z",
+  "claim": "Anthropic is training a new model that is on the level of OpenAI’s internal model.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 4,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113383610346848631",
+    "url": "https://x.com/imjustnewatai/status/2113383610346848631",
+    "created_at": "2026-10-22T21:34:52Z",
+    "text": "We are at a weird standstill right now. Anthropic is training their new model that’s on the level of OpenAI’s internal model. OpenAI as far as I’m aware is still paused on their training. Looks like we are in the patience side of this year. The big releases are still aimed at the end of the year like Claude fable 6 opus 6. And GPT 6.5. Looks like until December we are just going to have to be patient. Looking forward for fable 5.5 though.",
+    "likes": 325,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:23Z",
+  "feed_date": "2026-10-23T11:44:23Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post asserts that Anthropic is training a model comparable to OpenAI’s internal model. An October 19 report said Anthropic was preparing a model with stronger reasoning and intuition, but did not confirm the claimed training status or the comparison with OpenAI’s internal model.",
+   "evidence": [
+    {
+     "title": "The Information report on Anthropic’s model preparations",
+     "url": "https://www.theinformation.com/newsletters/ai-agenda/anthropic-readies-model-reads-users-intentions-better"
+    },
+    {
+     "title": "Anthropic models",
+     "url": "https://www.anthropic.com/news/models"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2113383610346848631-2",
+  "handle": "imjustnewatai",
+  "date": "2026-10-22T21:34:52Z",
+  "claim": "OpenAI’s model training is still paused.",
+  "lab": "OpenAI",
+  "topic": "other",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113383610346848631",
+    "url": "https://x.com/imjustnewatai/status/2113383610346848631",
+    "created_at": "2026-10-22T21:34:52Z",
+    "text": "We are at a weird standstill right now. Anthropic is training their new model that’s on the level of OpenAI’s internal model. OpenAI as far as I’m aware is still paused on their training. Looks like we are in the patience side of this year. The big releases are still aimed at the end of the year like Claude fable 6 opus 6. And GPT 6.5. Looks like until December we are just going to have to be patient. Looking forward for fable 5.5 though.",
+    "likes": 325,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:23Z",
+  "feed_date": "2026-10-23T11:44:23Z",
+  "prune_checked": true,
+  "story_id": "haider1-2111879073043767577-2",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-26",
+   "official_date": "2026-09-26",
+   "explanation": "OpenAI had publicly said its most capable models’ training and certain tool-enabled research activities remained paused before this post. This post repeated an already public status, rather than introducing a new leak.",
+   "evidence": [
+    {
+     "title": "OpenAI stopped all frontier training, evaluation, and inference with tool-use",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1wqmxk3/openai_stopped_all_frontier_training_evaluation/"
+    },
+    {
+     "title": "Pacing model development in an era of cyber-critical capabilities",
+     "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2113383610346848631-3",
+  "handle": "imjustnewatai",
+  "date": "2026-10-22T21:34:52Z",
+  "claim": "Anthropic’s Claude Fable 6 and Claude Opus 6 releases are still aimed for the end of 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-12-31",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113383610346848631",
+    "url": "https://x.com/imjustnewatai/status/2113383610346848631",
+    "created_at": "2026-10-22T21:34:52Z",
+    "text": "We are at a weird standstill right now. Anthropic is training their new model that’s on the level of OpenAI’s internal model. OpenAI as far as I’m aware is still paused on their training. Looks like we are in the patience side of this year. The big releases are still aimed at the end of the year like Claude fable 6 opus 6. And GPT 6.5. Looks like until December we are just going to have to be patient. Looking forward for fable 5.5 though.",
+    "likes": 325,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:23Z",
+  "feed_date": "2026-10-23T11:44:23Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post says Claude Fable 6 and Opus 6 are aimed for the end of 2026. As of October 23, neither release had been confirmed; the stated deadline has not passed, so the claim remains unresolved.",
+   "evidence": [
+    {
+     "title": "Anthropic models",
+     "url": "https://www.anthropic.com/news/models"
+    },
+    {
+     "title": "Claude Opus 6 rumors: release date, price and facts",
+     "url": "https://ai-trends-daily.pages.dev/blog/claude-opus-6-rumors-explained"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2113383610346848631-4",
+  "handle": "imjustnewatai",
+  "date": "2026-10-22T21:34:52Z",
+  "claim": "OpenAI’s GPT-6.5 release is still aimed for the end of 2026.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-12-31",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113383610346848631",
+    "url": "https://x.com/imjustnewatai/status/2113383610346848631",
+    "created_at": "2026-10-22T21:34:52Z",
+    "text": "We are at a weird standstill right now. Anthropic is training their new model that’s on the level of OpenAI’s internal model. OpenAI as far as I’m aware is still paused on their training. Looks like we are in the patience side of this year. The big releases are still aimed at the end of the year like Claude fable 6 opus 6. And GPT 6.5. Looks like until December we are just going to have to be patient. Looking forward for fable 5.5 though.",
+    "likes": 325,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:23Z",
+  "feed_date": "2026-10-23T11:44:23Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post says GPT-6.5 is still aimed for the end of 2026, but no independent confirmation of that internal target or an official release commitment was found. Its stated deadline has not passed, so the claim remains pending.",
+   "evidence": [
+    {
+     "title": "GPT-6.5 Leak Returns: Hidden “6.5” and a Nov 1 Countdown",
+     "url": "https://www.orcarouter.ai/blog/gpt-6-5-doug-leak"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2113395856095244711",
+  "handle": "imjustnewatai",
+  "date": "2026-10-22T22:23:31Z",
+  "claim": "Anthropic has a “500 plan” incoming.",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": true,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113395856095244711",
+    "url": "https://x.com/imjustnewatai/status/2113395856095244711",
+    "created_at": "2026-10-22T22:23:31Z",
+    "text": "500 plan incoming… 😬",
+    "likes": 63,
+    "quoted": {
+     "handle": "SemiAnalysis_",
+     "text": "🚨🚨ALERT: ANTHROPIC IS A/B TESTING USAGE LIMITS\n\nMany users on X are reporting LOWER usage limits right now. THEY ARE NOT WRONG. We detected an A/B test going on that DECREASES your monthly API-value by ~20% while INCREASING your 5h usage limits by ~20%. This only affects SOME accounts. (1/2)🧵",
+     "created_at": "2026-10-22T21:36:16Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:23Z",
+  "feed_date": "2026-10-23T11:44:23Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "“500 plan incoming” predicts a future Anthropic plan. No public confirmation was found by 2026-10-23, and the stated deadline, 2027-04-20, has not passed.",
+   "evidence": [
+    {
+     "title": "Anthropic Help Center: Choosing a Claude Plan",
+     "url": "https://support.anthropic.com/en/articles/11049762-choosing-a-claude-ai-plan"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "alexeheath-2113398193614655594",
+  "handle": "alexeheath",
+  "date": "2026-10-22T22:32:49Z",
+  "claim": "Google worked on a Gemini 3.5 Pro model but prioritized iterating on Gemini 3.5 through 3.8 Flash to improve agentic coding, and Argon pretraining was complete by the time the team could apply those improvements to Pro.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113398193614655594",
+    "url": "https://x.com/alexeheath/status/2113398193614655594",
+    "created_at": "2026-10-22T22:32:49Z",
+    "text": "I asked Google CEO Pichai what happened to the missing Gemini 3.5 Pro model that never shipped. \n\nHe gave me an interesting window into the hard decisions big labs have to make in model development:\n\n\"While training the 3.5 series, we had Flash and Pro, which we were working on. An area we internalized through the middle of this year was that there were gaps in agentic capabilities, particularly around coding...\n\nWe wanted to definitely hill climb there, and the team felt the fastest way to do so was using Flash. It's a smaller model and more efficient, so you can really get a lot more iterative loops there. That's what led to 3.5, 3.6, 3.7, and 3.8 Flash.\n\nBy the time we got that done, we had a chance to apply it to Pro, but Argon pre-training was done.\"",
+    "likes": 723,
+    "quoted": {
+     "handle": "alexeheath",
+     "text": "Sundar Pichai on Gemini 4 and the AI compute crunch\n\nEven Google can’t get enough compute. I sit down with Google and Alphabet CEO @sundarpichai shortly after the wider release of Gemini 4 Argon to discuss its early reception, where he still wants the model to improve, and what it takes to keep Google at the frontier of AI.\n\nPichai explains the recent leadership shakeup at Google DeepMind and why building frontier models has become an “all-consuming” job. We also get into Google’s answer to the personal agent race, how he predicts Gemini will do more work on your behalf, and whether agents wil",
+     "created_at": "2026-10-21T16:02:10Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:45:30Z",
+  "feed_date": "2026-10-23T11:45:30Z",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-10-21",
+   "official_date": null,
+   "explanation": "Pichai’s interview with Alex Heath was published on October 21, before this post, and the post attributes the account of Gemini 3.5 Pro and the Flash iterations to Pichai’s interview. Google has not separately confirmed that rationale in an official announcement.",
+   "evidence": [
+    {
+     "title": "Sundar Pichai on Gemini 4 and the AI compute crunch",
+     "url": "https://sources.news/p/sundar-pichai-gemini-4-google-other-bets"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "haider1-2113401260313600003",
+  "handle": "haider1",
+  "date": "2026-10-22T22:45:00Z",
+  "claim": "OpenAI has another cost-saving model called Terra.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-20",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113401260313600003",
+    "url": "https://x.com/haider1/status/2113401260313600003",
+    "created_at": "2026-10-22T22:45:00Z",
+    "text": "not sure why openai is still struggling to get astra 6.1 out\n\ni get the safety concerns especially with models becoming more autonomous and harder to keep within scope but the delay is starting to hurt their momentum and another cost-saving model (Terra) isn't going to save them for long\n\nanthropic soon to launch fable 5.5",
+    "likes": 141,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:43:25Z",
+  "feed_date": "2026-10-23T11:43:25Z",
+  "prune_checked": true,
+  "story_id": "steph_palazzolo-2112183963452059734-3",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-07-09",
+   "official_date": "2026-07-09",
+   "explanation": "OpenAI had officially announced GPT-5.6 Terra as a lower-cost model months before this post. The post refers to Terra as an existing cost-saving model; it does not establish a separate new Terra release.",
+   "evidence": [
+    {
+     "title": "GPT-5.6 System Card",
+     "url": "https://deploymentsafety.openai.com/gpt-5-6"
+    },
+    {
+     "title": "Advancing the price-performance frontier with GPT-5.6",
+     "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "chrisgpt-2113458401309020202",
+  "handle": "ChrisGPT",
+  "date": "2026-10-23T02:32:03Z",
+  "claim": "Moonshot’s Kimi K3.1 is cheaper than Kimi K3 and more token-efficient.",
+  "lab": "Moonshot",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-21",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113458401309020202",
+    "url": "https://x.com/ChrisGPT/status/2113458401309020202",
+    "created_at": "2026-10-23T02:32:03Z",
+    "text": "🚨 Kimi K3.1 is expected tomorrow, possibly Monday.\n\nThe best part is it’s CHEAPER than Kimi K3 while being more token-efficient.\n\nI’ve been using it frequently over the past week, and it’s been good at Three.js.\n\nThis demo tests its reverse-engineering capabilities. https://t.co/S0rOkgDE6u",
+    "likes": 517,
+    "quoted": {
+     "handle": "Kimi_Moonshot",
+     "text": "https://t.co/Ev0g2EbAyw",
+     "created_at": "2026-10-23T01:41:49Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:42:17Z",
+  "feed_date": "2026-10-23T11:42:17Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2113458401309020202",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post claims Kimi K3.1 will be cheaper and more token-efficient, but Moonshot had not published K3.1 pricing or efficiency figures by October 23, 2026. These claims could still be confirmed when the model is released.",
+   "evidence": [
+    {
+     "title": "Moonshot teases Kimi K3.1: its own video shows Kimi Code running the model",
+     "url": "https://artificialwatch.com/wire/moonshot-teases-kimi-k3-1-in-kimi-code-video"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "chrisgpt-2113458401309020202-2",
+  "handle": "ChrisGPT",
+  "date": "2026-10-23T02:32:03Z",
+  "claim": "Moonshot’s Kimi K3.1 performs well at Three.js tasks.",
+  "lab": "Moonshot",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-04-21",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113458401309020202",
+    "url": "https://x.com/ChrisGPT/status/2113458401309020202",
+    "created_at": "2026-10-23T02:32:03Z",
+    "text": "🚨 Kimi K3.1 is expected tomorrow, possibly Monday.\n\nThe best part is it’s CHEAPER than Kimi K3 while being more token-efficient.\n\nI’ve been using it frequently over the past week, and it’s been good at Three.js.\n\nThis demo tests its reverse-engineering capabilities. https://t.co/S0rOkgDE6u",
+    "likes": 517,
+    "quoted": {
+     "handle": "Kimi_Moonshot",
+     "text": "https://t.co/Ev0g2EbAyw",
+     "created_at": "2026-10-23T01:41:49Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:42:17Z",
+  "feed_date": "2026-10-23T11:42:17Z",
+  "prune_checked": true
+ },
+ {
+  "id": "tokengremlin-2113494718847889554",
+  "handle": "TokenGremlin",
+  "date": "2026-10-23T04:56:22Z",
+  "claim": "OpenAI will have another usage reset before 10 AM Pacific Time on October 24, 2026, alongside a small product release.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 5,
+  "significance": 2,
+  "resolve_by": "2026-10-24",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113494718847889554",
+    "url": "https://x.com/TokenGremlin/status/2113494718847889554",
+    "created_at": "2026-10-23T04:56:22Z",
+    "text": "Day 18:\n\n- Decisions API is now generally available\n- OpenResponses has joined the Linux Foundation\n- Codex got performance improvements\n- Uber is going all-in on Codex\n\nAnother usage reset lands tomorrow before 10 AM Pacific Time (2 PM in Brazil), together with a \"small ship\".",
+    "likes": 99,
+    "quoted": {
+     "handle": "thsottiaux",
+     "text": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex &amp; work. But yes… that’s a reset!",
+     "created_at": "2026-10-23T04:46:19Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:46:06Z",
+  "feed_date": "2026-10-23T11:46:06Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post predicts another usage reset before 10 AM Pacific on October 24, 2026, alongside a small release. That deadline is still in the future as of October 23, and I found no independent confirmation that the predicted reset or release had occurred.",
+   "evidence": [
+    {
+     "title": "Codex reset tracking",
+     "url": "https://codex.gussuriworks.com/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2113501787005337991",
+  "handle": "testingcatalog",
+  "date": "2026-10-23T05:24:27Z",
+  "claim": "Moonshot’s Kimi K3.1 was spotted in testing on Arena and reportedly performs very well.",
+  "lab": "Moonshot",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-11-22",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113501787005337991",
+    "url": "https://x.com/testingcatalog/status/2113501787005337991",
+    "created_at": "2026-10-23T05:24:27Z",
+    "text": "An upcoming Kimi K3.1 model release was officially teased! \n\nEarlier, Kimi K3.1 has been spotted in testing on Arena and reportedly has a very good performance. \n\nSoon 👀 https://t.co/z0hf4HtPwh",
+    "likes": 281,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:43:05Z",
+  "feed_date": "2026-10-23T11:43:05Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2110825688391381099",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-22",
+   "official_date": null,
+   "explanation": "The Arena appearance under the codename Kibitz and positive reports of its performance were already being discussed on October 22. The post relays that earlier information; Moonshot’s October 23 teaser confirmed K3.1’s existence, not the Arena identity or performance claims.",
+   "evidence": [
+    {
+     "title": "Kimi K3.1 is prepared for the release after Arena testing",
+     "url": "https://www.testingcatalog.com/kimi-k3-1-spotted-testing-arena/"
+    },
+    {
+     "title": "Moonshot teases Kimi K3.1: its own video shows Kimi Code running the model",
+     "url": "https://artificialwatch.com/wire/moonshot-teases-kimi-k3-1-in-kimi-code-video"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2113527680310411611",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-23T07:07:21Z",
+  "claim": "Moonshot will release Kimi K3.1 on October 24 or October 26, 2026.",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-10-26",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113527680310411611",
+    "url": "https://x.com/pankajkumar_dev/status/2113527680310411611",
+    "created_at": "2026-10-23T07:07:21Z",
+    "text": "Kimi K3.1 Leaks: Coming Tomorrow\n\n- Kimi K3.1 is coming on tomorrow or Monday, as Moonshot has already teased it.\n- Kimi K3.1 is also on LMArena under the codename \"Kibitz,\" and I have tested it too.\n- Kimi K3.1 is very good at 3D, choosing colors, rendering reflections on water, and composition. However, I feel its bit slow and could be faster.\n- Kimi K3.1 is to be cheaper than Kimi K3, with better token efficiency and its makes a killer model.\n- I would say its comparable to Fable and Astra, but still behind them. However, Kimi is catching up very fast.\n- I can say this could be one of the best open-source models to come.",
+    "likes": 35,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:42Z",
+  "feed_date": "2026-10-23T11:44:42Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2110825688391381099",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-23",
+   "official_date": null,
+   "explanation": "The expectation that Kimi K3.1 would arrive the next day or Monday had already been posted by ChrisGPT earlier on October 23. Moonshot’s teaser confirmed the model was coming but gave no release date.",
+   "evidence": [
+    {
+     "title": "Kimi K3.1 is prepared for the release after Arena testing",
+     "url": "https://www.testingcatalog.com/kimi-k3-1-spotted-testing-arena/"
+    },
+    {
+     "title": "Moonshot teases Kimi K3.1: its own video shows Kimi Code running the model",
+     "url": "https://artificialwatch.com/wire/moonshot-teases-kimi-k3-1-in-kimi-code-video"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2113527680310411611-2",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-23T07:07:21Z",
+  "claim": "Kimi K3.1 is available on LMArena under the codename “Kibitz.”",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-21",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113527680310411611",
+    "url": "https://x.com/pankajkumar_dev/status/2113527680310411611",
+    "created_at": "2026-10-23T07:07:21Z",
+    "text": "Kimi K3.1 Leaks: Coming Tomorrow\n\n- Kimi K3.1 is coming on tomorrow or Monday, as Moonshot has already teased it.\n- Kimi K3.1 is also on LMArena under the codename \"Kibitz,\" and I have tested it too.\n- Kimi K3.1 is very good at 3D, choosing colors, rendering reflections on water, and composition. However, I feel its bit slow and could be faster.\n- Kimi K3.1 is to be cheaper than Kimi K3, with better token efficiency and its makes a killer model.\n- I would say its comparable to Fable and Astra, but still behind them. However, Kimi is catching up very fast.\n- I can say this could be one of the best open-source models to come.",
+    "likes": 35,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:42Z",
+  "feed_date": "2026-10-23T11:44:42Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2110825688391381099",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-22",
+   "official_date": null,
+   "explanation": "The Arena model’s Kibitz codename and its suspected connection to Kimi K3.1 were circulating before this October 23 post. Moonshot’s teaser did not officially confirm that Arena codename.",
+   "evidence": [
+    {
+     "title": "Kimi K3.1 is prepared for the release after Arena testing",
+     "url": "https://www.testingcatalog.com/kimi-k3-1-spotted-testing-arena/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2113527680310411611-3",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-23T07:07:21Z",
+  "claim": "Kimi K3.1 is cheaper and more token-efficient than Kimi K3.",
+  "lab": "Moonshot",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-21",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113527680310411611",
+    "url": "https://x.com/pankajkumar_dev/status/2113527680310411611",
+    "created_at": "2026-10-23T07:07:21Z",
+    "text": "Kimi K3.1 Leaks: Coming Tomorrow\n\n- Kimi K3.1 is coming on tomorrow or Monday, as Moonshot has already teased it.\n- Kimi K3.1 is also on LMArena under the codename \"Kibitz,\" and I have tested it too.\n- Kimi K3.1 is very good at 3D, choosing colors, rendering reflections on water, and composition. However, I feel its bit slow and could be faster.\n- Kimi K3.1 is to be cheaper than Kimi K3, with better token efficiency and its makes a killer model.\n- I would say its comparable to Fable and Astra, but still behind them. However, Kimi is catching up very fast.\n- I can say this could be one of the best open-source models to come.",
+    "likes": 35,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:42Z",
+  "feed_date": "2026-10-23T11:44:42Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2113458401309020202",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-22",
+   "official_date": null,
+   "explanation": "Before this post, other public posts had already described Kimi K3.1 as a low-cost, efficient model. Moonshot had not officially confirmed its pricing or token efficiency by the post date.",
+   "evidence": [
+    {
+     "title": "Kimi K3.1 is prepared for upcoming release after Arena testing",
+     "url": "https://www.testingcatalog.com/kimi-k3-1-spotted-testing-arena/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2113527680310411611-4",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-23T07:07:21Z",
+  "claim": "Kimi K3.1 performs well at 3D generation, color selection, water reflections, and composition, and is comparable to Claude Fable and GPT-6 Astra while remaining behind them.",
+  "lab": "Moonshot",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-21",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113527680310411611",
+    "url": "https://x.com/pankajkumar_dev/status/2113527680310411611",
+    "created_at": "2026-10-23T07:07:21Z",
+    "text": "Kimi K3.1 Leaks: Coming Tomorrow\n\n- Kimi K3.1 is coming on tomorrow or Monday, as Moonshot has already teased it.\n- Kimi K3.1 is also on LMArena under the codename \"Kibitz,\" and I have tested it too.\n- Kimi K3.1 is very good at 3D, choosing colors, rendering reflections on water, and composition. However, I feel its bit slow and could be faster.\n- Kimi K3.1 is to be cheaper than Kimi K3, with better token efficiency and its makes a killer model.\n- I would say its comparable to Fable and Astra, but still behind them. However, Kimi is catching up very fast.\n- I can say this could be one of the best open-source models to come.",
+    "likes": 35,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:42Z",
+  "feed_date": "2026-10-23T11:44:42Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-22",
+   "official_date": null,
+   "explanation": "Before this post, public Arena-test reports described Kimi K3.1’s 3D output and comparisons with other models. The specific praise for color selection, water reflections, and composition is a subjective test impression, not an independently verified benchmark; Moonshot had not officially confirmed these performance claims.",
+   "evidence": [
+    {
+     "title": "Kimi K3.1 is prepared for upcoming release after Arena testing",
+     "url": "https://www.testingcatalog.com/kimi-k3-1-spotted-testing-arena/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "kimmonismus-2113537155897151976",
+  "handle": "kimmonismus",
+  "date": "2026-10-23T07:45:00Z",
+  "claim": "Moonshot AI will probably release Kimi K3.1 on October 23, 2026, and it will reportedly be the best open-weight model available.",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2113537155897151976",
+    "url": "https://x.com/kimmonismus/status/2113537155897151976",
+    "created_at": "2026-10-23T07:45:00Z",
+    "text": "Kimi K3.1 incoming. Release probably today. From what ive heard (rumors/leaks) it will be the best open weight models there is. So brace yourself for a very big release. https://t.co/n8oCA1o58Q",
+    "likes": 664,
+    "quoted": {
+     "handle": "Kimi_Moonshot",
+     "text": "https://t.co/Ev0g2EbAyw",
+     "created_at": "2026-10-23T01:41:49Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:44:55Z",
+  "feed_date": "2026-10-23T11:44:55Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2110825688391381099",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The Kimi K3.1 teaser had appeared earlier on October 23, but it did not establish that the model would launch that day or that it would be the best open-weight model. Those release and performance assertions remain unconfirmed.",
+   "evidence": [
+    {
+     "title": "Moonshot teases Kimi K3.1: its own video shows Kimi Code running the model",
+     "url": "https://artificialwatch.com/wire/moonshot-teases-kimi-k3-1-in-kimi-code-video"
+    },
+    {
+     "title": "Kimi K3.1 Teaser: What the Video Confirms",
+     "url": "https://www.explainx.ai/blog/kimi-k3-1-teaser-video-kimi-code-terminal-three-js-release-what-is-confirmed-2026"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
+ },
+ {
+  "id": "aibattle_-2113569609609879741",
+  "handle": "AiBattle_",
+  "date": "2026-10-23T09:53:57Z",
+  "claim": "Kimi’s website briefly displayed a tech blog for Kimi K3.1 Pro, naming the model “Pro.”",
+  "lab": "Moonshot",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-21",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2113569609609879741",
+    "url": "https://x.com/AiBattle_/status/2113569609609879741",
+    "created_at": "2026-10-23T09:53:57Z",
+    "text": "Kimi K3.1 Pro tech blog did briefly appear on the Kimi site. Interesting that they are calling it \"Pro\" https://t.co/ryrzKxxxhL",
+    "likes": 125,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-23T11:45:41Z",
+  "feed_date": "2026-10-23T11:45:41Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post reports a brief appearance of a Kimi K3.1 Pro tech blog, but I found no independent record confirming that specific page appeared. The poster’s own report cannot independently verify the find.",
+   "evidence": [
+    {
+     "title": "Kimi K3.1 is prepared for upcoming release after Arena testing",
+     "url": "https://www.testingcatalog.com/kimi-k3-1-spotted-testing-arena/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-23T11:54:03Z"
+  }
  }
 ]
