@@ -19,7 +19,7 @@
   "handle": "0x0SojalSec",
   "name": "Md Ismail Šojal 🕷️",
   "avatar": "https://pbs.twimg.com/profile_images/2007035104158482432/yKGFeKJD_normal.jpg",
-  "followers": 57841,
+  "followers": 63971,
   "bio": "",
   "first_seen": "2026-10-10T21:55:24Z"
  },
@@ -230,5 +230,21 @@
   "followers": 78647,
   "bio": "",
   "first_seen": "2026-10-28T13:07:47Z"
+ },
+ "tibo_maker": {
+  "handle": "tibo_maker",
+  "name": "Tibo",
+  "avatar": "https://pbs.twimg.com/profile_images/1631931185180934144/59z_ZFKm_normal.jpg",
+  "followers": 216389,
+  "bio": "",
+  "first_seen": "2026-10-29T13:09:35Z"
+ },
+ "usronaldcarter": {
+  "handle": "USronaldcarter",
+  "name": "🇺🇸 Ronald Carter",
+  "avatar": "https://pbs.twimg.com/profile_images/2036452788629282825/ueT8Hpew_normal.jpg",
+  "followers": 238022,
+  "bio": "",
+  "first_seen": "2026-10-29T13:10:12Z"
  }
 }
