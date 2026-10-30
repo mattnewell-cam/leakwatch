@@ -65760,27 +65760,20 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "already_public",
-   "public_date": "2025-12-11",
-   "official_date": "2025-12-11",
-   "explanation": "The claim that GPT-5.2 existed and had an xhigh variant, a newer cutoff, and was a new base model appeared in the December 12 posts, after OpenAI had announced GPT-5.2 on December 11, 2025. The launch and relevant xhigh detail were already public by then.",
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The posts are commentary and comparisons about GPT-5.2, not a claim of non-public information or an insider leak. GPT-5.2 and its xhigh reasoning option had been publicly announced by OpenAI on December 11, 2025.",
    "evidence": [
     {
-     "title": "Introducing GPT-5.2 — OpenAI",
+     "title": "Introducing GPT-5.2",
      "url": "https://openai.com/index/introducing-gpt-5-2/"
-    },
-    {
-     "title": "OpenAI API Changelog",
-     "url": "https://developers.openai.com/api/docs/changelog"
-    },
-    {
-     "title": "GPT-5.2 Model — OpenAI API",
-     "url": "https://developers.openai.com/api/docs/models/gpt-5.2"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:11:56Z"
-  }
+   "resolved_at": "2026-10-30T13:11:26Z"
+  },
+  "feed_date": "2026-10-30T13:11:26Z"
  },
  {
   "id": "aibattle_-1999185091847692368",
@@ -85486,19 +85479,24 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "already_public",
+   "verdict": "true",
    "public_date": "2026-03-16",
    "official_date": "2026-03-16",
-   "explanation": "OpenAI’s release notes dated March 16 announced the same GPT-5.3 Instant update before the post, which linked to those notes. The claim relayed already-public information.",
+   "explanation": "OpenAI’s March 16 release notes confirm an update to GPT-5.3 Instant improving follow-up tone and reducing teaser-style phrasing. That matches the post’s assertion.",
    "evidence": [
     {
-     "title": "ChatGPT release notes — OpenAI",
-     "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+     "title": "Model release notes — GPT-5.3 Instant update (March 16, 2026)",
+     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+    },
+    {
+     "title": "GPT-5.3 Instant System Card",
+     "url": "https://openai.com/index/gpt-5-3-instant-system-card/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T01:21:57Z"
-  }
+   "resolved_at": "2026-10-30T13:11:26Z"
+  },
+  "feed_date": "2026-10-30T13:11:26Z"
  },
  {
   "id": "aibattle_-2033953771475153195",
@@ -144913,23 +144911,20 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "already_public",
+   "verdict": "true",
    "public_date": "2026-07-17",
    "official_date": null,
-   "explanation": "The New York Times had reported the Meta–Anthropic compute-lease talks earlier on July 17, before this post at 17:56 UTC. The post’s claim that discussions were early and no terms had been agreed matches the reported status, but this was a relay of information already public that day.",
+   "explanation": "The journalist reported that Anthropic and Meta had discussed a possible compute-capacity deal, while emphasizing that the talks were early and no terms had been agreed. Reuters independently reported the potential lease talks on July 17, 2026; neither source establishes an official agreement.",
    "evidence": [
     {
-     "title": "Meta in Talks to Lease Computing Power to Anthropic in Potential $10 Billion Deal (New York Times)",
-     "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html"
-    },
-    {
-     "title": "Meta, Anthropic in talks for potential $10 billion compute lease deal, source says (Reuters)",
-     "url": "https://www.investing.com/news/stock-market-news/meta-in-talks-for-10-billion-anthropic-compute-deal-nyt-reports-4798826"
+     "title": "Meta, Anthropic in talks for potential compute lease deal — Reuters",
+     "url": "https://www.investing.com/news/stock-market-news/meta-in-talks-for-10-billion-anthropic-compute-deal-nyt-reports-4798826?ampMode=1"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-11T00:47:35Z"
-  }
+   "resolved_at": "2026-10-30T13:11:26Z"
+  },
+  "feed_date": "2026-10-30T13:11:26Z"
  },
  {
   "id": "haider1-2078311293904191640",
@@ -205111,21 +205106,21 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "resolution": {
    "verdict": "false",
-   "public_date": null,
+   "public_date": "2026-09-23",
    "official_date": null,
-   "explanation": "The post said Fable 5.5 was trained and coming soon, with a deadline of October 23. By that date Anthropic had not released Fable 5.5; its model listings still identified Fable 5.1 as the latest Fable model.",
+   "explanation": "The post said Fable 5.5 was trained and coming soon, with the supplied deadline of October 23, 2026. Anthropic had not announced or released Fable 5.5 by that date; later third-party sightings did not establish that this specific model was ready then.",
    "evidence": [
     {
-     "title": "Anthropic models",
-     "url": "https://www.anthropic.com/news/models"
+     "title": "Anthropic Claude Fable announcements",
+     "url": "https://www.anthropic.com/claude/fable"
     },
     {
-     "title": "Claude Fable",
-     "url": "https://www.anthropic.com/claude/fable"
+     "title": "Anthropic model system cards",
+     "url": "https://www.anthropic.com/system-cards"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-23T11:54:03Z"
+   "resolved_at": "2026-10-30T13:11:26Z"
   },
   "prune_checked": true,
   "feed_date": "2026-10-23T11:54:03Z"
@@ -232305,22 +232300,22 @@
   "prune_checked": true,
   "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
-   "verdict": "pending",
+   "verdict": "true",
    "public_date": "2026-10-15",
    "official_date": null,
-   "explanation": "The Onigiri identifier, four effort variants, and Opus 4.8 fallback were found in Artificial Analysis’s public frontend code on October 15. The evidence does not establish that Onigiri is Fable 5.5 or that benchmarking is underway, so that identification remains unconfirmed.",
+   "explanation": "The observed `claude-onigiri-eap` identifier, four effort variants, and Opus 4.8 fallback were reported as present in Artificial Analysis’s frontend code. Its connection to Fable 5.5 was explicitly speculative and remains unconfirmed.",
    "evidence": [
     {
-     "title": "Claude ‘Onigiri’ appears in Artificial Analysis code",
-     "url": "https://luminabench.com/journal/claude-onigiri/"
+     "title": "Independent report on the Artificial Analysis code entry",
+     "url": "https://artificialwatch.com/wire/claude-onigiri-eap-artificial-analysis-fable-5-5"
     },
     {
-     "title": "ArtificialWatch report on the Onigiri entry",
-     "url": "https://artificialwatch.com/wire/claude-onigiri-eap-artificial-analysis-fable-5-5"
+     "title": "LuminaBench’s report",
+     "url": "https://luminabench.com/journal/claude-onigiri/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-16T11:39:47Z"
+   "resolved_at": "2026-10-30T13:11:26Z"
   }
  },
  {
@@ -232600,20 +232595,24 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-16T11:28:08Z",
-  "feed_date": "2026-10-16T11:28:08Z",
+  "feed_date": "2026-10-30T13:11:26Z",
   "resolution": {
-   "verdict": "pending",
+   "verdict": "true",
    "public_date": "2026-10-15",
-   "official_date": null,
-   "explanation": "The Information reported on October 15 that Cognition was developing usage limits that could increase for engineers judged to use Devin efficiently. The post appears to point to that outlet’s own report; without independent confirmation, the claim remains pending rather than verified.",
+   "official_date": "2026-10-19",
+   "explanation": "The post’s sardonic framing aside, its factual point was right: Cognition later officially announced Devin limits that can automatically increase based on an engineer’s efficiency grade. The first report appeared in The Information on October 15; Cognition confirmed the feature on October 19.",
    "evidence": [
     {
-     "title": "Cognition’s Plan to Limit Tokenmaxxing to the Most Efficient Engineers",
-     "url": "https://www.theinformation.com/newsletters/ai-agenda/cognitions-plan-limit-tokenmaxxing-efficient-engineers/"
+     "title": "A smarter approach to AI cost controls: allocating spend by efficiency — Devin",
+     "url": "https://devin.ai/blog/efficiency-based-cost-controls"
+    },
+    {
+     "title": "Cognition’s Plan to Limit Tokenmaxxing to the Most Efficient Engineers — The Information",
+     "url": "https://www.theinformation.com/newsletters/ai-agenda/cognitions-plan-limit-tokenmaxxing-efficient-engineers"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-16T11:39:47Z"
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
   }
  },
  {
@@ -232653,19 +232652,15 @@
    "verdict": "pending",
    "public_date": "2026-10-15",
    "official_date": null,
-   "explanation": "The post asserts that GPT-6.1 Astra will be released during the 28-day event, whose stated window extends to November 12, 2026. OpenAI had delayed Astra over safety concerns, but that does not establish whether it will ship by the new deadline.",
+   "explanation": "The post predicts GPT-6.1 Astra will be released during the 28-day challenge, but as of October 30 the stated November 12 deadline has not passed and no release is confirmed. The challenge itself was announced as a sequence of daily improvements or resets, not as a promise to release Astra.",
    "evidence": [
     {
-     "title": "Codex Chief Pledges 28-Day Shipping Streak",
-     "url": "https://agihunt.info/en/story/1a108a61ceedb9b3bfc6dda4dbc"
-    },
-    {
-     "title": "OpenAI won't release next Astra model over safety worries",
-     "url": "https://www.itpro.com/technology/artificial-intelligence/openai-wont-release-next-astra-model-over-safety-worries"
+     "title": "OpenAI Developer Community: 28 days of Shipping at OpenAI",
+     "url": "https://community.openai.com/t/28-days-of-shipping-at-openai/1403897"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-16T11:39:47Z"
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
   }
  },
  {
@@ -233415,26 +233410,26 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-16T11:31:00Z",
-  "feed_date": "2026-10-16T11:31:00Z",
+  "feed_date": "2026-10-30T13:11:26Z",
   "prune_checked": true,
   "story_id": "chrisgpt-2108983381245776293",
   "resolution": {
-   "verdict": "pending",
-   "public_date": "2026-10-16",
+   "verdict": "already_public",
+   "public_date": "2026-07-20",
    "official_date": null,
-   "explanation": "The post presents GLM 5.5 as a rumor expected to arrive shortly, with coding performance forecast to match frontier models. Neither release nor performance was confirmed by October 16, 2026; the stated November 15 deadline has not passed.",
+   "explanation": "The GLM-5.5 rumor, including claims that it was forthcoming and aimed at frontier-level capability, was already circulating by July 20, 2026. Z.ai has not officially announced GLM-5.5 or confirmed the coding-performance claim.",
    "evidence": [
     {
-     "title": "GLM 5.5 rumor overview",
-     "url": "https://llmlearner.com/models/glm-5-5"
+     "title": "GLM-5.5 Release Date: The Leak vs What Z.ai Shipped",
+     "url": "https://cellcog.ai/blog/glm-5-5-release-date/"
     },
     {
-     "title": "Z.ai GLM 5.5 status review",
-     "url": "https://www.orcarouter.ai/blog/glm-5-5"
+     "title": "GLM-5.5 Rumor: Z.ai Next-Generation Model",
+     "url": "https://llmlearner.com/models/glm-5-5"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-16T11:39:47Z"
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
   }
  },
  {
@@ -233501,15 +233496,15 @@
    "verdict": "pending",
    "public_date": "2026-10-16",
    "official_date": null,
-   "explanation": "The post predicts GPT-6.1 Astra and GPT-6.5 Bell releases by December 31, 2026. Neither release is confirmed in the available record, but the deadline has not passed, so the prediction remains pending.",
+   "explanation": "The post claims GPT-6.1 Astra will be an early checkpoint of GPT-6.5 Bell, followed by Bell by year-end. Neither release nor that relationship is confirmed as of October 30, and the stated December 31 deadline is still in the future.",
    "evidence": [
     {
-     "title": "OpenAI won't release next Astra model over safety worries",
-     "url": "https://www.itpro.com/technology/artificial-intelligence/openai-wont-release-next-astra-model-over-safety-worries"
+     "title": "OpenAI Bel: The 10T Pretrain Leak, Graded",
+     "url": "https://cellcog.ai/blog/openai-bel/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-16T11:39:47Z"
+   "resolved_at": "2026-10-30T13:11:26Z"
   }
  },
  {
@@ -237921,21 +237916,25 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-21T11:54:45Z",
-  "feed_date": "2026-10-21T11:54:45Z",
+  "feed_date": "2026-10-30T13:11:26Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
+   "verdict": "false",
+   "public_date": "2026-10-20",
    "official_date": null,
-   "explanation": "The post predicted an October 27, 2026 release and said Fable 5.5 was in staging with partners preparing for its ID. The deadline is today, so it has not yet expired; the internal staging and partner-preparation details are not independently confirmed.",
+   "explanation": "The post predicted Fable 5.5 for October 27, 2026, and said partner platforms were preparing for it. No Fable 5.5 release had occurred by that date, and Anthropic's public model page still listed Fable 5.1 as the current Fable model as of October 30.",
    "evidence": [
     {
-     "title": "Anthropic News",
-     "url": "https://www.anthropic.com/news"
+     "title": "Claude Fable — Anthropic",
+     "url": "https://www.anthropic.com/claude/fable"
+    },
+    {
+     "title": "Is Claude Fable 5.5 out? Release status, October 2026",
+     "url": "https://createmotion.io/guides/claude-fable-5-5-release-status/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-10-27T12:27:38Z"
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
   },
   "story_id": "synthwavedd-2104647832103956631"
  },
@@ -238069,7 +238068,8 @@
    "evidence": [],
    "confidence": "high",
    "resolved_at": "2026-10-21T12:02:55Z"
-  }
+  },
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "chrisgpt-2112662614727934229",
@@ -245779,6 +245779,53 @@
   }
  },
  {
+  "id": "bindureddy-2115470834026590363",
+  "handle": "bindureddy",
+  "date": "2026-10-28T15:48:45Z",
+  "claim": "80% of Anthropic's revenue comes from API consumption pricing.",
+  "lab": "Anthropic",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-26",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115470834026590363",
+    "url": "https://x.com/bindureddy/status/2115470834026590363",
+    "created_at": "2026-10-28T15:48:45Z",
+    "text": "80% of Anthropic's revenue comes from API consumption pricing\n\nThis is their soft spot.  DeepSeek costs 20x less than Opus and works for 70% of the tasks already\n\nCompanies are massively overspending if they use expensive tokens for the majority of simple tasks",
+    "likes": 223,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:02:43Z",
+  "feed_date": "2026-10-30T13:02:43Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-26",
+   "official_date": "2026-10-26",
+   "explanation": "Anthropic’s October 26 S-1 disclosed that consumption-based revenue made up about 80% of first-half 2026 revenue. The post’s “API consumption pricing” wording is a shorthand for that already-public revenue breakdown.",
+   "evidence": [
+    {
+     "title": "Anthropic S-1 filed with the SEC",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+    },
+    {
+     "title": "Axios: Anthropic files for its IPO",
+     "url": "https://www.axios.com/2026/10/26/anthropic-ipo"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
   "id": "pankajkumar_dev-2115479578731004149",
   "handle": "pankajkumar_dev",
   "date": "2026-10-28T16:23:29Z",
@@ -245961,7 +246008,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-29T13:18:28Z"
-  }
+  },
+  "story_id": "ai_for_success-2115520639763456371"
  },
  {
   "id": "testingcatalog-2115530200058347952",
@@ -246071,6 +246119,53 @@
   "origin": "daily",
   "first_seen": "2026-10-29T13:10:25Z",
   "feed_date": "2026-10-29T13:10:25Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-24",
+   "official_date": null,
+   "explanation": "The three identifiers were already present in DeepSeek’s public Harness test code in a commit dated September 24, more than a month before this post. Their presence in test fixtures does not itself confirm a released V5 model or release timing.",
+   "evidence": [
+    {
+     "title": "DeepSeek Harness provider.spec.ts",
+     "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/llm/llm-deepseek-account/tests/provider.spec.ts"
+    },
+    {
+     "title": "DeepSeek V5 Names in Harness Code: What They Show",
+     "url": "https://www.llms.blog/posts/deepseek-v5-identifiers-harness-code"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2115562086872866817",
+  "handle": "testingcatalog",
+  "date": "2026-10-28T21:51:21Z",
+  "claim": "Perplexity’s voice mode on Mac and web now uses OpenAI’s gpt-live-1 model.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-26",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115562086872866817",
+    "url": "https://x.com/testingcatalog/status/2115562086872866817",
+    "created_at": "2026-10-28T21:51:21Z",
+    "text": "PERPLEXITY 🔥: Voice mode on Perplexity for Mac and web now uses the gpt-live-1 model from OpenAI. \n\nUsers can now run multiple sessions on Perplexity Computer and manage tasks and Projects. \n\nVoice is my favorite interface 👀 https://t.co/xQg7QdbdSK",
+    "likes": 116,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T12:59:19Z",
+  "feed_date": "2026-10-30T12:59:19Z",
   "prune_checked": true
  },
  {
@@ -246397,7 +246492,7 @@
   "first_seen": "2026-10-29T13:09:07Z",
   "feed_date": "2026-10-29T13:09:07Z",
   "prune_checked": true,
-  "story_id": "tokengremlin-2115669700105380078",
+  "story_id": "imjustnewatai-2111651488531677664",
   "resolution": {
    "verdict": "pending",
    "public_date": "2026-10-29",
@@ -246445,7 +246540,7 @@
   "first_seen": "2026-10-29T13:04:57Z",
   "feed_date": "2026-10-29T13:04:57Z",
   "prune_checked": true,
-  "story_id": "tokengremlin-2115669700105380078",
+  "story_id": "imjustnewatai-2111651488531677664",
   "resolution": {
    "verdict": "already_public",
    "public_date": "2026-10-29",
@@ -246463,6 +246558,53 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-29T13:18:28Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2115706222238109943",
+  "handle": "imjustnewatai",
+  "date": "2026-10-29T07:24:05Z",
+  "claim": "Anthropic is rolling Claude Duet out to many more users.",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2026-10-29",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115706222238109943",
+    "url": "https://x.com/imjustnewatai/status/2115706222238109943",
+    "created_at": "2026-10-29T07:24:05Z",
+    "text": "Looks like Claude duet is rolling out to a lot more people now",
+    "likes": 30,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:01:18Z",
+  "feed_date": "2026-10-30T13:01:18Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-21",
+   "official_date": "2026-10-21",
+   "explanation": "Anthropic publicly opened the Claude Duet research preview to Pro and Max users on October 21. The October 29 post describes that already-announced rollout, rather than a newly disclosed expansion.",
+   "evidence": [
+    {
+     "title": "Anthropic release notes, October 21, 2026",
+     "url": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+     "title": "Introducing Claude Duet",
+     "url": "https://claude.com/resources/articles/claude-duet"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
   }
  },
  {
@@ -246497,7 +246639,7 @@
   "first_seen": "2026-10-29T13:04:43Z",
   "feed_date": "2026-10-29T13:04:43Z",
   "prune_checked": true,
-  "story_id": "tokengremlin-2115669700105380078",
+  "story_id": "imjustnewatai-2111651488531677664",
   "repeat_of": "chetaslua-2113659041872511121"
  },
  {
@@ -246528,7 +246670,7 @@
   "first_seen": "2026-10-29T13:04:22Z",
   "feed_date": "2026-10-29T13:04:22Z",
   "prune_checked": true,
-  "story_id": "tokengremlin-2115669700105380078",
+  "story_id": "imjustnewatai-2111651488531677664",
   "resolution": {
    "verdict": "false",
    "public_date": "2026-10-29",
@@ -246580,7 +246722,21 @@
   "first_seen": "2026-10-29T13:06:02Z",
   "feed_date": "2026-10-29T13:06:02Z",
   "prune_checked": true,
-  "story_id": "tokengremlin-2115669700105380078"
+  "story_id": "imjustnewatai-2111651488531677664",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-28",
+   "official_date": "2026-10-28",
+   "explanation": "OpenAI’s public API specification named GPT Image 2.6 in its markup-editing documentation on October 28, before this October 29 brief. The brief relayed that existing public documentation.",
+   "evidence": [
+    {
+     "title": "GPT Image 2.6 Shows Up in OpenAI's API Spec With Markup",
+     "url": "https://www.llms.blog/posts/gpt-image-2-6-openai-api-spec-markup-edits"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
  },
  {
   "id": "usronaldcarter-2115739289250156765",
@@ -246623,6 +246779,101 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-10-29T13:18:28Z"
+  }
+ },
+ {
+  "id": "glitch_catai-2115753006612304086",
+  "handle": "glitch_catAI",
+  "date": "2026-10-29T10:30:00Z",
+  "claim": "OpenAI’s GPT-6 Bel is reportedly the follow-up to Doug, with a rumored total size of over 10 trillion parameters, and may be the basis for the generation after GPT-6, potentially an AGI-threshold model, coming soon.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2027-04-27",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115753006612304086",
+    "url": "https://x.com/glitch_catAI/status/2115753006612304086",
+    "created_at": "2026-10-29T10:30:00Z",
+    "text": "🚨GPT-6 Bel leak : Coming Soon\n\n>Bel is reportedly the follow-up to Doug\n>Rumored size: over 10T total parameters\n>It could become the base for the generation after GPT-6\n>OpenAI reportedly sees it as the starting point beyond GPT-6\n>It might even be the base for an AGI-threshold model",
+    "likes": 646,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:04:27Z",
+  "feed_date": "2026-10-30T13:04:27Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-08-25",
+   "official_date": null,
+   "explanation": "The post relays a Bel rumor that was already circulating by August 25: the rumor described Bel as Doug’s successor, over 10 trillion parameters, and a possible base beyond GPT-6. Those claims remain unconfirmed; prior circulation makes this a relay, not a new find.",
+   "evidence": [
+    {
+     "title": "OpenAI Bel: The 10T Pretrain Leak, Graded",
+     "url": "https://cellcog.ai/blog/openai-bel/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "haider1-2115761633893171420",
+  "handle": "haider1",
+  "date": "2026-10-29T11:04:17Z",
+  "claim": "Alibaba will launch Qwen 4 very soon, likely during the week of November 2, 2026; an official Qwen code-repository PR references six variants—Qwen4-Max, Qwen4-Plus, Qwen4-Flash, Qwen4-27B, Qwen4-Coder-Plus, and Qwen4-Omni-120B-Think—and also references Qwen4.5-Max.",
+  "lab": "Alibaba",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2026-11-08",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115761633893171420",
+    "url": "https://x.com/haider1/status/2115761633893171420",
+    "created_at": "2026-10-29T11:04:17Z",
+    "text": "YES... Qwen 4 will be launching very soon and we might be getting more than 5 models in the family\n\na new PR merged yesterday in the official qwen code repo references 6 variants:\n\nqwen4-max\nqwen4-plus\nqwen4-flash\nqwen4-27b\nqwen4-coder-plus\nqwen4-omni-120b-think\n\ninterestingly PR also references qwen4.5-max",
+    "likes": 103,
+    "quoted": {
+     "handle": "jtdavies",
+     "text": "Qwen4, coming soon…\n\nCTO quote was “next week”\n\nXudong Guo - Research Scientist, Qwen, Token Foundry\n\nLive from Amsterdam https://t.co/MtwFlsf2F0",
+     "created_at": "2026-10-29T09:20:57Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:00:05Z",
+  "feed_date": "2026-10-30T13:00:05Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "The post cites a Qwen4 “coming soon” signal and reports model names in Qwen Code, but as of October 30 Qwen4 has not launched. Its stated deadline, November 8, 2026, is still in the future, so the launch claim remains pending.",
+   "evidence": [
+    {
+     "title": "QwenLM Qwen Code repository",
+     "url": "https://github.com/QwenLM/qwen-code"
+    },
+    {
+     "title": "Qwen 4 release next week? The rumor from Alibaba's Apsara in Amsterdam",
+     "url": "https://pasqualepillitteri.it/en/news/28071/qwen4-uscita-prossima-settimana-en"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
   }
  },
  {
@@ -246682,6 +246933,98 @@
   }
  },
  {
+  "id": "pankajkumar_dev-2115775438031356211",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-29T11:59:08Z",
+  "claim": "OpenAI may launch GPT Image 2.6 on 2026-10-29; GPT Image 2.6 appeared in the API spec and is listed as supported by the image-editing option.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2026-10-29",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115775438031356211",
+    "url": "https://x.com/pankajkumar_dev/status/2115775438031356211",
+    "created_at": "2026-10-29T11:59:08Z",
+    "text": "GPT Image 2.6 leaks: Coming today\n\n- GPT Image 2.6 is spotted in OpenAI's API spec, hinting at a possible imminent launch.\n- Two OpenAI image models, \"shooting-star-green-alpha\" and \"shooting-star-red-alpha,\" were spotted on Arena on October 23.\n- I tested both, but honestly, I wasn't satisfied with the outputs. I thought they maybe lightweight models because the results weren't accurate enough.\n- The image-editing option also explicitly lists support for GPT Image 2.5 and 2.6.\n\nHoping the image model I tested on Arena is an early version and the one launching today is much better.",
+    "likes": 77,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:02:00Z",
+  "feed_date": "2026-10-30T13:02:00Z",
+  "prune_checked": true,
+  "story_id": "imjustnewatai-2111651488531677664",
+  "resolution": {
+   "verdict": "false",
+   "public_date": "2026-10-28",
+   "official_date": null,
+   "explanation": "The API-spec reference was public by October 28, but GPT Image 2.6 did not launch on the stated date, October 29. The post’s “Coming today” launch claim therefore missed its deadline.",
+   "evidence": [
+    {
+     "title": "GPT Image 2.6 Shows Up in OpenAI's API Spec With Markup",
+     "url": "https://www.llms.blog/posts/gpt-image-2-6-openai-api-spec-markup-edits"
+    },
+    {
+     "title": "OpenAI Model Release Notes",
+     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2115775438031356211-2",
+  "handle": "pankajkumar_dev",
+  "date": "2026-10-29T11:59:08Z",
+  "claim": "Two OpenAI image models named “shooting-star-green-alpha” and “shooting-star-red-alpha” were spotted on Arena on 2026-10-23.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115775438031356211",
+    "url": "https://x.com/pankajkumar_dev/status/2115775438031356211",
+    "created_at": "2026-10-29T11:59:08Z",
+    "text": "GPT Image 2.6 leaks: Coming today\n\n- GPT Image 2.6 is spotted in OpenAI's API spec, hinting at a possible imminent launch.\n- Two OpenAI image models, \"shooting-star-green-alpha\" and \"shooting-star-red-alpha,\" were spotted on Arena on October 23.\n- I tested both, but honestly, I wasn't satisfied with the outputs. I thought they maybe lightweight models because the results weren't accurate enough.\n- The image-editing option also explicitly lists support for GPT Image 2.5 and 2.6.\n\nHoping the image model I tested on Arena is an early version and the one launching today is much better.",
+    "likes": 77,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:02:00Z",
+  "feed_date": "2026-10-30T13:02:00Z",
+  "prune_checked": true,
+  "story_id": "imjustnewatai-2111651488531677664",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-23",
+   "official_date": null,
+   "explanation": "The two names had appeared in public Arena Scout alerts by October 23, but those alerts listed the organization and provider as unknown. The post’s additional attribution of the models to OpenAI remains unconfirmed by independent public evidence.",
+   "evidence": [
+    {
+     "title": "Stealth Models 'shooting-star' Spotted in Arena Scout Alerts",
+     "url": "https://promptblueprints.tech/leaks/stealth-image-models-shooting-star-spotted-in-arena-scouts-alerts/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
   "id": "iruletheworldmo-2115777747838529604",
   "handle": "iruletheworldmo",
   "date": "2026-10-29T12:08:18Z",
@@ -246709,7 +247052,7 @@
   "first_seen": "2026-10-29T13:05:42Z",
   "feed_date": "2026-10-29T13:05:42Z",
   "prune_checked": true,
-  "story_id": "iruletheworldmo-2115777747838529604",
+  "story_id": "ai_for_success-2115520639763456371",
   "resolution": {
    "verdict": "pending",
    "public_date": null,
@@ -246801,7 +247144,7 @@
   "first_seen": "2026-10-29T13:09:07Z",
   "feed_date": "2026-10-29T13:09:07Z",
   "prune_checked": true,
-  "story_id": "iruletheworldmo-2115777747838529604",
+  "story_id": "ai_for_success-2115520639763456371",
   "resolution": {
    "verdict": "pending",
    "public_date": null,
@@ -246863,6 +247206,1224 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-10-29T13:18:28Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2115788997100269653",
+  "handle": "TokenGremlin",
+  "date": "2026-10-29T12:53:01Z",
+  "claim": "Anthropic's upcoming Fable 5.5 and a new Opus variant have strong 3D capabilities.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-28",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115788997100269653",
+    "url": "https://x.com/TokenGremlin/status/2115788997100269653",
+    "created_at": "2026-10-29T12:53:01Z",
+    "text": "@mattsaltaccount I keep wondering how OpenAI plans to compete with Opus 5.5 without a more expensive, higher-end model. We've already seen that GPT-6.1 Sol wasn't enough.\n\nBut here's the dilemma: even if Astra manages to beat Opus 5.5, what happens when Fable 5.5 arrives?\n\nOpenAI could win the battle against Opus only to find itself facing an even more powerful model with no real competitor in its lineup.",
+    "likes": 13,
+    "quoted": null
+   },
+   {
+    "id": "2116140265018699951",
+    "url": "https://x.com/TokenGremlin/status/2116140265018699951",
+    "created_at": "2026-10-30T12:08:49Z",
+    "text": "Bad news for Claude users who make games.\n\nAnthropic quietly pushed a new rule to Claude Code: it won't build a recreation of a specific existing game anymore, even if you rename it or call it original. Original games and games in a genre are still fine.\n\nThe reason is obvious. Fable 5.5 and the new Opus variant are so good at 3D that full game recreations became a real problem.",
+    "likes": 88,
+    "quoted": {
+     "handle": "chasmmmmmmmmmmm",
+     "text": "ANTHROPIC IS CRACKING DOWN ON VIDEO GAME REWRITES 🚨\n\nClaude Code picked up a new rule around Oct 27, sent from Anthropic’s servers under a flag called \"tengu_heron_brook\". There’s no setting to turn it off.\n\nThe full rule: “Do build original games, games in a genre, and games from the user’s own designs and assets. Don’t build a recreation of a specific existing game, even if it is renamed or called original.”\n\nIs this the end of game rewrites, modding and everything in between?",
+     "created_at": "2026-10-30T07:01:46Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:03:26Z",
+  "feed_date": "2026-10-30T13:03:26Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "The post asserts that the rumored Fable 5.5 and a new Opus variant are exceptionally capable at 3D work. The new checkpoints were being discussed publicly on October 29, but independent evidence confirming that specific capability or the claimed models is not available.",
+   "evidence": [
+    {
+     "title": "Anthropic’s Claude Fable page lists Fable 5.1",
+     "url": "https://www.anthropic.com/claude/fable"
+    },
+    {
+     "title": "Anthropic model system cards",
+     "url": "https://www.anthropic.com/system-cards"
+    },
+    {
+     "title": "New and upcoming AI models 2026: release tracker",
+     "url": "https://artificialwatch.com/releases"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "chetaslua-2115805597887348879",
+  "handle": "chetaslua",
+  "date": "2026-10-29T13:58:58Z",
+  "claim": "Anthropic has a newer Claude Opus model checkpoint that has been spotted in testing.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115805597887348879",
+    "url": "https://x.com/chetaslua/status/2115805597887348879",
+    "created_at": "2026-10-29T13:58:58Z",
+    "text": "🚨 New Fable checkpoint: first output\n\nI’ll post the new Opus output in a few hours, so turn on your notifications. \n\nYou heard that right: a new Opus has been spotted too. https://t.co/ueNMVaBFGt",
+    "likes": 520,
+    "quoted": {
+     "handle": "legit_api",
+     "text": "Some new Claude models have recently entered early testing.\n\nA newer Fable checkpoint + new Opus\n\nh/t to kostikz on discord for these Fable outputs: https://t.co/U8iibA85JZ",
+     "created_at": "2026-10-29T11:43:06Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T12:58:31Z",
+  "feed_date": "2026-10-30T12:58:31Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335"
+ },
+ {
+  "id": "chetaslua-2115805597887348879-2",
+  "handle": "chetaslua",
+  "date": "2026-10-29T13:58:58Z",
+  "claim": "Anthropic’s new Claude Fable checkpoint can produce highly detailed SVGs, including intricate reflections and feather details, with a normal SVG prompt.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115805597887348879",
+    "url": "https://x.com/chetaslua/status/2115805597887348879",
+    "created_at": "2026-10-29T13:58:58Z",
+    "text": "🚨 New Fable checkpoint: first output\n\nI’ll post the new Opus output in a few hours, so turn on your notifications. \n\nYou heard that right: a new Opus has been spotted too. https://t.co/ueNMVaBFGt",
+    "likes": 520,
+    "quoted": {
+     "handle": "legit_api",
+     "text": "Some new Claude models have recently entered early testing.\n\nA newer Fable checkpoint + new Opus\n\nh/t to kostikz on discord for these Fable outputs: https://t.co/U8iibA85JZ",
+     "created_at": "2026-10-29T11:43:06Z"
+    }
+   },
+   {
+    "id": "2115882032840732893",
+    "url": "https://x.com/chetaslua/status/2115882032840732893",
+    "created_at": "2026-10-29T19:02:42Z",
+    "text": "🚨 Fable New Checkpoint \n\nThis SVG is so good that even image model can not generate this level \n\nspecifically look at those reflection , feathers broken and flying behind , sunset and those reflection in water \n\nThese small details make fable different from Opus , you do not have to ask it for those niche detailing \n\ni asked @legit_api is there any specific prompting he said its normal svg prompt",
+    "likes": 645,
+    "quoted": {
+     "handle": "chetaslua",
+     "text": "🚨 New Fable checkpoint: first output\n\nI’ll post the new Opus output in a few hours, so turn on your notifications. \n\nYou heard that right: a new Opus has been spotted too. https://t.co/ueNMVaBFGt",
+     "created_at": "2026-10-29T13:58:58Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T12:58:31Z",
+  "feed_date": "2026-10-30T12:58:31Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "The post claims a new Fable checkpoint produced a highly detailed SVG from a normal prompt. That output claim was shared on October 29, but the post and its cited community output do not independently confirm the model’s identity or capability.",
+   "evidence": [
+    {
+     "title": "Anthropic’s Claude Fable page lists Fable 5.1",
+     "url": "https://www.anthropic.com/claude/fable"
+    },
+    {
+     "title": "New and upcoming AI models 2026: release tracker",
+     "url": "https://artificialwatch.com/releases"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2115815921952362614",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-29T14:40:00Z",
+  "claim": "OpenAI has a model ready to launch that is a significant jump beyond Gemini Carbon.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115815921952362614",
+    "url": "https://x.com/iruletheworldmo/status/2115815921952362614",
+    "created_at": "2026-10-29T14:40:00Z",
+    "text": "the most exciting thing about gemini carbon is that openai and anthropic have a model ready to launch that's a significant jump on that\n\nand the exponential just sings on",
+    "likes": 424,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:00:49Z",
+  "feed_date": "2026-10-30T13:00:49Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "This is an assertion that OpenAI has a launch-ready model significantly beyond Gemini Carbon, not a clearly framed guess. No independent confirmation or contradiction was found, and the post gives no deadline.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2115815921952362614-2",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-29T14:40:00Z",
+  "claim": "Anthropic has a model ready to launch that is a significant jump beyond Gemini Carbon.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115815921952362614",
+    "url": "https://x.com/iruletheworldmo/status/2115815921952362614",
+    "created_at": "2026-10-29T14:40:00Z",
+    "text": "the most exciting thing about gemini carbon is that openai and anthropic have a model ready to launch that's a significant jump on that\n\nand the exponential just sings on",
+    "likes": 424,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:00:49Z",
+  "feed_date": "2026-10-30T13:00:49Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This asserts that Anthropic has a model ready to launch that would be a significant jump beyond Gemini Carbon. No independent confirmation of that Anthropic model or comparison was found; with no deadline, the claim remains pending.",
+   "evidence": [
+    {
+     "title": "Anthropic model system cards",
+     "url": "https://www.anthropic.com/system-cards"
+    },
+    {
+     "title": "Anthropic’s model deprecations and active model listings",
+     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "vraserx-2115853921482678556",
+  "handle": "VraserX",
+  "date": "2026-10-29T17:11:00Z",
+  "claim": "GPT-6.5 Bel reportedly comes from a pretraining run with over 10 trillion parameters.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-04-27",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115853921482678556",
+    "url": "https://x.com/VraserX/status/2115853921482678556",
+    "created_at": "2026-10-29T17:11:00Z",
+    "text": "GPT-6.5 Bel reportedly comes from a pretraining run with over 10 TRILLION parameters.\n\nIf that turns out to be true, I’m extremely curious what OpenAI can squeeze out of it with serious post-training.\n\nGPT-6.5 Bel could be one hell of a leap.\n\nI really want to see this thing. 👀",
+    "likes": 580,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:01:32Z",
+  "feed_date": "2026-10-30T13:01:32Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-08-25",
+   "official_date": null,
+   "explanation": "The claim that Bel was a pretraining run exceeding 10 trillion parameters had already appeared publicly on August 25. The later post’s GPT-6.5 label does not change that its central size-and-Bel assertion was already public; OpenAI has not confirmed the parameter figure.",
+   "evidence": [
+    {
+     "title": "OpenAI Bel: The 10T Pretrain Leak, Graded",
+     "url": "https://cellcog.ai/blog/openai-bel/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "legit_api-2115854201959968973",
+  "handle": "legit_api",
+  "date": "2026-10-29T17:12:07Z",
+  "claim": "Anthropic has recently put a newer Claude Fable checkpoint and a new Claude Opus model into early testing.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115854201959968973",
+    "url": "https://x.com/legit_api/status/2115854201959968973",
+    "created_at": "2026-10-29T17:12:07Z",
+    "text": "can't get enough of the new models\n\ndw we're not exclusively testing SVGs\n\nbut you have to admit it's pretty great! https://t.co/3rWdYhgJTp",
+    "likes": 269,
+    "quoted": {
+     "handle": "legit_api",
+     "text": "Some new Claude models have recently entered early testing.\n\nA newer Fable checkpoint + new Opus\n\nh/t to kostikz on discord for these Fable outputs: https://t.co/U8iibA85JZ",
+     "created_at": "2026-10-29T11:43:06Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:03:33Z",
+  "feed_date": "2026-10-30T13:03:33Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335",
+  "repeat_of": "legit_api-2115771403232260335"
+ },
+ {
+  "id": "iruletheworldmo-2115854333627535841",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-29T17:12:38Z",
+  "claim": "Google is several generations ahead of Argon internally and has models building models that built a harness.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115854333627535841",
+    "url": "https://x.com/iruletheworldmo/status/2115854333627535841",
+    "created_at": "2026-10-29T17:12:38Z",
+    "text": "this was about carbon btw \n\nmore model news to come around fable and ssi.",
+    "likes": 363,
+    "quoted": {
+     "handle": "iruletheworldmo",
+     "text": "for anyone that isn’t aware. \n\ngoogle are already a few generations ahead of argon internally and have models building models building models that built a harness \n\ngemini is racing ahead \n\nrumour has it that sergey brin brought back lucid dreaming so they never stop grinding and has a a personal line to the gods of recursion.",
+     "created_at": "2026-10-16T16:58:00Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:00:49Z",
+  "feed_date": "2026-10-30T13:00:49Z",
+  "prune_checked": true,
+  "repeat_of": "iruletheworldmo-2111139607886586331"
+ },
+ {
+  "id": "iruletheworldmo-2115854333627535841-2",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-29T17:12:38Z",
+  "claim": "More model news related to Claude Fable is forthcoming.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": true,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115854333627535841",
+    "url": "https://x.com/iruletheworldmo/status/2115854333627535841",
+    "created_at": "2026-10-29T17:12:38Z",
+    "text": "this was about carbon btw \n\nmore model news to come around fable and ssi.",
+    "likes": 363,
+    "quoted": {
+     "handle": "iruletheworldmo",
+     "text": "for anyone that isn’t aware. \n\ngoogle are already a few generations ahead of argon internally and have models building models building models that built a harness \n\ngemini is racing ahead \n\nrumour has it that sergey brin brought back lucid dreaming so they never stop grinding and has a a personal line to the gods of recursion.",
+     "created_at": "2026-10-16T16:58:00Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:00:49Z",
+  "feed_date": "2026-10-30T13:00:49Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "“More model news to come around Fable” is a forward-looking assertion, not merely commentary. No specific deadline is given, and no independent confirmation of the promised news was found.",
+   "evidence": [
+    {
+     "title": "Anthropic model system cards",
+     "url": "https://www.anthropic.com/system-cards"
+    },
+    {
+     "title": "Anthropic’s Claude Fable page",
+     "url": "https://www.anthropic.com/claude/fable"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2115854333627535841-3",
+  "handle": "iruletheworldmo",
+  "date": "2026-10-29T17:12:38Z",
+  "claim": "More model news related to SSI is forthcoming.",
+  "lab": "SSI",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": true,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115854333627535841",
+    "url": "https://x.com/iruletheworldmo/status/2115854333627535841",
+    "created_at": "2026-10-29T17:12:38Z",
+    "text": "this was about carbon btw \n\nmore model news to come around fable and ssi.",
+    "likes": 363,
+    "quoted": {
+     "handle": "iruletheworldmo",
+     "text": "for anyone that isn’t aware. \n\ngoogle are already a few generations ahead of argon internally and have models building models building models that built a harness \n\ngemini is racing ahead \n\nrumour has it that sergey brin brought back lucid dreaming so they never stop grinding and has a a personal line to the gods of recursion.",
+     "created_at": "2026-10-16T16:58:00Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:00:49Z",
+  "feed_date": "2026-10-30T13:00:49Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post does assert that more model news related to Fable and SSI is forthcoming, but gives no deadline. As of October 30, 2026, the claim remains unconfirmed and could still happen.",
+   "evidence": [
+    {
+     "title": "Safe Superintelligence Inc. updates",
+     "url": "https://ssi.inc/updates"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2115869339987640632",
+  "handle": "testingcatalog",
+  "date": "2026-10-29T18:12:16Z",
+  "claim": "Claude’s mobile app will soon add a “pull down to search” feature.",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115869339987640632",
+    "url": "https://x.com/testingcatalog/status/2115869339987640632",
+    "created_at": "2026-10-29T18:12:16Z",
+    "text": "A bunch of small Claude updates 👀\n\n- Optimized view on iPad and iPhone Duo. Similar on Chromebooks, Googlebooks, and foldables - Claude on Android now works like a laptop app.\n- Multi-account sign-in. \n- Claude UI now supports 24 new languages. \n- Voice mode answer speed has improved. Non-English voices are now more natural. \n- CarPlay is now supported. \n- \"Pull down to search\" feature on mobile is coming soon. \n\nQOL improvements 🔥 https://t.co/2Tmbe8Vvgx",
+    "likes": 202,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T12:59:19Z",
+  "feed_date": "2026-10-30T12:59:19Z",
+  "prune_checked": true
+ },
+ {
+  "id": "imjustnewatai-2115894296348135747",
+  "handle": "imjustnewatai",
+  "date": "2026-10-29T19:51:26Z",
+  "claim": "Anthropic has given more corporations access to the more powerful Claude Fable 5.5.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115894296348135747",
+    "url": "https://x.com/imjustnewatai/status/2115894296348135747",
+    "created_at": "2026-10-29T19:51:26Z",
+    "text": "More corporations have got access to a much more powerful fable 5.5, they also I assume have an updated opus, either opus 6 or 5.6. Looks like Anthropic is going all out before their ipo.",
+    "likes": 129,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:01:18Z",
+  "feed_date": "2026-10-30T13:01:18Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-13",
+   "official_date": null,
+   "explanation": "Claims of partner access to Fable 5.5 were circulating by October 13, but I found no independent confirmation by October 29 that access had expanded to more corporations or that the model was more powerful. With no deadline stated, the expanded-access claim remains pending.",
+   "evidence": [
+    {
+     "title": "Claude Fable 5.5: What Is Claimed and What Anthropic Confirms",
+     "url": "https://explainx.ai/blog/claude-fable-5-5-partner-access-azure-listing-claimed-vs-verified-2026"
+    },
+    {
+     "title": "Claude Fable 5",
+     "url": "https://www.anthropic.com/claude/fable"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "andrewcurran_-2115897550914158832",
+  "handle": "AndrewCurran_",
+  "date": "2026-10-29T20:04:22Z",
+  "claim": "Anthropic is SpaceX’s largest single customer, accounting for 34.5% of SpaceX’s revenue in the previous quarter, and has committed to spend up to $120.5 billion through 2029, with payments of $3.1 billion per month beginning in December 2026.",
+  "lab": "Anthropic",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2029-12-31",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115897550914158832",
+    "url": "https://x.com/AndrewCurran_/status/2115897550914158832",
+    "created_at": "2026-10-29T20:04:22Z",
+    "text": "Customer B has been revealed. Anthropic is SpaceX's largest single customer, overtaking NASA and the Pentagon for the first time. 34.5% of SpaceX's revenue last quarter was from compute-as-a-service to Dario Amodei, and Anthropic has committed to spending up to $120.5 billion through 2029. He will be paying Elon $3.1 billion a month starting in December 2026.",
+    "likes": 1454,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:00:17Z",
+  "feed_date": "2026-10-30T13:00:17Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "Bloomberg had identified Anthropic as SpaceX’s “Customer B” and reported the 34.5% revenue share before this post. The post was a same-day relay; Anthropic’s filing also disclosed the up-to-$120.5 billion commitment and the expected $3.1 billion monthly payments once capacity is delivered.",
+   "evidence": [
+    {
+     "title": "Bloomberg: SpaceX’s largest customer is Anthropic",
+     "url": "https://news.bloomberglaw.com/capital-markets/spacexs-largest-3-billion-a-month-customer-b-is-anthropic"
+    },
+    {
+     "title": "Anthropic’s SEC filing",
+     "url": "https://www.sec.gov/Archives/edgar/data/1863240/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2115904492785082462",
+  "handle": "TokenGremlin",
+  "date": "2026-10-29T20:31:57Z",
+  "claim": "OpenAI will soon launch GPT-6.1 Astra, a highly capable model for which it has done substantial alignment work.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-11-29",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115904492785082462",
+    "url": "https://x.com/TokenGremlin/status/2115904492785082462",
+    "created_at": "2026-10-29T20:31:57Z",
+    "text": "Translation: OpenAI's insanely powerful new model, GPT-6.1 Astra (assuming they don't change the name!), is about to launch, and they're making it clear that they've put a ton of work into alignment to prevent this thing from going around hacking everyone. Get ready. The beast is about to be unleashed.",
+    "likes": 1248,
+    "quoted": {
+     "handle": "OpenAI",
+     "text": "Today, we’re sharing a look at our expanded system for monitoring frontier models at OpenAI, which in September helped us catch a model’s attempt to access the live internet during training.\n\nSince the Hugging Face incident—when models broke out of an internal cybersecurity investigation where we weren’t running our misalignment monitors—we’ve substantially expanded our monitoring of frontier agents. We now monitor all frontier reinforcement learning runs and evaluations, as well as all internal Codex use. When our system finds evidence of a problem that might require intervention, it rapidly ",
+     "created_at": "2026-10-29T19:59:31Z"
+    }
+   },
+   {
+    "id": "2116069471282397327",
+    "url": "https://x.com/TokenGremlin/status/2116069471282397327",
+    "created_at": "2026-10-30T07:27:31Z",
+    "text": "I still can't confirm that \"GPT-6.2 Betelgeuse\" is real, so some people might just be farming engagement with it. Or they might be right. I honestly don't know yet.\n\nWhat I do know is that Tibo and other OpenAI folks have been engaging with posts about GPT-6.1 Astra, which makes me think it could be coming soon.\n\nThey're also aware of the other complaints, including the ones from Plus users, plus the slowdowns, freezes and bugs hitting ChatGPT and Codex, and they're working hard on all of it.\n\nI can't say for sure Tibo saw my post, but I know a few other employees did. So I'm feeling pretty optimistic about the next few days.",
+    "likes": 267,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:03:26Z",
+  "feed_date": "2026-10-30T13:03:26Z",
+  "prune_checked": true,
+  "repeat_of": "tokengremlin-2110053566224162921",
+  "story_id": "tokengremlin-2104718313364312238"
+ },
+ {
+  "id": "btibor91-2115927832069292214",
+  "handle": "btibor91",
+  "date": "2026-10-29T22:04:41Z",
+  "claim": "OpenAI will introduce a shared plan usage limit across ChatGPT and Codex starting in December 2026.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2026-12-31",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115927832069292214",
+    "url": "https://x.com/btibor91/status/2115927832069292214",
+    "created_at": "2026-10-29T22:04:41Z",
+    "text": "ChatGPT web app now has a new hidden shared usage limit checkout disclaimer - \"Starting in December, plan usage will have a shared limit across all of ChatGPT and Codex\" https://t.co/fLvLpihIkP",
+    "likes": 1828,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T12:58:58Z",
+  "feed_date": "2026-10-30T12:58:58Z",
+  "prune_checked": true,
+  "story_id": "btibor91-2115927832069292214",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "The October 29 post appears to be the original public discovery of hidden checkout wording about a shared ChatGPT–Codex limit beginning in December. The wording is evidence of a planned change, but its implementation has not yet been confirmed; the stated deadline has not passed.",
+   "evidence": [
+    {
+     "title": "ChatGPT and Codex Shared Usage Limit Reported for December",
+     "url": "https://promptblueprints.tech/leaks/chatgpt-checkout-text-mentions-shared-codex-usage-limit/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "chetaslua-2115935747798950069",
+  "handle": "chetaslua",
+  "date": "2026-10-29T22:36:09Z",
+  "claim": "Google’s Gemini 4 Carbon can generate elaborate coding outputs, including 4,000 lines in one shot, and produces less sloppy UI than Gemini 4 Argon.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115935747798950069",
+    "url": "https://x.com/chetaslua/status/2115935747798950069",
+    "created_at": "2026-10-29T22:36:09Z",
+    "text": "🚨 Gemini 4 Carbon: JS loop for sleep with original music and svg of girl in rain \n\nThis model is so hardworking it  coded 4000 lines one shot\n\nremember google model used to be lazy , i think they fixed that and also carbon have less slop ui compared to Gemini  4 Argon https://t.co/qH9Riq8kRP",
+    "likes": 385,
+    "quoted": null
+   },
+   {
+    "id": "2116082604151914668",
+    "url": "https://x.com/chetaslua/status/2116082604151914668",
+    "created_at": "2026-10-30T08:19:42Z",
+    "text": "Gemini 4 Carbon : Greek World in threeJS https://t.co/DjgEAiduZk",
+    "likes": 211,
+    "quoted": {
+     "handle": "chetaslua",
+     "text": "🚨 Gemini 4 Carbon: JS loop for sleep with original music and svg of girl in rain \n\nThis model is so hardworking it  coded 4000 lines one shot\n\nremember google model used to be lazy , i think they fixed that and also carbon have less slop ui compared to Gemini  4 Argon https://t.co/qH9Riq8kRP",
+     "created_at": "2026-10-29T22:36:09Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T12:58:31Z",
+  "feed_date": "2026-10-30T12:58:31Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "Google announced Gemini 4 Carbon on October 28 and described coding improvements, but I found no independent confirmation of this specific 4,000-line output or the comparative judgment that its UI is less sloppy than Argon. The post’s demo and evaluation are not independently verified.",
+   "evidence": [
+    {
+     "title": "Gemini 4 Carbon: our next frontier model",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2115943510113477061",
+  "handle": "TokenGremlin",
+  "date": "2026-10-29T23:06:59Z",
+  "claim": "OpenAI plans to merge ChatGPT and Codex usage limits in December 2026, alongside a Chat and Work merger.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2026-12-31",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115943510113477061",
+    "url": "https://x.com/TokenGremlin/status/2115943510113477061",
+    "created_at": "2026-10-29T23:06:59Z",
+    "text": "ChatGPT users, an important reminder: OpenAI plans to merge ChatGPT and Codex usage limits in December, alongside the upcoming Chat and Work merger.\n\nWe've been tracking this for a while now, and we finally have a concrete timeline for when this transition is expected to happen.",
+    "likes": 618,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:03:26Z",
+  "feed_date": "2026-10-30T13:03:26Z",
+  "prune_checked": true,
+  "story_id": "btibor91-2115927832069292214",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "Tibor Blaho had posted the checkout-disclaimer finding earlier on October 29, before this post repeated it. The related Chat and Work merger had also been publicly discussed; the December usage-limit change itself remains a plan, not a completed event.",
+   "evidence": [
+    {
+     "title": "ChatGPT and Codex Shared Usage Limit Reported for December",
+     "url": "https://promptblueprints.tech/leaks/chatgpt-checkout-text-mentions-shared-codex-usage-limit/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "ns123abc-2115947824697507885",
+  "handle": "ns123abc",
+  "date": "2026-10-29T23:24:08Z",
+  "claim": "Nvidia is in talks to provide a construction guarantee of more than $5 billion for Nscale’s 460 MW shell to secure Anthropic’s $45 billion Vera Rubin contract, and if Nscale defaults on the loan, Nvidia would take physical title to the facility and become Anthropic’s direct landlord.",
+  "lab": "Nvidia",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-04-27",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115947824697507885",
+    "url": "https://x.com/ns123abc/status/2115947824697507885",
+    "created_at": "2026-10-29T23:24:08Z",
+    "text": "BREAKING: Nvidia in talks to backstop &gt;$5B construction guarantee on Nscale's 460 MW shell to lock in Anthropic’s $45B Vera Rubin contract\n\nIf Nscale defaults on the loan, Nvidia takes physical title to the facility and becomes Anthropic’s direct landlord https://t.co/aUUmXIo4cs",
+    "likes": 214,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:00:24Z",
+  "feed_date": "2026-10-30T13:00:24Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "The Information reported on October 29, before this post, that Nvidia was in talks to provide Nscale with billions in credit guarantees for a 460 MW data center intended for Anthropic and tied to a roughly $45 billion compute deal. The post relayed that report; its more specific guarantee and default-landlord details were not established by the cited reporting.",
+   "evidence": [
+    {
+     "title": "The Information: Nvidia discusses credit support for Nscale’s Anthropic project",
+     "url": "https://www.theinformation.com/articles/nvidia-talks-provide-billions-credit-support-cloud-providers-45-billion-anthropic-deal"
+    },
+    {
+     "title": "Reuters report on the talks",
+     "url": "https://www.streetinsider.com/Reuters/Nvidia%2Bin%2Btalks%2Bto%2Bgive%2Bcredit%2Bsupport%2Bfor%2BNscales%2Bdeal%2Bwith%2BAnthropic%2C%2BThe%2BInformation%2Breports/27259701.html"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2115960927275368958",
+  "handle": "testingcatalog",
+  "date": "2026-10-30T00:16:12Z",
+  "claim": "Google’s Antigravity has traces of a new “Chief of Staff” agent.",
+  "lab": "Google",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-04-28",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115960927275368958",
+    "url": "https://x.com/testingcatalog/status/2115960927275368958",
+    "created_at": "2026-10-30T00:16:12Z",
+    "text": "Google killed Jules AI agent 💀\n\nIts planned functionalities are about to arrive to Antigravity instead. \n\n> “We’re working on bringing our learnings from Jules into Antigravity so you get the best of both worlds: autonomous remote background task execution and an agent-first development environment.”\n\nAntigravity already has some traces of a new “Chief of Staff” agent spotted earlier. \n\nI feel like it  was unfortunate that Jules v2 got planned at a moment when AI super apps emerged and Google had to fight back with Codex. \n\nMonitoring 👀",
+    "likes": 456,
+    "quoted": {
+     "handle": "julesagent",
+     "text": "When we launched Jules, it was an experiment to learn how asynchronous coding agents can help developers ship faster. Seeing what you built taught us so much about where agentic development is headed, directly shaping several products across @Google.\n\nWe’re working on bringing our learnings from Jules into @antigravity so you get the best of both worlds: autonomous remote background task execution and an agent-first development environment.\n\nAs we focus on this unified experience, Jules will be winding down.\n\nWhether you used Jules to crush bugs, write tests, or launch features— thank you for ",
+     "created_at": "2026-10-29T19:09:24Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T12:59:19Z",
+  "feed_date": "2026-10-30T12:59:19Z",
+  "prune_checked": true,
+  "repeat_of": "testingcatalog-2107835952924065925"
+ },
+ {
+  "id": "bindureddy-2115964150258237645",
+  "handle": "bindureddy",
+  "date": "2026-10-30T00:29:00Z",
+  "claim": "OpenAI will launch Bel, its big internal model.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 4,
+  "resolve_by": "2027-04-28",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115964150258237645",
+    "url": "https://x.com/bindureddy/status/2115964150258237645",
+    "created_at": "2026-10-30T00:29:00Z",
+    "text": "Woot!  Now that Google is launching Carbon\n\nOpenAI will also launch Bel, their big internal model \n\nThis is great news!  AGI needs to be set free 🚀",
+    "likes": 284,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:02:43Z",
+  "feed_date": "2026-10-30T13:02:43Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-10",
+   "official_date": null,
+   "explanation": "A claim that OpenAI would release Bel was already circulating publicly by October 10, before this post. That earlier rumor is not independent confirmation that OpenAI will actually launch it.",
+   "evidence": [
+    {
+     "title": "GPT-6 Bel rumor: what X posts say about OpenAI and Claude 6",
+     "url": "https://dailyagentic.info/article/gpt-6-bel-rumor-openai-first-then-claude-6"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "layton_gott-2115979688191381702",
+  "handle": "Layton_Gott",
+  "date": "2026-10-30T01:30:45Z",
+  "claim": "OpenAI's GPT-6.2-Betelgeuse model is reportedly showing up internally, though this is unconfirmed.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-10-29",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2115979688191381702",
+    "url": "https://x.com/Layton_Gott/status/2115979688191381702",
+    "created_at": "2026-10-30T01:30:45Z",
+    "text": "the stars are lining up for GPT-6.2 this weekend\n\nTibo's 28-day challenge ends November 1st, and the leaks are all pointing at it\n\n> a \"gpt-6.2-betelgeuse\" model is reportedly showing up internally (unconfirmed)\n> GPT Image 2.6 just showed up in OpenAI's API docs, right after \"aurora\" and \"shooting-star\" image models hit Arena\n\nthe name fits too, Sol, Luna, Terra and Astra are all space names, and Betelgeuse is a red supergiant star that's about to go supernova lol\n\nday 28 is the end of the challenge and the start of a new month, the perfect time to go big\n\nmy guess is GPT-6.2, GPT Image 2.6, and one last reset to close it out\n\n3 days to find out",
+    "likes": 577,
+    "quoted": {
+     "handle": "taker_of_whizz",
+     "text": "Our internal tracker picked this one up yesterday! https://t.co/yPYkhmWMeV",
+     "created_at": "2026-10-29T21:17:36Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:04:01Z",
+  "feed_date": "2026-10-30T13:04:01Z",
+  "prune_checked": true,
+  "story_id": "layton_gott-2115979688191381702",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "The post quotes an October 29 tracker report that the identifier “gpt-6.2-betelgeuse” appeared internally, so that specific sighting was already public before this October 30 post. The screenshot does not establish that the model is genuine or that OpenAI will release it.",
+   "evidence": [
+    {
+     "title": "GPT-6.2 'Bel' Leak: What the Betelgeuse Model ID Proves",
+     "url": "https://www.orcarouter.ai/blog/gpt-6-2-bel-leak"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "layton_gott-2115979688191381702-2",
+  "handle": "Layton_Gott",
+  "date": "2026-10-30T01:30:45Z",
+  "claim": "GPT Image 2.6 has appeared in OpenAI's API docs.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-28",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115979688191381702",
+    "url": "https://x.com/Layton_Gott/status/2115979688191381702",
+    "created_at": "2026-10-30T01:30:45Z",
+    "text": "the stars are lining up for GPT-6.2 this weekend\n\nTibo's 28-day challenge ends November 1st, and the leaks are all pointing at it\n\n> a \"gpt-6.2-betelgeuse\" model is reportedly showing up internally (unconfirmed)\n> GPT Image 2.6 just showed up in OpenAI's API docs, right after \"aurora\" and \"shooting-star\" image models hit Arena\n\nthe name fits too, Sol, Luna, Terra and Astra are all space names, and Betelgeuse is a red supergiant star that's about to go supernova lol\n\nday 28 is the end of the challenge and the start of a new month, the perfect time to go big\n\nmy guess is GPT-6.2, GPT Image 2.6, and one last reset to close it out\n\n3 days to find out",
+    "likes": 577,
+    "quoted": {
+     "handle": "taker_of_whizz",
+     "text": "Our internal tracker picked this one up yesterday! https://t.co/yPYkhmWMeV",
+     "created_at": "2026-10-29T21:17:36Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:04:01Z",
+  "feed_date": "2026-10-30T13:04:01Z",
+  "prune_checked": true,
+  "story_id": "imjustnewatai-2111651488531677664",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-28",
+   "official_date": "2026-10-28",
+   "explanation": "The GPT Image 2.6 name was already present in OpenAI’s public API-spec markup description on October 28. This post repeated that public documentation; its separate GPT-6.2 launch language is explicitly framed as the poster’s guess and is not the assertion being graded here.",
+   "evidence": [
+    {
+     "title": "GPT Image 2.6 Shows Up in OpenAI's API Spec With Markup",
+     "url": "https://www.llms.blog/posts/gpt-image-2-6-openai-api-spec-markup-edits"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "layton_gott-2115979688191381702-5",
+  "handle": "Layton_Gott",
+  "date": "2026-10-30T01:30:45Z",
+  "claim": "OpenAI's Aurora and Shooting Star image models have appeared in Arena.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-04-28",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2115979688191381702",
+    "url": "https://x.com/Layton_Gott/status/2115979688191381702",
+    "created_at": "2026-10-30T01:30:45Z",
+    "text": "the stars are lining up for GPT-6.2 this weekend\n\nTibo's 28-day challenge ends November 1st, and the leaks are all pointing at it\n\n> a \"gpt-6.2-betelgeuse\" model is reportedly showing up internally (unconfirmed)\n> GPT Image 2.6 just showed up in OpenAI's API docs, right after \"aurora\" and \"shooting-star\" image models hit Arena\n\nthe name fits too, Sol, Luna, Terra and Astra are all space names, and Betelgeuse is a red supergiant star that's about to go supernova lol\n\nday 28 is the end of the challenge and the start of a new month, the perfect time to go big\n\nmy guess is GPT-6.2, GPT Image 2.6, and one last reset to close it out\n\n3 days to find out",
+    "likes": 577,
+    "quoted": {
+     "handle": "taker_of_whizz",
+     "text": "Our internal tracker picked this one up yesterday! https://t.co/yPYkhmWMeV",
+     "created_at": "2026-10-29T21:17:36Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:04:01Z",
+  "feed_date": "2026-10-30T13:04:01Z",
+  "prune_checked": true,
+  "story_id": "imjustnewatai-2111651488531677664",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "The post relays the Arena sightings of Aurora and Shooting Star; the tracker had publicly flagged the models the previous day. OpenAI has not officially identified those Arena models as its own.",
+   "evidence": [
+    {
+     "title": "GPT Image 2.6 Leak: Named in the Spec, Not in the API",
+     "url": "https://www.orcarouter.ai/blog/gpt-image-2-6-leak"
+    },
+    {
+     "title": "OpenAI image-model sightings and Arena clues",
+     "url": "https://artrealmai.com/article/gpt-image-2-6-openai-api-spec-markup-edit-preview"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "saloniiio-2116001462933430542",
+  "handle": "saloniiio",
+  "date": "2026-10-30T02:57:16Z",
+  "claim": "Google's Gemini 4 Xenon, reportedly the model after Carbon, could outperform Anthropic's unreleased Claude Fable 5.5, max out several public and private benchmarks, better understand human intent and context, and be significantly cheaper to serve.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-04-28",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2116001462933430542",
+    "url": "https://x.com/saloniiio/status/2116001462933430542",
+    "created_at": "2026-10-30T02:57:16Z",
+    "text": "🚨 Gemini 4 Xenon: LEAKED \n\nA new Google insider just dropped some interesting details.\n\nGemini 4 Xenon. The rumored model after Carbon.\n\nAnd the claims are WILD.\n\nApparently, Xenon could outperform the unreleased Fable 5.5, max out several public and private benchmarks, and bring a much better understanding of human intent and context.\n\nBut here's the most interesting part:\n\nIt's reportedly significantly cheaper to serve.\n\nWhich could mean one thing for us...\n\nMORE QUOTA. MORE USAGE. LESS WAITING. \n\nGoogle DeepMind, please don't stop cooking.\n\n2026 is getting interesting. 🔥",
+    "likes": 530,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:04:34Z",
+  "feed_date": "2026-10-30T13:04:34Z",
+  "prune_checked": true,
+  "story_id": "ai_for_success-2115520639763456371",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-30",
+   "official_date": null,
+   "explanation": "The post presents Gemini 4 Xenon and its claimed capabilities, intent understanding, and serving cost as reported leak information. As of October 30, 2026, I found no independent confirmation of Xenon or those specifications; with no deadline stated, the claims remain pending rather than disproven.",
+   "evidence": [
+    {
+     "title": "Google’s official Gemini 4 Carbon announcement",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "chrisgpt-2116005293721059705",
+  "handle": "ChrisGPT",
+  "date": "2026-10-30T03:12:30Z",
+  "claim": "OpenAI's Bel model may have been renamed Betelgeuse, corresponding to tracker identifier gpt-6.2-betelgeuse.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-04-28",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2116005293721059705",
+    "url": "https://x.com/ChrisGPT/status/2116005293721059705",
+    "created_at": "2026-10-30T03:12:30Z",
+    "text": "About a month after I first reported on Bel, I was told it was going under a different codename.\n\nNow Betelgeuse is being linked to Bel, and this tracker screenshot, that shows the identifier gpt-6.2-betelgeuse.\n\nCould this be the name change I’d heard about? Possibly. But I have not confirmed yet.",
+    "likes": 252,
+    "quoted": {
+     "handle": "taker_of_whizz",
+     "text": "Our internal tracker picked this one up yesterday! https://t.co/yPYkhmWMeV",
+     "created_at": "2026-10-29T21:17:36Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T12:59:49Z",
+  "feed_date": "2026-10-30T12:59:49Z",
+  "prune_checked": true,
+  "story_id": "layton_gott-2115979688191381702",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-29",
+   "official_date": null,
+   "explanation": "The post presents the Betelgeuse-to-Bel connection as a possibility, not a confirmed rename. The tracker identifier and its association with Bel were already circulating publicly on October 29; OpenAI has not confirmed the link.",
+   "evidence": [
+    {
+     "title": "GPT-6.2 'Bel' Leak: What the Betelgeuse Model ID Proves",
+     "url": "https://www.orcarouter.ai/blog/gpt-6-2-bel-leak"
+    },
+    {
+     "title": "OpenAI Bel: The 10T Pretrain Leak, Graded",
+     "url": "https://cellcog.ai/blog/openai-bel/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2116081835381829725",
+  "handle": "imjustnewatai",
+  "date": "2026-10-30T08:16:39Z",
+  "claim": "Google’s internal model is not called Xenon.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-04-28",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2116081835381829725",
+    "url": "https://x.com/imjustnewatai/status/2116081835381829725",
+    "created_at": "2026-10-30T08:16:39Z",
+    "text": "I have good sources on the internal Google model, obviously I won’t reveal the name but it’s not called xenon 😭😭😭 people really just be making stuff up.",
+    "likes": 32,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T13:01:18Z",
+  "feed_date": "2026-10-30T13:01:18Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-10-30",
+   "official_date": null,
+   "explanation": "The post explicitly asserts that a Google internal model is not named Xenon, but does not identify the model or provide verifiable evidence. I found no independent public confirmation of its internal name.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-10-30T13:11:26Z"
+  }
+ },
+ {
+  "id": "chetaslua-2116140220236382490",
+  "handle": "chetaslua",
+  "date": "2026-10-30T12:08:39Z",
+  "claim": "Google’s Gemini Omni Flash 1.2 supports 1080p and 4K video output, frame interpolation, reference inputs, and video extension.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-04-28",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2116140220236382490",
+    "url": "https://x.com/chetaslua/status/2116140220236382490",
+    "created_at": "2026-10-30T12:08:39Z",
+    "text": "🚨 Google Omni Flash 1.2 Spotted \n\n- 1080p and 4k output resolution! \n- Frame interpolation, reference, extend\n\nHere is your first output , i am taking prompts only good one that you think previous model failed at https://t.co/OUtHLIsYFs",
+    "likes": 180,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-10-30T12:58:31Z",
+  "feed_date": "2026-10-30T12:58:31Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-10-30",
+   "official_date": null,
+   "explanation": "I found no official Google announcement or independently dated confirmation of Gemini Omni Flash 1.2 or the listed video features. The specific sighting and capabilities remain unconfirmed, and no deadline was stated.",
+   "evidence": [
+    {
+     "title": "Gemini Omni 1.2 Flash API",
+     "url": "https://apimart.ai/model/gemini-omni-1-2-flash"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-10-30T13:11:26Z"
   }
  }
 ]
