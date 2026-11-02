@@ -259,7 +259,7 @@
   "handle": "glitch_catAI",
   "name": "Priya",
   "avatar": "https://pbs.twimg.com/profile_images/2114428381618208768/sAhLpp7h_normal.jpg",
-  "followers": 5261,
+  "followers": 5276,
   "bio": "",
   "first_seen": "2026-10-30T13:04:27Z"
  },
@@ -270,5 +270,29 @@
   "followers": 3146,
   "bio": "",
   "first_seen": "2026-10-30T13:04:34Z"
+ },
+ "tekonburns": {
+  "handle": "TekonBurns",
+  "name": "Tekon Burns",
+  "avatar": "https://pbs.twimg.com/profile_images/2115219941905625088/mfgFCATS_normal.jpg",
+  "followers": 2675,
+  "bio": "",
+  "first_seen": "2026-11-02T16:02:38Z"
+ },
+ "indica": {
+  "handle": "indica",
+  "name": "indi.ca",
+  "avatar": "https://pbs.twimg.com/profile_images/1721518863924293632/gltbF69x_normal.jpg",
+  "followers": 31306,
+  "bio": "",
+  "first_seen": "2026-11-02T16:02:48Z"
+ },
+ "financelancelot": {
+  "handle": "FinanceLancelot",
+  "name": "Financelot",
+  "avatar": "https://pbs.twimg.com/profile_images/1838050042378137600/JzVVcKDX_normal.png",
+  "followers": 369482,
+  "bio": "",
+  "first_seen": "2026-11-02T16:03:27Z"
  }
 }
