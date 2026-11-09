@@ -131,7 +131,7 @@
   "handle": "StatsWire",
   "name": "Stats Wire",
   "avatar": "https://pbs.twimg.com/profile_images/1739307409783631872/-vcmtbTP_normal.jpg",
-  "followers": 3167,
+  "followers": 3801,
   "bio": "",
   "first_seen": "2026-10-20T11:44:48Z"
  },
@@ -310,5 +310,21 @@
   "followers": 7089,
   "bio": "",
   "first_seen": "2026-11-05T14:46:38Z"
+ },
+ "dummerspast39": {
+  "handle": "dummerspast39",
+  "name": "Binkg",
+  "avatar": "https://pbs.twimg.com/profile_images/1954538487845203968/IxBPGAtt_normal.jpg",
+  "followers": 17879,
+  "bio": "",
+  "first_seen": "2026-11-09T16:30:24Z"
+ },
+ "ryunuck": {
+  "handle": "ryunuck",
+  "name": "ryunuck🔺",
+  "avatar": "https://pbs.twimg.com/profile_images/1989926227663015936/YFXrKp0h_normal.jpg",
+  "followers": 4121,
+  "bio": "",
+  "first_seen": "2026-11-09T16:30:34Z"
  }
 }
