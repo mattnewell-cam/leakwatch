@@ -446,5 +446,21 @@
   "followers": 24920,
   "bio": "",
   "first_seen": "2026-11-16T15:56:53Z"
+ },
+ "theo": {
+  "handle": "theo",
+  "name": "Theo - t3.gg",
+  "avatar": "https://pbs.twimg.com/profile_images/2106484435382333440/vXOVE8EX_normal.jpg",
+  "followers": 429561,
+  "bio": "",
+  "first_seen": "2026-11-17T16:08:01Z"
+ },
+ "zhodonx": {
+  "handle": "zhodonx",
+  "name": "zhod",
+  "avatar": "https://pbs.twimg.com/profile_images/2110053886140493824/-uDt2vqG_normal.jpg",
+  "followers": 6814,
+  "bio": "",
+  "first_seen": "2026-11-17T16:08:10Z"
  }
 }
