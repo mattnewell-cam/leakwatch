@@ -139,7 +139,7 @@
   "handle": "5149jamesli",
   "name": "James Li",
   "avatar": "https://pbs.twimg.com/profile_images/1795711375341498368/6-l0qkth_normal.jpg",
-  "followers": 230496,
+  "followers": 236336,
   "bio": "",
   "first_seen": "2026-10-20T11:44:56Z"
  },
@@ -187,7 +187,7 @@
   "handle": "aakashgupta",
   "name": "Aakash Gupta",
   "avatar": "https://pbs.twimg.com/profile_images/2021355466216062976/8MDXp7vR_normal.jpg",
-  "followers": 335613,
+  "followers": 336376,
   "bio": "",
   "first_seen": "2026-10-23T11:46:52Z"
  },
@@ -411,7 +411,7 @@
   "handle": "adamemedia",
   "name": "ADAM",
   "avatar": "https://pbs.twimg.com/profile_images/2079028554721902592/SkPnph46_normal.jpg",
-  "followers": 80294,
+  "followers": 82434,
   "bio": "",
   "first_seen": "2026-11-14T13:41:28Z"
  },
@@ -462,5 +462,21 @@
   "followers": 6814,
   "bio": "",
   "first_seen": "2026-11-17T16:08:10Z"
+ },
+ "brivael": {
+  "handle": "brivael",
+  "name": "Brivael Le Pogam",
+  "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_normal.jpg",
+  "followers": 259324,
+  "bio": "",
+  "first_seen": "2026-11-18T15:47:41Z"
+ },
+ "fofrai": {
+  "handle": "fofrAI",
+  "name": "fofr",
+  "avatar": "https://pbs.twimg.com/profile_images/1732174612178350080/X1uR3MvQ_normal.jpg",
+  "followers": 92677,
+  "bio": "",
+  "first_seen": "2026-11-18T15:48:12Z"
  }
 }

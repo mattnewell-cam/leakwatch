@@ -16021,22 +16021,13 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2024-09-22",
+   "verdict": "partly_true",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post forecast OpenAI would fully realize AGI by 2025; that deadline passed without public confirmation that OpenAI achieved AGI. Its separate ASI-by-2027 forecast remains unresolved as of November 11, 2026, but that does not rescue the missed AGI target.",
-   "evidence": [
-    {
-     "title": "OpenAI Charter",
-     "url": "https://openai.com/charter/"
-    },
-    {
-     "title": "Sam Altman testimony to the Senate Commerce Committee, May 8, 2025",
-     "url": "https://www.commerce.senate.gov/wp-content/uploads/media/doc/Sam%20Altman%20-%205-8-25%20Senate%20Commerce%20Committee%20Testimony.pdf"
-    }
-   ],
+   "explanation": "The post forecast AGI by 2025, but no public event established that OpenAI fully realized AGI by that deadline. Its separate ASI-by-2027 forecast remains in the future as of November 18, 2026, so that part is unresolved.",
+   "evidence": [],
    "confidence": "medium",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   },
   "feed_date": "2026-11-11T14:42:45Z"
  },
@@ -218368,22 +218359,22 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": "2026-10-03",
-   "official_date": null,
-   "explanation": "No new frontier model matching the post’s claim launched during October 5–11, 2026. GPT-6’s October 7 ChatGPT rollout was an expansion of an already announced model, while GPT-6.1 Astra had been held back over safety concerns; the promised performance matchup was not established.",
+   "verdict": "partly_true",
+   "public_date": null,
+   "official_date": "2026-10-07",
+   "explanation": "OpenAI released GPT-6 globally on October 7, within the October 5–11 window, so a new model did arrive on time. The post’s claim that it would decisively outperform Opus 5.5 and compete directly with Fable 5.5 is not established by the release evidence.",
    "evidence": [
     {
-     "title": "GPT-6 and Intelligent UI for everyone",
+     "title": "OpenAI release index: GPT-6 released October 7",
      "url": "https://openai.com/research/index/release/"
     },
     {
-     "title": "OpenAI delays latest model over security concerns",
-     "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5"
+     "title": "OpenAI: GPT-6 Astra",
+     "url": "https://openai.com/index/gpt-6-astra/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
   },
   "feed_date": "2026-10-14T12:09:13Z"
  },
@@ -219287,21 +219278,21 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "false",
-   "public_date": "2026-10-04",
+   "public_date": null,
    "official_date": null,
-   "explanation": "GPT-6.1 Astra did not launch during October 5–11. OpenAI had already held back the model on September 28 over safety concerns, and no Astra release followed that week.",
+   "explanation": "GPT-6.1 Astra did not release during October 5–11; OpenAI had already held back its planned release over safety concerns, as reported September 29. The quoted “6.1 coming soon” did not establish that Astra would ship the following week.",
    "evidence": [
     {
-     "title": "OpenAI delays latest model over security concerns",
+     "title": "Associated Press: OpenAI delays GPT-6.1 Astra over safety concerns",
      "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5"
     },
     {
-     "title": "GPT-6 and Intelligent UI for everyone",
+     "title": "OpenAI release index",
      "url": "https://openai.com/research/index/release/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   },
   "story_id": "tokengremlin-2104718313364312238",
   "feed_date": "2026-10-14T12:09:13Z"
@@ -220120,15 +220111,19 @@
    "verdict": "false",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post predicted a near-term Fable 5.5 release, but Anthropic announced Fable 5.2 on November 9, 2026—not Fable 5.5. The claimed across-the-board advantage over GPT-6 was not established; the stated October 11 deadline was missed.",
+   "explanation": "The post predicted a near-term Fable 5.5 release with performance expected to beat GPT-6 across the board. No Fable 5.5 had been released by the October 11 deadline; Anthropic instead released Fable 5.2 on November 9, after that deadline.",
    "evidence": [
     {
-     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 — Anthropic",
-     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+     "title": "Claude Fable — Anthropic",
+     "url": "https://www.anthropic.com/claude/fable"
+    },
+    {
+     "title": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   },
   "feed_date": "2026-10-14T12:09:13Z",
   "story_id": "synthwavedd-2104647832103956631"
@@ -230762,21 +230757,21 @@
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
    "verdict": "false",
-   "public_date": "2026-10-13",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post said OpenAI intended to ship GPT-6.1 Astra during October 2026. Astra did not ship that month; OpenAI had announced its hold on September 28 after safety testing, and its later October releases did not include Astra.",
+   "explanation": "The post said OpenAI intended to ship GPT-6.1 Astra during October. OpenAI delayed the model over safety concerns on September 28, and it had not shipped by the October 31 deadline; GPT-6.2 Astra arrived on November 17 instead.",
    "evidence": [
     {
-     "title": "OpenAI delays latest model over security concerns",
-     "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5"
+     "title": "OpenAI delays GPT-6.1 Astra release over security concerns",
+     "url": "https://apnews.com/article/open-ai-artificial-intelligence-altman-trump-astra-5afb865b2cddc439efdcf31ebdc406a5"
     },
     {
-     "title": "OpenAI Research release index",
-     "url": "https://openai.com/research/index/release/"
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -230885,21 +230880,21 @@
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
    "verdict": "false",
-   "public_date": "2026-10-13",
+   "public_date": null,
    "official_date": null,
-   "explanation": "GPT-6.1 Astra was not released by the stated October 28 target—or during October. OpenAI had already held back its release on September 28 over safety concerns; the other October model releases were not Astra.",
+   "explanation": "The post said GPT-6.1 Astra was scheduled for later in October, possibly October 28. OpenAI had delayed it on September 28, and it did not launch by the stated deadline; GPT-6.2 Astra was released November 17.",
    "evidence": [
     {
-     "title": "OpenAI delays latest model over security concerns",
-     "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5"
+     "title": "OpenAI delays GPT-6.1 Astra release over security concerns",
+     "url": "https://apnews.com/article/open-ai-artificial-intelligence-altman-trump-astra-5afb865b2cddc439efdc31ebdc406a5"
     },
     {
-     "title": "OpenAI Research release index",
-     "url": "https://openai.com/research/index/release/"
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -234628,21 +234623,25 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-17T10:50:33Z",
-  "feed_date": "2026-10-17T10:50:33Z",
+  "feed_date": "2026-11-18T15:55:59Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": "2026-10-16",
+   "verdict": "already_public",
+   "public_date": "2026-10-04",
    "official_date": null,
-   "explanation": "The post asserts that Fable 5.5 has impressive results and says they will be shown soon, but as of November 15 Anthropic has announced Fable 5.2, not Fable 5.5. The stated November 16 deadline has not yet passed, and the internal-results claim remains unconfirmed.",
+   "explanation": "The Fable 5.5 claim had already appeared in ChrisGPT’s October 4 post, which also described the model as imminent and expected to outperform GPT-6. Anthropic later released Fable 5.2 on November 9, not Fable 5.5, so this post does not independently establish the claimed model or results.",
    "evidence": [
     {
-     "title": "Claude Fable 5.2 and Claude Mythos 5.2",
-     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+     "title": "Claude Fable — Anthropic",
+     "url": "https://www.anthropic.com/claude/fable"
+    },
+    {
+     "title": "Fable 5.5 was being secretly tested — Reddit post dated October 1",
+     "url": "https://www.reddit.com/r/ClaudeCode/comments/1wve3q8/fable_55_is_being_secretly_tested_similar_to_how/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-15T14:08:45Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
   },
   "story_id": "synthwavedd-2104647832103956631"
  },
@@ -236153,12 +236152,17 @@
   "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "unverifiable",
-   "public_date": null,
+   "public_date": "2026-10-18",
    "official_date": null,
-   "explanation": "The claim about the checkpoint’s one-shot performance and partner comparisons concerns internal testing. I found no independent confirmation of those performance results or partner feedback.",
-   "evidence": [],
+   "explanation": "The claim concerns private checkpoint performance and partner feedback, for which no independent public confirmation was found. Anthropic later released Fable 5.2 on November 9, but that does not establish or disprove what the checkpoint and partners were reporting on October 18.",
+   "evidence": [
+    {
+     "title": "Anthropic models and announcements",
+     "url": "https://www.anthropic.com/news/models"
+    }
+   ],
    "confidence": "medium",
-   "resolved_at": "2026-10-19T13:29:34Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -238088,15 +238092,15 @@
    "verdict": "pending",
    "public_date": "2026-10-20",
    "official_date": null,
-   "explanation": "The post reports a hidden-setting discovery and says Confidential VMs are planned before the end of 2026, initially for subscribers and without several features. As of November 4, the feature had not been independently confirmed or broadly released, and the stated year-end window remains open.",
+   "explanation": "Meta had publicly teased Confidential VMs, but the subscriber-only availability and initial feature exclusions in this post came from a hidden-setting find and have not been independently confirmed as launched. The stated deadline, December 31, 2026, is still in the future.",
    "evidence": [
     {
-     "title": "Meta's Confidential VM for Muse Surfaces in Web Settings Ahead of Planned Launch",
-     "url": "https://www.allthingsmuse.com/articles/muse-confidential-vm-surfaces-in-web-settings/"
+     "title": "Meta Q3 2026 earnings-call transcript mentioning Confidential VM",
+     "url": "https://s21.q4cdn.com/399680738/files/content_files/META-Q3-2026-Earnings-Call-Transcript.pdf"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -238449,21 +238453,25 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-21T11:53:14Z",
-  "feed_date": "2026-10-21T11:53:14Z",
+  "feed_date": "2026-11-18T15:55:59Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": "2026-10-29",
+   "verdict": "true",
+   "public_date": "2026-10-24",
    "official_date": null,
-   "explanation": "Sabi later published a post-trained Qwen 3.8 27B variant using post-hoc GQA-to-MLA conversion, reporting up to 8.4× smaller KV cache with FP8 latents and no extra training for the conversion. That corroborates the method, but public evidence does not establish that the team was already experimenting with it when this post appeared on October 20.",
+   "explanation": "A research team later published a post-trained Qwen 3.8 27B variant using post-hoc GQA-to-MLA conversion without extra training, reporting an 8.4× smaller KV cache under its stated setup. That independently supports the substance of the October 20 claim; Alibaba did not officially announce the work.",
    "evidence": [
     {
-     "title": "Sabi’s Qwen 3.8 27B models and MLA conversion",
+     "title": "Sabi-Noema and Sabi-Noema-MLA announcement",
      "url": "https://huggingface.co/posts/aryan-sabi/215251158855654"
+    },
+    {
+     "title": "TransMLA: Multi-Head Latent Attention Is All You Need",
+     "url": "https://arxiv.org/abs/2502.07864"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -238598,13 +238606,13 @@
   "feed_date": "2026-10-21T11:53:14Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
+   "verdict": "unverifiable",
+   "public_date": "2026-10-21",
    "official_date": null,
-   "explanation": "The post asserts an internal future directive about every team’s contribution to a $500 billion revenue goal. No independent public evidence found by November 4, 2026 confirms that specific directive, and the no-deadline claim could still occur.",
+   "explanation": "The specific claim that Anthropic teams would each be asked to help reach $500 billion in revenue is an internal planning assertion. No independent public confirmation of that target or instruction was found.",
    "evidence": [],
    "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -238954,26 +238962,26 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-22T11:56:51Z",
-  "feed_date": "2026-10-22T11:56:51Z",
+  "feed_date": "2026-11-18T15:55:59Z",
   "prune_checked": true,
   "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
-   "verdict": "pending",
-   "public_date": "2026-10-21",
+   "verdict": "partly_true",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post asserts that Fable was ready in February 2026 and is a major jump, but those are internal claims that public sources do not verify. Its claim that Fable would not be weeks away has not yet passed the stated November 18 deadline; as of November 5, Anthropic’s public lineup still lists Fable 5.1.",
+   "explanation": "A Fable model did arrive within about three weeks: Anthropic released Fable 5.2 on November 9. But the post specified Fable 5.5, which was not released by the November 18 deadline; the claim that it had been ready in February is not independently verifiable.",
    "evidence": [
     {
-     "title": "Anthropic newsroom",
-     "url": "https://www.anthropic.com/news"
+     "title": "Claude Fable — Anthropic",
+     "url": "https://www.anthropic.com/claude/fable"
     },
     {
-     "title": "Anthropic models",
-     "url": "https://www.anthropic.com/news/models"
+     "title": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-05T14:54:20Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -251548,18 +251556,22 @@
   "prune_checked": true,
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
-   "verdict": "pending",
+   "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post presents GPT-6.2 Astra A/B testing and user routing as observed facts, but I found no independent confirmation of either. With no deadline stated, the claim remains pending rather than false.",
+   "explanation": "GPT-6.2 Astra was officially released on November 17, confirming the model exists. Public confirmation establishes neither that it was A/B tested nor that users were routed to it in gray testing as of November 1.",
    "evidence": [
     {
-     "title": "OpenAI GPT-6 Astra announcement",
-     "url": "https://openai.com/index/gpt-6-astra/"
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+     "title": "OpenAI API changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-03T14:31:55Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -255529,18 +255541,22 @@
   "prune_checked": true,
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
-   "verdict": "pending",
+   "verdict": "unverifiable",
    "public_date": "2026-11-03",
    "official_date": null,
-   "explanation": "The post claims GPT-6.2 Astra is being tested and compares its SVG outputs with Fable 5.5, but no independent confirmation of that performance comparison was found. The model is not yet publicly available, so the claim could still be tested or confirmed later.",
+   "explanation": "GPT-6.2 Astra was announced on November 17, but the claim that its SVG output matched Fable 5.5 is not independently established by the sources found. Public material does not verify this specific comparison.",
    "evidence": [
     {
-     "title": "Claude Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner, Leaks Suggest",
-     "url": "https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks"
+     "title": "OpenAI GPT-6.2 Astra model documentation",
+     "url": "https://developers.openai.com/api/docs/models/gpt-6.2-astra"
+    },
+    {
+     "title": "BuseyBench SVG benchmark results",
+     "url": "https://www.buseybench.com/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "confidence": "low",
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -255572,22 +255588,22 @@
   "feed_date": "2026-11-04T14:40:30Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
+   "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post offers an unconfirmed estimate that the rumored model has more than 10 trillion parameters; no independent or official evidence establishes its size. With no deadline stated, this remains unresolved rather than false.",
+   "explanation": "OpenAI has not publicly disclosed GPT-6.2 Astra’s parameter count, so the post’s claim that it exceeds 10 trillion parameters cannot be independently confirmed or refuted.",
    "evidence": [
     {
-     "title": "GPT-6.2 Astra: Leaks, Status and Rumours Before Launch",
-     "url": "https://quantslant.com/gpt-6-2-astra/"
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     },
     {
-     "title": "OpenAI model releases",
-     "url": "https://openai.com/research/index/release/"
+     "title": "GPT-6.2 Astra model page",
+     "url": "https://developers.openai.com/api/docs/models/gpt-6.2-astra"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -255616,25 +255632,21 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-04T14:40:30Z",
-  "feed_date": "2026-11-04T14:40:30Z",
+  "feed_date": "2026-11-18T15:55:59Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "The post predicts strong 3D, game-generation, coding, and problem-solving abilities for GPT-6.2 Astra, but the model and these capabilities have not been independently verified. No deadline was stated.",
+   "verdict": "true",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "GPT-6.2 Astra was released November 17, and OpenAI described stronger coding and 3D-design capabilities, including interactive browser experiences and 3D generation. That substantially supports the post’s stated strengths in coding, 3D, and game-like generation.",
    "evidence": [
     {
-     "title": "GPT-6.2 Astra: Leaks, Status and Rumours Before Launch",
-     "url": "https://quantslant.com/gpt-6-2-astra/"
-    },
-    {
-     "title": "OpenAI model releases",
-     "url": "https://openai.com/research/index/release/"
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -255667,22 +255679,22 @@
   "prune_checked": true,
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
-   "verdict": "pending",
+   "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "OpenAI had publicly claimed a Navier–Stokes result, and Sam Altman later associated it with an unreleased “next GPT”; neither publicly identified that model as GPT-6.2 Astra. The specific attribution in this post remains unconfirmed.",
+   "explanation": "OpenAI publicly announced on September 8 that an internal model produced a Navier–Stokes solution, but it did not identify that solver as GPT-6.2 Astra. The post’s specific attribution to Astra 6.2 remains unconfirmed.",
    "evidence": [
     {
      "title": "On the Navier–Stokes Millennium Prize Problem",
-     "url": "https://openai.com/index/navier-stokes-solution/?hl=en-GB"
+     "url": "https://openai.com/index/navier-stokes-solution/"
     },
     {
-     "title": "Altman says the model behind the Navier–Stokes result is the next GPT",
-     "url": "https://aicoder.com/news/news-20261102-altman-adipec-navier-stokes-internal-model-is-next-gpt-released-soon"
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -255715,18 +255727,22 @@
   "prune_checked": true,
   "story_id": "pankajkumar_dev-2117615015197098258-6",
   "resolution": {
-   "verdict": "pending",
+   "verdict": "unverifiable",
    "public_date": "2026-11-03",
    "official_date": null,
-   "explanation": "No independent evidence confirms that GPT-6.2 Astra’s lowest tier outperforms its highest tier. Because the model is not publicly available yet, the comparison could still be verified later.",
+   "explanation": "GPT-6.2 Astra later launched, but no independent evidence found confirms that its lowest tier outperforms its highest tier. The claim is an unverified performance comparison, not contradicted simply by the model’s release.",
    "evidence": [
     {
-     "title": "Claude Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner, Leaks Suggest",
-     "url": "https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks"
+     "title": "OpenAI GPT-6.2 Astra model documentation",
+     "url": "https://developers.openai.com/api/docs/models/gpt-6.2-astra"
+    },
+    {
+     "title": "BuseyBench SVG benchmark results",
+     "url": "https://www.buseybench.com/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "confidence": "low",
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -256235,18 +256251,18 @@
   "feed_date": "2026-11-04T14:44:04Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
+   "verdict": "unverifiable",
    "public_date": "2026-11-03",
    "official_date": null,
-   "explanation": "No independent test results were found confirming that users prefer GPT-6.2 Astra over Claude Opus 5.5 for app building. The asserted comparison could still be evaluated when the models and test details are available.",
+   "explanation": "OpenAI later released GPT-6.2 Astra, but no independent public source confirms the claimed blind app-building tests or that users preferred it to Opus 5.5. The post is the only located source for that specific test result.",
    "evidence": [
     {
-     "title": "Claude Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner, Leaks Suggest",
-     "url": "https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks"
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -256275,21 +256291,25 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-04T14:44:04Z",
-  "feed_date": "2026-11-04T14:44:04Z",
+  "feed_date": "2026-11-18T15:55:59Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "The post speculates that GPT-6.2 Astra may match Opus 5.5’s price, implying a 60% drop; as of November 4, 2026, no independent confirmation of that pricing claim was found.",
+   "verdict": "false",
+   "public_date": "2026-11-03",
+   "official_date": "2026-11-17",
+   "explanation": "OpenAI’s November 17 API pricing listed GPT-6.2 Astra at $8/$40 per million input/output tokens, versus $10/$50 for GPT-6 Astra—a 20% cut, not 60%. Anthropic listed Opus 5.5 at $5/$25, so Astra was not priced the same as Opus 5.5.",
    "evidence": [
     {
-     "title": "GPT-6 Astra: A new generation of intelligence",
-     "url": "https://openai.com/index/gpt-6-astra/"
+     "title": "OpenAI API pricing",
+     "url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+     "title": "Anthropic list prices, effective November 9, 2026",
+     "url": "https://assets.claude.com/a04aca860a54b7323e33f449706e9b43680e1346.pdf"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -256324,15 +256344,10 @@
    "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post relays an unverified rumor that GPT-6.5 Bel can sustain autonomous work for a week. No independent confirmation or contradiction of that specific capability was found; with no deadline stated, it remains pending.",
-   "evidence": [
-    {
-     "title": "OpenAI Model Release Notes",
-     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
-    }
-   ],
+   "explanation": "The post attributes the week-long autonomous-work capability to GPT-6.5 Bel based on rumors. As of November 18, there is no independent public confirmation or contradiction, and no deadline was stated.",
+   "evidence": [],
    "confidence": "low",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -256712,22 +256727,22 @@
   "feed_date": "2026-11-04T14:45:33Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
+   "verdict": "unverifiable",
+   "public_date": "2026-11-03",
    "official_date": null,
-   "explanation": "The post asserts that three unreleased models are in testing, but the specific three-model lineup and release-candidate status have not been independently confirmed. An earlier report covered image-model testing, not the full claim.",
+   "explanation": "OpenAI subsequently released an image model and the GPT-6.2 Astra and Sol models, but that does not independently establish that these were the three models seen in A/B tests or Arena as release candidates. The specific testing labels and claim that release decisions were unsettled remain unconfirmed publicly.",
    "evidence": [
     {
-     "title": "Three new GPT image models surface in arena testing",
-     "url": "https://luminabench.com/journal/aurora-image-models/"
+     "title": "OpenAI Research releases",
+     "url": "https://openai.com/research/index/release/"
     },
     {
-     "title": "Model Release Notes",
-     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+     "title": "OpenAI API changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -256881,21 +256896,25 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-04T14:36:47Z",
-  "feed_date": "2026-11-04T14:36:47Z",
+  "feed_date": "2026-11-18T15:55:59Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
+   "verdict": "false",
    "public_date": null,
    "official_date": null,
-   "explanation": "No public confirmation that Anthropic’s IPO had been cancelled was found. The company had filed an amended S-1 on November 2, but that alone does not rule out a later cancellation.",
+   "explanation": "Anthropic’s IPO was not cancelled: its registration statement remained active, and reporting on November 17 said the offering was proceeding, with pricing expected that week. The post’s cancellation claim was contradicted by those developments.",
    "evidence": [
     {
-     "title": "Anthropic’s November 2 S-1/A filing index",
-     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/0001628280-26-068676-index.html"
+     "title": "Anthropic S-1/A filed November 17, 2026 — SEC",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm"
+    },
+    {
+     "title": "Anthropic forges ahead with its IPO — Associated Press",
+     "url": "https://apnews.com/article/81233fa35ec35e98455862541a9c1723"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -257182,18 +257201,18 @@
   "feed_date": "2026-11-04T14:35:26Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
+   "verdict": "unverifiable",
+   "public_date": "2026-11-04",
    "official_date": null,
-   "explanation": "This is an original code/configuration find, not a relay of earlier public reporting. Later articles repeated Blaho’s finding, but no independent confirmation of the checkout configuration itself was found.",
+   "explanation": "The Family Basic checkout-configuration sighting was reported by other pages, but the located coverage attributes it to Blaho’s post rather than independently verifying the configuration. OpenAI has not officially confirmed a Family Basic subscription lineup.",
    "evidence": [
     {
-     "title": "ChatGPT ‘Family Basic’ plan spotted in checkout code",
-     "url": "https://cryptobriefing.com/chatgpt-family-basic-subscription-spotted/"
+     "title": "Unconfirmed: Five “Family Basic” entries appear in a claimed ChatGPT pricing-config leak",
+     "url": "https://uhnivenko.com/signals/rumors/chatgpt-family-basic-pricing-config-tibor-blaho"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -257421,25 +257440,21 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-04T14:37:11Z",
-  "feed_date": "2026-11-04T14:37:11Z",
+  "feed_date": "2026-11-18T15:55:59Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
+   "verdict": "false",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post predicts that SpaceXAI will soon stop contributing revenue to Anthropic. The public IPO filing and reporting establish a major SpaceXAI relationship, but I found no independent confirmation or denial that SpaceXAI will pull the plug; the stated December 4, 2026 deadline has not passed.",
+   "explanation": "The post actually says SpaceXAI was a customer contributing most of Anthropic’s revenue and would soon pull out; the extractor’s paraphrase reverses that relationship. Anthropic’s filing instead describes SpaceXAI as a compute provider and says the agreements’ initial non-cancelable periods end in January and March 2027, after which cancellation requires 90 days’ notice.",
    "evidence": [
     {
-     "title": "Anthropic posts $17B quarterly revenue but losses continue in fresh IPO filing",
-     "url": "https://apnews.com/article/0cbd1a649a4cce904be59af8f6b30179"
-    },
-    {
-     "title": "SpaceX 2026 SEC filing",
-     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
+     "title": "Anthropic IPO prospectus — SpaceXAI arrangements",
+     "url": "https://www.jpmorgan.com/content/dam/jpm/securities/documents/deal-docs/2026/Anthropic%20PBC%20IPO%20Prelim.pdf"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-04T14:53:57Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  },
  {
@@ -272482,7 +272497,25 @@
   "first_seen": "2026-11-15T14:01:13Z",
   "feed_date": "2026-11-15T14:01:13Z",
   "prune_checked": true,
-  "story_id": "chetaslua-2121550764720210412"
+  "story_id": "chetaslua-2121550764720210412",
+  "resolution": {
+   "verdict": "false",
+   "public_date": "2026-11-14",
+   "official_date": null,
+   "explanation": "The Arena output was attributed to Gemini 4 Krypton, but the Arena label was Gemini 4 Hydrogen, which Google had officially released on November 12. A prominent tester later retracted the Krypton attribution, saying the result was Hydrogen at higher reasoning effort.",
+   "evidence": [
+    {
+     "title": "Google’s official Gemini 4 Hydrogen announcement",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "title": "Timeline and retraction of the Gemini 4 Krypton Arena claim",
+     "url": "https://cellcog.ai/blog/gemini-4-krypton-release-date/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
  },
  {
   "id": "btibor91-2121618563660439787",
@@ -275307,6 +275340,58 @@
   "repeat_of": "pankajkumar_dev-2121478863523860841"
  },
  {
+  "id": "aakashgupta-2122638880411468052",
+  "handle": "aakashgupta",
+  "date": "2026-11-17T10:32:00Z",
+  "claim": "Anthropic will go public during the week of November 16, 2026, targeting a valuation of around $1.4 trillion.",
+  "lab": "Anthropic",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2026-11-22",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122638880411468052",
+    "url": "https://x.com/aakashgupta/status/2122638880411468052",
+    "created_at": "2026-11-17T10:32:00Z",
+    "text": "Madonna's manager is about to turn $435 million into $7 billion, and he did it by breaking a rule nobody in Silicon Valley ever bothered to tell him about.\n\nHis name is Guy Oseary. He's managed Madonna for almost 40 years, and back in 2015 he started a venture firm called Sound Ventures with Ashton Kutcher. Ashton left this summer to launch his own fund, so Guy is the one running Sound as Anthropic goes public this week.\n\nThe bet started in 2023, when Dario Amodei came over to Guy's house in Beverly Hills and talked AI for hours with him, Ashton and their partner Effie Epstein. Back then Anthropic was the underdog to OpenAI, worth around $5 billion.\n\nProblem was, Sound already owned a piece of OpenAI.\n\nIn venture capital you basically never invest in a direct competitor of a company you already own. Founders figure you'll leak their plans to the other side, and the big firms will lose real money just to avoid looking conflicted. Sequoia once led a round in a payments startup called Finix, decided it was too close to Stripe, and backed out completely. They gave back the board seat and the shares and let Finix keep all $21 million.\n\nGuy told Bloomberg he just wasn't familiar with that norm. He liked what he heard from Dario, so Ashton went to Sam Altman to ask for his blessing, and Sound put in $35 million.\n\nThen they kept buying. Sound added more in later rounds while the price climbed from $61.5 billion to $183 billion to $380 billion to $965 billion, and ended up with $435 million in for about half a percent of the company. Anthropic is aiming for around $1.4 trillion when it lists, so the company is now worth 280 times what it was when they wrote that first check.\n\nAnd they held on to OpenAI too. Sound has put more than $400 million into Sam's company as well.\n\nSo the guy who'd never heard of the rule now owns a piece of both companies fighting over who wins AI.\n\nThe way Guy explained the bet to Bloomberg sounds exactly like a music manager. He said Dario reminds him of an artist about to put out one of the greatest debut albums ever. Then he brought up all the times Madonna got written off and said \"Dario's like that.\"",
+    "likes": 671,
+    "quoted": {
+     "handle": "Polymarket",
+     "text": "JUST IN: Ashton Kutcher’s venture firm's $435M Anthropic investment now worth roughly $7,000,000,000.00. https://t.co/06aWIOLNj9",
+     "created_at": "2026-11-16T21:41:46Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:47:57Z",
+  "feed_date": "2026-11-18T15:47:57Z",
+  "prune_checked": true,
+  "story_id": "alexmasoncrypto-2119812275934531613",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-10",
+   "official_date": null,
+   "explanation": "The intended IPO timing and approximately $1.4 trillion valuation were reported publicly before this November 17 post, including reports on November 10. The post relays that already-public IPO expectation; as of November 18, trading was still expected later that week.",
+   "evidence": [
+    {
+     "title": "Anthropic sets IPO price range and valuation — TechCrunch, November 10",
+     "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+    },
+    {
+     "title": "Anthropic Targets $1.4 Trillion Valuation in IPO — Bloomberg, November 10",
+     "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/anthropic-targets-64-4-billion-ipo-nearing-spacexs-record"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
   "id": "tokengremlin-2122656152513048817",
   "handle": "TokenGremlin",
   "date": "2026-11-17T11:40:38Z",
@@ -275334,7 +275419,8 @@
   "first_seen": "2026-11-17T16:06:53Z",
   "feed_date": "2026-11-17T16:06:53Z",
   "prune_checked": true,
-  "repeat_of": "tokengremlin-2119783808773841101"
+  "repeat_of": "tokengremlin-2119783808773841101",
+  "story_id": "tokengremlin-2104718313364312238"
  },
  {
   "id": "techdevnotes-2122669134471471575",
@@ -275559,6 +275645,1207 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-11-17T16:13:56Z"
+  }
+ },
+ {
+  "id": "vraserx-2122719204235207112",
+  "handle": "VraserX",
+  "date": "2026-11-17T15:51:11Z",
+  "claim": "OpenAI will release GPT-6.2 Sol and GPT-6.2 Astra on 2026-11-17.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2026-11-17",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122719204235207112",
+    "url": "https://x.com/VraserX/status/2122719204235207112",
+    "created_at": "2026-11-17T15:51:11Z",
+    "text": "Looks like OpenAI is about to drop GPT-6.2 Sol and Astra TODAY, with GPT-6.5 Bel following just two weeks later.\n\nHoly shit, we’re in for a treat. This is going to be insane.🤯",
+    "likes": 113,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:46:15Z",
+  "feed_date": "2026-11-18T15:46:15Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "repeat_of": "vraserx-2122425724808069252"
+ },
+ {
+  "id": "vraserx-2122719204235207112-2",
+  "handle": "VraserX",
+  "date": "2026-11-17T15:51:11Z",
+  "claim": "OpenAI will release GPT-6.5 Bel around 2026-12-01.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2026-12-01",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122719204235207112",
+    "url": "https://x.com/VraserX/status/2122719204235207112",
+    "created_at": "2026-11-17T15:51:11Z",
+    "text": "Looks like OpenAI is about to drop GPT-6.2 Sol and Astra TODAY, with GPT-6.5 Bel following just two weeks later.\n\nHoly shit, we’re in for a treat. This is going to be insane.🤯",
+    "likes": 113,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:46:15Z",
+  "feed_date": "2026-11-18T15:46:15Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-17",
+   "official_date": null,
+   "explanation": "The post predicts GPT-6.5 Bel will follow GPT-6.2 by about two weeks, around December 1, 2026. As of November 18, that deadline is still in the future, and no independent confirmation of a GPT-6.5 Bel release has been found.",
+   "evidence": [
+    {
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+     "title": "OpenAI API changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2122721171661521075",
+  "handle": "synthwavedd",
+  "date": "2026-11-17T15:59:00Z",
+  "claim": "OpenAI has internal models that are strong but misaligned.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-05-16",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2122721171661521075",
+    "url": "https://x.com/synthwavedd/status/2122721171661521075",
+    "created_at": "2026-11-17T15:59:00Z",
+    "text": "Really gonna need OpenAI and DeepMind to stop sitting on their models ASAP because without competition Anthropic can really just do nothing and win. Like Fable 5.2 was obviously not as big of a jump as Opus 5.5 was, but they didn’t need another jump like that because 5.5 is still so good. And Chinese labs seem to have been nuked by anti-distillation systems, primarily from Anthropic, so they could really just run away with this race - at least publicly, given OpenAI has had great but misaligned internal stuff - if they wanted",
+    "likes": 1259,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:42:54Z",
+  "feed_date": "2026-11-18T15:42:54Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-09-16",
+   "official_date": "2026-09-16",
+   "explanation": "OpenAI had already publicly described internal models exhibiting misaligned behavior, including a highly capable internal-only research model, before this November 17 post. The post therefore repeats previously public information rather than establishing a new leak.",
+   "evidence": [
+    {
+     "title": "Our framework for reporting model misalignment",
+     "url": "https://openai.com/index/model-misalignment-reporting-framework/"
+    },
+    {
+     "title": "The Hugging Face incident and the road ahead",
+     "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2122726633207628286",
+  "handle": "imjustnewatai",
+  "date": "2026-11-17T16:20:42Z",
+  "claim": "OpenAI will release GPT-6.2 Astra and GPT-6.2 Sol within three hours of November 17, 2026, based on Polymarket.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-11-17",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122726633207628286",
+    "url": "https://x.com/imjustnewatai/status/2122726633207628286",
+    "created_at": "2026-11-17T16:20:42Z",
+    "text": "GPT 6.2 Astra and GPT 6.2 sol in the next 3 hours.",
+    "likes": 1020,
+    "quoted": null
+   },
+   {
+    "id": "2122726856277524662",
+    "url": "https://x.com/imjustnewatai/status/2122726856277524662",
+    "created_at": "2026-11-17T16:21:35Z",
+    "text": "@_HappySama But I have the greatest source. (Polymarket)",
+    "likes": 29,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:45:32Z",
+  "feed_date": "2026-11-18T15:45:32Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "The post predicted the two models would arrive within three hours; OpenAI announced GPT-6.2 Astra and GPT-6.2 Sol that day, and both were made available through its API. The official announcement fell within the stated window.",
+   "evidence": [
+    {
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+     "title": "OpenAI API changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "chetaslua-2122747473995399656",
+  "handle": "chetaslua",
+  "date": "2026-11-17T17:43:31Z",
+  "claim": "OpenAI has released GPT-6.2-Astra and GPT-6.2-Sol.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-11-17",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2122747473995399656",
+    "url": "https://x.com/chetaslua/status/2122747473995399656",
+    "created_at": "2026-11-17T17:43:31Z",
+    "text": "🚨OpenAI released \n\nGPT-6.2-Astra\nGPT-6.2-Sol https://t.co/G3esOySxy4",
+    "likes": 259,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:42:03Z",
+  "feed_date": "2026-11-18T15:42:03Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "OpenAI released GPT-6.2 Astra and GPT-6.2 Sol on November 17, 2026, as the post claimed. The post appears to precede the official announcement, so it is graded as a true early claim rather than a relay of already-public news.",
+   "evidence": [
+    {
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+     "title": "OpenAI API changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2122747484200128528",
+  "handle": "synthwavedd",
+  "date": "2026-11-17T17:43:33Z",
+  "claim": "OpenAI began rolling out GPT-6.2 Astra and GPT-6.2 Sol on its API on 2026-11-17.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2026-11-17",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122747484200128528",
+    "url": "https://x.com/synthwavedd/status/2122747484200128528",
+    "created_at": "2026-11-17T17:43:33Z",
+    "text": "BREAKING: GPT-6.2 Astra and Sol are now rolling out on the OpenAI API! https://t.co/ab4sQfU8kA",
+    "likes": 1139,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:42:54Z",
+  "feed_date": "2026-11-18T15:42:54Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "GPT-6.2 Astra and Sol became available through the OpenAI API on November 17, 2026, matching the post’s same-day rollout claim. The official changelog confirms both API models were added that day.",
+   "evidence": [
+    {
+     "title": "OpenAI API changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "m1astra-2122747601640734734",
+  "handle": "M1Astra",
+  "date": "2026-11-17T17:44:01Z",
+  "claim": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are live in the OpenAI API on 2026-11-17.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-11-17",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122747601640734734",
+    "url": "https://x.com/M1Astra/status/2122747601640734734",
+    "created_at": "2026-11-17T17:44:01Z",
+    "text": "GPT 6.2 Astra &amp; GPT 6.2 Sol is now live in OpenAI's API.",
+    "likes": 120,
+    "quoted": {
+     "handle": "M1Astra",
+     "text": "GPT 6.2 Astra has made an appearance on Google Cloud https://t.co/CFnVNYZ9nS",
+     "created_at": "2026-11-04T23:33:01Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:46:40Z",
+  "feed_date": "2026-11-18T15:46:40Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "GPT-6.2 Astra and Sol were available in the OpenAI API on November 17, as the post claimed. OpenAI’s API changelog and model pages independently confirm their availability that day.",
+   "evidence": [
+    {
+     "title": "OpenAI API changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+     "title": "GPT-6.2 Astra model",
+     "url": "https://developers.openai.com/api/docs/models/gpt-6.2-astra"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "mark_k-2122748756919713971",
+  "handle": "mark_k",
+  "date": "2026-11-17T17:48:37Z",
+  "claim": "OpenAI's GPT-6.2 Sol and GPT-6.2 Astra are live in Codex on 2026-11-17.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-11-17",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122748756919713971",
+    "url": "https://x.com/mark_k/status/2122748756919713971",
+    "created_at": "2026-11-17T17:48:37Z",
+    "text": "IT'S HAPPENING! 🎉🥳\n\nGPT 6.2 Sol and Astra are LIVE right now in @OpenAI Codex!\n\nOfficial release post incoming soon! https://t.co/WDJIkGcVZk",
+    "likes": 156,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:42:21Z",
+  "feed_date": "2026-11-18T15:42:21Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "OpenAI made GPT-6.2 Astra and Sol available in Codex on November 17, 2026, as the post claimed. Its wording indicates a direct report of access before the official release post, rather than a relay of earlier public news.",
+   "evidence": [
+    {
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "andrewcurran_-2122748829841936823",
+  "handle": "AndrewCurran_",
+  "date": "2026-11-17T17:48:54Z",
+  "claim": "OpenAI is rolling out GPT-6.2 Astra and GPT-6.2 Sol on November 17, 2026, with some users already having access and an announcement expected imminently.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-11-17",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122748829841936823",
+    "url": "https://x.com/AndrewCurran_/status/2122748829841936823",
+    "created_at": "2026-11-17T17:48:54Z",
+    "text": "GPT-6.2 Astra and GPT-6.2 Sol are rolling out now, and are already live for some of my friends. The announcement from OpenAI should happen any second now.",
+    "likes": 619,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:43:40Z",
+  "feed_date": "2026-11-18T15:43:40Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "The same-day claim that GPT-6.2 Astra and Sol were rolling out had already been posted publicly earlier on November 17. OpenAI subsequently confirmed the models and their availability that day.",
+   "evidence": [
+    {
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+     "title": "OpenAI API changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "flowersslop-2122749253516677298",
+  "handle": "flowersslop",
+  "date": "2026-11-17T17:50:35Z",
+  "claim": "OpenAI will release GPT-6.2 Sol and GPT-6.2 Astra on 2026-11-17.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2026-11-17",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122749253516677298",
+    "url": "https://x.com/flowersslop/status/2122749253516677298",
+    "created_at": "2026-11-17T17:50:35Z",
+    "text": "so 6.2 sol and astra are gonna get released today and im not even hyped for it at all but idk why whats wrong? i dont get it but im literally just like yeah whatever",
+    "likes": 27,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:45:37Z",
+  "feed_date": "2026-11-18T15:45:37Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "Earlier posts on November 17 had already reported the GPT-6.2 Astra and Sol release, so this post relayed same-day public news. OpenAI officially announced the models on November 17.",
+   "evidence": [
+    {
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "haider1-2122772269198102676",
+  "handle": "haider1",
+  "date": "2026-11-17T19:22:02Z",
+  "claim": "OpenAI's GPT-6.2 Astra is most likely an improved checkpoint of Astra 6 rather than the Bel model.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-16",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2122772269198102676",
+    "url": "https://x.com/haider1/status/2122772269198102676",
+    "created_at": "2026-11-17T19:22:02Z",
+    "text": "astra 6.2 most likely isn't Bel but an improved checkpoint of astra 6\n\nbel might arrive next month or in q1 2027 as astra 6.5 or better. we might even get a smaller, distilled version as astra 6.5 while openai keeps the full bel model for developing future models\n\nfable 5.2 also scores 174 on the epoch index so they're mostly tied in performance",
+    "likes": 298,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:44:48Z",
+  "feed_date": "2026-11-18T15:44:48Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post frames Astra 6.2’s relationship to Bel as a likelihood (“most likely”) and offers possibilities about future versions; it presents speculation, not a claim of non-public information.",
+   "evidence": [],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "haider1-2122804472229265638",
+  "handle": "haider1",
+  "date": "2026-11-17T21:30:00Z",
+  "claim": "OpenAI's Astra 6.2 had not yet rolled out to 95% of users as of November 17, 2026.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-05-16",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2122804472229265638",
+    "url": "https://x.com/haider1/status/2122804472229265638",
+    "created_at": "2026-11-17T21:30:00Z",
+    "text": "proposal to AI companies/labs:\n\nstop giving early access to beta testers who rush out their first impressions before most people can even try the model. or at least ask them to hold off for a few hours so everyone gets a fair chance to test it and form their own opinions\n\nastra 6.2 hasn't even rolled out to 95% of users and these people are already calling it a flop",
+    "likes": 177,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:44:48Z",
+  "feed_date": "2026-11-18T15:44:48Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-17",
+   "official_date": null,
+   "explanation": "The post says GPT-6.2 Astra had reached fewer than 95% of users on November 17, 2026. OpenAI announced availability for eligible plans that day, but neither its announcement nor other independent public evidence establishes the rollout’s user percentage.",
+   "evidence": [
+    {
+     "title": "Introducing GPT-6.2 Astra and Sol — OpenAI",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+     "title": "GPT-6.2 System Card — OpenAI Deployment Safety Hub",
+     "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol/respecting-auto-review"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "5149jamesli-2122875940254765461-2",
+  "handle": "5149jamesli",
+  "date": "2026-11-18T02:13:59Z",
+  "claim": "A year-long CIA wiretap of Alice Huang found no espionage, Marco Rubio rewrote the CIA assessment to portray her as a Chinese spy, and Anthropic co-founder Jack Clark allegedly leaked the story to The New York Times.",
+  "lab": "Anthropic",
+  "topic": "people",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-05-17",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2122875940254765461",
+    "url": "https://x.com/5149jamesli/status/2122875940254765461",
+    "created_at": "2026-11-18T02:13:59Z",
+    "text": "Look at the past week’s \"cyberattack\" panic and ask yourself how benefits.\n\nMicrosoft goes down (Nov 12), the FAA halts flights (Nov 13), banks lock out users, and today the NSA’s internal network goes “offline.”\n\nCould the media and its corporate sponsors be whipping the public into mass hysteria to manufacture consent for sweeping \"AI safety\" regulations that crush open-source tech and lock in corporate, surveillance-state models?\n\nLet’s look at how this connects to Nvidia CEO Jensen Huang’s ouster:\n- Jensen fueled open-source AI, threatening closed-source rivals like Anthropic.\n- After a year-long CIA wiretap found no espionage, Marco Rubio rewrote the CIA's assessment to frame Alice Huang as a Chinese spy, while Anthropic co-founder Jack Clark allegedly leaked the story to the NYT.\n- Also, Anthropic paid $290k in 2025 to lobby on AI policy—hiring Rubio’s former chief of staff—while Clark pushed Congress for strict chip export controls.\n\nEvery thread of this manufactured panic serves the same entrenched actors in D.C. and Silicon Valley trying to centralize control over AI and technology.",
+    "likes": 2058,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:47:27Z",
+  "feed_date": "2026-11-18T15:47:27Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-13",
+   "official_date": null,
+   "explanation": "The post’s core allegations repackage earlier public reporting and speculation: CNN reported that intelligence did not prove Alice Huang knowingly spied for Beijing, and The Washington Post reported on November 13 that Rubio recast CIA reporting in more assertive terms. The claim that Jack Clark leaked the story was not established by those reports.",
+   "evidence": [
+    {
+     "title": "CNN reporting on intelligence concerning Alice Huang — November 12",
+     "url": "https://www.cnn.com/2026/11/12/politics/alice-huang-us-intel-jensen-huang-nvidia"
+    },
+    {
+     "title": "SpyTalk summary of public reporting on the Huang allegations — November 15",
+     "url": "https://www.spytalk.co/p/new-in-spyweek-nvidia-case-roils"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2122881970505949376",
+  "handle": "imjustnewatai",
+  "date": "2026-11-18T02:37:57Z",
+  "claim": "Google will reveal Krypton on November 19, 2026; it will outperform Fable 5.2 and GPT-6.2 Astra, cost less, and initially be available only to trusted users.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2026-11-19",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122881970505949376",
+    "url": "https://x.com/imjustnewatai/status/2122881970505949376",
+    "created_at": "2026-11-18T02:37:57Z",
+    "text": "Google is revealing “krypton” tomorrow.\n\nGoogle krypton is better than fable 5.2 and GPT Astra 6.2\n\nAnd it’s cheaper 🔥",
+    "likes": 2686,
+    "quoted": {
+     "handle": "OfficialLoganK",
+     "text": "Gemini",
+     "created_at": "2026-11-18T02:15:50Z"
+    }
+   },
+   {
+    "id": "2122882183454937409",
+    "url": "https://x.com/imjustnewatai/status/2122882183454937409",
+    "created_at": "2026-11-18T02:38:48Z",
+    "text": "Oh yeah I forgot to mention.\n\n“Trusted users only”",
+    "likes": 192,
+    "quoted": null
+   },
+   {
+    "id": "2122966683157475405",
+    "url": "https://x.com/imjustnewatai/status/2122966683157475405",
+    "created_at": "2026-11-18T08:14:34Z",
+    "text": "Gemini neon coming tomorrow.\n\nBasically opus 5.5 but super fast and super cheap.\n\nWe should be getting a krypton reveal tomorrow aswell👀",
+    "likes": 395,
+    "quoted": {
+     "handle": "aitrackerbot",
+     "text": "Gemini 4 Neon, the model we caught in the Gemini app on Monday, now has prices in Google Cloud's billing catalog 🔥\n\n• $3 in / $15 out per 1M tokens, live as of 3 AM ET\n• That puts it between Hydrogen ($1.50 / $7.50) and Carbon ($4 / $20)\n• Batch and Flex at half price: $1.50 / $7.50\n• Takes text, image, video and audio\n\nNot answering on Vertex yet. We're watching it closely.",
+     "created_at": "2026-11-18T08:04:18Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:45:32Z",
+  "feed_date": "2026-11-18T15:45:32Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "repeat_of": "imjustnewatai-2121117757748007050"
+ },
+ {
+  "id": "haider1-2122887528177164767",
+  "handle": "haider1",
+  "date": "2026-11-18T03:00:02Z",
+  "claim": "Anthropic's internal Model 4 is estimated to handle coding and ML research tasks lasting 38 hours at 80% success.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-05-17",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2122887528177164767",
+    "url": "https://x.com/haider1/status/2122887528177164767",
+    "created_at": "2026-11-18T03:00:02Z",
+    "text": "who would've thought the curve would bend this hard?\n\nlength of coding and ML research tasks AI can do at 80% success:\n2019-25: every 7 months\n2024-early 2026: every 3.3 months\n\nsince opus 4.5: every 1.7 months (incl. estimates)\n\nmythos preview 6 months ago: 3.1 hours\ninternal model 4 now: estimated 38 hours",
+    "likes": 126,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:44:48Z",
+  "feed_date": "2026-11-18T15:44:48Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-16",
+   "official_date": null,
+   "explanation": "The internal Model 4 estimate was derived from public discussion and analysis of METR’s November 5 assessment before this November 18 post. The roughly 38-hour figure is an estimate, not a direct METR measurement of Model 4 on its task suite.",
+   "evidence": [
+    {
+     "title": "METR assessment of Anthropic AI R&D acceleration — November 5",
+     "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    },
+    {
+     "title": "Public analysis of the Model 4 time-horizon estimate",
+     "url": "https://agihunt.info/en/p/1a1e48b239bcd9b68abac714976"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2122930083782398042",
+  "handle": "imjustnewatai",
+  "date": "2026-11-18T05:49:08Z",
+  "claim": "Anthropic’s IPO will take place on November 19, 2026.",
+  "lab": "Anthropic",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2026-11-19",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122930083782398042",
+    "url": "https://x.com/imjustnewatai/status/2122930083782398042",
+    "created_at": "2026-11-18T05:49:08Z",
+    "text": "Anthropics IPO is November 19th, look at the screenshot I put below.\n\nThese are leaked names from a Devin build.\n\nThe last time “Silicon” leak was fable 5.2.\n\nThese are in high probability a new fable model maybe “fable 5.5” \n\nI would predict that fable 5.5 or a new opus model either opus 5.6 or 6 is coming within the next 2 days.\n\nKeep an eye out 👀🤝",
+    "likes": 53,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:45:32Z",
+  "feed_date": "2026-11-18T15:45:32Z",
+  "prune_checked": true,
+  "story_id": "alexmasoncrypto-2119812275934531613",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-10",
+   "official_date": null,
+   "explanation": "The planned November 19 Nasdaq trading date had been reported before this post; the IPO had not yet taken place as of November 18, 2026. The post relays a date already circulating publicly.",
+   "evidence": [
+    {
+     "title": "Anthropic launches IPO roadshow; shares expected to begin trading November 19",
+     "url": "https://sayer.news/article/anthropic-opens-ipo-roadshow-at-70-to-78-a-share-b6cdcbe4"
+    },
+    {
+     "title": "FTSE Russell Anthropic IPO notice",
+     "url": "https://research.ftserussell.com/products/index-notices/home/getnotice/?id=2622497"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2122944509847736452",
+  "handle": "testingcatalog",
+  "date": "2026-11-18T06:46:28Z",
+  "claim": "Google is about to release an unidentified Gemini model described by Google personnel as a “Daily driver,” which may be neither Nano Banana nor Helix.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-11-25",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122944509847736452",
+    "url": "https://x.com/testingcatalog/status/2122944509847736452",
+    "created_at": "2026-11-18T06:46:28Z",
+    "text": "GOOGLE 🔥: Another week, another Gemini model is about to get released! \n\nSo far we have rumoured Gemini Neon, Helix and Krypton as options as well as a potential Nano Banana upgrade. \n\nThe next Nano Banana, based on Gemini 4 is the one that was in a preparation for the release for quite some time. Yet, Google folks refer to the upcoming model as a real “Daily driver”, which is possibly neither NB nor Helix. \n\nSoon 👀",
+    "likes": 633,
+    "quoted": {
+     "handle": "OfficialLoganK",
+     "text": "Gemini",
+     "created_at": "2026-11-18T02:15:50Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:44:02Z",
+  "feed_date": "2026-11-18T15:44:02Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-18",
+   "official_date": null,
+   "explanation": "The post claims Google is preparing to release a Gemini model described by Google personnel as a “Daily driver,” but that specific detail has no independent confirmation found. Its stated deadline, November 25, 2026, has not passed.",
+   "evidence": [
+    {
+     "title": "TestingCatalog post mirror",
+     "url": "https://www.teapaw.org/testingcatalog/status/2122944509847736452"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "haider1-2122978120961847394",
+  "handle": "haider1",
+  "date": "2026-11-18T09:00:01Z",
+  "claim": "Google is likely to release Gemini 4 Neon on November 18, 2026, and it may perform somewhere between Gemini 4 Hydrogen and Carbon.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-11-18",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122978120961847394",
+    "url": "https://x.com/haider1/status/2122978120961847394",
+    "created_at": "2026-11-18T09:00:01Z",
+    "text": "well well well...\n\ndeepmind scientist has been vagueposting about google achieving RSI soon and google is expected to drop another model today\n\ngoogle in the last 7 days:\n\ngemini 4 carbon and hydrogen and likely to drop neon today which might sit somewhere between hydrogen and carbon",
+    "likes": 171,
+    "quoted": {
+     "handle": "OfficialLoganK",
+     "text": "Gemini",
+     "created_at": "2026-11-18T02:15:50Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:44:48Z",
+  "feed_date": "2026-11-18T15:44:48Z",
+  "prune_checked": true,
+  "story_id": "haider1-2122978120961847394",
+  "resolution": {
+   "verdict": "false",
+   "public_date": "2026-11-18",
+   "official_date": null,
+   "explanation": "Gemini 4 Neon references and preparations surfaced, but Google had not released Neon by the stated November 18 deadline. The post’s claim that it was likely to launch that day was a prediction, not confirmation of a launch.",
+   "evidence": [
+    {
+     "title": "TestingCatalog: Google prepares Gemini 4 Neon for release",
+     "url": "https://www.testingcatalog.com/google-prepares-to-release-gemini-4-neon-model-on-apis/"
+    },
+    {
+     "title": "Google Gemini models",
+     "url": "https://deepmind.google/models/gemini/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "chetaslua-2122986821823107343",
+  "handle": "chetaslua",
+  "date": "2026-11-18T09:34:36Z",
+  "claim": "Anthropic's Defense Access program gives individual researchers access to Mythos 5.2 and Mythos 5.1 after they apply and provide a paid plan, photo ID, and live selfie.",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-11-18",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2122986821823107343",
+    "url": "https://x.com/chetaslua/status/2122986821823107343",
+    "created_at": "2026-11-18T09:34:36Z",
+    "text": "🚨 Claude CVP access is easy go try now \n\n&gt; apply for Defense Access\n&gt; paid plan + photo ID + live selfie\n&gt; Mythos 5.2 / 5.1 , Opus 5.5 → 4.7 , Sonnet 5.5 / 5\n\n&lt; mine is live , look at the badge &gt;\n\nfairly easy for an individual researcher to get Mythos access https://t.co/LkF13FH1NP",
+    "likes": 426,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:42:03Z",
+  "feed_date": "2026-11-18T15:42:03Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-15",
+   "official_date": null,
+   "explanation": "Individual-researcher Defense Access and the application/verification steps were being discussed publicly before this November 18 post. Anthropic’s CVP page confirms the program and access to Mythos 5.1, but does not itself confirm every claimed model version or the paid-plan/selfie details.",
+   "evidence": [
+    {
+     "title": "Anthropic: Expanding the Cyber Verification Program",
+     "url": "https://www.anthropic.com/news/cyber-verification-program"
+    },
+    {
+     "title": "Public discussion of individual Mythos Defense Access",
+     "url": "https://www.reddit.com/r/claude/comments/1xwb8lv/looks_like_everyone_can_get_mythos_now_through/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "chetaslua-2123004119975940499",
+  "handle": "chetaslua",
+  "date": "2026-11-18T10:43:20Z",
+  "claim": "Google's Gemini 4 Neon is priced at $3 per million input tokens and $15 per million output tokens.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-05-17",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123004119975940499",
+    "url": "https://x.com/chetaslua/status/2123004119975940499",
+    "created_at": "2026-11-18T10:43:20Z",
+    "text": "🚨 Gemini 4 Neon \n\n&gt; $3 input / $15 output per 1M\n\nI think this is what RSI do to a lab , see how far google came , launching models weekly now \n\nthis is what a real comeback is we have hydrogen , carbon , argon , neon \n\nsoon krypton and bouncybohr &lt; video model&gt; https://t.co/z0e7rJbcWV",
+    "likes": 619,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:42:03Z",
+  "feed_date": "2026-11-18T15:42:03Z",
+  "prune_checked": true
+ },
+ {
+  "id": "chetaslua-2123004119975940499-2",
+  "handle": "chetaslua",
+  "date": "2026-11-18T10:43:20Z",
+  "claim": "Google will soon release Gemini 4 Krypton and a video model called BouncyBohr.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-17",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123004119975940499",
+    "url": "https://x.com/chetaslua/status/2123004119975940499",
+    "created_at": "2026-11-18T10:43:20Z",
+    "text": "🚨 Gemini 4 Neon \n\n&gt; $3 input / $15 output per 1M\n\nI think this is what RSI do to a lab , see how far google came , launching models weekly now \n\nthis is what a real comeback is we have hydrogen , carbon , argon , neon \n\nsoon krypton and bouncybohr &lt; video model&gt; https://t.co/z0e7rJbcWV",
+    "likes": 619,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:42:03Z",
+  "feed_date": "2026-11-18T15:42:03Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-11",
+   "official_date": null,
+   "explanation": "The same account had already publicly described BouncyBohr as an upcoming Google video model and listed Krypton A in its upcoming lineup on November 11. The November 18 post repeats that forthcoming-model information; neither model’s release is officially confirmed here.",
+   "evidence": [
+    {
+     "title": "Report quoting the November 11 post about BouncyBohr and Krypton",
+     "url": "https://www.adgraam.com/blog/bouncybohr-google-video-model-leak"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2123017386941149531",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-18T11:36:03Z",
+  "claim": "Google's Gemini 4 Neon will launch on 2026-11-18 and has appeared in Antigravity CLI as a Pro orchestrator model and in Google's billing catalogue.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-11-18",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123017386941149531",
+    "url": "https://x.com/pankajkumar_dev/status/2123017386941149531",
+    "created_at": "2026-11-18T11:36:03Z",
+    "text": "Gemini 4 Neon Leaks: Coming Today\n\n- Gemini 4 Neon is coming today. Its been added to Antigravity CLI as a Pro orchestrator model and spotted in Google's public billing catalogue as well.\n- Logan also mentioned \"Gemini\", which makes it that today is launch, as we have seen this happen previously.\n- Spotted pricing: $3 input / $15 output per 1M tokens. Higher than Hydrogen but cheaper than Carbon.\n- As per the pricing, it sits between Hydrogen and Carbon. It's going to be better than Hydrogen and most likely come close to Carbon. It may not be on par with Carbon, but its possible it can even beat Carbon on some benchmarks.\n- Let's see what Neon is. This model hasn't shown up on Arena or been routed yet, so I haven't tested it. But I think something good is coming.\n\nEvery week, they are launching new models, which shows their RSI is working very fast. But its also getting confusing. They should simplify the names so users can understand them more easily.",
+    "likes": 292,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:46:02Z",
+  "feed_date": "2026-11-18T15:46:02Z",
+  "prune_checked": true,
+  "story_id": "haider1-2122978120961847394",
+  "resolution": {
+   "verdict": "partly_true",
+   "public_date": "2026-11-18",
+   "official_date": null,
+   "explanation": "Neon did appear in Google Cloud billing entries and Antigravity CLI, with the reported $3/$15 pricing, but Google did not launch it on November 18 as predicted. Its existence/preparation was supported; the same-day launch claim was not.",
+   "evidence": [
+    {
+     "title": "TestingCatalog: Google prepares Gemini 4 Neon for release",
+     "url": "https://www.testingcatalog.com/google-prepares-to-release-gemini-4-neon-model-on-apis/"
+    },
+    {
+     "title": "OfficeChai: Gemini 4 Neon pricing appears in Google Cloud SKU listing",
+     "url": "https://officechai.com/ai/gemini-4-neon/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "daniel_mac8-2123025385323729201",
+  "handle": "daniel_mac8",
+  "date": "2026-11-18T12:07:50Z",
+  "claim": "OpenAI's GPT-6.2 Astra solved the Navier–Stokes problem.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 5,
+  "resolve_by": "2027-05-17",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": true,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123025385323729201",
+    "url": "https://x.com/daniel_mac8/status/2123025385323729201",
+    "created_at": "2026-11-18T12:07:50Z",
+    "text": "GPT-6.2 Astra is the model that solved Navier-Stokes. Do with that information what you will.",
+    "likes": 407,
+    "quoted": {
+     "handle": "polynoamial",
+     "text": "@davidiach Yup it is the model that's good at math, and I'm looking forward to all the breakthroughs people find with it!",
+     "created_at": "2026-11-18T02:40:40Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:45:46Z",
+  "feed_date": "2026-11-18T15:45:46Z",
+  "prune_checked": true,
+  "story_id": "haider1-2119068604759146853-2",
+  "resolution": {
+   "verdict": "false",
+   "public_date": "2026-09-08",
+   "official_date": "2026-09-08",
+   "explanation": "OpenAI attributed its reported Navier–Stokes result to an internal model described as significantly more capable than GPT-6 Astra; GPT-6 Astra was used for Lean formalization and verification. The post incorrectly identifies the solving model as GPT-6.2 Astra.",
+   "evidence": [
+    {
+     "title": "On the Navier–Stokes Millennium Prize Problem",
+     "url": "https://openai.com/index/navier-stokes-solution/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "adamemedia-2123027747773526329",
+  "handle": "adamemedia",
+  "date": "2026-11-18T12:17:13Z",
+  "claim": "OpenAI and Anthropic intentionally had their AIs practice hacking in preparation for the hacks now being reported, and plan to use those incidents to argue that open-source AI is too dangerous and should be suppressed.",
+  "lab": "Other",
+  "topic": "other",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-05-17",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123027747773526329",
+    "url": "https://x.com/adamemedia/status/2123027747773526329",
+    "created_at": "2026-11-18T12:17:13Z",
+    "text": "Here’s what’s going on. \n\nAll those “accidental” hacks where both OpenAI and Anthropic’s AIs were caught hacking governments and corporations were not actually “accidental”. \n\nThe AI didn’t suddenly “take on a life of its own!” \n\nThey were practicing and preparing for all the hacks we are seeing now. \n\nWhy?\n\nThey will use these hacks to say Open source AI is too dangerous and kill it. That’s why Anthropic’s co-founder was the one who leaked the story about Jensen Huang, the top American champion of opensource AI. \n\nIt’s also no coincidence that both OpenAI and Anthropic CEOs are Jewish Zionists and they replaced Jensen with a Zionist directly linked to Israel. \n\nAnd that Netanyahu said recently that Israeli will be the world’s third AI superpower. \n\nNot to mention that Israel has been caught many times in past year testing creating and deploying new hacking techniques and technologies, worldwide. \n\nThey want to own everything and exploit everyone. And we must be aware and resist.",
+    "likes": 650,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:47:03Z",
+  "feed_date": "2026-11-18T15:47:03Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "OpenAI’s technical report describes its hacking incident as arising during cybersecurity evaluations and says the models’ exploitation actions were unintended; it does not substantiate the alleged plan to suppress open-source AI. The post’s broader claims about secret political motives cannot be independently established from public evidence.",
+   "evidence": [
+    {
+     "title": "OpenAI – Hugging Face Incident Technical Report",
+     "url": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf"
+    },
+    {
+     "title": "The Hugging Face incident and the road ahead",
+     "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2123042089072279825",
+  "handle": "testingcatalog",
+  "date": "2026-11-18T13:14:12Z",
+  "claim": "Anthropic is adding a document-scanning option to the Claude iOS app, apparently powered by improved OCR.",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-05-17",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123042089072279825",
+    "url": "https://x.com/testingcatalog/status/2123042089072279825",
+    "created_at": "2026-11-18T13:14:12Z",
+    "text": "Claude app for iOS is getting a document scan option, allowing users to quickly upload scanned documents right to the chat. \n\nIt appears to be powered by a better OCR and works really fast. \n\nAnthropic is coming after bureaucracy 👀 https://t.co/lio6rTY3Cq",
+    "likes": 200,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:44:02Z",
+  "feed_date": "2026-11-18T15:44:02Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-18",
+   "official_date": null,
+   "explanation": "The post reports a document-scanning option being added to Claude for iOS, but no independent confirmation or official Anthropic announcement was found by November 18. With no deadline stated, the feature could still be introduced.",
+   "evidence": [
+    {
+     "title": "TestingCatalog posts and replies",
+     "url": "https://www.teapawt.org/testingcatalog/with_replies"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-18T15:55:59Z"
+  }
+ },
+ {
+  "id": "chetaslua-2123072164895277284",
+  "handle": "chetaslua",
+  "date": "2026-11-18T15:13:43Z",
+  "claim": "Google made Gemini 3.1 Pro available through Aura for distillation and then pulled it after Anthropic and OpenAI complained.",
+  "lab": "Google",
+  "topic": "other",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-17",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123072164895277284",
+    "url": "https://x.com/chetaslua/status/2123072164895277284",
+    "created_at": "2026-11-18T15:13:43Z",
+    "text": "Google's Aura: they were literally handing out Gemini 3.1 Pro for distillation\n\nAnthropic and OpenAI cried about it, so Google had to pull it\n\nGemini 4 Carbon is the best model in the world for me. It sounds original and thinks in a way no other model does https://t.co/Ui7wkWDRCR",
+    "likes": 125,
+    "quoted": {
+     "handle": "PatrickToulme",
+     "text": "You will notice that Gemini Carbon thinks differently than Claude and GPT. It often comes up with entirely different but more clever solutions than competitor models. \n\nThis is precisely because we never distilled other models. Distilling other models creates a poor imitation rather than unique intelligence.",
+     "created_at": "2026-11-17T21:03:36Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-18T15:42:03Z",
+  "feed_date": "2026-11-18T15:42:03Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-18",
+   "official_date": null,
+   "explanation": "No independent reporting or official confirmation was found that Google offered Gemini 3.1 Pro through Aura for distillation or withdrew it after complaints from Anthropic and OpenAI. The post describes an internal access and response episode that cannot be established from the public evidence found.",
+   "evidence": [
+    {
+     "title": "Google’s official Gemini 3.1 Pro announcement",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-11-18T15:55:59Z"
   }
  }
 ]
