@@ -478,5 +478,21 @@
   "followers": 92677,
   "bio": "",
   "first_seen": "2026-11-18T15:48:12Z"
+ },
+ "independenteco": {
+  "handle": "IndependentEco",
+  "name": "Eco",
+  "avatar": "https://pbs.twimg.com/profile_images/1844923584801538065/OpmJqtaa_normal.jpg",
+  "followers": 5470,
+  "bio": "",
+  "first_seen": "2026-11-19T16:15:19Z"
+ },
+ "bulltheoryio": {
+  "handle": "BullTheoryio",
+  "name": "Bull Theory",
+  "avatar": "https://pbs.twimg.com/profile_images/1954300142812581888/HkIuVtQ6_normal.jpg",
+  "followers": 293427,
+  "bio": "",
+  "first_seen": "2026-11-19T16:15:49Z"
  }
 }
