@@ -205400,21 +205400,21 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "resolution": {
    "verdict": "false",
-   "public_date": "2026-09-23",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post said Fable 5.5 was trained and coming soon, with an October 23 deadline. Anthropic released Fable 5.2 on November 9, but the stated Fable 5.5 deadline passed without its release or confirmation.",
+   "explanation": "No Claude Fable 5.5 release was confirmed by the stated October 23 deadline; Anthropic’s later November model release was Fable 5.2, not 5.5. The claimed near-term release therefore missed its deadline.",
    "evidence": [
     {
-     "title": "Claude Platform release notes",
-     "url": "https://platform.claude.com/docs/en/release-notes/overview"
+     "title": "Anthropic model system cards",
+     "url": "https://www.anthropic.com/system-cards"
     },
     {
-     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+     "title": "Claude release notes",
+     "url": "https://support.claude.com/en/articles/12138966-release-notes?mainArticle=true"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-13T14:53:34Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
   },
   "prune_checked": true,
   "feed_date": "2026-10-23T11:54:03Z"
@@ -234816,15 +234816,15 @@
    "verdict": "false",
    "public_date": null,
    "official_date": null,
-   "explanation": "Core Automation did not release a model it called “AGI” on Nov. 10. The company’s nearby public activity concerned distributed-training research, not the promised model release. ([news.bpdata.com](https://news.bpdata.com/article/core-automation-demonstrates-cross-continental-distributed-61f420d0?utm_source=openai))",
+   "explanation": "Core Automation’s stated November 10, 2026 release date passed without a publicly documented model launch. Its public site describes the lab’s research direction but does not announce an AGI model release.",
    "evidence": [
     {
-     "title": "Core Automation demonstrates cross-continental distributed training",
-     "url": "https://news.bpdata.com/article/core-automation-demonstrates-cross-continental-distributed-61f420d0"
+     "title": "Core Automation official site",
+     "url": "https://www.coreauto.com/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-13T14:53:34Z"
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -238566,15 +238566,19 @@
    "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post asserts internal organizational details about how Anthropic’s teams are divided and what they have been asked to pursue. I found no independent public confirmation of those specific internal arrangements.",
+   "explanation": "The post asserts that Anthropic’s teams are segregated and that the life sciences team may not know what other teams are doing. Public descriptions confirm Anthropic has life-sciences research, but do not establish these internal knowledge boundaries or the teams’ separate goals.",
    "evidence": [
     {
-     "title": "The Atlantic: AI’s Real Gift to Science",
-     "url": "https://www.theatlantic.com/science/2026/10/anthropic-artificial-intelligence-science/688878/"
+     "title": "Anthropic introduces a life sciences research group and laboratory",
+     "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system"
+    },
+    {
+     "title": "Anthropic’s written evidence to the UK Parliament",
+     "url": "https://committees.parliament.uk/writtenevidence/170037/default"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-21T12:02:55Z"
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -238880,17 +238884,21 @@
   "story_id": "chrisgpt-2108655565761020169",
   "resolution": {
    "verdict": "unverifiable",
-   "public_date": "2026-10-21",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post claims a Gemini checkpoint called Carbon is being tested on Arena. Carbon had been reported as an internal checkpoint, but I found no independent confirmation of the specific Arena testing claim.",
+   "explanation": "The post alleges that an Arena checkpoint under the Gemini 4 Argon name was actually Carbon, but the public clip and later commentary do not independently establish which model produced it. Google has not confirmed that specific Arena test or attribution.",
    "evidence": [
     {
-     "title": "Gemini 4 Argon: Prompts, Reviews, and Usage Guide",
-     "url": "https://go.tabbit.ai/model/gemini-4-argon"
+     "title": "Google’s Gemini 4 model announcements",
+     "url": "https://deepmind.google/models/gemini/"
+    },
+    {
+     "title": "Reporting on the alleged Arena checkpoint sighting",
+     "url": "https://www.kie.ai/blog/google-gemini-4-carbon"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-21T12:02:55Z"
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -239979,21 +239987,17 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "pending",
-   "public_date": null,
+   "public_date": "2026-10-22",
    "official_date": null,
-   "explanation": "The post’s headline asserts that Grok 4.8 beats Claude Fable 5.1, but no independent comparison confirming that was found. As of November 6, 2026, Grok 4.8 had not been publicly released, and the earlier public claims about its capabilities do not establish that it outperforms Fable 5.1; with no deadline stated, the claim remains pending.",
+   "explanation": "The post asserts that Grok 4.8 beats Claude Fable 5.1, but no independent test or confirmation of that comparison was found. Grok 4.8 could still be released and evaluated, so with no deadline stated the claim remains pending rather than false.",
    "evidence": [
     {
-     "title": "Grok 4.8 Release Date: Late, Musk Says, No Date Yet",
-     "url": "https://cellcog.ai/blog/grok-4-8-release-date/"
-    },
-    {
-     "title": "Elon Musk: Grok 4.8, which is a 2.5T model trained with our new C++ software stack",
-     "url": "https://teapaw.org/elonmusk/status/2099308197802631191"
+     "title": "Grok 4.8: Release Date, What to Expect, How It Compares",
+     "url": "https://unloc.tools/resource/grok-4-8"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-06T14:32:16Z"
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -240913,15 +240917,10 @@
    "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post claimed Claude Fable 6 and Opus 6 were still targeted for late 2026. That deadline has not passed, and no public confirmation or contradiction of this roadmap claim was found by November 6, 2026.",
-   "evidence": [
-    {
-     "title": "Claude models documentation",
-     "url": "https://platform.claude.com/docs/en/about-claude/models/overview"
-    }
-   ],
+   "explanation": "As of November 20, Anthropic had not released Claude Fable 6 or Opus 6, but the post’s stated end-of-2026 deadline has not passed. The claim remains unconfirmed and could still occur by December 31.",
+   "evidence": [],
    "confidence": "medium",
-   "resolved_at": "2026-11-06T14:32:16Z"
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -240955,17 +240954,17 @@
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
    "verdict": "pending",
-   "public_date": null,
+   "public_date": "2026-10-22",
    "official_date": null,
-   "explanation": "The post presented GPT-6.5 as a major release still aimed for the end of 2026. That deadline has not passed, and no public confirmation or contradiction of this roadmap claim was found by November 6, 2026.",
+   "explanation": "The post says GPT-6.5 is aimed for the end of 2026, and that deadline has not passed as of November 20, 2026. The public timeline provided does not confirm or contradict the target, so the claim remains pending.",
    "evidence": [
     {
-     "title": "OpenAI models",
-     "url": "https://platform.openai.com/docs/models"
+     "title": "Report on a separate GPT-6.5 launch-date rumor",
+     "url": "https://ai-oriens.com/en/news/gpt-6-5-november-rumor/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-06T14:32:16Z"
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -241004,15 +241003,10 @@
    "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post implies a future Anthropic “500 plan,” but provides no deadline, and I found no independent confirmation that such a plan has launched or been announced. With no deadline stated, lack of confirmation by November 6 does not make it false.",
-   "evidence": [
-    {
-     "title": "Claude plans and pricing — Anthropic",
-     "url": "https://claude.com/pricing"
-    }
-   ],
+   "explanation": "“500 plan incoming” reads as a claim that Anthropic will offer a $500 plan, rather than an explicitly framed personal guess. The stated deadline, April 20, 2027, has not arrived, and there is no independent confirmation of such a plan yet.",
+   "evidence": [],
    "confidence": "medium",
-   "resolved_at": "2026-11-06T14:32:16Z"
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -259342,21 +259336,17 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "pending",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "Anthropic’s substantial SpaceX compute agreement and Elon Musk’s public comment that SpaceX might need capacity back if compute became tight were already known. The post’s stronger prediction that Musk would soon withdraw it and leave Anthropic compute-constrained has not been confirmed or contradicted; its stated December 5 deadline has not passed.",
+   "public_date": "2026-11-10",
+   "official_date": "2026-11-10",
+   "explanation": "Anthropic’s November 10 prospectus disclosed compute arrangements with SpaceXAI, supporting the claim that it supplies compute. But there is no independent confirmation that Elon Musk will withdraw that supply by December 5, so the threatened pullback remains pending.",
    "evidence": [
     {
-     "title": "TechCrunch: How long is Anthropic’s lease with SpaceX? Opinions vary",
-     "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/"
-    },
-    {
-     "title": "SEC correspondence on SpaceX’s Anthropic compute agreement",
-     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000000000026005505/filename1.pdf"
+     "title": "Anthropic prospectus filed with the SEC",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-06T14:32:16Z"
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -260186,25 +260176,25 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-07T13:09:29Z",
-  "feed_date": "2026-11-10T15:13:58Z",
+  "feed_date": "2026-11-20T15:42:19Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "Alibaba opened a Qwen4-Max preview on November 10, 2026, but that does not establish the post’s claim that Qwen4 outperforms GPT-6 and Fable 5. No independent comparison confirming that claim was found.",
+   "verdict": "partly_true",
+   "public_date": "2026-11-11",
+   "official_date": "2026-11-16",
+   "explanation": "Qwen4 was previewed on November 11 and Qwen4-Max was released on November 16—nine days after the post’s November 7 target, making the timing a major miss. Alibaba’s release does not establish the post’s claim that Qwen4 beats GPT-6 and Claude Fable 5.",
    "evidence": [
     {
-     "title": "Qwen4 Next Week? What Alibaba Said in Amsterdam",
-     "url": "https://www.llms.blog/posts/qwen4-next-week-alibaba-apsara-amsterdam"
+     "title": "Alibaba Unveils Qwen4-Max",
+     "url": "https://alihome.alibaba-inc.com/en-US/document-2060139246777270272"
     },
     {
-     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-     "url": "https://www.anthropic.com/news/models"
+     "title": "Qwen4-Max available — Alibaba Cloud Model Studio",
+     "url": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/token-plan-product-updates"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-17T16:13:56Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -262046,7 +262036,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-11-09T16:39:37Z"
-  }
+  },
+  "story_id": "markgurman-2119451386111005129"
  },
  {
   "id": "markgurman-2119452607349768583",
@@ -269411,22 +269402,22 @@
   "feed_date": "2026-11-13T14:42:07Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "The Nov. 12 Cyber at the Frontier livestream teased an unreleased cyber model, but did not reveal whether GPT-6.2 Astra or Sol surpassed Fable 5.2 or Opus 5.5. The stated reveal deadline passed without the answer claimed in the post. ([jaxx.jp](https://jaxx.jp/7963?utm_source=openai))",
+   "verdict": "mostly_true",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "The post teased that the comparison could be answered on November 12; OpenAI announced GPT-6.2 Astra and Sol on November 17, five days later, making the answer publicly assessable then. Under the exact-date timing rule, a five-day delay is mostly true.",
    "evidence": [
     {
-     "title": "OpenAI teases an unreleased cyber model at Cyber at the Frontier",
-     "url": "https://jaxx.jp/7963"
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     },
     {
-     "title": "OpenAI's upcoming unreleased cyber model hits 77% on ExploitGym",
-     "url": "https://www.tbpndigest.com/story/2026-11-12/openais-upcoming-unreleased-cyber-model-hits-77-on-exploitgym-benchmark-surpassing-gpt-6-cyber"
+     "title": "OpenAI Model Release Notes — November 17, 2026",
+     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-13T14:53:34Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -271126,7 +271117,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-11-14T13:50:00Z"
-  }
+  },
+  "story_id": "tokengremlin-2121267415715606651"
  },
  {
   "id": "chetaslua-2121267674399559758",
@@ -274771,7 +274763,21 @@
   "origin": "daily",
   "first_seen": "2026-11-17T16:03:20Z",
   "feed_date": "2026-11-17T16:03:20Z",
-  "story_id": "steph_palazzolo-2122331129265135929"
+  "story_id": "steph_palazzolo-2122331129265135929",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-16",
+   "official_date": null,
+   "explanation": "The post refers to reporting that OpenAI explored acquiring Goodfire for more than $5 billion; it does not establish that Goodfire was actually worth that amount to OpenAI. I found no independent confirmation of the acquisition discussions, and the report itself cannot serve as independent confirmation.",
+   "evidence": [
+    {
+     "title": "OpenAI explored $5B+ acquisition of start-up Goodfire — report syndication",
+     "url": "https://www.tradingview.com/news/seekingalpha%3Ae3e9928d6094b%3A0-openai-explored-5b-acquisition-of-start-up-goodfire-the-information/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
  },
  {
   "id": "kimmonismus-2122383697852993594",
@@ -277541,7 +277547,8 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-11-19T16:23:43Z"
-  }
+  },
+  "story_id": "aibattle_-2123118630506582133"
  },
  {
   "id": "pankajkumar_dev-2123127328201183247",
@@ -277844,7 +277851,25 @@
   "origin": "daily",
   "first_seen": "2026-11-19T16:14:59Z",
   "feed_date": "2026-11-19T16:14:59Z",
-  "prune_checked": true
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-11-18",
+   "official_date": null,
+   "explanation": "The reported comparison is supported by the published index figures: Neon scored 60 on High versus 61 on xHigh, with the stated task costs and token-use figures. Google’s November 18 launch confirmed Neon’s release, though it did not officially publish this High-versus-xHigh comparison.",
+   "evidence": [
+    {
+     "title": "Artificial Analysis index figures reproduced in a comparison",
+     "url": "https://06.ai/wire/w178/"
+    },
+    {
+     "title": "Google: Introducing Gemini 4 Neon",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
  },
  {
   "id": "teortaxestex-2123198898575733005",
@@ -278194,6 +278219,137 @@
   "story_id": "chrisgpt-2108655565761020169"
  },
  {
+  "id": "notjazii-2123379239777075499",
+  "handle": "notjazii",
+  "date": "2026-11-19T11:33:55Z",
+  "claim": "A stealth model named Gestalt has been added to the Contra frontier design benchmark and is outperforming every model currently available.",
+  "lab": "Other",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123379239777075499",
+    "url": "https://x.com/notjazii/status/2123379239777075499",
+    "created_at": "2026-11-19T11:33:55Z",
+    "text": "new stealth model has been spotted\n\n\"gestalt\" was added on contra frontier design benchmark and it’s mogging every model available\n\nrumors are that it could be anthropic new beast they’ve been saving to release after ipo but not sure\n\ncan’t test model right as only benchmark results and example outputs are available\n\nsowho do you think is behind this model?",
+    "likes": 419,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:37:05Z",
+  "feed_date": "2026-11-20T15:37:05Z",
+  "prune_checked": true,
+  "story_id": "notjazii-2123379239777075499",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-11-19",
+   "official_date": null,
+   "explanation": "The Contra Labs × BenchFlow leaderboard lists Gestalt (stealth) at number one, ahead of the listed models, with a 90% win rate. That verifies the post’s benchmark-ranking claim, though the model’s identity remains undisclosed.",
+   "evidence": [
+    {
+     "title": "Contra Labs × BenchFlow Frontier Design Benchmark",
+     "url": "https://contralabs.com/frontierdesign/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "notjazii-2123379239777075499-2",
+  "handle": "notjazii",
+  "date": "2026-11-19T11:33:55Z",
+  "claim": "Gestalt may be an unreleased Anthropic model that the company is holding for release after its IPO.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-05-18",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123379239777075499",
+    "url": "https://x.com/notjazii/status/2123379239777075499",
+    "created_at": "2026-11-19T11:33:55Z",
+    "text": "new stealth model has been spotted\n\n\"gestalt\" was added on contra frontier design benchmark and it’s mogging every model available\n\nrumors are that it could be anthropic new beast they’ve been saving to release after ipo but not sure\n\ncan’t test model right as only benchmark results and example outputs are available\n\nsowho do you think is behind this model?",
+    "likes": 419,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:37:05Z",
+  "feed_date": "2026-11-20T15:37:05Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post presents Anthropic’s connection to Gestalt as a rumor and explicitly says the author is unsure. That is speculation, not an assertion of inside information; the post’s separate observation that Gestalt appeared on the benchmark is not the attribution being graded.",
+   "evidence": [
+    {
+     "title": "Frontier Design Benchmark leaderboard",
+     "url": "https://contralabs.com/frontierdesign/leaderboard"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "mark_k-2123379391740755977",
+  "handle": "mark_k",
+  "date": "2026-11-19T11:34:32Z",
+  "claim": "Google AI Studio frontend code includes a “models/cobalt” entry alongside “models/neon,” though Google has not announced what Cobalt is or when it might be available.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123379391740755977",
+    "url": "https://x.com/mark_k/status/2123379391740755977",
+    "created_at": "2026-11-19T11:34:32Z",
+    "text": "Gemini 4 Neon just shipped, and there's already another name to watch: \"Cobalt\". A screenshot of what appears to be Google AI Studio's frontend code shows \"models/cobalt\" right next to \"models/neon\" in the same prompt carousel.\n\nNeon was spotted in Google's Cloud pricing catalog before it went live. So far, Cobalt is just a name in a screenshot. Google hasn't announced it, and there's no public API listing to tell us what it is or how close it might be. https://t.co/ZqCzdhqRTP",
+    "likes": 52,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:30:46Z",
+  "feed_date": "2026-11-20T15:30:46Z",
+  "prune_checked": true,
+  "story_id": "aibattle_-2123118630506582133",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-18",
+   "official_date": null,
+   "explanation": "TestingCatalog had posted the AI Studio screenshot listing “models/cobalt” alongside “models/neon” on November 18, before Mark’s November 19 post. The screenshot showed a name in frontend code, not what Cobalt is or when it might launch.",
+   "evidence": [
+    {
+     "title": "Timeline of the Cobalt screenshot and earlier TestingCatalog post",
+     "url": "https://ofox.ai/blog/gemini-4-upcoming-models/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
   "id": "testingcatalog-2123405122478735541",
   "handle": "testingcatalog",
   "date": "2026-11-19T13:16:46Z",
@@ -278281,6 +278437,53 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-11-19T16:23:43Z"
+  }
+ },
+ {
+  "id": "kevinnbass-2123406793158082873",
+  "handle": "kevinnbass",
+  "date": "2026-11-19T13:23:25Z",
+  "claim": "Donald Trump called Elon Musk about AI chip export restrictions, and Musk reportedly sided with Marco Rubio and Scott Bessent.",
+  "lab": "Nvidia",
+  "topic": "policy_legal",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-18",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123406793158082873",
+    "url": "https://x.com/kevinnbass/status/2123406793158082873",
+    "created_at": "2026-11-19T13:23:25Z",
+    "text": "It is extraordinary.\n\nTrump official illegally leaked to NYT a briefing on Rubio's memo to Trump. Media frenzy follows. One of America's great AI CEOs accused of sleeping with a spy, then removed in a board coup. For three weeks, Rubio said nothing about his own memo leak that led to this.\n\nRubio is aligned with Bessent on export restrictions, against Huang and Lutnick. There was a confrontation. Trump called Elon, who reportedly sided with Rubio and Bessent.\n\nThe spy narrative (from Rubio's own memo!) collapses. Bessent (Rubio's ally!) plays damage control. How? By face-hammering Jensen Huang on CNBC and Fox News by misrepresenting Nvidia's financial documents, suggesting that intentional smuggling was clearly legible from public documents. (It was not.) Tinfoil conspiracy brainrot coming from the Treasury Secretary.\n\nYet Rubio is now calling the leakers \"criminals\". Yes, they are by definition. But who was it? And who saw the memo? If the memo was to Trump, the circle who saw the memo might be very small. If so, that means Rubio is calling his close colleagues criminals. I don't think Rubio leaked the memo, because if he did, the \"criminal\" accusation would be Exhibit A in legal proceedings.\n\nBut he won't say who did leak it, because that would be publicly shooting a colleague.\n\nThe Democrats are closing in. There was some chip smuggling. But there was also genuine policy disagreement about the legitimacy of export restrictions in the first place. Trump went back and forth. I think he did the right thing. I think the chip export restrictions are mostly stupid.\n\nFurthermore, how do you catch smuggling? Some of the documented chip smuggling operations are extraordinarily sophisticated and meticulous. How much should American chip makers know? How involved should they be in enforcement? A Commerce official has said during a hearing that they lack manpower for enforcement, too, so who is enforcement going to come from?\n\nBut none of this will matter when the Democrats come, and Trump officials know this. They know that the Democrats will LARP about national security, suddenly transforming themselves into respectable, ardent patriots overnight -- just so that they can eviscerate and lawfare the hell out of every single Trump official they can. They will leave no stone unturned. No scandal will be too minor for them to blow into national headlines about the threat of China, which they don't really care about. But they will pretend to, just so they can punish everyone they can get their hands on.\n\nMeanwhile, the useful idiot Republicans in Congress will bray endlessly about China, too, and the Microsoft/Amazon/Anthropic lobbyists will feed them brainrot. I have been reading some of these Congressional reports, and it's some of the dumbest stuff I have ever read. So Trump admin know that their backup might be thin indeed.\n\nBut they cannot pin everything on Jensen Huang anymore. They know the case is thin. That is why Bessent was flailing. And they know that everyone bears some responsibility for the narrative that the Democrats will try to spin, at least if you dig enough. And the Democrats will dig all the way to China. So Rubio is sweating. They all are.\n\nBanana Republic stuff. Extraordinary. Terrible.",
+    "likes": 1007,
+    "quoted": {
+     "handle": "kevinnbass",
+     "text": "When will @SecRubio reveal the identity of the leaker? Either the leak was authorized or it was a crime. One of America’s most important companies was targeted and seriously damaged by a media campaign against it. The American public deserves answers.",
+     "created_at": "2026-11-19T02:34:42Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:35:51Z",
+  "feed_date": "2026-11-20T15:35:51Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-11",
+   "official_date": null,
+   "explanation": "Axios reported on November 11 that Trump consulted Elon Musk and that Musk supported Rubio and Bessent’s case for chip export controls. The November 19 post repeats that already-public report.",
+   "evidence": [
+    {
+     "title": "Scoop: Lutnick stalled Trump's Nvidia–China chip curbs after Oval talks",
+     "url": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
   }
  },
  {
@@ -278494,5 +278697,1112 @@
   "prune_checked": true,
   "repeat_of": "imjustnewatai-2120378155055878429",
   "story_id": "chrisgpt-2108655565761020169"
+ },
+ {
+  "id": "amir-2123448119828574244",
+  "handle": "amir",
+  "date": "2026-11-19T16:07:38Z",
+  "claim": "Anthropic is asking customers to prove that they spend a certain percentage of their AI budget on Anthropic products to qualify for higher discounts.",
+  "lab": "Anthropic",
+  "topic": "corporate",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123448119828574244",
+    "url": "https://x.com/amir/status/2123448119828574244",
+    "created_at": "2026-11-19T16:07:38Z",
+    "text": "🧾👀: \nAnthropic is asking customers to prove they're spending a certain % of AI budget on its products to qualify for higher discounts... https://t.co/pRBvKD8CAd",
+    "likes": 68,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:30:54Z",
+  "feed_date": "2026-11-20T15:30:54Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-19",
+   "official_date": null,
+   "explanation": "The Information reported on November 19 that Anthropic offered larger discounts to customers who committed a certain share of their AI budget and supplied documents to prove it. The post promotes that report, but the claim has not been independently confirmed here; other coverage located merely repeats The Information’s reporting.",
+   "evidence": [
+    {
+     "title": "The Information report on Anthropic discounts and customer AI budgets",
+     "url": "https://info-reader-production.herokuapp.com/articles/anthropic-pushing-new-products-big-discounts-justify-huge-valuation"
+    },
+    {
+     "title": "PYMNTS coverage citing The Information’s report",
+     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-offers-discounts-to-gain-ground-with-new-products/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "aibattle_-2123457145819590946",
+  "handle": "AiBattle_",
+  "date": "2026-11-19T16:43:30Z",
+  "claim": "Google's unreleased Gemini 4 Neon scores higher than Carbon and comes very close to Fable 5.2 on Simple-Bench.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123457145819590946",
+    "url": "https://x.com/AiBattle_/status/2123457145819590946",
+    "created_at": "2026-11-19T16:43:30Z",
+    "text": "Gemini 4 Neon scores higher than Carbon and comes very close to Fable 5.2 on Simple-Bench\n\nNext major Gemini model will likely surpass the highest human score https://t.co/zPwntq8vA1",
+    "likes": 248,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:35:06Z",
+  "feed_date": "2026-11-20T15:35:06Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-18",
+   "official_date": null,
+   "explanation": "The comparison was already available on the SimpleBench leaderboard before the post: Gemini 4 Neon scored 94.4%, above Carbon’s 92.6% and close to Fable 5.2’s 94.9%. Epoch AI’s benchmark page shows the result and says it was last updated November 18, 2026.",
+   "evidence": [
+    {
+     "title": "Epoch AI — SimpleBench leaderboard",
+     "url": "https://epoch.ai/benchmarks/simplebench?tab=leaderboard&view=graph"
+    },
+    {
+     "title": "SimpleBench leaderboard data",
+     "url": "https://www.mypriors.com/benchmarks/simplebench"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2123467857069506695",
+  "handle": "TokenGremlin",
+  "date": "2026-11-19T17:26:03Z",
+  "claim": "OpenAI is making final preparations to merge Chat and Work in the ChatGPT app.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-12-19",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123467857069506695",
+    "url": "https://x.com/TokenGremlin/status/2123467857069506695",
+    "created_at": "2026-11-19T17:26:03Z",
+    "text": "OpenAI is making the final preparations to merge Chat and Work.\n\nMy chats and my Dot suddenly disappeared, and the \"ChatGPT\" label in the top-left corner of the app changed to \"ChatGPT Work\". The buttons to switch between \"Chat\" and \"Work\" disappeared, and I could only select a model and talk to it, with no other options.\n\nThen \"ChatGPT Work\" disappeared and changed back to \"ChatGPT\", and the Chat and Work buttons returned.\n\nThe ChatGPT app is extremely buggy. Various elements randomly disappear and then come back, disrupting my workflow, and they're testing updates in production without notifying users.",
+    "likes": 310,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:33:55Z",
+  "feed_date": "2026-11-20T15:33:55Z",
+  "prune_checked": true,
+  "repeat_of": "tokengremlin-2119793774494732314"
+ },
+ {
+  "id": "mr_salio-2123486856117666122",
+  "handle": "Mr_Salio",
+  "date": "2026-11-19T18:41:33Z",
+  "claim": "An unidentified AI organization has a stealth design model named Gestalt scoring 1931 Elo, above Fable 5.2 at 1717 and Human Golden at 1739.",
+  "lab": "Other",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123486856117666122",
+    "url": "https://x.com/Mr_Salio/status/2123486856117666122",
+    "created_at": "2026-11-19T18:41:33Z",
+    "text": "A New stealth model is MOGGING Fable 5.2 😭\n\nGestalt is sitting at 1931 Elo, beating Fable 5.2 (1717) and even surpasses Human Golden (1739) \n\nThat's a 218 point gap over Fable 5.2 on frontier design \n\nand It's not anthropic, xAI, Meta, openAI, SSI or Google \n\nwho is behind gestalt???",
+    "likes": 1575,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:36:54Z",
+  "feed_date": "2026-11-20T15:36:54Z",
+  "prune_checked": true,
+  "story_id": "notjazii-2123379239777075499",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-18",
+   "official_date": null,
+   "explanation": "Contra Labs had publicly previewed Gestalt and its leading design-benchmark result on November 18, before this post on November 19. The post’s exact score comparison has small numerical inconsistencies, but the underlying information was already public.",
+   "evidence": [
+    {
+     "title": "Contra Labs: Frontier Design Benchmark—Evaluating AI Design",
+     "url": "https://contralabs.com/research/frontier-design-benchmark"
+    },
+    {
+     "title": "Contra Labs Frontier Design Benchmark leaderboard",
+     "url": "https://contralabs.com/frontierdesign/leaderboard"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "dariocpx-2123515289963053273",
+  "handle": "DarioCpx",
+  "date": "2026-11-19T20:34:32Z",
+  "claim": "Anthropic IPO shares were allocated predominantly to existing investors and large asset managers, with 13% allocated to retail investors and more than 50% of institutional orders receiving zero allocation.",
+  "lab": "Anthropic",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-11-19",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123515289963053273",
+    "url": "https://x.com/DarioCpx/status/2123515289963053273",
+    "created_at": "2026-11-19T20:34:32Z",
+    "text": "Anthropic IPO shares were predominantly allocated only to existing investors and large AMs that will place them in their index strategies and ETFs and won’t lend shares in the market for short selling. 13% to retail investors. More than 50% on institutional orders got zero allocation but I have been told those have not been spotted buying what they didn’t get in the open market.\n\nFrom one side GS and MS made sure $ANT shares would not be flipped, but from another side I have also been told that they heavily supported the price today to make sure the close will be well above IPO price buffering heavy insiders selling at the beginning of trading\n\nWhile they and the company will claim this IPO has been a success, in reality $ANT will have poor organic demand and liquidity that will remain dependent on the bookrunners for the time being. Considering $ANT unlock schedule, its price will have a hard time to perform especially after the additional forced buying that will be triggered by index inclusion in ~15 days will be exhausted.\n\nFurthermore, the reason why both SP500 and Nasdaq are heavily down today signals that there wasn’t extra liquidity in the market to accommodate $ANT IPO that it might end up being the very last one of this AI bubble. Let’s also not forget that in little over a month Dems will take control of the Congress and the administration of key states like Texas with a strong mandate from voters to curb heavily the so far wild data centers buildout and financial speculation around that.",
+    "likes": 736,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:36:35Z",
+  "feed_date": "2026-11-20T15:36:35Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-19",
+   "official_date": null,
+   "explanation": "Before this post, November 19 reporting had already said that more than half of institutional bidders received no shares and that retail investors received roughly 15% of the offering. The post’s 13% figure differs from that report, but its central allocation claim was already public.",
+   "evidence": [
+    {
+     "title": "Anthropic’s IPO leaves more than half of institutional bidders without shares",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-leaves-more-half-152914526.html"
+    },
+    {
+     "title": "What investors should know about Anthropic’s unusual IPO",
+     "url": "https://apnews.com/article/40f0920738b6fea43d4049c995fb43a8"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "dariocpx-2123515289963053273-2",
+  "handle": "DarioCpx",
+  "date": "2026-11-19T20:34:32Z",
+  "claim": "More than 50% of institutional investors who received zero allocation in Anthropic’s IPO had not bought the shares in the open market by November 19, 2026.",
+  "lab": "Anthropic",
+  "topic": "deal_funding",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-11-19",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123515289963053273",
+    "url": "https://x.com/DarioCpx/status/2123515289963053273",
+    "created_at": "2026-11-19T20:34:32Z",
+    "text": "Anthropic IPO shares were predominantly allocated only to existing investors and large AMs that will place them in their index strategies and ETFs and won’t lend shares in the market for short selling. 13% to retail investors. More than 50% on institutional orders got zero allocation but I have been told those have not been spotted buying what they didn’t get in the open market.\n\nFrom one side GS and MS made sure $ANT shares would not be flipped, but from another side I have also been told that they heavily supported the price today to make sure the close will be well above IPO price buffering heavy insiders selling at the beginning of trading\n\nWhile they and the company will claim this IPO has been a success, in reality $ANT will have poor organic demand and liquidity that will remain dependent on the bookrunners for the time being. Considering $ANT unlock schedule, its price will have a hard time to perform especially after the additional forced buying that will be triggered by index inclusion in ~15 days will be exhausted.\n\nFurthermore, the reason why both SP500 and Nasdaq are heavily down today signals that there wasn’t extra liquidity in the market to accommodate $ANT IPO that it might end up being the very last one of this AI bubble. Let’s also not forget that in little over a month Dems will take control of the Congress and the administration of key states like Texas with a strong mandate from voters to curb heavily the so far wild data centers buildout and financial speculation around that.",
+    "likes": 736,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:36:35Z",
+  "feed_date": "2026-11-20T15:36:35Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "Public reporting said that more than half of institutional bidders received no IPO allocation, but the post’s additional claim—that those investors had not bought shares on the open market by November 19—was not independently substantiated. That buyer-level activity is not established by the public allocation reports or IPO filings.",
+   "evidence": [
+    {
+     "title": "Report on institutional investors receiving no Anthropic IPO allocation",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-leaves-more-half-152914526.html"
+    },
+    {
+     "title": "Anthropic IPO closing announcement",
+     "url": "https://www.anthropic.com/news/ipo-close"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "dariocpx-2123515289963053273-3",
+  "handle": "DarioCpx",
+  "date": "2026-11-19T20:34:32Z",
+  "claim": "Goldman Sachs and Morgan Stanley heavily supported Anthropic’s share price on November 19, 2026, to keep the close well above the IPO price and buffer heavy insider selling at the start of trading.",
+  "lab": "Anthropic",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-11-19",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123515289963053273",
+    "url": "https://x.com/DarioCpx/status/2123515289963053273",
+    "created_at": "2026-11-19T20:34:32Z",
+    "text": "Anthropic IPO shares were predominantly allocated only to existing investors and large AMs that will place them in their index strategies and ETFs and won’t lend shares in the market for short selling. 13% to retail investors. More than 50% on institutional orders got zero allocation but I have been told those have not been spotted buying what they didn’t get in the open market.\n\nFrom one side GS and MS made sure $ANT shares would not be flipped, but from another side I have also been told that they heavily supported the price today to make sure the close will be well above IPO price buffering heavy insiders selling at the beginning of trading\n\nWhile they and the company will claim this IPO has been a success, in reality $ANT will have poor organic demand and liquidity that will remain dependent on the bookrunners for the time being. Considering $ANT unlock schedule, its price will have a hard time to perform especially after the additional forced buying that will be triggered by index inclusion in ~15 days will be exhausted.\n\nFurthermore, the reason why both SP500 and Nasdaq are heavily down today signals that there wasn’t extra liquidity in the market to accommodate $ANT IPO that it might end up being the very last one of this AI bubble. Let’s also not forget that in little over a month Dems will take control of the Congress and the administration of key states like Texas with a strong mandate from voters to curb heavily the so far wild data centers buildout and financial speculation around that.",
+    "likes": 736,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:36:35Z",
+  "feed_date": "2026-11-20T15:36:35Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post alleges that Goldman Sachs and Morgan Stanley intervened to support the share price for a particular purpose, but no independent public evidence found substantiates that alleged conduct or motive. The stock trading above its IPO price alone does not verify the allegation.",
+   "evidence": [
+    {
+     "title": "Anthropic announces closing of its initial public offering",
+     "url": "https://www.anthropic.com/news/ipo-close"
+    },
+    {
+     "title": "What to know about Anthropic’s massive IPO",
+     "url": "https://apnews.com/article/e303343c7f1a1b6a1361e08c1f8eeded"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "chetaslua-2123517124169834605",
+  "handle": "chetaslua",
+  "date": "2026-11-19T20:41:50Z",
+  "claim": "Google developed Gemini 4 Neon without distillation and spent time on RSI.",
+  "lab": "Google",
+  "topic": "other",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123517124169834605",
+    "url": "https://x.com/chetaslua/status/2123517124169834605",
+    "created_at": "2026-11-19T20:41:50Z",
+    "text": "Google DeepMind vs ALL : Stickman edition\n\nMade by swarms of Gemini 4 Neon, pure JS code.\n\nThis model has distinct taste and is different from OpenAI and Anthropic in a good way.\n\nThe benefits of not doing distillation and taking time with RSI are showing now. https://t.co/KrxojThl4B",
+    "likes": 662,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:30:31Z",
+  "feed_date": "2026-11-20T15:30:31Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post asserts a training-process explanation—no distillation and time spent on “RSI”—but Google has not disclosed evidence confirming that account of Neon’s development. The demo and the model’s release do not independently verify those training claims.",
+   "evidence": [
+    {
+     "title": "Google: Introducing Gemini 4 Neon",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    },
+    {
+     "title": "Gemini 4 Neon model card",
+     "url": "https://deepmind.google/models/model-cards/gemini-4-neon/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "markgurman-2123534050585460964",
+  "handle": "markgurman",
+  "date": "2026-11-19T21:49:05Z",
+  "claim": "Apple is developing an autonomous AI agent that can control devices, interact with apps, browse the web, and write and debug code, and has eyed launching it as soon as the end of 2027.",
+  "lab": "Apple",
+  "topic": "product_feature",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-12-31",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123534050585460964",
+    "url": "https://x.com/markgurman/status/2123534050585460964",
+    "created_at": "2026-11-19T21:49:05Z",
+    "text": "NEW: Apple is developing an autonomous AI agent with computer-use capabilities, including device control, app interactions, web browsing and coding. The effort goes well beyond Siri and aims to compete with Meta’s Muse, ChatGPT’s Dots and Claude Code. https://t.co/lRvi4NJ3zk",
+    "likes": 2563,
+    "quoted": null
+   },
+   {
+    "id": "2123534857775325272",
+    "url": "https://x.com/markgurman/status/2123534857775325272",
+    "created_at": "2026-11-19T21:52:18Z",
+    "text": "Apple’s own job listing spells out the ambition: An AI agent that can use a computer like a person, moving between browsers, apps, terminals and services, writing and debugging code, and deciding which tools to use to complete a task. This is far beyond today’s Siri.",
+    "likes": 1104,
+    "quoted": {
+     "handle": "markgurman",
+     "text": "NEW: Apple is developing an autonomous AI agent with computer-use capabilities, including device control, app interactions, web browsing and coding. The effort goes well beyond Siri and aims to compete with Meta’s Muse, ChatGPT’s Dots and Claude Code. https://t.co/lRvi4NJ3zk",
+     "created_at": "2026-11-19T21:49:05Z"
+    }
+   },
+   {
+    "id": "2123535032187003123",
+    "url": "https://x.com/markgurman/status/2123535032187003123",
+    "created_at": "2026-11-19T21:52:59Z",
+    "text": "The agent push comes as new Apple CEO John Ternus presses software chief Craig Federighi to move faster and take a more ambitious approach to AI. The company is still in the early stages of developing the agent, but has eyed a launch as soon as the end of 2027.",
+    "likes": 1258,
+    "quoted": {
+     "handle": "markgurman",
+     "text": "NEW: Apple is developing an autonomous AI agent with computer-use capabilities, including device control, app interactions, web browsing and coding. The effort goes well beyond Siri and aims to compete with Meta’s Muse, ChatGPT’s Dots and Claude Code. https://t.co/lRvi4NJ3zk",
+     "created_at": "2026-11-19T21:49:05Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:34:13Z",
+  "feed_date": "2026-11-20T15:34:13Z",
+  "repeat_of": "markgurman-2119451386111005129",
+  "story_id": "markgurman-2119451386111005129"
+ },
+ {
+  "id": "markgurman-2123535032187003123",
+  "handle": "markgurman",
+  "date": "2026-11-19T21:52:59Z",
+  "claim": "Apple CEO John Ternus is pressing software chief Craig Federighi to move faster and take a more ambitious approach to AI.",
+  "lab": "Apple",
+  "topic": "people",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123535032187003123",
+    "url": "https://x.com/markgurman/status/2123535032187003123",
+    "created_at": "2026-11-19T21:52:59Z",
+    "text": "The agent push comes as new Apple CEO John Ternus presses software chief Craig Federighi to move faster and take a more ambitious approach to AI. The company is still in the early stages of developing the agent, but has eyed a launch as soon as the end of 2027.",
+    "likes": 1258,
+    "quoted": {
+     "handle": "markgurman",
+     "text": "NEW: Apple is developing an autonomous AI agent with computer-use capabilities, including device control, app interactions, web browsing and coding. The effort goes well beyond Siri and aims to compete with Meta’s Muse, ChatGPT’s Dots and Claude Code. https://t.co/lRvi4NJ3zk",
+     "created_at": "2026-11-19T21:49:05Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:34:13Z",
+  "feed_date": "2026-11-20T15:34:13Z",
+  "repeat_of": "markgurman-2119449283267371274"
+ },
+ {
+  "id": "markgurman-2123535506168578127",
+  "handle": "markgurman",
+  "date": "2026-11-19T21:54:52Z",
+  "claim": "In macOS 27.3, enabling ChatGPT’s third-party computer-use support requires 14 distinct steps, up from four.",
+  "lab": "Apple",
+  "topic": "product_feature",
+  "specificity": 5,
+  "significance": 2,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123535506168578127",
+    "url": "https://x.com/markgurman/status/2123535506168578127",
+    "created_at": "2026-11-19T21:54:52Z",
+    "text": "As Apple develops its own computer-use agent, it’s making it harder for rival agents to control Macs. In macOS 27.3, enabling ChatGPT’s third-party computer-use support now requires 14 distinct steps, up from four. Apple cites security; Some users see anti-competitiveness. https://t.co/q8zoIcOdrH",
+    "likes": 1871,
+    "quoted": {
+     "handle": "markgurman",
+     "text": "NEW: Apple is developing an autonomous AI agent with computer-use capabilities, including device control, app interactions, web browsing and coding. The effort goes well beyond Siri and aims to compete with Meta’s Muse, ChatGPT’s Dots and Claude Code. https://t.co/lRvi4NJ3zk",
+     "created_at": "2026-11-19T21:49:05Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:34:13Z",
+  "feed_date": "2026-11-20T15:34:13Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-19",
+   "official_date": null,
+   "explanation": "The 14-step figure appeared in Gurman’s November 19 report, but the other coverage located attributes that specific count to Bloomberg rather than independently verifying it. Apple had publicly described related macOS 27.3 permission controls, but had not officially confirmed the 14-versus-four count; the beta change could still be independently tested.",
+   "evidence": [
+    {
+     "title": "Apple’s announcement of new Mac security controls",
+     "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/"
+    },
+    {
+     "title": "Apple Support: turning on ChatGPT on Mac",
+     "url": "https://support.apple.com/en-euro/guide/mac-help/mchlfc5cf131/27/mac/27"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "gurgavin-2123537218329325606",
+  "handle": "gurgavin",
+  "date": "2026-11-19T22:01:40Z",
+  "claim": "Apple is working on its own AI agent to rival OpenAI and Anthropic.",
+  "lab": "Apple",
+  "topic": "product_feature",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123537218329325606",
+    "url": "https://x.com/gurgavin/status/2123537218329325606",
+    "created_at": "2026-11-19T22:01:40Z",
+    "text": "*APPLE IS WORKING ON OWN AI AGENT TO RIVAL OPENAI AND ANTHROPIC\n\nANTHROPIC SHARES JUST 4% AFTER HOURS DAY WHAT A DAY FOR APPLE TO LEAK THE STORY RIGHT AFTER THE IPO\n\n$AAPL $ANT",
+    "likes": 1320,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:35:28Z",
+  "feed_date": "2026-11-20T15:35:28Z",
+  "prune_checked": true,
+  "story_id": "markgurman-2119451386111005129",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-19",
+   "official_date": null,
+   "explanation": "Bloomberg reported earlier on November 19 that Apple was developing its own AI agent to perform tasks for users, before this post. The post relayed that report; Apple had not officially confirmed the project.",
+   "evidence": [
+    {
+     "title": "Bloomberg report syndicated by Yahoo Finance",
+     "url": "https://uk.finance.yahoo.com/news/apple-working-ai-agent-device-214456605.html"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "steph_palazzolo-2123549936880930945",
+  "handle": "steph_palazzolo",
+  "date": "2026-11-19T22:52:13Z",
+  "claim": "Nvidia is in advanced talks to acquire diffusion LLM developer Inception for more than $500 million.",
+  "lab": "Nvidia",
+  "topic": "deal_funding",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123549936880930945",
+    "url": "https://x.com/steph_palazzolo/status/2123549936880930945",
+    "created_at": "2026-11-19T22:52:13Z",
+    "text": "Nvidia is in advanced talks to acquire diffusion LLM developer Inception for more than $500m, a sign that its dealmaking machine is still humming even after CEO Jensen Huang’s departure.\n\nw/ @_pheebini @amir:\n\nhttps://t.co/G9Ed9gLSud",
+    "likes": 218,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:33:38Z",
+  "feed_date": "2026-11-20T15:33:38Z",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-19",
+   "official_date": null,
+   "explanation": "This journalist’s post relayed a report from her own outlet, The Information, so the outlet’s scoop does not make the post already public under the original-find rule. The reported advanced acquisition talks have not been independently confirmed; with no deadline stated, the claim remains pending.",
+   "evidence": [
+    {
+     "title": "Nvidia Nears Acquisition of Diffusion AI Developer for More Than $500 Million — The Information",
+     "url": "https://info-reader-production.herokuapp.com/articles/nvidia-nears-acquisition-diffusion-ai-developer-500-million"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2123559153742303679",
+  "handle": "testingcatalog",
+  "date": "2026-11-19T23:28:50Z",
+  "claim": "OpenAI is rolling out Dots to a small number of ChatGPT Plus users and all ChatGPT Business Standard users, and a new ChatGPT mobile experience will give a Dot its own tab, allow items such as Codex, Projects, and Images to be moved to the bottom navigation bar, and reach ChatGPT Pro users first.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-18",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123559153742303679",
+    "url": "https://x.com/testingcatalog/status/2123559153742303679",
+    "created_at": "2026-11-19T23:28:50Z",
+    "text": "OPENAI 🔥: Dots are rolling out to a small number of ChatGPT Plus users as well as all ChatGPT Business Standard users.\n\n- In addition, ChatGPT is getting a new mobile experience, where a Dot gets a dedicated tab.\n\n- Codex, Projects, Images, and tabs can also be moved to the bottom nav bar.\n\n- This new experience will arrive for ChatGPT Pro users first. \n\nIt looks like Dots are getting closer to becoming a main interaction interface for ChatGPT as well. \n\nExcept EU 💀 https://t.co/17nztMri3W",
+    "likes": 509,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:32:39Z",
+  "feed_date": "2026-11-20T15:32:39Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2121267415715606651"
+ },
+ {
+  "id": "andrewcurran_-2123594316555981255",
+  "handle": "AndrewCurran_",
+  "date": "2026-11-20T01:48:34Z",
+  "claim": "Google has more large models in the Argon/Carbon lineage on the way, and the next one will probably be a monster.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-05-19",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123594316555981255",
+    "url": "https://x.com/AndrewCurran_/status/2123594316555981255",
+    "created_at": "2026-11-20T01:48:34Z",
+    "text": "Vals says most of the gains are from post training. I have not used Neon enough to comment yet, but Argon was a really great model. Neon is a small model. They have more big models in the Argon/Carbon lineage on the way. The next one is probably going to be a monster. https://t.co/A3q8rOSqWB",
+    "likes": 452,
+    "quoted": {
+     "handle": "ValsAI",
+     "text": "Gemini 4 Neon is the best Google model on the RSI Index. It lands at #4, 3.8 points above Gemini 4 Argon, Google’s previous best model on the index.\n\nGoogle’s acceleration in the past two months has solidified its position above OpenAI on the RSI Index. https://t.co/aX0pNyoc99",
+     "created_at": "2026-11-19T22:01:03Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:32:15Z",
+  "feed_date": "2026-11-20T15:32:15Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post claims Google has additional large models in the Argon/Carbon lineage in development and predicts the next will be powerful. No independent confirmation of that upcoming lineup was found, but with no deadline stated it remains possible.",
+   "evidence": [
+    {
+     "title": "Google’s Gemini 4 model announcements",
+     "url": "https://deepmind.google/models/gemini/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "andrewcurran_-2123639042491502831",
+  "handle": "AndrewCurran_",
+  "date": "2026-11-20T04:46:17Z",
+  "claim": "Google’s internal math-specialized model reportedly named Mathematica appears to have been the progenitor of the Argon, Carbon, and Neon family.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-19",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123639042491502831",
+    "url": "https://x.com/AndrewCurran_/status/2123639042491502831",
+    "created_at": "2026-11-20T04:46:17Z",
+    "text": "Thinking back, this Google internal model leak from September was obviously from the same family as Argon, Carbon and Neon. It was supposedly a Deep Think math specialized model named Mathematica. It was never heard from again, but it looks like this was the progenitor. https://t.co/mSTmntfSIP",
+    "likes": 502,
+    "quoted": {
+     "handle": "lefthanddraft",
+     "text": "Gemini 4 Neon has the best CoT https://t.co/PEyFGSVy8e",
+     "created_at": "2026-11-19T13:23:34Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:32:15Z",
+  "feed_date": "2026-11-20T15:32:15Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The Mathematica model leak itself was public by September 2026, but the post’s new claim—that it was the progenitor of the Argon/Carbon/Neon family—is an unconfirmed inference. No independent source or Google statement establishes that lineage.",
+   "evidence": [
+    {
+     "title": "September reporting on the alleged Deep Think Mathematica leak",
+     "url": "https://www.orcarouter.ai/blog/deep-think-mathematica-leak"
+    },
+    {
+     "title": "Google’s Gemini 4 model announcements",
+     "url": "https://deepmind.google/models/gemini/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "ai_for_success-2123665365268152571",
+  "handle": "ai_for_success",
+  "date": "2026-11-20T06:30:53Z",
+  "claim": "Google is planning to allow Gemini subscriptions across different harnesses, with a first announcement possibly on 2026-12-02; Hermes Agent is a possible first supported harness.",
+  "lab": "Google",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-12-02",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123665365268152571",
+    "url": "https://x.com/ai_for_success/status/2123665365268152571",
+    "created_at": "2026-11-20T06:30:53Z",
+    "text": "🚨 Google is planning to allow Gemini subscriptions across different harnesses, and the first announcement may come on 2nd Dec, tentatively.\n\nMy biggest guess is it will be allowed in Hermes Agent. https://t.co/Y2v0oiSqE9",
+    "likes": 171,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:31:55Z",
+  "feed_date": "2026-11-20T15:31:55Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-15",
+   "official_date": null,
+   "explanation": "The claim that Gemini subscriptions would work in Hermes had already been reported on November 15, before this post; the December 2 date and other harnesses were not independently confirmed. The post’s “biggest guess” about Hermes is explicitly speculation.",
+   "evidence": [
+    {
+     "title": "Gemini subscriptions reportedly coming to Hermes Agent with Google's approval",
+     "url": "https://vqv.me/s/KC7Wg/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "mark_k-2123691757313348069",
+  "handle": "mark_k",
+  "date": "2026-11-20T08:15:45Z",
+  "claim": "Google is expected to release Nano Banana Pro 2 as soon as November 19, 2026, or early in the week of November 23, 2026.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-11-25",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123691757313348069",
+    "url": "https://x.com/mark_k/status/2123691757313348069",
+    "created_at": "2026-11-20T08:15:45Z",
+    "text": "Nano Banana Pro 2 incoming from @GoogleDeepMind 🍌\n\nExpect this to hit as soon as today, or early next week! https://t.co/bOpiVrV1cR",
+    "likes": 81,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:30:46Z",
+  "feed_date": "2026-11-20T15:30:46Z",
+  "prune_checked": true,
+  "story_id": "mark_k-2123691757313348069",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post predicts Nano Banana Pro 2 could arrive by November 25, 2026. As of November 20, that deadline had not passed, and no independent confirmation of the release timing was found.",
+   "evidence": [
+    {
+     "title": "Nano Banana Pro 2 leak coverage and status",
+     "url": "https://promptblueprints.tech/leaks/nano-banana-pro-2-paper-volcano/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2123742934759883030",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-20T11:39:07Z",
+  "claim": "Google's Nano Banana Pro 2 is in its final preparation stages, is reportedly appearing in Google Flow under the codename “Paper Volcano” and in Arena testing, and is expected to become visible during the week of November 23–29, 2026, before it can be released.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2026-11-29",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123742934759883030",
+    "url": "https://x.com/pankajkumar_dev/status/2123742934759883030",
+    "created_at": "2026-11-20T11:39:07Z",
+    "text": "Nano Banana Pro 2 Leaks: Coming Next Week\n\n- Nano Banana Pro 2 is in preparation, and we can see it next week, as its already in the final stages. After that, they can release it.\n- Its also been spotted in Google Flow under the codename \"Paper Volcano\", and its in Arena testing as well. That makes next week more likely.\n- The focus to be on taking image editing to another level, especially when redoing images and adding more details.\n- It will offer stronger world knowledge, advanced text and language capabilities, higher consistency and more precise creative control.\n- This can be a pretty good upgrade for people who use Nano Banana for detailed image editing. \n- But the current checkpoint output isn't that good. Hopefully, they will improve it with the new checkpoint, and we will see much better results.",
+    "likes": 135,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:33:11Z",
+  "feed_date": "2026-11-20T15:33:11Z",
+  "prune_checked": true,
+  "story_id": "mark_k-2123691757313348069",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-17",
+   "official_date": null,
+   "explanation": "The Paper Volcano/Nano Banana Pro 2 sighting and the codename had already circulated publicly by November 17, before this post. The claimed final-preparation status and next-week timing remain unconfirmed.",
+   "evidence": [
+    {
+     "title": "Earlier public Paper Volcano sighting",
+     "url": "https://www.teapawt.org/lyraxana/status/2122504664289825065"
+    },
+    {
+     "title": "Nano Banana Pro 2 leak coverage and status",
+     "url": "https://promptblueprints.tech/leaks/nano-banana-pro-2-paper-volcano/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2123742934759883030-2",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-20T11:39:07Z",
+  "claim": "Google's Nano Banana Pro 2 will focus on improved image editing, including redoing images and adding detail, and will offer stronger world knowledge, advanced text and language capabilities, higher consistency, and more precise creative control.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-11-29",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123742934759883030",
+    "url": "https://x.com/pankajkumar_dev/status/2123742934759883030",
+    "created_at": "2026-11-20T11:39:07Z",
+    "text": "Nano Banana Pro 2 Leaks: Coming Next Week\n\n- Nano Banana Pro 2 is in preparation, and we can see it next week, as its already in the final stages. After that, they can release it.\n- Its also been spotted in Google Flow under the codename \"Paper Volcano\", and its in Arena testing as well. That makes next week more likely.\n- The focus to be on taking image editing to another level, especially when redoing images and adding more details.\n- It will offer stronger world knowledge, advanced text and language capabilities, higher consistency and more precise creative control.\n- This can be a pretty good upgrade for people who use Nano Banana for detailed image editing. \n- But the current checkpoint output isn't that good. Hopefully, they will improve it with the new checkpoint, and we will see much better results.",
+    "likes": 135,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:33:11Z",
+  "feed_date": "2026-11-20T15:33:11Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post forecasts improved editing, world knowledge, text handling, consistency, and creative control for Nano Banana Pro 2, but Google had not confirmed those specifications by November 20, 2026. The stated next-week window had not yet elapsed, so the claim remains pending.",
+   "evidence": [
+    {
+     "title": "Google’s official Nano Banana 2 announcement and capabilities",
+     "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2123757570191933639",
+  "handle": "iruletheworldmo",
+  "date": "2026-11-20T12:37:16Z",
+  "claim": "Sam Altman is facing mounting pressure to step down as OpenAI CEO, and he may no longer be CEO by December 31, 2026.",
+  "lab": "OpenAI",
+  "topic": "people",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-12-31",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2123757570191933639",
+    "url": "https://x.com/iruletheworldmo/status/2123757570191933639",
+    "created_at": "2026-11-20T12:37:16Z",
+    "text": "‼️breaking: sam altman is facing mounting pressure to step down as ceo of openai \n\ni’d be surprised personally if he is still ceo by the end of the year. \n\ni also think this is a terrible idea, sam is a great ceo",
+    "likes": 439,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:31:29Z",
+  "feed_date": "2026-11-20T15:31:29Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-20",
+   "official_date": null,
+   "explanation": "The post alleges current pressure on Sam Altman and predicts he may leave by December 31, 2026. No independent confirmation of the pressure or departure prediction was found, and the stated deadline is still in the future.",
+   "evidence": [
+    {
+     "title": "Sam Altman warns against a future where AI, not humans, calls the shots — TechCrunch",
+     "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2123762843086368947",
+  "handle": "TokenGremlin",
+  "date": "2026-11-20T12:58:14Z",
+  "claim": "OpenAI is overhauling the ChatGPT desktop app with bug fixes and a redesigned UI/UX.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-19",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123762843086368947",
+    "url": "https://x.com/TokenGremlin/status/2123762843086368947",
+    "created_at": "2026-11-20T12:58:14Z",
+    "text": "Good morning, my friends. Some interesting news about OpenAI:\n\nThe ChatGPT desktop app is getting a huge overhaul, with tons of bug fixes and a redesign to improve the UI/UX!\n\nThe creator of Claude Code has joined OpenAI and is working on exactly that. He's really good at what he does, so expect some insane improvements over the next few weeks.\n\nOn top of that, feedback about the rough new model launches has already reached OpenAI, and they're working on fixes to make GPT-6.2 Astra and Sol even better to use.",
+    "likes": 638,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:33:55Z",
+  "feed_date": "2026-11-20T15:33:55Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post claims OpenAI is overhauling the desktop app, but no independent confirmation of that specific overhaul was found. With no deadline stated and no contradiction, the claim remains pending.",
+   "evidence": [
+    {
+     "title": "ChatGPT & Codex desktop app changelog",
+     "url": "https://learn.chatgpt.com/docs/changelog?type=chatgpt-desktop-app"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2123762843086368947-2",
+  "handle": "TokenGremlin",
+  "date": "2026-11-20T12:58:14Z",
+  "claim": "OpenAI is working on fixes to improve GPT-6.2 Astra and GPT-6.2 Sol after receiving feedback about their launches.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-19",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123762843086368947",
+    "url": "https://x.com/TokenGremlin/status/2123762843086368947",
+    "created_at": "2026-11-20T12:58:14Z",
+    "text": "Good morning, my friends. Some interesting news about OpenAI:\n\nThe ChatGPT desktop app is getting a huge overhaul, with tons of bug fixes and a redesign to improve the UI/UX!\n\nThe creator of Claude Code has joined OpenAI and is working on exactly that. He's really good at what he does, so expect some insane improvements over the next few weeks.\n\nOn top of that, feedback about the rough new model launches has already reached OpenAI, and they're working on fixes to make GPT-6.2 Astra and Sol even better to use.",
+    "likes": 638,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:33:55Z",
+  "feed_date": "2026-11-20T15:33:55Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post claims OpenAI is working on fixes to GPT-6.2 Astra and Sol after user feedback, but no independent confirmation of that internal work was found. With no deadline stated, it remains pending rather than being judged false merely because it is unconfirmed.",
+   "evidence": [
+    {
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2123781617139188022",
+  "handle": "TokenGremlin",
+  "date": "2026-11-20T14:12:50Z",
+  "claim": "Several employees from OpenAI's safety, robotics, Codex, and other areas left the company after Anthropic's IPO.",
+  "lab": "OpenAI",
+  "topic": "people",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-19",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123781617139188022",
+    "url": "https://x.com/TokenGremlin/status/2123781617139188022",
+    "created_at": "2026-11-20T14:12:50Z",
+    "text": "After Anthropic's IPO, several employees left OpenAI... Something VERY STRANGE must be going on internally. \n\nThese are people from safety, robotics, Codex, and several other areas. Is OpenAI doomed to stay in third place forever now? I hope they get through this.\n\nApparently, even Tibo is tempted to leave.",
+    "likes": 160,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:33:55Z",
+  "feed_date": "2026-11-20T15:33:55Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "Anthropic’s IPO took place on November 19, 2026, but public reporting found no independent confirmation that several OpenAI employees from the named areas left after it. The post’s timing and the alleged departures cannot be verified from the available public record.",
+   "evidence": [
+    {
+     "title": "AP: Anthropic pulled off the biggest IPO ever",
+     "url": "https://apnews.com/article/fdca56f1cda70c9908899057e7e591e6"
+    },
+    {
+     "title": "Axios: OpenAI sheds senior execs in pre-IPO refresh",
+     "url": "https://www.axios.com/2026/08/14/openai-executive-greg-brockman-ipo"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
+ },
+ {
+  "id": "tokengremlin-2123781617139188022-2",
+  "handle": "TokenGremlin",
+  "date": "2026-11-20T14:12:50Z",
+  "claim": "An OpenAI employee referred to as Tibo is considering leaving the company.",
+  "lab": "OpenAI",
+  "topic": "people",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-05-19",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2123781617139188022",
+    "url": "https://x.com/TokenGremlin/status/2123781617139188022",
+    "created_at": "2026-11-20T14:12:50Z",
+    "text": "After Anthropic's IPO, several employees left OpenAI... Something VERY STRANGE must be going on internally. \n\nThese are people from safety, robotics, Codex, and several other areas. Is OpenAI doomed to stay in third place forever now? I hope they get through this.\n\nApparently, even Tibo is tempted to leave.",
+    "likes": 160,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-20T15:33:55Z",
+  "feed_date": "2026-11-20T15:33:55Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The claim that Tibo is tempted to leave concerns an internal personal intention, and no independent public confirmation was found. The post supplies no deadline or verifiable evidence for it.",
+   "evidence": [
+    {
+     "title": "WIRED: The Safety Reckoning Inside OpenAI",
+     "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-11-20T15:42:19Z"
+  }
  }
 ]

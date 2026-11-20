@@ -43,7 +43,7 @@
   "handle": "Web3Marmot",
   "name": "MARMOT",
   "avatar": "https://pbs.twimg.com/profile_images/1745493067547713536/z9nnExwL_normal.jpg",
-  "followers": 86418,
+  "followers": 89806,
   "bio": "",
   "first_seen": "2026-10-12T15:33:10Z"
  },
@@ -59,7 +59,7 @@
   "handle": "Mr_Salio",
   "name": "Salio",
   "avatar": "https://pbs.twimg.com/profile_images/2027630388403965952/mgrd9d6O_normal.jpg",
-  "followers": 10935,
+  "followers": 12358,
   "bio": "",
   "first_seen": "2026-10-13T14:20:27Z"
  },
@@ -123,7 +123,7 @@
   "handle": "notjazii",
   "name": "J A Z I I",
   "avatar": "https://pbs.twimg.com/profile_images/2099634694421913600/46b7mMot_normal.jpg",
-  "followers": 12036,
+  "followers": 13214,
   "bio": "",
   "first_seen": "2026-10-17T10:50:55Z"
  },
@@ -494,5 +494,45 @@
   "followers": 293427,
   "bio": "",
   "first_seen": "2026-11-19T16:15:49Z"
+ },
+ "qmocrypto": {
+  "handle": "QmoCrypto",
+  "name": "Qmo",
+  "avatar": "https://pbs.twimg.com/profile_images/1745153869263294464/EXJJvHIX_normal.jpg",
+  "followers": 46849,
+  "bio": "",
+  "first_seen": "2026-11-20T15:35:20Z"
+ },
+ "gurgavin": {
+  "handle": "gurgavin",
+  "name": "GURGAVIN",
+  "avatar": "https://pbs.twimg.com/profile_images/2047077073856962560/VIoMWlcD_normal.jpg",
+  "followers": 468842,
+  "bio": "",
+  "first_seen": "2026-11-20T15:35:28Z"
+ },
+ "kevinnbass": {
+  "handle": "kevinnbass",
+  "name": "Kevin Bass",
+  "avatar": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_normal.jpg",
+  "followers": 240284,
+  "bio": "",
+  "first_seen": "2026-11-20T15:35:51Z"
+ },
+ "cryptonobler": {
+  "handle": "CryptoNobler",
+  "name": "0xNobler",
+  "avatar": "https://pbs.twimg.com/profile_images/1739182208101888000/nA9V3GYb_normal.jpg",
+  "followers": 403847,
+  "bio": "",
+  "first_seen": "2026-11-20T15:36:07Z"
+ },
+ "dariocpx": {
+  "handle": "DarioCpx",
+  "name": "JustDario",
+  "avatar": "https://pbs.twimg.com/profile_images/1718247730001375232/7AaHlGTe_normal.jpg",
+  "followers": 124787,
+  "bio": "",
+  "first_seen": "2026-11-20T15:36:35Z"
  }
 }
