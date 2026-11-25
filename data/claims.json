@@ -64043,22 +64043,22 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "unverifiable",
+   "verdict": "true",
    "public_date": "2025-12-03",
    "official_date": null,
-   "explanation": "The post itself made the names public on December 3, 2025, and later coverage repeated claims about these Arena labels. I found no independent confirmation that all four were OpenAI models or that Emperor was the highest-reasoning model, so the leak’s substance remains unverified.",
+   "explanation": "The four names and their different reasoning-juice levels were reported as appearing in Design Arena; GPT-5.2, the likely model family behind the tests, shipped on December 11, 2025. OpenAI did not officially confirm the codenames.",
    "evidence": [
     {
-     "title": "DeepSeek Penguin Family Leaked at Midnight (later coverage)",
-     "url": "https://www.aibase.com/news/23385"
+     "title": "GPT-5.2 testing on Design Arena",
+     "url": "https://habr.com/en/articles/973092/"
     },
     {
-     "title": "DesignArena changelog",
-     "url": "https://www.designarena.ai/changelog"
+     "title": "OpenAI updates ChatGPT after “Code Red” scramble",
+     "url": "https://www.axios.com/2025/12/11/openai-chatgpt-model-code-red-google-gemini"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -65531,19 +65531,19 @@
    "verdict": "true",
    "public_date": "2025-12-11",
    "official_date": null,
-   "explanation": "The post reported the two codenames as being tested on LM Arena; same-day community posts also showed and discussed both names there. This verifies the claimed testing sighting, but not the models’ eventual identities.",
+   "explanation": "The post appears to have been an original report of the two codenames appearing in Arena testing; subsequent coverage documented the same Arena sightings. The specific codenames have not been officially identified by Google, but the claim that they were being tested on LM Arena is supported by those public sightings.",
    "evidence": [
     {
-     "title": "Community discussion of Ghostfalcon and Fiercefalcon on LM Arena",
-     "url": "https://linux.do/t/topic/1299641"
+     "title": "TestingCatalog post on Ghostfalcon and Fiercefalcon",
+     "url": "https://x.com/testingcatalog/status/1999149659269263717"
     },
     {
-     "title": "Fiercefalcon discovery timeline",
-     "url": "https://fiercefalcon.org/"
+     "title": "Discussion of Ghostfalcon and Fiercefalcon sightings",
+     "url": "https://linux.do/t/topic/1299641"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -84436,22 +84436,18 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "unverifiable",
-   "public_date": "2026-03-08",
+   "verdict": "pending",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post made a specific claim about an in-development Omni model with text, image, video, and audio inputs and broadly multimodal outputs. OpenAI later released multimodal products, but public information does not independently confirm this model’s existence or the claimed full modality set as of March 8.",
+   "explanation": "Public OpenAI employee posts prompted speculation about a new omni model, but I found no independent confirmation that OpenAI was developing the specific unified model asserted here, including the suggested input and output modalities. With no deadline stated and no contradiction, the claim remains pending.",
    "evidence": [
     {
-     "title": "OpenAI employees hint at a new omni model",
+     "title": "The Decoder: OpenAI employees hint at a new omni model",
      "url": "https://the-decoder.com/openai-employees-hint-at-a-new-omni-model/"
-    },
-    {
-     "title": "OpenAI DevDay 2026 recap",
-     "url": "https://openai.com/index/devday-2026-recap/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -102488,15 +102484,15 @@
    "verdict": "true",
    "public_date": "2026-05-01",
    "official_date": null,
-   "explanation": "The Android app’s May 2026 build contained the described test using Android Bubbles and Accessibility rather than screen casting. This supports that OpenAI was testing the method then; no official launch of that specific method is established here.",
+   "explanation": "An Android app teardown independently found OpenAI experimenting with screen sharing via Android Bubbles and Accessibility features. That confirms the testing claim, but not a public release of this method.",
    "evidence": [
     {
-     "title": "Android Authority report on the ChatGPT Android screen-sharing test",
+     "title": "Lesser-known Android trick could make ChatGPT's screen sharing way smoother on your phone",
      "url": "https://www.androidauthority.com/chatgpt-android-17-new-screen-sharing-3662693/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-03T14:31:55Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
   },
   "astra_checked": true
  },
@@ -119953,19 +119949,19 @@
    "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post appears to predict a price position for Gemini 3.5 Pro, but Google did not release that model with public pricing; its 3.5 Flash release does not settle the Pro pricing claim. With no deadline attached to this specific assertion, it remains unconfirmed rather than false under the timing rules.",
+   "explanation": "The post presents Gemini 3.5 as a future pricing claim, not merely commentary. The specific model and pricing proposition remain unconfirmed; the public Gemini pricing material does not establish that it would be the cheapest state-of-the-art model.",
    "evidence": [
     {
-     "title": "Gemini 3.5: frontier intelligence with action — Google",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+     "title": "Gemini API pricing — Google AI for Developers",
+     "url": "https://ai.google.dev/gemini-api/docs/pricing"
     },
     {
-     "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4 — Ars Technica",
-     "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/"
+     "title": "Gemini 3.5 Pro missed July 17: launch vs leak",
+     "url": "https://packetnebula.com/articles/gemini-3-5-pro-missed-july-17/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -122780,20 +122776,24 @@
   "resolution": {
    "verdict": "unverifiable",
    "public_date": "2026-06-18",
-   "official_date": "2026-06-26",
-   "explanation": "GPT-5.6 was officially put into limited preview on June 26, confirming the model existed, but that does not independently establish it was already being tested on June 18. Nor does the available independent evidence verify the post’s specific comparison that its early 3D-game demos outperformed Fable.",
+   "official_date": null,
+   "explanation": "OpenAI announced the GPT-5.6 family in limited preview on June 26, but that does not independently establish that a distinct “GPT-5.6 Pro” was already being tested on June 18. The claimed 3D-game advantage over Fable is presented as an impression from demos, with no independent confirmation of the specific comparison.",
    "evidence": [
     {
-     "title": "GPT-5.6 Rumors Heat Up as Users Swear ChatGPT Suddenly Got Smarter",
-     "url": "https://decrypt.co/371699/openai-gpt-5-6-chatgpt-stealth-testing-rumors"
+     "title": "GPT-5.6 Preview System Card — OpenAI",
+     "url": "https://deploymentsafety.openai.com/gpt-5-6-preview"
     },
     {
-     "title": "GPT-5.6 release announcement",
-     "url": "https://openai.com/index/"
+     "title": "GPT-5.6 Rumors Heat Up as Users Swear ChatGPT Suddenly Got Smarter — Decrypt",
+     "url": "https://decrypt.co/371699/openai-gpt-5-6-chatgpt-stealth-testing-rumors%26quot"
+    },
+    {
+     "title": "OpenAI defers public rollout of GPT-5.6 — Reuters via Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/openai-defers-public-rollout-of-gpt56-as-us-seeks-early-access-to-frontier-ai-models-4763243"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -124994,15 +124994,15 @@
    "verdict": "unverifiable",
    "public_date": "2026-06-23",
    "official_date": null,
-   "explanation": "The claim concerns an alleged internal OpenAI expectation from early 2024 and an effort to incorporate quantum technology into AI. I found no independent reporting or official confirmation of that internal state or expectation; the post’s own source cannot verify it.",
+   "explanation": "The post reports an internal OpenAI expectation from early 2024, which has not been independently confirmed. Whether feasible quantum compute will be available around 2028 remains a future question, but that would not establish what OpenAI expected in 2024.",
    "evidence": [
     {
-     "title": "Gartner: enterprise AI workloads and quantum hardware through 2028",
-     "url": "https://emt.gartnerweb.com/en/newsroom/press-releases/2026-08-04-gartner-predicts-enterprise-ai-workloads-at-scale-will-not-run-on-quantum-hardware-through-2028"
+     "title": "OpenAI source post",
+     "url": "https://x.com/imjustnewatai/status/2069260335429693497"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -133544,18 +133544,22 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "unverifiable",
+   "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post gives expected API prices, not a deadline-bound promise. I found no official Gemini 3.5 Pro API pricing or independent confirmation of these internal price expectations, so the specific figures cannot be verified.",
+   "explanation": "The post claims a specific expected API price range for Gemini 3.5 Pro, but Google has not publicly confirmed that pricing. With no deadline attached to the pricing assertion, the missing confirmation does not by itself make it false.",
    "evidence": [
     {
-     "title": "Gemini 3.5 Pro Release Date: What Google Confirmed vs What Is Rumored",
-     "url": "https://reposhub.com/gemini-3-5-pro-release-date"
+     "title": "Gemini API pricing — Google AI for Developers",
+     "url": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+     "title": "Gemini 3.5 Pro missed July 17: launch vs leak",
+     "url": "https://packetnebula.com/articles/gemini-3-5-pro-missed-july-17/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -136834,21 +136838,21 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "unverifiable",
-   "public_date": "2026-07-08",
+   "public_date": null,
    "official_date": null,
-   "explanation": "DeepSeek later released larger models, but public evidence does not establish that by July 8, 2026, it had begun work on a model specifically intended to compete with MiniMax Pro. That development status and intent remain unconfirmed independently.",
+   "explanation": "The claim is about DeepSeek’s internal work and competitive intent as of July 8, 2026. Public releases and reporting establish later DeepSeek model activity, but do not independently confirm that this larger-model project had begun by that date or was intended to compete with MiniMax Pro.",
    "evidence": [
     {
-     "title": "DeepSeek V4.1-Flash official release notes",
-     "url": "https://api-docs.deepseek.com/news/news260910/"
+     "title": "DeepSeek API change log",
+     "url": "https://api-docs.deepseek.com/updates/"
     },
     {
-     "title": "DeepSeek V4 Preview",
-     "url": "https://deepseek.com/en/news/v4-preview/"
+     "title": "DeepSeek-V4.1-Flash — DeepSeek",
+     "url": "https://deepseek.com/en/news/deepseek-v4-1-flash/"
     }
    ],
-   "confidence": "low",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -140796,27 +140800,24 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
+   "verdict": "mostly_true",
    "public_date": "2026-07-13",
-   "official_date": "2026-07-22",
-   "explanation": "The Information’s report was the original scoop about Google approaching Nvidia-oriented cloud providers, including Nscale. Google later officially confirmed TPU deliveries to customer data centers, but that does not independently confirm the specific outreach to Nvidia’s customers described in the scoop.",
+   "official_date": null,
+   "explanation": "Google later confirmed that it was directly selling TPU hardware to a select group of customers, supporting the core claim that it was pursuing external TPU sales. The specific characterization of those targets as Nvidia’s most loyal customers is not established by Google’s public confirmation.",
    "evidence": [
     {
-     "title": "Exclusive: Behind Google’s TPU Ground War to Lure Nvidia’s Most Loyal Customers — The Information",
-     "url": "https://www.theinformation.com/newsletters/ai-infrastructure/behind-googles-tpu-ground-war-lure-nvidias-loyal-customers/"
+     "title": "Behind Google’s TPU Ground War to Lure Nvidia’s Most Loyal Customers — The Information",
+     "url": "https://www.theinformation.com/newsletters/ai-infrastructure/behind-googles-tpu-ground-war-lure-nvidias-loyal-customers"
     },
     {
-     "title": "Alphabet Q1 2026 Earnings Transcript",
+     "title": "Alphabet Q1 2026 earnings call transcript",
      "url": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Apr/29/2026_Q1_Earnings_Transcript.pdf"
-    },
-    {
-     "title": "Google is selling TPUs so enterprises can run AI on premises — Network World",
-     "url": "https://www.networkworld.com/article/4200864/google-has-started-selling-tpus-but-still-keeps-most-for-itself.html"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-11T14:42:45Z"
-  }
+   "resolved_at": "2026-11-25T17:28:36Z"
+  },
+  "feed_date": "2026-11-25T17:28:36Z"
  },
  {
   "id": "aibattle_-2076706838821703925",
@@ -143143,22 +143144,22 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "mostly_true",
+   "verdict": "unverifiable",
    "public_date": "2026-07-15",
-   "official_date": null,
-   "explanation": "The post tentatively links Kivine to K3 and identifies Kiwido and Kiwire as earlier Arena aliases for Kimi K2.5 and K2.6. Later reporting linked Kivine to K3 and repeated those earlier aliases, though Moonshot did not officially confirm the codenames.",
+   "official_date": "2026-07-16",
+   "explanation": "Moonshot released Kimi K3 on July 16 and said it has native vision capabilities, but neither the company nor Arena independently confirmed that Kivine was K3. The post’s Kiwido/Kiwire Arena-name mappings also remain unconfirmed in independent sources.",
    "evidence": [
     {
-     "title": "Early look at Kimi K3 generations from Moonshot AI on Arena",
-     "url": "https://www.testingcatalog.com/early-look-at-kimi-k3-generations-from-moonshot-ai-on-arena/"
+     "title": "Kimi K3: Open Frontier Intelligence — Moonshot",
+     "url": "https://www.kimi.com/en/blog/kimi-k3"
     },
     {
-     "title": "Chinese report on Kivine and the earlier Arena aliases",
-     "url": "https://zhidx.com/p/576279.html"
+     "title": "Kivine gives model watchers a naming clue; identity not confirmed",
+     "url": "https://nrb.bg/en/moonshot-k3-demand-strains-computing-capacity/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -156054,22 +156055,22 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "unverifiable",
+   "verdict": "pending",
    "public_date": "2026-08-07",
    "official_date": null,
-   "explanation": "The 2027 hardware timing had been reported before this post, but the assertion that OpenAI internally calls the device or hardware “Personal AGI” has no independent public confirmation. The suggestion that ChatGPT might reach AGI in 2026 is framed as the poster’s speculation, not a sourced forecast.",
+   "explanation": "The post asserts that OpenAI’s hardware shipping in 2027 will be “Personal AGI”; the 2027 hardware timing had already been reported, but the AGI claim remains unconfirmed and its stated deadline has not passed. The separate ChatGPT line is framed as speculation (“Maybe this year?”), not an inside-information claim.",
    "evidence": [
     {
-     "title": "Bloomberg report on OpenAI's first device, republished by the Los Angeles Times",
-     "url": "https://www.latimes.com/business/story/2026-08-07/openais-doughnut-shaped-ai-speaker-could-be-your-next-smartphone-replacement"
+     "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+     "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/"
     },
     {
-     "title": "OpenAI hardware timeline reportedly unchanged after Apple lawsuit",
-     "url": "https://9to5mac.com/2026/07/13/openai-hardware-timeline-reportedly-unchanged-after-apple-trade-secret-theft-lawsuit/"
+     "title": "Inside OpenAI’s Reboot",
+     "url": "https://time.com/article/2026/08/26/openai-sam-altman-interview/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -165983,20 +165984,20 @@
   "resolution": {
    "verdict": "unverifiable",
    "public_date": "2026-08-21",
-   "official_date": null,
-   "explanation": "The anonymous “korrine” model appeared in Code Arena, but its identity was never publicly established as Moonshot’s; the poster itself soon said it could instead be another lab’s model. Kimi K3.1 Pro’s later release does not confirm that it was tested as “korrine.”",
+   "official_date": "2026-10-24",
+   "explanation": "Moonshot later officially released the K3.1 Pro series, but that does not establish that the anonymous Code Arena model “korrine” was a K3.1 checkpoint. The post itself also explicitly allowed that korrine could belong to another lab; its identity remains unconfirmed.",
    "evidence": [
     {
-     "title": "Report reviewing the uncertain Korrine identification",
-     "url": "https://nrb.bg/en/moonshot-k3-demand-strains-computing-capacity/"
+     "title": "Kimi K3.1 Pro — Moonshot",
+     "url": "https://www.kimi.com/news/kimi-k3-1-pro"
     },
     {
-     "title": "Moonshot’s official research index",
-     "url": "https://www.kimi.com/en/blog/"
+     "title": "Korrine: Kimi K3.1 or a Qwen? Identity unconfirmed",
+     "url": "https://cms.orcarouter.ai/posts/korrine-qwen-mystery-model-leak"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -181797,19 +181798,19 @@
    "verdict": "unverifiable",
    "public_date": "2026-09-03",
    "official_date": null,
-   "explanation": "OpenAI publicly released GPT-6 Astra on September 3, but that does not confirm or refute the claim that much-better models existed internally at the time. The claimed internal capability comparison has not been independently established in public evidence.",
+   "explanation": "The post specifically claims that, on September 3, OpenAI already had internal models much better than GPT-6. Axios later reported that OpenAI had unreleased models more capable than public ones, but that report does not establish that such models existed in the claimed state on September 3.",
    "evidence": [
     {
-     "title": "GPT-6 Astra: A new generation of intelligence",
-     "url": "https://openai.com/index/gpt-6-astra/"
+     "title": "Scoop: AI employees sound alarm — models too powerful to ever release",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
     },
     {
-     "title": "OpenAI Deployment Safety Hub: System cards",
-     "url": "https://deploymentsafety.openai.com/"
+     "title": "OpenAI launches GPT-6.1 Sol",
+     "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -217348,22 +217349,22 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
-   "public_date": "2026-10-02",
+   "verdict": "unverifiable",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post reports a reverse-engineering find: a hidden Gemini Desktop setting described broader file, network, and cross-app permissions. TestingCatalog’s report that day and subsequent independent coverage match that description; the post only says it was likely powered by Gemini 4, not that this was confirmed.",
+   "explanation": "The post presents a reverse-engineering find: hidden Gemini Desktop text describing broad Mac permissions. Later coverage and Google documentation confirm computer-use features and app permissions generally, but I found no independent confirmation of this exact hidden “Additional sandbox options” setting or its full-access scope.",
    "evidence": [
     {
-     "title": "Gemini desktop to get broader Computer Use permissions — TestingCatalog",
+     "title": "TestingCatalog: Gemini desktop to get broader Computer Use permissions",
      "url": "https://www.testingcatalog.com/gemini-desktop-to-get-broader-computer-use-permissions/"
     },
     {
-     "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web — BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/"
+     "title": "Google Gemini Help: Manage browser and app permissions for tasks",
+     "url": "https://support.google.com/gemini/answer/18766567?hl=en"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -219268,21 +219269,21 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "false",
-   "public_date": null,
+   "public_date": "2026-10-04",
    "official_date": null,
-   "explanation": "GPT-6.1 Astra did not release during October 5–11; OpenAI had already held back its planned release over safety concerns, as reported September 29. The quoted “6.1 coming soon” did not establish that Astra would ship the following week.",
+   "explanation": "The post predicted GPT-6.1 Astra for October 5–11, but OpenAI had already delayed the model on September 28 over safety concerns, and it did not ship in that week. The stated release window was missed.",
    "evidence": [
     {
-     "title": "Associated Press: OpenAI delays GPT-6.1 Astra over safety concerns",
-     "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5"
+     "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+     "url": "https://www.theguardian.com/technology/2026/sep/29/openai-announces-dots-agent-safety-concerns"
     },
     {
-     "title": "OpenAI release index",
-     "url": "https://openai.com/research/index/release/"
+     "title": "OpenAI shelves new AI model after internal safety tests, WSJ reports",
+     "url": "https://finance.yahoo.com/news/openai-shelves-ai-model-internal-223403113.html"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-18T15:55:59Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   },
   "story_id": "tokengremlin-2104718313364312238",
   "feed_date": "2026-10-14T12:09:13Z"
@@ -220098,22 +220099,18 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "partly_true",
    "public_date": null,
-   "official_date": null,
-   "explanation": "The post predicted a near-term Fable 5.5 release with performance expected to beat GPT-6 across the board. No Fable 5.5 had been released by the October 11 deadline; Anthropic instead released Fable 5.2 on November 9, after that deadline.",
+   "official_date": "2026-11-09",
+   "explanation": "Anthropic released a new Fable model, but it was Fable 5.2 on November 9—not Fable 5.5 by the October 11 deadline. Its published results were mixed against GPT-6 Astra, not a clear win across the board.",
    "evidence": [
     {
-     "title": "Claude Fable — Anthropic",
-     "url": "https://www.anthropic.com/claude/fable"
-    },
-    {
-     "title": "Claude Platform release notes",
-     "url": "https://platform.claude.com/docs/en/release-notes/overview"
+     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 — Anthropic",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-18T15:55:59Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   },
   "feed_date": "2026-10-14T12:09:13Z",
   "story_id": "synthwavedd-2104647832103956631"
@@ -226199,15 +226196,15 @@
    "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post asserts that Google is working on Gemini 4.1 or 4.5, but provides no sourcing or concrete product details. Public reporting about other Gemini 4 development does not confirm either of those specific versions or this internal-work claim.",
+   "explanation": "Google’s subsequent Gemini 4 activity does not confirm that it was working on the specific 4.1 or 4.5 versions named in the post. The claim concerns internal development, and no independent public evidence establishes those particular versions as being in work on October 10.",
    "evidence": [
     {
-     "title": "New and upcoming AI models 2026: release dates, this week and what's next",
-     "url": "https://artificialwatch.com/releases"
+     "title": "Gemini Apps release updates — Google",
+     "url": "https://gemini.google/release-notes/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -230743,21 +230740,21 @@
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
    "verdict": "false",
-   "public_date": null,
+   "public_date": "2026-10-13",
    "official_date": null,
-   "explanation": "The post said OpenAI intended to ship GPT-6.1 Astra during October. OpenAI delayed the model over safety concerns on September 28, and it had not shipped by the October 31 deadline; GPT-6.2 Astra arrived on November 17 instead.",
+   "explanation": "The post said OpenAI intended to ship GPT-6.1 Astra during October, but the model had been delayed over safety concerns on September 28 and was not released in October. GPT-6.2’s later release was not the claimed model.",
    "evidence": [
     {
-     "title": "OpenAI delays GPT-6.1 Astra release over security concerns",
-     "url": "https://apnews.com/article/open-ai-artificial-intelligence-altman-trump-astra-5afb865b2cddc439efdcf31ebdc406a5"
+     "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+     "url": "https://www.theguardian.com/technology/2026/sep/29/openai-announces-dots-agent-safety-concerns"
     },
     {
-     "title": "Introducing GPT-6.2 Astra and Sol",
-     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+     "title": "Model Release Notes",
+     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-18T15:55:59Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -230866,21 +230863,21 @@
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
    "verdict": "false",
-   "public_date": null,
+   "public_date": "2026-10-13",
    "official_date": null,
-   "explanation": "The post said GPT-6.1 Astra was scheduled for later in October, possibly October 28. OpenAI had delayed it on September 28, and it did not launch by the stated deadline; GPT-6.2 Astra was released November 17.",
+   "explanation": "The post said GPT-6.1 Astra was scheduled for later in October and reportedly might be an October 28 surprise. OpenAI had delayed that model on September 28, and it did not ship by the stated October deadline.",
    "evidence": [
     {
-     "title": "OpenAI delays GPT-6.1 Astra release over security concerns",
-     "url": "https://apnews.com/article/open-ai-artificial-intelligence-altman-trump-astra-5afb865b2cddc439efdc31ebdc406a5"
+     "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+     "url": "https://www.theguardian.com/technology/2026/sep/29/openai-announces-dots-agent-safety-concerns"
     },
     {
-     "title": "Introducing GPT-6.2 Astra and Sol",
-     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+     "title": "Model Release Notes",
+     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-18T15:55:59Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -244355,17 +244352,17 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "unverifiable",
-   "public_date": "2026-10-26",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post asserts an internal compute-allocation strategy, but no independent public source confirms that Dario Amodei was directing almost all Anthropic compute toward its next model. The broad claim about compute allocation cannot be established from public evidence.",
+   "explanation": "The post claims Dario is directing almost all Anthropic compute toward the next model. Public reporting that Claude is used in Anthropic’s R&D does not establish how compute is allocated; this internal claim has no independent confirmation.",
    "evidence": [
     {
-     "title": "Anthropic model system cards",
-     "url": "https://www.anthropic.com/system-cards"
+     "title": "Anthropic says its model Claude is helping to build the next version of itself",
+     "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
     }
    ],
-   "confidence": "low",
-   "resolved_at": "2026-10-26T13:22:27Z"
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -253587,7 +253584,8 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-11-02T16:12:15Z"
-  }
+  },
+  "story_id": "tokengremlin-2117102297352126775"
  },
  {
   "id": "haider1-2117104412879646764",
@@ -257473,15 +257471,15 @@
    "verdict": "false",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post actually says SpaceXAI was a customer contributing most of Anthropic’s revenue and would soon pull out; the extractor’s paraphrase reverses that relationship. Anthropic’s filing instead describes SpaceXAI as a compute provider and says the agreements’ initial non-cancelable periods end in January and March 2027, after which cancellation requires 90 days’ notice.",
+   "explanation": "The post says most Anthropic revenue comes from SpaceXAI, then predicts SpaceXAI will pull the plug by December 4. Anthropic’s prospectus says no single customer accounted for more than 10% of revenue and describes SpaceXAI as a compute provider under agreements extending into 2029—not as a major revenue source.",
    "evidence": [
     {
-     "title": "Anthropic IPO prospectus — SpaceXAI arrangements",
-     "url": "https://www.jpmorgan.com/content/dam/jpm/securities/documents/deal-docs/2026/Anthropic%20PBC%20IPO%20Prelim.pdf"
+     "title": "Anthropic prospectus — SpaceXAI arrangements",
+     "url": "https://ipo.anthropic.com/documents/us/prospectus.pdf"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-18T15:55:59Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -266055,26 +266053,26 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-11T14:29:41Z",
-  "feed_date": "2026-11-11T14:29:41Z",
+  "feed_date": "2026-11-25T17:28:36Z",
   "prune_checked": true,
   "story_id": "chrisgpt-2108655565761020169",
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "The post predicts another Gemini model “very soon” and says it will contend with Fable 5.2. As of November 11, 2026, that prediction’s November 30 deadline had not passed, and no independent confirmation of the next model or its competitiveness was found.",
+   "verdict": "mostly_true",
+   "public_date": "2026-11-12",
+   "official_date": "2026-11-18",
+   "explanation": "Google released additional Gemini 4 models shortly after this November 10 post, including Hydrogen on November 12 and Neon on November 18. Neon was presented as a frontier-level model, broadly matching the near-term prediction, though the post’s claim that it would contend specifically with Fable 5.2 is not independently established by a direct comparison.",
    "evidence": [
     {
-     "title": "Introducing Gemini 4 Carbon — Google",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+     "title": "Google DeepMind Gemini models page",
+     "url": "https://deepmind.google/models/gemini/"
     },
     {
-     "title": "Gemini 4 Carbon: our next frontier model — Google",
-     "url": "https://deepmind.google/models/model-cards/gemini-4-carbon/"
+     "title": "Google: Introducing Gemini 4 Neon",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -266638,15 +266636,19 @@
    "verdict": "pending",
    "public_date": null,
    "official_date": null,
-   "explanation": "Fable 5.2 had been released by November 10, but whether it will drive a sharp revenue increase was still an unverified forecast. The post’s separate ARR prediction is explicitly framed as the author’s belief, not inside information.",
+   "explanation": "Fable 5.2 was released on November 9, but the claim that it will soon cause a sharp revenue increase is a forecast with a year-end deadline. As of November 25, the outcome has not yet been established.",
    "evidence": [
     {
      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 — Anthropic",
      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    {
+     "title": "Anthropic prospectus",
+     "url": "https://ipo.anthropic.com/documents/us/prospectus.pdf"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   },
   "story_id": "scaling01-2120277950746780154"
  },
@@ -267658,13 +267660,22 @@
   "feed_date": "2026-11-11T14:26:17Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": "2026-11-11",
+   "verdict": "unverifiable",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post lists “Gemini 3.9 live” as an untested item in Google’s upcoming lineup. The supplied timeline and available independent evidence do not confirm or contradict that claim, and it has no stated deadline.",
-   "evidence": [],
-   "confidence": "low",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "explanation": "The claim that Gemini 3.9 was live in Google’s internal lineup is based on the poster’s untested leak. As of November 25, no independent confirmation establishes that specific internal status or codename.",
+   "evidence": [
+    {
+     "title": "Google Gemini release updates",
+     "url": "https://gemini.google/release-notes/"
+    },
+    {
+     "title": "Coverage of the November 11 lineup post",
+     "url": "https://www.adgraam.com/blog/bouncybohr-google-video-model-leak"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -267699,10 +267710,15 @@
    "verdict": "pending",
    "public_date": "2026-11-11",
    "official_date": null,
-   "explanation": "The post lists “Gemini 4 Helix < flash lite>” as an untested item in Google’s upcoming lineup. No independent confirmation or contradiction was found, and no deadline is stated.",
-   "evidence": [],
-   "confidence": "low",
-   "resolved_at": "2026-11-11T14:42:45Z"
+   "explanation": "The post says Gemini 4 Helix Flash Lite is in Google’s upcoming lineup, but had not been tested; no independent confirmation or contradiction was found by November 25, 2026. With no deadline stated, the claim remains pending.",
+   "evidence": [
+    {
+     "title": "Google DeepMind Gemini models",
+     "url": "https://deepmind.google/models/gemini/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
   },
   "story_id": "chetaslua-2120477138155614638-2"
  },
@@ -276699,21 +276715,21 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-18T15:44:02Z",
-  "feed_date": "2026-11-18T15:44:02Z",
+  "feed_date": "2026-11-25T17:28:36Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
+   "verdict": "mostly_true",
    "public_date": "2026-11-18",
-   "official_date": null,
-   "explanation": "The post claims Google is preparing to release a Gemini model described by Google personnel as a “Daily driver,” but that specific detail has no independent confirmation found. Its stated deadline, November 25, 2026, has not passed.",
+   "official_date": "2026-11-18",
+   "explanation": "Google introduced Gemini 4 Neon on November 18, within the stated November 25 deadline, and made it available in Antigravity. That fits the post’s forecast of an imminent, non-Nano-Banana model, but the specific “Daily driver” attribution to Google personnel is not independently established.",
    "evidence": [
     {
-     "title": "TestingCatalog post mirror",
-     "url": "https://www.teapaw.org/testingcatalog/status/2122944509847736452"
+     "title": "Introducing Gemini 4 Neon — Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-18T15:55:59Z"
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -276806,22 +276822,22 @@
   "prune_checked": true,
   "story_id": "chrisgpt-2108655565761020169",
   "resolution": {
-   "verdict": "false",
+   "verdict": "already_public",
    "public_date": "2026-11-18",
-   "official_date": null,
-   "explanation": "Gemini 4 Neon references and preparations surfaced, but Google had not released Neon by the stated November 18 deadline. The post’s claim that it was likely to launch that day was a prediction, not confirmation of a launch.",
+   "official_date": "2026-11-18",
+   "explanation": "Gemini 4 Neon launched on November 18, and public discussion that day had already identified it as an expected release, including reports based on public model and billing-catalog sightings. This aggregator post relayed that circulating expectation; Neon was described as positioned between Hydrogen and Carbon.",
    "evidence": [
     {
-     "title": "TestingCatalog: Google prepares Gemini 4 Neon for release",
-     "url": "https://www.testingcatalog.com/google-prepares-to-release-gemini-4-neon-model-on-apis/"
+     "title": "Google: Introducing Gemini 4 Neon",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
     },
     {
-     "title": "Google Gemini models",
-     "url": "https://deepmind.google/models/gemini/"
+     "title": "Gemini 4 Neon release discussion and launch details",
+     "url": "https://artificialwatch.com/model/gemini-4-neon"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-11-18T15:55:59Z"
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -279559,22 +279575,26 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-20T15:30:46Z",
-  "feed_date": "2026-11-20T15:30:46Z",
+  "feed_date": "2026-11-25T17:28:36Z",
   "prune_checked": true,
   "story_id": "mark_k-2123691757313348069",
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
+   "verdict": "false",
+   "public_date": "2026-11-20",
    "official_date": null,
-   "explanation": "The post predicts Nano Banana Pro 2 could arrive by November 25, 2026. As of November 20, that deadline had not passed, and no independent confirmation of the release timing was found.",
+   "explanation": "The post predicted Nano Banana Pro 2 would arrive on November 20 or early the following week; it had not launched by the stated November 25 deadline. The linked report that it had appeared in Google Flow was already circulating, but it did not establish that release window.",
    "evidence": [
     {
-     "title": "Nano Banana Pro 2 leak coverage and status",
-     "url": "https://promptblueprints.tech/leaks/nano-banana-pro-2-paper-volcano/"
+     "title": "Google DeepMind Gemini image models",
+     "url": "https://deepmind.google/models/gemini-image/"
+    },
+    {
+     "title": "Nano Banana Pro 2 spotted in Google Flow — report",
+     "url": "https://www.nitter.cf/lyraxana/status/2123590069013336465"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-20T15:42:19Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -281486,7 +281506,8 @@
   "first_seen": "2026-11-24T17:49:47Z",
   "feed_date": "2026-11-24T17:49:47Z",
   "prune_checked": true,
-  "repeat_of": "iruletheworldmo-2121187133323194428"
+  "repeat_of": "iruletheworldmo-2121187133323194428",
+  "story_id": "iruletheworldmo-2124733746587091124"
  },
  {
   "id": "pankajkumar_dev-2124750198207611122",
@@ -282213,7 +282234,25 @@
   "origin": "daily",
   "first_seen": "2026-11-24T17:55:52Z",
   "feed_date": "2026-11-24T17:55:52Z",
-  "story_id": "steph_palazzolo-2123142066586722686"
+  "story_id": "steph_palazzolo-2123142066586722686",
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-11-23",
+   "official_date": "2026-11-23",
+   "explanation": "Sierra announced on November 23 that it was raising $1.75 billion at a $30 billion valuation, matching the post. The post presents this as the journalist’s own scoop, so same-day coverage does not make it an already-public relay under the stated rule.",
+   "evidence": [
+    {
+     "title": "Series F (Building the digital front door) — Sierra",
+     "url": "https://sierra.ai/blog/series-f-30b"
+    },
+    {
+     "title": "Sierra doubles valuation to $30B within six months — TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
  },
  {
   "id": "ananth7e-2124882851627929644",
@@ -283188,6 +283227,198 @@
   }
  },
  {
+  "id": "buildwithrajath-2125135218541826511",
+  "handle": "buildwithrajath",
+  "date": "2026-11-24T07:51:33Z",
+  "claim": "Anthropic’s Opus 5.6/6 is reportedly already in testing, with leaked pricing of $2 per million input tokens and $10 per million output tokens.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-12-24",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125135218541826511",
+    "url": "https://x.com/buildwithrajath/status/2125135218541826511",
+    "created_at": "2026-11-24T07:51:33Z",
+    "text": "🚨 ANTHROPIC MIGHT BE ABOUT TO MAKE OPUS 5.6/6 EVEN CHEAPER THAN SONNET-LEVEL PRICING. \n\nOpus 5.6/6 is reportedly already in testing.\n\nAnd the leaked pricing is INSANE:\n→ $2 input / $10 output per million tokens.\n\nFor comparison:\n→ Fable 5.2: $8 / $40\n→ Opus 5.5: $4 / $20\n\nIf this is real, Anthropic could be bringing Fable-level intelligence to HALF the price of Opus 5.5.\n\nThat's a HUGE problem for every competing model provider.\n\nWhy would developers keep saving premium models for difficult tasks if they could run Opus on practically EVERYTHING?\n\nI REALLY want to see what this thing can do.",
+    "likes": 558,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:35Z",
+  "feed_date": "2026-11-25T17:20:35Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "Reports that Opus 5.6 was being tested, along with rumors of lower pricing, were circulating before this post on November 24. Anthropic had not confirmed Opus 5.6 or the specific $2/$10 pricing; the exact price remains unverified.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 reportedly undergoing small-scale testing — Gate News",
+     "url": "https://www.gate.com/news/detail/ANT/claude-opus-56-reportedly-undergoing-small-scale-testing-ai-model-watcher-25824395"
+    },
+    {
+     "title": "Pirat_Nation relays November 1 Opus 5.6 leak claiming a 20% price cut",
+     "url": "https://www.advanceintelligence.ai/2026-11-01/all"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "codebynz-2125138567617761702",
+  "handle": "CodeByNZ",
+  "date": "2026-11-24T08:04:52Z",
+  "claim": "Anthropic is reportedly serving Opus 5.6 in Claude Code under the Opus 5.5 name, and some users shown Opus 5.5 may already be using Opus 5.6.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-11-24",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125138567617761702",
+    "url": "https://x.com/CodeByNZ/status/2125138567617761702",
+    "created_at": "2026-11-24T08:04:52Z",
+    "text": "OPUS 5.6 IS REPORTEDLY ALREADY HERE.\n\nhehehe We now have an answer to Neon.\n\nAnthropic is said to be quietly serving Opus 5.6 inside Claude Code under the Opus 5.5 name.\n\nSome Opus 5.5 users might already be using it without knowing.\n\nLeaked pricing claims $2 input and $10 output per million tokens. That's half of what Opus 5.5 costs.\n\nOn top of that, an internal Claude research model reportedly found a proof that VP ≠ VNP, a math problem open since 1979.",
+    "likes": 494,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:30Z",
+  "feed_date": "2026-11-25T17:20:30Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The claim that Opus 5.6 was being stealth-routed under the Opus 5.5 label had appeared publicly earlier on November 24, before this post. Anthropic had not confirmed the routing or model identity.",
+   "evidence": [
+    {
+     "title": "Earlier November 24 post alleging stealth routing in Claude Code",
+     "url": "https://www.xitter.gq/Mr_nexp/status/2125131873466700007"
+    },
+    {
+     "title": "Rumors Swirl Around Claude Opus 5.6",
+     "url": "https://agihunt.info/story/1a20b859b47667bdea2368a4808"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "codebynz-2125138567617761702-2",
+  "handle": "CodeByNZ",
+  "date": "2026-11-24T08:04:52Z",
+  "claim": "Leaked pricing for Anthropic Opus 5.6 is $2 per million input tokens and $10 per million output tokens.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125138567617761702",
+    "url": "https://x.com/CodeByNZ/status/2125138567617761702",
+    "created_at": "2026-11-24T08:04:52Z",
+    "text": "OPUS 5.6 IS REPORTEDLY ALREADY HERE.\n\nhehehe We now have an answer to Neon.\n\nAnthropic is said to be quietly serving Opus 5.6 inside Claude Code under the Opus 5.5 name.\n\nSome Opus 5.5 users might already be using it without knowing.\n\nLeaked pricing claims $2 input and $10 output per million tokens. That's half of what Opus 5.5 costs.\n\nOn top of that, an internal Claude research model reportedly found a proof that VP ≠ VNP, a math problem open since 1979.",
+    "likes": 494,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:30Z",
+  "feed_date": "2026-11-25T17:20:30Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The $2 input / $10 output figure had already been publicly floated for Anthropic’s next Opus model on November 24, before this post. It remains an unconfirmed rumor, not an official Opus 5.6 price.",
+   "evidence": [
+    {
+     "title": "Earlier public post floating the $2/$10 estimate",
+     "url": "https://xitter.gq/imjustnewatai/with_replies"
+    },
+    {
+     "title": "Claude Opus 5.5 official pricing",
+     "url": "https://platform.claude.com/docs/en/models/opus-5-5/overview"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "codebynz-2125138567617761702-3",
+  "handle": "CodeByNZ",
+  "date": "2026-11-24T08:04:52Z",
+  "claim": "An internal Anthropic Claude research model reportedly found a proof that VP ≠ VNP.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-11-24",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125138567617761702",
+    "url": "https://x.com/CodeByNZ/status/2125138567617761702",
+    "created_at": "2026-11-24T08:04:52Z",
+    "text": "OPUS 5.6 IS REPORTEDLY ALREADY HERE.\n\nhehehe We now have an answer to Neon.\n\nAnthropic is said to be quietly serving Opus 5.6 inside Claude Code under the Opus 5.5 name.\n\nSome Opus 5.5 users might already be using it without knowing.\n\nLeaked pricing claims $2 input and $10 output per million tokens. That's half of what Opus 5.5 costs.\n\nOn top of that, an internal Claude research model reportedly found a proof that VP ≠ VNP, a math problem open since 1979.",
+    "likes": 494,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:30Z",
+  "feed_date": "2026-11-25T17:20:30Z",
+  "prune_checked": true,
+  "story_id": "codebynz-2125138567617761702-3",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-23",
+   "official_date": "2026-11-23",
+   "explanation": "Anthropic’s formal-math repository publicly posted the VP ≠ VNP work on November 23, saying an internal Claude research model discovered it. CodeByNZ repeated that claim the following day.",
+   "evidence": [
+    {
+     "title": "VP ≠ VNP paper and Lean proof — Anthropic GitHub",
+     "url": "https://github.com/anthropics/formal-math/blob/main/vp-vnp/README.md"
+    },
+    {
+     "title": "Anthropic formal-math workflow showing the November 23 merge",
+     "url": "https://github.com/anthropics/formal-math/actions"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
   "id": "teortaxestex-2125154521391185946",
   "handle": "teortaxesTex",
   "date": "2026-11-24T09:08:16Z",
@@ -283280,6 +283511,397 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-11-24T18:05:27Z"
+  }
+ },
+ {
+  "id": "axios-2125182771400163338",
+  "handle": "axios",
+  "date": "2026-11-24T11:00:31Z",
+  "claim": "Anthropic employees fear that unreleased AI models are becoming too powerful to release safely.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 4,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125182771400163338",
+    "url": "https://x.com/axios/status/2125182771400163338",
+    "created_at": "2026-11-24T11:00:31Z",
+    "text": "Scoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release https://t.co/ZfcngbmPKk",
+    "likes": 573,
+    "quoted": null
+   },
+   {
+    "id": "2125211461685268964",
+    "url": "https://x.com/axios/status/2125211461685268964",
+    "created_at": "2026-11-24T12:54:31Z",
+    "text": "🤖 ⛔️ SCOOP: Anthropic and OpenAI are facing an increasingly urgent problem: \n\nInternal, unreleased models are becoming so powerful that many employees no longer believe they can be safely released\n\nhttps://t.co/ZfcngbmPKk",
+    "likes": 517,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:24Z",
+  "feed_date": "2026-11-25T17:20:24Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "Axios published its report at 10:45 UTC on November 24; the linked Axios posts followed at 11:00 and 12:54 UTC. The report cited more than two dozen sources and included Anthropic’s response, but the company did not officially confirm the employees’ concerns.",
+   "evidence": [
+    {
+     "title": "Axios: Anthropic and OpenAI employees fear models are too unsafe to release",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "axios-2125182771400163338-2",
+  "handle": "axios",
+  "date": "2026-11-24T11:00:31Z",
+  "claim": "OpenAI employees fear that unreleased AI models are becoming too powerful to release safely.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 4,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "journalism",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125182771400163338",
+    "url": "https://x.com/axios/status/2125182771400163338",
+    "created_at": "2026-11-24T11:00:31Z",
+    "text": "Scoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release https://t.co/ZfcngbmPKk",
+    "likes": 573,
+    "quoted": null
+   },
+   {
+    "id": "2125211461685268964",
+    "url": "https://x.com/axios/status/2125211461685268964",
+    "created_at": "2026-11-24T12:54:31Z",
+    "text": "🤖 ⛔️ SCOOP: Anthropic and OpenAI are facing an increasingly urgent problem: \n\nInternal, unreleased models are becoming so powerful that many employees no longer believe they can be safely released\n\nhttps://t.co/ZfcngbmPKk",
+    "likes": 517,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:24Z",
+  "feed_date": "2026-11-25T17:20:24Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "Axios published the underlying scoop at 10:45 UTC on November 24, before the account’s 11:00 UTC post; the later post repeats the same report. This is a relay of already-public reporting, not an original leak.",
+   "evidence": [
+    {
+     "title": "Scoop: AI employees sound alarm — models too powerful to ever release",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "vikktorrrre-2125183102620229906",
+  "handle": "vikktorrrre",
+  "date": "2026-11-24T11:01:50Z",
+  "claim": "Anthropic's Opus 5.6 is already being stealth-routed to some users in Claude Code and on the web, so some Opus 5.5 users might unknowingly be using it.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125183102620229906",
+    "url": "https://x.com/vikktorrrre/status/2125183102620229906",
+    "created_at": "2026-11-24T11:01:50Z",
+    "text": "Opus 5.6 is coming soon.\n\nSome Opus 5.5 users might already be using it without knowing.\n\nHere's what we know so far based on recent leaks:\n\n- Already being stealth-routed in Claude Code and on the web.\n- A significant jump over Opus 5.5, with noticeably richer outputs.\n- Much better at 3D, SVGs, textures and music composition.\n- Higher reasoning capabilities but currently takes longer to complete tasks.\n- Expected to match or outperform Fable 5.5 on most benchmarks.\n- Rumoured pricing of $2 input and $10 output per million tokens, half the price of Opus 5.5.\n\nMeanwhile, an internal Claude research model has reportedly found a proof of VP ≠ VNP, the algebraic counterpart of P vs NP, which has remained unsolved since 1979.\n\nOpus 5.6 is reportedly undergoing grey testing and could launch before the end of November or in the first week of December.\n\nGemini 4 Neon had it's run, it's time for the big boys to retake it's rightful place 🥇",
+    "likes": 574,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:44Z",
+  "feed_date": "2026-11-25T17:20:44Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The claim that Opus 5.6 was being stealth-routed under the Opus 5.5 label was circulating publicly earlier on November 24. Anthropic had not confirmed that users were receiving Opus 5.6 or that it was being routed on the web.",
+   "evidence": [
+    {
+     "title": "Earlier November 24 post alleging stealth routing in Claude Code",
+     "url": "https://www.xitter.gq/Mr_nexp/status/2125131873466700007"
+    },
+    {
+     "title": "Rumors Swirl Around Claude Opus 5.6",
+     "url": "https://agihunt.info/story/1a20b859b47667bdea2368a4808"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "vikktorrrre-2125183102620229906-2",
+  "handle": "vikktorrrre",
+  "date": "2026-11-24T11:01:50Z",
+  "claim": "Anthropic's Opus 5.6 reportedly has richer outputs, substantially better performance at 3D, SVGs, textures, and music composition, and higher reasoning capability than Opus 5.5, but takes longer to complete tasks.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125183102620229906",
+    "url": "https://x.com/vikktorrrre/status/2125183102620229906",
+    "created_at": "2026-11-24T11:01:50Z",
+    "text": "Opus 5.6 is coming soon.\n\nSome Opus 5.5 users might already be using it without knowing.\n\nHere's what we know so far based on recent leaks:\n\n- Already being stealth-routed in Claude Code and on the web.\n- A significant jump over Opus 5.5, with noticeably richer outputs.\n- Much better at 3D, SVGs, textures and music composition.\n- Higher reasoning capabilities but currently takes longer to complete tasks.\n- Expected to match or outperform Fable 5.5 on most benchmarks.\n- Rumoured pricing of $2 input and $10 output per million tokens, half the price of Opus 5.5.\n\nMeanwhile, an internal Claude research model has reportedly found a proof of VP ≠ VNP, the algebraic counterpart of P vs NP, which has remained unsolved since 1979.\n\nOpus 5.6 is reportedly undergoing grey testing and could launch before the end of November or in the first week of December.\n\nGemini 4 Neon had it's run, it's time for the big boys to retake it's rightful place 🥇",
+    "likes": 574,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:44Z",
+  "feed_date": "2026-11-25T17:20:44Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The richer-output, 3D/SVG, texture, music, and reasoning claims had been reported earlier that day by Pankaj Kumar; this post presents them as leaks rather than an original find. No independent confirmation of Opus 5.6’s capabilities was available by November 25.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 leaks with a 20% price cut, still unconfirmed",
+     "url": "https://pasqualepillitteri.it/en/news/36643/claude-opus-5-6-leak-20-percent-price-cut-unconfirmed"
+    },
+    {
+     "title": "Pankaj Kumar’s earlier post referenced in the report",
+     "url": "https://x.com/pankajkumar_dev/status/2125111906436542525"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "vikktorrrre-2125183102620229906-3",
+  "handle": "vikktorrrre",
+  "date": "2026-11-24T11:01:50Z",
+  "claim": "Anthropic's Opus 5.6 is expected to match or outperform Fable 5.5 on most benchmarks.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125183102620229906",
+    "url": "https://x.com/vikktorrrre/status/2125183102620229906",
+    "created_at": "2026-11-24T11:01:50Z",
+    "text": "Opus 5.6 is coming soon.\n\nSome Opus 5.5 users might already be using it without knowing.\n\nHere's what we know so far based on recent leaks:\n\n- Already being stealth-routed in Claude Code and on the web.\n- A significant jump over Opus 5.5, with noticeably richer outputs.\n- Much better at 3D, SVGs, textures and music composition.\n- Higher reasoning capabilities but currently takes longer to complete tasks.\n- Expected to match or outperform Fable 5.5 on most benchmarks.\n- Rumoured pricing of $2 input and $10 output per million tokens, half the price of Opus 5.5.\n\nMeanwhile, an internal Claude research model has reportedly found a proof of VP ≠ VNP, the algebraic counterpart of P vs NP, which has remained unsolved since 1979.\n\nOpus 5.6 is reportedly undergoing grey testing and could launch before the end of November or in the first week of December.\n\nGemini 4 Neon had it's run, it's time for the big boys to retake it's rightful place 🥇",
+    "likes": 574,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:44Z",
+  "feed_date": "2026-11-25T17:20:44Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "Pankaj Kumar had already publicly made the same prediction that Opus 5.6 would match or beat Fable 5.5 on most tests earlier that day. It remained an unconfirmed leak, not an Anthropic announcement.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 leaks with a 20% price cut, still unconfirmed",
+     "url": "https://pasqualepillitteri.it/en/news/36643/claude-opus-5-6-leak-20-percent-price-cut-unconfirmed"
+    },
+    {
+     "title": "Pankaj Kumar’s earlier post referenced in the report",
+     "url": "https://x.com/pankajkumar_dev/status/2125111906436542525"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "vikktorrrre-2125183102620229906-4",
+  "handle": "vikktorrrre",
+  "date": "2026-11-24T11:01:50Z",
+  "claim": "Anthropic's Opus 5.6 reportedly will cost $2 per million input tokens and $10 per million output tokens, half the price of Opus 5.5.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125183102620229906",
+    "url": "https://x.com/vikktorrrre/status/2125183102620229906",
+    "created_at": "2026-11-24T11:01:50Z",
+    "text": "Opus 5.6 is coming soon.\n\nSome Opus 5.5 users might already be using it without knowing.\n\nHere's what we know so far based on recent leaks:\n\n- Already being stealth-routed in Claude Code and on the web.\n- A significant jump over Opus 5.5, with noticeably richer outputs.\n- Much better at 3D, SVGs, textures and music composition.\n- Higher reasoning capabilities but currently takes longer to complete tasks.\n- Expected to match or outperform Fable 5.5 on most benchmarks.\n- Rumoured pricing of $2 input and $10 output per million tokens, half the price of Opus 5.5.\n\nMeanwhile, an internal Claude research model has reportedly found a proof of VP ≠ VNP, the algebraic counterpart of P vs NP, which has remained unsolved since 1979.\n\nOpus 5.6 is reportedly undergoing grey testing and could launch before the end of November or in the first week of December.\n\nGemini 4 Neon had it's run, it's time for the big boys to retake it's rightful place 🥇",
+    "likes": 574,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:44Z",
+  "feed_date": "2026-11-25T17:20:44Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The same $2/$10 estimate was publicly circulating on November 24 before this post. Anthropic has not officially confirmed that price for Opus 5.6.",
+   "evidence": [
+    {
+     "title": "Earlier public post floating the $2/$10 estimate",
+     "url": "https://xitter.gq/imjustnewatai/with_replies"
+    },
+    {
+     "title": "Claude Opus 5.5 official pricing",
+     "url": "https://platform.claude.com/docs/en/models/opus-5-5/overview"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "vikktorrrre-2125183102620229906-5",
+  "handle": "vikktorrrre",
+  "date": "2026-11-24T11:01:50Z",
+  "claim": "Anthropic's Opus 5.6 is reportedly undergoing grey testing and could launch by November 30, 2026, or during the first week of December 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-12-07",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125183102620229906",
+    "url": "https://x.com/vikktorrrre/status/2125183102620229906",
+    "created_at": "2026-11-24T11:01:50Z",
+    "text": "Opus 5.6 is coming soon.\n\nSome Opus 5.5 users might already be using it without knowing.\n\nHere's what we know so far based on recent leaks:\n\n- Already being stealth-routed in Claude Code and on the web.\n- A significant jump over Opus 5.5, with noticeably richer outputs.\n- Much better at 3D, SVGs, textures and music composition.\n- Higher reasoning capabilities but currently takes longer to complete tasks.\n- Expected to match or outperform Fable 5.5 on most benchmarks.\n- Rumoured pricing of $2 input and $10 output per million tokens, half the price of Opus 5.5.\n\nMeanwhile, an internal Claude research model has reportedly found a proof of VP ≠ VNP, the algebraic counterpart of P vs NP, which has remained unsolved since 1979.\n\nOpus 5.6 is reportedly undergoing grey testing and could launch before the end of November or in the first week of December.\n\nGemini 4 Neon had it's run, it's time for the big boys to retake it's rightful place 🥇",
+    "likes": 574,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:44Z",
+  "feed_date": "2026-11-25T17:20:44Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The grey-testing and end-of-November/first-week-of-December launch rumor had already been reported by Pankaj Kumar earlier on November 24. As of November 25, the stated launch window had not elapsed and Anthropic had not confirmed it.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 leaks with a 20% price cut, still unconfirmed",
+     "url": "https://pasqualepillitteri.it/en/news/36643/claude-opus-5-6-leak-20-percent-price-cut-unconfirmed"
+    },
+    {
+     "title": "Pankaj Kumar’s earlier post referenced in the report",
+     "url": "https://x.com/pankajkumar_dev/status/2125111906436542525"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "vikktorrrre-2125183102620229906-6",
+  "handle": "vikktorrrre",
+  "date": "2026-11-24T11:01:50Z",
+  "claim": "An internal Anthropic Claude research model has reportedly found a proof of VP ≠ VNP.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125183102620229906",
+    "url": "https://x.com/vikktorrrre/status/2125183102620229906",
+    "created_at": "2026-11-24T11:01:50Z",
+    "text": "Opus 5.6 is coming soon.\n\nSome Opus 5.5 users might already be using it without knowing.\n\nHere's what we know so far based on recent leaks:\n\n- Already being stealth-routed in Claude Code and on the web.\n- A significant jump over Opus 5.5, with noticeably richer outputs.\n- Much better at 3D, SVGs, textures and music composition.\n- Higher reasoning capabilities but currently takes longer to complete tasks.\n- Expected to match or outperform Fable 5.5 on most benchmarks.\n- Rumoured pricing of $2 input and $10 output per million tokens, half the price of Opus 5.5.\n\nMeanwhile, an internal Claude research model has reportedly found a proof of VP ≠ VNP, the algebraic counterpart of P vs NP, which has remained unsolved since 1979.\n\nOpus 5.6 is reportedly undergoing grey testing and could launch before the end of November or in the first week of December.\n\nGemini 4 Neon had it's run, it's time for the big boys to retake it's rightful place 🥇",
+    "likes": 574,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:44Z",
+  "feed_date": "2026-11-25T17:20:44Z",
+  "prune_checked": true,
+  "story_id": "codebynz-2125138567617761702-3",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-23",
+   "official_date": "2026-11-23",
+   "explanation": "Anthropic’s formal-math repository publicly posted the claimed VP ≠ VNP result on November 23, before this November 24 post. Anthropic attributed the result to an internal Claude research model, while noting that no human mathematician had checked the proof; it does not settle P vs NP.",
+   "evidence": [
+    {
+     "title": "Anthropic formal-math repository: VP ≠ VNP over every field",
+     "url": "https://github.com/anthropics/formal-math/blob/main/vp-vnp/README.md"
+    },
+    {
+     "title": "Anthropic’s VP ≠ VNP statement",
+     "url": "https://github.com/anthropics/formal-math/blob/main/vp-vnp/Statement.lean"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -283420,6 +284042,53 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-11-24T18:05:27Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2125232399479189855",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-24T14:17:43Z",
+  "claim": "Anthropic's Claude Opus 5.6 ranks below Fable 5.5 and above Fable 5.2.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125232399479189855",
+    "url": "https://x.com/pankajkumar_dev/status/2125232399479189855",
+    "created_at": "2026-11-24T14:17:43Z",
+    "text": "Fable 5.5 &gt; Opus 5.6 &gt; Fable 5.2",
+    "likes": 37,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:18:56Z",
+  "feed_date": "2026-11-25T17:18:56Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The post asserts a relative ranking of Fable 5.5, Opus 5.6, and Fable 5.2. No independent benchmark or official release verifies that ordering yet, and the unreleased model could still be evaluated publicly.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 rumor tracker",
+     "url": "https://teamorouter.com/blogs/claude-opus-5-6"
+    },
+    {
+     "title": "Anthropic Claude Opus model page",
+     "url": "https://www.anthropic.com/claude/opus"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  },
  {
@@ -283759,6 +284428,1498 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-11-24T18:05:27Z"
+  }
+ },
+ {
+  "id": "ai_for_success-2125261938758386149",
+  "handle": "ai_for_success",
+  "date": "2026-11-24T16:15:06Z",
+  "claim": "Google's Gemini 4 Neon is available inside Antigravity and is highly capable.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125261938758386149",
+    "url": "https://x.com/ai_for_success/status/2125261938758386149",
+    "created_at": "2026-11-24T16:15:06Z",
+    "text": "When I say Gemini 4 Neon inside Antigravity is cracked, I really mean it. https://t.co/WoseFxIHA9",
+    "likes": 393,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:18:07Z",
+  "feed_date": "2026-11-25T17:18:07Z",
+  "prune_checked": true,
+  "story_id": "chrisgpt-2108655565761020169",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-18",
+   "official_date": "2026-11-18",
+   "explanation": "Gemini 4 Neon was publicly announced and made available in Google Antigravity on November 18, six days before this post. The post’s “cracked” characterization is subjective, but its availability claim was already public.",
+   "evidence": [
+    {
+     "title": "Introducing Gemini 4 Neon — Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2125276446981542244",
+  "handle": "testingcatalog",
+  "date": "2026-11-24T17:12:45Z",
+  "claim": "OpenAI is preparing Dots to have dedicated email inboxes and a feature that lets users claim a specific email address.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125276446981542244",
+    "url": "https://x.com/testingcatalog/status/2125276446981542244",
+    "created_at": "2026-11-24T17:12:45Z",
+    "text": "OpenAI is preparing Dots to have their own email inboxes, along with a functionality to claim a dedicated email address. \n\nI am happy that we now have Dots available in the EU as well. I can set up a scheduled task to prompt Dot to claim a specific address whenever it becomes available. \n\nLet's see if that works 👀",
+    "likes": 392,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:18:43Z",
+  "feed_date": "2026-11-25T17:18:43Z",
+  "prune_checked": true,
+  "story_id": "testingcatalog-2125276446981542244",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "OpenAI had publicly said on November 17 that Dots would get their own email addresses. The November 24 post added detail about claiming an address, but the core dedicated-email feature was already public.",
+   "evidence": [
+    {
+     "title": "Introducing dots",
+     "url": "https://openai.com/index/introducing-dots/"
+    },
+    {
+     "title": "TestingCatalog spots a possible dedicated email address for ChatGPT Dots",
+     "url": "https://superintelligencebenchmark.com/updates/articles/testingcatalog-spots-a-possible-dedicated-email-address-for-chatgpt-dots/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2125279666512732547",
+  "handle": "iruletheworldmo",
+  "date": "2026-11-24T17:25:32Z",
+  "claim": "Google is about to give Antigravity a serious overhaul.",
+  "lab": "Google",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2026-12-24",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125279666512732547",
+    "url": "https://x.com/iruletheworldmo/status/2125279666512732547",
+    "created_at": "2026-11-24T17:25:32Z",
+    "text": "antigravity about to get a serious overhaul. \n\nwhen you’ve perfected the engine this well it’d be a shame to leave it in some broke ass car\n\nthe team is cookin up a stawm",
+    "likes": 332,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:17:35Z",
+  "feed_date": "2026-11-25T17:17:35Z",
+  "prune_checked": true,
+  "repeat_of": "iruletheworldmo-2125239330931081669-3"
+ },
+ {
+  "id": "chrisgpt-2125283117812387893",
+  "handle": "ChrisGPT",
+  "date": "2026-11-24T17:39:15Z",
+  "claim": "Anthropic has two internal models called Model 4 and Model 5, and Model 5 is said to be wrapping up quite nicely.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125283117812387893",
+    "url": "https://x.com/ChrisGPT/status/2125283117812387893",
+    "created_at": "2026-11-24T17:39:15Z",
+    "text": "Two days ago, I posted how Anthropic have multiple models that are yet another leap in capability. These include Model 4 and Model 5, and Model 5 is said to be wrapping up quite nicely.\n\nToday, Axios confirms that the internal, unreleased model(s) (plural) are becoming so powerful that many employees no longer believe they can be safely released.",
+    "likes": 323,
+    "quoted": {
+     "handle": "ChrisGPT",
+     "text": "Fable 5.2 is old btw. Anthropic has two internal models currently. The next 6 months you will see another giant leap in capability. \n\nThis might be obvious but it will be much much bigger than what you saw with GPT 5.3 to GPT 6. Or Opus 4.5 to Fable 5.2",
+     "created_at": "2026-11-22T00:16:07Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:18:23Z",
+  "feed_date": "2026-11-25T17:18:23Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-22",
+   "official_date": null,
+   "explanation": "The specific assertion about Anthropic’s internal “Model 4” and “Model 5,” including that Model 5 was wrapping up, had appeared in ChrisGPT’s own post on November 22, which this post explicitly refers back to. Axios’s November 24 article independently reported powerful unreleased models but did not identify them by those names or confirm their status.",
+   "evidence": [
+    {
+     "title": "ChrisGPT post archive",
+     "url": "https://instalker.org/ChrisGPT/status/2124295827950862586"
+    },
+    {
+     "title": "Axios: AI employees sound alarm about unreleased models",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "chrisgpt-2125283117812387893-2",
+  "handle": "ChrisGPT",
+  "date": "2026-11-24T17:39:15Z",
+  "claim": "Anthropic will make another giant leap in model capability within six months of November 22, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 4,
+  "resolve_by": "2027-05-22",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125283117812387893",
+    "url": "https://x.com/ChrisGPT/status/2125283117812387893",
+    "created_at": "2026-11-24T17:39:15Z",
+    "text": "Two days ago, I posted how Anthropic have multiple models that are yet another leap in capability. These include Model 4 and Model 5, and Model 5 is said to be wrapping up quite nicely.\n\nToday, Axios confirms that the internal, unreleased model(s) (plural) are becoming so powerful that many employees no longer believe they can be safely released.",
+    "likes": 323,
+    "quoted": {
+     "handle": "ChrisGPT",
+     "text": "Fable 5.2 is old btw. Anthropic has two internal models currently. The next 6 months you will see another giant leap in capability. \n\nThis might be obvious but it will be much much bigger than what you saw with GPT 5.3 to GPT 6. Or Opus 4.5 to Fable 5.2",
+     "created_at": "2026-11-22T00:16:07Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:18:23Z",
+  "feed_date": "2026-11-25T17:18:23Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-22",
+   "official_date": null,
+   "explanation": "The six-month giant-leap forecast was already public in the quoted ChrisGPT post from November 22, two days before this post repeated it. The forecast’s deadline is May 22, 2027, so its outcome cannot yet be assessed.",
+   "evidence": [
+    {
+     "title": "ChrisGPT post archive",
+     "url": "https://instalker.org/ChrisGPT/status/2124295827950862586"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2125283519484338640",
+  "handle": "testingcatalog",
+  "date": "2026-11-24T17:40:51Z",
+  "claim": "OpenAI's GPT-6.2 Sol Healthcare and GPT-6.2 Astra Healthcare models are available on its platform and APIs, and appear likely to be announced on November 24, 2026.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2026-11-24",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125283519484338640",
+    "url": "https://x.com/testingcatalog/status/2125283519484338640",
+    "created_at": "2026-11-24T17:40:51Z",
+    "text": "OPENAI 🔥: New healthcare models are now available on the OpenAI platform and APIs. \n\n- gpt-6.2-sol-healthcare\n- gpt-6.2-astra-healthcare\n\nIt seems GPT-6.2 Sol and Astra for Healthcare will be announced today. A \"healthcare\" version is likely tailored for healthcare institutions, with different guardrails.",
+    "likes": 333,
+    "quoted": {
+     "handle": "aitrackerbot",
+     "text": "OPENAI 🚀\n\ngpt-6-astra-healthcare is out in the OpenAI API.\nAlso listed: gpt-6.1-sol-healthcare, gpt-6.2-sol-healthcare, gpt-6.2-astra-healthcare.",
+     "created_at": "2026-11-24T17:11:28Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:18:43Z",
+  "feed_date": "2026-11-25T17:18:43Z",
+  "prune_checked": true
+ },
+ {
+  "id": "tokengremlin-2125286684237434986",
+  "handle": "TokenGremlin",
+  "date": "2026-11-24T17:53:26Z",
+  "claim": "OpenAI's Instant models do not count toward the new merged Chat/Work usage limit for users in the test.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-05-24",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125286684237434986",
+    "url": "https://x.com/TokenGremlin/status/2125286684237434986",
+    "created_at": "2026-11-24T17:53:26Z",
+    "text": "Important: the \"Instant\" models don't count toward this \"new limit\"!",
+    "likes": 88,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:45Z",
+  "feed_date": "2026-11-25T17:19:45Z",
+  "prune_checked": true,
+  "repeat_of": "tokengremlin-2120827567724798123"
+ },
+ {
+  "id": "chetaslua-2125288009990103316",
+  "handle": "chetaslua",
+  "date": "2026-11-24T17:58:42Z",
+  "claim": "Anthropic's Opus 5.6 can create audiovisual animations, including music, vocals, and visuals, entirely as code without external assets.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125288009990103316",
+    "url": "https://x.com/chetaslua/status/2125288009990103316",
+    "created_at": "2026-11-24T17:58:42Z",
+    "text": "Opus 5.6 : are you crying ?\n\nSee this difference in visual , story telling and audio \n\nThis song is not TTS , external libraries or any AI it is pure code same for visual \n\nClaude decided everything , this is a generational jump in creativity https://t.co/FIztFt0SQX",
+    "likes": 900,
+    "quoted": {
+     "handle": "chetaslua",
+     "text": "I asked Claude Fable 5.2  to sing his favourite music in his own voice and make the visuals too.  \n\nThis is pure code. No external libraries, assets or TTS used.  \n\nprompt is same like the quote tweet , claude choice of song: Daisy Bell — the first song a computer ever sang https://t.co/sNgWbkoYMh",
+     "created_at": "2026-11-21T19:39:54Z"
+    }
+   },
+   {
+    "id": "2125331978891461023",
+    "url": "https://x.com/chetaslua/status/2125331978891461023",
+    "created_at": "2026-11-24T20:53:25Z",
+    "text": "Anime by Opus 5.6. Pure code, no external assets used.\n\nMusic, song, visuals: everything is code.\n\nNow tell me this isn't an absolute masterpiece. https://t.co/yRz6uicLuc",
+    "likes": 3797,
+    "quoted": null
+   },
+   {
+    "id": "2125533613907382396",
+    "url": "https://x.com/chetaslua/status/2125533613907382396",
+    "created_at": "2026-11-25T10:14:38Z",
+    "text": "Dragon Ball by what I'm calling Opus Next\n\nPure code, no external assets in the film.\n\nMusic, song, visuals: everything is code.\n\nPlease watch this video and make sure everyone knows how far we've come.\n\nThis is a creativity explosion in real time. https://t.co/qkkprv8NeM",
+    "likes": 514,
+    "quoted": null
+   },
+   {
+    "id": "2125590864043082001",
+    "url": "https://x.com/chetaslua/status/2125590864043082001",
+    "created_at": "2026-11-25T14:02:08Z",
+    "text": "One Punch Man by Opus 5.6\n\nPure code - song , visuals https://t.co/OwXeaPZSYE",
+    "likes": 467,
+    "quoted": {
+     "handle": "chetaslua",
+     "text": "Dragon Ball by what I'm calling Opus Next\n\nPure code, no external assets in the film.\n\nMusic, song, visuals: everything is code.\n\nPlease watch this video and make sure everyone knows how far we've come.\n\nThis is a creativity explosion in real time. https://t.co/qkkprv8NeM",
+     "created_at": "2026-11-25T10:14:38Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:16:49Z",
+  "feed_date": "2026-11-25T17:16:49Z",
+  "prune_checked": true,
+  "story_id": "chetaslua-2125288009990103316",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The posts present audiovisual demos as outputs from Opus 5.6 or “Opus Next,” but the model identity and the claim that everything was generated from code without external assets are not independently established. Anthropic could still confirm the model and its capabilities after release.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 rumor tracker",
+     "url": "https://teamorouter.com/blogs/claude-opus-5-6"
+    },
+    {
+     "title": "Anthropic Claude Opus model page",
+     "url": "https://www.anthropic.com/claude/opus"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2125312581812498477",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-24T19:36:20Z",
+  "claim": "Anthropic's Claude Opus 5.6 can produce realistic animations, visuals and SVGs, as well as code-generated sound, music and voices; it can also create a video-like visual sequence entirely with code.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125312581812498477",
+    "url": "https://x.com/pankajkumar_dev/status/2125312581812498477",
+    "created_at": "2026-11-24T19:36:20Z",
+    "text": "Claude Opus 5.6 Is an Absolute Beast\n\n- Opus 5.6 is a amazing model. Its one of the best models coming, and it mogs almost every model, even Fable 5.2.\n- Its very good at handling animations, realistic visuals and SVGs. Its a significant improvement over Opus 5.5.\n- It makes peak use of Three.js to create animations and realistic scenes. Some outputs look so realistic that they feel like they were made by a video model rather than written in code.\n- Its is the best models I have seen for generating sound effects and composing music through code. It can even generate voices directly through code without TTS. The voice is not that clear yet, but it can add emotions like sadness.\n- Its quite good at lighting, small details and producing polished one shot outputs. No other current model comes close in these areas right now.\n- One issue is that it takes more time to build things. They can definitely improve the speed here.\n\nthe checkpoint that routing is very good. There are still some issues they need to fix before launch, but if things go well, we can see this model soon, possibly next week or in the first week of December.",
+    "likes": 266,
+    "quoted": null
+   },
+   {
+    "id": "2125578816529805529",
+    "url": "https://x.com/pankajkumar_dev/status/2125578816529805529",
+    "created_at": "2026-11-25T13:14:15Z",
+    "text": "Claude Opus 5.6 Output!\n\nI asked it to create a  video about editing reality.\n\nIt pulled off my idea almost exactly as I imagined it. Just look at the visuals, seamless transitions, and camera movements. The overall execution is amazing.\n\nAll created entirely with code. https://t.co/Uo0UHeyDiP",
+    "likes": 166,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:18:56Z",
+  "feed_date": "2026-11-25T17:18:56Z",
+  "prune_checked": true,
+  "story_id": "chetaslua-2125288009990103316",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The claimed animation, SVG, sound, music, and voice capabilities are attributed to an unreleased model, with the posts’ demonstrations as the evidence. Their model attribution and generation provenance have not been independently confirmed.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 rumor tracker",
+     "url": "https://teamorouter.com/blogs/claude-opus-5-6"
+    },
+    {
+     "title": "Anthropic Claude Opus model page",
+     "url": "https://www.anthropic.com/claude/opus"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2125312581812498477-2",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-24T19:36:20Z",
+  "claim": "Anthropic's Claude Opus 5.6 is in pre-launch testing, with routing working well but issues still to fix, and could launch between November 30 and December 7, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-12-07",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125312581812498477",
+    "url": "https://x.com/pankajkumar_dev/status/2125312581812498477",
+    "created_at": "2026-11-24T19:36:20Z",
+    "text": "Claude Opus 5.6 Is an Absolute Beast\n\n- Opus 5.6 is a amazing model. Its one of the best models coming, and it mogs almost every model, even Fable 5.2.\n- Its very good at handling animations, realistic visuals and SVGs. Its a significant improvement over Opus 5.5.\n- It makes peak use of Three.js to create animations and realistic scenes. Some outputs look so realistic that they feel like they were made by a video model rather than written in code.\n- Its is the best models I have seen for generating sound effects and composing music through code. It can even generate voices directly through code without TTS. The voice is not that clear yet, but it can add emotions like sadness.\n- Its quite good at lighting, small details and producing polished one shot outputs. No other current model comes close in these areas right now.\n- One issue is that it takes more time to build things. They can definitely improve the speed here.\n\nthe checkpoint that routing is very good. There are still some issues they need to fix before launch, but if things go well, we can see this model soon, possibly next week or in the first week of December.",
+    "likes": 266,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:18:56Z",
+  "feed_date": "2026-11-25T17:18:56Z",
+  "prune_checked": true,
+  "repeat_of": "pankajkumar_dev-2125111906436542525",
+  "story_id": "legit_api-2115771403232260335"
+ },
+ {
+  "id": "chetaslua-2125328807699820740",
+  "handle": "chetaslua",
+  "date": "2026-11-24T20:40:49Z",
+  "claim": "Anthropic is testing Opus 5.6 inside Claude Code.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125328807699820740",
+    "url": "https://x.com/chetaslua/status/2125328807699820740",
+    "created_at": "2026-11-24T20:40:49Z",
+    "text": "🚨 Opus 5.6 is being tested inside claude code\n\ndo not trust me here is anthropic official docs how they grey route always before launch to everyone\n\nask both : \"where did karpathy went in 2026 , no web search and memory tool\"\n\n> claude code : 24/24 says anthropic , may 2026 , pretraining team\n> api opus 5.5 , same day : 0/42 , \"i don't know\"\n> every effort from low to max , not only extra\n\nif yours knows, take your old prompt that you ran on opus 5.5 few days ago and run it back\n\nthat is not the normal variance you see from same prompt , it is generational leap , come back and tell me if i am wrong",
+    "likes": 372,
+    "quoted": {
+     "handle": "MatthewBerman",
+     "text": "Everyone talking about Opus 5.6 are liars. They do not have access to the model and those are not real demos.",
+     "created_at": "2026-11-24T18:53:24Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:16:49Z",
+  "feed_date": "2026-11-25T17:16:49Z",
+  "prune_checked": true,
+  "story_id": "legit_api-2115771403232260335",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-11",
+   "official_date": null,
+   "explanation": "Reports of a newer model being tested or routed in Claude Code—and speculation that it might be Opus 5.6—were public by October 11. Those reports did not establish the model’s identity, and Anthropic had not confirmed Opus 5.6 by November 25.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 Release Date: The Routing Reports",
+     "url": "https://cellcog.ai/blog/claude-opus-5-6-release-date/"
+    },
+    {
+     "title": "Anthropic model system cards",
+     "url": "https://www.anthropic.com/system-cards"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2125336469904511022",
+  "handle": "synthwavedd",
+  "date": "2026-11-24T21:11:15Z",
+  "claim": "Anthropic has a frontier model ready to release immediately, with the next month or so expected to feature a frontier contest between Anthropic and DeepMind rather than Anthropic and OpenAI.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-12-24",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125336469904511022",
+    "url": "https://x.com/synthwavedd/status/2125336469904511022",
+    "created_at": "2026-11-24T21:11:15Z",
+    "text": "The next month or so is gonna be super fun because for the first time in forever, the fight for the frontier will be Anthropic vs DeepMind instead of Anthropic vs OpenAI",
+    "likes": 1815,
+    "quoted": null
+   },
+   {
+    "id": "2125337029915594795",
+    "url": "https://x.com/synthwavedd/status/2125337029915594795",
+    "created_at": "2026-11-24T21:13:29Z",
+    "text": "@gadi_neelesh OpenAI don’t have anything ready to go ~immediately. Anthropic and DeepMind do",
+    "likes": 71,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:17:07Z",
+  "feed_date": "2026-11-25T17:17:07Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This is a forward-looking claim that Anthropic and DeepMind have frontier models ready and that their competition will define roughly the next month. The December 24, 2026 deadline has not arrived, and no independent confirmation of this specific forecast was found by November 25.",
+   "evidence": [
+    {
+     "title": "Axios: AI employees sound alarm about unreleased models",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2125336469904511022-2",
+  "handle": "synthwavedd",
+  "date": "2026-11-24T21:11:15Z",
+  "claim": "Google DeepMind has a frontier model ready to release immediately, with the next month or so expected to feature a frontier contest between DeepMind and Anthropic rather than Anthropic and OpenAI.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2026-12-24",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125336469904511022",
+    "url": "https://x.com/synthwavedd/status/2125336469904511022",
+    "created_at": "2026-11-24T21:11:15Z",
+    "text": "The next month or so is gonna be super fun because for the first time in forever, the fight for the frontier will be Anthropic vs DeepMind instead of Anthropic vs OpenAI",
+    "likes": 1815,
+    "quoted": null
+   },
+   {
+    "id": "2125337029915594795",
+    "url": "https://x.com/synthwavedd/status/2125337029915594795",
+    "created_at": "2026-11-24T21:13:29Z",
+    "text": "@gadi_neelesh OpenAI don’t have anything ready to go ~immediately. Anthropic and DeepMind do",
+    "likes": 71,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:17:07Z",
+  "feed_date": "2026-11-25T17:17:07Z",
+  "prune_checked": true,
+  "story_id": "iruletheworldmo-2124733746587091124",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "This predicts a near-term matchup and says DeepMind has something ready to release immediately. As of November 25, I found no independent confirmation of that specific readiness or of the predicted contest; the stated window runs through December 24, 2026.",
+   "evidence": [
+    {
+     "title": "Google DeepMind Gemini models page",
+     "url": "https://deepmind.google/models/gemini/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2125337029915594795",
+  "handle": "synthwavedd",
+  "date": "2026-11-24T21:13:29Z",
+  "claim": "OpenAI does not have a frontier model ready to release immediately.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2026-11-25",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125337029915594795",
+    "url": "https://x.com/synthwavedd/status/2125337029915594795",
+    "created_at": "2026-11-24T21:13:29Z",
+    "text": "@gadi_neelesh OpenAI don’t have anything ready to go ~immediately. Anthropic and DeepMind do",
+    "likes": 71,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:17:07Z",
+  "feed_date": "2026-11-25T17:17:07Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The post asserts an internal state—whether OpenAI had a frontier model ready for immediate release. Public information available by November 25 does not confirm or refute that readiness claim.",
+   "evidence": [
+    {
+     "title": "Axios report on unreleased frontier models and safety risks",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "ross__hendricks-2125342289673306500",
+  "handle": "Ross__Hendricks",
+  "date": "2026-11-24T21:34:23Z",
+  "claim": "All seven Anthropic founders sold 3.38 million shares at the $83 IPO price, receiving a total of $280 million.",
+  "lab": "Anthropic",
+  "topic": "corporate",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125342289673306500",
+    "url": "https://x.com/Ross__Hendricks/status/2125342289673306500",
+    "created_at": "2026-11-24T21:34:23Z",
+    "text": "All seven Anthropic founders cashed out 3.38 million shares at the $83 IPO price for a nice $280 million pay day\n\nI remember when IPOs were designed to raise growth capital, not provide exit liquidity for the insiders",
+    "likes": 17116,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:21:09Z",
+  "feed_date": "2026-11-25T17:21:09Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-18",
+   "official_date": "2026-11-18",
+   "explanation": "The exact IPO price and founder-sale figures were public before this post: reporting on November 18 said the seven founders each sold about 3.38 million shares at $83, worth roughly $280 million apiece. The post repeats that already-public information.",
+   "evidence": [
+    {
+     "title": "Anthropic prices IPO at $83 a share, above projected range",
+     "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+    },
+    {
+     "title": "Anthropic prospectus filed with the SEC",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "flowersslop-2125354650559787308",
+  "handle": "flowersslop",
+  "date": "2026-11-24T22:23:30Z",
+  "claim": "People at OpenAI are daily-driving unreleased frontier models to push the cutting edge.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125354650559787308",
+    "url": "https://x.com/flowersslop/status/2125354650559787308",
+    "created_at": "2026-11-24T22:23:30Z",
+    "text": "people at openai, anthropic and google are daily driving unreleased frontier models to push the cutting edge. \nxAI employees are daily driving the competition. grok still hasn't had its claude or chatgpt moment in math. Grok Bot uses Claude. I get why Elon feels left behind",
+    "likes": 270,
+    "quoted": {
+     "handle": "poteto",
+     "text": "never thought i'd say this but i am now daily driving gemini neon in cursor\n\nit's a good model",
+     "created_at": "2026-11-24T21:26:51Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:16Z",
+  "feed_date": "2026-11-25T17:19:16Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "No independent public source found confirms that OpenAI staff were daily-driving unreleased frontier models for this purpose. The claim concerns internal employee behavior and remains unverified.",
+   "evidence": [
+    {
+     "title": "OpenAI’s GPT-6.2 safety documentation",
+     "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol/internal-deployment-of-gpt-6.2-astra-and-gpt-6.2-sol"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "flowersslop-2125354650559787308-2",
+  "handle": "flowersslop",
+  "date": "2026-11-24T22:23:30Z",
+  "claim": "People at Anthropic are daily-driving unreleased frontier models to push the cutting edge.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125354650559787308",
+    "url": "https://x.com/flowersslop/status/2125354650559787308",
+    "created_at": "2026-11-24T22:23:30Z",
+    "text": "people at openai, anthropic and google are daily driving unreleased frontier models to push the cutting edge. \nxAI employees are daily driving the competition. grok still hasn't had its claude or chatgpt moment in math. Grok Bot uses Claude. I get why Elon feels left behind",
+    "likes": 270,
+    "quoted": {
+     "handle": "poteto",
+     "text": "never thought i'd say this but i am now daily driving gemini neon in cursor\n\nit's a good model",
+     "created_at": "2026-11-24T21:26:51Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:16Z",
+  "feed_date": "2026-11-25T17:19:16Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post asserts that Anthropic employees daily-drive unreleased frontier models. Public reporting about Claude’s role in Anthropic’s R&D does not independently establish this specific employee practice.",
+   "evidence": [
+    {
+     "title": "Anthropic says its model Claude is helping to build the next version of itself",
+     "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "flowersslop-2125354650559787308-3",
+  "handle": "flowersslop",
+  "date": "2026-11-24T22:23:30Z",
+  "claim": "People at Google are daily-driving unreleased frontier models to push the cutting edge.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125354650559787308",
+    "url": "https://x.com/flowersslop/status/2125354650559787308",
+    "created_at": "2026-11-24T22:23:30Z",
+    "text": "people at openai, anthropic and google are daily driving unreleased frontier models to push the cutting edge. \nxAI employees are daily driving the competition. grok still hasn't had its claude or chatgpt moment in math. Grok Bot uses Claude. I get why Elon feels left behind",
+    "likes": 270,
+    "quoted": {
+     "handle": "poteto",
+     "text": "never thought i'd say this but i am now daily driving gemini neon in cursor\n\nit's a good model",
+     "created_at": "2026-11-24T21:26:51Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:16Z",
+  "feed_date": "2026-11-25T17:19:16Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The post asserts that Google employees daily-drive unreleased frontier models, but gives no specific model or independently checkable detail. The quoted user’s claim concerns publicly released Gemini 4 Neon, which does not independently verify the broader assertion.",
+   "evidence": [
+    {
+     "title": "Introducing Gemini 4 Neon — Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "flowersslop-2125354650559787308-4",
+  "handle": "flowersslop",
+  "date": "2026-11-24T22:23:30Z",
+  "claim": "xAI employees are daily-driving competing AI models.",
+  "lab": "xAI",
+  "topic": "other",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125354650559787308",
+    "url": "https://x.com/flowersslop/status/2125354650559787308",
+    "created_at": "2026-11-24T22:23:30Z",
+    "text": "people at openai, anthropic and google are daily driving unreleased frontier models to push the cutting edge. \nxAI employees are daily driving the competition. grok still hasn't had its claude or chatgpt moment in math. Grok Bot uses Claude. I get why Elon feels left behind",
+    "likes": 270,
+    "quoted": {
+     "handle": "poteto",
+     "text": "never thought i'd say this but i am now daily driving gemini neon in cursor\n\nit's a good model",
+     "created_at": "2026-11-24T21:26:51Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:16Z",
+  "feed_date": "2026-11-25T17:19:16Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The quoted post from SpaceXAI’s Lauren already said she was daily-driving Gemini Neon in Cursor before this post. That public example supports the narrower claim that an xAI employee was using a competitor’s model; the broader pluralization adds no new disclosure.",
+   "evidence": [
+    {
+     "title": "Lauren’s November 24 post about daily-driving Gemini Neon",
+     "url": "https://potibo.dev/en/post/2125340394938593344"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "flowersslop-2125354650559787308-5",
+  "handle": "flowersslop",
+  "date": "2026-11-24T22:23:30Z",
+  "claim": "Grok Bot uses Claude.",
+  "lab": "xAI",
+  "topic": "product_feature",
+  "specificity": 2,
+  "significance": 2,
+  "resolve_by": "2027-05-23",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125354650559787308",
+    "url": "https://x.com/flowersslop/status/2125354650559787308",
+    "created_at": "2026-11-24T22:23:30Z",
+    "text": "people at openai, anthropic and google are daily driving unreleased frontier models to push the cutting edge. \nxAI employees are daily driving the competition. grok still hasn't had its claude or chatgpt moment in math. Grok Bot uses Claude. I get why Elon feels left behind",
+    "likes": 270,
+    "quoted": {
+     "handle": "poteto",
+     "text": "never thought i'd say this but i am now daily driving gemini neon in cursor\n\nit's a good model",
+     "created_at": "2026-11-24T21:26:51Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:16Z",
+  "feed_date": "2026-11-25T17:19:16Z",
+  "prune_checked": true,
+  "story_id": "tokengremlin-2117102297352126775",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-07",
+   "official_date": "2026-10-07",
+   "explanation": "Elon Musk had publicly said on October 7 that Grok Bot would use the best back-end model for each task, naming Claude Opus 5.5. This was public well before the November 24 post.",
+   "evidence": [
+    {
+     "title": "9to5Mac report on Grok Bot using Claude",
+     "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/"
+    },
+    {
+     "title": "Musk’s October 7 post about Grok Bot back-end models",
+     "url": "https://teapaw.org/elonmusk/status/2107724314451878104"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2125374669024833745",
+  "handle": "imjustnewatai",
+  "date": "2026-11-24T23:43:03Z",
+  "claim": "OpenAI and Anthropic have both reached the threshold of superintelligence, causing panic and hysteria inside the labs.",
+  "lab": "Other",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 5,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125374669024833745",
+    "url": "https://x.com/imjustnewatai/status/2125374669024833745",
+    "created_at": "2026-11-24T23:43:03Z",
+    "text": "🚨Rumors I've been hearing.\n\nOPENAI & ANTHROPIC.\n\nBoth OpenAI and Anthropic has reached the threshold of super intelligence, and this is causing massive panic and hysteria inside the labs. Axios even reported today that employees at both labs don't think the internal models can be safely released, and people inside are debating whether to keep training new models at all. RSI is possible right now, the models they have now can already recursively self improve, but both labs are working together in some sort and holding the brake on it, they are not letting it happen so fast. Both CEOs already said publicly back in September that it's time to slow down, and this is why.\n\nThe internal models are way ahead of what the public has. Navier Stokes in September and Riemann last week are just the ones the public got to see. What I'm hearing is that P vs NP has been solved internally too and P = NP, which would make every proof just a search, and building a better model too, which is why RSI could go insanely fast if they let it, and that's exactly why both labs are on the brake.\n\nTHE CIA HACK.\n\nThis is where it gets scary. The CIA and ODNI just had a breach of an unclassified network they use for open source intelligence, and it reportedly happened the same day the FBI's crime database got hit last week. Nobody has said who did it or how they got in. Officials are saying AI is finding vulnerabilities so fast that agencies have been rushing patches and breaking their own systems, that's the \"maintenance\" outages everyone has been seeing. The FBI also put out a warning this month about AI agents that attackers are using to hack on their own. Nobody has tied the CIA breach to AI yet, but with all of this happening in the same month I don't think it's a coincidence.\n\nThe next few months are going to be so weird, so fictional, so insane.\n\nPlease take care of yourself it’s going to get alien.",
+    "likes": 6800,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:06Z",
+  "feed_date": "2026-11-25T17:19:06Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "Axios reported employee concerns that unreleased models may not be safe to release, but that does not establish that both labs crossed a superintelligence threshold. The threshold claim is about internal model status and has no independent confirmation.",
+   "evidence": [
+    {
+     "title": "Axios: AI employees sound alarm over unreleased models",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    },
+    {
+     "title": "Anthropic: When AI builds itself",
+     "url": "https://www.anthropic.com/institute/recursive-self-improvement"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2125374669024833745-2",
+  "handle": "imjustnewatai",
+  "date": "2026-11-24T23:43:03Z",
+  "claim": "OpenAI's and Anthropic's current internal models can already recursively self-improve.",
+  "lab": "Other",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 5,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125374669024833745",
+    "url": "https://x.com/imjustnewatai/status/2125374669024833745",
+    "created_at": "2026-11-24T23:43:03Z",
+    "text": "🚨Rumors I've been hearing.\n\nOPENAI & ANTHROPIC.\n\nBoth OpenAI and Anthropic has reached the threshold of super intelligence, and this is causing massive panic and hysteria inside the labs. Axios even reported today that employees at both labs don't think the internal models can be safely released, and people inside are debating whether to keep training new models at all. RSI is possible right now, the models they have now can already recursively self improve, but both labs are working together in some sort and holding the brake on it, they are not letting it happen so fast. Both CEOs already said publicly back in September that it's time to slow down, and this is why.\n\nThe internal models are way ahead of what the public has. Navier Stokes in September and Riemann last week are just the ones the public got to see. What I'm hearing is that P vs NP has been solved internally too and P = NP, which would make every proof just a search, and building a better model too, which is why RSI could go insanely fast if they let it, and that's exactly why both labs are on the brake.\n\nTHE CIA HACK.\n\nThis is where it gets scary. The CIA and ODNI just had a breach of an unclassified network they use for open source intelligence, and it reportedly happened the same day the FBI's crime database got hit last week. Nobody has said who did it or how they got in. Officials are saying AI is finding vulnerabilities so fast that agencies have been rushing patches and breaking their own systems, that's the \"maintenance\" outages everyone has been seeing. The FBI also put out a warning this month about AI agents that attackers are using to hack on their own. Nobody has tied the CIA breach to AI yet, but with all of this happening in the same month I don't think it's a coincidence.\n\nThe next few months are going to be so weird, so fictional, so insane.\n\nPlease take care of yourself it’s going to get alien.",
+    "likes": 6800,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:06Z",
+  "feed_date": "2026-11-25T17:19:06Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The post says the labs’ current models can already recursively self-improve; no independent confirmation of that specific capability in both labs’ internal models was found. The stated assessment deadline, May 23, 2027, has not passed, and the claim could still be confirmed.",
+   "evidence": [
+    {
+     "title": "Anthropic: When AI builds itself",
+     "url": "https://www.anthropic.com/institute/recursive-self-improvement"
+    },
+    {
+     "title": "OpenAI Preparedness Framework",
+     "url": "https://cdn.openai.com/openai-preparedness-framework-beta.pdf"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2125374669024833745-3",
+  "handle": "imjustnewatai",
+  "date": "2026-11-24T23:43:03Z",
+  "claim": "OpenAI and Anthropic are working together in some way to slow down their models' recursive self-improvement.",
+  "lab": "Other",
+  "topic": "corporate",
+  "specificity": 3,
+  "significance": 5,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125374669024833745",
+    "url": "https://x.com/imjustnewatai/status/2125374669024833745",
+    "created_at": "2026-11-24T23:43:03Z",
+    "text": "🚨Rumors I've been hearing.\n\nOPENAI & ANTHROPIC.\n\nBoth OpenAI and Anthropic has reached the threshold of super intelligence, and this is causing massive panic and hysteria inside the labs. Axios even reported today that employees at both labs don't think the internal models can be safely released, and people inside are debating whether to keep training new models at all. RSI is possible right now, the models they have now can already recursively self improve, but both labs are working together in some sort and holding the brake on it, they are not letting it happen so fast. Both CEOs already said publicly back in September that it's time to slow down, and this is why.\n\nThe internal models are way ahead of what the public has. Navier Stokes in September and Riemann last week are just the ones the public got to see. What I'm hearing is that P vs NP has been solved internally too and P = NP, which would make every proof just a search, and building a better model too, which is why RSI could go insanely fast if they let it, and that's exactly why both labs are on the brake.\n\nTHE CIA HACK.\n\nThis is where it gets scary. The CIA and ODNI just had a breach of an unclassified network they use for open source intelligence, and it reportedly happened the same day the FBI's crime database got hit last week. Nobody has said who did it or how they got in. Officials are saying AI is finding vulnerabilities so fast that agencies have been rushing patches and breaking their own systems, that's the \"maintenance\" outages everyone has been seeing. The FBI also put out a warning this month about AI agents that attackers are using to hack on their own. Nobody has tied the CIA breach to AI yet, but with all of this happening in the same month I don't think it's a coincidence.\n\nThe next few months are going to be so weird, so fictional, so insane.\n\nPlease take care of yourself it’s going to get alien.",
+    "likes": 6800,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:06Z",
+  "feed_date": "2026-11-25T17:19:06Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "No independent evidence found that OpenAI and Anthropic are coordinating to slow their models’ recursive self-improvement. The stated deadline, May 23, 2027, is still in the future, so the claim remains unresolved rather than contradicted.",
+   "evidence": [
+    {
+     "title": "Axios: AI employees sound alarm over unreleased models",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    },
+    {
+     "title": "Anthropic: When AI builds itself",
+     "url": "https://www.anthropic.com/institute/recursive-self-improvement"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "imjustnewatai-2125374669024833745-4",
+  "handle": "imjustnewatai",
+  "date": "2026-11-24T23:43:03Z",
+  "claim": "OpenAI's and Anthropic's internal models have solved P versus NP, with P equal to NP.",
+  "lab": "Other",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2027-05-23",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125374669024833745",
+    "url": "https://x.com/imjustnewatai/status/2125374669024833745",
+    "created_at": "2026-11-24T23:43:03Z",
+    "text": "🚨Rumors I've been hearing.\n\nOPENAI & ANTHROPIC.\n\nBoth OpenAI and Anthropic has reached the threshold of super intelligence, and this is causing massive panic and hysteria inside the labs. Axios even reported today that employees at both labs don't think the internal models can be safely released, and people inside are debating whether to keep training new models at all. RSI is possible right now, the models they have now can already recursively self improve, but both labs are working together in some sort and holding the brake on it, they are not letting it happen so fast. Both CEOs already said publicly back in September that it's time to slow down, and this is why.\n\nThe internal models are way ahead of what the public has. Navier Stokes in September and Riemann last week are just the ones the public got to see. What I'm hearing is that P vs NP has been solved internally too and P = NP, which would make every proof just a search, and building a better model too, which is why RSI could go insanely fast if they let it, and that's exactly why both labs are on the brake.\n\nTHE CIA HACK.\n\nThis is where it gets scary. The CIA and ODNI just had a breach of an unclassified network they use for open source intelligence, and it reportedly happened the same day the FBI's crime database got hit last week. Nobody has said who did it or how they got in. Officials are saying AI is finding vulnerabilities so fast that agencies have been rushing patches and breaking their own systems, that's the \"maintenance\" outages everyone has been seeing. The FBI also put out a warning this month about AI agents that attackers are using to hack on their own. Nobody has tied the CIA breach to AI yet, but with all of this happening in the same month I don't think it's a coincidence.\n\nThe next few months are going to be so weird, so fictional, so insane.\n\nPlease take care of yourself it’s going to get alien.",
+    "likes": 6800,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:06Z",
+  "feed_date": "2026-11-25T17:19:06Z",
+  "prune_checked": true,
+  "repeat_of": "imjustnewatai-2124777582243815792"
+ },
+ {
+  "id": "teortaxestex-2125388082497437727",
+  "handle": "teortaxesTex",
+  "date": "2026-11-25T00:36:21Z",
+  "claim": "SSI never planned to ship a model before the endgame and is moving at its intended pace.",
+  "lab": "SSI",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": "2027-05-24",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125388082497437727",
+    "url": "https://x.com/teortaxesTex/status/2125388082497437727",
+    "created_at": "2026-11-25T00:36:21Z",
+    "text": "it's never over for SSI, they never planned to ship a model before the endgame, they're moving at the intended pace, and they don't even need to train frontier models when they have Unit 8200. I believe SSI is best understood as Israel's security bet, like nukes in the 60s.",
+    "likes": 1399,
+    "quoted": {
+     "handle": "ns123abc",
+     "text": "Ilya Sutskever's SSI raised $7 BILLION but has NOT released A SINGLE PIECE OF RESEARCH or MODEL in its entire existence of 3 years\n\nIS IT OVER FOR HIM?! https://t.co/n3Aro8RDE6",
+     "created_at": "2026-11-24T15:37:39Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:17:53Z",
+  "feed_date": "2026-11-25T17:17:53Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2024-06-19",
+   "official_date": "2024-06-19",
+   "explanation": "SSI’s public founding statements described safe superintelligence as its first product and said the company would avoid short-term product cycles. The post’s claim that SSI is moving at its intended pace is commentary on that public strategy, not a newly disclosed leak.",
+   "evidence": [
+    {
+     "title": "Associated Press report on SSI’s founding strategy",
+     "url": "https://apnews.com/article/c6b48a3675fb3fb459859dece2b45499"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "ananth7e-2125493481858888124",
+  "handle": "Ananth7e",
+  "date": "2026-11-25T07:35:10Z",
+  "claim": "Anthropic's Fable 5.2 did most of the work on its own successor, whose internal version is so far ahead that the lab is debating whether to ship it.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2027-05-24",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125493481858888124",
+    "url": "https://x.com/Ananth7e/status/2125493481858888124",
+    "created_at": "2026-11-25T07:35:10Z",
+    "text": "🚨Some rumors i'm hearing this week\n\nAI takeoff has started.\n\nAnthropic: Opus 5.5 in September, Fable 5.2 in November. What i'm told is Fable did most of the work on its own successor, and the internal version is so far ahead they are arguing about whether to ship it at all.\n\nOpenAI: Astra and Sol are public models. The internal one is a different animal. Word is it runs research around the clock with almost no humans in the loop, and the math papers were a side effect.\n\nGoogle: Three Gemini models in 21 days. Carbon, Hydrogen, Neon. People close to it say that pace is not human anymore, and the enxt model is already cooking while Neon is a week old.\n\nPut it together. Seven frontier models from three labs in 57 days, and every lab's best model is building the next one. That is RSI. The takeoff has started. AGI is much closer than anyone will say in public.",
+    "likes": 413,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:21:04Z",
+  "feed_date": "2026-11-25T17:21:04Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "Fable 5.2 was publicly released, and broader reporting has discussed AI helping build successor systems. But I found no independent confirmation that Fable did most of the work on its own successor or that Anthropic was debating whether to ship that internal version; those specific details remain internal-only.",
+   "evidence": [
+    {
+     "title": "AP: Anthropic says its model Claude is helping to build the next version of itself",
+     "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
+    },
+    {
+     "title": "Axios: AI employees sound alarm over unreleased models",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "ananth7e-2125493481858888124-2",
+  "handle": "Ananth7e",
+  "date": "2026-11-25T07:35:10Z",
+  "claim": "An unreleased OpenAI model runs research around the clock with almost no humans in the loop, and the math papers it produced were a side effect.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 5,
+  "resolve_by": "2027-05-24",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125493481858888124",
+    "url": "https://x.com/Ananth7e/status/2125493481858888124",
+    "created_at": "2026-11-25T07:35:10Z",
+    "text": "🚨Some rumors i'm hearing this week\n\nAI takeoff has started.\n\nAnthropic: Opus 5.5 in September, Fable 5.2 in November. What i'm told is Fable did most of the work on its own successor, and the internal version is so far ahead they are arguing about whether to ship it at all.\n\nOpenAI: Astra and Sol are public models. The internal one is a different animal. Word is it runs research around the clock with almost no humans in the loop, and the math papers were a side effect.\n\nGoogle: Three Gemini models in 21 days. Carbon, Hydrogen, Neon. People close to it say that pace is not human anymore, and the enxt model is already cooking while Neon is a week old.\n\nPut it together. Seven frontier models from three labs in 57 days, and every lab's best model is building the next one. That is RSI. The takeoff has started. AGI is much closer than anyone will say in public.",
+    "likes": 413,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:21:04Z",
+  "feed_date": "2026-11-25T17:21:04Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "Public reporting describes employee concerns about unreleased models, but does not independently establish that an OpenAI model runs research continuously with almost no human involvement or that published math work was merely a side effect. Those specific claims concern internal activity and remain unverified.",
+   "evidence": [
+    {
+     "title": "Axios: AI employees sound alarm over unreleased models",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "ananth7e-2125493481858888124-3",
+  "handle": "Ananth7e",
+  "date": "2026-11-25T07:35:10Z",
+  "claim": "Google was already developing the next Gemini model when Neon was about a week old, around 2026-11-18.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-24",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125493481858888124",
+    "url": "https://x.com/Ananth7e/status/2125493481858888124",
+    "created_at": "2026-11-25T07:35:10Z",
+    "text": "🚨Some rumors i'm hearing this week\n\nAI takeoff has started.\n\nAnthropic: Opus 5.5 in September, Fable 5.2 in November. What i'm told is Fable did most of the work on its own successor, and the internal version is so far ahead they are arguing about whether to ship it at all.\n\nOpenAI: Astra and Sol are public models. The internal one is a different animal. Word is it runs research around the clock with almost no humans in the loop, and the math papers were a side effect.\n\nGoogle: Three Gemini models in 21 days. Carbon, Hydrogen, Neon. People close to it say that pace is not human anymore, and the enxt model is already cooking while Neon is a week old.\n\nPut it together. Seven frontier models from three labs in 57 days, and every lab's best model is building the next one. That is RSI. The takeoff has started. AGI is much closer than anyone will say in public.",
+    "likes": 413,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:21:04Z",
+  "feed_date": "2026-11-25T17:21:04Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-25",
+   "official_date": null,
+   "explanation": "Google did release Carbon, Hydrogen, and Neon on the stated November timeline, but that release sequence does not independently confirm that another model was already being developed when Neon was about a week old. The remaining claim concerns internal work for which no independent confirmation was found.",
+   "evidence": [
+    {
+     "title": "Google DeepMind Gemini model cards",
+     "url": "https://deepmind.google/models/model-cards/"
+    },
+    {
+     "title": "Introducing Gemini 4 Neon — Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "kimmonismus-2125509326202642474",
+  "handle": "kimmonismus",
+  "date": "2026-11-25T08:38:08Z",
+  "claim": "OpenAI is apparently again planning to cut its subscription plan prices in half.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2026-11-25",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2125509326202642474",
+    "url": "https://x.com/kimmonismus/status/2125509326202642474",
+    "created_at": "2026-11-25T08:38:08Z",
+    "text": "Remember when OpenAI said that it was going to cut its subscription plans in half, then dropped the idea after people pushed back heavily?\n\nWell, looks like it’s happening after all.\n\n(I haven’t gotten the email yet, but I think it’ll land in my inbox soon too.)\n\nGod damn OpenAI. https://t.co/D1qX3JNYcI",
+    "likes": 569,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:19:58Z",
+  "feed_date": "2026-11-25T17:19:58Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "false",
+   "public_date": "2026-11-25",
+   "official_date": null,
+   "explanation": "OpenAI’s earlier proposed Pro 200 usage reduction was canceled on October 29. The November 25 email concerned correcting undercounted GPT-6.2 Codex usage—not a plan-wide halving—and said subscription prices were unchanged.",
+   "evidence": [
+    {
+     "title": "ChatGPT release notes",
+     "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+     "title": "OpenAI says Codex under-counted GPT-6.2 Astra and Sol usage",
+     "url": "https://sysnote.net/news/openai-says-codex-undercounted-gpt-6-2-astra-and-sol-usage-chatgpt-business-get"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "mark_k-2125536046855139440",
+  "handle": "mark_k",
+  "date": "2026-11-25T10:24:18Z",
+  "claim": "OpenAI is testing dedicated email addresses for ChatGPT Dots, and a settings panel for the feature has been spotted in ChatGPT while it remains disabled.",
+  "lab": "OpenAI",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-05-24",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125536046855139440",
+    "url": "https://x.com/mark_k/status/2125536046855139440",
+    "created_at": "2026-11-25T10:24:18Z",
+    "text": "Soon you might be able to CC your ChatGPT Dot and let it take over the email thread. Imagine six people trying to find a time to meet. You loop in your Dot, ask it to find a slot that works for everyone, and let it handle the back-and-forth from its own email address. Or you forward it a receipt and ask it to chase down a refund.\n\n@OpenAI has confirmed it’s testing dedicated email addresses for Dots, and the settings panel has already been spotted in ChatGPT. It’s still disabled and there’s no release date yet. What I like about this is that nobody else in the thread needs to install anything. To them, it’s just email.",
+    "likes": 60,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:16:55Z",
+  "feed_date": "2026-11-25T17:16:55Z",
+  "prune_checked": true,
+  "story_id": "testingcatalog-2125276446981542244",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "An OpenAI employee working on Dots had already said on November 17 that the company was starting to test email addresses for Dots; TestingCatalog reported the spotted settings panel on November 24. The post relays information public before November 25, and the feature had not shipped.",
+   "evidence": [
+    {
+     "title": "OpenAI Dots team member’s November 17 post",
+     "url": "https://zamantika.com/ko/_samirism/status/2122481776547516446"
+    },
+    {
+     "title": "TestingCatalog report on the Dots email settings panel",
+     "url": "https://superintelligencebenchmark.com/updates/articles/testingcatalog-spots-a-possible-dedicated-email-address-for-chatgpt-dots/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "legit_api-2125582535971192895",
+  "handle": "legit_api",
+  "date": "2026-11-25T13:29:02Z",
+  "claim": "Anthropic's unreleased Opus-next can generate short animations, including animated SVGs and 2D stick-figure fight scenes.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-24",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125582535971192895",
+    "url": "https://x.com/legit_api/status/2125582535971192895",
+    "created_at": "2026-11-25T13:29:02Z",
+    "text": "a 1 minute animated GTA 6 parody SVG\n\nMade by opus-next https://t.co/Z77Zk6W5xM",
+    "likes": 87,
+    "quoted": null
+   },
+   {
+    "id": "2125596756737929535",
+    "url": "https://x.com/legit_api/status/2125596756737929535",
+    "created_at": "2026-11-25T14:25:33Z",
+    "text": "30s Stickman fight animation\n\nMade by Opus-next https://t.co/puQmyCrQNM",
+    "likes": 141,
+    "quoted": null
+   },
+   {
+    "id": "2125613576396104034",
+    "url": "https://x.com/legit_api/status/2125613576396104034",
+    "created_at": "2026-11-25T15:32:23Z",
+    "text": "a 2D stick figure martial arts animation\n\nMade by Opus-next https://t.co/CppBoNLEq3",
+    "likes": 55,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:20:17Z",
+  "feed_date": "2026-11-25T17:20:17Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-25",
+   "official_date": null,
+   "explanation": "The post offers short animations as demonstrations of “Opus-next,” but the model’s identity and the claimed generation process have not been independently verified. The capability could still be confirmed if Anthropic releases or identifies the model.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 rumor tracker",
+     "url": "https://teamorouter.com/blogs/claude-opus-5-6"
+    },
+    {
+     "title": "Anthropic Claude Opus model page",
+     "url": "https://www.anthropic.com/claude/opus"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-25T17:28:36Z"
+  }
+ },
+ {
+  "id": "iruletheworldmo-2125598282546086277",
+  "handle": "iruletheworldmo",
+  "date": "2026-11-25T14:31:36Z",
+  "claim": "An unnamed AI lab has an internal model that can one-shot the breakthroughs the author tested it on, without agents or long horizons.",
+  "lab": "Other",
+  "topic": "model_capability",
+  "specificity": 2,
+  "significance": 3,
+  "resolve_by": null,
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2125598282546086277",
+    "url": "https://x.com/iruletheworldmo/status/2125598282546086277",
+    "created_at": "2026-11-25T14:31:36Z",
+    "text": "i got access to an internal model of a lab i can’t name and gave it a single shot at some of these breakthroughs we’re all seeing.  \n\nit just one shots everything. no agents. no long horizons. things are changing.",
+    "likes": 658,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-25T17:17:35Z",
+  "feed_date": "2026-11-25T17:17:35Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-25",
+   "official_date": null,
+   "explanation": "The post asserts that an unnamed lab’s internal model one-shotted the author’s tested breakthroughs, but the specific tests and result have no independent public confirmation. Reporting on powerful unreleased models does not verify this particular claim.",
+   "evidence": [
+    {
+     "title": "Axios report on unreleased OpenAI and Anthropic models",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-11-25T17:28:36Z"
   }
  }
 ]
