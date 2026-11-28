@@ -61940,19 +61940,24 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
+   "verdict": "unverifiable",
    "public_date": "2025-11-20",
    "official_date": null,
-   "explanation": "The post makes a claim that xAI was working on a new voice feature, with no deadline. xAI later announced voice updates, but no independent evidence found establishes that this specific work was underway on November 20, 2025.",
+   "explanation": "This was an original reverse-engineering claim, not shown to have been public earlier. xAI later announced voice updates, but the public record found does not independently confirm that it was working on this specific “New Voice” on November 20, 2025.",
    "evidence": [
     {
-     "title": "xAI: Grok 4 announcement and Voice Mode update",
+     "title": "Grok 4 announcement and Voice Mode",
      "url": "https://x.ai/news/grok-4"
+    },
+    {
+     "title": "Introducing Grok Voice 3.0",
+     "url": "https://x.ai/news/grok-voice-3"
     }
    ],
-   "confidence": "low",
-   "resolved_at": "2026-11-14T13:50:00Z"
-  }
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  },
+  "feed_date": "2026-11-28T15:43:33Z"
  },
  {
   "id": "synthwavedd-1991527755998196182",
@@ -189866,17 +189871,17 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "false",
-   "public_date": "2026-09-14",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post predicted GPT-6 Spark for DevDay, but OpenAI’s September 29, 2026 DevDay announcements featured GPT-6.1 Sol and other products, not Spark; no Spark release was confirmed by the stated November 14 deadline.",
+   "explanation": "OpenAI’s DevDay took place on September 29, 2026, but GPT-6 Spark was not released there; the event’s announcements instead included GPT-6.1 Sol and other products. The stated DevDay release did not happen.",
    "evidence": [
     {
-     "title": "DevDay 2026 Recap",
+     "title": "OpenAI DevDay 2026 recap",
      "url": "https://openai.com/index/devday-2026-recap/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -194766,17 +194771,17 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "resolution": {
    "verdict": "false",
-   "public_date": "2026-09-17",
+   "public_date": null,
    "official_date": "2026-09-22",
-   "explanation": "The post said Luna would not launch alongside Sol and might remain shelved, but OpenAI released GPT-6 Sol and GPT-6 Luna together on September 22, 2026.",
+   "explanation": "OpenAI released GPT-6 Sol and GPT-6 Luna on the same date, September 22, 2026, contrary to the post’s expectation that Luna would not launch alongside Sol. The proposed engineering delay was not borne out by the simultaneous release.",
    "evidence": [
     {
-     "title": "Introducing GPT-6 Sol and Luna",
+     "title": "Introducing GPT-6 Sol and Luna | OpenAI",
      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   },
   "prune_checked": true
  },
@@ -202082,19 +202087,19 @@
    "verdict": "false",
    "public_date": "2026-09-22",
    "official_date": null,
-   "explanation": "The post said DeepSeek V5 was most likely for October rather than September. No V5 release appeared by October 31, 2026; DeepSeek’s official API change log has no V5 release entry.",
+   "explanation": "DeepSeek V5 did not release in October 2026. The post’s forecast missed its stated month, and no V5 release had been confirmed by November 28.",
    "evidence": [
     {
-     "title": "DeepSeek API change log",
-     "url": "https://api-docs.deepseek.com/updates/"
+     "title": "DeepSeek models and release timeline",
+     "url": "https://deepseek.ai/deepseek-models"
     },
     {
-     "title": "DeepSeek V5 release status checked in October 2026",
+     "title": "DeepSeek V5 release-date report",
      "url": "https://www.binmage.com/deepseek-v5-release-date/"
     }
    ],
-   "confidence": "high",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
   },
   "feed_date": "2026-10-31T12:41:54Z"
  },
@@ -218201,21 +218206,21 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "false",
-   "public_date": "2026-10-03",
+   "public_date": null,
    "official_date": null,
-   "explanation": "The post predicted an SSI model launch in October, with an October 31 deadline. SSI had not publicly released a model by the end of October, so the dated prediction failed.",
+   "explanation": "The post predicted an SSI model launch in October 2026. SSI had released no public model by October 21, and its official updates page records no October model launch; the October 31 deadline passed without the claimed release.",
    "evidence": [
     {
-     "title": "Safe Superintelligence Inc. official site",
-     "url": "https://ssi.inc/"
+     "title": "SSI has released no model, product, API or paper as of October 21, 2026",
+     "url": "https://sibuilders.io/research/safe-superintelligence-ssi"
     },
     {
-     "title": "SI Builders: SSI status and public releases (checked October 21, 2026)",
-     "url": "https://sibuilders.io/research/safe-superintelligence-ssi"
+     "title": "SSI updates",
+     "url": "https://ssi.inc/updates"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   },
   "feed_date": "2026-10-31T12:41:54Z"
  },
@@ -218640,19 +218645,19 @@
    "verdict": "false",
    "public_date": "2026-10-03",
    "official_date": null,
-   "explanation": "The posts say Bel was coming in October and that it was close, but no Bel launch occurred by October 31, 2026. The name had circulated earlier, but that does not establish the claimed October launch.",
+   "explanation": "The post said Bel was coming in October, but no Bel launch was confirmed by the October 31 deadline. Anthropic later announced Fable 5.2 on November 9, not Bel or Fable 5.5.",
    "evidence": [
     {
-     "title": "OpenAI Bel claim timeline and status",
-     "url": "https://cellcog.ai/blog/openai-bel/"
+     "title": "Anthropic models and announcements",
+     "url": "https://www.anthropic.com/news/models"
     },
     {
-     "title": "OpenAI model release information",
-     "url": "https://openai.com/news/"
+     "title": "Claude Fable 5.2 announcement",
+     "url": "https://www.anthropic.com/claude/fable?hsLang=en"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   },
   "feed_date": "2026-10-31T12:41:54Z"
  },
@@ -219824,19 +219829,15 @@
   "imported_at": "2026-10-10T20:48:31Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
+   "verdict": "not_a_claim",
    "public_date": null,
    "official_date": null,
-   "explanation": "This is a vague, deadline-free claim that something larger than Astra 6.1 is coming. Later OpenAI releases do not clearly establish what “much bigger” meant, and the claim could still refer to a future release.",
-   "evidence": [
-    {
-     "title": "OpenAI API changelog",
-     "url": "https://developers.openai.com/api/docs/changelog"
-    }
-   ],
-   "confidence": "low",
-   "resolved_at": "2026-11-14T13:50:00Z"
-  }
+   "explanation": "“Something much bigger is coming” is a vague tease without identifiable non-public product details or a testable description of what is supposedly coming. It reads as hype rather than a specific leak claim.",
+   "evidence": [],
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  },
+  "feed_date": "2026-11-28T15:43:33Z"
  },
  {
   "id": "tokengremlin-2106716874977222755",
@@ -226780,19 +226781,19 @@
    "verdict": "false",
    "public_date": "2026-10-10",
    "official_date": null,
-   "explanation": "The post forecast GLM 5.5 for the following week or late October, but Zhipu did not release it by October 31. Later public discussion still treated GLM 5.5 as unconfirmed; the stated release window was missed.",
+   "explanation": "The post forecast GLM 5.5 for the following week or late October, but it did not arrive by October 31. Z.ai instead released GLM-5.4 on November 23, and later coverage still described GLM-5.5 as unreleased.",
    "evidence": [
     {
-     "title": "ORIENS: GLM-5.5 post-training rumor and release status",
-     "url": "https://ai-oriens.com/en/news/glm-5-5-post-training-rumor/"
+     "title": "When Is GLM-5.5 Coming Out? - Full Rumor Scan (2026-10-30)",
+     "url": "https://pinion.kr/en/post/glm-5-5-rumor-roundup"
     },
     {
-     "title": "Z.ai GLM-5.5 rumor status checked October 31",
-     "url": "https://dailycited.com/rumors/glm-5-5-base-3-5t-params/"
+     "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+     "url": "https://z.ai/blog/glm-5.4?lang=en"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
   },
   "story_id": "chrisgpt-2108983381245776293",
   "feed_date": "2026-10-31T12:41:54Z"
@@ -227384,22 +227385,18 @@
   "prune_checked": true,
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
-   "verdict": "pending",
+   "verdict": "unverifiable",
    "public_date": null,
    "official_date": null,
-   "explanation": "OpenAI has publicly acknowledged an internal model more capable than Astra in a particular research context, but has not confirmed two unreleased pre-trained models that broadly “dwarf” Astra. With no deadline stated, the specific internal claim remains pending rather than false.",
+   "explanation": "Later reporting described powerful unreleased models inside OpenAI, but I found no independent confirmation of this post’s specific claim that OpenAI had two pretraining models that dwarfed GPT-6 Astra. The number, training status, and comparison remain unverified publicly.",
    "evidence": [
     {
-     "title": "OpenAI: The Work Now Within Reach",
-     "url": "https://openai.com/index/the-work-now-within-reach/"
-    },
-    {
-     "title": "OpenAI model release notes",
-     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+     "title": "Axios: AI employees sound alarm over unreleased models",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-14T13:50:00Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -227720,22 +227717,18 @@
   "feed_date": "2026-10-11T12:53:21Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "true",
+   "verdict": "unverifiable",
    "public_date": "2026-10-11",
    "official_date": null,
-   "explanation": "The post’s central assertion is that some Opus 5.5 requests were being routed to a newer model; it explicitly leaves the model’s identity uncertain. An independent outlet later reported its own testing and other users’ observations consistent with such routing, but Anthropic did not officially identify the checkpoint.",
+   "explanation": "The post reports that Opus 5.5 requests were routing to another model, but says the model’s identity is unknown. Later routing rumors do not independently establish that this specific routing was occurring on October 11.",
    "evidence": [
     {
-     "title": "TestingCatalog: Anthropic tests its next model under Claude Opus 5.5",
-     "url": "https://www.testingcatalog.com/anthropic-tests-new-model-opus-5-5-routing-opus-5-6-fable-5-5/"
-    },
-    {
-     "title": "Anthropic model announcements",
-     "url": "https://www.anthropic.com/news/models"
+     "title": "Claude Opus 5.6 rumor: what testers claim and what's known",
+     "url": "https://applescoop.org/story/claude-opus-5-6-rumor-release-date-price-what-testers-claim"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-14T13:50:00Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   },
   "story_id": "synthwavedd-2104647832103956631"
  },
@@ -227812,13 +227805,18 @@
   "feed_date": "2026-10-31T12:41:54Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "false",
+   "verdict": "partly_true",
    "public_date": "2026-10-11",
-   "official_date": null,
-   "explanation": "The post’s stated October 31, 2026 deadline passed without public confirmation that OpenAI released the claimed RSI papers. The deadline-based claim therefore did not come true on time.",
-   "evidence": [],
-   "confidence": "medium",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "official_date": "2026-11-18",
+   "explanation": "OpenAI published a report about research acceleration and indicators of recursive self-improvement on November 18—18 days after the October 31 deadline. That supports the substance, but it was later than “very close” by the stated window.",
+   "evidence": [
+    {
+     "title": "Research acceleration: The jagged frontier | OpenAI",
+     "url": "https://openai.com/index/research-acceleration-jagged-frontier/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -231435,22 +231433,22 @@
   "prune_checked": true,
   "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
-   "verdict": "false",
+   "verdict": "partly_true",
    "public_date": "2026-10-14",
    "official_date": null,
-   "explanation": "Fable 5.5 did not launch on October 15, 2026. Anthropic later announced Fable 5.2 on November 9, not Fable 5.5.",
+   "explanation": "Anthropic did not launch Fable 5.5 on October 15. It launched Fable 5.2 on November 9—about 25 days later—so a Fable release followed, but the claimed version and date were wrong.",
    "evidence": [
     {
-     "title": "Anthropic: Claude Fable",
-     "url": "https://www.anthropic.com/claude/fable"
+     "title": "Anthropic models and announcements",
+     "url": "https://www.anthropic.com/news/models"
     },
     {
-     "title": "Fable 5.5 claims versus Anthropic’s announcements",
-     "url": "https://explainx.ai/blog/claude-fable-5-5-partner-access-azure-listing-claimed-vs-verified-2026"
+     "title": "Claude Fable 5.2 announcement",
+     "url": "https://www.anthropic.com/claude/fable?hsLang=en"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -246162,22 +246160,22 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-29T13:07:02Z",
-  "feed_date": "2026-10-29T13:07:02Z",
+  "feed_date": "2026-11-28T15:43:33Z",
   "prune_checked": true,
   "story_id": "haider1-2115418397571952919",
   "resolution": {
-   "verdict": "unverifiable",
+   "verdict": "mostly_true",
    "public_date": null,
    "official_date": null,
-   "explanation": "The post asserts that Anthropic has stronger internal models, but gives no source for that internal state; the Fable 6 and 6.5 examples are speculative. As of October 29, 2026, public announcements do not confirm or refute what models Anthropic had internally.",
+   "explanation": "The post’s broad assertion that Anthropic has more capable unreleased models was later supported by independent reporting about powerful internal models. The specific “Fable 6” or “Fable 6.5” names were not confirmed, and the post presents them as possibilities.",
    "evidence": [
     {
-     "title": "Anthropic Newsroom",
-     "url": "https://www.anthropic.com/news"
+     "title": "Scoop - AI employees sound alarm: models too powerful to ever release",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-29T13:18:28Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -246833,17 +246831,12 @@
   "prune_checked": true,
   "resolution": {
    "verdict": "unverifiable",
-   "public_date": null,
+   "public_date": "2026-10-29",
    "official_date": null,
-   "explanation": "The Information reported a 5–7% distillation-related revenue figure for Anthropic, while saying OpenAI’s contribution was unclear. That does not confirm the post’s claim that OpenAI gets 6–7%; OpenAI’s internal revenue breakdown has not been independently established.",
-   "evidence": [
-    {
-     "title": "OpenAI’s Astra Model Becomes Top Distillation Target for China’s AI Labs — The Information",
-     "url": "https://www.theinformation.com/articles/openais-astra-model-becomes-top-distillation-target-chinas-ai-labs"
-    }
-   ],
+   "explanation": "The post asserts a specific 6–7% revenue share from distillation, but no independent public evidence located confirms that figure. The post gives no deadline, and this financial detail remains unsettled.",
+   "evidence": [],
    "confidence": "medium",
-   "resolved_at": "2026-10-29T13:18:28Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -247565,21 +247558,17 @@
   "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "unverifiable",
-   "public_date": null,
+   "public_date": "2026-10-29",
    "official_date": null,
-   "explanation": "The post claims beta testers received new Fable and Opus checkpoints, but no independent reporting or official confirmation establishes that access or testing. Anthropic’s public release of Fable 5.1 and Opus 5.5 does not confirm the claimed newer checkpoints.",
+   "explanation": "No independent confirmation found that Anthropic gave beta testers the specified Fable 5.5 and Opus checkpoints. Later posts about suspected model routing do not establish this beta-testing claim or its details.",
    "evidence": [
     {
-     "title": "Anthropic Newsroom",
-     "url": "https://www.anthropic.com/news"
-    },
-    {
-     "title": "Introducing Claude Opus 5.5",
-     "url": "https://www.anthropic.com/claude-opus-5-5"
+     "title": "Claude Opus 5.6 rumor: what testers claim and what's known",
+     "url": "https://applescoop.org/story/claude-opus-5-6-rumor-release-date-price-what-testers-claim"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-29T13:18:28Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -247656,26 +247645,22 @@
   ],
   "origin": "daily",
   "first_seen": "2026-10-29T13:09:07Z",
-  "feed_date": "2026-10-29T13:09:07Z",
+  "feed_date": "2026-11-28T15:43:33Z",
   "prune_checked": true,
   "story_id": "tokengremlin-2104718313364312238",
   "resolution": {
-   "verdict": "unverifiable",
-   "public_date": "2026-10-29",
-   "official_date": null,
-   "explanation": "The post asserts that two models are ready but gives tentative names and no release date; no independent confirmation of that internal readiness was found. Public events show Luna had already released and Astra 6.1 was being held back over safety concerns, but those facts do not settle whether the broader, vaguely specified claim is true.",
+   "verdict": "mostly_true",
+   "public_date": "2026-11-17",
+   "official_date": "2026-11-17",
+   "explanation": "OpenAI released GPT-6.2 Astra and the lower-cost, efficient GPT-6.2 Sol on November 17, matching the broad two-model contrast. The post’s suggested name for the cheaper model, Luna, was wrong; its release does not independently establish that both models were already ready on October 29.",
    "evidence": [
     {
-     "title": "GPT-6 Astra: A new generation of intelligence — OpenAI",
-     "url": "https://openai.com/index/gpt-6-astra/"
-    },
-    {
-     "title": "Introducing GPT-6 Sol and Luna — OpenAI",
-     "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+     "title": "Introducing GPT-6.2 Astra and Sol | OpenAI",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-10-29T13:18:28Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -258397,8 +258382,21 @@
   "first_seen": "2026-11-05T14:44:48Z",
   "feed_date": "2026-11-05T14:44:48Z",
   "prune_checked": true,
-  "repeat_of": "deredleritt3r-2115288642575016329",
-  "story_id": "tokengremlin-2104718313364312238"
+  "story_id": "tokengremlin-2104718313364312238",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-10-06",
+   "official_date": "2026-10-06",
+   "explanation": "OpenAI had already said on October 6 that it was releasing mathematical results produced by an internal frontier model, making the existence of an unreleased internal model public before this post. The post does not identify a different model.",
+   "evidence": [
+    {
+     "title": "Sharing AI progress in mathematics | OpenAI",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
  },
  {
   "id": "pankajkumar_dev-2118157469323329952",
@@ -267102,20 +267100,16 @@
   "resolution": {
    "verdict": "false",
    "public_date": "2026-11-11",
-   "official_date": "2026-11-12",
-   "explanation": "Google announced Gemini 4 Hydrogen on November 12, 2026, but did not announce Krypton that day. The claim’s Krypton announcement and its asserted access and capability details were therefore not borne out.",
+   "official_date": null,
+   "explanation": "Google did not announce Krypton on November 12. Google’s November model announcements included Gemini 4 Hydrogen, but no Krypton announcement; the claimed Krypton performance and trusted-user access were not established.",
    "evidence": [
     {
-     "title": "Google: Introducing Gemini 4 Hydrogen",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
-    },
-    {
-     "title": "Gemini 4 Krypton status and rumor timeline",
-     "url": "https://artificialwatch.com/releases"
+     "title": "Google DeepMind Gemini models and announcements",
+     "url": "https://deepmind.google/models/gemini/"
     }
    ],
    "confidence": "high",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -271413,25 +271407,25 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-14T13:39:30Z",
-  "feed_date": "2026-11-14T13:39:30Z",
+  "feed_date": "2026-11-28T15:43:33Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": null,
-   "official_date": null,
-   "explanation": "The post claims GPT-6.2 models are being tested in grayscale and are stronger than current models, but provides no independently verifiable confirmation. OpenAI’s public catalog does not establish that claim; with no deadline stated, it remains pending rather than false.",
+   "verdict": "already_public",
+   "public_date": "2026-11-02",
+   "official_date": "2026-11-17",
+   "explanation": "GPT-6.2 gray testing was reported on November 2, before this post on November 13. OpenAI officially introduced GPT-6.2 Astra and Sol on November 17, with improved performance over earlier models.",
    "evidence": [
     {
-     "title": "OpenAI API model catalog",
-     "url": "https://developers.openai.com/api/docs/models"
+     "title": "A new OpenAI model, GPT-6.2 Astra, is turning up in Codex usage",
+     "url": "https://www.aiinsiders.net/article/a-new-openai-model-gpt-62-astra-is-turning-up-in-codex-usage"
     },
     {
-     "title": "OpenAI API changelog",
-     "url": "https://developers.openai.com/api/docs/changelog"
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-14T13:50:00Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
   },
   "story_id": "tokengremlin-2104718313364312238"
  },
@@ -271991,21 +271985,21 @@
   "story_id": "chrisgpt-2108655565761020169",
   "resolution": {
    "verdict": "pending",
-   "public_date": "2026-11-09",
+   "public_date": "2026-11-14",
    "official_date": null,
-   "explanation": "Krypton had appeared in tester reports by November 9, 2026, but Google had not officially announced it by November 14. The claimed internal checkpoint details and capabilities are unverified, and the post’s expected December 2026 launch is still in the future. ([artificialwatch.com](https://artificialwatch.com/wire/gemini-krypton-unannounced-google-model-tester-outputs?utm_source=openai))",
+   "explanation": "The claimed internal Krypton testing, checkpoint results, and December launch have not been independently confirmed. The December 31 deadline has not passed, so the launch prediction remains pending; the reported internal capabilities are unverified.",
    "evidence": [
     {
-     "title": "Gemini Krypton: testers post outputs from an unannounced Google model, and Google has said nothing",
-     "url": "https://artificialwatch.com/wire/gemini-krypton-unannounced-google-model-tester-outputs"
+     "title": "Google DeepMind Gemini models and announcements",
+     "url": "https://deepmind.google/models/gemini/"
     },
     {
-     "title": "What Is Gemini 4 Krypton? 2x Code Output vs Carbon",
-     "url": "https://kie.ai/blog/what-is-gemini-4-krypton"
+     "title": "Google Gemini 4 Krypton status review",
+     "url": "https://cellcog.ai/blog/gemini-4-krypton-release-date/"
     }
    ],
    "confidence": "medium",
-   "resolved_at": "2026-11-14T13:50:00Z"
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -280393,25 +280387,25 @@
   ],
   "origin": "daily",
   "first_seen": "2026-11-21T14:47:47Z",
-  "feed_date": "2026-11-21T14:47:47Z",
+  "feed_date": "2026-11-28T15:43:33Z",
   "prune_checked": true,
   "resolution": {
-   "verdict": "pending",
-   "public_date": "2026-11-21",
+   "verdict": "false",
+   "public_date": null,
    "official_date": null,
-   "explanation": "As of November 21, the November 28 deadline for more information is still in the future, and the P-versus-NP rumor has not been independently confirmed. A separate November 21 report concerned an Anthropic worker’s claimed proof of the Riemann Hypothesis, not P versus NP.",
+   "explanation": "The post reports a rumor and predicts more information by November 28; it does not establish that a lab solved P versus NP. By November 28, the Clay Mathematics Institute still listed the problem as unsolved, and reporting on recent AI math results distinguished them from a solution to P versus NP.",
    "evidence": [
     {
-     "title": "Original post archive",
-     "url": "https://teapawt.net/imjustnewatai"
+     "title": "P vs NP — Clay Mathematics Institute",
+     "url": "https://www.claymath.org/millennium/p-vs-np/"
     },
     {
-     "title": "AP: Anthropic worker claims AI helped him find proof of the Riemann Hypothesis",
-     "url": "https://apnews.com/article/anthropic-claude-math-solution-ai-4fe8b69a891f160f9e7f0c85af8c55c8"
+     "title": "AI's assault on the impossible",
+     "url": "https://www.axios.com/2026/11/28/ai-math-breakthroughs-encryption-p-vs-np"
     }
    ],
-   "confidence": "medium",
-   "resolved_at": "2026-11-21T14:54:13Z"
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -284689,7 +284683,25 @@
   "origin": "daily",
   "first_seen": "2026-11-25T17:18:43Z",
   "feed_date": "2026-11-25T17:18:43Z",
-  "prune_checked": true
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "true",
+   "public_date": "2026-11-24",
+   "official_date": "2026-11-24",
+   "explanation": "OpenAI made the GPT-6.2 Sol Healthcare and GPT-6.2 Astra Healthcare configurations available through its API on November 24, 2026, matching the post’s “today” timing. OpenAI describes them as healthcare configurations with a clinical-use harness, rather than confirming the post’s speculation about different guardrails.",
+   "evidence": [
+    {
+     "title": "OpenAI Model Release Notes",
+     "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+    },
+    {
+     "title": "OpenAI API Changelog",
+     "url": "https://developers.openai.com/api/docs/changelog"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
  },
  {
   "id": "tokengremlin-2125286684237434986",
@@ -284781,7 +284793,7 @@
   "first_seen": "2026-11-25T17:16:49Z",
   "feed_date": "2026-11-25T17:16:49Z",
   "prune_checked": true,
-  "story_id": "chetaslua-2125288009990103316",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "pending",
    "public_date": "2026-11-24",
@@ -284837,7 +284849,7 @@
   "first_seen": "2026-11-25T17:18:56Z",
   "feed_date": "2026-11-25T17:18:56Z",
   "prune_checked": true,
-  "story_id": "chetaslua-2125288009990103316",
+  "story_id": "synthwavedd-2104647832103956631",
   "resolution": {
    "verdict": "pending",
    "public_date": "2026-11-24",
@@ -286735,7 +286747,7 @@
   "feed_date": "2026-11-26T16:58:11Z",
   "prune_checked": true,
   "repeat_of": "pankajkumar_dev-2125232399479189855",
-  "story_id": "chetaslua-2125288009990103316"
+  "story_id": "synthwavedd-2104647832103956631"
  },
  {
   "id": "chetaslua-2125871189537218930",
@@ -286778,7 +286790,8 @@
    ],
    "confidence": "low",
    "resolved_at": "2026-11-26T17:04:03Z"
-  }
+  },
+  "story_id": "chetaslua-2125871189537218930"
  },
  {
   "id": "superalesha-2125893796902699297",
@@ -287085,6 +287098,182 @@
   }
  },
  {
+  "id": "testingcatalog-2126014729273405625",
+  "handle": "testingcatalog",
+  "date": "2026-11-26T18:06:25Z",
+  "claim": "Anthropic is testing Google Drive file management in Claude, allowing users to browse Docs, Sheets, and Slides within the UI.",
+  "lab": "Anthropic",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-05-25",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126014729273405625",
+    "url": "https://x.com/testingcatalog/status/2126014729273405625",
+    "created_at": "2026-11-26T18:06:25Z",
+    "text": "Anthropic is testing Google Drive file management for Claude to let users browse Docs, Sheets, and Slides directly inside its UI. \n\nInterestingly, a similar functionality already exists in ChatGPT Spaces. \n\nNo one will need to leave AI superapps eventually; they are about to consume everything. When will we see AI labs acquiring Grub, Gojack, Rappi, and others?",
+    "likes": 490,
+    "quoted": null
+   },
+   {
+    "id": "2126238130684535288",
+    "url": "https://x.com/testingcatalog/status/2126238130684535288",
+    "created_at": "2026-11-27T08:54:08Z",
+    "text": "DAILY AI BRIEF 🗞 — Nov 27\n\nGOOGLE $273.10 (−2.13%) 🔥:\n- Gemini quota on Antigravity was reset for all users for Thanksgiving.\n- The Gemini app now has an option to Search Google (via SaiNemani1).\n\nOPENAI 🔥:\n- A GPT-6.2 billing bug is fixed, so Astra now hits limits 40% faster and Sol 25% faster, with a banked reset as an apology.\n\nNVIDIA $149.30 (−3.91%) 🔥:\n- Nvidia told Dell and Supermicro to pause AI server shipments to Malaysia, Singapore, Thailand and Indonesia under new US export rules, per Financial Times.\n\nSPACEXSI $127.44 (+1.30%) 🔥:\n- Grok Bot 1.3.0 is rolling out with smarter Slack bots, restock alerts, mobile buy now and automatic Teams setup.\n- Grok Bot plans now give 11% more usage, and up to 50% more for routines.\n- Grok Bot is working on \"Select anything, anywhere\" to attach any on-screen area to quick chat (via nima_owji).\n\nANTHROPIC $82.79 (+1.07%) 🔥:\n- Anthropic is testing Google Drive file management so Claude users can browse Docs, Sheets and Slides inside its UI.\n\nZHIPU AI $45.74 (+22.25%) 🔥:\n- GLM-5.5 missed its planned November release and could slip to Q1 2027 or later, per Reuters.\n\nMOONSHOT 🔥:\n- Moonshot is giving free Kimi API credits to scientific research teams worldwide.\n- The gap before Kimi K4 could stretch to a year or more if Moonshot loses overseas compute, per Reuters.\n\nCLOUDFLARE $283.30 (−1.39%) 🔥:\n- Search for Agents beta lets any site offer a search endpoint that returns Markdown to AI agents.\n\nHERMES 🔥:\n- Hermes Desktop is getting a major redesign early next week, focused on Hermes Agents.\n- A Bot Marketplace is coming, letting users share agents and start new bots from pre-made templates.\n\nPERPLEXITY 🔥:\n- Perplexity Teammates adoption among Max users is doubling every ten days.",
+    "likes": 123,
+    "quoted": {
+     "handle": "testingcatalog",
+     "text": "DAILY AI BRIEF 🗞 — Nov 26\n\nOPENAI 🔥:\n- OpenAI is testing Private Inference with a small group of business customers.\n- A GPT-6.2 billing bug is fixed, so Astra now hits limits 40% faster and Sol 25% faster, with a banked reset as an apology.\n- Shared Chat and Work usage limits will reach Plus, Pro and Business subscribers more broadly in December.\n\nANTHROPIC $82.79 (+1.07%) 🔥:\n- Claude Duet's research preview expands beyond the US to India, Brazil, Indonesia and Japan.\n- Claude Opus 5.6 is now in A/B tests on Claude Code.\n\nGOOGLE $273.10 (−2.13%) 🔥:\n- Gemini Live adds 60+ new voices with local",
+     "created_at": "2026-11-26T09:36:50Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:35:40Z",
+  "feed_date": "2026-11-28T15:35:40Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-26",
+   "official_date": null,
+   "explanation": "TestingCatalog reported its own finding that Anthropic was testing a Google Drive file browser for Claude, but the report and the next-day brief repeating it are not independent confirmation. The feature has not been officially announced or shipped, so the no-deadline claim remains pending.",
+   "evidence": [
+    {
+     "title": "Anthropic prepares Google Drive file browser for Claude",
+     "url": "https://www.testingcatalog.com/anthropic-prepares-google-drive-file-browser-for-claude/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2126020090294661520",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-26T18:27:43Z",
+  "claim": "Anthropic's Opus 5.6 is about 20–30% more token-efficient and 1.5–2× faster than Opus 5.5, with exceptionally strong output quality.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2027-05-25",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126020090294661520",
+    "url": "https://x.com/pankajkumar_dev/status/2126020090294661520",
+    "created_at": "2026-11-26T18:27:43Z",
+    "text": "Opus 5.6 Is Everything You Want in a Model\n\n- Opus 5.6 is also an efficient model. Its around 20-30% more token efficient compared to Opus 5.5.\n- The God-tier taste is goated. We have all seen that presentation video, and I will share the link in the reply. Its genuinely the best AI output I have ever seen in my entire life.\n- You get a fully finished, incredible output. Man, I don't even have words. Just keep going with it and you are going to be amazed.\n- It also seems around 1.5x-2x faster than Opus 5.5, especially at High and Extra High effort. It feels almost twice as fast to me.\n- So, best performance, faster, more efficient, everything packed into one model. They should release this checkpoint as it is and not nerf it.\n\nOne thing I wanted to mention: they already have something better than this. Just think about how crazy Fable 5.5 is going to be.",
+    "likes": 455,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "story_id": "chetaslua-2125871189537218930",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-26",
+   "official_date": null,
+   "explanation": "As of November 28, Anthropic has not confirmed an Opus 5.6 model or the claimed efficiency, speed, and quality figures. Unverified user reports and demos could still prove to concern a new checkpoint, but they do not independently establish these specifications.",
+   "evidence": [
+    {
+     "title": "Anthropic models and announcements",
+     "url": "https://www.anthropic.com/news/models"
+    },
+    {
+     "title": "Claude Opus 5.6 gray-test reports and evidence review",
+     "url": "https://modelflare.dev/articles/claude-opus-5-6-gray-test"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2126020090294661520-2",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-26T18:27:43Z",
+  "claim": "Anthropic already has a model called Fable 5.5 that is better than Opus 5.6.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 4,
+  "resolve_by": "2027-05-25",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126020090294661520",
+    "url": "https://x.com/pankajkumar_dev/status/2126020090294661520",
+    "created_at": "2026-11-26T18:27:43Z",
+    "text": "Opus 5.6 Is Everything You Want in a Model\n\n- Opus 5.6 is also an efficient model. Its around 20-30% more token efficient compared to Opus 5.5.\n- The God-tier taste is goated. We have all seen that presentation video, and I will share the link in the reply. Its genuinely the best AI output I have ever seen in my entire life.\n- You get a fully finished, incredible output. Man, I don't even have words. Just keep going with it and you are going to be amazed.\n- It also seems around 1.5x-2x faster than Opus 5.5, especially at High and Extra High effort. It feels almost twice as fast to me.\n- So, best performance, faster, more efficient, everything packed into one model. They should release this checkpoint as it is and not nerf it.\n\nOne thing I wanted to mention: they already have something better than this. Just think about how crazy Fable 5.5 is going to be.",
+    "likes": 455,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "repeat_of": "pankajkumar_dev-2125232399479189855"
+ },
+ {
+  "id": "vraserx-2126032742378815588",
+  "handle": "VraserX",
+  "date": "2026-11-26T19:18:00Z",
+  "claim": "OpenAI has an unreleased model named GPT-7 Aeon.",
+  "lab": "OpenAI",
+  "topic": "model_release",
+  "specificity": 2,
+  "significance": 4,
+  "resolve_by": "2027-05-25",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126032742378815588",
+    "url": "https://x.com/VraserX/status/2126032742378815588",
+    "created_at": "2026-11-26T19:18:00Z",
+    "text": "Something I find fascinating about GPT-7 Aeon is that an unreleased model could potentially contribute more to AI progress than every publicly available model combined.\n\nWe might never even get to use some of the most important AI systems ever created.",
+    "likes": 40,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:18Z",
+  "feed_date": "2026-11-28T15:36:18Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "A public report had referred to an internal OpenAI model called “Aeon,” but the available evidence does not establish that it is GPT-7 Aeon. No independent confirmation of that specific model identity was found, and the post gives no deadline.",
+   "evidence": [
+    {
+     "title": "All AI stories on X, Friday, October 9",
+     "url": "https://www.advanceintelligence.ai/2026-10-09/all"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
   "id": "0x0sojalsec-2126037428465279157",
   "handle": "0x0SojalSec",
   "date": "2026-11-26T19:36:37Z",
@@ -287129,6 +287318,196 @@
    ],
    "confidence": "medium",
    "resolved_at": "2026-11-27T16:46:19Z"
+  }
+ },
+ {
+  "id": "mark_k-2126050946601934952",
+  "handle": "mark_k",
+  "date": "2026-11-26T20:30:20Z",
+  "claim": "xAI is making Grok Bot available to all users on X through a free tier accessible via the Chat interface.",
+  "lab": "xAI",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-05-25",
+  "hedged": false,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126050946601934952",
+    "url": "https://x.com/mark_k/status/2126050946601934952",
+    "created_at": "2026-11-26T20:30:20Z",
+    "text": "Grok Bot is getting a free tier, available to all users on X.\n\nThe way to talk to it will be through the Chat interface.",
+    "likes": 507,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:33:24Z",
+  "feed_date": "2026-11-28T15:33:24Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-22",
+   "official_date": null,
+   "explanation": "A separate account had publicly posted the same claim about a free Grok Bot tier on X Chat by November 22, before this November 26 post. I found no official confirmation that the claimed free tier had launched by November 28.",
+   "evidence": [
+    {
+     "title": "Earlier post about a free Grok Bot tier",
+     "url": "https://x.com/P4mui/status/2124556531664314865"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "teortaxestex-2126067448663167473",
+  "handle": "teortaxesTex",
+  "date": "2026-11-26T21:35:54Z",
+  "claim": "Google Antigravity will retire GPT-OSS-120B on 2026-11-30.",
+  "lab": "Google",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2026-11-30",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126067448663167473",
+    "url": "https://x.com/teortaxesTex/status/2126067448663167473",
+    "created_at": "2026-11-26T21:35:54Z",
+    "text": "Antigravity is retiring GPT-OSS-120B in 4 days\nWhat is it going to be replaced by? \nI guess we can't ask for some cheap Chynese model? \nMaybe Inkling Mini? https://t.co/MkyVwunVis",
+    "likes": 115,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:34:28Z",
+  "feed_date": "2026-11-28T15:34:28Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-23",
+   "official_date": null,
+   "explanation": "The November 30 removal date had been posted publicly before this November 26 claim. Google’s Antigravity documentation currently gives a conflicting November 18 removal date, but the earlier public claim makes this post a relay for novelty grading.",
+   "evidence": [
+    {
+     "title": "Earlier public post about GPT-OSS-120B removal on November 30",
+     "url": "https://www.reddit.com/r/GoogleGemini/comments/1y3trtp/rip_gemini_argone/"
+    },
+    {
+     "title": "Google Antigravity model documentation",
+     "url": "https://antigravity.google/docs/models?hl=en"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "chetaslua-2126071016103477403",
+  "handle": "chetaslua",
+  "date": "2026-11-26T21:50:05Z",
+  "claim": "Anthropic is testing Sonnet Next/5.6 under the Sonnet 5.5 name; the tested model is reportedly 50% more efficient and faster, can produce 128k output tokens when routed, and includes progress nudges and per-turn thinking effort.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-05-27",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126071016103477403",
+    "url": "https://x.com/chetaslua/status/2126071016103477403",
+    "created_at": "2026-11-26T21:50:05Z",
+    "text": "🚨 Sonnet Next/5.6 is being tested as Sonnet 5.5\n\nThis is the first output, not Opus Next level. I think with this launch the difference between Opus and Sonnet will get bigger.\n\nPokémon season 1 recap in pure code https://t.co/srBqtQj3bu",
+    "likes": 383,
+    "quoted": null
+   },
+   {
+    "id": "2126670260359291374",
+    "url": "https://x.com/chetaslua/status/2126670260359291374",
+    "created_at": "2026-11-28T13:31:16Z",
+    "text": "🚨 Anthropic is testing a new Sonnet\n\nOn average it's 50% more efficient and faster, and it feels like unlimited usage on my Ultra subscription\n\n64k → 128k output tokens when you get routed.\n\n1. Progress nudges\nA hidden reminder tells the model: \"The user hasn't heard from you in a while. Keep them updated when there's something to tell.\" It fires after 5+ turns, or 60 seconds, of silent work.\n→ Long jobs feel less like a black box. You see findings and plan changes as they happen.\n\n2. Per-turn effort\nThinking effort (low to max) is no longer set once per session. With per_turn_effort: true, it's chosen fresh each turn.\n→ Claude thinks hard on tough tool loops and short on easy replies. You get better answers on hard steps and spend less quota on easy ones.",
+    "likes": 325,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:33:33Z",
+  "feed_date": "2026-11-28T15:33:33Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-26",
+   "official_date": null,
+   "explanation": "The posts claim Anthropic was testing a new Sonnet and describe its speed, efficiency, output limit, and features, but those specifics have not been independently confirmed or officially announced. With no deadline and no contradiction, the claim remains pending.",
+   "evidence": [
+    {
+     "title": "Testing Claude Sonnet 5.6 on a game asset benchmark",
+     "url": "https://www.reddit.com/r/ClaudeCode/comments/1y604ag/i_tested_sonnet_55_vs_what_might_be_sonnet_56_on/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "chrisgpt-2126074296279699733",
+  "handle": "ChrisGPT",
+  "date": "2026-11-26T22:03:07Z",
+  "claim": "Anthropic is routing the author to a separate unreleased Claude model for testing, possibly Opus (next) or Sonnet (next).",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-25",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126074296279699733",
+    "url": "https://x.com/ChrisGPT/status/2126074296279699733",
+    "created_at": "2026-11-26T22:03:07Z",
+    "text": "Opus 5.6 (next) / Sonnet (next) blender output test. The reason I think this could be a Sonnet model is because it shares the same personality, and the quality of outputs is not as good as Fable 5.2 when I really push it. \n\nI am being routed to a separate model and the results from this few-shot are still pretty good. \n\nEven with the same prompts as other creators the routed version is coming up with subpar results. If this was a sonnet model id be quite happy with the quality.",
+    "likes": 246,
+    "quoted": {
+     "handle": "ChrisGPT",
+     "text": "I have finally been routed to Opus (next) 😈",
+     "created_at": "2026-11-25T23:56:04Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:35:05Z",
+  "feed_date": "2026-11-28T15:35:05Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-26",
+   "official_date": null,
+   "explanation": "The author describes personally being routed to a separate, apparently unreleased model and speculates that it could be a next Opus or Sonnet. Other users’ similar reports do not independently confirm this specific routing, and Anthropic has not confirmed it.",
+   "evidence": [
+    {
+     "title": "Is Claude Opus 5.6 Out? Release Date, Rumors, Limits",
+     "url": "https://agentmsgr.com/blog/claude-opus-5-6/"
+    }
+   ],
+   "confidence": "low",
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -287227,6 +287606,49 @@
   }
  },
  {
+  "id": "haider1-2126128875952595214",
+  "handle": "haider1",
+  "date": "2026-11-27T01:40:00Z",
+  "claim": "OpenAI's internal models are seeing 7x faster pre-training progress since early 2026.",
+  "lab": "OpenAI",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2027-05-26",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126128875952595214",
+    "url": "https://x.com/haider1/status/2126128875952595214",
+    "created_at": "2026-11-27T01:40:00Z",
+    "text": "openai's internal models are seeing 7x faster pre-training progress since early 2026\n\nand i still remember the gpt-4.5 days when everyone said pretraining had hit a data wall, but maybe researchers shifted their focus to making pretraining more efficient and some of those ideas worked far better than expected",
+    "likes": 161,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:35:18Z",
+  "feed_date": "2026-11-28T15:35:18Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "The specific sevenfold figure had already circulated by November 24, when METR interpreted OpenAI’s published pretraining-loss data. The post’s wording broadens that result: METR described a faster loss decline on the disclosed data, not a general sevenfold increase in model capability.",
+   "evidence": [
+    {
+     "title": "OpenAI Shows Its Pretraining Progress, Asks for Limits",
+     "url": "https://cellcog.ai/blog/openai-perplexity-and-intelligence/"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
   "id": "xfreeze-2126224048653029759",
   "handle": "XFreeze",
   "date": "2026-11-27T07:58:11Z",
@@ -287275,6 +287697,48 @@
    ],
    "confidence": "high",
    "resolved_at": "2026-11-27T16:46:19Z"
+  }
+ },
+ {
+  "id": "teortaxestex-2126240732780322823",
+  "handle": "teortaxesTex",
+  "date": "2026-11-27T09:04:28Z",
+  "claim": "Thinking Machines’ Inkling 2 Mini is almost certainly distilled from a larger Inkling model with more than 2 trillion parameters, and that larger model will be seen soon.",
+  "lab": "Thinking Machines",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-12-27",
+  "hedged": true,
+  "source_type": "speculation",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126240732780322823",
+    "url": "https://x.com/teortaxesTex/status/2126240732780322823",
+    "created_at": "2026-11-27T09:04:28Z",
+    "text": "&gt; thoughts of GPU-poor\nInkling 2 mini is distilled from a larger Inkling model, which is almost certainly &gt;2T\nsoon we will see it",
+    "likes": 161,
+    "quoted": {
+     "handle": "burkov",
+     "text": "thinkingmachines/inkling-2-mini is a good model, very good for its size.\n\nMira mastered training small LLMs, probably because they can fit into a single 8-GPU node, but she has had no luck so far with frontier, trillion-parameter-scale models.\n\nMy hypothesis is that she forgot to ask how they did that at OpenAI before leaving.",
+     "created_at": "2026-11-27T06:49:30Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:34:28Z",
+  "feed_date": "2026-11-28T15:34:28Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "not_a_claim",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "The poster explicitly frames the larger-model size as their own speculation (“almost certainly >2T”) and says “soon we will see it”; this is a conjecture, not a leak claim.",
+   "evidence": [],
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
   }
  },
  {
@@ -287408,5 +287872,835 @@
    "confidence": "medium",
    "resolved_at": "2026-11-27T16:46:19Z"
   }
+ },
+ {
+  "id": "imjustnewatai-2126272023471034841",
+  "handle": "imjustnewatai",
+  "date": "2026-11-27T11:08:49Z",
+  "claim": "Anthropic will release Opus 5.6, possibly called Opus 6, by November 30, 2026; it will surpass Fable 5.2, cost about $3 per million input tokens and $15 per million output tokens, and have a notably human-like, upbeat style and stronger understanding of user intent.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-11-30",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126272023471034841",
+    "url": "https://x.com/imjustnewatai/status/2126272023471034841",
+    "created_at": "2026-11-27T11:08:49Z",
+    "text": "🚨Update on future AI models coming in the next month.\n\nWe are nearing the end of expensive intelligent models, we are now going to reach very intelligent cheap models within the end of this month.\n\nI have sources on both Google and Anthropic that their next models are very intelligent and very cheap, opus 5.6 (possibly called opus 6) and a new Google model is coming by the end of the month.\n\nThese models will be very intelligent and cheap. Both surpassing fable 5.2 while being around 3 dollars in and 15 dollars out per 1 million token output tokens. \n\nThis isn’t the best part either, they both bring a “new taste” no other model has, even fable 5.2. they will be human like, excited at everything you bring at it, it’s a new level of “happiness” a new “taste” the models understand your prompt/intent at a much higher level.\n\nGet ready for everything to change, cheap super intelligence is coming!",
+    "likes": 1596,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:32Z",
+  "feed_date": "2026-11-28T15:36:32Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "repeat_of": "imjustnewatai-2125733118195724445"
+ },
+ {
+  "id": "imjustnewatai-2126272023471034841-2",
+  "handle": "imjustnewatai",
+  "date": "2026-11-27T11:08:49Z",
+  "claim": "Google will release a new, unnamed model by November 30, 2026; it will surpass Fable 5.2, cost about $3 per million input tokens and $15 per million output tokens, and have a notably human-like, upbeat style and stronger understanding of user intent.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-11-30",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126272023471034841",
+    "url": "https://x.com/imjustnewatai/status/2126272023471034841",
+    "created_at": "2026-11-27T11:08:49Z",
+    "text": "🚨Update on future AI models coming in the next month.\n\nWe are nearing the end of expensive intelligent models, we are now going to reach very intelligent cheap models within the end of this month.\n\nI have sources on both Google and Anthropic that their next models are very intelligent and very cheap, opus 5.6 (possibly called opus 6) and a new Google model is coming by the end of the month.\n\nThese models will be very intelligent and cheap. Both surpassing fable 5.2 while being around 3 dollars in and 15 dollars out per 1 million token output tokens. \n\nThis isn’t the best part either, they both bring a “new taste” no other model has, even fable 5.2. they will be human like, excited at everything you bring at it, it’s a new level of “happiness” a new “taste” the models understand your prompt/intent at a much higher level.\n\nGet ready for everything to change, cheap super intelligence is coming!",
+    "likes": 1596,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:32Z",
+  "feed_date": "2026-11-28T15:36:32Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": null,
+   "official_date": null,
+   "explanation": "As of November 28, the stated November 30 deadline has not passed, and I found no independent confirmation of the unnamed Google model or the specific capability and style claims. The post’s broad description is not enough to identify it with a model already released.",
+   "evidence": [],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2126302824263016505",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-27T13:11:12Z",
+  "claim": "Anthropic may launch Opus 5.6 and Sonnet 5.6 around December 1–7, 2026, after testing.",
+  "lab": "Anthropic",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-12-07",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126302824263016505",
+    "url": "https://x.com/pankajkumar_dev/status/2126302824263016505",
+    "created_at": "2026-11-27T13:11:12Z",
+    "text": "🚨 SCOOP: A Big December for AI: Opus 5.6, Sonnet 5.6, Google & More \n\n- Anthropic removed Opus 5.6 routing on Thursday, which I checked. This mostly means testing was successful.\n- Opus 5.6 is a very good model, so I think they are more likely to launch it soon.\n- Sonnet 5.6 is also still being tested, with routing from Sonnet 5.5. They even released a new checkpoint this week, and its quite good.\n- But its still not at Opus's level, so it needs more improvements and another checkpoint.\n- Opus 5.6 can also be delayed if Anthropic wants to release both models simultaneously.\n- Kimi K4 is going to be distilled from Gemini models, according to Reuters. So we can get Google's taste in Kimi K4, which is good news for me.\n- Google is also working on banked resets with expiration times.\n\nDecember is going to be Google vs Anthropic for the first time, without OpenAI .",
+    "likes": 578,
+    "quoted": null
+   },
+   {
+    "id": "2126401755386991019",
+    "url": "https://x.com/pankajkumar_dev/status/2126401755386991019",
+    "created_at": "2026-11-27T19:44:19Z",
+    "text": "Sonnet 5.6 Leaks : Sonnet 5.6 Leaks: Another Beast Coming \n\n- Sonnet 5.6 is routing from Sonnet 5.5 for some users in grey testing.\n- A new Sonnet 5.6 checkpoint was released this week, and its a good upgrade over the previous checkpoint.\n- The best thing about it is its efficiency. If you have Max or Ultra, the usage is genuinely amazing. You barely going to hit your limits.\n- It seems very good, with output quality around the level of Opus 5.5. It creates amazing 3D outputs and has rich taste.\n- With minimal prompts, it already produces very good outputs. But if you use it in Ultracode, it gets even better. You can genuinely feel the difference, and the outputs look much more realistic.\n- It has also improved at motion design. The outputs are amazing.\n- Sound effects are not  as good as Opus 5.6 yet and cn be better. Google is doing a good job here, so hopefully Anthropic improves this as well.\n- The latest checkpoint is easily comparable to Opus 5.5, and I wouldn't be surprised if it beats Opus 5.5 on most benchmarks. That's my prediction.\n\nOverall, its looking like a model with Opus level performance, great efficiency and very generous usage. This checkpoint is also very good, so after testing, Anthropic can launch both Opus 5.6 and Sonnet 5.6 around the first week of December.",
+    "likes": 133,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "repeat_of": "pankajkumar_dev-2125312581812498477-2",
+  "story_id": "synthwavedd-2104647832103956631"
+ },
+ {
+  "id": "pankajkumar_dev-2126302824263016505-2",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-27T13:11:12Z",
+  "claim": "Anthropic's Sonnet 5.6 was being grey-tested for some users through routing from Sonnet 5.5, and a new checkpoint was released during the week of November 23–29, 2026.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-05-26",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126302824263016505",
+    "url": "https://x.com/pankajkumar_dev/status/2126302824263016505",
+    "created_at": "2026-11-27T13:11:12Z",
+    "text": "🚨 SCOOP: A Big December for AI: Opus 5.6, Sonnet 5.6, Google & More \n\n- Anthropic removed Opus 5.6 routing on Thursday, which I checked. This mostly means testing was successful.\n- Opus 5.6 is a very good model, so I think they are more likely to launch it soon.\n- Sonnet 5.6 is also still being tested, with routing from Sonnet 5.5. They even released a new checkpoint this week, and its quite good.\n- But its still not at Opus's level, so it needs more improvements and another checkpoint.\n- Opus 5.6 can also be delayed if Anthropic wants to release both models simultaneously.\n- Kimi K4 is going to be distilled from Gemini models, according to Reuters. So we can get Google's taste in Kimi K4, which is good news for me.\n- Google is also working on banked resets with expiration times.\n\nDecember is going to be Google vs Anthropic for the first time, without OpenAI .",
+    "likes": 578,
+    "quoted": null
+   },
+   {
+    "id": "2126401755386991019",
+    "url": "https://x.com/pankajkumar_dev/status/2126401755386991019",
+    "created_at": "2026-11-27T19:44:19Z",
+    "text": "Sonnet 5.6 Leaks : Sonnet 5.6 Leaks: Another Beast Coming \n\n- Sonnet 5.6 is routing from Sonnet 5.5 for some users in grey testing.\n- A new Sonnet 5.6 checkpoint was released this week, and its a good upgrade over the previous checkpoint.\n- The best thing about it is its efficiency. If you have Max or Ultra, the usage is genuinely amazing. You barely going to hit your limits.\n- It seems very good, with output quality around the level of Opus 5.5. It creates amazing 3D outputs and has rich taste.\n- With minimal prompts, it already produces very good outputs. But if you use it in Ultracode, it gets even better. You can genuinely feel the difference, and the outputs look much more realistic.\n- It has also improved at motion design. The outputs are amazing.\n- Sound effects are not  as good as Opus 5.6 yet and cn be better. Google is doing a good job here, so hopefully Anthropic improves this as well.\n- The latest checkpoint is easily comparable to Opus 5.5, and I wouldn't be surprised if it beats Opus 5.5 on most benchmarks. That's my prediction.\n\nOverall, its looking like a model with Opus level performance, great efficiency and very generous usage. This checkpoint is also very good, so after testing, Anthropic can launch both Opus 5.6 and Sonnet 5.6 around the first week of December.",
+    "likes": 133,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "repeat_of": "pankajkumar_dev-2125673769083777271"
+ },
+ {
+  "id": "pankajkumar_dev-2126302824263016505-3",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-27T13:11:12Z",
+  "claim": "Google is working on banked resets with expiration times.",
+  "lab": "Google",
+  "topic": "product_feature",
+  "specificity": 3,
+  "significance": 2,
+  "resolve_by": "2027-05-26",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126302824263016505",
+    "url": "https://x.com/pankajkumar_dev/status/2126302824263016505",
+    "created_at": "2026-11-27T13:11:12Z",
+    "text": "🚨 SCOOP: A Big December for AI: Opus 5.6, Sonnet 5.6, Google & More \n\n- Anthropic removed Opus 5.6 routing on Thursday, which I checked. This mostly means testing was successful.\n- Opus 5.6 is a very good model, so I think they are more likely to launch it soon.\n- Sonnet 5.6 is also still being tested, with routing from Sonnet 5.5. They even released a new checkpoint this week, and its quite good.\n- But its still not at Opus's level, so it needs more improvements and another checkpoint.\n- Opus 5.6 can also be delayed if Anthropic wants to release both models simultaneously.\n- Kimi K4 is going to be distilled from Gemini models, according to Reuters. So we can get Google's taste in Kimi K4, which is good news for me.\n- Google is also working on banked resets with expiration times.\n\nDecember is going to be Google vs Anthropic for the first time, without OpenAI .",
+    "likes": 578,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-27",
+   "official_date": null,
+   "explanation": "The post claims Google is working on banked resets with expiration times, but no independent public confirmation was found. With no stated deadline and no contradiction, the claim remains pending rather than false.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "testingcatalog-2126306271892475950",
+  "handle": "testingcatalog",
+  "date": "2026-11-27T13:24:54Z",
+  "claim": "Google has a hidden Antigravity implementation for creating AI agents in the UI, with settings for an agent’s name, icon, and goal.",
+  "lab": "Google",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-05-26",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126306271892475950",
+    "url": "https://x.com/testingcatalog/status/2126306271892475950",
+    "created_at": "2026-11-27T13:24:54Z",
+    "text": "GOOGLE 🔥: Antigravity will have a way to create AI agents directly from its UI! \n\n> In the current implementation, users can configure agent's name, icon, and its goal. \n\n> Earlier, Google also added a way to create agents through prompts. Both features are currently hidden. \n\nGiven that Antigravity is now Google's main focus and is about to become Google's AI Superapp, and given that Google is lagging far behind on personalized agents, it is very possible we could see them integrated directly into Antigravity soon. \n\nThat would be big 👀",
+    "likes": 871,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:35:40Z",
+  "feed_date": "2026-11-28T15:35:40Z",
+  "prune_checked": true,
+  "repeat_of": "testingcatalog-2124827938054918206"
+ },
+ {
+  "id": "testingcatalog-2126331794379215080",
+  "handle": "testingcatalog",
+  "date": "2026-11-27T15:06:19Z",
+  "claim": "Google is preparing to release Bundles, curated collections of plugins for workflows and roles such as Finance and Legal.",
+  "lab": "Google",
+  "topic": "product_feature",
+  "specificity": 4,
+  "significance": 2,
+  "resolve_by": "2027-05-26",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126331794379215080",
+    "url": "https://x.com/testingcatalog/status/2126331794379215080",
+    "created_at": "2026-11-27T15:06:19Z",
+    "text": "GOOGLE 🔥: In addition to existing Plugins, Google is preparing to release Bundles too! \n\n> \"Curated sets of plugins for common workflows and roles.\"\n\nBundles are meant to be collections of Plugins combined around a specific scope, such as Finance, Legal, and more. A similar functionality exists in Claude, for instance.",
+    "likes": 406,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:35:40Z",
+  "feed_date": "2026-11-28T15:35:40Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "pending",
+   "public_date": "2026-11-27",
+   "official_date": null,
+   "explanation": "The post claims Google is preparing plugin Bundles for workflows such as Finance and Legal, but no independent public confirmation was found. With no stated deadline and no contradiction, the roadmap claim remains pending.",
+   "evidence": [],
+   "confidence": "low",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "chetaslua-2126345165485072895",
+  "handle": "chetaslua",
+  "date": "2026-11-27T15:59:27Z",
+  "claim": "Anthropic's Opus 5.6/Next generated a song featuring voice, music, and visuals.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-26",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126345165485072895",
+    "url": "https://x.com/chetaslua/status/2126345165485072895",
+    "created_at": "2026-11-27T15:59:27Z",
+    "text": "Opus 5.6 / Next made this song: voice, music and visuals. https://t.co/RdZLIuEI9x",
+    "likes": 390,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:33:33Z",
+  "feed_date": "2026-11-28T15:33:33Z",
+  "prune_checked": true,
+  "repeat_of": "chetaslua-2125288009990103316",
+  "story_id": "synthwavedd-2104647832103956631"
+ },
+ {
+  "id": "astropol0-2126351768485535970-2",
+  "handle": "astropol0",
+  "date": "2026-11-27T16:25:41Z",
+  "claim": "Anthropic's Opus 5.6 will reportedly run roughly twice as fast as Opus 5.5, produce its first token in 1–1.5 seconds, and be about 30% more efficient.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 5,
+  "significance": 4,
+  "resolve_by": "2026-12-31",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126351768485535970",
+    "url": "https://x.com/astropol0/status/2126351768485535970",
+    "created_at": "2026-11-27T16:25:41Z",
+    "text": "Opus 5.6 is going to be the best model release of this year…\n\naccording to the leaks \n\n- roughly 2x the speed of opus 5.5 which is up to 291 tokens per second… first token in 1–1.5 seconds also ~30% better efficiency\n\n- pricing rumor is a cut to around $3.20/$16 or $4/$20 with a fast mode at $8/$40…. \n\n- early demos show cleaner SVGs, better 3D generation and stronger coding than ops 5.5\n\n- One user even claimed it beat Fable 5.2 + GPT-6.2 Astra combined on a long task…\n\nAnthropic looks soo ready to take back the crown for Gemini 4 Neon before the year ends…\n\nOpus 5.6 most probably finishes 2026 on top",
+    "likes": 669,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:37:41Z",
+  "feed_date": "2026-11-28T15:37:41Z",
+  "prune_checked": true,
+  "story_id": "chetaslua-2125871189537218930",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "Opus 5.6-attributed demos and reports of stronger outputs were circulating on November 24–25, before this November 27 post. The model identity and its claimed speed and efficiency remain unverified; this post relayed already-circulating leak claims.",
+   "evidence": [
+    {
+     "title": "TestingCatalog roundup of early Opus 5.6-attributed outputs",
+     "url": "https://www.testingcatalog.com/early-outputs-anthropic-is-a-b-testing-claude-opus-5-6/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "astropol0-2126351768485535970-3",
+  "handle": "astropol0",
+  "date": "2026-11-27T16:25:41Z",
+  "claim": "Anthropic's Opus 5.6 is rumored to cost around $3.20/$16 or $4/$20, with a fast mode costing $8/$40.",
+  "lab": "Anthropic",
+  "topic": "other",
+  "specificity": 5,
+  "significance": 3,
+  "resolve_by": "2026-12-31",
+  "hedged": true,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126351768485535970",
+    "url": "https://x.com/astropol0/status/2126351768485535970",
+    "created_at": "2026-11-27T16:25:41Z",
+    "text": "Opus 5.6 is going to be the best model release of this year…\n\naccording to the leaks \n\n- roughly 2x the speed of opus 5.5 which is up to 291 tokens per second… first token in 1–1.5 seconds also ~30% better efficiency\n\n- pricing rumor is a cut to around $3.20/$16 or $4/$20 with a fast mode at $8/$40…. \n\n- early demos show cleaner SVGs, better 3D generation and stronger coding than ops 5.5\n\n- One user even claimed it beat Fable 5.2 + GPT-6.2 Astra combined on a long task…\n\nAnthropic looks soo ready to take back the crown for Gemini 4 Neon before the year ends…\n\nOpus 5.6 most probably finishes 2026 on top",
+    "likes": 669,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:37:41Z",
+  "feed_date": "2026-11-28T15:37:41Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-01",
+   "official_date": null,
+   "explanation": "The post explicitly relays pricing rumors. A roughly 20% Opus price-cut rumor—and the resulting $3.20/$16 estimate—was circulating before November 27; none of the cited prices was officially confirmed by that date.",
+   "evidence": [
+    {
+     "title": "Claude Opus 5.6 Release & Rumor Tracker: 2026-11-24",
+     "url": "https://qcode.cc/en/claude-opus-5-6-release-date-rumors-tracker"
+    },
+    {
+     "title": "Claude Opus 5.6 rumor: what testers claim and what's known",
+     "url": "https://applescoop.org/story/claude-opus-5-6-rumor-release-date-price-what-testers-claim"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "astropol0-2126351768485535970-4",
+  "handle": "astropol0",
+  "date": "2026-11-27T16:25:41Z",
+  "claim": "Early demos of Anthropic's Opus 5.6 reportedly show cleaner SVGs, better 3D generation, and stronger coding than Opus 5.5.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 4,
+  "resolve_by": "2026-12-31",
+  "hedged": false,
+  "source_type": "relayed",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126351768485535970",
+    "url": "https://x.com/astropol0/status/2126351768485535970",
+    "created_at": "2026-11-27T16:25:41Z",
+    "text": "Opus 5.6 is going to be the best model release of this year…\n\naccording to the leaks \n\n- roughly 2x the speed of opus 5.5 which is up to 291 tokens per second… first token in 1–1.5 seconds also ~30% better efficiency\n\n- pricing rumor is a cut to around $3.20/$16 or $4/$20 with a fast mode at $8/$40…. \n\n- early demos show cleaner SVGs, better 3D generation and stronger coding than ops 5.5\n\n- One user even claimed it beat Fable 5.2 + GPT-6.2 Astra combined on a long task…\n\nAnthropic looks soo ready to take back the crown for Gemini 4 Neon before the year ends…\n\nOpus 5.6 most probably finishes 2026 on top",
+    "likes": 669,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:37:41Z",
+  "feed_date": "2026-11-28T15:37:41Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-24",
+   "official_date": null,
+   "explanation": "Opus 5.6-attributed SVG, animation, and coding demos were circulating by November 24–25, before this November 27 post. Those demos do not independently verify the model attribution or prove it outperforms Opus 5.5.",
+   "evidence": [
+    {
+     "title": "TestingCatalog roundup of early Opus 5.6-attributed outputs",
+     "url": "https://www.testingcatalog.com/early-outputs-anthropic-is-a-b-testing-claude-opus-5-6/"
+    },
+    {
+     "title": "Review of the Opus 5.6-attributed demos",
+     "url": "https://modelflare.dev/articles/claude-opus-5-6-gray-test"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "synthwavedd-2126375716518252889",
+  "handle": "synthwavedd",
+  "date": "2026-11-27T18:00:51Z",
+  "claim": "Anthropic is stealth testing Claude Sonnet Next with some Claude Code users, and the model is a major leap over its predecessor.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-26",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126375716518252889",
+    "url": "https://x.com/synthwavedd/status/2126375716518252889",
+    "created_at": "2026-11-27T18:00:51Z",
+    "text": "Claude Sonnet Next, currently being stealth tested for some Claude Code users, is a major leap over its predecessor\n\nBecause usage is almost unlimited on Ultra, it really shines in Ultracode. I used it with the model to create this infinite driving game - it's pretty stunning https://t.co/QGAsvf5XtU",
+    "likes": 3008,
+    "quoted": null
+   },
+   {
+    "id": "2126375719127441650",
+    "url": "https://x.com/synthwavedd/status/2126375719127441650",
+    "created_at": "2026-11-27T18:00:52Z",
+    "text": "The model created everything you see from scratch, including all models, textures, terrain gen, this video, et cetera. For good measure, here are some more shots of Sonnet's choice.\n\nYou can give it a try today on your own machine, too: https://t.co/yjc1ZM573r https://t.co/lVgKTwqma6",
+    "likes": 244,
+    "quoted": null
+   },
+   {
+    "id": "2126375726341595347",
+    "url": "https://x.com/synthwavedd/status/2126375726341595347",
+    "created_at": "2026-11-27T18:00:53Z",
+    "text": "And yes, it's 3D. Yes, that isn't necessarily representative of how capable the model is in other areas - you should get a feel for the model yourself (use the Karpathy prompt). I just like making cool showcases :3",
+    "likes": 124,
+    "quoted": null
+   },
+   {
+    "id": "2126375723883798742",
+    "url": "https://x.com/synthwavedd/status/2126375723883798742",
+    "created_at": "2026-11-27T18:00:53Z",
+    "text": "I actually had to cut the model short because I wanted to leave some usage for other tasks (I began this task at 76% weekly usage consumed, and ended it on 92% after almost half a day of work), so it for sure could've done better, but still! This is mindblowing for Sonnet",
+    "likes": 172,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:33:47Z",
+  "feed_date": "2026-11-28T15:33:47Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-26",
+   "official_date": null,
+   "explanation": "The assertion that a next-generation Sonnet was being tested had already appeared publicly in Chetaslua’s November 26 post, before this November 27 post. The claimed performance leap itself remains unconfirmed.",
+   "evidence": [
+    {
+     "title": "Claude Sonnet 5.6 testing discussion",
+     "url": "https://www.reddit.com/r/ClaudeCode/comments/1y604ag/i_tested_sonnet_55_vs_what_might_be_sonnet_56_on/"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "aibattle_-2126379456415572383",
+  "handle": "AiBattle_",
+  "date": "2026-11-27T18:15:43Z",
+  "claim": "Anthropic is stealth-testing a new Claude Sonnet model called Sonnet Next in Claude Code for some users; it appears to be a major improvement over Sonnet 5.5 and capable at 3D tasks.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-26",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126379456415572383",
+    "url": "https://x.com/AiBattle_/status/2126379456415572383",
+    "created_at": "2026-11-27T18:15:43Z",
+    "text": "A new Claude Sonnet model is being stealth tested in Claude Code for some users. It seems to be a big leap over Sonnet 5.5\n\nTo check if you have access, try the Karpathy prompt and the print reasoning prompt with xHigh reasoning\n\nSonnet Next should know that Karpathy joined Anthropic and should report a reasoning effort of 15",
+    "likes": 81,
+    "quoted": {
+     "handle": "synthwavedd",
+     "text": "Claude Sonnet Next, currently being stealth tested for some Claude Code users, is a major leap over its predecessor\n\nBecause usage is almost unlimited on Ultra, it really shines in Ultracode. I used it with the model to create this infinite driving game - it's pretty stunning https://t.co/QGAsvf5XtU",
+     "created_at": "2026-11-27T18:00:51Z"
+    }
+   },
+   {
+    "id": "2126399135066587257",
+    "url": "https://x.com/AiBattle_/status/2126399135066587257",
+    "created_at": "2026-11-27T19:33:55Z",
+    "text": "Sonnet Next - 3D Gundam Mech\n\nThis is the best output i have seen so far for this prompt. Sonnet Next seems really capable at 3D tasks https://t.co/6PRrF0Z5SA",
+    "likes": 95,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:37:27Z",
+  "feed_date": "2026-11-28T15:37:27Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631"
+ },
+ {
+  "id": "pankajkumar_dev-2126401755386991019",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-27T19:44:19Z",
+  "claim": "Anthropic's Sonnet 5.6 checkpoint has output quality around Opus 5.5's level, strong efficiency, and improved 3D and motion-design outputs; it can also create a Japanese ink painting entirely with code in UltraCode.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-26",
+  "hedged": true,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126401755386991019",
+    "url": "https://x.com/pankajkumar_dev/status/2126401755386991019",
+    "created_at": "2026-11-27T19:44:19Z",
+    "text": "Sonnet 5.6 Leaks : Sonnet 5.6 Leaks: Another Beast Coming \n\n- Sonnet 5.6 is routing from Sonnet 5.5 for some users in grey testing.\n- A new Sonnet 5.6 checkpoint was released this week, and its a good upgrade over the previous checkpoint.\n- The best thing about it is its efficiency. If you have Max or Ultra, the usage is genuinely amazing. You barely going to hit your limits.\n- It seems very good, with output quality around the level of Opus 5.5. It creates amazing 3D outputs and has rich taste.\n- With minimal prompts, it already produces very good outputs. But if you use it in Ultracode, it gets even better. You can genuinely feel the difference, and the outputs look much more realistic.\n- It has also improved at motion design. The outputs are amazing.\n- Sound effects are not  as good as Opus 5.6 yet and cn be better. Google is doing a good job here, so hopefully Anthropic improves this as well.\n- The latest checkpoint is easily comparable to Opus 5.5, and I wouldn't be surprised if it beats Opus 5.5 on most benchmarks. That's my prediction.\n\nOverall, its looking like a model with Opus level performance, great efficiency and very generous usage. This checkpoint is also very good, so after testing, Anthropic can launch both Opus 5.6 and Sonnet 5.6 around the first week of December.",
+    "likes": 133,
+    "quoted": null
+   },
+   {
+    "id": "2126588900957463010",
+    "url": "https://x.com/pankajkumar_dev/status/2126588900957463010",
+    "created_at": "2026-11-28T08:07:58Z",
+    "text": "Sonnet 5.6 is next level with UltraCode!\n\nI asked it to create a Japanese ink painting\n\nAll created entirely with code. https://t.co/PSEPoSU9Ka",
+    "likes": 85,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "repeat_of": "pankajkumar_dev-2125673769083777271-2"
+ },
+ {
+  "id": "chrisgpt-2126435377409921507",
+  "handle": "ChrisGPT",
+  "date": "2026-11-27T21:57:55Z",
+  "claim": "Anthropic's Opus 5.6 / Opus (next) can generate a nested Claude simulation in Blender entirely through code, without using computer-use actions.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-26",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126435377409921507",
+    "url": "https://x.com/ChrisGPT/status/2126435377409921507",
+    "created_at": "2026-11-27T21:57:55Z",
+    "text": "Opus 5.6 / Opus (next) - Blender gaming simulation - \n\nI had Claude make a simulation of someone using Claude. And inside it, Claude makes a simulation of him.\n\nNone of it is computer use. Claude never clicked a button in Blender. It's all code. You know how everyone tests models by asking for an SVG? I think this is the next step of that.\n\nThe console has two other games on it before you get to Claude.\n\nThe first is Pip's Skyward Run, a platformer Claude made up from nothing. A little orange guy gets chased by a big purple monster named Gulp across a level that crumbles as he runs.\n\nThe second is Bahia Vista, my own seaplane game.\n\nThe third tile is Talk to Claude!",
+    "likes": 368,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:35:05Z",
+  "feed_date": "2026-11-28T15:35:05Z",
+  "prune_checked": true,
+  "story_id": "synthwavedd-2104647832103956631",
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-27",
+   "official_date": null,
+   "explanation": "The post publicly shows a code-generated Blender simulation and attributes it to “Opus 5.6 / Opus (next),” but the demo and its author’s attribution do not independently establish which model generated it. No independent confirmation of that model identity or capability was found.",
+   "evidence": [
+    {
+     "title": "ChrisGPT’s Blender simulation post",
+     "url": "https://www.whatpeoplemade.com/i/a-blender-simulation-of-someone-using-claude-made-entire-921507.html"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "teortaxestex-2126513490206601676",
+  "handle": "teortaxesTex",
+  "date": "2026-11-28T03:08:19Z",
+  "claim": "Anthropic’s Fable model scores between 170 and 177 on ECI.",
+  "lab": "Anthropic",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-27",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126513490206601676",
+    "url": "https://x.com/teortaxesTex/status/2126513490206601676",
+    "created_at": "2026-11-28T03:08:19Z",
+    "text": "JUST LIKE THAT. \n\"A small model\"\nP.S. Its range is wider than Astra's. \nFable is 170-177. https://t.co/NMAdJcJFOj",
+    "likes": 257,
+    "quoted": {
+     "handle": "cheatyyyy",
+     "text": "Gemini 4 Neon with an ECI of 172... holy shit https://t.co/PPjblz78PR",
+     "created_at": "2026-11-27T20:16:03Z"
+    }
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:34:48Z",
+  "feed_date": "2026-11-28T15:34:48Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "already_public",
+   "public_date": "2026-11-10",
+   "official_date": null,
+   "explanation": "The 170–177 interval was already listed for Claude Fable 5.2 on Epoch AI’s ECI, before this November 28 post. The post relays that public estimate rather than revealing new information.",
+   "evidence": [
+    {
+     "title": "Epoch AI ECI leaderboard",
+     "url": "https://epoch.ai/eci?colorCategorization=Country&subset-tab=Software+engineering&subset-view=graph&tab=leaderboard&view=graph"
+    },
+    {
+     "title": "November 12 coverage of the ECI figures",
+     "url": "https://m.aicoder.com/news/news-20261112-x-discussion-epoch-eci-openai-third-first-time-in-a-year-fable-5-2-173-gemini-4-carbon-170-gpt-6-astra-169"
+    }
+   ],
+   "confidence": "high",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2126657014986346689",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-28T12:38:38Z",
+  "claim": "Google has scheduled Nano Banana Pro 2 to release during the week of November 30–December 6, 2026.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2026-12-06",
+  "hedged": false,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126657014986346689",
+    "url": "https://x.com/pankajkumar_dev/status/2126657014986346689",
+    "created_at": "2026-11-28T12:38:38Z",
+    "text": "Nano Banana Pro 2 Leaks: Coming Next Week \n\n- Nano Banana Pro 2 is scheduled to release next week.\n- The model originally was quite heavy on compute, which is likely why they delayed it last week.\n- Paper Volcano was spotted in Google Flow. It was quite compute -heavy, so Google is now working on a more efficient version.\n- This more efficient version may actually be a new Flash-based Nano Banana model.\n- The focus is on improving detailed image editing, image reworking and adding details, alongside better world knowledge, text capabilities, consistency. \n\nLet's see how it performs after launch. The one I tested on Arena wasn't that great, but we'll see how it performs once it actually launches.\n\ncc: @MarsForTech",
+    "likes": 103,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "repeat_of": "pankajkumar_dev-2123742934759883030"
+ },
+ {
+  "id": "pankajkumar_dev-2126657014986346689-2",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-28T12:38:38Z",
+  "claim": "Google likely delayed Nano Banana Pro 2 during the week of November 16–22, 2026, because the model was too compute-heavy.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-27",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": true,
+  "tweets": [
+   {
+    "id": "2126657014986346689",
+    "url": "https://x.com/pankajkumar_dev/status/2126657014986346689",
+    "created_at": "2026-11-28T12:38:38Z",
+    "text": "Nano Banana Pro 2 Leaks: Coming Next Week \n\n- Nano Banana Pro 2 is scheduled to release next week.\n- The model originally was quite heavy on compute, which is likely why they delayed it last week.\n- Paper Volcano was spotted in Google Flow. It was quite compute -heavy, so Google is now working on a more efficient version.\n- This more efficient version may actually be a new Flash-based Nano Banana model.\n- The focus is on improving detailed image editing, image reworking and adding details, alongside better world knowledge, text capabilities, consistency. \n\nLet's see how it performs after launch. The one I tested on Arena wasn't that great, but we'll see how it performs once it actually launches.\n\ncc: @MarsForTech",
+    "likes": 103,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "resolution": {
+   "verdict": "unverifiable",
+   "public_date": "2026-11-28",
+   "official_date": null,
+   "explanation": "The post claims compute demands caused a delay, but public reporting only documents the unconfirmed “paper-volcano”/Nano Banana Pro 2 rumor; it does not independently establish that cause. This internal explanation remains unverified.",
+   "evidence": [
+    {
+     "title": "“paper-volcano” turns up in a report about Google Flow",
+     "url": "https://uhnivenko.com/signals/rumors/nano-banana-paper-volcano-flow"
+    }
+   ],
+   "confidence": "medium",
+   "resolved_at": "2026-11-28T15:43:33Z"
+  }
+ },
+ {
+  "id": "pankajkumar_dev-2126657014986346689-3",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-28T12:38:38Z",
+  "claim": "A compute-heavy project called Paper Volcano was spotted in Google Flow, and Google is working on a more efficient version.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-27",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126657014986346689",
+    "url": "https://x.com/pankajkumar_dev/status/2126657014986346689",
+    "created_at": "2026-11-28T12:38:38Z",
+    "text": "Nano Banana Pro 2 Leaks: Coming Next Week \n\n- Nano Banana Pro 2 is scheduled to release next week.\n- The model originally was quite heavy on compute, which is likely why they delayed it last week.\n- Paper Volcano was spotted in Google Flow. It was quite compute -heavy, so Google is now working on a more efficient version.\n- This more efficient version may actually be a new Flash-based Nano Banana model.\n- The focus is on improving detailed image editing, image reworking and adding details, alongside better world knowledge, text capabilities, consistency. \n\nLet's see how it performs after launch. The one I tested on Arena wasn't that great, but we'll see how it performs once it actually launches.\n\ncc: @MarsForTech",
+    "likes": 103,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "repeat_of": "pankajkumar_dev-2123742934759883030"
+ },
+ {
+  "id": "pankajkumar_dev-2126657014986346689-4",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-28T12:38:38Z",
+  "claim": "Google's more efficient version of Paper Volcano may be a new Flash-based Nano Banana model.",
+  "lab": "Google",
+  "topic": "model_release",
+  "specificity": 3,
+  "significance": 3,
+  "resolve_by": "2027-05-27",
+  "hedged": true,
+  "source_type": "insider",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126657014986346689",
+    "url": "https://x.com/pankajkumar_dev/status/2126657014986346689",
+    "created_at": "2026-11-28T12:38:38Z",
+    "text": "Nano Banana Pro 2 Leaks: Coming Next Week \n\n- Nano Banana Pro 2 is scheduled to release next week.\n- The model originally was quite heavy on compute, which is likely why they delayed it last week.\n- Paper Volcano was spotted in Google Flow. It was quite compute -heavy, so Google is now working on a more efficient version.\n- This more efficient version may actually be a new Flash-based Nano Banana model.\n- The focus is on improving detailed image editing, image reworking and adding details, alongside better world knowledge, text capabilities, consistency. \n\nLet's see how it performs after launch. The one I tested on Arena wasn't that great, but we'll see how it performs once it actually launches.\n\ncc: @MarsForTech",
+    "likes": 103,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "repeat_of": "pankajkumar_dev-2123742934759883030"
+ },
+ {
+  "id": "pankajkumar_dev-2126657014986346689-5",
+  "handle": "pankajkumar_dev",
+  "date": "2026-11-28T12:38:38Z",
+  "claim": "Nano Banana Pro 2 is being developed with a focus on detailed image editing, image reworking, adding details, world knowledge, text capabilities, and consistency; the version tested on Arena was not very good.",
+  "lab": "Google",
+  "topic": "model_capability",
+  "specificity": 4,
+  "significance": 3,
+  "resolve_by": "2027-05-27",
+  "hedged": false,
+  "source_type": "code_or_testing_evidence",
+  "cryptic": false,
+  "deadline_stated": false,
+  "tweets": [
+   {
+    "id": "2126657014986346689",
+    "url": "https://x.com/pankajkumar_dev/status/2126657014986346689",
+    "created_at": "2026-11-28T12:38:38Z",
+    "text": "Nano Banana Pro 2 Leaks: Coming Next Week \n\n- Nano Banana Pro 2 is scheduled to release next week.\n- The model originally was quite heavy on compute, which is likely why they delayed it last week.\n- Paper Volcano was spotted in Google Flow. It was quite compute -heavy, so Google is now working on a more efficient version.\n- This more efficient version may actually be a new Flash-based Nano Banana model.\n- The focus is on improving detailed image editing, image reworking and adding details, alongside better world knowledge, text capabilities, consistency. \n\nLet's see how it performs after launch. The one I tested on Arena wasn't that great, but we'll see how it performs once it actually launches.\n\ncc: @MarsForTech",
+    "likes": 103,
+    "quoted": null
+   }
+  ],
+  "origin": "daily",
+  "first_seen": "2026-11-28T15:36:12Z",
+  "feed_date": "2026-11-28T15:36:12Z",
+  "prune_checked": true,
+  "repeat_of": "pankajkumar_dev-2123742934759883030-2"
  }
 ]
